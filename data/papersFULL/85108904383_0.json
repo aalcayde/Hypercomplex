@@ -1,0 +1,2315 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@year": "2021",
+                "@timestamp": "2021-07-20T08:12:40.000040-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Department of Education of Hubei Province of China",
+                "xocs:funding-id": "D20181504"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-07-03T22:24:31.297Z",
+            "xocs:funding-text": "This work is supported by the Department of Education of Hubei Province of China under Grant No. D20181504.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "@afid": "60003028",
+                            "@country": "chn",
+                            "city": "Wuhan",
+                            "organization": [
+                                {"$": "School of Computer Science and Engineering"},
+                                {"$": "Wuhan Institute of Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60003028",
+                                "@dptid": "103206306"
+                            },
+                            "@affiliation-instance-id": "2012956348-659d025c76caf97d509dbd7c2a66e227",
+                            "ce:source-text": "School of Computer Science and Engineering, Wuhan Institute of Technology, Wuhan, China",
+                            "@dptid": "103206306"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Xiangxi",
+                                "preferred-name": {
+                                    "ce:given-name": "Xiangxi",
+                                    "ce:initials": "X.",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng X."
+                                },
+                                "@seq": "1",
+                                "@author-instance-id": "2012956348-74ba74bb697216811f1d80ddc0285528",
+                                "ce:initials": "X.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Meng",
+                                "@auid": "57225010014",
+                                "ce:indexed-name": "Meng X."
+                            },
+                            {
+                                "ce:given-name": "Feng",
+                                "preferred-name": {
+                                    "ce:given-name": "Feng",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Min",
+                                    "ce:indexed-name": "Min F."
+                                },
+                                "@seq": "3",
+                                "@author-instance-id": "2012956348-89b55ac685210977c77dc9abfc535cdf",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Min",
+                                "@auid": "35739113000",
+                                "ce:indexed-name": "Min F."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "@afid": "60003028",
+                            "@country": "chn",
+                            "city": "Wuhan",
+                            "organization": {"$": "Hubei Key Laboratory of Intelligent Robot (Wuhan Institute of Technology)"},
+                            "affiliation-id": {"@afid": "60003028"},
+                            "@affiliation-instance-id": "2012956348-540d135dcf84c78678b5883bdf29163c",
+                            "ce:source-text": "Hubei Key Laboratory of Intelligent Robot (Wuhan Institute of Technology), Wuhan, China"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Tongwei",
+                                "preferred-name": {
+                                    "ce:given-name": "Tongwei",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu T."
+                                },
+                                "@seq": "2",
+                                "@author-instance-id": "2012956348-c9c6aabd959c52cf556329c1a538d956",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lu",
+                                "@auid": "24080890200",
+                                "ce:indexed-name": "Lu T."
+                            },
+                            {
+                                "ce:given-name": "Tao",
+                                "preferred-name": {
+                                    "ce:given-name": "Tao",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu T."
+                                },
+                                "@seq": "4",
+                                "@author-instance-id": "2012956348-40a628faca270d41eed6afcdc81d0b71",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lu",
+                                "@auid": "56406646300",
+                                "ce:indexed-name": "Lu T."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "An effective weighted vector median filter for impulse noise reduction based on minimizing the degree of aggregation",
+                "abstracts": "© 2020 The Authors. IET Image Processing published by John Wiley & Sons Ltd on behalf of The Institution of Engineering and TechnologyImpulse noise is regarded as an outlier in the local window of an image. To detect noise, many proposed methods are based on aggregated distance, including spatially weighted aggregated distance, n nearest neighbour distance, local density, and angle-weighted quaternion aggregated distance. However, these methods ignore the weight of each pixel or have limited adaptability. This study introduces the concept of degree of aggregation and proposes a weighting method to obtain the weight vector of the pixels by minimizing the degree of aggregation. The weight vector obtained gives larger components on the signal pixels than on the noisy pixels. Then it is fused with the aggregated distance to form a weighted aggregated distance that can reasonably characterise the noise and signal. The weighted aggregated distance, along with an adaptive segmentation method, can effectively detect the noise. To further enhance the effect of noise detection and removal, an adaptive selection strategy is incorporated to reduce the noise density in the local window. At last, noisy pixels detected are replaced with the weighted channel combination optimization values. The experimental results exhibit the validity of the proposed method by showing better performance in terms of both objective criteria and visual effects.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "@country": "chn",
+                        "city": "Wuhan",
+                        "organization": {"$": "Hubei Key Laboratory of Intelligent Robot (Wuhan Institute of Technology)"},
+                        "ce:source-text": "Hubei Key Laboratory of Intelligent Robot (Wuhan Institute of Technology), Wuhan, China"
+                    },
+                    "person": {
+                        "ce:given-name": "Tongwei",
+                        "ce:initials": "T.",
+                        "ce:surname": "Lu",
+                        "ce:indexed-name": "Lu T."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IET Image Proc.",
+                    "website": {"ce:e-address": {
+                        "$": "https://ietresearch.onlinelibrary.wiley.com/journal/17519667",
+                        "@type": "email"
+                    }},
+                    "@country": "gbr",
+                    "translated-sourcetitle": {
+                        "$": "IET Image Processing",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "17519659",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "15",
+                            "@issue": "1"
+                        },
+                        "pagerange": {
+                            "@first": "228",
+                            "@last": "238"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "John Wiley and Sons Inc"},
+                    "sourcetitle": "IET Image Processing",
+                    "@srcid": "5400152646",
+                    "publicationdate": {
+                        "month": "01",
+                        "year": "2021",
+                        "date-text": "January 2021",
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "703.2",
+                            "classification-description": "Electric Filters"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1711"},
+                            {"$": "1707"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work is supported by the Department of Education of Hubei Province of China under Grant No. D20181504.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "D20181504",
+                        "grant-agency": {
+                            "@iso-code": "chn",
+                            "$": "Hubei Provincial Department of Education"
+                        },
+                        "grant-agency-id": "100012554"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@year": "2021",
+                    "@timestamp": "BST 03:03:13",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2012956348",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "934059985",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20212710579565",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20212604725",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20212179419",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20210020905434",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85108904383",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85108904383",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1049/ipr2.12023"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "45",
+                "reference": [
+                    {
+                        "ref-fulltext": "Abreu, E., et al.: A new efficient approach for the removal of impulse noise from highly corrupted images. IEEE Trans. Image Process. 5(6), 1012\u20131025 (1996)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "A new efficient approach for the removal of impulse noise from highly corrupted images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0001",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0030168567",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1012",
+                                    "@last": "1025"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abreu",
+                                    "ce:indexed-name": "Abreu E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Abreu, E., et al.: A new efficient approach for the removal of impulse noise from highly corrupted images. IEEE Trans. Image Process. 5(6), 1012\u20131025 (1996)"
+                    },
+                    {
+                        "ref-fulltext": "Wang, Z., Zhang, D.: Progressive switching median filter for the removal of impulse noise from highly corrupted images. IEEE Trans. Circuits Syst. II, Analog Digit. Signal Process. 46(1), 78\u201380 (1999)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Progressive switching median filter for the removal of impulse noise from highly corrupted images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0002",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0032664460",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "78",
+                                    "@last": "80"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. II, Analog Digit. Signal Process."
+                        },
+                        "ce:source-text": "Wang, Z., Zhang, D.: Progressive switching median filter for the removal of impulse noise from highly corrupted images. IEEE Trans. Circuits Syst. II, Analog Digit. Signal Process. 46(1), 78\u201380 (1999)"
+                    },
+                    {
+                        "ref-fulltext": "Portilla, J., et al.: Image denoising using scale mixtures of gaussians in the wavelet domain. IEEE Trans. Image Process. 12(11), 1338\u20131351 (2003)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Image denoising using scale mixtures of gaussians in the wavelet domain"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0003",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0242636409",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1338",
+                                    "@last": "1351"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Portilla",
+                                    "ce:indexed-name": "Portilla J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Portilla, J., et al.: Image denoising using scale mixtures of gaussians in the wavelet domain. IEEE Trans. Image Process. 12(11), 1338\u20131351 (2003)"
+                    },
+                    {
+                        "ref-fulltext": "Brook, A.: Three-dimensional wavelets-based denoising of hyperspectral imagery. J. Electron. Imaging 24(1), 013034 (2015)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Three-dimensional wavelets-based denoising of hyperspectral imagery"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0004",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84923878734",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "24",
+                                "@issue": "1"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Brook",
+                                "ce:indexed-name": "Brook A."
+                            }]},
+                            "ref-sourcetitle": "J. Electron. Imaging"
+                        },
+                        "ce:source-text": "Brook, A.: Three-dimensional wavelets-based denoising of hyperspectral imagery. J. Electron. Imaging 24(1), 013034 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, J., et al.: Group-based sparse representation for image restoration. IEEE Trans. Image Process. 23(8), 3336\u20133351 (2014)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Group-based sparse representation for image restoration"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84904285443",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "3336",
+                                    "@last": "3351"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Zhang, J., et al.: Group-based sparse representation for image restoration. IEEE Trans. Image Process. 23(8), 3336\u20133351 (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Wen, B., et al.: Structured overcomplete sparsifying transform learning with convergence guarantees and applications. Int. J. Comput. Vis. 114(2\u20133), 137\u2013167 (2015)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Structured overcomplete sparsifying transform learning with convergence guarantees and applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0006",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84939567002",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "114",
+                                    "@issue": "2-3"
+                                },
+                                "pagerange": {
+                                    "@first": "137",
+                                    "@last": "167"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen B."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Int. J. Comput. Vis."
+                        },
+                        "ce:source-text": "Wen, B., et al.: Structured overcomplete sparsifying transform learning with convergence guarantees and applications. Int. J. Comput. Vis. 114(2\u20133), 137\u2013167 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Xu, J., et al.: A trilateral weighted sparse coding scheme for real-world image denoising. In: Proceedings of the European Conference on Computer Vision (ECCV), Munich, 8\u201314 Sept 2018",
+                        "@id": "7",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0007",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85108911430",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "In Proceedings of the European Conference on Computer Vision (ECCV), Munich, 8\u201314 Sept 2018",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "A trilateral weighted sparse coding scheme for real-world image denoising"
+                        },
+                        "ce:source-text": "Xu, J., et al.: A trilateral weighted sparse coding scheme for real-world image denoising. In: Proceedings of the European Conference on Computer Vision (ECCV), Munich, 8\u201314 Sept 2018"
+                    },
+                    {
+                        "ref-fulltext": "Shahdoosti, H.R., Rahemi, Z.: Edge-preserving image denoising using a deep convolutional neural network. Signal Process. 159, 20\u201332 (2019)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Edge-preserving image denoising using a deep convolutional neural network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0008",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85060976913",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "159"},
+                                "pagerange": {
+                                    "@first": "20",
+                                    "@last": "32"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shahdoosti",
+                                    "ce:indexed-name": "Shahdoosti H.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rahemi",
+                                    "ce:indexed-name": "Rahemi Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Signal Process."
+                        },
+                        "ce:source-text": "Shahdoosti, H.R., Rahemi, Z.: Edge-preserving image denoising using a deep convolutional neural network. Signal Process. 159, 20\u201332 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, Y., et al.: HSI-DeNet: hyperspectral image restoration via convolutional neural network. IEEE Trans. Geosci. Remote Sens. 57(2), 667\u2013682 (2018)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "HSI-DeNet: hyperspectral image restoration via convolutional neural network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0009",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85051679061",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "667",
+                                    "@last": "682"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens."
+                        },
+                        "ce:source-text": "Chang, Y., et al.: HSI-DeNet: hyperspectral image restoration via convolutional neural network. IEEE Trans. Geosci. Remote Sens. 57(2), 667\u2013682 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, W., et al.: Removal of impulse noise in color images based on convolutional neural network. Appl. Soft Comput. 82, 105558 (2019)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Removal of impulse noise in color images based on convolutional neural network"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85067340183",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "82"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang W."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Appl. Soft Comput."
+                        },
+                        "ce:source-text": "Zhang, W., et al.: Removal of impulse noise in color images based on convolutional neural network. Appl. Soft Comput. 82, 105558 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Jin, L., et al.: Learning deep CNNs for impulse noise removal in images. J. Visual Commun. Image Represent. 62, 193\u2013205 (2019)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Learning deep CNNs for impulse noise removal in images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0011",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85066399075",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "62"},
+                                "pagerange": {
+                                    "@first": "193",
+                                    "@last": "205"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Visual Commun. Image Represent."
+                        },
+                        "ce:source-text": "Jin, L., et al.: Learning deep CNNs for impulse noise removal in images. J. Visual Commun. Image Represent. 62, 193\u2013205 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Kim, S.: PDE-based image restoration: a hybrid model and color image denoising. IEEE Trans. Image Process. 15(5), 1163\u20131170 (2006)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "PDE-based image restoration: a hybrid model and color image denoising"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0012",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33645985476",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1163",
+                                    "@last": "1170"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Kim",
+                                "ce:indexed-name": "Kim S."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Kim, S.: PDE-based image restoration: a hybrid model and color image denoising. IEEE Trans. Image Process. 15(5), 1163\u20131170 (2006)"
+                    },
+                    {
+                        "ref-fulltext": "Chen, L., et al.: Low-rank constraint with sparse representation for image restoration under multiplicative noise. Signal, Image Video Process. 13(1), 179\u2013187 (2019)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Low-rank constraint with sparse representation for image restoration under multiplicative noise"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0013",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85051296505",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "179",
+                                    "@last": "187"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Signal, Image Video Process."
+                        },
+                        "ce:source-text": "Chen, L., et al.: Low-rank constraint with sparse representation for image restoration under multiplicative noise. Signal, Image Video Process. 13(1), 179\u2013187 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Shen, Z., Sun, H.: Iterative adaptive nonconvex low-rank tensor approximation to image restoration based on ADMM. J. Math. Imaging Vis. 61(5), 627\u2013642 (2019)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Iterative adaptive nonconvex low-rank tensor approximation to image restoration based on ADMM"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0014",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85059347648",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "627",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Math. Imaging Vis."
+                        },
+                        "ce:source-text": "Shen, Z., Sun, H.: Iterative adaptive nonconvex low-rank tensor approximation to image restoration based on ADMM. J. Math. Imaging Vis. 61(5), 627\u2013642 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Wang, Q., et al.: Low rank constraint and spatial spectral total variation for hyperspectral image mixed denoising. Signal Process. 142, 11\u201326 (2018)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Low rank constraint and spatial spectral total variation for hyperspectral image mixed denoising"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85022203307",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "142"},
+                                "pagerange": {
+                                    "@first": "11",
+                                    "@last": "26"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Signal Process."
+                        },
+                        "ce:source-text": "Wang, Q., et al.: Low rank constraint and spatial spectral total variation for hyperspectral image mixed denoising. Signal Process. 142, 11\u201326 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Wei, K., Fu, Y.: Low-rank Bayesian tensor factorization for hyperspectral image denoising. Neurocomputing 331, 412\u2013423 (2019)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Low-rank Bayesian tensor factorization for hyperspectral image denoising"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0016",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85057826760",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "331"},
+                                "pagerange": {
+                                    "@first": "412",
+                                    "@last": "423"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "Wei, K., Fu, Y.: Low-rank Bayesian tensor factorization for hyperspectral image denoising. Neurocomputing 331, 412\u2013423 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Fan, L., et al.: Image denoising by low-rank approximation with estimation of noise energy distribution in SVD domain. IET Image Process. 13(4), 680\u2013691 (2019)",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Image denoising by low-rank approximation with estimation of noise energy distribution in SVD domain"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0017",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85064810908",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "680",
+                                    "@last": "691"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fan",
+                                    "ce:indexed-name": "Fan L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IET Image Process."
+                        },
+                        "ce:source-text": "Fan, L., et al.: Image denoising by low-rank approximation with estimation of noise energy distribution in SVD domain. IET Image Process. 13(4), 680\u2013691 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Ataman, E., et al.: A fast method for real-time median filtering. IEEE Trans. Acoust. Speech Signal Process. 28(4), 415\u2013421 (1980)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "A fast method for real-time median filtering"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0018",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0018910716",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "415",
+                                    "@last": "421"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ataman",
+                                    "ce:indexed-name": "Ataman E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Acoust. Speech Signal Process."
+                        },
+                        "ce:source-text": "Ataman, E., et al.: A fast method for real-time median filtering. IEEE Trans. Acoust. Speech Signal Process. 28(4), 415\u2013421 (1980)"
+                    },
+                    {
+                        "ref-fulltext": "Brownrigg, D.R.K.: The weighted median filter. Commun. ACM 27(8), 807\u2013818 (1984)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "The weighted median filter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0019",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0021477512",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "807",
+                                    "@last": "818"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.R.K.",
+                                "@_fa": "true",
+                                "ce:surname": "Brownrigg",
+                                "ce:indexed-name": "Brownrigg D.R.K."
+                            }]},
+                            "ref-sourcetitle": "Commun. ACM"
+                        },
+                        "ce:source-text": "Brownrigg, D.R.K.: The weighted median filter. Commun. ACM 27(8), 807\u2013818 (1984)"
+                    },
+                    {
+                        "ref-fulltext": "Jin, L., et al.: Impulse noise reduction in color images based on mean shift and channel suppression. J. Electron. Imaging 27(4), 043011 (2018)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Impulse noise reduction in color images based on mean shift and channel suppression"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85050541049",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "27",
+                                "@issue": "4"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Electron. Imaging"
+                        },
+                        "ce:source-text": "Jin, L., et al.: Impulse noise reduction in color images based on mean shift and channel suppression. J. Electron. Imaging 27(4), 043011 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Pei, J., et al.: A hybrid filter with neighborhood analysis for impulsive noise removal in color images. Signal Process. 153, 197\u2013209 (2018)",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A hybrid filter with neighborhood analysis for impulsive noise removal in color images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0021",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85050857201",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "153"},
+                                "pagerange": {
+                                    "@first": "197",
+                                    "@last": "209"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pei",
+                                    "ce:indexed-name": "Pei J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Signal Process."
+                        },
+                        "ce:source-text": "Pei, J., et al.: A hybrid filter with neighborhood analysis for impulsive noise removal in color images. Signal Process. 153, 197\u2013209 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Jin, L., et al.: Two-stage quaternion switching vector filter for color impulse noise removal. Signal Process. 128, 171\u2013185 (2016)",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Two-stage quaternion switching vector filter for color impulse noise removal"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0022",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84964318759",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "128"},
+                                "pagerange": {
+                                    "@first": "171",
+                                    "@last": "185"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Signal Process."
+                        },
+                        "ce:source-text": "Jin, L., et al.: Two-stage quaternion switching vector filter for color impulse noise removal. Signal Process. 128, 171\u2013185 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Astola, J., et al.: Vector median filters. Proc. IEEE 78(4), 678\u2013689 (1990)",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "Vector median filters"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0023",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0025414804",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "78",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "678",
+                                    "@last": "689"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Astola",
+                                    "ce:indexed-name": "Astola J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. IEEE"
+                        },
+                        "ce:source-text": "Astola, J., et al.: Vector median filters. Proc. IEEE 78(4), 678\u2013689 (1990)"
+                    },
+                    {
+                        "ref-fulltext": "Morillas, S., Gregori, V.: Robustifying vector median filter. Sensors 11(8), 8115\u20138126 (2011)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Robustifying vector median filter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0024",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80052154097",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "8115",
+                                    "@last": "8126"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morillas",
+                                    "ce:indexed-name": "Morillas S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gregori",
+                                    "ce:indexed-name": "Gregori V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "Morillas, S., Gregori, V.: Robustifying vector median filter. Sensors 11(8), 8115\u20138126 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Trahanias, P.E., et al.: Directional processing of color images: theory and experimental results. IEEE Trans. Image Process. 5(6), 868\u2013880 (1996)",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Directional processing of color images: theory and experimental results"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0025",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0030165952",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "868",
+                                    "@last": "880"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "P.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trahanias",
+                                    "ce:indexed-name": "Trahanias P.E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Trahanias, P.E., et al.: Directional processing of color images: theory and experimental results. IEEE Trans. Image Process. 5(6), 868\u2013880 (1996)"
+                    },
+                    {
+                        "ref-fulltext": "Lukac, R.: Optimised directional distance filter. Mach. Graph. Vis. Int. J. 11(2/3), 311\u2013326 (2002)",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Optimised directional distance filter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0026",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0037752319",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "2-3"
+                                },
+                                "pagerange": {
+                                    "@first": "311",
+                                    "@last": "326"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Lukac",
+                                "ce:indexed-name": "Lukac R."
+                            }]},
+                            "ref-sourcetitle": "Mach. Graph. Vis. Int. J."
+                        },
+                        "ce:source-text": "Lukac, R.: Optimised directional distance filter. Mach. Graph. Vis. Int. J. 11(2/3), 311\u2013326 (2002)"
+                    },
+                    {
+                        "ref-fulltext": "Smolka, B., Chydzinski, A.: Fast detection and impulsive noise removal in color images. Real-Time Imaging 11(5\u20136), 389\u2013402 (2005)",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Fast detection and impulsive noise removal in color images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0027",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "24944442066",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "5-6"
+                                },
+                                "pagerange": {
+                                    "@first": "389",
+                                    "@last": "402"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smolka",
+                                    "ce:indexed-name": "Smolka B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chydzinski",
+                                    "ce:indexed-name": "Chydzinski A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Real-Time Imaging"
+                        },
+                        "ce:source-text": "Smolka, B., Chydzinski, A.: Fast detection and impulsive noise removal in color images. Real-Time Imaging 11(5\u20136), 389\u2013402 (2005)"
+                    },
+                    {
+                        "ref-fulltext": "Celebi, M.E., et al.: A new family of order-statistics based switching vector filters. In: 2010 IEEE International Conference on Image Processing, pp. 97\u2013100. IEEE, Piscataway (2010)",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A new family of order-statistics based switching vector filters"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0028",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78651079535",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "97",
+                                "@last": "100"
+                            }},
+                            "ref-text": "IEEE, Piscataway",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Celebi",
+                                    "ce:indexed-name": "Celebi M.E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2010 IEEE International Conference on Image Processing"
+                        },
+                        "ce:source-text": "Celebi, M.E., et al.: A new family of order-statistics based switching vector filters. In: 2010 IEEE International Conference on Image Processing, pp. 97\u2013100. IEEE, Piscataway (2010)"
+                    },
+                    {
+                        "ref-fulltext": "Matsuoka, J., et al.: Switching non-local vector median filter. Opt. Rev. 23(2), 195\u2013207 (2016)",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Switching non-local vector median filter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0029",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84957544811",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "195",
+                                    "@last": "207"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matsuoka",
+                                    "ce:indexed-name": "Matsuoka J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Opt. Rev."
+                        },
+                        "ce:source-text": "Matsuoka, J., et al.: Switching non-local vector median filter. Opt. Rev. 23(2), 195\u2013207 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Wang, W., Lu, P.: An efficient switching median filter based on local outlier factor. IEEE Signal Process. Lett. 18(10), 551\u2013554 (2011)",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "An efficient switching median filter based on local outlier factor"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0030",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80052071830",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "551",
+                                    "@last": "554"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Process. Lett."
+                        },
+                        "ce:source-text": "Wang, W., Lu, P.: An efficient switching median filter based on local outlier factor. IEEE Signal Process. Lett. 18(10), 551\u2013554 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Lukac, R.: Adaptive vector median filtering. Pattern Recognit. Lett. 24(12), 1889\u20131899 (2003)",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Adaptive vector median filtering"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0031",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0038668775",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1889",
+                                    "@last": "1899"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Lukac",
+                                "ce:indexed-name": "Lukac R."
+                            }]},
+                            "ref-sourcetitle": "Pattern Recognit. Lett."
+                        },
+                        "ce:source-text": "Lukac, R.: Adaptive vector median filtering. Pattern Recognit. Lett. 24(12), 1889\u20131899 (2003)"
+                    },
+                    {
+                        "ref-fulltext": "Malinski, L., Smolka, B.: Fast averaging peer group filter for the impulsive noise removal in color images. J. Real-Time Image Process. 11(3), 427\u2013444 (2016)",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Fast averaging peer group filter for the impulsive noise removal in color images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0032",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84959893362",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "427",
+                                    "@last": "444"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malinski",
+                                    "ce:indexed-name": "Malinski L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smolka",
+                                    "ce:indexed-name": "Smolka B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Real-Time Image Process."
+                        },
+                        "ce:source-text": "Malinski, L., Smolka, B.: Fast averaging peer group filter for the impulsive noise removal in color images. J. Real-Time Image Process. 11(3), 427\u2013444 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Varghese, J., et al.: Efficient adaptive fuzzy-based switching weighted average filter for the restoration of impulse corrupted digital images. IET Image Process. 8(4), 199\u2013206 (2014)",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Efficient adaptive fuzzy-based switching weighted average filter for the restoration of impulse corrupted digital images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0033",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84897515335",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "199",
+                                    "@last": "206"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varghese",
+                                    "ce:indexed-name": "Varghese J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IET Image Process."
+                        },
+                        "ce:source-text": "Varghese, J., et al.: Efficient adaptive fuzzy-based switching weighted average filter for the restoration of impulse corrupted digital images. IET Image Process. 8(4), 199\u2013206 (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Lukac, R.: Adaptive color image filtering based on center-weighted vector directional filters. Multidimens. Syst. Signal Process. 15(2), 169\u2013196 (2004)",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Adaptive color image filtering based on center-weighted vector directional filters"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0034",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "12144290329",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "169",
+                                    "@last": "196"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Lukac",
+                                "ce:indexed-name": "Lukac R."
+                            }]},
+                            "ref-sourcetitle": "Multidimens. Syst. Signal Process."
+                        },
+                        "ce:source-text": "Lukac, R.: Adaptive color image filtering based on center-weighted vector directional filters. Multidimens. Syst. Signal Process. 15(2), 169\u2013196 (2004)"
+                    },
+                    {
+                        "ref-fulltext": "Lukac, R., et al.: Vector sigma filters for noise detection and removal in color images. J. Visual Commun. Image Represent. 17(1), 1\u201326 (2006)",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Vector sigma filters for noise detection and removal in color images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0035",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "28844451227",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "26"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lukac",
+                                    "ce:indexed-name": "Lukac R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J. Visual Commun. Image Represent."
+                        },
+                        "ce:source-text": "Lukac, R., et al.: Vector sigma filters for noise detection and removal in color images. J. Visual Commun. Image Represent. 17(1), 1\u201326 (2006)"
+                    },
+                    {
+                        "ref-fulltext": "Wang, G., Zhu, H., Wang, Y.: Fuzzy decision filter for color images denoising. Optik 126(20), 2428\u20132432 (2015)",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Fuzzy decision filter for color images denoising"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0036",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84942195247",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "126",
+                                    "@issue": "20"
+                                },
+                                "pagerange": {
+                                    "@first": "2428",
+                                    "@last": "2432"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Optik"
+                        },
+                        "ce:source-text": "Wang, G., Zhu, H., Wang, Y.: Fuzzy decision filter for color images denoising. Optik 126(20), 2428\u20132432 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Roy, A., et al.: Impulse noise removal using SVM classification based fuzzy filter from gray scale images. Signal Process. 128, 262\u2013273 (2016)",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Impulse noise removal using SVM classification based fuzzy filter from gray scale images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0037",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84965000183",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "128"},
+                                "pagerange": {
+                                    "@first": "262",
+                                    "@last": "273"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roy",
+                                    "ce:indexed-name": "Roy A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Signal Process."
+                        },
+                        "ce:source-text": "Roy, A., et al.: Impulse noise removal using SVM classification based fuzzy filter from gray scale images. Signal Process. 128, 262\u2013273 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Jin, L., et al.: An effective vector filter for impulse noise reduction based on adaptive quaternion color distance mechanism. Signal Process. 155, 334\u2013345 (2019)",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "An effective vector filter for impulse noise reduction based on adaptive quaternion color distance mechanism"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0038",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85054850595",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "155"},
+                                "pagerange": {
+                                    "@first": "334",
+                                    "@last": "345"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Signal Process."
+                        },
+                        "ce:source-text": "Jin, L., et al.: An effective vector filter for impulse noise reduction based on adaptive quaternion color distance mechanism. Signal Process. 155, 334\u2013345 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Jin, L.: Complex impulse noise removal from color images based on super pixel segmentation. J. Visual Commun. Image Represent. 48, 54\u201365 (2017)",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Complex impulse noise removal from color images based on super pixel segmentation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0039",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85020501634",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "48"},
+                                "pagerange": {
+                                    "@first": "54",
+                                    "@last": "65"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Jin",
+                                "ce:indexed-name": "Jin L."
+                            }]},
+                            "ref-sourcetitle": "J. Visual Commun. Image Represent."
+                        },
+                        "ce:source-text": "Jin, L.: Complex impulse noise removal from color images based on super pixel segmentation. J. Visual Commun. Image Represent. 48, 54\u201365 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Chanu, P.R., Singh, K.M.: A two-stage switching vector median filter based on quaternion for removing impulse noise in color images. Multimedia Tools Appl. 78(11), 15375\u201315401 (2019)",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A two-stage switching vector median filter based on quaternion for removing impulse noise in color images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0040",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85057991826",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "78",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "15375",
+                                    "@last": "15401"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chanu",
+                                    "ce:indexed-name": "Chanu P.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Multimedia Tools Appl."
+                        },
+                        "ce:source-text": "Chanu, P.R., Singh, K.M.: A two-stage switching vector median filter based on quaternion for removing impulse noise in color images. Multimedia Tools Appl. 78(11), 15375\u201315401 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Garnett, R., et al.: A universal noise removal algorithm with an impulse detector. IEEE Trans. Image Process. 14(11), 1747\u20131754 (2005)",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "A universal noise removal algorithm with an impulse detector"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0041",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "27844561514",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1747",
+                                    "@last": "1754"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garnett",
+                                    "ce:indexed-name": "Garnett R."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Garnett, R., et al.: A universal noise removal algorithm with an impulse detector. IEEE Trans. Image Process. 14(11), 1747\u20131754 (2005)"
+                    },
+                    {
+                        "ref-fulltext": "Amit, Y., et al.: A coarse-to-fine strategy for multiclass shape detection. IEEE Trans. Pattern Anal. Mach. Intell. 26(12), 1606\u20131621 (2004)",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "A coarse-to-fine strategy for multiclass shape detection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0042",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9244225668",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1606",
+                                    "@last": "1621"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amit",
+                                    "ce:indexed-name": "Amit Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell."
+                        },
+                        "ce:source-text": "Amit, Y., et al.: A coarse-to-fine strategy for multiclass shape detection. IEEE Trans. Pattern Anal. Mach. Intell. 26(12), 1606\u20131621 (2004)"
+                    },
+                    {
+                        "ref-fulltext": "Zhou, W.: Image quality assessment: from error measurement to structural similarity. IEEE Trans. Image Process. 13, 600\u2013613 (2004)",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Image quality assessment: from error measurement to structural similarity"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0043",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1942436689",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {
+                                    "@first": "600",
+                                    "@last": "613"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhou",
+                                "ce:indexed-name": "Zhou W."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Zhou, W.: Image quality assessment: from error measurement to structural similarity. IEEE Trans. Image Process. 13, 600\u2013613 (2004)"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, L., et al.: FSIM: a feature similarity index for image quality assessment. IEEE Trans. Image Process. 20(8), 2378\u20132386 (2011)",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "FSIM: a feature similarity index for image quality assessment"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0044",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79960509746",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2378",
+                                    "@last": "2386"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Zhang, L., et al.: FSIM: a feature similarity index for image quality assessment. IEEE Trans. Image Process. 20(8), 2378\u20132386 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Yuan, G., Ghanem, B.: \u201cl0TV: A new method for image restoration in the presence of impulse noise,\u201d 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, 2015, pp. 5369\u20135377, https://doi.org/10.1109/CVPR.2015.7299175",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/CVPR.2015.7299175",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "ipr212023-cit-0045",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84959226430",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5369",
+                                "@last": "5377"
+                            }},
+                            "ref-text": "\u201d 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghanem",
+                                    "ce:indexed-name": "Ghanem B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "l0TV: A new method for image restoration in the presence of impulse noise"
+                        },
+                        "ce:source-text": "Yuan, G., Ghanem, B.: \u201cl0TV: A new method for image restoration in the presence of impulse noise,\u201d 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, 2015, pp. 5369\u20135377, https://doi.org/10.1109/CVPR.2015.7299175"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Wuhan",
+        "@id": "60003028",
+        "affilname": "Wuhan Institute of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003028",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85108904383",
+        "dc:description": "Impulse noise is regarded as an outlier in the local window of an image. To detect noise, many proposed methods are based on aggregated distance, including spatially weighted aggregated distance, n nearest neighbour distance, local density, and angle-weighted quaternion aggregated distance. However, these methods ignore the weight of each pixel or have limited adaptability. This study introduces the concept of degree of aggregation and proposes a weighting method to obtain the weight vector of the pixels by minimizing the degree of aggregation. The weight vector obtained gives larger components on the signal pixels than on the noisy pixels. Then it is fused with the aggregated distance to form a weighted aggregated distance that can reasonably characterise the noise and signal. The weighted aggregated distance, along with an adaptive segmentation method, can effectively detect the noise. To further enhance the effect of noise detection and removal, an adaptive selection strategy is incorporated to reduce the noise density in the local window. At last, noisy pixels detected are replaced with the weighted channel combination optimization values. The experimental results exhibit the validity of the proposed method by showing better performance in terms of both objective criteria and visual effects.",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85108904383",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Xiangxi",
+            "preferred-name": {
+                "ce:given-name": "Xiangxi",
+                "ce:initials": "X.",
+                "ce:surname": "Meng",
+                "ce:indexed-name": "Meng X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003028",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003028"
+            },
+            "ce:surname": "Meng",
+            "@auid": "57225010014",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57225010014",
+            "ce:indexed-name": "Meng X."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85108904383"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108904383&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85108904383&origin=inward"
+            }
+        ],
+        "source-id": "5400152646",
+        "citedby-count": "8",
+        "prism:volume": "15",
+        "subtype": "ar",
+        "dc:title": "An effective weighted vector median filter for impulse noise reduction based on minimizing the degree of aggregation",
+        "openaccess": "1",
+        "prism:issn": "17519659",
+        "publishercopyright": "© 2020 The Authors. IET Image Processing published by John Wiley & Sons Ltd on behalf of The Institution of Engineering and Technology",
+        "prism:issueIdentifier": "1",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IET Image Processing",
+        "prism:pageRange": "228-238",
+        "prism:endingPage": "238",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1049/ipr2.12023",
+        "prism:startingPage": "228",
+        "dc:identifier": "SCOPUS_ID:85108904383",
+        "dc:publisher": "John Wiley and Sons Inc"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Adaptive segmentation method",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Adaptive selection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Aggregated distances",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Combination optimization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Degree of aggregation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Nearest neighbour",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Objective criteria",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Weighted vector",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Xiangxi",
+            "preferred-name": {
+                "ce:given-name": "Xiangxi",
+                "ce:initials": "X.",
+                "ce:surname": "Meng",
+                "ce:indexed-name": "Meng X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003028",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003028"
+            },
+            "ce:surname": "Meng",
+            "@auid": "57225010014",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57225010014",
+            "ce:indexed-name": "Meng X."
+        },
+        {
+            "ce:given-name": "Tongwei",
+            "preferred-name": {
+                "ce:given-name": "Tongwei",
+                "ce:initials": "T.",
+                "ce:surname": "Lu",
+                "ce:indexed-name": "Lu T."
+            },
+            "@seq": "2",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003028",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003028"
+            },
+            "ce:surname": "Lu",
+            "@auid": "24080890200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24080890200",
+            "ce:indexed-name": "Lu T."
+        },
+        {
+            "ce:given-name": "Feng",
+            "preferred-name": {
+                "ce:given-name": "Feng",
+                "ce:initials": "F.",
+                "ce:surname": "Min",
+                "ce:indexed-name": "Min F."
+            },
+            "@seq": "3",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003028",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003028"
+            },
+            "ce:surname": "Min",
+            "@auid": "35739113000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35739113000",
+            "ce:indexed-name": "Min F."
+        },
+        {
+            "ce:given-name": "Tao",
+            "preferred-name": {
+                "ce:given-name": "Tao",
+                "ce:initials": "T.",
+                "ce:surname": "Lu",
+                "ce:indexed-name": "Lu T."
+            },
+            "@seq": "4",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003028",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003028"
+            },
+            "ce:surname": "Lu",
+            "@auid": "56406646300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56406646300",
+            "ce:indexed-name": "Lu T."
+        }
+    ]}
+}}

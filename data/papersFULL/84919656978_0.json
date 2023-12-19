@@ -1,0 +1,1252 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@timestamp": "2020-04-04T13:21:01.000001-04:00",
+                "@year": "2020",
+                "@month": "04"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2014",
+                "@month": "10"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "address-part": "115 S Quarry St., Apt. 82",
+                        "postal-code": "14850",
+                        "@afid": "60104946",
+                        "@country": "usa",
+                        "city": "Ithaca",
+                        "organization": {"$": "Cornell University Mechanical and Aerospace Engineering"},
+                        "affiliation-id": {"@afid": "60104946"},
+                        "state": "NY"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Karen",
+                            "preferred-name": {
+                                "ce:given-name": "Karen",
+                                "ce:initials": "K.",
+                                "ce:surname": "Chiang",
+                                "ce:indexed-name": "Chiang K."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chiang",
+                            "@auid": "43760993900",
+                            "ce:indexed-name": "Chiang K."
+                        },
+                        {
+                            "ce:given-name": "Mark",
+                            "preferred-name": {
+                                "ce:given-name": "Mark",
+                                "ce:initials": "M.",
+                                "ce:surname": "Psiaki",
+                                "ce:indexed-name": "Psiaki M."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "M.",
+                            "@date-locked": "2019-01-17T14:50:24.532",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Psiaki",
+                            "@auid": "7004139057",
+                            "ce:indexed-name": "Psiaki M."
+                        },
+                        {
+                            "ce:given-name": "Steven",
+                            "preferred-name": {
+                                "ce:given-name": "Steven",
+                                "ce:initials": "S.",
+                                "ce:surname": "Powell",
+                                "ce:indexed-name": "Powell S."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Powell",
+                            "@auid": "57210837411",
+                            "ce:indexed-name": "Powell S."
+                        },
+                        {
+                            "ce:given-name": "Robert",
+                            "preferred-name": {
+                                "ce:given-name": "Robert",
+                                "ce:initials": "R.",
+                                "ce:surname": "Miceli",
+                                "ce:indexed-name": "Miceli R."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Miceli",
+                            "@auid": "55415882200",
+                            "ce:indexed-name": "Miceli R."
+                        },
+                        {
+                            "ce:given-name": "Brady",
+                            "preferred-name": {
+                                "ce:given-name": "Brady",
+                                "ce:initials": "B.",
+                                "ce:surname": "O'Hanlon",
+                                "ce:indexed-name": "O'Hanlon B."
+                            },
+                            "@seq": "5",
+                            "ce:initials": "B.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "O'Hanlon",
+                            "@auid": "30967608400",
+                            "ce:indexed-name": "O'Hanlon B."
+                        }
+                    ]
+                },
+                "citation-title": "GPS-based attitude determination for a spinning rocket",
+                "abstracts": "© 2014 IEEE.An algorithm is developed for determining the attitude of a spinning sounding rocket. This algorithm is able to track global positioning system (GPS) signals with intermittent availability but with enough accuracy to yield phase observables for the precise, three-axis attitude determination of a nutating rocket. Raw, single-frequency GPS RF front-end data are processed by several filters to accomplish this task. First, a Levenberg-Marquardt algorithm (LMA) estimates GPS observables for multiple satellites by performing a least-squares fit to the accumulation outputs of a bank of correlators. These observables are then used as measurements in a Rauch-Tung-Striebel smoother that optimizes estimates of carrier phase, Doppler shift, and code phase. Finally, attitude determination is carried out by another batch filter that uses the single-differenced optimized carrier phase estimates between two antennas and an Euler dynamics model for the torque-free attitude motion of the spinning rocket. This second batch filter implements a combination of a substantially modified form of the LMA and the least-squares ambiguity decorrelation adjustment (LAMBDA) method. This design enables it to deal with integer ambiguities that change over long data gaps between times of carrier phase availability. The algorithm presented in this paper is applied to recorded RF data from a spinning sounding rocket mission to produce attitude quaternion and spin-rate estimates using a pair of antennas separated by a 0.3-m baseline. These results are confirmed by another set of quaternions and spin-rate vectors independently estimated from magnetometer and horizon crossing indicator data. Attitude precision on the order of several degrees has been demonstrated.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "address-part": "115 S Quarry St., Apt. 82",
+                        "postal-code": "14850",
+                        "@country": "usa",
+                        "city": "Ithaca",
+                        "organization": {"$": "Cornell University Mechanical and Aerospace Engineering"},
+                        "state": "NY"
+                    },
+                    "person": {
+                        "ce:given-name": "Karen",
+                        "ce:initials": "K.",
+                        "ce:surname": "Chiang",
+                        "ce:indexed-name": "Chiang K."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Doppler shift",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Global positioning system",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Mathematical model",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Position measurement",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Receivers",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Rockets",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Vectors",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Aerospace and Electronic Systems",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "50",
+                            "@issue": "4"
+                        },
+                        "pagerange": {
+                            "@first": "2654",
+                            "@last": "2663"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems",
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "2014",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 October 2014"
+                        },
+                        "day": "01"
+                    },
+                    "codencode": "IEARA",
+                    "sourcetitle-abbrev": "IEEE Trans. Aerosp. Electron. Syst.",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "00189251",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2014"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "6978869",
+                    "@srcid": "17336"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "404.1",
+                                "classification-description": "Military Engineering"
+                            },
+                            {
+                                "classification-code": "654.1",
+                                "classification-description": "Rockets and Missiles"
+                            },
+                            {
+                                "classification-code": "691",
+                                "classification-description": "Bulk Handling and Unit Loads"
+                            },
+                            {
+                                "classification-code": "694",
+                                "classification-description": "Packaging"
+                            },
+                            {
+                                "classification-code": "711.1",
+                                "classification-description": "Electromagnetic Waves in Different Media"
+                            },
+                            {
+                                "classification-code": "716",
+                                "classification-description": "Electronic Equipment, Radar, Radio and Television"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "943.2",
+                                "classification-description": "Mechanical Variables Measurements"
+                            },
+                            {
+                                "classification-code": "943.3",
+                                "classification-description": "Special Purpose Instruments"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2202"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2015 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "29",
+                    "@year": "2014",
+                    "@month": "12"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "600884059",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "630745589",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20145200373647",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84919656978",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84919656978",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TAES.2014.120822"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "18",
+                "reference": [
+                    {
+                        "ref-fulltext": "Humphreys, T. E., Psiaki, M. L., Klatt, E. M., Powell, S. P., and Kintner, P. M. Magnetometer-based attitude and rate estimation for spacecraft with wire booms. Journal of Guidance, Control, and Dynamics, 28, 4 (Jul.-Aug. 2005), 584-597.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Magnetometer-based attitude and rate estimation for spacecraft with wire booms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "22944461784",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "584",
+                                    "@last": "597"
+                                }
+                            },
+                            "ref-text": "Jul.-Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Humphreys",
+                                    "ce:indexed-name": "Humphreys T.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psiaki",
+                                    "ce:indexed-name": "Psiaki M.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Klatt",
+                                    "ce:indexed-name": "Klatt E.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Powell",
+                                    "ce:indexed-name": "Powell S.P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kintner",
+                                    "ce:indexed-name": "Kintner P.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chiang, K. Q. Z., Psiaki, M. L., Powell, S. P., Miceli, R. J., and O'Hanlon, B. W. GPS-based attitude determination for a spinning rocket. In Proceedings of the ION GNSS, Nashville, TN, 2012, 2342-2350.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "GPS-based attitude determination for a spinning rocket"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879620090",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2342",
+                                "@last": "2350"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.Q.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiang",
+                                    "ce:indexed-name": "Chiang K.Q.Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psiaki",
+                                    "ce:indexed-name": "Psiaki M.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Powell",
+                                    "ce:indexed-name": "Powell S.P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miceli",
+                                    "ce:indexed-name": "Miceli R.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O'Hanlon",
+                                    "ce:indexed-name": "O'Hanlon B.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ION GNSS, Nashville, TN, 2012"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Martin-Neira, M., and Lucas, R. GPS attitude determination of spin stabilized satellites. In Proceedings of the ION GPS, Albuquerque, NM, 1992, 757-765.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "GPS attitude determination of spin stabilized satellites"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004900036",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "757",
+                                "@last": "765"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin-Neira",
+                                    "ce:indexed-name": "Martin-Neira M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lucas",
+                                    "ce:indexed-name": "Lucas R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ION GPS, Albuquerque, NM, 1992"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fenton, P. C., Kunysz, W., and Garbe, G. Using GPS for position & attitude determination of the Canadian space agency's active rocket mission. Proceedings of the ION GPS, Nashville, TN, 1998, 1791-1800.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Using GPS for position & attitude determination of the Canadian space agency's active rocket mission"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879642631",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1791",
+                                "@last": "1800"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fenton",
+                                    "ce:indexed-name": "Fenton P.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kunysz",
+                                    "ce:indexed-name": "Kunysz W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garbe",
+                                    "ce:indexed-name": "Garbe G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ION GPS, Nashville, TN, 1998"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Axelrad, P., and Behre, C. P. Attitude estimation algorithms for spinning satellites using GPS phase data. Journal of Guidance, Control, and Dynamics, 20, 1 (Jan.-Feb. 1997), 164-169).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Attitude estimation algorithms for spinning satellites using GPS phase data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030777717",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "164",
+                                    "@last": "169"
+                                }
+                            },
+                            "ref-text": "Jan.-Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Axelrad",
+                                    "ce:indexed-name": "Axelrad P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Behre",
+                                    "ce:indexed-name": "Behre C.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chiang, K. Q. Z., and Psiaki, M. L. Kalman filter tracking of limb scan signal using a bank of correlators. IEEE Transactions on Aerospace and Electronic Systems, 49, 1 (Jan. 2013), 118-133.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Kalman filter tracking of limb scan signal using a bank of correlators"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872294927",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "118",
+                                    "@last": "133"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.Q.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiang",
+                                    "ce:indexed-name": "Chiang K.Q.Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psiaki",
+                                    "ce:indexed-name": "Psiaki M.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Psiaki, M. L. Block acquisition of weak GPS signals in a software receiver. In Proceedings of the ION GPS, Salt Lake City, UT, Sept. 11-14, 2001, 2838-2850.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Block acquisition of weak GPS signals in a software receiver"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2942697026",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2838",
+                                "@last": "2850"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Psiaki",
+                                "ce:indexed-name": "Psiaki M.L."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the ION GPS, Salt Lake City, UT, Sept. 11-14, 2001"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bierman, G. J. Factorization Methods for Discrete Sequential Estimation. New York: Academic Press, 1977.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1977"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003570571",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "New York: Academic Press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Bierman",
+                                "ce:indexed-name": "Bierman G.J."
+                            }]},
+                            "ref-sourcetitle": "Factorization Methods for Discrete Sequential Estimation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Psiaki, M. L., and Mohiuddin, S. Modeling, analysis, and simulation of GPS carrier phase for spacecraft relative navigation. Journal of Guidance, Control, and Dynamics, 30, 6 (Nov.-Dec. 2007, 1628-1639.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Modeling, analysis, and simulation of GPS carrier phase for spacecraft relative navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "36849039004",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1628",
+                                    "@last": "1639"
+                                }
+                            },
+                            "ref-text": "Nov.-Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psiaki",
+                                    "ce:indexed-name": "Psiaki M.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohiuddin",
+                                    "ce:indexed-name": "Mohiuddin S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wertz, J. R. Spacecraft Attitude Determination and Control. Dordrecht, The Netherlands: Kluwer Academic Publishers, 1978.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003586152",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Dordrecht, The Netherlands: Kluwer Academic Publishers",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Wertz",
+                                "ce:indexed-name": "Wertz J.R."
+                            }]},
+                            "ref-sourcetitle": "Spacecraft Attitude Determination and Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Psiaki, M. L. Batch algorithm for global-positioning-system attitude determination and integer ambiguity resolution. Journal of Guidance, Control, and Dynamics, 29, 5 (Sept.-Oct. 2006), 1070-1079.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Batch algorithm for global-positioning-system attitude determination and integer ambiguity resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33749623450",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1070",
+                                    "@last": "1079"
+                                }
+                            },
+                            "ref-text": "Sept.-Oct.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Psiaki",
+                                "ce:indexed-name": "Psiaki M.L."
+                            }]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Teunissen, P. J. G. The least-squares ambiguity decorrelation adjustment: A method for fast GPS integer ambiguity estimation. Journal of Geodesy, 70, 1-2 (Nov. 1995), 65-82.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "The least-squares ambiguity decorrelation adjustment: A method for fast GPS integer ambiguity estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "32644452469",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "70",
+                                    "@issue": "1-2"
+                                },
+                                "pagerange": {
+                                    "@first": "65",
+                                    "@last": "82"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.J.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Teunissen",
+                                "ce:indexed-name": "Teunissen P.J.G."
+                            }]},
+                            "ref-sourcetitle": "Journal of Geodesy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Psiaki, M. L., and Mohiuddin, S. Global positioning system integer ambiguity resolution using factorized least-squares techniques. Journal of Guidance, Control, and Dynamics, 30, 2 (Mar.-Apr. 2007), 346-356.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Global positioning system integer ambiguity resolution using factorized least-squares techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33947660032",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "346",
+                                    "@last": "356"
+                                }
+                            },
+                            "ref-text": "Mar.-Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psiaki",
+                                    "ce:indexed-name": "Psiaki M.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohiuddin",
+                                    "ce:indexed-name": "Mohiuddin S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Psiaki, M. L., and Hinks, J. C. Numerical solution of a generalized Wahba problem for a spinning spacecraft. Journal of Guidance, Control, and Dynamics, 35, 3 (May-June 2012), 764-773.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Numerical solution of a generalized Wahba problem for a spinning spacecraft"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84861501962",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "764",
+                                    "@last": "773"
+                                }
+                            },
+                            "ref-text": "May-June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psiaki",
+                                    "ce:indexed-name": "Psiaki M.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinks",
+                                    "ce:indexed-name": "Hinks J.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Teunissen, P. J. G. Integer least-squares theory for the GNSS compass. Journal of Geodesy, 84, 7 (July 2010), 433-447.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Integer least-squares theory for the GNSS compass"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953538855",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "84",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "433",
+                                    "@last": "447"
+                                }
+                            },
+                            "ref-text": "July",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.J.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Teunissen",
+                                "ce:indexed-name": "Teunissen P.J.G."
+                            }]},
+                            "ref-sourcetitle": "Journal of Geodesy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Buist, P. J. The baseline constrained LAMBDA method for single epoch, single frequency attitude determination applications. In Proceedings of the ION International Meeting, Fort Worth, TX, Sept. 25-28, 2007, 2962-2973.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "The baseline constrained LAMBDA method for single epoch, single frequency attitude determination applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "60049086167",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2962",
+                                "@last": "2973"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Buist",
+                                "ce:indexed-name": "Buist P.J."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the ION International Meeting, Fort Worth, TX, Sept. 25-28, 2007"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Giorgi, G., Teunissen, P. J. G., Verhagen, S., and Buist, P. J. Instantaneous ambiguity resolution in global-navigation-satellite-system-based attitude determination applications: A multivariate constrained approach. Journal of Guidance, Control, and Dynamics, 35, 1 (Jan.-Feb. 2012), 51-67.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Instantaneous ambiguity resolution in global-navigation-satellite-system-based attitude determination applications: A multivariate constrained approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84855338196",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "51",
+                                    "@last": "67"
+                                }
+                            },
+                            "ref-text": "Jan.-Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giorgi",
+                                    "ce:indexed-name": "Giorgi G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teunissen",
+                                    "ce:indexed-name": "Teunissen P.J.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verhagen",
+                                    "ce:indexed-name": "Verhagen S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buist",
+                                    "ce:indexed-name": "Buist P.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Giorgi, G., Teunissen, P. J. G., and Gourlay, T. P. Instantaneous global navigation satellite system (GNSS)-based attitude determination for maritime applications. IEEE Journal of Oceanic Engineering, 37, 3 (July 2012), 348-362.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Instantaneous global navigation satellite system (GNSS)-based attitude determination for maritime applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84863986055",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "348",
+                                    "@last": "362"
+                                }
+                            },
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giorgi",
+                                    "ce:indexed-name": "Giorgi G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teunissen",
+                                    "ce:indexed-name": "Teunissen P.J.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gourlay",
+                                    "ce:indexed-name": "Gourlay T.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Journal of Oceanic Engineering"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Ithaca",
+        "@id": "60104946",
+        "affilname": "Cornell University College of Engineering",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-84919656978",
+        "dc:description": "An algorithm is developed for determining the attitude of a spinning sounding rocket. This algorithm is able to track global positioning system (GPS) signals with intermittent availability but with enough accuracy to yield phase observables for the precise, three-axis attitude determination of a nutating rocket. Raw, single-frequency GPS RF front-end data are processed by several filters to accomplish this task. First, a Levenberg-Marquardt algorithm (LMA) estimates GPS observables for multiple satellites by performing a least-squares fit to the accumulation outputs of a bank of correlators. These observables are then used as measurements in a Rauch-Tung-Striebel smoother that optimizes estimates of carrier phase, Doppler shift, and code phase. Finally, attitude determination is carried out by another batch filter that uses the single-differenced optimized carrier phase estimates between two antennas and an Euler dynamics model for the torque-free attitude motion of the spinning rocket. This second batch filter implements a combination of a substantially modified form of the LMA and the least-squares ambiguity decorrelation adjustment (LAMBDA) method. This design enables it to deal with integer ambiguities that change over long data gaps between times of carrier phase availability. The algorithm presented in this paper is applied to recorded RF data from a spinning sounding rocket mission to produce attitude quaternion and spin-rate estimates using a pair of antennas separated by a 0.3-m baseline. These results are confirmed by another set of quaternions and spin-rate vectors independently estimated from magnetometer and horizon crossing indicator data. Attitude precision on the order of several degrees has been demonstrated.",
+        "prism:coverDate": "2014-10-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84919656978",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Karen",
+            "preferred-name": {
+                "ce:given-name": "Karen",
+                "ce:initials": "K.",
+                "ce:surname": "Chiang",
+                "ce:indexed-name": "Chiang K."
+            },
+            "@seq": "1",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104946",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946"
+            },
+            "ce:surname": "Chiang",
+            "@auid": "43760993900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/43760993900",
+            "ce:indexed-name": "Chiang K."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84919656978"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84919656978&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84919656978&origin=inward"
+            }
+        ],
+        "source-id": "17336",
+        "citedby-count": "22",
+        "prism:volume": "50",
+        "subtype": "ar",
+        "dc:title": "GPS-based attitude determination for a spinning rocket",
+        "openaccess": "0",
+        "prism:issn": "00189251",
+        "publishercopyright": "© 2014 IEEE.",
+        "article-number": "6978869",
+        "prism:issueIdentifier": "4",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Transactions on Aerospace and Electronic Systems",
+        "prism:pageRange": "2654-2663",
+        "prism:endingPage": "2663",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/TAES.2014.120822",
+        "prism:startingPage": "2654",
+        "dc:identifier": "SCOPUS_ID:84919656978",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attitude determination",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Carrier phase estimates",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Horizon-crossing indicators",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Integer ambiguity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Least squares fit",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Levenberg-Marquardt algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiple satellites",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rauch-tung-striebel smoothers",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Doppler shift"
+        },
+        {
+            "@_fa": "true",
+            "$": "Global positioning system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mathematical model"
+        },
+        {
+            "@_fa": "true",
+            "$": "Position measurement"
+        },
+        {
+            "@_fa": "true",
+            "$": "Receivers"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rockets"
+        },
+        {
+            "@_fa": "true",
+            "$": "Vectors"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Aerospace Engineering",
+            "@code": "2202",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Karen",
+            "preferred-name": {
+                "ce:given-name": "Karen",
+                "ce:initials": "K.",
+                "ce:surname": "Chiang",
+                "ce:indexed-name": "Chiang K."
+            },
+            "@seq": "1",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104946",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946"
+            },
+            "ce:surname": "Chiang",
+            "@auid": "43760993900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/43760993900",
+            "ce:indexed-name": "Chiang K."
+        },
+        {
+            "ce:given-name": "Mark",
+            "preferred-name": {
+                "ce:given-name": "Mark",
+                "ce:initials": "M.",
+                "ce:surname": "Psiaki",
+                "ce:indexed-name": "Psiaki M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104946",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946"
+            },
+            "ce:surname": "Psiaki",
+            "@auid": "7004139057",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7004139057",
+            "ce:indexed-name": "Psiaki M."
+        },
+        {
+            "ce:given-name": "Steven",
+            "preferred-name": {
+                "ce:given-name": "Steven",
+                "ce:initials": "S.",
+                "ce:surname": "Powell",
+                "ce:indexed-name": "Powell S."
+            },
+            "@seq": "3",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104946",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946"
+            },
+            "ce:surname": "Powell",
+            "@auid": "57210837411",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57210837411",
+            "ce:indexed-name": "Powell S."
+        },
+        {
+            "ce:given-name": "Robert",
+            "preferred-name": {
+                "ce:given-name": "Robert",
+                "ce:initials": "R.",
+                "ce:surname": "Miceli",
+                "ce:indexed-name": "Miceli R."
+            },
+            "@seq": "4",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104946",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946"
+            },
+            "ce:surname": "Miceli",
+            "@auid": "55415882200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55415882200",
+            "ce:indexed-name": "Miceli R."
+        },
+        {
+            "ce:given-name": "Brady",
+            "preferred-name": {
+                "ce:given-name": "Brady",
+                "ce:initials": "B.",
+                "ce:surname": "O'Hanlon",
+                "ce:indexed-name": "O'Hanlon B."
+            },
+            "@seq": "5",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104946",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104946"
+            },
+            "ce:surname": "O'Hanlon",
+            "@auid": "30967608400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/30967608400",
+            "ce:indexed-name": "O'Hanlon B."
+        }
+    ]}
+}}

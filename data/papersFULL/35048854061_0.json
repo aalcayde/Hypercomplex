@@ -1,0 +1,1142 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@timestamp": "2023-03-02T11:42:36.000036-05:00",
+                "@year": "2023",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2004",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "@afid": "60019118",
+                            "@date-locked": "2022-03-25T00:59:28.591",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "Department of EEIS"},
+                                {"$": "University of Science and Technology of China"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60019118",
+                                "@dptid": "103975775"
+                            },
+                            "@dptid": "103975775"
+                        },
+                        "author": [{
+                            "ce:given-name": "Changhu",
+                            "preferred-name": {
+                                "ce:given-name": "Changhu",
+                                "ce:initials": "C.",
+                                "ce:surname": "Wang",
+                                "ce:indexed-name": "Wang C."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wang",
+                            "@auid": "17347274000",
+                            "ce:indexed-name": "Wang C."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "@afid": "60014966",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "LMAM"},
+                                {"$": "School of Mathematical Sciences"},
+                                {"$": "Peking University"}
+                            ],
+                            "affiliation-id": {"@afid": "60014966"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Shuicheng",
+                                "preferred-name": {
+                                    "ce:given-name": "Shuicheng",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Yan",
+                                "@auid": "11939875400",
+                                "ce:indexed-name": "Yan S."
+                            },
+                            {
+                                "ce:given-name": "Hua",
+                                "preferred-name": {
+                                    "ce:given-name": "Hua",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Li",
+                                "@auid": "57195808083",
+                                "ce:indexed-name": "Li H."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Beijing",
+                            "country": "China",
+                            "@afid": "60098464",
+                            "@country": "chn",
+                            "organization": {"$": "Microsoft Research Asia"},
+                            "affiliation-id": {"@afid": "60098464"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Changhu",
+                                "preferred-name": {
+                                    "ce:given-name": "Changhu",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Wang",
+                                "@auid": "17347274000",
+                                "ce:indexed-name": "Wang C."
+                            },
+                            {
+                                "ce:given-name": "Hongjiang",
+                                "preferred-name": {
+                                    "ce:given-name": "Hongjiang",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Zhang",
+                                "@auid": "7201414329",
+                                "ce:indexed-name": "Zhang H."
+                            },
+                            {
+                                "ce:given-name": "Mingjing",
+                                "preferred-name": {
+                                    "ce:given-name": "Mingjing",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li M."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Li",
+                                "@auid": "7405264013",
+                                "ce:indexed-name": "Li M."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Automatic, effective, and efficient 3D face reconstruction from arbitrary view image",
+                "abstracts": "In this paper, we propose a fully automatic, effective and efficient framework for 3D face reconstruction based on a single face image in arbitrary view. First, a multi-view face alignment algorithm localizes the face feature points, and then EM algorithm is applied to derive the optimal 3D shape and position parameters. Moreover, the unit quaternion based pose representation is proposed for efficient 3D pose parameter optimization. Compared with other related works, this framework has the following advantages: 1) it is fully automatic, and only one single face image in arbitrary view is required; 2) EM algorithm and unit quaternion based pose representation are integrated for efficient shape and position parameters estimation; 3) the correspondence between 2D contour points and 3D model vertexes are dynamically determined by normal direction constraints, which facilitates the 3D reconstruction from arbitrary view image; 4) a weighted optimization strategy is applied for more robust parameter estimation. The experimental results show the effectiveness of our framework for 3D face reconstruction. © Springer-Verlag Berlin Heidelberg 2004.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Beijing",
+                        "country": "China",
+                        "@country": "chn",
+                        "organization": {"$": "Microsoft Research Asia"}
+                    },
+                    "person": {
+                        "ce:initials": "C.",
+                        "ce:surname": "Wang",
+                        "ce:indexed-name": "Wang C."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "@country": "deu",
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {"@volume": "3332"},
+                        "pagerange": {
+                            "@first": "553",
+                            "@last": "560"
+                        }
+                    },
+                    "@type": "k",
+                    "publicationyear": {"@first": "2004"},
+                    "publisher": {"publishername": "Springer Verlag"},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "@srcid": "25674",
+                    "publicationdate": {
+                        "year": "2004",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2004"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "921.5",
+                                "classification-description": "Optimization Techniques"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "01",
+                    "@timestamp": "BST 11:01:31",
+                    "@year": "2023",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "39746089",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "23308981",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20124015513198",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20097939568",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2100200817",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "35048854061",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "35048854061",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "618479114",
+                            "@idtype": "PUIsecondary"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-540-30542-2_68"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "14",
+                "reference": [
+                    {
+                        "ref-fulltext": "A. Hill, T.F. Cootes, C.J. Taylor. \"Active Shape Models and the shape approximation problem.\" Image and Vision Computing. 14 (8) Aug. 1996 pp 601-608.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Active Shape Models and the shape approximation problem"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030213653",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "601",
+                                    "@last": "608"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hill",
+                                    "ce:indexed-name": "Hill A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cootes",
+                                    "ce:indexed-name": "Cootes T.F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor C.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image and Vision Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B.K.P. Horn. Closed-form solution of absolute orientation using unit quaternions. Journal of the Optical Society of America,4(4):629-642,Apr.1987.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed-form solution of absolute orientation using unit quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.K.P.",
+                                "@_fa": "true",
+                                "ce:surname": "Horn",
+                                "ce:indexed-name": "Horn B.K.P."
+                            }]},
+                            "ref-sourcetitle": "Journal of the Optical Society of America"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. X. Hu, D. L. Jiang, S. C. Yan, Lei Zhang, H.J. Zhang. \"Automatic 3D Reconstruction for Face Recognition\", In FG2004 Proceedings, pages 843-848, 2004.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Automatic 3D Reconstruction for Face Recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4544339622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "843",
+                                "@last": "848"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y.X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang D.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan S.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "FG2004 Proceedings"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kin-Man Lam and Hong Yan, An Analytic-to-Holistic Approach for Face Recognition Based on a Single Frontal View, PAMI98, Vol2, No7, page 673-686.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "An Analytic-to-Holistic Approach for Face Recognition Based on a Single Frontal View"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032123224",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "673",
+                                    "@last": "686"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lam",
+                                    "ce:indexed-name": "Lam K.-M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PAMI98"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. P. Lewis. Algorithms for solid noise synthesis. In SIGGRAPH '89 Conference proceedings, pages 263-270. ACM, 1989.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Algorithms for solid noise synthesis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020595666",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "263",
+                                "@last": "270"
+                            }},
+                            "ref-text": "ACM",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.P.",
+                                "@_fa": "true",
+                                "ce:surname": "Lewis",
+                                "ce:indexed-name": "Lewis J.P."
+                            }]},
+                            "ref-sourcetitle": "SIGGRAPH '89 Conference Proceedings"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "H. Li, S.C. Yan, L.Z. Peng. \"Robust Multi-view Face Alignment with Edge Based Texture\", submitted to Journal of Computer Science and Technology, 2004.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Robust Multi-view Face Alignment with Edge Based Texture"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35048866623",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "submitted",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan S.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng L.Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Computer Science and Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liu, Z., Zhang, Z., Jacobs, C. and Cohen, M. (2000). Rapid modeling of animated faces from video, Proc. 3rd International Conference on Visual Computing, Mexico City, pp. 58-67.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Rapid modeling of animated faces from video"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003117621",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "58",
+                                "@last": "67"
+                            }},
+                            "ref-text": "Mexico City",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jacobs",
+                                    "ce:indexed-name": "Jacobs C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 3rd International Conference on Visual Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Also in the special issue of The Journal of Visualization and Computer Animation, Vol.12, 2001.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35048820713",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "12",
+                                "@issue": "SPEC. ISSUE"
+                            }},
+                            "ref-sourcetitle": "The Journal of Visualization and Computer Animation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F.I. Parke. Computer generated animation of faces. In ACM National Conference. ACM, November 1972.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1972"},
+                            "ref-title": {"ref-titletext": "Computer generated animation of faces"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018094829",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ACM, November",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.I.",
+                                "@_fa": "true",
+                                "ce:surname": "Parke",
+                                "ce:indexed-name": "Parke F.I."
+                            }]},
+                            "ref-sourcetitle": "ACM National Conference"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F.I. Parke. A Parametric Model of Human Faces. PhD thesis, University of Utah, Salt Lake City, 1974.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1974"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003584841",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "PhD thesis, University of Utah, Salt Lake City",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.I.",
+                                "@_fa": "true",
+                                "ce:surname": "Parke",
+                                "ce:indexed-name": "Parke F.I."
+                            }]},
+                            "ref-sourcetitle": "A Parametric Model of Human Faces"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Romdhani, V. Blanz, and T. Vetter. Face identification by fitting a 3d morphable model using linear shape and texture error functions. In Computer Vision - ECCV'02, volume 4, pages 3-19, 2002.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Face identification by fitting a 3d morphable model using linear shape and texture error functions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038167243",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "3",
+                                    "@last": "19"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romdhani",
+                                    "ce:indexed-name": "Romdhani S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blanz",
+                                    "ce:indexed-name": "Blanz V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vetter",
+                                    "ce:indexed-name": "Vetter T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision - ECCV'02"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Magneneat-Thalmann, H. Minh, M. Angelis, and D. Thalmann. Design, transformation and animation of human faces. Visual Computer, 5:32-39, 1989.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Design, transformation and animation of human faces"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001867142",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "32",
+                                    "@last": "39"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Magneneat-Thalmann",
+                                    "ce:indexed-name": "Magneneat-Thalmann N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Minh",
+                                    "ce:indexed-name": "Minh H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Angelis",
+                                    "ce:indexed-name": "Angelis M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thalmann",
+                                    "ce:indexed-name": "Thalmann D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Visual Computer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Tipping and C. Bishop. \"Probabilistic principal component analysis\" Technical Report Technical Report NCRG/97/010, Neural Computing Research Group, Aston University, Birmingham, UK, September 1997.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003520380",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Technical Report Technical Report NCRG/97/010, Neural Computing Research Group, Aston University, Birmingham, UK, September",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tipping",
+                                    "ce:indexed-name": "Tipping M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bishop",
+                                    "ce:indexed-name": "Bishop C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Probabilistic Principal Component Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ruo Zhang, Ping-Sing Tai, James Edwin Cryer, Mubarak Sha, Shape From Shading: A Survey, IEEE Trans. On PAMI, 21(8). pp690-706. 1999",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Shape from Shading: A Survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032659026",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "690",
+                                    "@last": "706"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tai",
+                                    "ce:indexed-name": "Tai P.-S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cryer",
+                                    "ce:indexed-name": "Cryer J.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sha",
+                                    "ce:indexed-name": "Sha M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. on PAMI"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Beijing",
+            "@id": "60098464",
+            "affilname": "Microsoft Research Asia",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60098464",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Hefei",
+            "@id": "60019118",
+            "affilname": "University of Science and Technology of China",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019118",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Beijing",
+            "@id": "60014966",
+            "affilname": "Peking University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014966",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-35048854061",
+        "dc:description": "In this paper, we propose a fully automatic, effective and efficient framework for 3D face reconstruction based on a single face image in arbitrary view. First, a multi-view face alignment algorithm localizes the face feature points, and then EM algorithm is applied to derive the optimal 3D shape and position parameters. Moreover, the unit quaternion based pose representation is proposed for efficient 3D pose parameter optimization. Compared with other related works, this framework has the following advantages: 1) it is fully automatic, and only one single face image in arbitrary view is required; 2) EM algorithm and unit quaternion based pose representation are integrated for efficient shape and position parameters estimation; 3) the correspondence between 2D contour points and 3D model vertexes are dynamically determined by normal direction constraints, which facilitates the 3D reconstruction from arbitrary view image; 4) a weighted optimization strategy is applied for more robust parameter estimation. The experimental results show the effectiveness of our framework for 3D face reconstruction. © Springer-Verlag Berlin Heidelberg 2004.",
+        "prism:coverDate": "2004-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/35048854061",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Changhu",
+            "preferred-name": {
+                "ce:given-name": "Changhu",
+                "ce:initials": "C.",
+                "ce:surname": "Wang",
+                "ce:indexed-name": "Wang C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019118",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019118"
+                },
+                {
+                    "@id": "60098464",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60098464"
+                }
+            ],
+            "ce:surname": "Wang",
+            "@auid": "17347274000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/17347274000",
+            "ce:indexed-name": "Wang C."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/35048854061"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=35048854061&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=35048854061&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "source-id": "25674",
+        "citedby-count": "10",
+        "prism:volume": "3332",
+        "subtype": "ar",
+        "prism:pageRange": "553-560",
+        "dc:title": "Automatic, effective, and efficient 3D face reconstruction from arbitrary view image",
+        "prism:endingPage": "560",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-540-30542-2_68",
+        "prism:issn": "16113349 03029743",
+        "prism:startingPage": "553",
+        "dc:identifier": "SCOPUS_ID:35048854061",
+        "dc:publisher": "Springer Verlag"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "3D face reconstruction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Alignment algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Arbitrary view image",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "EM algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Face alignment",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Face images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-views",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Position parameters",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Shape parameters",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unit quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "3D reconstruction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Face feature point",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Normal direction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimization strategy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Robust parameter estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Changhu",
+            "preferred-name": {
+                "ce:given-name": "Changhu",
+                "ce:initials": "C.",
+                "ce:surname": "Wang",
+                "ce:indexed-name": "Wang C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019118",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019118"
+                },
+                {
+                    "@id": "60098464",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60098464"
+                }
+            ],
+            "ce:surname": "Wang",
+            "@auid": "17347274000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/17347274000",
+            "ce:indexed-name": "Wang C."
+        },
+        {
+            "ce:given-name": "Shuicheng",
+            "preferred-name": {
+                "ce:given-name": "Shuicheng",
+                "ce:initials": "S.",
+                "ce:surname": "Yan",
+                "ce:indexed-name": "Yan S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60014966",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014966"
+            },
+            "ce:surname": "Yan",
+            "@auid": "11939875400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/11939875400",
+            "ce:indexed-name": "Yan S."
+        },
+        {
+            "ce:given-name": "Hua",
+            "preferred-name": {
+                "ce:given-name": "Hua",
+                "ce:initials": "H.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li H."
+            },
+            "@seq": "3",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60014966",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014966"
+            },
+            "ce:surname": "Li",
+            "@auid": "57195808083",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195808083",
+            "ce:indexed-name": "Li H."
+        },
+        {
+            "ce:given-name": "Hongjiang",
+            "preferred-name": {
+                "ce:given-name": "Hongjiang",
+                "ce:initials": "H.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang H."
+            },
+            "@seq": "4",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60098464",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60098464"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "7201414329",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7201414329",
+            "ce:indexed-name": "Zhang H."
+        },
+        {
+            "ce:given-name": "Mingjing",
+            "preferred-name": {
+                "ce:given-name": "Mingjing",
+                "ce:initials": "M.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li M."
+            },
+            "@seq": "5",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60098464",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60098464"
+            },
+            "ce:surname": "Li",
+            "@auid": "7405264013",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7405264013",
+            "ce:indexed-name": "Li M."
+        }
+    ]}
+}}

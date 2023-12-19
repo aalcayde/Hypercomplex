@@ -1,0 +1,1413 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@year": "2023",
+                "@timestamp": "2023-07-04T20:13:14.000014-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "730070",
+                            "@afid": "60003640",
+                            "@country": "chn",
+                            "city": "Lanzhou",
+                            "organization": [
+                                {"$": "College of Computer Science and Engineering"},
+                                {"$": "Northwest Normal University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60003640",
+                                "@dptid": "113236506"
+                            },
+                            "@affiliation-instance-id": "2017200072-ae1fc7299051bc1d7f9909c0ed31fd2b",
+                            "ce:source-text": "College of Computer Science and Engineering, Northwest Normal University, Lanzhou, 730070, China",
+                            "@dptid": "113236506"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Xiufeng",
+                                "preferred-name": {
+                                    "ce:given-name": "Xiufeng",
+                                    "ce:initials": "X.",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao X."
+                                },
+                                "@seq": "1",
+                                "@author-instance-id": "2017200072-789469e4a9e8e9b29d5bdd8fc976b66c",
+                                "ce:initials": "X.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "赵秀锋",
+                                "ce:surname": "Zhao",
+                                "@auid": "57217875327",
+                                "ce:indexed-name": "Zhao X."
+                            },
+                            {
+                                "ce:given-name": "Weiyi",
+                                "preferred-name": {
+                                    "ce:given-name": "Weiyi",
+                                    "ce:initials": "W.",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei W."
+                                },
+                                "@seq": "2",
+                                "@author-instance-id": "2017200072-4b94c2542ee53d24f4887d01dadfd4eb",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "魏伟一",
+                                "ce:surname": "Wei",
+                                "@auid": "35758063000",
+                                "ce:indexed-name": "Wei W."
+                            },
+                            {
+                                "ce:given-name": "Guo",
+                                "preferred-name": {
+                                    "ce:given-name": "Guo",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen G."
+                                },
+                                "@seq": "4",
+                                "@author-instance-id": "2017200072-a593e5f07069dc4d51d184ce37c0c216",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "陈 帼",
+                                "ce:surname": "Chen",
+                                "@auid": "57863720900",
+                                "ce:indexed-name": "Chen G."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "832000",
+                            "@afid": "60030922",
+                            "@country": "chn",
+                            "city": "Shihezi Xinjiang",
+                            "organization": [
+                                {"$": "College of Information Science and Technology"},
+                                {"$": "Shihezi University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60030922",
+                                "@dptid": "104568706"
+                            },
+                            "@affiliation-instance-id": "2017200072-dd7f44624dc66790913305d735da8d21",
+                            "ce:source-text": "College of Information Science and Technology, Shihezi University, Shihezi Xinjiang, 832000, China",
+                            "@dptid": "104568706"
+                        },
+                        "author": [{
+                            "ce:given-name": "Jinshou",
+                            "preferred-name": {
+                                "ce:given-name": "Jinshou",
+                                "ce:initials": "J.",
+                                "ce:surname": "Chen",
+                                "ce:indexed-name": "Chen J."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "2017200072-4375c32b989ceac1898853c1b80799a0",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "陈金寿",
+                            "ce:surname": "Chen",
+                            "@auid": "57208283800",
+                            "ce:indexed-name": "Chen J."
+                        }]
+                    }
+                ],
+                "citation-title": "Image Splicing Detection Based on Adaptive Quaternion Singular Value Decomposition",
+                "abstracts": "© 2022, Editorial Office of Computer Engineering. All rights reserved.Image splicing combines images from different sources into one image, resulting in inconsistencies in the illumination direction, noise, and other characteristics of the image.Currently, most methods detect forged areas based on the inconsistency of noise in stitched images；however, the accuracy of noise estimation for image blocks of different sizes is generally not high, resulting in a low True Positive Rate(TPR), and the detection fails when the noise difference is small.To solve this problem, a noise estimation method based on adaptive Quaternion Singular Value Decomposition (QSVD) is proposed. The image is segmented by super-pixels, and the noise of these super-pixels is estimated by adaptive QSVD. Combined with image brightness, the image noise-brightness function is established by polynomial fitting, and the minimum distance measure from each super-pixel to the function curve is obtained.To improve detection accuracy, the color temperature feature of the super-pixel is extracted using a color temperature estimation algorithm.The distance measure and color temperature feature are fused as the final feature vector.The stitching region is located by FCM fuzzy clustering.Experiments on the Columbia IPDED splicing image dataset demonstrate that the detection TPR value of this method on the unprocessed image set is at least 8.21 percentage points highter than that of the comparison method.The method is robust to Gaussian blur, JPEG compression, and Gamma correction.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "730070",
+                        "@country": "chn",
+                        "city": "Lanzhou",
+                        "organization": [
+                            {"$": "College of Computer Science and Engineering"},
+                            {"$": "Northwest Normal University"}
+                        ],
+                        "ce:source-text": "College of Computer Science and Engineering, Northwest Normal University, Lanzhou, 730070, China"
+                    },
+                    "person": {
+                        "ce:given-name": "Xiufeng",
+                        "ce:initials": "X.",
+                        "ce:alt-name": "赵秀锋",
+                        "ce:surname": "Zhao",
+                        "ce:indexed-name": "Zhao X."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Adaptive Quaternion Singular Value Decomposition(QSVD)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Color temperature estimation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "FCM clustering",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Noise level",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Splicing tamper detection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "Chinese",
+                        "@xml:lang": "chi"
+                    },
+                    "abstract-language": [
+                        {
+                            "@language": "English",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "@language": "Chinese",
+                            "@xml:lang": "chi"
+                        }
+                    ]
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.ecice06.com/EN/article/showOldVolumn.do",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Jisuanji Gongcheng/Computer Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "pages": "223\u2013230,239",
+                        "voliss": {
+                            "@volume": "48",
+                            "@issue": "4"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Jisuanji Gongcheng/Computer Engineering",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "codencode": "JISGE",
+                    "sourcetitle-abbrev": "Jisuanji Gongcheng",
+                    "@country": "chn",
+                    "issn": {
+                        "$": "10003428",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Editorial Office of Computer Engineering"},
+                    "@srcid": "26713"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1708"},
+                            {"$": "1705"},
+                            {"$": "1704"},
+                            {"$": "1703"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "01",
+                    "@year": "2022",
+                    "@timestamp": "BST 14:13:52",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2017200072",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "942525866",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20222579609",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20222999346",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20229008450117",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85136823291",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85136823291",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.19678/j.issn.1000-3428.0060758"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "20",
+                "reference": [
+                    {
+                        "ref-fulltext": "KHALAF R S, VAROL A. Digital forensics:focusing on image forensics[C]//Proceedings of the 7th International Symposium on Digital Forensics and Security. Washington D. C., USA:IEEE Press, 2019:1-5.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Digital forensics:focusing on image forensics[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070509293",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "5"
+                            }},
+                            "ref-text": "Washington D. C., USA:IEEE Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khalaf",
+                                    "ce:indexed-name": "Khalaf R.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varol",
+                                    "ce:indexed-name": "Varol A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 7Th International Symposium on Digital Forensics and Security"
+                        },
+                        "ce:source-text": "KHALAF R S, VAROL A. Digital forensics:focusing on image forensics[C]//Proceedings of the 7th International Symposium on Digital Forensics and Security. Washington D. C., USA:IEEE Press, 2019:1-5."
+                    },
+                    {
+                        "ref-fulltext": "JOHNSON M K, FARID H. Exposing digital forgeries by detecting inconsistencies in lighting[C]//Proceedings of the 7th Workshop on Multimedia and Security. Washington D. C., USA:IEEE Press, 2005:1-10.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Exposing digital forgeries by detecting inconsistencies in lighting[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33748068816",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "10"
+                            }},
+                            "ref-text": "Washington D. C., USA:IEEE Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johnson",
+                                    "ce:indexed-name": "Johnson M.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farid",
+                                    "ce:indexed-name": "Farid H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 7Th Workshop on Multimedia and Security"
+                        },
+                        "ce:source-text": "JOHNSON M K, FARID H. Exposing digital forgeries by detecting inconsistencies in lighting[C]//Proceedings of the 7th Workshop on Multimedia and Security. Washington D. C., USA:IEEE Press, 2005:1-10."
+                    },
+                    {
+                        "ref-fulltext": "PAN X, ZHANG X, LÜ S. Exposing image splicing with inconsistent local noise variances[C]//Proceedings of IEEE International Conference on Computational Photography. Washington D. C., USA:IEEE Press, 2012:1-10.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Exposing image splicing with inconsistent local noise variances[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84863669377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "10"
+                            }},
+                            "ref-text": "Washington D. C., USA:IEEE Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pan",
+                                    "ce:indexed-name": "Pan X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lü",
+                                    "ce:indexed-name": "Lu S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Computational Photography"
+                        },
+                        "ce:source-text": "PAN X, ZHANG X, LÜ S. Exposing image splicing with inconsistent local noise variances[C]//Proceedings of IEEE International Conference on Computational Photography. Washington D. C., USA:IEEE Press, 2012:1-10."
+                    },
+                    {
+                        "ref-fulltext": "FAN Y, CARRE P, FERNANDEZ-MALOUGNE C Image splicing detection with local illumination estimation[C]//Proceedings of IEEE International Conference on Image Processing. Washington D. C., USA:IEEE Press, 2015: 2940-2944.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Image splicing detection with local illumination estimation[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84956609971",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2940",
+                                "@last": "2944"
+                            }},
+                            "ref-text": "Washington D. C., USA:IEEE Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fan",
+                                    "ce:indexed-name": "Fan Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carre",
+                                    "ce:indexed-name": "Carre P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernandez-Malougne",
+                                    "ce:indexed-name": "Fernandez-Malougne C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Image Processing"
+                        },
+                        "ce:source-text": "FAN Y, CARRE P, FERNANDEZ-MALOUGNE C Image splicing detection with local illumination estimation[C]//Proceedings of IEEE International Conference on Image Processing. Washington D. C., USA:IEEE Press, 2015: 2940-2944."
+                    },
+                    {
+                        "ref-fulltext": "SUN P, LANG Y, FAN S, et al. Exposing splicing forgery based on color temperature estimation[J]. Forensic Science International, 2018, 289:1-11.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Exposing splicing forgery based on color temperature estimation[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85047222382",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "289"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "11"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "P.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sun",
+                                        "ce:indexed-name": "Sun P."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lang",
+                                        "ce:indexed-name": "Lang Y."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Fan",
+                                        "ce:indexed-name": "Fan S."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Forensic Science International"
+                        },
+                        "ce:source-text": "SUN P, LANG Y, FAN S, et al. Exposing splicing forgery based on color temperature estimation[J]. Forensic Science International, 2018, 289:1-11."
+                    },
+                    {
+                        "ref-fulltext": "HU W C, DAI J S, JIAN J S. Effective composite image detection method based on feature inconsistency of image component[s J]. Digital Signal Processing, 2015, 39:50-62.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Effective composite image detection method based on feature inconsistency of image component[s J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924598252",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "39"},
+                                "pagerange": {
+                                    "@first": "50",
+                                    "@last": "62"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu W.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai J.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jian",
+                                    "ce:indexed-name": "Jian J.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Digital Signal Processing"
+                        },
+                        "ce:source-text": "HU W C, DAI J S, JIAN J S. Effective composite image detection method based on feature inconsistency of image component[s J]. Digital Signal Processing, 2015, 39:50-62."
+                    },
+                    {
+                        "ref-fulltext": "PUN C M, LIU B, YUAN X C. Multi-scale noise estimation for image splicing forgery detection[J]. Visual Communication and Image Representation, 2016, 38:195-206.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Multi-scale noise estimation for image splicing forgery detection[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84960120415",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "195",
+                                    "@last": "206"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pun",
+                                    "ce:indexed-name": "Pun C.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan X.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Visual Communication and Image Representation"
+                        },
+                        "ce:source-text": "PUN C M, LIU B, YUAN X C. Multi-scale noise estimation for image splicing forgery detection[J]. Visual Communication and Image Representation, 2016, 38:195-206."
+                    },
+                    {
+                        "ref-fulltext": "PYATYKH S, HESSER J, LEI Z. Image noise level estimation by principal component analysis[J]. IEEE Transactions on Image Processing, 2013, 22(2):687-699.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Image noise level estimation by principal component analysis[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872288511",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "687",
+                                    "@last": "699"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pyatykh",
+                                    "ce:indexed-name": "Pyatykh S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hesser",
+                                    "ce:indexed-name": "Hesser J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lei",
+                                    "ce:indexed-name": "Lei Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Image Processing"
+                        },
+                        "ce:source-text": "PYATYKH S, HESSER J, LEI Z. Image noise level estimation by principal component analysis[J]. IEEE Transactions on Image Processing, 2013, 22(2):687-699."
+                    },
+                    {
+                        "ref-fulltext": "LIU W, LIN W. Additive white Gaussian noise level estimation in SVD domain for images[J]. IEEE Transactions on Image Processing, 2013, 22(3):872-883.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Additive white Gaussian noise level estimation in SVD domain for images[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84873306649",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "872",
+                                    "@last": "883"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Image Processing"
+                        },
+                        "ce:source-text": "LIU W, LIN W. Additive white Gaussian noise level estimation in SVD domain for images[J]. IEEE Transactions on Image Processing, 2013, 22(3):872-883."
+                    },
+                    {
+                        "ref-fulltext": "ZENG H, ZHAN Y, KANG X, et al. Image splicing localization using PCA-based noise level estimation[J]. Multimedia Tools and Applications, 2017, 76(4):4783-4799.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Image splicing localization using PCA-based noise level estimation[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84976518168",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "76",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "4783",
+                                    "@last": "4799"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zeng",
+                                        "ce:indexed-name": "Zeng H."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhan",
+                                        "ce:indexed-name": "Zhan Y."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "X.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kang",
+                                        "ce:indexed-name": "Kang X."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Multimedia Tools and Applications"
+                        },
+                        "ce:source-text": "ZENG H, ZHAN Y, KANG X, et al. Image splicing localization using PCA-based noise level estimation[J]. Multimedia Tools and Applications, 2017, 76(4):4783-4799."
+                    },
+                    {
+                        "ref-fulltext": "WANG J, LI Y, LI J, et al. Color image-spliced localization based on quaternion principal component analysis and quaternion skewness [J]. Information Security and Applications, 2019, 47:353-362.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Color image-spliced localization based on quaternion principal component analysis and quaternion skewness [J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85067384067",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "47"},
+                                "pagerange": {
+                                    "@first": "353",
+                                    "@last": "362"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li Y."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Information Security and Applications"
+                        },
+                        "ce:source-text": "WANG J, LI Y, LI J, et al. Color image-spliced localization based on quaternion principal component analysis and quaternion skewness [J]. Information Security and Applications, 2019, 47:353-362."
+                    },
+                    {
+                        "ref-fulltext": "XIONG S T, ZHANG Y J, LIU T T, et al. Image splicing detection based on optimal color channe[l J]. Electronic Science and Technology, 2020, 33(12):49-53.(in Chinese)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Image splicing detection based on optimal color channe[l J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85136786682",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "49",
+                                    "@last": "53"
+                                }
+                            },
+                            "ref-text": "in Chinese",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S.T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Xiong",
+                                        "ce:indexed-name": "Xiong S.T."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang Y.J."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "T.T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Liu",
+                                        "ce:indexed-name": "Liu T.T."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Electronic Science and Technology"
+                        },
+                        "ce:source-text": "XIONG S T, ZHANG Y J, LIU T T, et al. Image splicing detection based on optimal color channe[l J]. Electronic Science and Technology, 2020, 33(12):49-53.(in Chinese)"
+                    },
+                    {
+                        "ref-fulltext": "ZHANG D, WANG X, ZHANG M, et al. Image splicing localization using noise distribution characteristic[J]. Multimedia Tools and Applications, 2019, 78(16):22223-22247.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Image splicing localization using noise distribution characteristic[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064492757",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "78",
+                                    "@issue": "16"
+                                },
+                                "pagerange": {
+                                    "@first": "22223",
+                                    "@last": "22247"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang D."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "X.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang X."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Multimedia Tools and Applications"
+                        },
+                        "ce:source-text": "ZHANG D, WANG X, ZHANG M, et al. Image splicing localization using noise distribution characteristic[J]. Multimedia Tools and Applications, 2019, 78(16):22223-22247."
+                    },
+                    {
+                        "ref-fulltext": "LI S Q, WEI W M, CHU X L, et al. Image splicing tampered localization method using improved superpixel segmentation and noise estimation[J]. Journal of Huaqiao University(Natural Science), 2020, 41(2):237-243.(in Chinese)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Image splicing tampered localization method using improved superpixel segmentation and noise estimation[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85127466466",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "41",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "237",
+                                    "@last": "243"
+                                }
+                            },
+                            "ref-text": "in Chinese",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S.Q.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li S.Q."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "W.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wei",
+                                        "ce:indexed-name": "Wei W.M."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "X.L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Chu",
+                                        "ce:indexed-name": "Chu X.L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Journal of Huaqiao University(Natural Science)"
+                        },
+                        "ce:source-text": "LI S Q, WEI W M, CHU X L, et al. Image splicing tampered localization method using improved superpixel segmentation and noise estimation[J]. Journal of Huaqiao University(Natural Science), 2020, 41(2):237-243.(in Chinese)"
+                    },
+                    {
+                        "ref-fulltext": "ZHANG D P, WANG X F, HU J J, et al. Image splicing region detection method of noise level inconsistency[J]. Computer Systems & Applications, 2019, 28(2):132-139. (in Chinese)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Image splicing region detection method of noise level inconsistency[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85136812684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "132",
+                                    "@last": "139"
+                                }
+                            },
+                            "ref-text": "in Chinese",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "D.P.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang D.P."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "X.F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang X.F."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hu",
+                                        "ce:indexed-name": "Hu J.J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Computer Systems & Applications"
+                        },
+                        "ce:source-text": "ZHANG D P, WANG X F, HU J J, et al. Image splicing region detection method of noise level inconsistency[J]. Computer Systems & Applications, 2019, 28(2):132-139. (in Chinese)"
+                    },
+                    {
+                        "ref-fulltext": "LIU B, PUN C. Locating splicing forgery by adaptive-SVD noise estimation and vicinity noise descripto[r J]. Neurocomputing, 2020, 387:172-187.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Locating splicing forgery by adaptive-SVD noise estimation and vicinity noise descripto[r J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078017041",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "387"},
+                                "pagerange": {
+                                    "@first": "172",
+                                    "@last": "187"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pun",
+                                    "ce:indexed-name": "Pun C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "LIU B, PUN C. Locating splicing forgery by adaptive-SVD noise estimation and vicinity noise descripto[r J]. Neurocomputing, 2020, 387:172-187."
+                    },
+                    {
+                        "ref-fulltext": "ZHANG F. Quaternion and matrices of quaternions[J]. Linear Algebra and Its Applications, 1997, 251:21-57.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Quaternion and matrices of quaternions[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031540156",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "251"},
+                                "pagerange": {
+                                    "@first": "21",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang F."
+                            }]},
+                            "ref-sourcetitle": "Linear Algebra and Its Applications"
+                        },
+                        "ce:source-text": "ZHANG F. Quaternion and matrices of quaternions[J]. Linear Algebra and Its Applications, 1997, 251:21-57."
+                    },
+                    {
+                        "ref-fulltext": "LIU C, SZELISKI R, BING K S, et al. Automatic estimation and removal of noise from a single image[J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2008, 30(2):299-314.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Automatic estimation and removal of noise from a single image[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "37549006056",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "299",
+                                    "@last": "314"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Liu",
+                                        "ce:indexed-name": "Liu C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Szeliski",
+                                        "ce:indexed-name": "Szeliski R."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "K.S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bing",
+                                        "ce:indexed-name": "Bing K.S."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis & Machine Intelligence"
+                        },
+                        "ce:source-text": "LIU C, SZELISKI R, BING K S, et al. Automatic estimation and removal of noise from a single image[J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2008, 30(2):299-314."
+                    },
+                    {
+                        "ref-fulltext": "ZHOU R Z, HE J, HONG Z L. Adaptive algorithm of auto white balance for digital camera[J]. Journal of Computer- Aided Design & Computer Graphics, 2005, 17(3):529-533. (in Chinese)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Adaptive algorithm of auto white balance for digital camera[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "16644370557",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "529",
+                                    "@last": "533"
+                                }
+                            },
+                            "ref-text": "in Chinese",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou R.Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong Z.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Computer- Aided Design & Computer Graphics"
+                        },
+                        "ce:source-text": "ZHOU R Z, HE J, HONG Z L. Adaptive algorithm of auto white balance for digital camera[J]. Journal of Computer- Aided Design & Computer Graphics, 2005, 17(3):529-533. (in Chinese)"
+                    },
+                    {
+                        "ref-fulltext": "PAL N R, BEZDEK J C. On cluster validity for the fuzzy C-means model [J]. IEEE Transactions on Fuzzy Systems, 2002, 3(3):370-379.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "On cluster validity for the fuzzy C-means model [J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029360028",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "370",
+                                    "@last": "379"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pal",
+                                    "ce:indexed-name": "Pal N.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bezdek",
+                                    "ce:indexed-name": "Bezdek J.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Fuzzy Systems"
+                        },
+                        "ce:source-text": "PAL N R, BEZDEK J C. On cluster validity for the fuzzy C-means model [J]. IEEE Transactions on Fuzzy Systems, 2002, 3(3):370-379."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Shihezi",
+            "@id": "60030922",
+            "affilname": "Shihezi University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030922",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Lanzhou",
+            "@id": "60003640",
+            "affilname": "Northwest Normal University China",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003640",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "4",
+        "eid": "2-s2.0-85136823291",
+        "dc:description": "Image splicing combines images from different sources into one image, resulting in inconsistencies in the illumination direction, noise, and other characteristics of the image.Currently, most methods detect forged areas based on the inconsistency of noise in stitched images；however, the accuracy of noise estimation for image blocks of different sizes is generally not high, resulting in a low True Positive Rate(TPR), and the detection fails when the noise difference is small.To solve this problem, a noise estimation method based on adaptive Quaternion Singular Value Decomposition (QSVD) is proposed. The image is segmented by super-pixels, and the noise of these super-pixels is estimated by adaptive QSVD. Combined with image brightness, the image noise-brightness function is established by polynomial fitting, and the minimum distance measure from each super-pixel to the function curve is obtained.To improve detection accuracy, the color temperature feature of the super-pixel is extracted using a color temperature estimation algorithm.The distance measure and color temperature feature are fused as the final feature vector.The stitching region is located by FCM fuzzy clustering.Experiments on the Columbia IPDED splicing image dataset demonstrate that the detection TPR value of this method on the unprocessed image set is at least 8.21 percentage points highter than that of the comparison method.The method is robust to Gaussian blur, JPEG compression, and Gamma correction.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85136823291",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Xiufeng",
+            "preferred-name": {
+                "ce:given-name": "Xiufeng",
+                "ce:initials": "X.",
+                "ce:surname": "Zhao",
+                "ce:indexed-name": "Zhao X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003640",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003640"
+            },
+            "ce:alt-name": "赵秀锋",
+            "ce:surname": "Zhao",
+            "@auid": "57217875327",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217875327",
+            "ce:indexed-name": "Zhao X."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85136823291"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85136823291&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85136823291&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Jisuanji Gongcheng/Computer Engineering",
+        "source-id": "26713",
+        "citedby-count": "0",
+        "prism:volume": "48",
+        "subtype": "ar",
+        "dc:title": "Image Splicing Detection Based on Adaptive Quaternion Singular Value Decomposition",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:doi": "10.19678/j.issn.1000-3428.0060758",
+        "prism:issn": "10003428",
+        "publishercopyright": "© 2022, Editorial Office of Computer Engineering. All rights reserved.",
+        "dc:identifier": "SCOPUS_ID:85136823291",
+        "dc:publisher": "Editorial Office of Computer Engineering"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Adaptive Quaternion Singular Value Decomposition(QSVD)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Color temperature estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "FCM clustering"
+        },
+        {
+            "@_fa": "true",
+            "$": "Noise level"
+        },
+        {
+            "@_fa": "true",
+            "$": "Splicing tamper detection"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Hardware and Architecture",
+            "@code": "1708",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Graphics and Computer-Aided Design",
+            "@code": "1704",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational Theory and Mathematics",
+            "@code": "1703",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Xiufeng",
+            "preferred-name": {
+                "ce:given-name": "Xiufeng",
+                "ce:initials": "X.",
+                "ce:surname": "Zhao",
+                "ce:indexed-name": "Zhao X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003640",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003640"
+            },
+            "ce:alt-name": "赵秀锋",
+            "ce:surname": "Zhao",
+            "@auid": "57217875327",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217875327",
+            "ce:indexed-name": "Zhao X."
+        },
+        {
+            "ce:given-name": "Weiyi",
+            "preferred-name": {
+                "ce:given-name": "Weiyi",
+                "ce:initials": "W.",
+                "ce:surname": "Wei",
+                "ce:indexed-name": "Wei W."
+            },
+            "@seq": "2",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003640",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003640"
+            },
+            "ce:alt-name": "魏伟一",
+            "ce:surname": "Wei",
+            "@auid": "35758063000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35758063000",
+            "ce:indexed-name": "Wei W."
+        },
+        {
+            "ce:given-name": "Jinshou",
+            "preferred-name": {
+                "ce:given-name": "Jinshou",
+                "ce:initials": "J.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60030922",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030922"
+            },
+            "ce:alt-name": "陈金寿",
+            "ce:surname": "Chen",
+            "@auid": "57208283800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57208283800",
+            "ce:indexed-name": "Chen J."
+        },
+        {
+            "ce:given-name": "Guo",
+            "preferred-name": {
+                "ce:given-name": "Guo",
+                "ce:initials": "G.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen G."
+            },
+            "@seq": "4",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003640",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003640"
+            },
+            "ce:alt-name": "陈 帼",
+            "ce:surname": "Chen",
+            "@auid": "57863720900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57863720900",
+            "ce:indexed-name": "Chen G."
+        }
+    ]}
+}}

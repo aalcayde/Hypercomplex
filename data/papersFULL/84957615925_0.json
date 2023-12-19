@@ -1,0 +1,1645 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "16",
+                "@year": "2019",
+                "@timestamp": "2019-10-16T21:55:20.000020-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "17",
+                "@year": "2015",
+                "@month": "09"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Spain",
+                            "postal-code": "07122",
+                            "@afid": "60009780",
+                            "@country": "esp",
+                            "city": "Palma de Mallorca",
+                            "organization": [
+                                {"$": "Systems"},
+                                {"$": "Robotics and Vision Group"},
+                                {"$": "University of the Balearic Islands (UIB)"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60009780",
+                                "@dptid": "113361721"
+                            },
+                            "@dptid": "113361721"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Francisco",
+                                "preferred-name": {
+                                    "ce:given-name": "Francisco",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Bonin-Font",
+                                    "ce:indexed-name": "Bonin-Font F."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bonin-Font",
+                                "@auid": "24079942800",
+                                "ce:indexed-name": "Bonin-Font F."
+                            },
+                            {
+                                "ce:given-name": "Pep Lluis",
+                                "preferred-name": {
+                                    "ce:given-name": "Pep Lluis",
+                                    "ce:initials": "P.L.",
+                                    "ce:surname": "Negre",
+                                    "ce:indexed-name": "Negre P."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "P.L.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Negre",
+                                "@auid": "57105385900",
+                                "ce:indexed-name": "Negre P.L."
+                            },
+                            {
+                                "ce:given-name": "Gabriel",
+                                "preferred-name": {
+                                    "ce:given-name": "Gabriel",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Oliver",
+                                    "ce:indexed-name": "Oliver G."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Oliver",
+                                "@auid": "7202065303",
+                                "ce:indexed-name": "Oliver G."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Serbia",
+                            "@afid": "60068815",
+                            "@country": "srb",
+                            "city": "Belgrade",
+                            "organization": [
+                                {"$": "Robotics Laboratory"},
+                                {"$": "Institute Mihailo Pupin"},
+                                {"$": "University of Belgrade"}
+                            ],
+                            "affiliation-id": [
+                                {
+                                    "@afid": "60068815",
+                                    "@dptid": "109230312"
+                                },
+                                {"@afid": "60068837"}
+                            ],
+                            "@dptid": "109230312"
+                        },
+                        "author": [{
+                            "ce:given-name": "Aleksandar",
+                            "preferred-name": {
+                                "ce:given-name": "Aleksandar",
+                                "ce:initials": "A.",
+                                "ce:surname": "Cosic",
+                                "ce:indexed-name": "Cosic A."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Cosic",
+                            "@auid": "53865997500",
+                            "ce:indexed-name": "Cosic A."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Germany",
+                            "postal-code": "56070",
+                            "@afid": "60006429",
+                            "@country": "deu",
+                            "city": "Koblenz",
+                            "organization": [
+                                {"$": "Computational Visualistics Group"},
+                                {"$": "University Koblenz-Landau"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60006429",
+                                "@dptid": "109900465"
+                            },
+                            "@dptid": "109900465"
+                        },
+                        "author": [{
+                            "ce:given-name": "Markus",
+                            "preferred-name": {
+                                "ce:given-name": "Markus",
+                                "ce:initials": "M.",
+                                "ce:surname": "Solbach",
+                                "ce:indexed-name": "Solbach M."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Solbach",
+                            "@auid": "57105420400",
+                            "ce:indexed-name": "Solbach M."
+                        }]
+                    }
+                ],
+                "citation-title": "Stereo SLAM for robust dense 3D reconstruction of underwater environments",
+                "abstracts": "© 2015 IEEE.The virtual reconstruction of underwater environments in 3 dimensions can be of great utility for scientific or industrials applications, being the use of Autonomous Underwater Vehicles (AUVs) equipped with cameras an invaluable tool with progressive improvements. However, a highly accurate vehicle localization process is fundamental to place every portion of that 3D model in its real position with respect to the origin of the world system of coordinates, and to join properly the overall reconstructed area, especially in large surveys. Simultaneous Localization And Mapping (SLAM) techniques constitute the most precise localization approach using only data provided by the navigation sensors installed on board the underwater robot. However, the real challenge consists in applying these techniques in underwater environments where the imaging conditions are usually limited or degraded. This paper presents the comparison of two different SLAM approaches based on stereo-vision, a graph-SLAM and an EKF SLAM, applied to localize, in real time, an AUV moving in underwater environments. Both algorithms deal with pure 3D data, (x, y, z) for the vehicle position and a quaternion to represent its orientation. The aim of this work is to assess and compare the performance of both solutions in terms of accuracy in the estimation of the robot pose. First experiments were conducted in controlled aquatic scenarios where it was feasible to build a highly reliable ground truth, showing how the graph-SLAM approach outperforms its EKF counterpart under the same working and environmental conditions. A second set of experiments was conducted in the sea, showing the same tendency in the results. The SLAM pose estimates, given with respect to a global world frame, corresponding to the approach with less accumulated error are used to recreated virtual 3D maps of the environment based on the concatenation of successive stereo visual point clouds placed in the corresponding SLAM locations.",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "MTS/IEEE OCEANS 2015 - Genova: Discovering Sustainable Ocean Energy for a New World",
+                        "@xml:lang": "eng"
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "$": "9781479987368",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {"confevent": {
+                        "confname": "MTS/IEEE OCEANS 2015 - Genova",
+                        "confsponsors": {
+                            "confsponsor": null,
+                            "@complete": "n"
+                        },
+                        "confcatnumber": "CFP15OCF-ART",
+                        "confseriestitle": "MTS/IEEE OCEANS",
+                        "conflocation": {
+                            "@country": "ita",
+                            "city": "Genova"
+                        },
+                        "confcode": "117645",
+                        "confdate": {
+                            "enddate": {
+                                "@day": "21",
+                                "@year": "2015",
+                                "@month": "05"
+                            },
+                            "startdate": {
+                                "@day": "18",
+                                "@year": "2015",
+                                "@month": "05"
+                            }
+                        },
+                        "confURL": "www.oceans15mtsieeegenova.org",
+                        "conftheme": "Discovering Sustainable Ocean Energy for a New World"
+                    }}},
+                    "sourcetitle": "MTS/IEEE OCEANS 2015 - Genova: Discovering Sustainable Ocean Energy for a New World",
+                    "publicationdate": {
+                        "month": "09",
+                        "year": "2015",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "17 September 2015"
+                        },
+                        "day": "17"
+                    },
+                    "sourcetitle-abbrev": "MTS/IEEE OCEANS - Genova: Discov. Sustain. Ocean Energy New World",
+                    "@country": "usa",
+                    "issuetitle": "MTS/IEEE OCEANS 2015 - Genova: Discovering Sustainable Ocean Energy for a New World",
+                    "publicationyear": {"@first": "2015"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "7271333",
+                    "@srcid": "21100444318"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2105"},
+                            {"$": "1910"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "431.5",
+                                "classification-description": "Air Navigation and Traffic Control"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            },
+                            {
+                                "classification-code": "731.6",
+                                "classification-description": "Robot Applications"
+                            },
+                            {
+                                "classification-code": "746",
+                                "classification-description": "Imaging Techniques"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "79.27",
+                            "classification-description": "VESSELS AND MARINE ENGINEERING"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENER"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2016 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "13",
+                    "@year": "2016",
+                    "@timestamp": "BST 10:40:20",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "608231036",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "645369713",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20160701915885",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84957615925",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84957615925",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/OCEANS-Genova.2015.7271333"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "21",
+                "reference": [
+                    {
+                        "ref-fulltext": "C. Beall, F. Dellaert, I. Mahon, and S. Williams, \"Bundle adjustment in large-scale 3d reconstructions based on underwater robotic surveys, \" in Proceedings of Oceans, Santander, Spain, June 2011.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Bundle adjustment in large-scale 3d reconstructions based on underwater robotic surveys"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052930245",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Santander, Spain, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beall",
+                                    "ce:indexed-name": "Beall C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dellaert",
+                                    "ce:indexed-name": "Dellaert F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahon",
+                                    "ce:indexed-name": "Mahon I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Oceans"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Bonin-Font. (2014) Video 2. [Online]. Available: http://youtu. be/ IvKsVrrepgg",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://youtu.be/IvKsVrrepgg",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957702759",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "F. Bonin-Font Video 2."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Bonin-Font, M. Massot-Campos, P. Negre, G. Oliver, and J. Beltran, \"Inertial sensor self-calibration in a visually-aided navigation approach for a micro-auv, \" Sensors, Special Issue Inertial Sensors and Systems, vol. 15, no. 1, pp. 1825-1860, 2015.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Inertial sensor self-calibration in a visually-aided navigation approach for a micro-auv"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921452149",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1825",
+                                    "@last": "1860"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonin-Font",
+                                    "ce:indexed-name": "Bonin-Font F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Massot-Campos",
+                                    "ce:indexed-name": "Massot-Campos M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Negre",
+                                    "ce:indexed-name": "Negre P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oliver",
+                                    "ce:indexed-name": "Oliver G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beltran",
+                                    "ce:indexed-name": "Beltran J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors, Special Issue Inertial Sensors and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Bonin-Font, G. Oliver, S. Wirth, M. Massot-Campos, P. L. Negre, and J. P. Beltran, \"Visual sensing for autonomous underwater exploration and intervention tasks, \" Journal of Ocean Engineering, vol. 93, pp. 25-44, 2015.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Visual sensing for autonomous underwater exploration and intervention tasks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84912535382",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "93"},
+                                "pagerange": {
+                                    "@first": "25",
+                                    "@last": "44"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonin-Font",
+                                    "ce:indexed-name": "Bonin-Font F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oliver",
+                                    "ce:indexed-name": "Oliver G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wirth",
+                                    "ce:indexed-name": "Wirth S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Massot-Campos",
+                                    "ce:indexed-name": "Massot-Campos M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Negre",
+                                    "ce:indexed-name": "Negre P.L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beltran",
+                                    "ce:indexed-name": "Beltran J.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Ocean Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Bujnak, S. Kukelova, and T. Pajdla, \"New Efficient Solution to the Absolute Pose Problem for Camera with Unknown Focal Length and Radial Distortion, \" Lecture Notes in Computer Science, vol. 6492, pp. 11-24, 2011.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "New efficient solution to the absolute pose problem for camera with unknown focal length and radial distortion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952515394",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6492"},
+                                "pagerange": {
+                                    "@first": "11",
+                                    "@last": "24"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bujnak",
+                                    "ce:indexed-name": "Bujnak M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kukelova",
+                                    "ce:indexed-name": "Kukelova S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pajdla",
+                                    "ce:indexed-name": "Pajdla T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lecture Notes in Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Corke, C. Detweiler, M. Dunbabin, M. Hamilton, D. Rus, and I. Vasilescu, \"Experiments with underwater robot localization and tracking. \" in Proceedings of IEEE International Conference on Robotics and Automation (ICRA), April 2007, pp. 4556-4561.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Experiments with underwater robot localization and tracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "36349005378",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4556",
+                                "@last": "4561"
+                            }},
+                            "ref-text": "April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Corke",
+                                    "ce:indexed-name": "Corke P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Detweiler",
+                                    "ce:indexed-name": "Detweiler C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dunbabin",
+                                    "ce:indexed-name": "Dunbabin M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamilton",
+                                    "ce:indexed-name": "Hamilton M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rus",
+                                    "ce:indexed-name": "Rus D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vasilescu",
+                                    "ce:indexed-name": "Vasilescu I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Robotics and Automation (ICRA)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Eustice, O. Pizarro, and H. Singh, \"Visually augmented navigation for autonomous underwater vehicles, \" IEEE Journal of Oceanic Engineering, vol. 33, no. 2, pp. 103-122, April 2008.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Visually augmented navigation for autonomous underwater vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "56049099278",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "103",
+                                    "@last": "122"
+                                }
+                            },
+                            "ref-text": "April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eustice",
+                                    "ce:indexed-name": "Eustice R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pizarro",
+                                    "ce:indexed-name": "Pizarro O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Journal of Oceanic Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Geiger, J. Ziegler, and C. Stiller, \"Stereoscan: Dense 3d reconstruction in real-time, \" in IEEE Intelligent Vehicles Symposium, Baden-Baden, Germany, June 2011.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Stereoscan: Dense 3d reconstruction in real-time"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79960792622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Baden-Baden, Germany, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geiger",
+                                    "ce:indexed-name": "Geiger A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ziegler",
+                                    "ce:indexed-name": "Ziegler J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stiller",
+                                    "ce:indexed-name": "Stiller C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Intelligent Vehicles Symposium"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Gracias, P. Ridao, R. Garcia, J. Escartin, M. L'Hour, F. Cibecchini, R. Campos, M. Carreras, D. Ribas, N. Palomeras, L. Magi, A. Palomer, T. Nicosevici, R. Prados, R. Hegedus, L. Neumann, F. de Filippo, and A. Mallios, \"Mapping the Moon: Using a lightweight AUV to survey the site of the 17th Century ship 'La Lune', \" in Procedings of the MTS/IEEE Oceans, 2013.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Mapping the moon: Using a lightweight auv to survey the site of the 17th century ship 'la lune'"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84886421434",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gracias",
+                                    "ce:indexed-name": "Gracias N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ridao",
+                                    "ce:indexed-name": "Ridao P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia",
+                                    "ce:indexed-name": "Garcia R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Escartin",
+                                    "ce:indexed-name": "Escartin J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "L'Hour",
+                                    "ce:indexed-name": "L'Hour M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cibecchini",
+                                    "ce:indexed-name": "Cibecchini F."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Campos",
+                                    "ce:indexed-name": "Campos R."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carreras",
+                                    "ce:indexed-name": "Carreras M."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ribas",
+                                    "ce:indexed-name": "Ribas D."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palomeras",
+                                    "ce:indexed-name": "Palomeras N."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Magi",
+                                    "ce:indexed-name": "Magi L."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palomer",
+                                    "ce:indexed-name": "Palomer A."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nicosevici",
+                                    "ce:indexed-name": "Nicosevici T."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prados",
+                                    "ce:indexed-name": "Prados R."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hegedus",
+                                    "ce:indexed-name": "Hegedus R."
+                                },
+                                {
+                                    "@seq": "16",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neumann",
+                                    "ce:indexed-name": "Neumann L."
+                                },
+                                {
+                                    "@seq": "17",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Filippo",
+                                    "ce:indexed-name": "De Filippo F."
+                                },
+                                {
+                                    "@seq": "18",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mallios",
+                                    "ce:indexed-name": "Mallios A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Procedings of the MTS/IEEE Oceans"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. S. Hover, R. M. Eustice, A. Kim, B. Englot, H. Johannsson, M. Kaess, and J. J. Leonard, \"Advanced perception, navigation and planning for autonomous in-water ship hull inspection, \" Journal of Robotics Research, vol. 31, no. 12, pp. 1445-1464, 2011.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Advanced perception, navigation and planning for autonomous in-water ship hull inspection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84870458460",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1445",
+                                    "@last": "1464"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hover",
+                                    "ce:indexed-name": "Hover F.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eustice",
+                                    "ce:indexed-name": "Eustice R.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Englot",
+                                    "ce:indexed-name": "Englot B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johannsson",
+                                    "ce:indexed-name": "Johannsson H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaess",
+                                    "ce:indexed-name": "Kaess M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Robotics Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Johnson-Roberson, O. Pizarro, S. Williams, and I. Mahon, \"Generation and visualization of large-scale three-Dimensional reconstructions from underwater robotic surveys, \" Journal of Field Robotics, vol. 27, no. 1, pp. 21-51, 2010.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Generation and visualization of large-scale three-Dimensional reconstructions from underwater robotic surveys"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "75749147604",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "21",
+                                    "@last": "51"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johnson-Roberson",
+                                    "ce:indexed-name": "Johnson-Roberson M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pizarro",
+                                    "ce:indexed-name": "Pizarro O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahon",
+                                    "ce:indexed-name": "Mahon I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Field Robotics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Kummerle, G. Grisetti, H. Strasdat, K. Konolige, and W. Burgard, \"g2o: A general framework for graph optimization, \" in Proceedings of the IEEE ICRA, Shangai-China 2011, pp. 3607-3613.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "G2o: A general framework for graph optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871676827",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3607",
+                                "@last": "3613"
+                            }},
+                            "ref-text": "Shangai-China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kummerle",
+                                    "ce:indexed-name": "Kummerle R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grisetti",
+                                    "ce:indexed-name": "Grisetti G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strasdat",
+                                    "ce:indexed-name": "Strasdat H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burgard",
+                                    "ce:indexed-name": "Burgard W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE ICRA"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Marcon, H. Sahling, C. Borowski, C. dos Santos Ferreira, J. Thal, and G. Bohrmann, \"Megafaunal distribution and assessment of total methane and sulfide consumption by mussel beds at menez gwen hydrothermal vent, besed on geo-referenced photomosaics. \" Deep Sea Research Part I:Oceanographic Research Papers, vol. 75, pp. 93-109, 2013.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Megafaunal distribution and assessment of total methane and sulfide consumption by mussel beds at menez gwen hydrothermal vent, besed on geo-referenced photomosaics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84874942799",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "75"},
+                                "pagerange": {
+                                    "@first": "93",
+                                    "@last": "109"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marcon",
+                                    "ce:indexed-name": "Marcon Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sahling",
+                                    "ce:indexed-name": "Sahling H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Borowski",
+                                    "ce:indexed-name": "Borowski C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dos Santos Ferreira",
+                                    "ce:indexed-name": "Dos Santos Ferreira C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thal",
+                                    "ce:indexed-name": "Thal J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bohrmann",
+                                    "ce:indexed-name": "Bohrmann G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Deep Sea Research Part I: Oceanographic Research Papers"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. L. Negre. (2014) Graph-SLAM repository. [Online]. Available: http://wiki. ros. org/stereo slam",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://wiki.ros.org/stereoslam",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957697640",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Negre",
+                                "ce:indexed-name": "Negre P.L."
+                            }]},
+                            "ref-sourcetitle": "Graph-SLAM Repository"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. L. Negre, F. Bonin-Font, and G. Oliver, \"Stereo Graph SLAM for Autonomous Underwater Vehicles, \" in Proc. of International Conference on Intelligent Autonomous Systems (IAS), 2014.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Stereo graph SLAM for autonomous underwater vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84954089561",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Negre",
+                                    "ce:indexed-name": "Negre P.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonin-Font",
+                                    "ce:indexed-name": "Bonin-Font F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oliver",
+                                    "ce:indexed-name": "Oliver G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of International Conference on Intelligent Autonomous Systems (IAS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. L. Negre and G. Oliver. (2014) Video 1. [Online]. Available: https://www. youtube. com/watch?v=h3FfXafuOvE",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.youtube.com/watch?v=h3FfXafuOvE",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957623155",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Negre",
+                                    "ce:indexed-name": "Negre P.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oliver",
+                                    "ce:indexed-name": "Oliver G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Video 1"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. Pizarro, R. Eustice, and H. Singh, \"Large area 3-D reconstructions from underwater optical surveys, \" IEEE Journal of Oceanic Engineering, vol. 34, no. 2, April 2009.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Large area 3-D reconstructions from underwater optical surveys"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "66449095968",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "34",
+                                "@issue": "2"
+                            }},
+                            "ref-text": "April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pizarro",
+                                    "ce:indexed-name": "Pizarro O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eustice",
+                                    "ce:indexed-name": "Eustice R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Journal of Oceanic Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Ribas, N. Palomeras, P. Ridao, M. Carreras, and A. Mallios, \"Girona 500 AUV: From Survey to Intervention, \" IEEE/ASME Transactions on Mechatronics, vol. 17, no. 1, pp. 46-53, 2012.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Girona 500 AUV: From survey to intervention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84855946275",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "46",
+                                    "@last": "53"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ribas",
+                                    "ce:indexed-name": "Ribas D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palomeras",
+                                    "ce:indexed-name": "Palomeras N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ridao",
+                                    "ce:indexed-name": "Ridao P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carreras",
+                                    "ce:indexed-name": "Carreras M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mallios",
+                                    "ce:indexed-name": "Mallios A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/ASME Transactions on Mechatronics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Schattschneider, G. Maurino, and W. Wang, \"Towards stereo vision slam based pose estimation for ship hull inspection, \" in Proceedings of Oceans, Waikoloa, Hawaii, June 2011, pp. 1-8.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Towards stereo vision slam based pose estimation for ship hull inspection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921283193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-text": "Waikoloa, Hawaii, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schattschneider",
+                                    "ce:indexed-name": "Schattschneider R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maurino",
+                                    "ce:indexed-name": "Maurino G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of Oceans"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Smith, P. Cheeseman, and M. Self, \"A stochastic map for uncertain spatial relationships. \" in Proceedings of International Symposium on Robotic Research, MIT Press, 1987, pp. 467-474.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "A stochastic map for uncertain spatial relationships"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003313733",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "467",
+                                "@last": "474"
+                            }},
+                            "ref-text": "MIT Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheeseman",
+                                    "ce:indexed-name": "Cheeseman P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Self",
+                                    "ce:indexed-name": "Self M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of International Symposium on Robotic Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Solback and F. Bonin-Font. (2014) EKF-SLAM repository. [Online]. Available: https://github. com/srv/6dof stereo ekf slam",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://github.com/srv/6dofstereoekfslam",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957671393",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Solback",
+                                    "ce:indexed-name": "Solback M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonin-Font",
+                                    "ce:indexed-name": "Bonin-Font F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "EKF-SLAM Repository"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Belgrade",
+            "@id": "60068815",
+            "affilname": "University of Belgrade",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068815",
+            "affiliation-country": "Serbia"
+        },
+        {
+            "affiliation-city": "Palma",
+            "@id": "60009780",
+            "affilname": "Universitat de les Illes Balears",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009780",
+            "affiliation-country": "Spain"
+        },
+        {
+            "affiliation-city": "Koblenz am Rhein",
+            "@id": "60006429",
+            "affilname": "Universität Koblenz-Landau",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60006429",
+            "affiliation-country": "Germany"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84957615925",
+        "dc:description": "The virtual reconstruction of underwater environments in 3 dimensions can be of great utility for scientific or industrials applications, being the use of Autonomous Underwater Vehicles (AUVs) equipped with cameras an invaluable tool with progressive improvements. However, a highly accurate vehicle localization process is fundamental to place every portion of that 3D model in its real position with respect to the origin of the world system of coordinates, and to join properly the overall reconstructed area, especially in large surveys. Simultaneous Localization And Mapping (SLAM) techniques constitute the most precise localization approach using only data provided by the navigation sensors installed on board the underwater robot. However, the real challenge consists in applying these techniques in underwater environments where the imaging conditions are usually limited or degraded. This paper presents the comparison of two different SLAM approaches based on stereo-vision, a graph-SLAM and an EKF SLAM, applied to localize, in real time, an AUV moving in underwater environments. Both algorithms deal with pure 3D data, (x, y, z) for the vehicle position and a quaternion to represent its orientation. The aim of this work is to assess and compare the performance of both solutions in terms of accuracy in the estimation of the robot pose. First experiments were conducted in controlled aquatic scenarios where it was feasible to build a highly reliable ground truth, showing how the graph-SLAM approach outperforms its EKF counterpart under the same working and environmental conditions. A second set of experiments was conducted in the sea, showing the same tendency in the results. The SLAM pose estimates, given with respect to a global world frame, corresponding to the approach with less accumulated error are used to recreated virtual 3D maps of the environment based on the concatenation of successive stereo visual point clouds placed in the corresponding SLAM locations.",
+        "prism:coverDate": "2015-09-17",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84957615925",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Francisco",
+            "preferred-name": {
+                "ce:given-name": "Francisco",
+                "ce:initials": "F.",
+                "ce:surname": "Bonin-Font",
+                "ce:indexed-name": "Bonin-Font F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60009780",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009780"
+            },
+            "ce:surname": "Bonin-Font",
+            "@auid": "24079942800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24079942800",
+            "ce:indexed-name": "Bonin-Font F."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84957615925"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84957615925&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84957615925&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781479987368",
+        "prism:publicationName": "MTS/IEEE OCEANS 2015 - Genova: Discovering Sustainable Ocean Energy for a New World",
+        "source-id": "21100444318",
+        "citedby-count": "10",
+        "subtype": "cp",
+        "dc:title": "Stereo SLAM for robust dense 3D reconstruction of underwater environments",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/OCEANS-Genova.2015.7271333",
+        "publishercopyright": "© 2015 IEEE.",
+        "article-number": "7271333",
+        "dc:identifier": "SCOPUS_ID:84957615925",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Accumulated errors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Environmental conditions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Navigation sensors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Of autonomous underwater vehicles",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Simultaneous localization and mapping",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Underwater environments",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Vehicle localization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Virtual reconstruction",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Renewable Energy, Sustainability and the Environment",
+            "@code": "2105",
+            "@abbrev": "ENER"
+        },
+        {
+            "@_fa": "true",
+            "$": "Oceanography",
+            "@code": "1910",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Francisco",
+            "preferred-name": {
+                "ce:given-name": "Francisco",
+                "ce:initials": "F.",
+                "ce:surname": "Bonin-Font",
+                "ce:indexed-name": "Bonin-Font F."
+            },
+            "@seq": "1",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60009780",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009780"
+            },
+            "ce:surname": "Bonin-Font",
+            "@auid": "24079942800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24079942800",
+            "ce:indexed-name": "Bonin-Font F."
+        },
+        {
+            "ce:given-name": "Aleksandar",
+            "preferred-name": {
+                "ce:given-name": "Aleksandar",
+                "ce:initials": "A.",
+                "ce:surname": "Cosic",
+                "ce:indexed-name": "Cosic A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60068815",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60068815"
+            },
+            "ce:surname": "Cosic",
+            "@auid": "53865997500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/53865997500",
+            "ce:indexed-name": "Cosic A."
+        },
+        {
+            "ce:given-name": "Pep Lluis",
+            "preferred-name": {
+                "ce:given-name": "Pep Lluis",
+                "ce:initials": "P.L.",
+                "ce:surname": "Negre",
+                "ce:indexed-name": "Negre P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60009780",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009780"
+            },
+            "ce:surname": "Negre",
+            "@auid": "57105385900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57105385900",
+            "ce:indexed-name": "Negre P.L."
+        },
+        {
+            "ce:given-name": "Markus",
+            "preferred-name": {
+                "ce:given-name": "Markus",
+                "ce:initials": "M.",
+                "ce:surname": "Solbach",
+                "ce:indexed-name": "Solbach M."
+            },
+            "@seq": "4",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60006429",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60006429"
+            },
+            "ce:surname": "Solbach",
+            "@auid": "57105420400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57105420400",
+            "ce:indexed-name": "Solbach M."
+        },
+        {
+            "ce:given-name": "Gabriel",
+            "preferred-name": {
+                "ce:given-name": "Gabriel",
+                "ce:initials": "G.",
+                "ce:surname": "Oliver",
+                "ce:indexed-name": "Oliver G."
+            },
+            "@seq": "5",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60009780",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009780"
+            },
+            "ce:surname": "Oliver",
+            "@auid": "7202065303",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7202065303",
+            "ce:indexed-name": "Oliver G."
+        }
+    ]}
+}}

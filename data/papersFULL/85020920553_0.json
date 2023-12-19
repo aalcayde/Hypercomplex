@@ -1,0 +1,1311 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "06",
+                "@timestamp": "2021-11-06T15:18:18.000018-04:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2017",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Ministry of Science, ICT & Future Planning",
+                    "xocs:funding-agency-acronym": "MSIP",
+                    "xocs:funding-agency": "Ministry of Science, ICT and Future Planning",
+                    "xocs:funding-id": "NRF-2015R1C1A1A02036373",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003621",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Research Foundation of Korea",
+                    "xocs:funding-agency-acronym": "NRF",
+                    "xocs:funding-agency": "National Research Foundation of Korea",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003725",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-29T12:00:11.996Z",
+            "xocs:funding-text": "This research was supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Science, ICT & Future Planning (NRF-2015R1C1A1A02036373).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "South Korea",
+                            "@afid": "60073748",
+                            "@country": "kor",
+                            "city": "Anseong",
+                            "organization": [
+                                {"$": "Department of Mechanical Engineering"},
+                                {"$": "Hankyong National University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60073748",
+                                "@dptid": "104833531"
+                            },
+                            "@dptid": "104833531"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Jung Keun",
+                                "preferred-name": {
+                                    "ce:given-name": "Jung Keun",
+                                    "ce:initials": "J.K.",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "J.K.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:degrees": "B.Sc., M.Sc., Ph.D.",
+                                "ce:surname": "Lee",
+                                "@auid": "57032175000",
+                                "ce:indexed-name": "Lee J.K."
+                            },
+                            {
+                                "ce:given-name": "Mi Jin",
+                                "preferred-name": {
+                                    "ce:given-name": "Mi Jin",
+                                    "ce:initials": "M.J.",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi M.J."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "M.J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:degrees": "B.Sc., M.Sc.",
+                                "ce:surname": "Choi",
+                                "@auid": "57194572737",
+                                "ce:indexed-name": "Choi M.J."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "South Korea",
+                            "@afid": "60073748",
+                            "@country": "kor",
+                            "organization": [
+                                {"$": "Institute of Machine Convergence Technology"},
+                                {"$": "Hankyong National University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60073748",
+                                "@dptid": "117626770"
+                            },
+                            "@dptid": "117626770"
+                        },
+                        "author": [{
+                            "ce:given-name": "Jung Keun",
+                            "preferred-name": {
+                                "ce:given-name": "Jung Keun",
+                                "ce:initials": "J.K.",
+                                "ce:surname": "Lee",
+                                "ce:indexed-name": "Lee J.K."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "J.K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:degrees": "B.Sc., M.Sc., Ph.D.",
+                            "ce:surname": "Lee",
+                            "@auid": "57032175000",
+                            "ce:indexed-name": "Lee J.K."
+                        }]
+                    }
+                ],
+                "citation-title": "A sequential orientation kalman filter for AHRS limiting effects of magnetic disturbance to heading estimation",
+                "abstracts": "© The Korean Institute of Electrical Engineers.This paper deals with three dimensional orientation estimation algorithm for an attitude and heading reference system (AHRS) based on nine-axis inertial/magnetic sensor signals. In terms of the orientation estimation based on the use of a Kalman filter (KF), the quaternion is arguably the most popular orientation representation. However, one critical drawback in the quaternion representation is that undesirable magnetic disturbances affect not only yaw estimation but also roll and pitch estimations. In this paper, a sequential direction cosine matrix-based orientation KF for AHRS has been presented. The proposed algorithm uses two linear KFs, consisting of an attitude KF followed by a heading KF. In the latter, the direction of the local magnetic field vector is projected onto the heading axis of the inertial frame by considering the dip angle, which can be determined after the attitude KF. Owing to the sequential KF structure, the effects of even extreme magnetic disturbances are limited to the roll and pitch estimations, without any additional decoupling process. This overcomes an inherent issue in quaternion-based estimation algorithms. Validation test results show that the proposed method outperforms other comparison methods in terms of the yaw estimation accuracy during perturbations and in terms of the recovery speed.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "South Korea",
+                        "@country": "kor",
+                        "city": "Anseong",
+                        "organization": [
+                            {"$": "Department of Mechanical Engineering"},
+                            {"$": "Hankyong National University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Jung Keun",
+                        "ce:initials": "J.K.",
+                        "ce:degrees": "B.Sc., M.Sc., Ph.D.",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee J.K."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Attitude and heading reference system (AHRS)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Direction cosine matrix (DCM)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Magnetic disturbance",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Orientation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Sequential Kalman filter",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "J. Electr. Eng. Technol.",
+                    "website": {"ce:e-address": {
+                        "$": "http://www.jeet.or.kr/ltkPSWeb/pub/pubfpfile.aspx?ppseq=1836",
+                        "@type": "email"
+                    }},
+                    "@country": "kor",
+                    "translated-sourcetitle": {
+                        "$": "Journal of Electrical Engineering and Technology",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "20937423",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "19750102",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "12",
+                            "@issue": "4"
+                        },
+                        "pagerange": {
+                            "@first": "1675",
+                            "@last": "1682"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2017"},
+                    "publisher": {
+                        "publishername": "Korean Institute of Electrical Engineers",
+                        "ce:e-address": {
+                            "$": "jeet@kiee.or.kr",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "Journal of Electrical Engineering and Technology",
+                    "@srcid": "17200154707",
+                    "publicationdate": {
+                        "year": "2017",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2017"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "701.2",
+                                "classification-description": "Magnetism, Basic Concepts and Phenomena"
+                            },
+                            {
+                                "classification-code": "703.2",
+                                "classification-description": "Electric Filters"
+                            },
+                            {
+                                "classification-code": "933.1.1",
+                                "classification-description": "Crystal Lattice"
+                            },
+                            {
+                                "classification-code": "941.2",
+                                "classification-description": "Acoustic Variables Measurements"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "2208"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This research was supported by Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Science, ICT & Future Planning (NRF-2015R1C1A1A02036373).",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-acronym": "MSIP",
+                            "grant-agency": {
+                                "@iso-code": "kor",
+                                "$": "Ministry of Science, ICT and Future Planning"
+                            }
+                        },
+                        {
+                            "grant-id": "2015R1C1A1A02036373",
+                            "grant-acronym": "NRF",
+                            "grant-agency": {
+                                "@iso-code": "kor",
+                                "$": "National Research Foundation of Korea"
+                            }
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@timestamp": "BST 08:35:56",
+                    "@year": "2017",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "616886313",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "666075499",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20172503808024",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20171102568",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "85020920553",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85020920553",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.5370/JEET.2017.12.4.1675"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "18",
+                "reference": [
+                    {
+                        "ref-fulltext": "Jung Keun Lee, Stephen N. Robinovitch and Edward J. Park, \u201cInertial sensing-based pre-impact detection of falls involving near-fall scenarios,\u201d IEEE Trans. Neural Syst. Rehab. Eng., vol. 23, pp. 258-266, 2015.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Inertial sensing-based pre-impact detection of falls involving near-fall scenarios"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924860823",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "23"},
+                                "pagerange": {
+                                    "@first": "258",
+                                    "@last": "266"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jung Keun",
+                                    "@seq": "1",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "ce:given-name": "Stephen N.",
+                                    "@seq": "2",
+                                    "ce:initials": "S.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Robinovitch",
+                                    "ce:indexed-name": "Robinovitch S.N."
+                                },
+                                {
+                                    "ce:given-name": "Edward J.",
+                                    "@seq": "3",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Neural Syst. Rehab. Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ja-Woong Yoon, Yeon-Sik Noh, Yi-Suk Kwon, Won-Ki Kim and Hyung-Ro Yoon, \u201cImprovement of dynamic respiration monitoring through sensor fusion of accelerometer and gyro-sensor,\u201d J. Elect. Eng. Technol., vol. 9, no. 1, pp. 334-343, Jan. 2014.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Improvement of dynamic respiration monitoring through sensor fusion of accelerometer and gyro-sensor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84891136992",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9 Jan",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "334",
+                                    "@last": "343"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Ja-Woong",
+                                    "@seq": "1",
+                                    "ce:initials": "J.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yoon",
+                                    "ce:indexed-name": "Yoon J.-W."
+                                },
+                                {
+                                    "ce:given-name": "Yeon-Sik",
+                                    "@seq": "2",
+                                    "ce:initials": "Y.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Noh",
+                                    "ce:indexed-name": "Noh Y.-S."
+                                },
+                                {
+                                    "ce:given-name": "Yi-Suk",
+                                    "@seq": "3",
+                                    "ce:initials": "Y.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwon",
+                                    "ce:indexed-name": "Kwon Y.-S."
+                                },
+                                {
+                                    "ce:given-name": "Won-Ki",
+                                    "@seq": "4",
+                                    "ce:initials": "W.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim W.-K."
+                                },
+                                {
+                                    "ce:given-name": "Hyung-Ro",
+                                    "@seq": "5",
+                                    "ce:initials": "H.-R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yoon",
+                                    "ce:indexed-name": "Yoon H.-R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Elect. Eng. Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Duy Duong Pham, Quoc Khanh Dang and Young Soo Suh, \u201cGolf green slope estimation using a cross laser structured light system and an accelerometer,\u201d J. Elect. Eng. Technol., vol. 11, no. 2, pp. 508-518, Mar. 2016.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Golf green slope estimation using a cross laser structured light system and an accelerometer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957059900",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11 Mar",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "508",
+                                    "@last": "518"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Duy Duong",
+                                    "@seq": "1",
+                                    "ce:initials": "D.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham D.D."
+                                },
+                                {
+                                    "ce:given-name": "Quoc Khanh",
+                                    "@seq": "2",
+                                    "ce:initials": "Q.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dang",
+                                    "ce:indexed-name": "Dang Q.K."
+                                },
+                                {
+                                    "ce:given-name": "Young Soo",
+                                    "@seq": "3",
+                                    "ce:initials": "Y.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suh",
+                                    "ce:indexed-name": "Suh Y.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Elect. Eng. Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jung Keun Lee and Edward J. Park, \u201cA fast quaternion-based orientation optimizer via virtual rotation for human motion tracking,\u201d IEEE Tran. Biomed. Eng., vol. 56, no. 5, pp. 1574-1582, May 2009.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "A fast quaternion-based orientation optimizer via virtual rotation for human motion tracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67649233849",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56 May",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1574",
+                                    "@last": "1582"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jung Keun",
+                                    "@seq": "1",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "ce:given-name": "Edward J.",
+                                    "@seq": "2",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Tran. Biomed. Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jung Keun Lee and Edward J. Park, \u201cMinimum-order Kalman filter with vector selector for accurate estimation of human body orientation,\u201d IEEE Trans. Robot., vol. 25, no. 5, pp. 1196-1201, 2009.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Minimum-order Kalman filter with vector selector for accurate estimation of human body orientation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70350234646",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1196",
+                                    "@last": "1201"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jung Keun",
+                                    "@seq": "1",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "ce:given-name": "Edward J.",
+                                    "@seq": "2",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Eric R. Bachmann, Xiaoping Yun and Anne Brumfield, \u201cLimitations of attitude estimation algorithms for inertial/magnetic sensor modules,\u201d IEEE. Robot. Autom., vol. 14, pp.76-87, 2007.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Limitations of attitude estimation algorithms for inertial/magnetic sensor modules"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35348840347",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "76",
+                                    "@last": "87"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Eric R.",
+                                    "@seq": "1",
+                                    "ce:initials": "E.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachmann",
+                                    "ce:indexed-name": "Bachmann E.R."
+                                },
+                                {
+                                    "ce:given-name": "Xiaoping",
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yun",
+                                    "ce:indexed-name": "Yun X."
+                                },
+                                {
+                                    "ce:given-name": "Anne",
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brumfield",
+                                    "ce:indexed-name": "Brumfield A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE. Robot. Autom"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. De Vries, H. Veeger, C. Baten and F. van der Helm, \u201cMagnetic distortion in motion labs, implications for validating inertial magnetic sensors,\u201d Gait Posture., vol. 29, pp. 535-541, 2009.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Magnetic distortion in motion labs, implications for validating inertial magnetic sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "63249085409",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "29"},
+                                "pagerange": {
+                                    "@first": "535",
+                                    "@last": "541"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Vries",
+                                    "ce:indexed-name": "De Vries W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veeger",
+                                    "ce:indexed-name": "Veeger H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baten",
+                                    "ce:indexed-name": "Baten C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Der Helm",
+                                    "ce:indexed-name": "Van Der Helm F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nagesh Yadav and Chris Bleakley, \u201cAccurate orientation estimation using AHRS under conditions of magnetic distortion,\u201d Sensors, vol. 14, pp. 20008-20024, 2014.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Accurate orientation estimation using AHRS under conditions of magnetic distortion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908544448",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "20008",
+                                    "@last": "20024"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Nagesh",
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yadav",
+                                    "ce:indexed-name": "Yadav N."
+                                },
+                                {
+                                    "ce:given-name": "Chris",
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bleakley",
+                                    "ce:indexed-name": "Bleakley C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sebastian O. H. Madgwick, Andrew Harrison and Ravi Vaidyanathan, \u201cEstimation of IMU and MARG orientation using a gradient descent algorithm,\u201d in Proc. of the 2011 IEEE Int'l Conf. on Rehab. Robotics (ICORR), Zurich, Switzerland, July 2011.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Andrew Harrison and Ravi Vaidyanathan"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80055059186",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "in Proc. of the 2011 IEEE Int'l Conf. on Rehab. Robotics (ICORR), Zurich, Switzerland",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Sebastian O. H.",
+                                "@seq": "1",
+                                "ce:initials": "S.O.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Madgwick",
+                                "ce:indexed-name": "Madgwick S.O.H."
+                            }]},
+                            "ref-sourcetitle": "Estimation of IMU and MARG Orientation Using a Gradient Descent Algorithm"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jung Keun Lee, Edward J. Park and Stephen N. Robinovitch, \u201cEstimation of attitude and external acceleration using inertial sensor measurement during various dynamic conditions,\u201d IEEE Trans. Instrum. Meas., vol. 61, no. 8, pp. 2262-2273, Aug. 2012.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Estimation of attitude and external acceleration using inertial sensor measurement during various dynamic conditions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84863989528",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2262",
+                                    "@last": "2273"
+                                }
+                            },
+                            "ref-text": "Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jung Keun",
+                                    "@seq": "1",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.K."
+                                },
+                                {
+                                    "ce:given-name": "Edward J.",
+                                    "@seq": "2",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park E.J."
+                                },
+                                {
+                                    "ce:given-name": "Stephen N.",
+                                    "@seq": "3",
+                                    "ce:initials": "S.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Robinovitch",
+                                    "ce:indexed-name": "Robinovitch S.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Grace Wahba, \u201cProblem 65-1: A least squares estimate of satellite attitude,\u201d SIAM Rev., vol. 7, no. 3, p.409, Jul. 1965.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1965"},
+                            "ref-title": {"ref-titletext": "Problem 65-1: A least squares estimate of satellite attitude"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000137854",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {"@first": "409"}
+                            },
+                            "ref-text": "Jul",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Grace",
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Wahba",
+                                "ce:indexed-name": "Wahba G."
+                            }]},
+                            "ref-sourcetitle": "SIAM Rev"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xiaoping Yun, Eric R. Bachmann and Robert B. McGhee, \u201cA simplified quaternion-based algorithm for orientation estimation from Earth gravity and magnetic field measurements,\u201d IEEE Trans. Instrum. Meas., vol. 57, no. 3, pp. 638-650, Mar. 2008.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "A simplified quaternion-based algorithm for orientation estimation from Earth gravity and magnetic field measurements"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "40649129071",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "638",
+                                    "@last": "650"
+                                }
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Xiaoping",
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yun",
+                                    "ce:indexed-name": "Yun X."
+                                },
+                                {
+                                    "ce:given-name": "Eric R.",
+                                    "@seq": "2",
+                                    "ce:initials": "E.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachmann",
+                                    "ce:indexed-name": "Bachmann E.R."
+                                },
+                                {
+                                    "ce:given-name": "Robert B.",
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McGhee",
+                                    "ce:indexed-name": "McGhee R.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Young Soo Suh, \u201cOrientation estimation using a quaternion-based indirect Kalman filter with adaptive estimation of external acceleration.\u201d IEEE Trans. Instrum. Meas., vol. 59, no. 12, pp. 3296-3305, Dec. 2010.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Orientation estimation using a quaternion-based indirect Kalman filter with adaptive estimation of external acceleration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78149471478",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "3296",
+                                    "@last": "3305"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Young Soo",
+                                "@seq": "1",
+                                "ce:initials": "Y.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Suh",
+                                "ce:indexed-name": "Suh Y.S."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Young Soo Suh, Young Shick Ro and Hee Jun Kang, \u201cQuaternion-based indirect Kalman filter discarding pitch and roll information contained in magnetic sensors,\u201d IEEE Trans. Instrum. Meas., vol. 61, no. 6, pp. 1786-1792, Jun. 2012.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Quaternion-based indirect Kalman filter discarding pitch and roll information contained in magnetic sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84861194644",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1786",
+                                    "@last": "1792"
+                                }
+                            },
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Young Soo",
+                                    "@seq": "1",
+                                    "ce:initials": "Y.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suh",
+                                    "ce:indexed-name": "Suh Y.S."
+                                },
+                                {
+                                    "ce:given-name": "Young Shick",
+                                    "@seq": "2",
+                                    "ce:initials": "Y.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ro",
+                                    "ce:indexed-name": "Ro Y.S."
+                                },
+                                {
+                                    "ce:given-name": "Hee Jun",
+                                    "@seq": "3",
+                                    "ce:initials": "H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang H.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nguyen Ho Quoc Phuong, Hee-Jun Kang, Young-Soo Suh and Young-Sik Ro, \u201cA DCM based orientation estimation algorithm with an inertial measurement unit and a magnetic compass,\u201d J. Univers. Comput. Sci., vol. 15, no. 4, pp. 859-876, 2009.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "A DCM based orientation estimation algorithm with an inertial measurement unit and a magnetic compass"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67650139444",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "859",
+                                    "@last": "876"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Nguyen Ho Quoc",
+                                    "@seq": "1",
+                                    "ce:initials": "N.H.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phuong",
+                                    "ce:indexed-name": "Phuong N.H.Q."
+                                },
+                                {
+                                    "ce:given-name": "Hee-Jun",
+                                    "@seq": "2",
+                                    "ce:initials": "H.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang H.-J."
+                                },
+                                {
+                                    "ce:given-name": "Young-Soo",
+                                    "@seq": "3",
+                                    "ce:initials": "Y.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suh",
+                                    "ce:indexed-name": "Suh Y.-S."
+                                },
+                                {
+                                    "ce:given-name": "Young-Sik",
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ro",
+                                    "ce:indexed-name": "Ro Y.-S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Univers. Comput. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Henk J. Luinge and Peter H. Veltink, \u201cMeasuring orientation of human body segments using miniature gyroscopes and accelerometers,\u201d Med. Biol. Eng. Comput., vol. 43, no. 2, pp. 273-282, Mar. 2005.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Measuring orientation of human body segments using miniature gyroscopes and accelerometers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18144397889",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43 Mar",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "273",
+                                    "@last": "282"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Henk J.",
+                                    "@seq": "1",
+                                    "ce:initials": "H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luinge",
+                                    "ce:indexed-name": "Luinge H.J."
+                                },
+                                {
+                                    "ce:given-name": "Peter H.",
+                                    "@seq": "2",
+                                    "ce:initials": "P.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veltink",
+                                    "ce:indexed-name": "Veltink P.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Med. Biol. Eng. Comput."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xsens MTw user\u2019s manual, available online: https://www.xsens.com.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.xsens.com",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020890685",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Xsens Mtw user\u2019s Manual"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gabriele Ligorio and Angelo Maria Sabatini, \u201cDealing with magnetic disturbances in human motion capture: a survey of techniques,\u201d Micromachines, vol. 7, no. 43, Mar. 2016.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Dealing with magnetic disturbances in human motion capture: A survey of techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84963963810",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {"@first": "43"}
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Gabriele",
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ligorio",
+                                    "ce:indexed-name": "Ligorio G."
+                                },
+                                {
+                                    "ce:given-name": "Angelo Maria",
+                                    "@seq": "2",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabatini",
+                                    "ce:indexed-name": "Sabatini A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Micromachines"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Anseong",
+        "@id": "60073748",
+        "affilname": "Hankyong National University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073748",
+        "affiliation-country": "South Korea"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85020920553",
+        "dc:description": "This paper deals with three dimensional orientation estimation algorithm for an attitude and heading reference system (AHRS) based on nine-axis inertial/magnetic sensor signals. In terms of the orientation estimation based on the use of a Kalman filter (KF), the quaternion is arguably the most popular orientation representation. However, one critical drawback in the quaternion representation is that undesirable magnetic disturbances affect not only yaw estimation but also roll and pitch estimations. In this paper, a sequential direction cosine matrix-based orientation KF for AHRS has been presented. The proposed algorithm uses two linear KFs, consisting of an attitude KF followed by a heading KF. In the latter, the direction of the local magnetic field vector is projected onto the heading axis of the inertial frame by considering the dip angle, which can be determined after the attitude KF. Owing to the sequential KF structure, the effects of even extreme magnetic disturbances are limited to the roll and pitch estimations, without any additional decoupling process. This overcomes an inherent issue in quaternion-based estimation algorithms. Validation test results show that the proposed method outperforms other comparison methods in terms of the yaw estimation accuracy during perturbations and in terms of the recovery speed.",
+        "prism:coverDate": "2017-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85020920553",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Jung Keun",
+            "preferred-name": {
+                "ce:given-name": "Jung Keun",
+                "ce:initials": "J.K.",
+                "ce:surname": "Lee",
+                "ce:indexed-name": "Lee J.K."
+            },
+            "@seq": "1",
+            "ce:initials": "J.K.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60073748",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073748"
+                },
+                {
+                    "@id": "60073748",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073748"
+                }
+            ],
+            "ce:degrees": "B.Sc., M.Sc., Ph.D.",
+            "ce:surname": "Lee",
+            "@auid": "57032175000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57032175000",
+            "ce:indexed-name": "Lee J.K."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85020920553"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85020920553&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85020920553&origin=inward"
+            }
+        ],
+        "source-id": "17200154707",
+        "citedby-count": "10",
+        "prism:volume": "12",
+        "subtype": "ar",
+        "dc:title": "A sequential orientation kalman filter for AHRS limiting effects of magnetic disturbance to heading estimation",
+        "openaccess": null,
+        "prism:issn": "20937423 19750102",
+        "publishercopyright": "© The Korean Institute of Electrical Engineers.",
+        "prism:issueIdentifier": "4",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Journal of Electrical Engineering and Technology",
+        "prism:pageRange": "1675-1682",
+        "prism:endingPage": "1682",
+        "openaccessFlag": null,
+        "prism:doi": "10.5370/JEET.2017.12.4.1675",
+        "prism:startingPage": "1675",
+        "dc:identifier": "SCOPUS_ID:85020920553",
+        "dc:publisher": "Korean Institute of Electrical Engineersjeet@kiee.or.kr"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attitude and heading reference systems (AHRS)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Direction cosine",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Estimation algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Local magnetic field",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Magnetic disturbance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Orientation estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion representation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Three-dimensional orientation",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Attitude and heading reference system (AHRS)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Direction cosine matrix (DCM)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Magnetic disturbance"
+        },
+        {
+            "@_fa": "true",
+            "$": "Orientation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Sequential Kalman filter"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Electrical and Electronic Engineering",
+        "@code": "2208",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Jung Keun",
+            "preferred-name": {
+                "ce:given-name": "Jung Keun",
+                "ce:initials": "J.K.",
+                "ce:surname": "Lee",
+                "ce:indexed-name": "Lee J.K."
+            },
+            "@seq": "1",
+            "ce:initials": "J.K.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60073748",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073748"
+                },
+                {
+                    "@id": "60073748",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073748"
+                }
+            ],
+            "ce:degrees": "B.Sc., M.Sc., Ph.D.",
+            "ce:surname": "Lee",
+            "@auid": "57032175000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57032175000",
+            "ce:indexed-name": "Lee J.K."
+        },
+        {
+            "ce:given-name": "Mi Jin",
+            "preferred-name": {
+                "ce:given-name": "Mi Jin",
+                "ce:initials": "M.J.",
+                "ce:surname": "Choi",
+                "ce:indexed-name": "Choi M.J."
+            },
+            "@seq": "2",
+            "ce:initials": "M.J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60073748",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073748"
+            },
+            "ce:degrees": "B.Sc., M.Sc.",
+            "ce:surname": "Choi",
+            "@auid": "57194572737",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194572737",
+            "ce:indexed-name": "Choi M.J."
+        }
+    ]}
+}}

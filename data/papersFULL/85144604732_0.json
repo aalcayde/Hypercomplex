@@ -1,0 +1,1693 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@year": "2023",
+                "@timestamp": "2023-07-02T06:43:22.000022-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "201306",
+                        "@afid": "60082200",
+                        "@country": "chn",
+                        "city": "Shanghai",
+                        "organization": [
+                            {"$": "Laboratory of Robot and Intelligent Technology"},
+                            {"$": "Shanghai DianJi University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60082200",
+                            "@dptid": "129008701"
+                        },
+                        "ce:source-text": "Laboratory of Robot and Intelligent Technology, Shanghai DianJi University, Shanghai 201306, China",
+                        "@dptid": "129008701"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Yaohui",
+                            "preferred-name": {
+                                "ce:given-name": "Yaohui",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang Y."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "常耀辉",
+                            "ce:surname": "Chang",
+                            "@auid": "58028387500",
+                            "ce:indexed-name": "Chang Y."
+                        },
+                        {
+                            "ce:given-name": "Niansheng",
+                            "preferred-name": {
+                                "ce:given-name": "Niansheng",
+                                "ce:initials": "N.",
+                                "ce:surname": "Chen",
+                                "ce:indexed-name": "Chen N."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "陈年生",
+                            "ce:surname": "Chen",
+                            "@auid": "57202084859",
+                            "ce:indexed-name": "Chen N."
+                        },
+                        {
+                            "ce:given-name": "Lei",
+                            "preferred-name": {
+                                "ce:given-name": "Lei",
+                                "ce:initials": "L.",
+                                "ce:surname": "Rao",
+                                "ce:indexed-name": "Rao L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "饶蕾",
+                            "ce:surname": "Rao",
+                            "@auid": "57045375700",
+                            "ce:indexed-name": "Rao L."
+                        },
+                        {
+                            "ce:given-name": "Songlin",
+                            "preferred-name": {
+                                "ce:given-name": "Songlin",
+                                "ce:initials": "S.",
+                                "ce:surname": "Cheng",
+                                "ce:indexed-name": "Cheng S."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "程松林",
+                            "ce:surname": "Cheng",
+                            "@auid": "58028133900",
+                            "ce:indexed-name": "Cheng S."
+                        },
+                        {
+                            "ce:given-name": "Guangyu",
+                            "preferred-name": {
+                                "ce:given-name": "Guangyu",
+                                "ce:initials": "G.",
+                                "ce:surname": "Fan",
+                                "ce:indexed-name": "Fan G."
+                            },
+                            "@seq": "5",
+                            "ce:initials": "G.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "范光宇",
+                            "ce:surname": "Fan",
+                            "@auid": "36109885900",
+                            "ce:indexed-name": "Fan G."
+                        },
+                        {
+                            "ce:given-name": "Xiaoyong",
+                            "preferred-name": {
+                                "ce:given-name": "Xiaoyong",
+                                "ce:initials": "X.",
+                                "ce:surname": "Song",
+                                "ce:indexed-name": "Song X."
+                            },
+                            "@seq": "6",
+                            "ce:initials": "X.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "宋晓勇",
+                            "ce:surname": "Song",
+                            "@auid": "36728430600",
+                            "ce:indexed-name": "Song X."
+                        },
+                        {
+                            "ce:given-name": "Dingyu",
+                            "preferred-name": {
+                                "ce:given-name": "Dingyu",
+                                "ce:initials": "D.",
+                                "ce:surname": "Yang",
+                                "ce:indexed-name": "Yang D."
+                            },
+                            "@seq": "7",
+                            "ce:initials": "D.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "杨定裕",
+                            "ce:surname": "Yang",
+                            "@auid": "56138675600",
+                            "ce:indexed-name": "Yang D."
+                        }
+                    ]
+                },
+                "citation-title": "Lidar Point Cloud Descriptor with Rotation and Translation Invariance in Dynamic Environment动 态 环 境 下 具 有 旋 转 和 平 移 不 变 性 的 激 光 雷 达点 云 描 述 子",
+                "abstracts": "© 2022 Chinese Optical Society. All rights reserved.Descriptors in lidar closed-loop detection algorithms such as Intensity ScanContext (ISC) are easily disturbed by carrier rotation and translation variations, and their invariance is weak, which leads to poor closed-loop effect. In view of these problems, a lidar point cloud descriptor with rotation and translation invariance in an urban dynamic environment is proposed. Firstly, in terms of point cloud processing, a ground point segmentation algorithm based on angular images is used to remove ground points in point cloud data, and a dynamic target elimination algorithm based on curved voxel clustering is adopted to realize point cloud segmentation and remove dynamic targets. Secondly, Coordinate system transformation of point clouds are carried out based on quaternions collected by an inertial measurement unit, and the point clouds in all frames are unified under the same heading angle, so as to realize the rotation invariance of the descriptor. In addition, the relative position relationship between the static targets in the point clouds and the normal plane where the moving direction of the carrier is located is used to determine the rendering center of the descriptor, so as to realize the translation invariance of the descriptor. Finally, the proposed descriptor is used for closed-loop detection, and the consistency of the closed-loop detection results is verified according to the spatial structure of the point cloud data. The experimental results under the KITTI public dataset show that the proposed method can achieve closed-loop detection more quickly and accurately in an urban dynamic environment. Compared with that of the ISC algorithm, the recall rate of the proposed method is improved by 8. 58 percentage points at an accuracy of 100%, and the average time consumption is reduced by 12.90%.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "201306",
+                        "@country": "chn",
+                        "city": "Shanghai",
+                        "organization": [
+                            {"$": "Laboratory of Robot and Intelligent Technology"},
+                            {"$": "Shanghai DianJi University"}
+                        ],
+                        "ce:source-text": "Laboratory of Robot and Intelligent Technology, Shanghai DianJi University, Shanghai 201306, China"
+                    },
+                    "person": {
+                        "ce:given-name": "Lei",
+                        "ce:initials": "L.",
+                        "ce:alt-name": "饶蕾",
+                        "ce:surname": "Rao",
+                        "ce:indexed-name": "Rao L."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "atmospheric optics",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "closed- loop detection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "inertial measurement unit",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "lidar",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "rotation invariance",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "translation invariance",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "Chinese",
+                        "@xml:lang": "chi"
+                    },
+                    "abstract-language": [
+                        {
+                            "@language": "English",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "@language": "Chinese",
+                            "@xml:lang": "chi"
+                        }
+                    ]
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.researching.cn/articles/OJ6f770e9f4e9193cf",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Guangxue Xuebao/Acta Optica Sinica",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "42",
+                        "@issue": "24"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "Guangxue Xuebao/Acta Optica Sinica",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2022",
+                        "date-text": "December 2022",
+                        "day": "01"
+                    },
+                    "codencode": "GUXUD",
+                    "sourcetitle-abbrev": "Guangxue Xuebao",
+                    "@country": "chn",
+                    "issn": {
+                        "$": "02532239",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Chinese Optical Society"},
+                    "article-number": "2401007",
+                    "@srcid": "29717"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "741.3",
+                                "classification-description": "Optical Devices and Systems"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3107"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "29",
+                    "@year": "2022",
+                    "@timestamp": "BST 07:14:25",
+                    "@month": "12"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2021953042",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "945033662",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20225213310279",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20223743173",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20224547136",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2022903703352X",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85144604732",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85144604732",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.3788/AOS202242.2401007"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "22",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "李炯, 邵金菊, 王任栋, 等 . 基于 SR-Context 的激光雷达 点 云 闭 环 检 测 算 法 [J]. 光 学 学 报, 2021, 41(22): 2228002. Li J, Shao J J, Wang R D, et al. A SR-context loop-closure detection algorithm of lidar point clouds[J]. Acta Optica Sinica, 2021, 41(22): 2228002.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "A SR-context loop-closure detection algorithm of lidar point clouds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85125165868",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "41",
+                                    "@issue": "22"
+                                },
+                                "pagerange": {"@first": "2228002"}
+                            },
+                            "ref-text": "李炯, 邵金菊, 王任栋, 等 基于 SR-Context 的激光雷达 点 云 闭 环 检 测 算 法 [J]. 光 学 学 报, 2021, 41(22): 2228002. [J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li J"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J J",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shao",
+                                        "ce:indexed-name": "Shao J J"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "R D",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang R D"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Acta Optica Sinica"
+                        },
+                        "ce:source-text": "李炯, 邵金菊, 王任栋, 等 . 基于 SR-Context 的激光雷达 点 云 闭 环 检 测 算 法 [J]. 光 学 学 报, 2021, 41(22): 2228002. Li J, Shao J J, Wang R D, et al. A SR-context loop-closure detection algorithm of lidar point clouds[J]. Acta Optica Sinica, 2021, 41(22): 2228002."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Li S P, Zhang T, Gao X, et al. Semi-direct monocular visual and visual-inertial SLAM with loop closure detection[J]. Robotics and Autonomous Systems, 2019, 112: 201-210.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Semi-direct monocular visual and visual-inertial SLAM with loop closure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058130722",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "112"},
+                                "pagerange": {
+                                    "@first": "201",
+                                    "@last": "210"
+                                }
+                            },
+                            "ref-text": "[J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S P",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li S P"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "T",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang T"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "X",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gao",
+                                        "ce:indexed-name": "Gao X"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Robotics and Autonomous Systems"
+                        },
+                        "ce:source-text": "Li S P, Zhang T, Gao X, et al. Semi-direct monocular visual and visual-inertial SLAM with loop closure detection[J]. Robotics and Autonomous Systems, 2019, 112: 201-210."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Meng Q Y, Guo H Y, Zhao X M, et al. Loop-closure detection with a multiresolution point cloud histogram mode in lidar odometry and mapping for intelligent vehicles[J]. IEEE/ASME Transactions on Mechatronics, 2021, 26(3): 1307-1317.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Loop-closure detection with a multiresolution point cloud histogram mode in lidar odometry and mapping for intelligent vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85102292282",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1307",
+                                    "@last": "1317"
+                                }
+                            },
+                            "ref-text": "[J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Q Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Meng",
+                                        "ce:indexed-name": "Meng Q Y"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "H Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Guo",
+                                        "ce:indexed-name": "Guo H Y"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "X M",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhao",
+                                        "ce:indexed-name": "Zhao X M"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE/ASME Transactions on Mechatronics"
+                        },
+                        "ce:source-text": "Meng Q Y, Guo H Y, Zhao X M, et al. Loop-closure detection with a multiresolution point cloud histogram mode in lidar odometry and mapping for intelligent vehicles[J]. IEEE/ASME Transactions on Mechatronics, 2021, 26(3): 1307-1317."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "章弘凯, 陈年生, 代作晓, 等 . 一种多层次数据融合的SLAM 定位算法[J]. 机器人, 2021, 43(6): 641-652. Zhang H K, Chen N S, Dai Z X, et al. A multi-level data fusion localization algorithm for SLAM[J]. Robot, 2021, 43(6): 641-652.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "A multi-level data fusion localization algorithm for SLAM"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85120401204",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "641",
+                                    "@last": "652"
+                                }
+                            },
+                            "ref-text": "章弘凯, 陈年生, 代作晓, 等 一种多层次数据融合的SLAM 定位算法[J]. 机器人, 2021, 43(6): 641-652. [J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "H K",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang H K"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "N S",
+                                        "@_fa": "true",
+                                        "ce:surname": "Chen",
+                                        "ce:indexed-name": "Chen N S"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "Z X",
+                                        "@_fa": "true",
+                                        "ce:surname": "Dai",
+                                        "ce:indexed-name": "Dai Z X"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Robot"
+                        },
+                        "ce:source-text": "章弘凯, 陈年生, 代作晓, 等 . 一种多层次数据融合的SLAM 定位算法[J]. 机器人, 2021, 43(6): 641-652. Zhang H K, Chen N S, Dai Z X, et al. A multi-level data fusion localization algorithm for SLAM[J]. Robot, 2021, 43(6): 641-652."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "周光召, 苑晶, 高海明, 等 . 结构化环境下基于结构单元 软 编 码 的 3 维 激 光 雷 达 点 云 描 述 子 [J]. 机 器 人, 2020, 42(6): 641-650. Zhou G Z, Yuan J, Gao H M, et al. The 3D lidar point cloud descriptor based on structural unit soft-encoding in structured environment[J]. Robot, 2020, 42(6): 641-650.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "The 3D lidar point cloud descriptor based on structural unit soft-encoding in structured environment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098283035",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "641",
+                                    "@last": "650"
+                                }
+                            },
+                            "ref-text": "周光召, 苑晶, 高海明, 等 结构化环境下基于结构单元 软 编 码 的 3 维 激 光 雷 达 点 云 描 述 子 [J]. 机 器 人, 2020, 42(6): 641-650. [J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "G Z",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhou",
+                                        "ce:indexed-name": "Zhou G Z"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "J",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yuan",
+                                        "ce:indexed-name": "Yuan J"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "H M",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gao",
+                                        "ce:indexed-name": "Gao H M"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Robot"
+                        },
+                        "ce:source-text": "周光召, 苑晶, 高海明, 等 . 结构化环境下基于结构单元 软 编 码 的 3 维 激 光 雷 达 点 云 描 述 子 [J]. 机 器 人, 2020, 42(6): 641-650. Zhou G Z, Yuan J, Gao H M, et al. The 3D lidar point cloud descriptor based on structural unit soft-encoding in structured environment[J]. Robot, 2020, 42(6): 641-650."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Steder B, Ruhnke M, Grzonka S, et al. Place recognition in 3D scans using a combination of bag of words and point feature based relative pose estimation [C]//2011 IEEE/RSJ International Conference on Intelligent Robots and Systems, September 25-30, 2011, San Francisco, CA, USA. New York: IEEE Press, 2011: 1249-1255.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Place recognition in 3D scans using a combination of bag of words and point feature based relative pose estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84455200455",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1249",
+                                "@last": "1255"
+                            }},
+                            "ref-text": "[C] September 25-30, San Francisco, CA, USA. New York: IEEE Press, 2011",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "B",
+                                        "@_fa": "true",
+                                        "ce:surname": "Steder",
+                                        "ce:indexed-name": "Steder B"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "M",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ruhnke",
+                                        "ce:indexed-name": "Ruhnke M"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "S",
+                                        "@_fa": "true",
+                                        "ce:surname": "Grzonka",
+                                        "ce:indexed-name": "Grzonka S"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+                        },
+                        "ce:source-text": "Steder B, Ruhnke M, Grzonka S, et al. Place recognition in 3D scans using a combination of bag of words and point feature based relative pose estimation [C]//2011 IEEE/RSJ International Conference on Intelligent Robots and Systems, September 25-30, 2011, San Francisco, CA, USA. New York: IEEE Press, 2011: 1249-1255."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Salti S, Tombari F, di Stefano L. SHOT: unique signatures of histograms for surface and texture description[J]. Computer Vision and Image Understanding, 2014, 125: 251-264.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "SHOT: unique signatures of histograms for surface and texture description"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84901939360",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "125"},
+                                "pagerange": {
+                                    "@first": "251",
+                                    "@last": "264"
+                                }
+                            },
+                            "ref-text": "[J]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salti",
+                                    "ce:indexed-name": "Salti S"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tombari",
+                                    "ce:indexed-name": "Tombari F"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "di Stefano",
+                                    "ce:indexed-name": "di Stefano L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Image Understanding"
+                        },
+                        "ce:source-text": "Salti S, Tombari F, di Stefano L. SHOT: unique signatures of histograms for surface and texture description[J]. Computer Vision and Image Understanding, 2014, 125: 251-264."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wang Y, Sun Z Z, Xu C Z, et al. LiDAR Iris for loop-closure detection[C]//2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 24-January 24, 2021, Las Vegas, NV, USA. New York: IEEE Press, 2021: 5769-5775.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "LiDAR Iris for loop-closure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85094125691",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5769",
+                                "@last": "5775"
+                            }},
+                            "ref-text": "[C] October 24-January 24, Las Vegas, NV, USA. New York: IEEE Press, 2021",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang Y"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Z Z",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sun",
+                                        "ce:indexed-name": "Sun Z Z"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "C Z",
+                                        "@_fa": "true",
+                                        "ce:surname": "Xu",
+                                        "ce:indexed-name": "Xu C Z"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        },
+                        "ce:source-text": "Wang Y, Sun Z Z, Xu C Z, et al. LiDAR Iris for loop-closure detection[C]//2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 24-January 24, 2021, Las Vegas, NV, USA. New York: IEEE Press, 2021: 5769-5775."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Shi X Y, Chai Z Q, Zhou Y, et al. Global place recognition using an improved scan context for LIDAR-based localization system[C]//2021 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), July 12-16, 2021, Delft, Netherlands. New York: IEEE Press, 2021: 498-503.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Global place recognition using an improved scan context for LIDAR-based localization system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85114960965",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "498",
+                                "@last": "503"
+                            }},
+                            "ref-text": "[C] July 12-16, Delft, Netherlands. New York: IEEE Press, 2021",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "X Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shi",
+                                        "ce:indexed-name": "Shi X Y"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Z Q",
+                                        "@_fa": "true",
+                                        "ce:surname": "Chai",
+                                        "ce:indexed-name": "Chai Z Q"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhou",
+                                        "ce:indexed-name": "Zhou Y"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2021 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)"
+                        },
+                        "ce:source-text": "Shi X Y, Chai Z Q, Zhou Y, et al. Global place recognition using an improved scan context for LIDAR-based localization system[C]//2021 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), July 12-16, 2021, Delft, Netherlands. New York: IEEE Press, 2021: 498-503."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Kim G, Kim A. Scan context: egocentric spatial descriptor for place recognition within 3D point cloud map [C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 1-5, 2018, Madrid, Spain. New York: IEEE Press, 2018: 4802-4809.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Scan context: egocentric spatial descriptor for place recognition within 3D point cloud map"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062590636",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4802",
+                                "@last": "4809"
+                            }},
+                            "ref-text": "[C] October 1-5, Madrid, Spain. New York: IEEE Press, 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim G"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        },
+                        "ce:source-text": "Kim G, Kim A. Scan context: egocentric spatial descriptor for place recognition within 3D point cloud map [C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 1-5, 2018, Madrid, Spain. New York: IEEE Press, 2018: 4802-4809."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wang H, Wang C, Xie L H. Intensity scan context: coding intensity and geometry relations for loop closure detection[C]//2020 IEEE International Conference on Robotics and Automation, May 31-August 31, 2020, Paris, France. New York: IEEE Press, 2020: 2095-2101.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Intensity scan context: coding intensity and geometry relations for loop closure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092698962",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2095",
+                                "@last": "2101"
+                            }},
+                            "ref-text": "[C] May 31-August 31, Paris, France. New York: IEEE Press, 2020",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang H"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie L H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 IEEE International Conference on Robotics and Automation"
+                        },
+                        "ce:source-text": "Wang H, Wang C, Xie L H. Intensity scan context: coding intensity and geometry relations for loop closure detection[C]//2020 IEEE International Conference on Robotics and Automation, May 31-August 31, 2020, Paris, France. New York: IEEE Press, 2020: 2095-2101."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Fan Y F, He Y C, Tan U X. Seed: a segmentation-based egocentric 3D point cloud descriptor for loop closure detection[C]//2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 24-January 24, 2021, Las Vegas, NV, USA. New York: IEEE Press, 2021: 5158-5163.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Seed: a segmentation-based egocentric 3D point cloud descriptor for loop closure detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100527665",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5158",
+                                "@last": "5163"
+                            }},
+                            "ref-text": "[C] October 24-January 24, Las Vegas, NV, USA. New York: IEEE Press, 2021",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y F",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fan",
+                                    "ce:indexed-name": "Fan Y F"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y C",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Y C"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "U X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan U X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        },
+                        "ce:source-text": "Fan Y F, He Y C, Tan U X. Seed: a segmentation-based egocentric 3D point cloud descriptor for loop closure detection[C]//2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 24-January 24, 2021, Las Vegas, NV, USA. New York: IEEE Press, 2021: 5158-5163."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Kim G, Choi S, Kim A. Scan context++: structural place recognition robust to rotation and lateral variations in urban environments[J]. IEEE Transactions on Robotics, 2022, 38(3): 1856-1874.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Scan context++: structural place recognition robust to rotation and lateral variations in urban environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85119425942",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1856",
+                                    "@last": "1874"
+                                }
+                            },
+                            "ref-text": "[J]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim G"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi S"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Robotics"
+                        },
+                        "ce:source-text": "Kim G, Choi S, Kim A. Scan context++: structural place recognition robust to rotation and lateral variations in urban environments[J]. IEEE Transactions on Robotics, 2022, 38(3): 1856-1874."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "李帅鑫, 李广云, 王力, 等 . LiDAR/IMU 紧耦合的实时定位方法[J]. 自动化学报, 2021, 47(6): 1377-1389. Li S X, Li G Y, Wang L, et al. LiDAR/IMU tightly coupled real-time localization method[J]. Acta Automatica Sinica, 2021, 47(6): 1377-1389.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "LiDAR/IMU tightly coupled real-time localization method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85086754891",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "47",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1377",
+                                    "@last": "1389"
+                                }
+                            },
+                            "ref-text": "李帅鑫, 李广云, 王力, 等 LiDAR/IMU 紧耦合的实时定位方法[J]. 自动化学报, 2021, 47(6): 1377-1389. [J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S X",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li S X"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "G Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li G Y"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "L",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang L"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Acta Automatica Sinica"
+                        },
+                        "ce:source-text": "李帅鑫, 李广云, 王力, 等 . LiDAR/IMU 紧耦合的实时定位方法[J]. 自动化学报, 2021, 47(6): 1377-1389. Li S X, Li G Y, Wang L, et al. LiDAR/IMU tightly coupled real-time localization method[J]. Acta Automatica Sinica, 2021, 47(6): 1377-1389."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Park S, Wang S Y, Lim H, et al. Curved-voxel clustering for accurate segmentation of 3D LiDAR point clouds with real-time performance[C]//2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), November 3-8, 2019, Macao, China. New York: IEEE Press, 2019: 6459-6464.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Curved-voxel clustering for accurate segmentation of 3D LiDAR point clouds with real-time performance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85081154181",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "6459",
+                                "@last": "6464"
+                            }},
+                            "ref-text": "[C] November 3-8, Macao, China. New York: IEEE Press, 2019",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S",
+                                        "@_fa": "true",
+                                        "ce:surname": "Park",
+                                        "ce:indexed-name": "Park S"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S Y",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang S Y"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "H",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lim",
+                                        "ce:indexed-name": "Lim H"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        },
+                        "ce:source-text": "Park S, Wang S Y, Lim H, et al. Curved-voxel clustering for accurate segmentation of 3D LiDAR point clouds with real-time performance[C]//2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), November 3-8, 2019, Macao, China. New York: IEEE Press, 2019: 6459-6464."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Zhou Z B, Yang M, Wang C X, et al. ROI-cloud: a key region extraction method for LiDAR odometry and localization[C]//2020 IEEE International Conference on Robotics and Automation, May 31-August 31, 2020, Paris, France. New York: IEEE Press, 2020: 3312-3318.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "ROI-cloud: a key region extraction method for LiDAR odometry and localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092691006",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3312",
+                                "@last": "3318"
+                            }},
+                            "ref-text": "[C] May 31-August 31, Paris, France. New York: IEEE Press, 2020",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Z B",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhou",
+                                        "ce:indexed-name": "Zhou Z B"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "M",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yang",
+                                        "ce:indexed-name": "Yang M"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "C X",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang C X"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2020 IEEE International Conference on Robotics and Automation"
+                        },
+                        "ce:source-text": "Zhou Z B, Yang M, Wang C X, et al. ROI-cloud: a key region extraction method for LiDAR odometry and localization[C]//2020 IEEE International Conference on Robotics and Automation, May 31-August 31, 2020, Paris, France. New York: IEEE Press, 2020: 3312-3318."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "胡杰, 刘汉, 徐文才, 等 . 基于三维激光雷达的道路障碍 物 目 标 位 姿 检 测 算 法 [J]. 中 国 激 光, 2021, 48(24): 2410001. Hu J, Liu H, Xu W C, et al. Position detection algorithm of road obstacles based on 3D LiDAR[J]. Chinese Journal of Lasers, 2021, 48(24): 2410001.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Position detection algorithm of road obstacles based on 3D LiDAR"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85125348668",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "48",
+                                    "@issue": "24"
+                                },
+                                "pagerange": {"@first": "2410001"}
+                            },
+                            "ref-text": "胡杰, 刘汉, 徐文才, 等 基于三维激光雷达的道路障碍 物 目 标 位 姿 检 测 算 法 [J]. 中 国 激 光, 2021, 48(24): 2410001. [J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hu",
+                                        "ce:indexed-name": "Hu J"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "H",
+                                        "@_fa": "true",
+                                        "ce:surname": "Liu",
+                                        "ce:indexed-name": "Liu H"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "W C",
+                                        "@_fa": "true",
+                                        "ce:surname": "Xu",
+                                        "ce:indexed-name": "Xu W C"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Chinese Journal of Lasers"
+                        },
+                        "ce:source-text": "胡杰, 刘汉, 徐文才, 等 . 基于三维激光雷达的道路障碍 物 目 标 位 姿 检 测 算 法 [J]. 中 国 激 光, 2021, 48(24): 2410001. Hu J, Liu H, Xu W C, et al. Position detection algorithm of road obstacles based on 3D LiDAR[J]. Chinese Journal of Lasers, 2021, 48(24): 2410001."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Ren T Y, Wu R C. An acceleration algorithm of 3D point cloud registration based on iterative closet point [C]//2020 Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC), April 14-16, 2020, Dalian, China. New York: IEEE Press, 2020: 271-276.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "An acceleration algorithm of 3D point cloud registration based on iterative closet point [C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089854159",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "271",
+                                "@last": "276"
+                            }},
+                            "ref-text": "April 14-16, Dalian, China. New York: IEEE Press, 2020",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren T Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu R C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC)"
+                        },
+                        "ce:source-text": "Ren T Y, Wu R C. An acceleration algorithm of 3D point cloud registration based on iterative closet point [C]//2020 Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC), April 14-16, 2020, Dalian, China. New York: IEEE Press, 2020: 271-276."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Geiger A, Lenz P, Stiller C, et al. Vision meets robotics: the KITTI dataset[J]. The International Journal of Robotics Research, 2013, 32(11): 1231-1237.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Vision meets robotics: the KITTI dataset"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84884231503",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1231",
+                                    "@last": "1237"
+                                }
+                            },
+                            "ref-text": "[J]",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A",
+                                        "@_fa": "true",
+                                        "ce:surname": "Geiger",
+                                        "ce:indexed-name": "Geiger A"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "P",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lenz",
+                                        "ce:indexed-name": "Lenz P"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "C",
+                                        "@_fa": "true",
+                                        "ce:surname": "Stiller",
+                                        "ce:indexed-name": "Stiller C"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "The International Journal of Robotics Research"
+                        },
+                        "ce:source-text": "Geiger A, Lenz P, Stiller C, et al. Vision meets robotics: the KITTI dataset[J]. The International Journal of Robotics Research, 2013, 32(11): 1231-1237."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Rusu R B, Cousins S. 3D is here: Point Cloud Library (PCL) [C]//2011 IEEE International Conference on Robotics and Automation, May 9-13, 2011, Shanghai, China. New York: IEEE Press, 2011: 12315963.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "3D is here: Point Cloud Library (PCL)"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871699277",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "12315963"}},
+                            "ref-text": "[C] May 9-13, Shanghai, China. New York: IEEE Press, 2011",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusu",
+                                    "ce:indexed-name": "Rusu R B"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cousins",
+                                    "ce:indexed-name": "Cousins S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2011 IEEE International Conference on Robotics and Automation"
+                        },
+                        "ce:source-text": "Rusu R B, Cousins S. 3D is here: Point Cloud Library (PCL) [C]//2011 IEEE International Conference on Robotics and Automation, May 9-13, 2011, Shanghai, China. New York: IEEE Press, 2011: 12315963."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Culjak I, Abram D, Pribanic T, et al. A brief introduction to OpenCV[C]//2012 Proceedings of the 35th International Convention M IPRO, M ay 21-25, 2012, Opatija, Croatia. New York: IEEE Press, 2012: 1725-1730.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A brief introduction to OpenCV"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84865094471",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1725",
+                                "@last": "1730"
+                            }},
+                            "ref-text": "[C] M ay 21-25, Opatija, Croatia. New York: IEEE Press, 2012",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "I",
+                                        "@_fa": "true",
+                                        "ce:surname": "Culjak",
+                                        "ce:indexed-name": "Culjak I"
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "D",
+                                        "@_fa": "true",
+                                        "ce:surname": "Abram",
+                                        "ce:indexed-name": "Abram D"
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "T",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pribanic",
+                                        "ce:indexed-name": "Pribanic T"
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2012 Proceedings of the 35th International Convention M IPRO"
+                        },
+                        "ce:source-text": "Culjak I, Abram D, Pribanic T, et al. A brief introduction to OpenCV[C]//2012 Proceedings of the 35th International Convention M IPRO, M ay 21-25, 2012, Opatija, Croatia. New York: IEEE Press, 2012: 1725-1730."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "张翠军, 张玉河 . 基于 HHO 算法的 SLAM 闭环检测方法 研 究 [J]. 激 光 与 光 电 子 学 进 展, 2021, 58(12): 1215006. Zhang C J, Zhang Y H. Research on SLAM loop closure detection method based on HHO algorithm[J]. Laser & Optoelectronics Progress, 2021, 58(12): 1215006.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Research on SLAM loop closure detection method based on HHO algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85108911285",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "58",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {"@first": "1215006"}
+                            },
+                            "ref-text": "张翠军, 张玉河 基于 HHO 算法的 SLAM 闭环检测方法 研 究 [J]. 激 光 与 光 电 子 学 进 展, 2021, 58(12): 1215006. [J]",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang C J"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Laser & Optoelectronics Progress"
+                        },
+                        "ce:source-text": "张翠军, 张玉河 . 基于 HHO 算法的 SLAM 闭环检测方法 研 究 [J]. 激 光 与 光 电 子 学 进 展, 2021, 58(12): 1215006. Zhang C J, Zhang Y H. Research on SLAM loop closure detection method based on HHO algorithm[J]. Laser & Optoelectronics Progress, 2021, 58(12): 1215006."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Shanghai",
+        "@id": "60082200",
+        "affilname": "Shanghai Dianji University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "24",
+        "eid": "2-s2.0-85144604732",
+        "dc:description": "Descriptors in lidar closed-loop detection algorithms such as Intensity ScanContext (ISC) are easily disturbed by carrier rotation and translation variations, and their invariance is weak, which leads to poor closed-loop effect. In view of these problems, a lidar point cloud descriptor with rotation and translation invariance in an urban dynamic environment is proposed. Firstly, in terms of point cloud processing, a ground point segmentation algorithm based on angular images is used to remove ground points in point cloud data, and a dynamic target elimination algorithm based on curved voxel clustering is adopted to realize point cloud segmentation and remove dynamic targets. Secondly, Coordinate system transformation of point clouds are carried out based on quaternions collected by an inertial measurement unit, and the point clouds in all frames are unified under the same heading angle, so as to realize the rotation invariance of the descriptor. In addition, the relative position relationship between the static targets in the point clouds and the normal plane where the moving direction of the carrier is located is used to determine the rendering center of the descriptor, so as to realize the translation invariance of the descriptor. Finally, the proposed descriptor is used for closed-loop detection, and the consistency of the closed-loop detection results is verified according to the spatial structure of the point cloud data. The experimental results under the KITTI public dataset show that the proposed method can achieve closed-loop detection more quickly and accurately in an urban dynamic environment. Compared with that of the ISC algorithm, the recall rate of the proposed method is improved by 8. 58 percentage points at an accuracy of 100%, and the average time consumption is reduced by 12.90%.",
+        "prism:coverDate": "2022-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85144604732",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yaohui",
+            "preferred-name": {
+                "ce:given-name": "Yaohui",
+                "ce:initials": "Y.",
+                "ce:surname": "Chang",
+                "ce:indexed-name": "Chang Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "常耀辉",
+            "ce:surname": "Chang",
+            "@auid": "58028387500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58028387500",
+            "ce:indexed-name": "Chang Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85144604732"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85144604732&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85144604732&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Guangxue Xuebao/Acta Optica Sinica",
+        "source-id": "29717",
+        "citedby-count": "0",
+        "prism:volume": "42",
+        "subtype": "ar",
+        "dc:title": "Lidar Point Cloud Descriptor with Rotation and Translation Invariance in Dynamic Environment 动 态 环 境 下 具 有 旋 转 和 平 移 不 变 性 的 激 光 雷 达点 云 描 述 子",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.3788/AOS202242.2401007",
+        "prism:issn": "02532239",
+        "publishercopyright": "© 2022 Chinese Optical Society. All rights reserved.",
+        "article-number": "2401007",
+        "dc:identifier": "SCOPUS_ID:85144604732",
+        "dc:publisher": "Chinese Optical Society"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Closed-loop detections",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Descriptors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Dynamic environments",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Ground point",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial measurements units",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Lidar point clouds",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Point-clouds",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rotation invariance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Translation invariance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Urban dynamics",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "chi"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "atmospheric optics"
+        },
+        {
+            "@_fa": "true",
+            "$": "closed- loop detection"
+        },
+        {
+            "@_fa": "true",
+            "$": "inertial measurement unit"
+        },
+        {
+            "@_fa": "true",
+            "$": "lidar"
+        },
+        {
+            "@_fa": "true",
+            "$": "rotation invariance"
+        },
+        {
+            "@_fa": "true",
+            "$": "translation invariance"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Atomic and Molecular Physics, and Optics",
+            "@code": "3107",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yaohui",
+            "preferred-name": {
+                "ce:given-name": "Yaohui",
+                "ce:initials": "Y.",
+                "ce:surname": "Chang",
+                "ce:indexed-name": "Chang Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "常耀辉",
+            "ce:surname": "Chang",
+            "@auid": "58028387500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58028387500",
+            "ce:indexed-name": "Chang Y."
+        },
+        {
+            "ce:given-name": "Niansheng",
+            "preferred-name": {
+                "ce:given-name": "Niansheng",
+                "ce:initials": "N.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen N."
+            },
+            "@seq": "2",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "陈年生",
+            "ce:surname": "Chen",
+            "@auid": "57202084859",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57202084859",
+            "ce:indexed-name": "Chen N."
+        },
+        {
+            "ce:given-name": "Lei",
+            "preferred-name": {
+                "ce:given-name": "Lei",
+                "ce:initials": "L.",
+                "ce:surname": "Rao",
+                "ce:indexed-name": "Rao L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "饶蕾",
+            "ce:surname": "Rao",
+            "@auid": "57045375700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57045375700",
+            "ce:indexed-name": "Rao L."
+        },
+        {
+            "ce:given-name": "Songlin",
+            "preferred-name": {
+                "ce:given-name": "Songlin",
+                "ce:initials": "S.",
+                "ce:surname": "Cheng",
+                "ce:indexed-name": "Cheng S."
+            },
+            "@seq": "4",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "程松林",
+            "ce:surname": "Cheng",
+            "@auid": "58028133900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58028133900",
+            "ce:indexed-name": "Cheng S."
+        },
+        {
+            "ce:given-name": "Guangyu",
+            "preferred-name": {
+                "ce:given-name": "Guangyu",
+                "ce:initials": "G.",
+                "ce:surname": "Fan",
+                "ce:indexed-name": "Fan G."
+            },
+            "@seq": "5",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "范光宇",
+            "ce:surname": "Fan",
+            "@auid": "36109885900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36109885900",
+            "ce:indexed-name": "Fan G."
+        },
+        {
+            "ce:given-name": "Xiaoyong",
+            "preferred-name": {
+                "ce:given-name": "Xiaoyong",
+                "ce:initials": "X.",
+                "ce:surname": "Song",
+                "ce:indexed-name": "Song X."
+            },
+            "@seq": "6",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "宋晓勇",
+            "ce:surname": "Song",
+            "@auid": "36728430600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36728430600",
+            "ce:indexed-name": "Song X."
+        },
+        {
+            "ce:given-name": "Dingyu",
+            "preferred-name": {
+                "ce:given-name": "Dingyu",
+                "ce:initials": "D.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang D."
+            },
+            "@seq": "7",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082200",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082200"
+            },
+            "ce:alt-name": "杨定裕",
+            "ce:surname": "Yang",
+            "@auid": "56138675600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56138675600",
+            "ce:indexed-name": "Yang D."
+        }
+    ]}
+}}

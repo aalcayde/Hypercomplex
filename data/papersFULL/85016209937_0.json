@@ -1,0 +1,2068 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "04",
+                "@timestamp": "2020-05-04T02:13:52.000052-04:00",
+                "@year": "2020",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "02",
+                "@year": "2016",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-acronym": "EPSRC",
+                    "xocs:funding-agency": "Engineering and Physical Sciences Research Council",
+                    "xocs:funding-id": "EP/H026266/1",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100000266",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/2635167/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                    "xocs:funding-agency-acronym": "NSFC",
+                    "xocs:funding-agency": "National Natural Science Foundation of China",
+                    "xocs:funding-id": "61401094",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-07T16:51:50.742232Z",
+            "xocs:funding-text": "National Natural Science Foundation of China under Grant 61401094",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United Kingdom",
+                            "postal-code": "SW7 2AZ",
+                            "@afid": "60015150",
+                            "@country": "gbr",
+                            "city": "London",
+                            "organization": [
+                                {"$": "Department of Electrical and Electronic Engineering"},
+                                {"$": "Imperial College London"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60015150",
+                                "@dptid": "113723785"
+                            },
+                            "@dptid": "113723785"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Sayed Pouria",
+                                "preferred-name": {
+                                    "ce:given-name": "Sayed Pouria",
+                                    "ce:initials": "S.P.",
+                                    "ce:surname": "Talebi",
+                                    "ce:indexed-name": "Talebi S.P."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "S.P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Talebi",
+                                "@auid": "56297174200",
+                                "ce:indexed-name": "Talebi S.P."
+                            },
+                            {
+                                "ce:given-name": "Yili",
+                                "preferred-name": {
+                                    "ce:given-name": "Yili",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia Y."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Xia",
+                                "@auid": "25958477900",
+                                "ce:indexed-name": "Xia Y."
+                            },
+                            {
+                                "ce:given-name": "Danilo P.",
+                                "preferred-name": {
+                                    "ce:given-name": "Danilo P.",
+                                    "ce:initials": "D.P.",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "D.P.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Mandic",
+                                "@auid": "7006513328",
+                                "ce:indexed-name": "Mandic D.P."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United Kingdom",
+                            "postal-code": "SW7 2AZ",
+                            "@afid": "60015150",
+                            "@country": "gbr",
+                            "city": "London",
+                            "organization": [
+                                {"$": "Imperial College London"},
+                                {"$": "Southeast University"}
+                            ],
+                            "affiliation-id": {"@afid": "60015150"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Sithan",
+                            "preferred-name": {
+                                "ce:given-name": "Sithan",
+                                "ce:initials": "S.",
+                                "ce:surname": "Kanna",
+                                "ce:indexed-name": "Kanna S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kanna",
+                            "@auid": "56135784800",
+                            "ce:indexed-name": "Kanna S."
+                        }]
+                    }
+                ],
+                "citation-title": "A distributed quaternion Kalman filter with applications to fly-by-wire systems",
+                "abstracts": "© 2016 IEEE.The introduction of automated flight control and management systems have made possible aircraft designs that sacrifice aerodynamic stability in order to incorporate stealth technology into their shape, operate more efficiently, and are highly manoeuvrable. Therefore, modern flight management systems are reliant on multiple redundant sensors to monitor and control the rotations of the aircraft. To this end, a novel distributed quaternion Kalman filtering algorithm is developed for tracking the rotation and orientation of an aircraft in the three-dimensional space. The algorithm is developed so as to distribute computation among the sensors in a manner that forces them to consent to a unique solution while being robust to sensor and link failure, a desirable characteristic for flight management systems. In addition, the underlying quaternion-valued state space model allows to avoid problems associated with gimbal lock. The performance of the developed algorithm is verified through simulations.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "distributed adaptive filtering",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "fly-by-wire",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternion-valued adaptive signal processing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "quaternion-valued state space modeling",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "International Conference on Digital Signal Processing, DSP",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "0"},
+                        "pagerange": {
+                            "@first": "30",
+                            "@last": "34"
+                        }
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781509041657",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2016 IEEE International Conference on Digital Signal Processing, DSP 2016",
+                            "confcatnumber": "CFP16452-ART",
+                            "confseriestitle": "IEEE International Conference on Digital Signal Processing",
+                            "conflocation": {
+                                "@country": "chn",
+                                "city": "Beijing"
+                            },
+                            "confcode": "126705",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "18",
+                                    "@year": "2016",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "16",
+                                    "@year": "2016",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "International Conference on Digital Signal Processing, DSP",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2016",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2 July 2016"
+                        },
+                        "day": "02"
+                    },
+                    "sourcetitle-abbrev": "Int Conf Dig Signal Process DSP",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings - 2016 IEEE International Conference on Digital Signal Processing, DSP 2016",
+                    "publicationyear": {"@first": "2016"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "7868509",
+                    "@srcid": "21100933017"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "1711"
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "404.1",
+                                "classification-description": "Military Engineering"
+                            },
+                            {
+                                "classification-code": "651",
+                                "classification-description": "Aerodynamics"
+                            },
+                            {
+                                "classification-code": "651.1",
+                                "classification-description": "Aerodynamics, General"
+                            },
+                            {
+                                "classification-code": "652",
+                                "classification-description": "Aircraft"
+                            },
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "National Natural Science Foundation of China under Grant 61401094",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "61401094",
+                        "grant-acronym": "NSFC",
+                        "grant-agency": {
+                            "@iso-code": "chn",
+                            "$": "National Natural Science Foundation of China"
+                        }
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "03",
+                    "@timestamp": "BST 07:34:05",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "615028502",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "662518987",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20171303504433",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20171357043",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85016209937",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85016209937",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICDSP.2016.7868509"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "37",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. P. G Collinson, \"Introduction to avionics systems.\" Springer, 2011.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Introduction to avionics systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85016199937",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.P.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Collinson",
+                                "ce:indexed-name": "Collinson R.P.G."
+                            }]},
+                            "ref-sourcetitle": "Springer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. E. Chang, S. C. Shawn, J. E. Marsden, and R. Olfati-Saber, \"Collision avoidance for multiple agent systems, \" In Proceedings of IEEE International Conference on Decision and Control, pp. 539-543, December 2003.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Collision avoidance for multiple agent systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1542299241",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "539",
+                                "@last": "543"
+                            }},
+                            "ref-text": "December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang D.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shawn",
+                                    "ce:indexed-name": "Shawn S.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marsden",
+                                    "ce:indexed-name": "Marsden J.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olfati-Saber",
+                                    "ce:indexed-name": "Olfati-Saber R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Decision and Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Olfati-Saber and R. M. Murray, \"Consensus problems in networks of agents with switching topology and time-delays, \" IEEE Transactions on Automatic Control, vol. 49, no. 9, pp. 1520-1533, September 2004.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Consensus problems in networks of agents with switching topology and time-delays"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4644244041",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1520",
+                                    "@last": "1533"
+                                }
+                            },
+                            "ref-text": "September",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olfati-Saber",
+                                    "ce:indexed-name": "Olfati-Saber R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murray",
+                                    "ce:indexed-name": "Murray R.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Olfati-Saber, \"Distributed Kalman filter with embedded consensus filters, \" In Proceedings of IEEE Conference on Decision and Control, pp. 8179-8184, 2005.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Distributed Kalman filter with embedded consensus filters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33645001047",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "8179",
+                                "@last": "8184"
+                            }},
+                            "ref-text": "IEEE Conference on Decision and Control",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Olfati-Saber",
+                                "ce:indexed-name": "Olfati-Saber R."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Franco, R. Olfati-Saber, T. Parisini, and M. M. Polycarpou, \"Distributed fault diagnosis using sensor networks and consensus-based filters, \" In Proceedings of IEEE Conference on Decision & Control, pp. 386-391, December 2006.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Distributed fault diagnosis using sensor networks and consensus-based filters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "39549111853",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "386",
+                                "@last": "391"
+                            }},
+                            "ref-text": "December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Franco",
+                                    "ce:indexed-name": "Franco E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olfati-Saber",
+                                    "ce:indexed-name": "Olfati-Saber R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parisini",
+                                    "ce:indexed-name": "Parisini T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polycarpou",
+                                    "ce:indexed-name": "Polycarpou M.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE Conference on Decision & Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Olfati-Saber, \"Flocking for multi-Agent dynamic systems: Algorithms and theory, \" IEEE Transactions on Automatic Control, vol. 51, no. 3, pp. 401-420, March 2006.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Flocking for multi-Agent dynamic systems: Algorithms and theory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33644997478",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "51",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "401",
+                                    "@last": "420"
+                                }
+                            },
+                            "ref-text": "March",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Olfati-Saber",
+                                "ce:indexed-name": "Olfati-Saber R."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Olfati-Saber and P. Jalalkamali, \"Coupled distributed estimation and control for mobile sensor networks, \" IEEE Transactions on Automatic Control, vol. 57, no. 10, pp. 2609-2614, October 2012.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Coupled distributed estimation and control for mobile sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866945998",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "2609",
+                                    "@last": "2614"
+                                }
+                            },
+                            "ref-text": "October",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olfati-Saber",
+                                    "ce:indexed-name": "Olfati-Saber R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jalalkamali",
+                                    "ce:indexed-name": "Jalalkamali P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Cattivelli and A. H. Sayed, \"Diffusion strategies for distributed Kalman filtering and smoothing, \" IEEE Transactions on Automatic Control, vol. 55, no. 9, pp. 2069-2084, September 2010.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Diffusion strategies for distributed Kalman filtering and smoothing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956542982",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "2069",
+                                    "@last": "2084"
+                                }
+                            },
+                            "ref-text": "September",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cattivelli",
+                                    "ce:indexed-name": "Cattivelli F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sayed",
+                                    "ce:indexed-name": "Sayed A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. H. Sayed, \"Adaptation, learning, and optimization over networks, \" Foundations and Trends in Machine Learning, vol. 7, no. 4-5, pp. 311-801, 2014.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Adaptation, learning, and optimization over networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905009821",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "4-5"
+                                },
+                                "pagerange": {
+                                    "@first": "311",
+                                    "@last": "801"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Sayed",
+                                "ce:indexed-name": "Sayed A.H."
+                            }]},
+                            "ref-sourcetitle": "Foundations and Trends in Machine Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Xia, D. P. Mandic and A. H. Sayed, \"An adaptive diffusion augmented CLMS algorithm for distributed filtering of noncircular complex signals, \" IEEE Signal Processing Letters, vol. 18, no. 11, pp. 659-662, November 2011.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "An adaptive diffusion augmented CLMS algorithm for distributed filtering of noncircular complex signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053463352",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "659",
+                                    "@last": "662"
+                                }
+                            },
+                            "ref-text": "November",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sayed",
+                                    "ce:indexed-name": "Sayed A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Processing Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Kanna and D. P. Mandic, \"Steady-state behavior of general complexvalued diffusion LMS strategies, \" IEEE Signal Processing Letters, vol. 23, no. 5, pp. 722-726, May 2016.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Steady-state behavior of general complexvalued diffusion LMS strategies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964950034",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "722",
+                                    "@last": "726"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanna",
+                                    "ce:indexed-name": "Kanna S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Processing Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. S. Cattivelli and A. H. Sayed, \"Diffusion LMS strategies for distributed estimation, \" IEEE Transactions on Signal Processing, vol. 58, no. 3, pp. 1035-1048, March 2010.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Diffusion LMS strategies for distributed estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955401339",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "58",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1035",
+                                    "@last": "1048"
+                                }
+                            },
+                            "ref-text": "March",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cattivelli",
+                                    "ce:indexed-name": "Cattivelli F.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sayed",
+                                    "ce:indexed-name": "Sayed A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Jianshu and A. H. Sayed, \"Diffusion adaptation strategies for distributed optimization and learning over networks, \" IEEE Transactions on Signal Processing, vol. 60, no. 8, pp. 4289-4305, August 2012.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Diffusion adaptation strategies for distributed optimization and learning over networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84862605412",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "4289",
+                                    "@last": "4305"
+                                }
+                            },
+                            "ref-text": "August",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jianshu",
+                                    "ce:indexed-name": "Jianshu C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sayed",
+                                    "ce:indexed-name": "Sayed A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Ogren, E. Fiorelli, and N. E. Leonard, \"Cooperative control of mobile sensor networks: Adaptive gradient climbing in a distributed environment, \" IEEE Transactions on Automatic Control, vol. 49, no. 8, pp. 1292-1302, August 2004.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Cooperative control of mobile sensor networks: Adaptive gradient climbing in a distributed environment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4344586379",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1292",
+                                    "@last": "1302"
+                                }
+                            },
+                            "ref-text": "August",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ogren",
+                                    "ce:indexed-name": "Ogren P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fiorelli",
+                                    "ce:indexed-name": "Fiorelli E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard N.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Aeron, V. Saligrama, and D. V. Castanon, \"Efficient sensor management policies for distributed target tracking in multihop sensor networks, \" IEEE Transactions on Signal Processing, vol. 56, no. 6, pp. 2562-2574, June 2008.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Efficient sensor management policies for distributed target tracking in multihop sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "44849104199",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "2562",
+                                    "@last": "2574"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aeron",
+                                    "ce:indexed-name": "Aeron S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saligrama",
+                                    "ce:indexed-name": "Saligrama V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castanon",
+                                    "ce:indexed-name": "Castanon D.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "I. D. Schizas, G. Mateos, G. B. Giannakis, \"Distributed LMS for consensus-based in-network adaptive processing, \" IEEE Transactions on Signal Processing, vol. 57, no. 6, pp. 2365-2382, June 2009.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Distributed LMS for consensus-based in-network adaptive processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "66849141877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "2365",
+                                    "@last": "2382"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schizas",
+                                    "ce:indexed-name": "Schizas I.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mateos",
+                                    "ce:indexed-name": "Mateos G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giannakis",
+                                    "ce:indexed-name": "Giannakis G.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Kanna, D. H. Dini, Y. Xia, S. Y. Hui, and D. P. Mandic, \"Distributed widely linear Kalman filtering for frequency estimation in power networks, \" IEEE Transactions on Signal and Information Processing over Networks, vol. 1, no. 1, pp. 45-57, March 2015.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Distributed widely linear Kalman filtering for frequency estimation in power networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85009723155",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "45",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-text": "March",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanna",
+                                    "ce:indexed-name": "Kanna S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dini",
+                                    "ce:indexed-name": "Dini D.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hui",
+                                    "ce:indexed-name": "Hui S.Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal and Information Processing over Networks"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Kanna, S. P. Talebi, and D. P. Mandic, \"Diffusion widely linear adaptive estimation of system frequency in distributed power grids, \" In Proceedings of IEEE International Energy Conference, pp. 772-778, 2014.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Diffusion widely linear adaptive estimation of system frequency in distributed power grids"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84905013563",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "772",
+                                "@last": "778"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanna",
+                                    "ce:indexed-name": "Kanna S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Talebi",
+                                    "ce:indexed-name": "Talebi S.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Energy Conference"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Y. Tu and A. H. Sayed, \"Diffusion strategies outperform consensus strategies for distributed estimation over adaptive networks, \" IEEE Transaction on Signal Processing, vol. 60, no. 12, December 2012.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Diffusion strategies outperform consensus strategies for distributed estimation over adaptive networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866491634",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "60",
+                                "@issue": "12"
+                            }},
+                            "ref-text": "December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu S.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sayed",
+                                    "ce:indexed-name": "Sayed A.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transaction on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. B. Kuipers, \"Quaternions and rotation sequences: A primer with applications to orbits, aerospace and virtual reality, \" Princeton University Press, August 2002.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Quaternions and rotation sequences: A primer with applications to orbits, aerospace and virtual reality"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004226254",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "University Press, August",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.B.",
+                                "@_fa": "true",
+                                "ce:surname": "Kuipers",
+                                "ce:indexed-name": "Kuipers J.B."
+                            }]},
+                            "ref-sourcetitle": "Princeton"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. P. Mandic, C. Jahanchahi, and C. C. Took, \"A quaternion gradient operator and its applications, \" IEEE Signal Processing Letters, vol. 18, no. 1, pp. 47-50, January 2011.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "A quaternion gradient operator and its applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78650000279",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "47",
+                                    "@last": "50"
+                                }
+                            },
+                            "ref-text": "January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jahanchahi",
+                                    "ce:indexed-name": "Jahanchahi C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Took",
+                                    "ce:indexed-name": "Took C.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Processing Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Jahanchahi, C. C. Took, and D. P. Mandic, \"On gradient calculation in quaternion adaptive filtering, \" In Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing, pp. 3773-3776, 2012.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "On gradient calculation in quaternion adaptive filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867609562",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3773",
+                                "@last": "3776"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jahanchahi",
+                                    "ce:indexed-name": "Jahanchahi C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Took",
+                                    "ce:indexed-name": "Took C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. C. Took and D. P. Mandic, \"Augmented second-order statistics of quaternion random signals, \" Signal Processing, vol. 91, no. 2, pp. 214-224, February 2011.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Augmented second-order statistics of quaternion random signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956169758",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "91",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "214",
+                                    "@last": "224"
+                                }
+                            },
+                            "ref-text": "February",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Took",
+                                    "ce:indexed-name": "Took C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Via, D. Ramirez, and I. Santamaria, \"Properness and widely linear processing of quaternion random vectors, \" IEEE Transactions on Information Theory, vol. 56, no. 7, pp. 3502-3515, July 2010.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Properness and widely linear processing of quaternion random vectors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953788013",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "3502",
+                                    "@last": "3515"
+                                }
+                            },
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Via",
+                                    "ce:indexed-name": "Via J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramirez",
+                                    "ce:indexed-name": "Ramirez D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Santamaria",
+                                    "ce:indexed-name": "Santamaria I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Information Theory"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Navarro-Moreno, R. M. Fernandez-Alcala, and J. C. Ruiz-Molina, \"A Quaternion widely linear model for nonlinear Gaussian estimation, \" IEEE Transactions on Signal Processing, vol. 62, no. 24, pp. 6414-6424, December 2014.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A Quaternion widely linear model for nonlinear Gaussian estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84913581019",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "62",
+                                    "@issue": "24"
+                                },
+                                "pagerange": {
+                                    "@first": "6414",
+                                    "@last": "6424"
+                                }
+                            },
+                            "ref-text": "December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navarro-Moreno",
+                                    "ce:indexed-name": "Navarro-Moreno J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernandez-Alcala",
+                                    "ce:indexed-name": "Fernandez-Alcala R.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz-Molina",
+                                    "ce:indexed-name": "Ruiz-Molina J.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Navarro-Moreno, R. M. Fernandez-Alcala, and J. C. Ruiz-Molina, \"A Quaternion widely linear series expansion and its applications, \" IEEE Signal Processing Letters, vol. 19, no. 12, pp. 868-871, December 2012.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A Quaternion widely linear series expansion and its applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84868004776",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "868",
+                                    "@last": "871"
+                                }
+                            },
+                            "ref-text": "December",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navarro-Moreno",
+                                    "ce:indexed-name": "Navarro-Moreno J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernandez-Alcala",
+                                    "ce:indexed-name": "Fernandez-Alcala R.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz-Molina",
+                                    "ce:indexed-name": "Ruiz-Molina J.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Processing Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Jahanchahi and D. P. Mandic, \"A class of quaternion Kalman filters, \" IEEE Transactions on Neural Networks and Learning Systems, vol. 25, no. 3, pp. 533-544, March 2014.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A class of quaternion Kalman filters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84897588458",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "533",
+                                    "@last": "544"
+                                }
+                            },
+                            "ref-text": "March",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jahanchahi",
+                                    "ce:indexed-name": "Jahanchahi C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks and Learning Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. P. Talebi and D. P. Mandic, \"A quaternion frequency estimator for three-phase power systems, \" In Proceeding of IEEE International conference on Acoustics, Speech, and Signal Processing, pp. 3956-3960, 2015.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A quaternion frequency estimator for three-phase power systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84946029944",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3956",
+                                "@last": "3960"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Talebi",
+                                    "ce:indexed-name": "Talebi S.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceeding of IEEE International Conference on Acoustics, Speech, and Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. A. Tobar and D. P. Mandic, \"Quaternion reproducing kernel Hilbert spaces: Existence and uniqueness conditions, \" IEEE Transactions on Information Theory, vol. 60, no. 9, pp. 5736-5749, September 2014.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Quaternion reproducing kernel Hilbert spaces: Existence and uniqueness conditions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906713590",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "5736",
+                                    "@last": "5749"
+                                }
+                            },
+                            "ref-text": "September",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tobar",
+                                    "ce:indexed-name": "Tobar F.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Information Theory"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. K. Paul and T. Ogunfunmi, \"A kernel adaptive algorithm for quaternion-valued inputs, \" IEEE Transactions on Neural Networks and Learning Systems, vol. 26, no. 10, pp. 2422-2439, October 2015.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A kernel adaptive algorithm for quaternion-valued inputs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027930267",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "2422",
+                                    "@last": "2439"
+                                }
+                            },
+                            "ref-text": "October",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paul",
+                                    "ce:indexed-name": "Paul T.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ogunfunmi",
+                                    "ce:indexed-name": "Ogunfunmi T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks and Learning Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. C. Took, D. P. Mandic, and K. Aihara, \"Quaternion-valued short term forecasting of wind profile, \" In Proceeding International Joint Conference on Neural Networks, pp. 1-6, 2010.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Quaternion-valued short term forecasting of wind profile"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959475127",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Took",
+                                    "ce:indexed-name": "Took C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aihara",
+                                    "ce:indexed-name": "Aihara K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceeding International Joint Conference on Neural Networks"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. C. Took, G. Strbac, K. Aihara, and D. P. Mandic, \"Quaternionvalued short-Term joint forecasting of three-dimensional wind and atmospheric parameters, \" Renewable Energy, vol. 36, no. 6, pp. 1754-1760, June 2011.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Quaternionvalued short-Term joint forecasting of three-dimensional wind and atmospheric parameters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78751705514",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1754",
+                                    "@last": "1760"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Took",
+                                    "ce:indexed-name": "Took C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strbac",
+                                    "ce:indexed-name": "Strbac G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aihara",
+                                    "ce:indexed-name": "Aihara K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Renewable Energy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. L. Crassidis, F. L. Markley, and Y. Cheng, \"Survey of nonlinear attitude estimation methods, \" Journal of Guidance, Control, and Dynamics, vol. 30, no. 1, pp. 12-28, January 2007.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Survey of nonlinear attitude estimation methods"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33846876113",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "12",
+                                    "@last": "28"
+                                }
+                            },
+                            "ref-text": "January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Crassidis",
+                                    "ce:indexed-name": "Crassidis J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Markley",
+                                    "ce:indexed-name": "Markley F.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Said, N. Le Bihan, and S. J. Sangwine, \"Fast complexified quaternion Fourier transform, \" IEEE Transactions on Signal Processing, vol. 56, no. 4, pp. 1522-1531, April 2008.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Fast complexified quaternion Fourier transform"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "41849148997",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1522",
+                                    "@last": "1531"
+                                }
+                            },
+                            "ref-text": "April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Said",
+                                    "ce:indexed-name": "Said S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Bihan",
+                                    "ce:indexed-name": "Le Bihan N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. A. Ell and S. J. Sangwine, \"Quaternion involutions and antiinvolutions, \" Computers & Mathematics with Applications, vol. 53, no. 1, pp. 137-143, January 2007.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Quaternion involutions and antiinvolutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34047251136",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "53",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "137",
+                                    "@last": "143"
+                                }
+                            },
+                            "ref-text": "January",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers & Mathematics with Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. W. Spring, \"Euler parameters and the use of quaternion algebra in the manipulation of finite rotations: A review, \" Mechanism and Machine Theory, vol. 21, no. 5, pp. 365-373, 1986.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Euler parameters and the use of quaternion algebra in the manipulation of finite rotations: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022863386",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "365",
+                                    "@last": "373"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Spring",
+                                "ce:indexed-name": "Spring K.W."
+                            }]},
+                            "ref-sourcetitle": "Mechanism and Machine Theory"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. P. Mandic and S. L. Goh, Complex valued nonlinear adaptive filters: Noncircularity, widely linear and neural models, John Wiley & Sons, 2009.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84889302685",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Wiley & Sons",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goh",
+                                    "ce:indexed-name": "Goh S.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Complex Valued Nonlinear Adaptive Filters: Noncircularity, Widely Linear and Neural Models, John"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "London",
+        "@id": "60015150",
+        "affilname": "Imperial College London",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015150",
+        "affiliation-country": "United Kingdom"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85016209937",
+        "dc:description": "The introduction of automated flight control and management systems have made possible aircraft designs that sacrifice aerodynamic stability in order to incorporate stealth technology into their shape, operate more efficiently, and are highly manoeuvrable. Therefore, modern flight management systems are reliant on multiple redundant sensors to monitor and control the rotations of the aircraft. To this end, a novel distributed quaternion Kalman filtering algorithm is developed for tracking the rotation and orientation of an aircraft in the three-dimensional space. The algorithm is developed so as to distribute computation among the sensors in a manner that forces them to consent to a unique solution while being robust to sensor and link failure, a desirable characteristic for flight management systems. In addition, the underlying quaternion-valued state space model allows to avoid problems associated with gimbal lock. The performance of the developed algorithm is verified through simulations.",
+        "prism:coverDate": "2016-07-02",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85016209937",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Sayed Pouria",
+            "preferred-name": {
+                "ce:given-name": "Sayed Pouria",
+                "ce:initials": "S.P.",
+                "ce:surname": "Talebi",
+                "ce:indexed-name": "Talebi S.P."
+            },
+            "@seq": "1",
+            "ce:initials": "S.P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015150",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015150"
+            },
+            "ce:surname": "Talebi",
+            "@auid": "56297174200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56297174200",
+            "ce:indexed-name": "Talebi S.P."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85016209937"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85016209937&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85016209937&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781509041657",
+        "source-id": "21100933017",
+        "citedby-count": "3",
+        "prism:volume": "0",
+        "subtype": "cp",
+        "dc:title": "A distributed quaternion Kalman filter with applications to fly-by-wire systems",
+        "openaccess": "0",
+        "publishercopyright": "© 2016 IEEE.",
+        "article-number": "7868509",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "International Conference on Digital Signal Processing, DSP",
+        "prism:pageRange": "30-34",
+        "prism:endingPage": "34",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ICDSP.2016.7868509",
+        "prism:startingPage": "30",
+        "dc:identifier": "SCOPUS_ID:85016209937",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Adaptive signal processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Flight management systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fly-By-Wire Systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fly-by-wires",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Kalman filtering algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Monitor and control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State - space models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Three dimensional space",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "distributed adaptive filtering"
+        },
+        {
+            "@_fa": "true",
+            "$": "fly-by-wire"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion-valued adaptive signal processing"
+        },
+        {
+            "@_fa": "true",
+            "$": "quaternion-valued state space modeling"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Signal Processing",
+        "@code": "1711",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Sayed Pouria",
+            "preferred-name": {
+                "ce:given-name": "Sayed Pouria",
+                "ce:initials": "S.P.",
+                "ce:surname": "Talebi",
+                "ce:indexed-name": "Talebi S.P."
+            },
+            "@seq": "1",
+            "ce:initials": "S.P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015150",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015150"
+            },
+            "ce:surname": "Talebi",
+            "@auid": "56297174200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56297174200",
+            "ce:indexed-name": "Talebi S.P."
+        },
+        {
+            "ce:given-name": "Sithan",
+            "preferred-name": {
+                "ce:given-name": "Sithan",
+                "ce:initials": "S.",
+                "ce:surname": "Kanna",
+                "ce:indexed-name": "Kanna S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015150",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015150"
+            },
+            "ce:surname": "Kanna",
+            "@auid": "56135784800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56135784800",
+            "ce:indexed-name": "Kanna S."
+        },
+        {
+            "ce:given-name": "Yili",
+            "preferred-name": {
+                "ce:given-name": "Yili",
+                "ce:initials": "Y.",
+                "ce:surname": "Xia",
+                "ce:indexed-name": "Xia Y."
+            },
+            "@seq": "3",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015150",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015150"
+            },
+            "ce:surname": "Xia",
+            "@auid": "25958477900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25958477900",
+            "ce:indexed-name": "Xia Y."
+        },
+        {
+            "ce:given-name": "Danilo P.",
+            "preferred-name": {
+                "ce:given-name": "Danilo P.",
+                "ce:initials": "D.P.",
+                "ce:surname": "Mandic",
+                "ce:indexed-name": "Mandic D.P."
+            },
+            "@seq": "4",
+            "ce:initials": "D.P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015150",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015150"
+            },
+            "ce:surname": "Mandic",
+            "@auid": "7006513328",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7006513328",
+            "ce:indexed-name": "Mandic D.P."
+        }
+    ]}
+}}

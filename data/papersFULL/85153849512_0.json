@@ -1,0 +1,1145 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "new",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "03",
+                "@timestamp": "2023-05-03T04:15:56.000056-04:00",
+                "@year": "2023",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@afid": "60021918",
+                        "@country": "usa",
+                        "city": "Charlottesville",
+                        "organization": [
+                            {"$": "Department of Statistics"},
+                            {"$": "University of Virginia"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60021918",
+                            "@dptid": "104120600"
+                        },
+                        "state": "VA",
+                        "@affiliation-instance-id": "OB2BibRecID-947788112-cfc42ce5e6622e7d0e8952fa73ad548c-1",
+                        "ce:source-text": "Department of Statistics, University of Virginia, Charlottesville, VA, USA",
+                        "@dptid": "104120600"
+                    },
+                    "author": [{
+                        "ce:given-name": "Ted",
+                        "preferred-name": {
+                            "ce:given-name": "Ted",
+                            "ce:initials": "T.",
+                            "ce:surname": "Chang",
+                            "ce:indexed-name": "Chang T."
+                        },
+                        "@author-instance-id": "OB2BibRecID-947788112-5220987c949797ef34504fe5fbb74108-1",
+                        "@seq": "1",
+                        "ce:initials": "T.",
+                        "@_fa": "true",
+                        "@type": "auth",
+                        "ce:surname": "Chang",
+                        "@auid": "7404725033",
+                        "ce:indexed-name": "Chang T."
+                    }]
+                },
+                "citation-title": "Tangent Space Approximation in Geometric Statistics",
+                "abstracts": "© 2023, Springer-Verlag London Ltd., part of Springer Nature.The Procrustes regression model provides a statistical framework to assess the errors in image registration (in arbitrary dimensions) from \u201clandmark\u201d data. The same mathematics can be used to determine the errors in calculated motions of rigid bodies in Euclidean space. Perhaps the scientifically most compelling example of rigid body motion is tectonic plates. Tectonic plates, to a first approximation, move as rigid bodies on the surface of the Earth. The estimation of the past configuration of the tectonic plates, and the errors in these reconstructions, is integral to the understanding of the past history of the Earth. Because tectonic plates are restricted to the surface of the Earth, the Procrustes regression model does not apply and the relevant model is called spherical regression. The Procrustes and spherical regression models are mathematically simple and, because of this simplicity, beautiful theorems about the properties of their estimates can be proven. The previous chapter (Chang T, Image registration, rigid bodies, and unknown coordinate systems. In: Pham H (ed) Springer handbook of engineering statistics, Springer-Verlag, London, pp. 571\u2013590, 2006) discusses many of these results. Using the spherical regression model, interesting insights into the properties of tectonic plate reconstructions are discussed in (Chang, J Geophys Res 92(B7):6319\u20136329, 1987; Chang, Int Stat Rev 61:299\u2013316, 1993). We will not replicate these results here. Rather the focus of this chapter is the underlying mathematics used to establish the results. These problems are intrinsically geometric and the proper use of geometry is important to their understanding. We will explain these points. This chapter is motivated by a request from a geophysics friend to explain, in as elementary fashion as feasible, the mathematics behind his work. This chapter will not replicate the formal proofs that appear elsewhere (see, for example, Chang, Ann Stat 14(3):907\u2013924, 1986, Rivest, Ann Stat 17(1):307\u2013317, 1989, or Chang and Ko, Ann Stat 23(5):1823\u20131847, 1995). This chapter is aimed at the scientist who wants to understand on a heuristic level why the results are true, without reading mathematically complete proofs! The type of data that is actually used to estimate plate reconstructions (experimentally determined \u201cmarine magnetic anomaly lineation\u201d locations) is not of the form that is modeled in the spherical regression model. We discuss in Sect. 53.6 the type of data that is actually collected and how to analyze it using the mathematical principles we will discuss here. For the nongeophysicist, this section can be used as an example of the use of the mathematical principles of this chapter in a different and complex data setting. Furthermore, although the rigid plate hypothesis is a simplification, one must first understand what types of reconstruction errors are consistent with rigid plates before deciding if the errors one is observing are in fact evidence of nonrigidity. Section 53.6 discusses some work of this type. Essentially, this chapter is a case study in the use of tangent space approximations and some elementary ideas from differential geometry. Other authors have used similar geometrical approaches. For example, Rivest (J Biomech 38:1604\u20131611, 2005) and Oualkacha and Rivest (Biometrika 99:585\u2013598, 2012) developed statistical methods for human motion studies derived from sensors placed on the human body as it moves. Chang and Rivest (Ann Stat 29(3):784\u2013814, 2001) extended to Stiefel manifolds the work outlined here and in (Chang T, Image registration, rigid bodies, and unknown coordinate systems. In: Pham H (ed) Springer handbook of engineering statistics, Springer-Verlag, London, pp. 571\u2013590, 2006) and used the results to reanalyze a data set on vector cardiograms. Patrangenaru has numerous papers (e.g., Mardia and Patrangenaru (Ann Stat 33(4):1666\u20131699, 2005)) developing statistical methods for comparing images when projective, rather than rigid, transformations are allowed. Indeed, the author believes that the engineering disciplines have multiple problems of a geometric nature and hopes that the approaches used here can be helpful in studying them. This chapter has been written so that it can be read independently of the preceding chapter (Chang T, Image registration, rigid bodies, and unknown coordinate systems. In: Pham H (ed) Springer handbook of engineering statistics, Springer-Verlag, London, pp. 571\u2013590, 2006).",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@country": "usa",
+                        "city": "Charlottesville",
+                        "organization": [
+                            {"$": "Department of Statistics"},
+                            {"$": "University of Virginia"}
+                        ],
+                        "state": "VA",
+                        "@affiliation-instance-id": "OB2BibRecID-947788112-cfc42ce5e6622e7d0e8952fa73ad548c-1",
+                        "ce:source-text": "Department of Statistics, University of Virginia, Charlottesville, VA, USA"
+                    },
+                    "person": {
+                        "ce:given-name": "Ted",
+                        "@author-instance-id": "OB2BibRecID-947788112-8f5152adfaf7ce9af8de4ccaacdb124a-1",
+                        "ce:initials": "T.",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang T."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Cayley-Klein parameters",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Geometric statistics",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Procrustes regression",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Quaternions",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Rigid body motion",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Spherical regression",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Tangent space approximation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Tectonic plate reconstruction",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ch"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Springer Handbooks",
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/15558",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "issn": [
+                        {
+                            "$": "25228706",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "25228692",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {"pagerange": {
+                        "@first": "1059",
+                        "@last": "1073"
+                    }},
+                    "@type": "k",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Springer Science and Business Media Deutschland GmbH"},
+                    "sourcetitle": "Springer Handbooks",
+                    "@srcid": "21100936616",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "1000"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "MULT"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "02",
+                    "@timestamp": "BST 11:51:27",
+                    "@year": "2023",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "641141937",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "947788112",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231194490",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231598328",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85153849512",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85153849512",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-1-4471-7503-2_53"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "22",
+                "reference": [
+                    {
+                        "ref-fulltext": "Chang, T.: Image registration, rigid bodies, and unknown coordinate systems. In: Pham, H. (ed.) Springer Handbook of Engineering Statistics, pp. 571\u2013590. Springer-Verlag, London (2006)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-84b03b65806d0588c45275349e713c3a-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Image registration, rigid bodies, and unknown coordinate systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85088300944",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "571",
+                                "@last": "590"
+                            }},
+                            "ref-text": "Pham, H. (ed.) , Springer-Verlag, London",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang T."
+                            }]},
+                            "ref-sourcetitle": "Springer Handbook of Engineering Statistics"
+                        },
+                        "ce:source-text": "Chang, T.: Image registration, rigid bodies, and unknown coordinate systems. In: Pham, H. (ed.) Springer Handbook of Engineering Statistics, pp. 571\u2013590. Springer-Verlag, London (2006)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T.: On the statistical properties of estimated rotations. J. Geophys. Res. 92(B7), 6319\u20136329 (1987)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-28f7cd664b00e23eee39bb885cc37739-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "On the statistical properties of estimated rotations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023481149",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "92",
+                                    "@issue": "B7"
+                                },
+                                "pagerange": {
+                                    "@first": "6319",
+                                    "@last": "6329"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang T."
+                            }]},
+                            "ref-sourcetitle": "J. Geophys. Res."
+                        },
+                        "ce:source-text": "Chang, T.: On the statistical properties of estimated rotations. J. Geophys. Res. 92(B7), 6319\u20136329 (1987)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T.: Spherical regression and the statistics of tectonic plate reconstructions. Int. Stat. Rev. 61, 299\u2013316 (1993)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-9a84de8ef0b6b71d4dfd846a915d06d5-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Spherical regression and the statistics of tectonic plate reconstructions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "21344496237",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "61"},
+                                "pagerange": {
+                                    "@first": "299",
+                                    "@last": "316"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang T."
+                            }]},
+                            "ref-sourcetitle": "Int. Stat. Rev."
+                        },
+                        "ce:source-text": "Chang, T.: Spherical regression and the statistics of tectonic plate reconstructions. Int. Stat. Rev. 61, 299\u2013316 (1993)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T.: Spherical regression. Ann. Stat. 14(3), 907\u2013924 (1986)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-b644ee24963d42a81200277f4ff82e4a-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Spherical regression"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001583228",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "907",
+                                    "@last": "924"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang T."
+                            }]},
+                            "ref-sourcetitle": "Ann. Stat"
+                        },
+                        "ce:source-text": "Chang, T.: Spherical regression. Ann. Stat. 14(3), 907\u2013924 (1986)"
+                    },
+                    {
+                        "ref-fulltext": "Rivest, L.-P.: Spherical regression for concentrated Fisher-von Mises distributions. Ann. Stat. 17(1), 307\u2013317 (1989)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-ec0affa23a292431fbf4c42c3b03b98e-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Spherical regression for concentrated Fisher-von Mises distributions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001515355",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "307",
+                                    "@last": "317"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.-P.",
+                                "@_fa": "true",
+                                "ce:surname": "Rivest",
+                                "ce:indexed-name": "Rivest L.-P."
+                            }]},
+                            "ref-sourcetitle": "Ann. Stat."
+                        },
+                        "ce:source-text": "Rivest, L.-P.: Spherical regression for concentrated Fisher-von Mises distributions. Ann. Stat. 17(1), 307\u2013317 (1989)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T., Ko, D.: M-estimates of rigid body motion on the sphere and in Euclidean space. Ann. Stat. 23(5), 1823\u20131847 (1995)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-d527b84f49420c75ff55a87932f5626b-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "M-estimates of rigid body motion on the sphere and in Euclidean space"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0041293909",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1823",
+                                    "@last": "1847"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ko",
+                                    "ce:indexed-name": "Ko D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ann. Stat."
+                        },
+                        "ce:source-text": "Chang, T., Ko, D.: M-estimates of rigid body motion on the sphere and in Euclidean space. Ann. Stat. 23(5), 1823\u20131847 (1995)"
+                    },
+                    {
+                        "ref-fulltext": "Rivest, L.-P.: A correction for axis misalignment in the joint angle curves representing knee movement in gain analysis. J. Biomech. 38, 1604\u20131611 (2005)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-9f9763b11c8e50bae9d2ffdbd2604821-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "A correction for axis misalignment in the joint angle curves representing knee movement in gain analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "20444481995",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "1604",
+                                    "@last": "1611"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.-P.",
+                                "@_fa": "true",
+                                "ce:surname": "Rivest",
+                                "ce:indexed-name": "Rivest L.-P."
+                            }]},
+                            "ref-sourcetitle": "J. Biomech."
+                        },
+                        "ce:source-text": "Rivest, L.-P.: A correction for axis misalignment in the joint angle curves representing knee movement in gain analysis. J. Biomech. 38, 1604\u20131611 (2005)"
+                    },
+                    {
+                        "ref-fulltext": "Oualkacha, K., Rivest, L.-P.: On the estimation of an average rigid body motion. Biometrika. 99, 585\u2013598 (2012)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-4abb5f9380915f274ac6ccee463b610e-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "On the estimation of an average rigid body motion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84865460055",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "99"},
+                                "pagerange": {
+                                    "@first": "585",
+                                    "@last": "598"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oualkacha",
+                                    "ce:indexed-name": "Oualkacha K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rivest",
+                                    "ce:indexed-name": "Rivest L.-P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biometrika"
+                        },
+                        "ce:source-text": "Oualkacha, K., Rivest, L.-P.: On the estimation of an average rigid body motion. Biometrika. 99, 585\u2013598 (2012)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T., Rivest, L.-P.: M-estimation for location and regression parameters in group models: a case study using Stiefel manifolds. Ann. Stat. 29(3), 784\u2013814 (2001)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-9f67a375012042b36086f0cd36757c07-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "M-estimation for location and regression parameters in group models: A case study using Stiefel manifolds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035539857",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "784",
+                                    "@last": "814"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rivest",
+                                    "ce:indexed-name": "Rivest L.-P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ann. Stat."
+                        },
+                        "ce:source-text": "Chang, T., Rivest, L.-P.: M-estimation for location and regression parameters in group models: a case study using Stiefel manifolds. Ann. Stat. 29(3), 784\u2013814 (2001)"
+                    },
+                    {
+                        "ref-fulltext": "Mardia, K.V., Patrangenaru, V.: Directions and projective shapes. Ann. Stat. 33(4), 1666\u20131699 (2005)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-71df096769441cf4ff457fe2bc6cd8c4-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Directions and projective shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "23744439307",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1666",
+                                    "@last": "1699"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mardia",
+                                    "ce:indexed-name": "Mardia K.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patrangenaru",
+                                    "ce:indexed-name": "Patrangenaru V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ann. Stat."
+                        },
+                        "ce:source-text": "Mardia, K.V., Patrangenaru, V.: Directions and projective shapes. Ann. Stat. 33(4), 1666\u20131699 (2005)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T., Stock, J., Molnar, P.: The rotation group in plate tectonics and the representation of uncertainties of plate reconstructions. Geophys. J. Int. 101, 649\u2013661 (1990)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-5d9979252ea1da0604a0ff9830b7bf05-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "The rotation group in plate tectonics and the representation of uncertainties of plate reconstructions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025207255",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "101"},
+                                "pagerange": {
+                                    "@first": "649",
+                                    "@last": "661"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stock",
+                                    "ce:indexed-name": "Stock J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Molnar",
+                                    "ce:indexed-name": "Molnar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geophys. J. Int."
+                        },
+                        "ce:source-text": "Chang, T., Stock, J., Molnar, P.: The rotation group in plate tectonics and the representation of uncertainties of plate reconstructions. Geophys. J. Int. 101, 649\u2013661 (1990)"
+                    },
+                    {
+                        "ref-fulltext": "Stock, J., Molnar, P.: Some geometrical aspects of uncertainties in combined plate reconstructions. Geology. 11, 697\u2013701 (1983)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-9aec201425072e1a927b6ad4f40595bb-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Some geometrical aspects of uncertainties in combined plate reconstructions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879879700",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "697",
+                                    "@last": "701"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stock",
+                                    "ce:indexed-name": "Stock J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Molnar",
+                                    "ce:indexed-name": "Molnar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geology"
+                        },
+                        "ce:source-text": "Stock, J., Molnar, P.: Some geometrical aspects of uncertainties in combined plate reconstructions. Geology. 11, 697\u2013701 (1983)"
+                    },
+                    {
+                        "ref-fulltext": "Molnar, P., Stock, J.: A method for bounding uncertainties in combined plate reconstructions. J. Geophys. Res. 90, 12,537\u201312,544 (1985)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-1d74ce8a6bb3f6535499150a10214bb8-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.all-electronics.de/so-koennten-leistungselektronische-schaltun-gen-entscheiden/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Cognitive Power Electronics 4.0-So knnten leistungselektronische Schaltungen entschei-den"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85144595929",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "All-Electronics.De-Entwicklung, Ferti-Gung, Automatisierung, 29.03.2019. [Online]"
+                        },
+                        "ce:source-text": "Molnar, P., Stock, J.: A method for bounding uncertainties in combined plate reconstructions. J. Geophys. Res. 90, 12,537\u201312,544 (1985)"
+                    },
+                    {
+                        "ref-fulltext": "Chang, T.: Estimating the relative rotation of two tectonic plates from boundary crossings. J. Am. Stat. Assoc. 83(404), 1178\u20131183 (1988)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-9486bdfe2c366759627a2f10398f3867-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Estimating the relative rotation of two tectonic plates from boundary crossings"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84950449502",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "83",
+                                    "@issue": "404"
+                                },
+                                "pagerange": {
+                                    "@first": "1178",
+                                    "@last": "1183"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang T."
+                            }]},
+                            "ref-sourcetitle": "J. Am. Stat. Assoc."
+                        },
+                        "ce:source-text": "Chang, T.: Estimating the relative rotation of two tectonic plates from boundary crossings. J. Am. Stat. Assoc. 83(404), 1178\u20131183 (1988)"
+                    },
+                    {
+                        "ref-fulltext": "Muller, R.D., Sdrolias, M., Gaina, C., Roest, W.R.: Age, spreading rates and spreading symmetry of the world\u2019s ocean crust. Geochem. Geophys. Geosyst. 9, Q04006 (2008). https://doi.org/10.1029/2007GC001743",
+                        "@reference-instance-id": "OB2BibRecID-947788112-05929b857b0355201f95eda9564769d6-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1029/2007GC001743",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Age, spreading rates and spreading symmetry of the world\u2019s ocean crust"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "Q04006",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "70349404232",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "9"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muller",
+                                    "ce:indexed-name": "Muller R.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sdrolias",
+                                    "ce:indexed-name": "Sdrolias M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gaina",
+                                    "ce:indexed-name": "Gaina C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roest",
+                                    "ce:indexed-name": "Roest W.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geochem. Geophys. Geosyst."
+                        },
+                        "ce:source-text": "Muller, R.D., Sdrolias, M., Gaina, C., Roest, W.R.: Age, spreading rates and spreading symmetry of the world\u2019s ocean crust. Geochem. Geophys. Geosyst. 9, Q04006 (2008). https://doi.org/10.1029/2007GC001743"
+                    },
+                    {
+                        "ref-fulltext": "Hellinger, S.J.: The uncertainties of finite rotations in plate tectonics. J. Geophys. Res. 86, 9312\u20139318 (1981)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-48fd9b2d95c2b06b15e71bbbd86110f6-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "The uncertainties of finite rotations in plate tectonics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019657282",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "86"},
+                                "pagerange": {
+                                    "@first": "9312",
+                                    "@last": "9318"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Hellinger",
+                                "ce:indexed-name": "Hellinger S.J."
+                            }]},
+                            "ref-sourcetitle": "J. Geophys. Res."
+                        },
+                        "ce:source-text": "Hellinger, S.J.: The uncertainties of finite rotations in plate tectonics. J. Geophys. Res. 86, 9312\u20139318 (1981)"
+                    },
+                    {
+                        "ref-fulltext": "Kirkwood, B.H., Royer, J.-Y., Chang, T., Gordon, R.G.: Statistical tools for estimating and combining finite rotations and their uncertainties. Geophys. J. Int. 137, 408\u2013428 (1999)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-f2b1c97f826b56a162f76234f35ef118-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Statistical tools for estimating and combining finite rotations and their uncertainties"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033033178",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "137"},
+                                "pagerange": {
+                                    "@first": "408",
+                                    "@last": "428"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kirkwood",
+                                    "ce:indexed-name": "Kirkwood B.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Royer",
+                                    "ce:indexed-name": "Royer J.-Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gordon",
+                                    "ce:indexed-name": "Gordon R.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geophys. J. Int."
+                        },
+                        "ce:source-text": "Kirkwood, B.H., Royer, J.-Y., Chang, T., Gordon, R.G.: Statistical tools for estimating and combining finite rotations and their uncertainties. Geophys. J. Int. 137, 408\u2013428 (1999)"
+                    },
+                    {
+                        "ref-fulltext": "Royer, J.-Y., Chang, T.: Evidence for relative motions between the Indian and Australian plates during the last 20 Myr from plate tectonic reconstructions. Implications for the deformation of the Indo-Australian plate. J. Geophys. Res. 96B, 11779\u201311802 (1991)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-249aa0b0b6293e4c7e2c28e91c8d7619-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "ref-title": {"ref-titletext": "Evidence for relative motions between the Indian and Australian plates during the last 20 Myr from plate tectonic reconstructions. Implications for the deformation of the Indo-Australian plate"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026303671",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "96B"},
+                                "pagerange": {
+                                    "@first": "11779",
+                                    "@last": "11802"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Royer",
+                                    "ce:indexed-name": "Royer J.-Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Geophys. Res"
+                        },
+                        "ce:source-text": "Royer, J.-Y., Chang, T.: Evidence for relative motions between the Indian and Australian plates during the last 20 Myr from plate tectonic reconstructions. Implications for the deformation of the Indo-Australian plate. J. Geophys. Res. 96B, 11779\u201311802 (1991)"
+                    },
+                    {
+                        "ref-fulltext": "DeMets, C., Gordon, R.G., Royer, J.-Y.: Motion between the Indian, Capricorn, and Somalian plates since 20 Ma: implications for the timing and magnitude of distributed lithospheric deformation in the equatorial Indian ocean. Geophys. J. Int. 161, 445\u2013468 (2005)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-69c19e8dc5936aebb9a24ec73cdf6c48-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Motion between the Indian, Capricorn, and Somalian plates since 20 Ma: Implications for the timing and magnitude of distributed lithospheric deformation in the equatorial Indian ocean"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18944374369",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "161"},
+                                "pagerange": {
+                                    "@first": "445",
+                                    "@last": "468"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Demets",
+                                    "ce:indexed-name": "Demets C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gordon",
+                                    "ce:indexed-name": "Gordon R.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Royer",
+                                    "ce:indexed-name": "Royer J.-Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geophys. J. Int."
+                        },
+                        "ce:source-text": "DeMets, C., Gordon, R.G., Royer, J.-Y.: Motion between the Indian, Capricorn, and Somalian plates since 20 Ma: implications for the timing and magnitude of distributed lithospheric deformation in the equatorial Indian ocean. Geophys. J. Int. 161, 445\u2013468 (2005)"
+                    },
+                    {
+                        "ref-fulltext": "Kirkwood, B.H., Chang, T.: Combining estimates of tectonic plate rotations: an extension of Welch\u2019s method to spherical regression. J. Mult. Anal. 65, 71\u2013108 (1998)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-7c1f57aeca0896c7b46d03bba6801866-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Combining estimates of tectonic plate rotations: An extension of Welch\u2019s method to spherical regression"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0040091903",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "65"},
+                                "pagerange": {
+                                    "@first": "71",
+                                    "@last": "108"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kirkwood",
+                                    "ce:indexed-name": "Kirkwood B.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Mult. Anal."
+                        },
+                        "ce:source-text": "Kirkwood, B.H., Chang, T.: Combining estimates of tectonic plate rotations: an extension of Welch\u2019s method to spherical regression. J. Mult. Anal. 65, 71\u2013108 (1998)"
+                    },
+                    {
+                        "ref-fulltext": "Johansen, S.: The Welch-James approximation to the distribution of the residual sum of squares in a weighted linear regression. Biometrika. 67, 85\u201392 (1980)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-9738e84862610bb998348a4407f8bb42-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "The Welch-James approximation to the distribution of the residual sum of squares in a weighted linear regression"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018886163",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "67"},
+                                "pagerange": {
+                                    "@first": "85",
+                                    "@last": "92"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Johansen",
+                                "ce:indexed-name": "Johansen S."
+                            }]},
+                            "ref-sourcetitle": "Biometrika"
+                        },
+                        "ce:source-text": "Johansen, S.: The Welch-James approximation to the distribution of the residual sum of squares in a weighted linear regression. Biometrika. 67, 85\u201392 (1980)"
+                    },
+                    {
+                        "ref-fulltext": "Goldstein, H.: Classical Mechanics. Addison-Wesley, Reading Massachusetts, Palo Alto, London (1951)",
+                        "@reference-instance-id": "OB2BibRecID-947788112-09e6a9b4728fe2234c0ca3794dbbef1a-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.all-electronics.de/so-koennten-leistungselektronische-schaltun-gen-entscheiden/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Cognitive Power Electronics 4.0-So knnten leistungselektronische Schaltungen entschei-den"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85144595929",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "All-Electronics.De-Entwicklung, Ferti-Gung, Automatisierung, 29.03.2019. [Online]"
+                        },
+                        "ce:source-text": "Goldstein, H.: Classical Mechanics. Addison-Wesley, Reading Massachusetts, Palo Alto, London (1951)"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Charlottesville",
+        "@id": "60021918",
+        "affilname": "University of Virginia",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021918",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85153849512",
+        "dc:description": "The Procrustes regression model provides a statistical framework to assess the errors in image registration (in arbitrary dimensions) from \u201clandmark\u201d data. The same mathematics can be used to determine the errors in calculated motions of rigid bodies in Euclidean space. Perhaps the scientifically most compelling example of rigid body motion is tectonic plates. Tectonic plates, to a first approximation, move as rigid bodies on the surface of the Earth. The estimation of the past configuration of the tectonic plates, and the errors in these reconstructions, is integral to the understanding of the past history of the Earth. Because tectonic plates are restricted to the surface of the Earth, the Procrustes regression model does not apply and the relevant model is called spherical regression. The Procrustes and spherical regression models are mathematically simple and, because of this simplicity, beautiful theorems about the properties of their estimates can be proven. The previous chapter (Chang T, Image registration, rigid bodies, and unknown coordinate systems. In: Pham H (ed) Springer handbook of engineering statistics, Springer-Verlag, London, pp. 571\u2013590, 2006) discusses many of these results. Using the spherical regression model, interesting insights into the properties of tectonic plate reconstructions are discussed in (Chang, J Geophys Res 92(B7):6319\u20136329, 1987; Chang, Int Stat Rev 61:299\u2013316, 1993). We will not replicate these results here. Rather the focus of this chapter is the underlying mathematics used to establish the results. These problems are intrinsically geometric and the proper use of geometry is important to their understanding. We will explain these points. This chapter is motivated by a request from a geophysics friend to explain, in as elementary fashion as feasible, the mathematics behind his work. This chapter will not replicate the formal proofs that appear elsewhere (see, for example, Chang, Ann Stat 14(3):907\u2013924, 1986, Rivest, Ann Stat 17(1):307\u2013317, 1989, or Chang and Ko, Ann Stat 23(5):1823\u20131847, 1995). This chapter is aimed at the scientist who wants to understand on a heuristic level why the results are true, without reading mathematically complete proofs! The type of data that is actually used to estimate plate reconstructions (experimentally determined \u201cmarine magnetic anomaly lineation\u201d locations) is not of the form that is modeled in the spherical regression model. We discuss in Sect. 53.6 the type of data that is actually collected and how to analyze it using the mathematical principles we will discuss here. For the nongeophysicist, this section can be used as an example of the use of the mathematical principles of this chapter in a different and complex data setting. Furthermore, although the rigid plate hypothesis is a simplification, one must first understand what types of reconstruction errors are consistent with rigid plates before deciding if the errors one is observing are in fact evidence of nonrigidity. Section 53.6 discusses some work of this type. Essentially, this chapter is a case study in the use of tangent space approximations and some elementary ideas from differential geometry. Other authors have used similar geometrical approaches. For example, Rivest (J Biomech 38:1604\u20131611, 2005) and Oualkacha and Rivest (Biometrika 99:585\u2013598, 2012) developed statistical methods for human motion studies derived from sensors placed on the human body as it moves. Chang and Rivest (Ann Stat 29(3):784\u2013814, 2001) extended to Stiefel manifolds the work outlined here and in (Chang T, Image registration, rigid bodies, and unknown coordinate systems. In: Pham H (ed) Springer handbook of engineering statistics, Springer-Verlag, London, pp. 571\u2013590, 2006) and used the results to reanalyze a data set on vector cardiograms. Patrangenaru has numerous papers (e.g., Mardia and Patrangenaru (Ann Stat 33(4):1666\u20131699, 2005)) developing statistical methods for comparing images when projective, rather than rigid, transformations are allowed. Indeed, the author believes that the engineering disciplines have multiple problems of a geometric nature and hopes that the approaches used here can be helpful in studying them. This chapter has been written so that it can be read independently of the preceding chapter (Chang T, Image registration, rigid bodies, and unknown coordinate systems. In: Pham H (ed) Springer handbook of engineering statistics, Springer-Verlag, London, pp. 571\u2013590, 2006).",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85153849512",
+        "subtypeDescription": "Book Chapter",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Ted",
+            "preferred-name": {
+                "ce:given-name": "Ted",
+                "ce:initials": "T.",
+                "ce:surname": "Chang",
+                "ce:indexed-name": "Chang T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021918",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021918"
+            },
+            "ce:surname": "Chang",
+            "@auid": "7404725033",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7404725033",
+            "ce:indexed-name": "Chang T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85153849512"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85153849512&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85153849512&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Springer Handbooks",
+        "source-id": "21100936616",
+        "citedby-count": "0",
+        "subtype": "ch",
+        "prism:pageRange": "1059-1073",
+        "dc:title": "Tangent Space Approximation in Geometric Statistics",
+        "prism:endingPage": "1073",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-1-4471-7503-2_53",
+        "prism:issn": "25228706 25228692",
+        "prism:startingPage": "1059",
+        "publishercopyright": "© 2023, Springer-Verlag London Ltd., part of Springer Nature.",
+        "dc:identifier": "SCOPUS_ID:85153849512",
+        "dc:publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Cayley-Klein parameters"
+        },
+        {
+            "@_fa": "true",
+            "$": "Geometric statistics"
+        },
+        {
+            "@_fa": "true",
+            "$": "Procrustes regression"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternions"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rigid body motion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Spherical regression"
+        },
+        {
+            "@_fa": "true",
+            "$": "Tangent space approximation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Tectonic plate reconstruction"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Multidisciplinary",
+        "@code": "1000",
+        "@abbrev": "MULT"
+    }]},
+    "authors": {"author": [{
+        "ce:given-name": "Ted",
+        "preferred-name": {
+            "ce:given-name": "Ted",
+            "ce:initials": "T.",
+            "ce:surname": "Chang",
+            "ce:indexed-name": "Chang T."
+        },
+        "@seq": "1",
+        "ce:initials": "T.",
+        "@_fa": "true",
+        "affiliation": {
+            "@id": "60021918",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021918"
+        },
+        "ce:surname": "Chang",
+        "@auid": "7404725033",
+        "author-url": "https://api.elsevier.com/content/author/author_id/7404725033",
+        "ce:indexed-name": "Chang T."
+    }]}
+}}

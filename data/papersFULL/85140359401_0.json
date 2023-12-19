@@ -1,0 +1,706 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "22",
+                "@timestamp": "2022-11-22T11:24:20.000020-05:00",
+                "@year": "2022",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Cooperative Research Project Program of the Research Institute of Electrical Communication, Tohoku University"},
+                {
+                    "xocs:funding-agency-matched-string": "JSPS",
+                    "xocs:funding-agency-acronym": "KAKEN",
+                    "xocs:funding-agency": "Japan Society for the Promotion of Science",
+                    "xocs:funding-id": "18H04105",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001691",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-11-02T12:22:44.635Z",
+            "xocs:funding-text": "This work was supported in part by JSPS KAKENHI under Grant 18H04105 and in part by Cooperative Research Project Program of the Research Institute of Electrical Communication, Tohoku University. The Advanced Land Observing Satellite 2 (ALOS-2) original data are copyrighted by the Japan Aerospace Exploration Agency (JAXA) and provided under JAXA Fourth ALOS Research Announcement PI No. 1154 (AH).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Japan",
+                        "address-part": "7-3-1 Hongo, Bunkyo-ku",
+                        "postal-code": "113-8656",
+                        "@afid": "60025272",
+                        "@country": "jpn",
+                        "city": "Tokyo",
+                        "organization": [
+                            {"$": "The University of Tokyo"},
+                            {"$": "Department of Electrical Engineering and Information Systems"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60025272",
+                            "@dptid": "106606039"
+                        },
+                        "ce:source-text": "The University of Tokyo, Department of Electrical Engineering and Information Systems, Tokyo, Japan, 113-8656",
+                        "@dptid": "106606039"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Yuya",
+                            "preferred-name": {
+                                "ce:given-name": "Yuya",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Matsumoto",
+                                "ce:indexed-name": "Matsumoto Y."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Matsumoto",
+                            "@auid": "57608068300",
+                            "ce:indexed-name": "Matsumoto Y."
+                        },
+                        {
+                            "ce:given-name": "Ryo",
+                            "preferred-name": {
+                                "ce:given-name": "Ryo",
+                                "ce:initials": "R.",
+                                "ce:surname": "Natsuaki",
+                                "ce:indexed-name": "Natsuaki R."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Natsuaki",
+                            "@auid": "35795724100",
+                            "ce:indexed-name": "Natsuaki R."
+                        },
+                        {
+                            "ce:given-name": "Akira",
+                            "preferred-name": {
+                                "ce:given-name": "Akira",
+                                "ce:initials": "A.",
+                                "ce:surname": "Hirose",
+                                "ce:indexed-name": "Hirose A."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Hirose",
+                            "@auid": "35416951600",
+                            "ce:indexed-name": "Hirose A."
+                        }
+                    ]
+                },
+                "citation-title": "Proposal of PolSAR Land Classification Using Full-Learning Quaternion Convolutional Neural Networks",
+                "abstracts": "© 2022 IEEE.Quaternion convolutional neural networks (QCNNs) are in-herently useful for image processing and PolSAR land classification, since they can learn the relationship between the components of input vectors with quaternionic rotations. However, conventional QCNNs fix their rotation axes represented by quaternion weights, resulting in reduction of the degree of freedom (DoF) and the lose of the expression ability. In this paper, we propose QCNNs which learn all the four parameters of the quaternion weights by backpropagation. They perform learning with the maximum of DoF so that they take full advantages of quaternion learning. In addition, we use two totally different features, namely, Pauli RGB features and normalized Stokes vectors. We experimentally found that Pauli RGB features are suitable for discrimination between town and forest, and Stokes vectors between water and grass. Combining their two results complementarily improves classification results. Our proposed QCNNs show the best classification performance compared with real-valued convolutional neural networks and fixed-axis QCNN. These results demonstrate the strength of the proposed QCNN in adaptive polarization processing in multimodal data in the PolSAR field.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "convolutional neural network (CNN)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Polarimetric synthetic aperture radar (PolSAR)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "quaternion neural network (QNN)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "International Geoscience and Remote Sensing Symposium (IGARSS)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "2022-July"},
+                        "pagerange": {
+                            "@first": "235",
+                            "@last": "238"
+                        }
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665427920",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2022 IEEE International Geoscience and Remote Sensing Symposium, IGARSS 2022",
+                            "confsponsors": {
+                                "confsponsor": "The Institute of Electrical and Electronics Engineers Geoscience and Remote Sensing Society (GRSS)",
+                                "@complete": "n"
+                            },
+                            "confcatnumber": "CFP22IGA-ART",
+                            "confseriestitle": "IEEE International Geoscience and Remote Sensing Symposium",
+                            "conflocation": {
+                                "@country": "mys",
+                                "city": "Kuala Lumpur"
+                            },
+                            "confcode": "183276",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "22",
+                                    "@year": "2022",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "17",
+                                    "@year": "2022",
+                                    "@month": "07"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "International Geoscience and Remote Sensing Symposium (IGARSS)",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "codencode": "IGRSE",
+                    "sourcetitle-abbrev": "Dig Int Geosci Remote Sens Symp (IGARSS)",
+                    "@country": "usa",
+                    "issuetitle": "IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "82000"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1706"},
+                            {"$": "1900"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "20",
+                    "@timestamp": "BST 15:01:41",
+                    "@year": "2022",
+                    "@month": "11"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "639335609",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "943748710",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20224313008560",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20223127201",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20223728882",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85140359401",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85140359401",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/IGARSS46834.2022.9883874"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "4",
+                "reference": [
+                    {
+                        "ref-fulltext": "F. Xu Y. Zhou, H. Wang and Y. Jin, \"Polarimetric SAR Image Classification Using Deep Convolutional Neural Networks, \" IEEE Geoscience and Remote Sensing Letters, vol. 13, no. 12, pp. 1935-1939, 2016.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Polarimetric sar image classification using deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84999286989",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1935",
+                                    "@last": "1939"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu Zhou",
+                                    "ce:indexed-name": "Xu Zhou Y.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Geoscience and Remote Sensing Letters"
+                        },
+                        "ce:source-text": "F. Xu Y. Zhou, H. Wang and Y. Jin, \"Polarimetric SAR Image Classification Using Deep Convolutional Neural Networks, \" IEEE Geoscience and Remote Sensing Letters, vol. 13, no. 12, pp. 1935-1939, 2016."
+                    },
+                    {
+                        "ref-fulltext": "F. Shang and A. Hirose, \"Quaternion Neural-Network-Based PolSAR Land Classification in Poincare-Sphere-Parameter Space, \" IEEE Transactions on Geoscience and Remote Sensing, vol. 52, no. 9, pp. 5693-5703, 2014.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Quaternion neural-network-based polsar land classification in poincare-sphere-parameter space"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84900809101",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "5693",
+                                    "@last": "5703"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shang",
+                                    "ce:indexed-name": "Shang F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hirose",
+                                    "ce:indexed-name": "Hirose A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Geoscience and Remote Sensing"
+                        },
+                        "ce:source-text": "F. Shang and A. Hirose, \"Quaternion Neural-Network-Based PolSAR Land Classification in Poincare-Sphere-Parameter Space, \" IEEE Transactions on Geoscience and Remote Sensing, vol. 52, no. 9, pp. 5693-5703, 2014."
+                    },
+                    {
+                        "ref-fulltext": "X. Zhu, Y. Xu, X. Hongteng and C. Changjian, \"Quaternion Convolutional Neural Networks, \" in Proceedings of the European Conference on Computer Vision (ECCV), September 2018.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Quaternion convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063261389",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "September",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hongteng",
+                                    "ce:indexed-name": "Hongteng X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Changjian",
+                                    "ce:indexed-name": "Changjian C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision (ECCV)"
+                        },
+                        "ce:source-text": "X. Zhu, Y. Xu, X. Hongteng and C. Changjian, \"Quaternion Convolutional Neural Networks, \" in Proceedings of the European Conference on Computer Vision (ECCV), September 2018."
+                    },
+                    {
+                        "ref-fulltext": "X. Zhang, J. Xia, X. Tan, X. Zhou and T. Wang, \"PolSAR Image Classification via Learned Superpixels and QCNN Integrating Color Features, \" Remote Sensing, vol. 11, no. 15, 2019.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "PolSAR image classification via learned superpixels and qcnn integrating color features"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070456883",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "11",
+                                "@issue": "15"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Remote Sensing"
+                        },
+                        "ce:source-text": "X. Zhang, J. Xia, X. Tan, X. Zhou and T. Wang, \"PolSAR Image Classification via Learned Superpixels and QCNN Integrating Color Features, \" Remote Sensing, vol. 11, no. 15, 2019."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Tokyo",
+        "@id": "60025272",
+        "affilname": "The University of Tokyo",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272",
+        "affiliation-country": "Japan"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85140359401",
+        "dc:description": "Quaternion convolutional neural networks (QCNNs) are in-herently useful for image processing and PolSAR land classification, since they can learn the relationship between the components of input vectors with quaternionic rotations. However, conventional QCNNs fix their rotation axes represented by quaternion weights, resulting in reduction of the degree of freedom (DoF) and the lose of the expression ability. In this paper, we propose QCNNs which learn all the four parameters of the quaternion weights by backpropagation. They perform learning with the maximum of DoF so that they take full advantages of quaternion learning. In addition, we use two totally different features, namely, Pauli RGB features and normalized Stokes vectors. We experimentally found that Pauli RGB features are suitable for discrimination between town and forest, and Stokes vectors between water and grass. Combining their two results complementarily improves classification results. Our proposed QCNNs show the best classification performance compared with real-valued convolutional neural networks and fixed-axis QCNN. These results demonstrate the strength of the proposed QCNN in adaptive polarization processing in multimodal data in the PolSAR field.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85140359401",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yuya",
+            "preferred-name": {
+                "ce:given-name": "Yuya",
+                "ce:initials": "Y.",
+                "ce:surname": "Matsumoto",
+                "ce:indexed-name": "Matsumoto Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Matsumoto",
+            "@auid": "57608068300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57608068300",
+            "ce:indexed-name": "Matsumoto Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85140359401"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85140359401&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85140359401&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665427920",
+        "source-id": "82000",
+        "citedby-count": "0",
+        "prism:volume": "2022-July",
+        "subtype": "cp",
+        "dc:title": "Proposal of PolSAR Land Classification Using Full-Learning Quaternion Convolutional Neural Networks",
+        "openaccess": "0",
+        "publishercopyright": "© 2022 IEEE.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "International Geoscience and Remote Sensing Symposium (IGARSS)",
+        "prism:pageRange": "235-238",
+        "prism:endingPage": "238",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/IGARSS46834.2022.9883874",
+        "prism:startingPage": "235",
+        "dc:identifier": "SCOPUS_ID:85140359401",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Images processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Input vector",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learn+",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural-networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Polarimetric synthetic aperture radar",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Polarimetric synthetic aperture radars",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stokes vector",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "convolutional neural network (CNN)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Polarimetric synthetic aperture radar (PolSAR)"
+        },
+        {
+            "@_fa": "true",
+            "$": "quaternion neural network (QNN)"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Earth and Planetary Sciences (all)",
+            "@code": "1900",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yuya",
+            "preferred-name": {
+                "ce:given-name": "Yuya",
+                "ce:initials": "Y.",
+                "ce:surname": "Matsumoto",
+                "ce:indexed-name": "Matsumoto Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Matsumoto",
+            "@auid": "57608068300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57608068300",
+            "ce:indexed-name": "Matsumoto Y."
+        },
+        {
+            "ce:given-name": "Ryo",
+            "preferred-name": {
+                "ce:given-name": "Ryo",
+                "ce:initials": "R.",
+                "ce:surname": "Natsuaki",
+                "ce:indexed-name": "Natsuaki R."
+            },
+            "@seq": "2",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Natsuaki",
+            "@auid": "35795724100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35795724100",
+            "ce:indexed-name": "Natsuaki R."
+        },
+        {
+            "ce:given-name": "Akira",
+            "preferred-name": {
+                "ce:given-name": "Akira",
+                "ce:initials": "A.",
+                "ce:surname": "Hirose",
+                "ce:indexed-name": "Hirose A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025272",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025272"
+            },
+            "ce:surname": "Hirose",
+            "@auid": "35416951600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35416951600",
+            "ce:indexed-name": "Hirose A."
+        }
+    ]}
+}}

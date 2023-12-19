@@ -1,0 +1,754 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "19",
+                "@year": "2019",
+                "@timestamp": "2019-12-19T00:17:07.000007-05:00",
+                "@month": "12"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2012",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Italy",
+                            "@afid": "60082509",
+                            "@country": "ita",
+                            "organization": {"$": "CIRA Italian Aerospace Research Centre"},
+                            "affiliation-id": {"@afid": "60082509"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Giovanni",
+                                "preferred-name": {
+                                    "ce:given-name": "Giovanni",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Cuciniello",
+                                    "ce:indexed-name": "Cuciniello G."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Cuciniello",
+                                "@auid": "24398572800",
+                                "ce:indexed-name": "Cuciniello G."
+                            },
+                            {
+                                "ce:given-name": "Francesco",
+                                "preferred-name": {
+                                    "ce:given-name": "Francesco",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Nebula",
+                                    "ce:indexed-name": "Nebula F."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Nebula",
+                                "@auid": "24399631400",
+                                "ce:indexed-name": "Nebula F."
+                            },
+                            {
+                                "ce:given-name": "Federico",
+                                "preferred-name": {
+                                    "ce:given-name": "Federico",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Corraro",
+                                    "ce:indexed-name": "Corraro F."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Corraro",
+                                "@auid": "22949701300",
+                                "ce:indexed-name": "Corraro F."
+                            },
+                            {
+                                "ce:given-name": "Marco",
+                                "preferred-name": {
+                                    "ce:given-name": "Marco",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Cicala",
+                                    "ce:indexed-name": "Cicala M."
+                                },
+                                "@seq": "6",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Cicala",
+                                "@auid": "36116567400",
+                                "ce:indexed-name": "Cicala M."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Italy",
+                            "@afid": "108988919",
+                            "@country": "ita",
+                            "organization": {"$": "ELV S.p.A."},
+                            "affiliation-id": {"@afid": "108988919"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Irene",
+                                "preferred-name": {
+                                    "ce:given-name": "Irene",
+                                    "ce:initials": "I.",
+                                    "ce:surname": "Cruciani",
+                                    "ce:indexed-name": "Cruciani I."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "I.",
+                                "@_fa": "true",
+                                "ce:surname": "Cruciani",
+                                "@auid": "8584247800",
+                                "ce:indexed-name": "Cruciani I."
+                            },
+                            {
+                                "ce:given-name": "Federico",
+                                "preferred-name": {
+                                    "ce:given-name": "Federico",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Sciuto",
+                                    "ce:indexed-name": "Sciuto F."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Sciuto",
+                                "@auid": "55846498100",
+                                "ce:indexed-name": "Sciuto F."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "RACS QFR algorithm for VEGA FPSA program",
+                "abstracts": "This paper describes the design and tuning methodology of the RACS (Roll and Attitude Control System) for VEGA launcher vehicle (LV), in the frame of the development of an Alternative Flight Program Software (FPS-A). The performances of this algorithm are also discussed in terms of control accuracy, fuel consumption, number of RCT (reaction control thrusters) activations, missionization complexity, and robustness to system uncertainties. The control law of the proposed Quaternion Feedback Regulator (QFR) algorithm consists of linear error- quaternion feedback (proportional action), linear body-rate feedback with a feed-forward term (introducing an artificial damping factor, i.e. derivative action), and a nonlinear body-rate feedback term that counteracts the gyroscopic coupling torque. The quaternion error, considered in the control torque computation, represents the rotation that the LV shall perform to obtain the programmed quaternion. Both the control action gains can be related to the full inertia matrix and for this reason, the QFR algorithm presents fully MIMO characteristics. The independence of the closed loop dynamic behaviour from the LV inertia is guaranteed by a generic characterization of the control gains, valid and applicable for all mission types. In particular, the desired linear dynamic behaviour is obtained by tuning the proportional and derivative gain as function of damping ratio and natural frequency of an equivalent linear second order system. A dead zone prevents thruster activation when the error is within the expected performance, reducing the number of activations of the RCT valves. The selection of the dead-zone thresholds depends on the inertia matrix and the requirement. In this way, a particular criteria which takes into account these dependences, regulates the thresholds tuning. The thrusters and the vehicle dynamics are equivalent to a low pass filter reacting only to the mean value of the imposed torque, allowing to use a Pulse Width Modulated torque command signal. Starting from the desired torque, the thrusters assignment logic computes the PWM duty-cycle and respective opening time required for each thruster. Algorithm effectiveness has been assessed on a representative numerical simulation environment, considering the main critical flight phases for RACS function and key performance criteria (fuel consumption, number of activations and control accuracy). Algorithm robustness has been evaluated using a Monte Carlo analysis, against a set of uncertainties and dispersions on LV conditions, Mass, Center of Gravity and Inertia characteristics, RCT performances and sloshing models. Copyright © (2012) by the International Astronautical Federation.",
+                "correspondence": {"affiliation": {
+                    "country": "Italy",
+                    "@country": "ita",
+                    "organization": {"$": "CIRA Italian Aerospace Research Centre"}
+                }},
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Proc. Int. Astronaut. Congr., IAC",
+                    "@country": "usa",
+                    "issuetitle": "63rd International Astronautical Congress 2012, IAC 2012",
+                    "issn": {
+                        "$": "00741795",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "8"},
+                        "pagerange": {
+                            "@first": "6101",
+                            "@last": "6110"
+                        }
+                    },
+                    "@type": "p",
+                    "publicationyear": {"@first": "2012"},
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781622769797",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {
+                            "procpagerange": "var.pagings",
+                            "procpartno": "3 of 14"
+                        },
+                        "confevent": {
+                            "confname": "63rd International Astronautical Congress 2012, IAC 2012",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "Agenzia Spaziale Italiana (ASI)"},
+                                    {"$": "Finmeccanica SpA"},
+                                    {"$": "Sangemini S.p.A."}
+                                ],
+                                "@complete": "y"
+                            },
+                            "conflocation": {
+                                "city-group": "Naples",
+                                "@country": "ita"
+                            },
+                            "confcode": "98825",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "05",
+                                    "@year": "2012",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "01",
+                                    "@year": "2012",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of the International Astronautical Congress, IAC",
+                    "@srcid": "21100255701",
+                    "publicationdate": {
+                        "year": "2012",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2012"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            },
+                            {
+                                "classification-code": "922.1",
+                                "classification-description": "Probability Theory"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "804",
+                                "classification-description": "Chemical Products Generally"
+                            },
+                            {
+                                "classification-code": "931.5",
+                                "classification-description": "Gravitation and Relativity"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "713",
+                                "classification-description": "Electronic Circuits"
+                            },
+                            {
+                                "classification-code": "663.2",
+                                "classification-description": "Heavy Duty Motor Vehicle Components"
+                            },
+                            {
+                                "classification-code": "421",
+                                "classification-description": "Strength of Building Materials; Mechanical Properties"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {"classification-code": "Related Topics"}
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2202"},
+                            {"$": "3103"},
+                            {"$": "1912"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "PHYS"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2013 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "11",
+                    "@year": "2013",
+                    "@month": "09"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "369748596",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "20133716731268",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "84883512811",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "84883512811",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "4",
+                "reference": [
+                    {
+                        "ref-fulltext": "N. Paulino, G. Cuciniello, F. Nebula, F. Corraro, D. Spallotta, I. Cruciani, \"VEGA RACS Algorithms Trade-off Study\", 4THEUROPEAN CONFERENCE FOR AEROSPACE SCIENCES (EUCASS), Saint Petersburg, Russia, July 4-8, 2011.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "VEGA RACS algorithms trade-off study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84883533064",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Saint Petersburg, Russia, July 4-8",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paulino",
+                                    "ce:indexed-name": "Paulino N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cuciniello",
+                                    "ce:indexed-name": "Cuciniello G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nebula",
+                                    "ce:indexed-name": "Nebula F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Corraro",
+                                    "ce:indexed-name": "Corraro F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spallotta",
+                                    "ce:indexed-name": "Spallotta D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cruciani",
+                                    "ce:indexed-name": "Cruciani I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "4thEuropean Conference For Aerospace Sciences (Eucass)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J.R. Wertz, \"Spacecraft Attitude Determination and Control\", Published by D. Reidel, edition 1 (December 31, 1980); ISBN-10: 9027712042.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003586152",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Published by D. Reidel, edition 1 (December 31 ); ISBN-10: 9027712042",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Wertz",
+                                "ce:indexed-name": "Wertz J.R."
+                            }]},
+                            "ref-sourcetitle": "Spacecraft Attitude Determination and Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Wie, H.Weiss, A. Arapostathis, 1989. Quaternion Feedback Regulator for Spacecraft Eigenaxis Rotations. Journal of Guidance, Vol. 12, No. 3.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Quaternion feedback regulator for spacecraft eigenaxis rotations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0024656129",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "12",
+                                "@issue": "3"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wie",
+                                    "ce:indexed-name": "Wie B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weiss",
+                                    "ce:indexed-name": "Weiss H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arapostathis",
+                                    "ce:indexed-name": "Arapostathis A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. F. Guerrero-Castellanos, N. Marchand, S. Lesecq, J. Delamare, \"Bounded attitude stabilization: real-time application on four-rotor mini-helicopter\", Proceedings of the 17lh International Federation of Automatic Control World Congress, Seul, Korea, July 6-11, 2008.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Bounded attitude stabilization: Real-time application on four-rotor mini-helicopter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79961019065",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Seul, Korea, July 6-11",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guerrero-Castellanos",
+                                    "ce:indexed-name": "Guerrero-Castellanos J.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marchand",
+                                    "ce:indexed-name": "Marchand N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lesecq",
+                                    "ce:indexed-name": "Lesecq S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delamare",
+                                    "ce:indexed-name": "Delamare J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 17lh International Federation of Automatic Control World Congress"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Capua",
+            "@id": "60082509",
+            "affilname": "Centro Italiano Ricerche Aerospaziali",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082509",
+            "affiliation-country": "Italy"
+        },
+        {
+            "affiliation-city": "Colleferro",
+            "@id": "108988919",
+            "affilname": "ELV S.p.A",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/108988919",
+            "affiliation-country": "Italy"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84883512811",
+        "dc:description": "This paper describes the design and tuning methodology of the RACS (Roll and Attitude Control System) for VEGA launcher vehicle (LV), in the frame of the development of an Alternative Flight Program Software (FPS-A). The performances of this algorithm are also discussed in terms of control accuracy, fuel consumption, number of RCT (reaction control thrusters) activations, missionization complexity, and robustness to system uncertainties. The control law of the proposed Quaternion Feedback Regulator (QFR) algorithm consists of linear error- quaternion feedback (proportional action), linear body-rate feedback with a feed-forward term (introducing an artificial damping factor, i.e. derivative action), and a nonlinear body-rate feedback term that counteracts the gyroscopic coupling torque. The quaternion error, considered in the control torque computation, represents the rotation that the LV shall perform to obtain the programmed quaternion. Both the control action gains can be related to the full inertia matrix and for this reason, the QFR algorithm presents fully MIMO characteristics. The independence of the closed loop dynamic behaviour from the LV inertia is guaranteed by a generic characterization of the control gains, valid and applicable for all mission types. In particular, the desired linear dynamic behaviour is obtained by tuning the proportional and derivative gain as function of damping ratio and natural frequency of an equivalent linear second order system. A dead zone prevents thruster activation when the error is within the expected performance, reducing the number of activations of the RCT valves. The selection of the dead-zone thresholds depends on the inertia matrix and the requirement. In this way, a particular criteria which takes into account these dependences, regulates the thresholds tuning. The thrusters and the vehicle dynamics are equivalent to a low pass filter reacting only to the mean value of the imposed torque, allowing to use a Pulse Width Modulated torque command signal. Starting from the desired torque, the thrusters assignment logic computes the PWM duty-cycle and respective opening time required for each thruster. Algorithm effectiveness has been assessed on a representative numerical simulation environment, considering the main critical flight phases for RACS function and key performance criteria (fuel consumption, number of activations and control accuracy). Algorithm robustness has been evaluated using a Monte Carlo analysis, against a set of uncertainties and dispersions on LV conditions, Mass, Center of Gravity and Inertia characteristics, RCT performances and sloshing models. Copyright © (2012) by the International Astronautical Federation.",
+        "prism:coverDate": "2012-12-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84883512811",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Giovanni",
+            "preferred-name": {
+                "ce:given-name": "Giovanni",
+                "ce:initials": "G.",
+                "ce:surname": "Cuciniello",
+                "ce:indexed-name": "Cuciniello G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082509"
+            },
+            "ce:surname": "Cuciniello",
+            "@auid": "24398572800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24398572800",
+            "ce:indexed-name": "Cuciniello G."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84883512811"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84883512811&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84883512811&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781622769797",
+        "prism:publicationName": "Proceedings of the International Astronautical Congress, IAC",
+        "source-id": "21100255701",
+        "citedby-count": "0",
+        "prism:volume": "8",
+        "subtype": "cp",
+        "prism:pageRange": "6101-6110",
+        "dc:title": "RACS QFR algorithm for VEGA FPSA program",
+        "prism:endingPage": "6110",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:issn": "00741795",
+        "prism:startingPage": "6101",
+        "dc:identifier": "SCOPUS_ID:84883512811"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Gyroscopic coupling",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Monte carlo analysis",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Performance criterion",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pulse-width-modulated",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reaction control thrusters",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Second-order systemss",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Simulation environment",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "System uncertainties",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Aerospace Engineering",
+            "@code": "2202",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Astronomy and Astrophysics",
+            "@code": "3103",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Space and Planetary Science",
+            "@code": "1912",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Giovanni",
+            "preferred-name": {
+                "ce:given-name": "Giovanni",
+                "ce:initials": "G.",
+                "ce:surname": "Cuciniello",
+                "ce:indexed-name": "Cuciniello G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082509"
+            },
+            "ce:surname": "Cuciniello",
+            "@auid": "24398572800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24398572800",
+            "ce:indexed-name": "Cuciniello G."
+        },
+        {
+            "ce:given-name": "Irene",
+            "preferred-name": {
+                "ce:given-name": "Irene",
+                "ce:initials": "I.",
+                "ce:surname": "Cruciani",
+                "ce:indexed-name": "Cruciani I."
+            },
+            "@seq": "2",
+            "ce:initials": "I.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "108988919",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/108988919"
+            },
+            "ce:surname": "Cruciani",
+            "@auid": "8584247800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8584247800",
+            "ce:indexed-name": "Cruciani I."
+        },
+        {
+            "ce:given-name": "Francesco",
+            "preferred-name": {
+                "ce:given-name": "Francesco",
+                "ce:initials": "F.",
+                "ce:surname": "Nebula",
+                "ce:indexed-name": "Nebula F."
+            },
+            "@seq": "3",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082509"
+            },
+            "ce:surname": "Nebula",
+            "@auid": "24399631400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24399631400",
+            "ce:indexed-name": "Nebula F."
+        },
+        {
+            "ce:given-name": "Federico",
+            "preferred-name": {
+                "ce:given-name": "Federico",
+                "ce:initials": "F.",
+                "ce:surname": "Sciuto",
+                "ce:indexed-name": "Sciuto F."
+            },
+            "@seq": "4",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "108988919",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/108988919"
+            },
+            "ce:surname": "Sciuto",
+            "@auid": "55846498100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55846498100",
+            "ce:indexed-name": "Sciuto F."
+        },
+        {
+            "ce:given-name": "Federico",
+            "preferred-name": {
+                "ce:given-name": "Federico",
+                "ce:initials": "F.",
+                "ce:surname": "Corraro",
+                "ce:indexed-name": "Corraro F."
+            },
+            "@seq": "5",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082509"
+            },
+            "ce:surname": "Corraro",
+            "@auid": "22949701300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/22949701300",
+            "ce:indexed-name": "Corraro F."
+        },
+        {
+            "ce:given-name": "Marco",
+            "preferred-name": {
+                "ce:given-name": "Marco",
+                "ce:initials": "M.",
+                "ce:surname": "Cicala",
+                "ce:indexed-name": "Cicala M."
+            },
+            "@seq": "6",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60082509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60082509"
+            },
+            "ce:surname": "Cicala",
+            "@auid": "36116567400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36116567400",
+            "ce:indexed-name": "Cicala M."
+        }
+    ]}
+}}

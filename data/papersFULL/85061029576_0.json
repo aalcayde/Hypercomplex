@@ -1,0 +1,2035 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "10",
+                "@year": "2020",
+                "@timestamp": "2020-02-10T15:18:33.000033-05:00",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "15",
+                "@year": "2019",
+                "@month": "03"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                "xocs:funding-agency-acronym": "NSFC",
+                "xocs:funding-agency": "National Natural Science Foundation of China",
+                "xocs:funding-id": [
+                    {"$": "61472155"},
+                    {"$": "61877021"},
+                    {"$": "MYRG2017-00218-FST"}
+                ],
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-02-04T21:37:35.980740Z",
+            "xocs:funding-text": "Manuscript received March 6, 2018; revised September 1, 2018 and December 6, 2018; accepted December 19, 2018. Date of publication January 9, 2019; date of current version January 24, 2019. The associate editor coordinating the review of this manuscript and approving it for publication was Dr. Ian Vaughan Clarkson. This work was supported in part by the National Natural Science Foundation of China under Grant 61877021 and Grant 61472155, and in part by the Multi-year Research Grant MYRG2017-00218-FST. (Corresponding author: Hong Li.) Huizhen Li and Hong Li are with the School of Mathematics and Statistics, Huazhong University of Science and Technology, Wuhan 430074, China (e-mail:,huizhenli@hust.edu.cn; hongli@hust.edu.cn).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "430074",
+                            "@afid": "60025761",
+                            "@country": "chn",
+                            "city": "Wuhan",
+                            "organization": [
+                                {"$": "School of Mathematics and Statistics"},
+                                {"$": "Huazhong University of Science and Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60025761",
+                                "@dptid": "109645296"
+                            },
+                            "@dptid": "109645296"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Huizhen",
+                                "preferred-name": {
+                                    "ce:given-name": "Huizhen",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Li",
+                                "@auid": "57193685624",
+                                "@orcid": "0000-0002-2398-5565",
+                                "ce:indexed-name": "Li H."
+                            },
+                            {
+                                "ce:given-name": "Hong",
+                                "preferred-name": {
+                                    "ce:given-name": "Hong",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Li",
+                                "@auid": "57141375000",
+                                "@orcid": "0000-0001-5597-5479",
+                                "ce:indexed-name": "Li H."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Macao",
+                            "postal-code": "999078",
+                            "@afid": "60022317",
+                            "@country": "mac",
+                            "city": "Taipa",
+                            "organization": [
+                                {"$": "Faculty of Science and Technology"},
+                                {"$": "University of Macau"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60022317",
+                                "@dptid": "113709849"
+                            },
+                            "@dptid": "113709849"
+                        },
+                        "author": [{
+                            "ce:given-name": "Liming",
+                            "preferred-name": {
+                                "ce:given-name": "Liming",
+                                "ce:initials": "L.",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zhang",
+                            "@auid": "46662053300",
+                            "@orcid": "0000-0002-2664-8193",
+                            "ce:indexed-name": "Zhang L."
+                        }]
+                    }
+                ],
+                "citation-title": "Quaternion-based multiscale analysis for feature extraction of hyperspectral images",
+                "abstracts": "© 2019 IEEE.This paper proposes a new method called multiscale quaternion Weber local descriptor histogram (MQWLDH) for feature extraction of hyperspectral images (HSIs), which is used to model spatial information based on the corresponding spectral features. The proposed method first transforms spectral data into an orthogonal space using principal component analysis, and extracts the first three principal components (PCs) based on the maximum variance theory. Then, construct the MQWLDH to extract spatial features based on those first three PCs. The proposed method uses the algebraic structure of quaternions to unify the process of processing the first three PCs, which reduces the computational cost and the dimensionality of the extracted spatial feature vector. Moreover, the constructed quaternion Weber local descriptor effectively characterizes the variations of each pixel neighborhood and detects the edges of HSIs. To capture more intrinsic spatial information contained in homogeneous regions of different sizes and shapes, multiscale feature histograms are constructed. Finally, a feature fusion framework is proposed to fuse spectral and spatial features so that spectral information can be fully utilized. The experimental results on three HSI datasets demonstrate that the proposed method provides effective features to different classifiers and achieves excellent classification performance.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "430074",
+                        "@country": "chn",
+                        "city": "Wuhan",
+                        "organization": [
+                            {"$": "School of Mathematics and Statistics"},
+                            {"$": "Huazhong University of Science and Technology"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Hong",
+                        "ce:initials": "H.",
+                        "ce:surname": "Li",
+                        "ce:indexed-name": "Li H."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Feature extraction",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "multiscale feature histograms",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "principal component analysis (PCA)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "quaternion Weber local descriptor (QWLD)",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Signal Processing",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "67",
+                            "@issue": "6"
+                        },
+                        "pagerange": {
+                            "@first": "1418",
+                            "@last": "1430"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "IEEE Transactions on Signal Processing",
+                    "publicationdate": {
+                        "month": "03",
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "15 March 2019"
+                        },
+                        "day": "15"
+                    },
+                    "codencode": "ITPRE",
+                    "sourcetitle-abbrev": "IEEE Trans Signal Process",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "1053587X",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "8606276",
+                    "@srcid": "17391"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "721.1",
+                                "classification-description": "Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)"
+                            },
+                            {
+                                "classification-code": "802.3",
+                                "classification-description": "Chemical Operations"
+                            },
+                            {
+                                "classification-code": "921.1",
+                                "classification-description": "Algebra"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1711"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported in part by the National Natural Science Foundation of China under Grant 61877021 and Grant 61472155, and in part by the Multi-year Research Grant MYRG2017-00218-FST.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "61877021",
+                        "grant-acronym": "NSFC",
+                        "grant-agency": {
+                            "@iso-code": "chn",
+                            "$": "National Natural Science Foundation of China"
+                        },
+                        "grant-agency-id": "501100001809"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "08",
+                    "@year": "2019",
+                    "@timestamp": "BST 06:16:37",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "626193526",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "915478241",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190606476824",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20190221654",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20190359036",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85061029576",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85061029576",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TSP.2019.2892020"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "P.-A. Thouvenin, N. Dobigeon, and J.-Y. Tourneret, \"Hyperspectral unmixing with spectral variability using a perturbed linear mixing model, \" IEEE Trans. Signal Process., vol. 64, no. 2, pp. 525-538, Jan. 2016.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Hyperspectral unmixing with spectral variability using a perturbed linear mixing model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85010006500",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "525",
+                                    "@last": "538"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.-A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thouvenin",
+                                    "ce:indexed-name": "Thouvenin P.-A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dobigeon",
+                                    "ce:indexed-name": "Dobigeon N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tourneret",
+                                    "ce:indexed-name": "Tourneret J.-Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C.-H. Lin, C.-Y. Chi, Y.-H. Wang, and T.-H. Chan, \"A fast hyperplanebasedminimum-volume enclosing simplex algorithm for blind hyperspectral unmixing, \" IEEE Trans. Signal Process., vol. 64, no. 8, pp. 1946-1961, Apr. 2016.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A fast hyperplanebasedminimum-volume enclosing simplex algorithm for blind hyperspectral unmixing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84963757025",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1946",
+                                    "@last": "1961"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin C.-H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chi",
+                                    "ce:indexed-name": "Chi C.-Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y.-H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan T.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "H. Li, Y. Song, and C. L. P. Chen, \"Hyperspectral image classification based on multiscale spatial information fusion, \" IEEE Trans. Geosci. Remote Sens., vol. 55, no. 9, pp. 5302-5312, Sep. 2017.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Hyperspectral image classification based on multiscale spatial information fusion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020744062",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "5302",
+                                    "@last": "5312"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.L.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.L.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Bacher, C. Meillier, F. Chatelain, and O. Michel, \"Robust control of varying weak hyperspectral target detection with sparse nonnegative representation, \" IEEE Trans. Signal Process., vol. 65, no. 13, pp. 3538-3550, Jul. 2017.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Robust control of varying weak hyperspectral target detection with sparse nonnegative representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028053280",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "65",
+                                    "@issue": "13"
+                                },
+                                "pagerange": {
+                                    "@first": "3538",
+                                    "@last": "3550"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bacher",
+                                    "ce:indexed-name": "Bacher R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meillier",
+                                    "ce:indexed-name": "Meillier C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chatelain",
+                                    "ce:indexed-name": "Chatelain F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michel",
+                                    "ce:indexed-name": "Michel O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Fu, K. Huang, B. Yang, W.-K. Ma, and N. D. Sidiropoulos, \"Robust volume minimization-based matrix factorization for remote sensing and document clustering, \" IEEE Trans. Signal Process., vol. 64, no. 23, pp. 6254-6268, Dec. 2016.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Robust volume minimization-based matrix factorization for remote sensing and document clustering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84994411729",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "23"
+                                },
+                                "pagerange": {
+                                    "@first": "6254",
+                                    "@last": "6268"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma W.-K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sidiropoulos",
+                                    "ce:indexed-name": "Sidiropoulos N.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "H. Li, G. Xiao, T. Xia, Y. Y. Tang, and L. Li, \"Hyperspectral image classification using functional data analysis, \" IEEE Trans.Cybern., vol. 44, no. 9, pp. 1544-1555, Sep. 2014.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Hyperspectral image classification using functional data analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906510987",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "44",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1544",
+                                    "@last": "1555"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang Y.Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans.Cybern"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "H. Li, Z. Ye, and G. Xiao, \"Hyperspectral image classification using spectral-spatial composite kernels discriminant analysis, \" IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens., vol. 8, no. 6, pp. 2341-2350, Jun. 2015.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Hyperspectral image classification using spectral-spatial composite kernels discriminant analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84939243683",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "2341",
+                                    "@last": "2350"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ye",
+                                    "ce:indexed-name": "Ye Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Zhou and Y. Wei, \"Learning hierarchical spectral-spatial features for hyperspectral image classification, \" IEEE Trans. Cybern., vol. 46, no. 7, pp. 1667-1678, Jul. 2016.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Learning hierarchical spectral-spatial features for hyperspectral image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84938536972",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1667",
+                                    "@last": "1678"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Cybern"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Chen, N. M. Nasrabadi, and T. D. Tran, \"Hyperspectral image classification using dictionary-based sparse representation, \" IEEE Trans. Geosci. Remote Sens., vol. 49, no. 10, pp. 3973-3985, Oct. 2011.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Hyperspectral image classification using dictionary-based sparse representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053571096",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "3973",
+                                    "@last": "3985"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nasrabadi",
+                                    "ce:indexed-name": "Nasrabadi N.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tran",
+                                    "ce:indexed-name": "Tran T.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Zhang, Q. Zhang, B. Du, X. Huang, Y. Y. Tang, and D. Tao, \"Simultaneous spectral-spatial feature selection and extraction for hyperspectral images, \" IEEE Trans. Cybern., vol. 48, no. 1, pp. 16-28, Jan. 2018.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Simultaneous spectral-spatial feature selection and extraction for hyperspectral images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85042539031",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "48",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "16",
+                                    "@last": "28"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang Y.Y."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Cybern"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Z. Ye, H. Li, Y. Song, J. A. Benediktsson, and Y. Y. Tang, \"Hyperspectral image classification using principal components-based smooth ordering and multiple 1-D interpolation, \" IEEE Trans. Geosci. Remote Sens., vol. 55, no. 2, pp. 1199-1209, Feb. 2017.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Hyperspectral image classification using principal components-based smooth ordering and multiple 1-D interpolation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84996844987",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1199",
+                                    "@last": "1209"
+                                }
+                            },
+                            "ref-text": "Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ye",
+                                    "ce:indexed-name": "Ye Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benediktsson",
+                                    "ce:indexed-name": "Benediktsson J.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang Y.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Soltani-Farani, H. R. Rabiee, and S. A. Hosseini, \"Spatial-aware dictionary learning for hyperspectral image classification, \" IEEE Trans. Geosci. Remote Sens., vol. 53, no. 1, pp. 527-541, Jan. 2015.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Spatial-aware dictionary learning for hyperspectral image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84906283945",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "53",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "527",
+                                    "@last": "541"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soltani-Farani",
+                                    "ce:indexed-name": "Soltani-Farani A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rabiee",
+                                    "ce:indexed-name": "Rabiee H.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hosseini",
+                                    "ce:indexed-name": "Hosseini S.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Zhou, J. Peng, and C. L. P. Chen, \"Extreme learning machine with composite kernels for hyperspectral image classification, \" IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens., vol. 8, no. 6, pp. 2351-2360, Jun. 2015.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Extreme learning machine with composite kernels for hyperspectral image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027956117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "2351",
+                                    "@last": "2360"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.L.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.L.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Fauvel, J. A. Benediktsson, J. Chanussot, and J. R. Sveinsson, \"Spectral and spatial classification of hyperspectral data using SVMs and morphological profiles, \" IEEE Trans. Geosci. Remote Sens., vol. 46, no. 11, pp. 3804-3814, Nov. 2008.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Spectral and spatial classification of hyperspectral data using SVMs and morphological profiles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "56849127860",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "3804",
+                                    "@last": "3814"
+                                }
+                            },
+                            "ref-text": "Nov",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fauvel",
+                                    "ce:indexed-name": "Fauvel M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benediktsson",
+                                    "ce:indexed-name": "Benediktsson J.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chanussot",
+                                    "ce:indexed-name": "Chanussot J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sveinsson",
+                                    "ce:indexed-name": "Sveinsson J.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Xu and D. P. Mandic, \"The theory of quaternion matrix derivatives, \" IEEE Trans. Signal Process., vol. 63, no. 6, pp. 1543-1556, Mar. 2015.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "The theory of quaternion matrix derivatives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923869944",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "63",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1543",
+                                    "@last": "1556"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Flamant, N. Le Bihan, and P. Chainais, \"Spectral analysis of stationary random bivariate signals, \" IEEE Trans. Signal Process., vol. 65, no. 23, pp. 6135-6145, Dec. 2017.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Spectral analysis of stationary random bivariate signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028920692",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "65",
+                                    "@issue": "23"
+                                },
+                                "pagerange": {
+                                    "@first": "6135",
+                                    "@last": "6145"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flamant",
+                                    "ce:indexed-name": "Flamant J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Bihan",
+                                    "ce:indexed-name": "Le Bihan N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chainais",
+                                    "ce:indexed-name": "Chainais P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Xiang, S. Kanna, and D. P. Mandic, \"Performance analysis of quaternion-valued adaptive filters in nonstationary environments, \" IEEE Trans. Signal Process., vol. 66, no. 6, pp. 1566-1579, Mar. 2018.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Performance analysis of quaternion-valued adaptive filters in nonstationary environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85039784684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "66",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1566",
+                                    "@last": "1579"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanna",
+                                    "ce:indexed-name": "Kanna S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandic",
+                                    "ce:indexed-name": "Mandic D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Flamant, P. Chainais, and N. Le Bihan, \"A complete framework for linear filtering of bivariate signals, \" IEEE Trans. Signal Process., vol. 66, no. 17, pp. 4541-4552, Sep. 2018.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A complete framework for linear filtering of bivariate signals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049776274",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "66",
+                                    "@issue": "17"
+                                },
+                                "pagerange": {
+                                    "@first": "4541",
+                                    "@last": "4552"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flamant",
+                                    "ce:indexed-name": "Flamant J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chainais",
+                                    "ce:indexed-name": "Chainais P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Bihan",
+                                    "ce:indexed-name": "Le Bihan N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Sloin and A. Wiesel, \"Proper quaternion Gaussian graphical models, \" IEEE Trans. Signal Process., vol. 62, no. 20, pp. 5487-5496, Oct. 2014.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Proper quaternion Gaussian graphical models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84907428519",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "62",
+                                    "@issue": "20"
+                                },
+                                "pagerange": {
+                                    "@first": "5487",
+                                    "@last": "5496"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sloin",
+                                    "ce:indexed-name": "Sloin A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiesel",
+                                    "ce:indexed-name": "Wiesel A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Lan, Y. Zhou, and Y. Y. Tang, \"Quaternionic Weber local descriptor of color images, \" IEEE Trans. Circuits Syst. Video Technol., vol. 27, no. 2, pp. 261-274, Feb. 2017.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Quaternionic Weber local descriptor of color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027582090",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "261",
+                                    "@last": "274"
+                                }
+                            },
+                            "ref-text": "Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lan",
+                                    "ce:indexed-name": "Lan R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang Y.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Xu, L. Yu, H. Xu, H. Zhang, and T. Nguyen, \"Vector sparse representation of color image using quaternion matrix analysis, \" IEEE Trans. Image Process., vol. 24, no. 4, pp. 1315-1329, Apr. 2015.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Vector sparse representation of color image using quaternion matrix analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923540397",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1315",
+                                    "@last": "1329"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Zou, K. I. Kou, and Y. Wang, \"Quaternion collaborative and sparse representation with application to color face recognition, \" IEEE Trans. Image Process., vol. 25, no. 7, pp. 3287-3302, Jul. 2016.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Quaternion collaborative and sparse representation with application to color face recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84974621991",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "3287",
+                                    "@last": "3302"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kou",
+                                    "ce:indexed-name": "Kou K.I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Chen, et al., \"WLD: A robust local image descriptor, \" IEEE Trans. Pattern Anal. Mach. Intell., vol. 32, no. 9, pp. 1705-1720, Sep. 2010.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "WLD: A robust local image descriptor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955415299",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1705",
+                                    "@last": "1720"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. K. Jain, Fundamentals of Digital Image Processing. Englewood Cliffs, NJ, USA: Prentice-Hall, 1989.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003409571",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Englewood Cliffs NJ USA: Prentice-Hall",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.K.",
+                                "@_fa": "true",
+                                "ce:surname": "Jain",
+                                "ce:indexed-name": "Jain A.K."
+                            }]},
+                            "ref-sourcetitle": "Fundamentals of Digital Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. H. Dunteman, Principal Components Analysis. Newbury Park, CA, USA: Sage, 1989.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003976358",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Newbury Park, CA USA: Sage",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Dunteman",
+                                "ce:indexed-name": "Dunteman G.H."
+                            }]},
+                            "ref-sourcetitle": "Principal Components Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Melgani and L. Bruzzone, \"Classification of hyperspectral remote sensing images with support vector machines, \" IEEE Trans. Geosci. Remote Sens., vol. 42, no. 8, pp. 1778-1790, Aug. 2004.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Classification of hyperspectral remote sensing images with support vector machines"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4344614511",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1778",
+                                    "@last": "1790"
+                                }
+                            },
+                            "ref-text": "Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Melgani",
+                                    "ce:indexed-name": "Melgani F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruzzone",
+                                    "ce:indexed-name": "Bruzzone L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Geosci. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Wright, A. Yang, A. Ganesh, S. Sastry, and Y. Ma, \"Robust face recognition via sparse representation, \" IEEE Trans. Pattern Anal. Mach. Intell., vol. 31, no. 2, pp. 210-227, Feb. 2009.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Robust face recognition via sparse representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "61549128441",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "210",
+                                    "@last": "227"
+                                }
+                            },
+                            "ref-text": "Feb",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wright",
+                                    "ce:indexed-name": "Wright J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ganesh",
+                                    "ce:indexed-name": "Ganesh A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sastry",
+                                    "ce:indexed-name": "Sastry S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. R. Hamilton, Elements of Quaternions. Harlow, U.K.: Longmans, Green, and Company, 1866.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1866"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003998814",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Harlow, U.K.: Longmans, Green, and Company",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Hamilton",
+                                "ce:indexed-name": "Hamilton W.R."
+                            }]},
+                            "ref-sourcetitle": "Elements of Quaternions"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Liu, Z. Tang, and J. Tang, \"WLBP: Weber local binary pattern for local image description, \" Neurocomputing, vol. 120, no. 10, pp. 325-335, Mar. 2013.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "WLBP: Weber local binary pattern for local image description"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84882878400",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "120",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "325",
+                                    "@last": "335"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X.-H. Han, Y.-W. Chen, and G. Xu, \"High-order statistics of Weber local descriptors for image representation, \" IEEE Trans. Cybern., vol. 45, no. 6, pp. 1180-1193, Jun. 2015.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "High-order statistics of Weber local descriptors for image representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027939966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "45",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1180",
+                                    "@last": "1193"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han X.-H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y.-W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Cybern"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. Li and Q. Du, \"Gabor-filtering-based nearest regularized subspace for hyperspectral image classification, \" IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens., vol. 7, no. 4, pp. 1012-1022, Apr. 2014.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Gabor-filtering-based nearest regularized subspace for hyperspectral image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899785506",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1012",
+                                    "@last": "1022"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Sel. Topics Appl. Earth Observ. Remote Sens"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Plaza, et al., \"Recent advances in techniques for hyperspectral image processing, \" Remote Sens. Environ., vol. 113, pp. S110-S122, Sep. 2009.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Recent advances in techniques for hyperspectral image processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67650436064",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "113"},
+                                "pagerange": {
+                                    "@first": "S110",
+                                    "@last": "S122"
+                                }
+                            },
+                            "ref-text": "Sep",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plaza",
+                                    "ce:indexed-name": "Plaza A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Remote Sens. Environ"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Wuhan",
+            "@id": "60025761",
+            "affilname": "Huazhong University of Science and Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025761",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Taipa",
+            "@id": "60022317",
+            "affilname": "University of Macau",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317",
+            "affiliation-country": "Macao"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85061029576",
+        "dc:description": "This paper proposes a new method called multiscale quaternion Weber local descriptor histogram (MQWLDH) for feature extraction of hyperspectral images (HSIs), which is used to model spatial information based on the corresponding spectral features. The proposed method first transforms spectral data into an orthogonal space using principal component analysis, and extracts the first three principal components (PCs) based on the maximum variance theory. Then, construct the MQWLDH to extract spatial features based on those first three PCs. The proposed method uses the algebraic structure of quaternions to unify the process of processing the first three PCs, which reduces the computational cost and the dimensionality of the extracted spatial feature vector. Moreover, the constructed quaternion Weber local descriptor effectively characterizes the variations of each pixel neighborhood and detects the edges of HSIs. To capture more intrinsic spatial information contained in homogeneous regions of different sizes and shapes, multiscale feature histograms are constructed. Finally, a feature fusion framework is proposed to fuse spectral and spatial features so that spectral information can be fully utilized. The experimental results on three HSI datasets demonstrate that the proposed method provides effective features to different classifiers and achieves excellent classification performance.",
+        "prism:coverDate": "2019-03-15",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85061029576",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Huizhen",
+            "preferred-name": {
+                "ce:given-name": "Huizhen",
+                "ce:initials": "H.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025761",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025761"
+            },
+            "ce:surname": "Li",
+            "@auid": "57193685624",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193685624",
+            "ce:indexed-name": "Li H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85061029576"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85061029576&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85061029576&origin=inward"
+            }
+        ],
+        "source-id": "17391",
+        "citedby-count": "20",
+        "prism:volume": "67",
+        "subtype": "ar",
+        "dc:title": "Quaternion-based multiscale analysis for feature extraction of hyperspectral images",
+        "openaccess": "0",
+        "prism:issn": "1053587X",
+        "publishercopyright": "© 2019 IEEE.",
+        "article-number": "8606276",
+        "prism:issueIdentifier": "6",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Transactions on Signal Processing",
+        "prism:pageRange": "1418-1430",
+        "prism:endingPage": "1430",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/TSP.2019.2892020",
+        "prism:startingPage": "1418",
+        "dc:identifier": "SCOPUS_ID:85061029576",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Algebraic structures",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Classification performance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Local descriptors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi scale analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-scale features",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Principal Components",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spatial feature vector",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spatial informations",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Feature extraction"
+        },
+        {
+            "@_fa": "true",
+            "$": "multiscale feature histograms"
+        },
+        {
+            "@_fa": "true",
+            "$": "principal component analysis (PCA)"
+        },
+        {
+            "@_fa": "true",
+            "$": "quaternion Weber local descriptor (QWLD)"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Huizhen",
+            "preferred-name": {
+                "ce:given-name": "Huizhen",
+                "ce:initials": "H.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025761",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025761"
+            },
+            "ce:surname": "Li",
+            "@auid": "57193685624",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193685624",
+            "ce:indexed-name": "Li H."
+        },
+        {
+            "ce:given-name": "Hong",
+            "preferred-name": {
+                "ce:given-name": "Hong",
+                "ce:initials": "H.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li H."
+            },
+            "@seq": "2",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025761",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025761"
+            },
+            "ce:surname": "Li",
+            "@auid": "57141375000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57141375000",
+            "ce:indexed-name": "Li H."
+        },
+        {
+            "ce:given-name": "Liming",
+            "preferred-name": {
+                "ce:given-name": "Liming",
+                "ce:initials": "L.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60022317",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "46662053300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/46662053300",
+            "ce:indexed-name": "Zhang L."
+        }
+    ]}
+}}

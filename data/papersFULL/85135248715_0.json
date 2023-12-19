@@ -1,0 +1,2330 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "11",
+                "@year": "2023",
+                "@timestamp": "2023-07-11T05:33:59.000059-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "200240",
+                            "@afid": "60025084",
+                            "@country": "chn",
+                            "city": "Shanghai",
+                            "organization": [
+                                {"$": "Institute of Medical Robotics"},
+                                {"$": "Shanghai Jiao Tong University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60025084",
+                                "@dptid": "123799614"
+                            },
+                            "ce:source-text": "Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China, 200240",
+                            "@dptid": "123799614"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Yun",
+                                "preferred-name": {
+                                    "ce:given-name": "Yun",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu Y."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Gu",
+                                "@auid": "55836552300",
+                                "@orcid": "0000-0002-4199-0675",
+                                "ce:indexed-name": "Gu Y."
+                            },
+                            {
+                                "ce:given-name": "Jie",
+                                "preferred-name": {
+                                    "ce:given-name": "Jie",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Yang",
+                                "@auid": "15039078800",
+                                "@orcid": "0000-0003-4801-7162",
+                                "ce:indexed-name": "Yang J."
+                            },
+                            {
+                                "ce:given-name": "Guang-Zhong",
+                                "preferred-name": {
+                                    "ce:given-name": "Guang Zhong",
+                                    "ce:initials": "G.Z.",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.Z."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "G.-Z.",
+                                "@date-locked": "2023-06-01T12:42:38.105",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Yang",
+                                "@auid": "57211728432",
+                                "@orcid": "0000-0003-4060-4020",
+                                "ce:indexed-name": "Yang G.-Z."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "200030",
+                            "@afid": "60073638",
+                            "@country": "chn",
+                            "city": "Shanghai",
+                            "organization": {"$": "Chest Hospital"},
+                            "affiliation-id": {"@afid": "60073638"},
+                            "ce:source-text": "Chest Hospital, Shanghai, China, 200030"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Chuanjia",
+                                "preferred-name": {
+                                    "ce:given-name": "Chuanjia",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu C."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Gu",
+                                "@auid": "57223147074",
+                                "ce:indexed-name": "Gu C."
+                            },
+                            {
+                                "ce:given-name": "Jiayuan",
+                                "preferred-name": {
+                                    "ce:given-name": "Jiayuan",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Sun",
+                                "@auid": "57209194381",
+                                "@orcid": "0000-0003-3158-3256",
+                                "ce:indexed-name": "Sun J."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Vision-Kinematics Interaction for Robotic-Assisted Bronchoscopy Navigation",
+                "abstracts": "© 1982-2012 IEEE.Endobronchial intervention is increasingly used as a minimally invasive means for the treatment of pulmonary diseases. In order to acquire the position of bronchoscopy, vision-based localization approaches are clinically preferable but are sensitive to visual variations. The static nature of pre-operative planning makes mapping of intraoperative anatomical features challenging for learning-based methods using visual features alone. In this work, we propose a robust navigation framework based on Vision Kinematic Interaction (VKI) for monocular bronchoscopic videos. To address visual-imbalance between the virtual and real views of bronchoscopy images, a Visual Similarity Network (VSN) is proposed to extract domain-invariant features to represent the lumen structure from endoscopic views, as well as domain-specific features to characterize the surface texture and visual artefacts. To improve the robustness of online estimation of camera pose, we also introduce a Kinematic Refinement Network (KRN) that allows progressive refinement of camera pose estimation based on network prediction and robot control signals. The accuracy of camera localization is validated on phantom and porcine lung datasets from a robotically controlled endobronchial intervention system, with both quantitative and qualitative results demonstrating the performance of the techniques. Results show that the features extracted by the proposed method can preserve the structural information of small airways in the presence of large visual variations along with the much-improved camera localization accuracy. The absolute trajectory errors (ATE) on phantom data and porcine data are 8.01 mm and 8.62 mm respectively.",
+                "correspondence": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "200240",
+                            "@country": "chn",
+                            "city": "Shanghai",
+                            "organization": [
+                                {"$": "Institute of Medical Robotics"},
+                                {"$": "Shanghai Jiao Tong University"}
+                            ],
+                            "ce:source-text": "Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China, 200240"
+                        },
+                        "person": {
+                            "ce:given-name": "Jie",
+                            "ce:initials": "J.",
+                            "ce:surname": "Yang",
+                            "ce:indexed-name": "Yang J."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "200240",
+                            "@country": "chn",
+                            "city": "Shanghai",
+                            "organization": [
+                                {"$": "Institute of Medical Robotics"},
+                                {"$": "Shanghai Jiao Tong University"}
+                            ],
+                            "ce:source-text": "Institute of Medical Robotics, Shanghai Jiao Tong University, Shanghai, China, 200240"
+                        },
+                        "person": {
+                            "ce:given-name": "Guang-Zhong",
+                            "ce:initials": "G.-Z.",
+                            "ce:surname": "Yang",
+                            "ce:indexed-name": "Yang G.-Z."
+                        }
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "200030",
+                            "@country": "chn",
+                            "city": "Shanghai",
+                            "organization": {"$": "Chest Hospital"},
+                            "ce:source-text": "Chest Hospital, Shanghai, China, 200030"
+                        },
+                        "person": {
+                            "ce:given-name": "Jiayuan",
+                            "ce:initials": "J.",
+                            "ce:surname": "Sun",
+                            "ce:indexed-name": "Sun J."
+                        }
+                    }
+                ],
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "kinematics",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Vision-based navigation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "visual similarity",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Medical Imaging",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "41",
+                            "@issue": "12"
+                        },
+                        "pagerange": {
+                            "@first": "3600",
+                            "@last": "3610"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "IEEE Transactions on Medical Imaging",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 December 2022"
+                        },
+                        "day": "01"
+                    },
+                    "codencode": "ITMID",
+                    "sourcetitle-abbrev": "IEEE Trans. Med. Imaging",
+                    "@country": "usa",
+                    "issn": [
+                        {
+                            "$": "1558254X",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "02780062",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "16733"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.6",
+                                "classification-description": "Medicine and Pharmacology"
+                            },
+                            {
+                                "classification-code": "722.1",
+                                "classification-description": "Data Storage, Equipment and Techniques"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            },
+                            {
+                                "classification-code": "741.2",
+                                "classification-description": "Vision"
+                            },
+                            {
+                                "classification-code": "742.2",
+                                "classification-description": "Photographic and Video Equipment"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "EMCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "15",
+                                "classification-description": "Chest Diseases, Thoracic Surgery and Tuberculosis"
+                            },
+                            {
+                                "classification-code": "27",
+                                "classification-description": "Biophysics, Bioengineering and Medical Instrumentation"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "3614"},
+                            {"$": "1706"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "HEAL"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "external-source": "MEDLINE",
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "EMBASE"},
+                    {"$": "MEDL"},
+                    {"$": "NURSNG"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "RMC"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "06",
+                    "@year": "2023",
+                    "@timestamp": "BST 08:02:31",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2019568008",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "638486625",
+                            "@idtype": "associatedPUI"
+                        },
+                        {
+                            "$": "941972810",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20223112530282",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20220704839",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "35839186",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "2022334218",
+                            "@idtype": "NURSNG"
+                        },
+                        {
+                            "$": "20222335548",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "2022354446",
+                            "@idtype": "RMC"
+                        },
+                        {
+                            "$": "20222688978",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20210017165567",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85135248715",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85135248715",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "638486625",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "76742399",
+                            "@idtype": "OSIN"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TMI.2022.3191317"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "36",
+                "reference": [
+                    {
+                        "ref-fulltext": "I. Y. Wan et al., \"Bronchoscopic lung volume reduction for end-stage emphysema: Report on the first 98 patients,\" Chest, vol. 129, no. 3, pp. 518-526, 2006.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Bronchoscopic lung volume reduction for end-stage emphysema: Report on the first 98 patients"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33645111963",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "129",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "518",
+                                    "@last": "526"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "I.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan I.Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Chest"
+                        },
+                        "ce:source-text": "I. Y. Wan et al., \"Bronchoscopic lung volume reduction for end-stage emphysema: Report on the first 98 patients,\" Chest, vol. 129, no. 3, pp. 518-526, 2006."
+                    },
+                    {
+                        "ref-fulltext": "F. Luo et al., \"Performing bronchoscopy in times of the COVID-19 pandemic: Practice statement from an international expert panel,\" Respiration, vol. 99, no. 5, pp. 417-422, 2020.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Performing bronchoscopy in times of the COVID-19 pandemic: Practice statement from an international expert panel"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084383896",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "99",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "417",
+                                    "@last": "422"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Respiration"
+                        },
+                        "ce:source-text": "F. Luo et al., \"Performing bronchoscopy in times of the COVID-19 pandemic: Practice statement from an international expert panel,\" Respiration, vol. 99, no. 5, pp. 417-422, 2020."
+                    },
+                    {
+                        "ref-fulltext": "X. Luo, K. Mori, and T. M. Peters, \"Advanced endoscopic navigation: Surgical big data, methodology, and applications,\" Annu. Rev. Biomed. Eng., vol. 20, no. 1, pp. 221-251, 2018.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Advanced endoscopic navigation: Surgical big data, methodology, and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048026754",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "221",
+                                    "@last": "251"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mori",
+                                    "ce:indexed-name": "Mori K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters T.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Annu. Rev. Biomed. Eng"
+                        },
+                        "ce:source-text": "X. Luo, K. Mori, and T. M. Peters, \"Advanced endoscopic navigation: Surgical big data, methodology, and applications,\" Annu. Rev. Biomed. Eng., vol. 20, no. 1, pp. 221-251, 2018."
+                    },
+                    {
+                        "ref-fulltext": "H. A. Jaeger et al., \"Automated catheter navigation with electromagnetic image guidance,\" IEEE Trans. Biomed. Eng., vol. 64, no. 8, pp. 1972-1979, Aug. 2017.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Automated catheter navigation with electromagnetic image guidance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029219983",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1972",
+                                    "@last": "1979"
+                                }
+                            },
+                            "ref-text": "Aug",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "H.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jaeger",
+                                    "ce:indexed-name": "Jaeger H.A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Biomed. Eng"
+                        },
+                        "ce:source-text": "H. A. Jaeger et al., \"Automated catheter navigation with electromagnetic image guidance,\" IEEE Trans. Biomed. Eng., vol. 64, no. 8, pp. 1972-1979, Aug. 2017."
+                    },
+                    {
+                        "ref-fulltext": "N. Liu, M. E. M. K. Abdelaziz, M. Shen, and G.-Z. Yang, \"Design and kinematics characterization of a laser-profiled continuum manipulator for the guidance of bronchoscopic instruments,\" in Proc. IEEE Int. Conf. Robot. Automat. (ICRA), May 2018, pp. 25-31.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Design and kinematics characterization of a laser-profiled continuum manipulator for the guidance of bronchoscopic instruments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056426810",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "25",
+                                "@last": "31"
+                            }},
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.E.M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdelaziz",
+                                    "ce:indexed-name": "Abdelaziz M.E.M.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Automat. (ICRA)"
+                        },
+                        "ce:source-text": "N. Liu, M. E. M. K. Abdelaziz, M. Shen, and G.-Z. Yang, \"Design and kinematics characterization of a laser-profiled continuum manipulator for the guidance of bronchoscopic instruments,\" in Proc. IEEE Int. Conf. Robot. Automat. (ICRA), May 2018, pp. 25-31."
+                    },
+                    {
+                        "ref-fulltext": "M. Shen, S. Giannarou, P. L. Shah, and G.-Z. Yang, \"Branch: Bifurcation recognition for airway navigation based on structural characteristics,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2017, pp. 182-189.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Branch: Bifurcation recognition for airway navigation based on structural characteristics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029474548",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "182",
+                                "@last": "189"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giannarou",
+                                    "ce:indexed-name": "Giannarou S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shah",
+                                    "ce:indexed-name": "Shah P.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer"
+                        },
+                        "ce:source-text": "M. Shen, S. Giannarou, P. L. Shah, and G.-Z. Yang, \"Branch: Bifurcation recognition for airway navigation based on structural characteristics,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2017, pp. 182-189."
+                    },
+                    {
+                        "ref-fulltext": "M. Shen, S. Giannarou, and G.-Z. Yang, \"Robust camera localisation with depth reconstruction for bronchoscopic navigation,\" Int. J. Comput. Assist. Radiol. Surg., vol. 10, no. 6, pp. 801-813, 2015.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Robust camera localisation with depth reconstruction for bronchoscopic navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84930081248",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "801",
+                                    "@last": "813"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giannarou",
+                                    "ce:indexed-name": "Giannarou S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Assist. Radiol. Surg"
+                        },
+                        "ce:source-text": "M. Shen, S. Giannarou, and G.-Z. Yang, \"Robust camera localisation with depth reconstruction for bronchoscopic navigation,\" Int. J. Comput. Assist. Radiol. Surg., vol. 10, no. 6, pp. 801-813, 2015."
+                    },
+                    {
+                        "ref-fulltext": "F. Deligianni, A. J. Chung, and G.-Z. Yang, \"Nonrigid 2-D/3-D registration for patient specific bronchoscopy simulation with statistical shape modeling: Phantom validation,\" IEEE Trans. Med. Imag., vol. 25, no. 11, pp. 1462-1471, Nov. 2006.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Nonrigid 2-D/3-D registration for patient specific bronchoscopy simulation with statistical shape modeling: Phantom validation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33750838174",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1462",
+                                    "@last": "1471"
+                                }
+                            },
+                            "ref-text": "Nov",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deligianni",
+                                    "ce:indexed-name": "Deligianni F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung A.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imag"
+                        },
+                        "ce:source-text": "F. Deligianni, A. J. Chung, and G.-Z. Yang, \"Nonrigid 2-D/3-D registration for patient specific bronchoscopy simulation with statistical shape modeling: Phantom validation,\" IEEE Trans. Med. Imag., vol. 25, no. 11, pp. 1462-1471, Nov. 2006."
+                    },
+                    {
+                        "ref-fulltext": "X. Luó, M. Feuerstein, D. Deguchi, T. Kitasaka, H. Takabatake, and K. Mori, \"Development and comparison of new hybrid motion tracking for bronchoscopic navigation,\" Med. Image Anal., vol. 16, no. 3, pp. 577-596, Apr. 2012.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Development and comparison of new hybrid motion tracking for bronchoscopic navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84858074119",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "577",
+                                    "@last": "596"
+                                }
+                            },
+                            "ref-text": "Apr",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luó",
+                                    "ce:indexed-name": "Luo X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feuerstein",
+                                    "ce:indexed-name": "Feuerstein M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deguchi",
+                                    "ce:indexed-name": "Deguchi D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kitasaka",
+                                    "ce:indexed-name": "Kitasaka T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takabatake",
+                                    "ce:indexed-name": "Takabatake H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mori",
+                                    "ce:indexed-name": "Mori K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Med. Image Anal"
+                        },
+                        "ce:source-text": "X. Luó, M. Feuerstein, D. Deguchi, T. Kitasaka, H. Takabatake, and K. Mori, \"Development and comparison of new hybrid motion tracking for bronchoscopic navigation,\" Med. Image Anal., vol. 16, no. 3, pp. 577-596, Apr. 2012."
+                    },
+                    {
+                        "ref-fulltext": "S. A. Merritt, R. Khare, R. Bascom, and W. E. Higgins, \"Interactive CTvideo registration for the continuous guidance of bronchoscopy,\" IEEE Trans. Med. Imag., vol. 32, no. 8, pp. 1376-1396, Aug. 2013.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Interactive CTvideo registration for the continuous guidance of bronchoscopy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84881443818",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1376",
+                                    "@last": "1396"
+                                }
+                            },
+                            "ref-text": "Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Merritt",
+                                    "ce:indexed-name": "Merritt S.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khare",
+                                    "ce:indexed-name": "Khare R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bascom",
+                                    "ce:indexed-name": "Bascom R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Higgins",
+                                    "ce:indexed-name": "Higgins W.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imag"
+                        },
+                        "ce:source-text": "S. A. Merritt, R. Khare, R. Bascom, and W. E. Higgins, \"Interactive CTvideo registration for the continuous guidance of bronchoscopy,\" IEEE Trans. Med. Imag., vol. 32, no. 8, pp. 1376-1396, Aug. 2013."
+                    },
+                    {
+                        "ref-fulltext": "A. J. Chung, F. Deligianni, P. Shah, A. Wells, and G.-Z. Yang, \"Patient-specific bronchoscopy visualization through BRDF estimation and disocclusion correction,\" IEEE Trans. Med. Imag., vol. 25, no. 4, pp. 503-513, Apr. 2006.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Patient-specific bronchoscopy visualization through BRDF estimation and disocclusion correction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33645686563",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "503",
+                                    "@last": "513"
+                                }
+                            },
+                            "ref-text": "Apr",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung A.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deligianni",
+                                    "ce:indexed-name": "Deligianni F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shah",
+                                    "ce:indexed-name": "Shah P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wells",
+                                    "ce:indexed-name": "Wells A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imag"
+                        },
+                        "ce:source-text": "A. J. Chung, F. Deligianni, P. Shah, A. Wells, and G.-Z. Yang, \"Patient-specific bronchoscopy visualization through BRDF estimation and disocclusion correction,\" IEEE Trans. Med. Imag., vol. 25, no. 4, pp. 503-513, Apr. 2006."
+                    },
+                    {
+                        "ref-fulltext": "K. Mori et al., \"Tracking of a bronchoscope using epipolar geometry analysis and intensity-based image registration of real and virtual endoscopic images,\" Med. Image Anal., vol. 6, no. 3, pp. 321-336, Sep. 2002.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Tracking of a bronchoscope using epipolar geometry analysis and intensity-based image registration of real and virtual endoscopic images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036753844",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "321",
+                                    "@last": "336"
+                                }
+                            },
+                            "ref-text": "Sep",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mori",
+                                    "ce:indexed-name": "Mori K."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Med. Image Anal"
+                        },
+                        "ce:source-text": "K. Mori et al., \"Tracking of a bronchoscope using epipolar geometry analysis and intensity-based image registration of real and virtual endoscopic images,\" Med. Image Anal., vol. 6, no. 3, pp. 321-336, Sep. 2002."
+                    },
+                    {
+                        "ref-fulltext": "F. Deligianni, A. Chung, and G.-Z. Yang, \"PQ-space based 2D/3D registration for endoscope tracking,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2003, pp. 311-318.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "PQ-space based 2D/3D registration for endoscope tracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "11244300638",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "311",
+                                "@last": "318"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deligianni",
+                                    "ce:indexed-name": "Deligianni F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer"
+                        },
+                        "ce:source-text": "F. Deligianni, A. Chung, and G.-Z. Yang, \"PQ-space based 2D/3D registration for endoscope tracking,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2003, pp. 311-318."
+                    },
+                    {
+                        "ref-fulltext": "F. Deligianni, A. Chung, and G.-Z. Yang, \"Patient-specific bronchoscope simulation with PQ-space-based 2D/3D registration,\" Comput. Aided Surg., vol. 9, no. 5, pp. 215-226, Jan. 2004.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Patient-specific bronchoscope simulation with PQ-space-based 2D/3D registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "23644461781",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "215",
+                                    "@last": "226"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deligianni",
+                                    "ce:indexed-name": "Deligianni F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Aided Surg"
+                        },
+                        "ce:source-text": "F. Deligianni, A. Chung, and G.-Z. Yang, \"Patient-specific bronchoscope simulation with PQ-space-based 2D/3D registration,\" Comput. Aided Surg., vol. 9, no. 5, pp. 215-226, Jan. 2004."
+                    },
+                    {
+                        "ref-fulltext": "H. Rashid and P. Burger, \"Differential algorithm for the determination of shape from shading using a point light source,\" Image Vis. Comput., vol. 10, no. 2, pp. 119-127, Mar. 1992.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Differential algorithm for the determination of shape from shading using a point light source"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0005607963",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "119",
+                                    "@last": "127"
+                                }
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rashid",
+                                    "ce:indexed-name": "Rashid H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burger",
+                                    "ce:indexed-name": "Burger P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image Vis. Comput"
+                        },
+                        "ce:source-text": "H. Rashid and P. Burger, \"Differential algorithm for the determination of shape from shading using a point light source,\" Image Vis. Comput., vol. 10, no. 2, pp. 119-127, Mar. 1992."
+                    },
+                    {
+                        "ref-fulltext": "M. Shen, Y. Gu, N. Liu, and G.-Z. Yang, \"Context-aware depth and pose estimation for bronchoscopic navigation,\" IEEE Robot. Autom. Lett., vol. 4, no. 2, pp. 732-739, Apr. 2019.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Context-aware depth and pose estimation for bronchoscopic navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063311800",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "732",
+                                    "@last": "739"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robot. Autom. Lett"
+                        },
+                        "ce:source-text": "M. Shen, Y. Gu, N. Liu, and G.-Z. Yang, \"Context-aware depth and pose estimation for bronchoscopic navigation,\" IEEE Robot. Autom. Lett., vol. 4, no. 2, pp. 732-739, Apr. 2019."
+                    },
+                    {
+                        "ref-fulltext": "C. Zhao, M. Shen, L. Sun, and G.-Z. Yang, \"Generative localization with uncertainty estimation through video-CT data for bronchoscopic biopsy,\" in Proc. IEEE Int. Conf. Robot. Automat. (ICRA), Nov. 2020, pp. 258-265.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Generative localization with uncertainty estimation through video-CT data for bronchoscopic biopsy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85076671710",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "258",
+                                "@last": "265"
+                            }},
+                            "ref-text": "Nov",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Automat. (ICRA)"
+                        },
+                        "ce:source-text": "C. Zhao, M. Shen, L. Sun, and G.-Z. Yang, \"Generative localization with uncertainty estimation through video-CT data for bronchoscopic biopsy,\" in Proc. IEEE Int. Conf. Robot. Automat. (ICRA), Nov. 2020, pp. 258-265."
+                    },
+                    {
+                        "ref-fulltext": "A. Agudo, \"Total estimation from RGB video: On-line camera selfcalibration, non-rigid shape and motion,\" in Proc. 25th Int. Conf. Pattern Recognit. (ICPR), Jan. 2021, pp. 8140-8147.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Total estimation from RGB video: On-line camera selfcalibration, non-rigid shape and motion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85110416529",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "8140",
+                                "@last": "8147"
+                            }},
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Agudo",
+                                "ce:indexed-name": "Agudo A."
+                            }]},
+                            "ref-sourcetitle": "Proc. 25th Int. Conf. Pattern Recognit. (ICPR)"
+                        },
+                        "ce:source-text": "A. Agudo, \"Total estimation from RGB video: On-line camera selfcalibration, non-rigid shape and motion,\" in Proc. 25th Int. Conf. Pattern Recognit. (ICPR), Jan. 2021, pp. 8140-8147."
+                    },
+                    {
+                        "ref-fulltext": "K. B. Ozyoruk et al., \"EndoSLAM dataset and an unsupervised monocular visual odometry and depth estimation approach for endoscopic videos,\" Med. Image Anal., vol. 71, Jul. 2021, Art. no. 102058.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "EndoSLAM dataset and an unsupervised monocular visual odometry and depth estimation approach for endoscopic videos"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "102058",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "85105694449",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "71"}},
+                            "ref-text": "Jul",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ozyoruk",
+                                    "ce:indexed-name": "Ozyoruk K.B."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Med. Image Anal"
+                        },
+                        "ce:source-text": "K. B. Ozyoruk et al., \"EndoSLAM dataset and an unsupervised monocular visual odometry and depth estimation approach for endoscopic videos,\" Med. Image Anal., vol. 71, Jul. 2021, Art. no. 102058."
+                    },
+                    {
+                        "ref-fulltext": "S. B. Solomon, P. White, C. M. Wiener, J. B. Orens, and K. P. Wang, \"Three-dimensional ct-guided bronchoscopy with a realtime electromagnetic position sensor: A comparison of two image registration methods,\" Chest, vol. 118, no. 6, pp. 1783-1787, 2000.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Three-dimensional ct-guided bronchoscopy with a realtime electromagnetic position sensor: A comparison of two image registration methods"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034546682",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "118",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1783",
+                                    "@last": "1787"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Solomon",
+                                    "ce:indexed-name": "Solomon S.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "White",
+                                    "ce:indexed-name": "White P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiener",
+                                    "ce:indexed-name": "Wiener C.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orens",
+                                    "ce:indexed-name": "Orens J.B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang K.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chest"
+                        },
+                        "ce:source-text": "S. B. Solomon, P. White, C. M. Wiener, J. B. Orens, and K. P. Wang, \"Three-dimensional ct-guided bronchoscopy with a realtime electromagnetic position sensor: A comparison of two image registration methods,\" Chest, vol. 118, no. 6, pp. 1783-1787, 2000."
+                    },
+                    {
+                        "ref-fulltext": "H. D. Becker, F. Herth, A. Ernst, and Y. Schwarz, \"Bronchoscopic biopsy of peripheral lung lesions under electromagnetic guidance: A pilot study,\" J. Bronchol., vol. 12, no. 1, pp. 9-13, Jan. 2005.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Bronchoscopic biopsy of peripheral lung lesions under electromagnetic guidance: A pilot study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "12144259377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "9",
+                                    "@last": "13"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Becker",
+                                    "ce:indexed-name": "Becker H.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Herth",
+                                    "ce:indexed-name": "Herth F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ernst",
+                                    "ce:indexed-name": "Ernst A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwarz",
+                                    "ce:indexed-name": "Schwarz Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Bronchol"
+                        },
+                        "ce:source-text": "H. D. Becker, F. Herth, A. Ernst, and Y. Schwarz, \"Bronchoscopic biopsy of peripheral lung lesions under electromagnetic guidance: A pilot study,\" J. Bronchol., vol. 12, no. 1, pp. 9-13, Jan. 2005."
+                    },
+                    {
+                        "ref-fulltext": "L. M. Seijo et al., \"Diagnostic yield of electromagnetic navigation bronchoscopy is highly dependent on the presence of a bronchus sign on CT imaging,\" Chest, vol. 138, no. 6, pp. 1316-1321, Dec. 2010.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Diagnostic yield of electromagnetic navigation bronchoscopy is highly dependent on the presence of a bronchus sign on CT imaging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78649853479",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "138",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1316",
+                                    "@last": "1321"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seijo",
+                                    "ce:indexed-name": "Seijo L.M."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Chest"
+                        },
+                        "ce:source-text": "L. M. Seijo et al., \"Diagnostic yield of electromagnetic navigation bronchoscopy is highly dependent on the presence of a bronchus sign on CT imaging,\" Chest, vol. 138, no. 6, pp. 1316-1321, Dec. 2010."
+                    },
+                    {
+                        "ref-fulltext": "K. Mori et al., \"Compensation of electromagnetic tracking system using an optical tracker and its application to brochoscopy navigation system,\" Proc. SPIE, vol. 6509, Mar. 2007, Art. no. 65090M.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Compensation of electromagnetic tracking system using an optical tracker and its application to brochoscopy navigation system"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "65090M",
+                                    "@idtype": "ARTNUM"
+                                },
+                                {
+                                    "$": "35148814763",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "6509"}},
+                            "ref-text": "Mar",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mori",
+                                    "ce:indexed-name": "Mori K."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. SPIE"
+                        },
+                        "ce:source-text": "K. Mori et al., \"Compensation of electromagnetic tracking system using an optical tracker and its application to brochoscopy navigation system,\" Proc. SPIE, vol. 6509, Mar. 2007, Art. no. 65090M."
+                    },
+                    {
+                        "ref-fulltext": "X. Luo, T. Kitasaka, and K. Mori, \"Externally navigated bronchoscopy using 2-D motion sensors: Dynamic phantom validation,\" IEEE Trans. Med. Imag., vol. 32, no. 10, pp. 1745-1764, Oct. 2013.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Externally navigated bronchoscopy using 2-D motion sensors: Dynamic phantom validation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84885135547",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1745",
+                                    "@last": "1764"
+                                }
+                            },
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kitasaka",
+                                    "ce:indexed-name": "Kitasaka T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mori",
+                                    "ce:indexed-name": "Mori K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imag"
+                        },
+                        "ce:source-text": "X. Luo, T. Kitasaka, and K. Mori, \"Externally navigated bronchoscopy using 2-D motion sensors: Dynamic phantom validation,\" IEEE Trans. Med. Imag., vol. 32, no. 10, pp. 1745-1764, Oct. 2013."
+                    },
+                    {
+                        "ref-fulltext": "Y. Huang et al., \"Searching collaborative agents for multi-plane localization in 3D ultrasound,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2020, pp. 553-562.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Searching collaborative agents for multi-plane localization in 3D ultrasound"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092724789",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "553",
+                                "@last": "562"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer"
+                        },
+                        "ce:source-text": "Y. Huang et al., \"Searching collaborative agents for multi-plane localization in 3D ultrasound,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2020, pp. 553-562."
+                    },
+                    {
+                        "ref-fulltext": "K. Ma et al., \"Multimodal image registration with deep context reinforcement learning,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2017, pp. 240-248.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Multimodal image registration with deep context reinforcement learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029383883",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "240",
+                                "@last": "248"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma K."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer"
+                        },
+                        "ce:source-text": "K. Ma et al., \"Multimodal image registration with deep context reinforcement learning,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2017, pp. 240-248."
+                    },
+                    {
+                        "ref-fulltext": "Y. Zhang et al., \"A bottom-up approach for real-time mitral valve annulus modeling on 3D echo images,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2020, pp. 458-467.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A bottom-up approach for real-time mitral valve annulus modeling on 3D echo images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092760418",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "458",
+                                "@last": "467"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer"
+                        },
+                        "ce:source-text": "Y. Zhang et al., \"A bottom-up approach for real-time mitral valve annulus modeling on 3D echo images,\" in Proc. Int. Conf. Med. Image Comput.-Assist. Intervent. Springer, 2020, pp. 458-467."
+                    },
+                    {
+                        "ref-fulltext": "G. Kang, L. Jiang, Y. Yang, and A. G. Hauptmann, \"Contrastive adaptation network for unsupervised domain adaptation,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2019, pp. 4893-4902.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Contrastive adaptation network for unsupervised domain adaptation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078224351",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4893",
+                                "@last": "4902"
+                            }},
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hauptmann",
+                                    "ce:indexed-name": "Hauptmann A.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "G. Kang, L. Jiang, Y. Yang, and A. G. Hauptmann, \"Contrastive adaptation network for unsupervised domain adaptation,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2019, pp. 4893-4902."
+                    },
+                    {
+                        "ref-fulltext": "M. Xu et al., \"Adversarial domain adaptation with domain mixup,\" in Proc. AAAI Conf. Artif. Intell., vol. 34, no. 4, 2020, pp. 6502-6509.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Adversarial domain adaptation with domain mixup"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85106414966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "6502",
+                                    "@last": "6509"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu M."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. AAAI Conf. Artif. Intell"
+                        },
+                        "ce:source-text": "M. Xu et al., \"Adversarial domain adaptation with domain mixup,\" in Proc. AAAI Conf. Artif. Intell., vol. 34, no. 4, 2020, pp. 6502-6509."
+                    },
+                    {
+                        "ref-fulltext": "S. K. Zhou, H. N. Le, K. Luu, H. V. Nguyen, and N. Ayache, \"Deep reinforcement learning in medical imaging: A literature review,\" 2021, arXiv:2103.05115.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85113223145",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv:2103.05115",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou S.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le H.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luu",
+                                    "ce:indexed-name": "Luu K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen H.V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ayache",
+                                    "ce:indexed-name": "Ayache N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Deep reinforcement learning in medical imaging: A literature review"
+                        },
+                        "ce:source-text": "S. K. Zhou, H. N. Le, K. Luu, H. V. Nguyen, and N. Ayache, \"Deep reinforcement learning in medical imaging: A literature review,\" 2021, arXiv:2103.05115."
+                    },
+                    {
+                        "ref-fulltext": "V. Mnih et al., \"Human-level control through deep reinforcement learning,\" Nature, vol. 518, no. 7540, pp. 529-533, 2015.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Human-level control through deep reinforcement learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924051598",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "518",
+                                    "@issue": "7540"
+                                },
+                                "pagerange": {
+                                    "@first": "529",
+                                    "@last": "533"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mnih",
+                                    "ce:indexed-name": "Mnih V."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "V. Mnih et al., \"Human-level control through deep reinforcement learning,\" Nature, vol. 518, no. 7540, pp. 529-533, 2015."
+                    },
+                    {
+                        "ref-fulltext": "H. Van Hasselt, A. Guez, and D. Silver, \"Deep reinforcement learning with double Q-learning,\" in Proc. AAAI Conf. Artif. Intell., vol. 30, no. 1, 2016, pp. 1-7.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep reinforcement learning with double Q-learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85007210890",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "7"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Hasselt",
+                                    "ce:indexed-name": "Van Hasselt H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guez",
+                                    "ce:indexed-name": "Guez A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silver",
+                                    "ce:indexed-name": "Silver D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. AAAI Conf. Artif. Intell"
+                        },
+                        "ce:source-text": "H. Van Hasselt, A. Guez, and D. Silver, \"Deep reinforcement learning with double Q-learning,\" in Proc. AAAI Conf. Artif. Intell., vol. 30, no. 1, 2016, pp. 1-7."
+                    },
+                    {
+                        "ref-fulltext": "M. Visentini-Scarzanella, D. Stoyanov, and G.-Z. Yang, \"Metric depth recovery from monocular images using shape-from-shading and specularities,\" in Proc. 19th IEEE Int. Conf. Image Process., Sep. 2012, pp. 25-28.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Metric depth recovery from monocular images using shape-from-shading and specularities"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875833355",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "25",
+                                "@last": "28"
+                            }},
+                            "ref-text": "Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Visentini-Scarzanella",
+                                    "ce:indexed-name": "Visentini-Scarzanella M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stoyanov",
+                                    "ce:indexed-name": "Stoyanov D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang G.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 19th IEEE Int. Conf. Image Process."
+                        },
+                        "ce:source-text": "M. Visentini-Scarzanella, D. Stoyanov, and G.-Z. Yang, \"Metric depth recovery from monocular images using shape-from-shading and specularities,\" in Proc. 19th IEEE Int. Conf. Image Process., Sep. 2012, pp. 25-28."
+                    },
+                    {
+                        "ref-fulltext": "J. Long, E. Shelhamer, and T. Darrell, \"Fully convolutional networks for semantic segmentation,\" in Proc. CVPR, Jun. 2015, pp. 3431-3440.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Fully convolutional networks for semantic segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84945230598",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3431",
+                                "@last": "3440"
+                            }},
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Long",
+                                    "ce:indexed-name": "Long J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shelhamer",
+                                    "ce:indexed-name": "Shelhamer E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Darrell",
+                                    "ce:indexed-name": "Darrell T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. CVPR"
+                        },
+                        "ce:source-text": "J. Long, E. Shelhamer, and T. Darrell, \"Fully convolutional networks for semantic segmentation,\" in Proc. CVPR, Jun. 2015, pp. 3431-3440."
+                    },
+                    {
+                        "ref-fulltext": "T. Zhou, M. Brown, N. Snavely, and D. G. Lowe, \"Unsupervised learning of depth and ego-motion from video,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017, pp. 1851-1858.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Unsupervised learning of depth and ego-motion from video"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85042592684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1851",
+                                "@last": "1858"
+                            }},
+                            "ref-text": "Jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brown",
+                                    "ce:indexed-name": "Brown M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Snavely",
+                                    "ce:indexed-name": "Snavely N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowe",
+                                    "ce:indexed-name": "Lowe D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "T. Zhou, M. Brown, N. Snavely, and D. G. Lowe, \"Unsupervised learning of depth and ego-motion from video,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017, pp. 1851-1858."
+                    },
+                    {
+                        "ref-fulltext": "M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, and L.-C. Chen, \"MobileNetV2: Inverted residuals and linear bottlenecks,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., Jun. 2018, pp. 4510-4520.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "MobileNetV2: Inverted residuals and linear bottlenecks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062799511",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4510",
+                                "@last": "4520"
+                            }},
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sandler",
+                                    "ce:indexed-name": "Sandler M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howard",
+                                    "ce:indexed-name": "Howard A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhmoginov",
+                                    "ce:indexed-name": "Zhmoginov A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen L.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit."
+                        },
+                        "ce:source-text": "M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, and L.-C. Chen, \"MobileNetV2: Inverted residuals and linear bottlenecks,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., Jun. 2018, pp. 4510-4520."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Shanghai",
+            "@id": "60073638",
+            "affilname": "Shanghai Chest Hospital",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073638",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Shanghai",
+            "@id": "60025084",
+            "affilname": "Shanghai Jiao Tong University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85135248715",
+        "dc:description": "Endobronchial intervention is increasingly used as a minimally invasive means for the treatment of pulmonary diseases. In order to acquire the position of bronchoscopy, vision-based localization approaches are clinically preferable but are sensitive to visual variations. The static nature of pre-operative planning makes mapping of intraoperative anatomical features challenging for learning-based methods using visual features alone. In this work, we propose a robust navigation framework based on Vision Kinematic Interaction (VKI) for monocular bronchoscopic videos. To address visual-imbalance between the virtual and real views of bronchoscopy images, a Visual Similarity Network (VSN) is proposed to extract domain-invariant features to represent the lumen structure from endoscopic views, as well as domain-specific features to characterize the surface texture and visual artefacts. To improve the robustness of online estimation of camera pose, we also introduce a Kinematic Refinement Network (KRN) that allows progressive refinement of camera pose estimation based on network prediction and robot control signals. The accuracy of camera localization is validated on phantom and porcine lung datasets from a robotically controlled endobronchial intervention system, with both quantitative and qualitative results demonstrating the performance of the techniques. Results show that the features extracted by the proposed method can preserve the structural information of small airways in the presence of large visual variations along with the much-improved camera localization accuracy. The absolute trajectory errors (ATE) on phantom data and porcine data are 8.01 mm and 8.62 mm respectively.",
+        "pubmed-id": "35839186",
+        "prism:coverDate": "2022-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85135248715",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yun",
+            "preferred-name": {
+                "ce:given-name": "Yun",
+                "ce:initials": "Y.",
+                "ce:surname": "Gu",
+                "ce:indexed-name": "Gu Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Gu",
+            "@auid": "55836552300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55836552300",
+            "ce:indexed-name": "Gu Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85135248715"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85135248715&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85135248715&origin=inward"
+            }
+        ],
+        "source-id": "16733",
+        "citedby-count": "2",
+        "prism:volume": "41",
+        "subtype": "ar",
+        "dc:title": "Vision-Kinematics Interaction for Robotic-Assisted Bronchoscopy Navigation",
+        "openaccess": "0",
+        "prism:issn": "1558254X 02780062",
+        "publishercopyright": "© 1982-2012 IEEE.",
+        "prism:issueIdentifier": "12",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Transactions on Medical Imaging",
+        "prism:pageRange": "3600-3610",
+        "prism:endingPage": "3610",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/TMI.2022.3191317",
+        "prism:startingPage": "3600",
+        "dc:identifier": "SCOPUS_ID:85135248715",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Bronchoscopy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Camera localization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Kinematic interaction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Minimally invasive",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pre-operative planning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Robot vision systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Video",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Vision based localization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Vision based navigation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Visual similarity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Animals",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Biomechanical Phenomena",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Bronchoscopy",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Endoscopy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Phantoms, Imaging",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Robotic Surgical Procedures",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Swine",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "kinematics"
+        },
+        {
+            "@_fa": "true",
+            "$": "Vision-based navigation"
+        },
+        {
+            "@_fa": "true",
+            "$": "visual similarity"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Radiological and Ultrasound Technology",
+            "@code": "3614",
+            "@abbrev": "HEAL"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yun",
+            "preferred-name": {
+                "ce:given-name": "Yun",
+                "ce:initials": "Y.",
+                "ce:surname": "Gu",
+                "ce:indexed-name": "Gu Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Gu",
+            "@auid": "55836552300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55836552300",
+            "ce:indexed-name": "Gu Y."
+        },
+        {
+            "ce:given-name": "Chuanjia",
+            "preferred-name": {
+                "ce:given-name": "Chuanjia",
+                "ce:initials": "C.",
+                "ce:surname": "Gu",
+                "ce:indexed-name": "Gu C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60073638",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073638"
+            },
+            "ce:surname": "Gu",
+            "@auid": "57223147074",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57223147074",
+            "ce:indexed-name": "Gu C."
+        },
+        {
+            "ce:given-name": "Jie",
+            "preferred-name": {
+                "ce:given-name": "Jie",
+                "ce:initials": "J.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Yang",
+            "@auid": "15039078800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/15039078800",
+            "ce:indexed-name": "Yang J."
+        },
+        {
+            "ce:given-name": "Jiayuan",
+            "preferred-name": {
+                "ce:given-name": "Jiayuan",
+                "ce:initials": "J.",
+                "ce:surname": "Sun",
+                "ce:indexed-name": "Sun J."
+            },
+            "@seq": "4",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60073638",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60073638"
+            },
+            "ce:surname": "Sun",
+            "@auid": "57209194381",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57209194381",
+            "ce:indexed-name": "Sun J."
+        },
+        {
+            "ce:given-name": "Guang-Zhong",
+            "preferred-name": {
+                "ce:given-name": "Guang Zhong",
+                "ce:initials": "G.Z.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang G.Z."
+            },
+            "@seq": "5",
+            "ce:initials": "G.-Z.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Yang",
+            "@auid": "57211728432",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57211728432",
+            "ce:indexed-name": "Yang G.-Z."
+        }
+    ]}
+}}

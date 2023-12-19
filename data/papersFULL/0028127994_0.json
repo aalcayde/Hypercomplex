@@ -1,0 +1,385 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "22",
+                "@year": "2020",
+                "@timestamp": "2020-01-22T04:48:09.000009-05:00",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "1994",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-acronym": "NEI",
+                    "xocs:funding-agency": "National Eye Institute",
+                    "xocs:funding-id": "R01EY004148",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000053",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-acronym": "NIGMS",
+                    "xocs:funding-agency": "National Institute of General Medical Sciences",
+                    "xocs:funding-id": "T34GM008078",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000057",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-01T19:32:44.687463Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Brooklyn, NY 11210",
+                        "country": "United States",
+                        "@afid": "60023814",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Computer/Information Science Dept."},
+                            {"$": "Neural/Intelligent Systems Institute"},
+                            {"$": "Brooklyn College of CUNY"}
+                        ],
+                        "affiliation-id": [
+                            {
+                                "@afid": "60023814",
+                                "@dptid": "104204295"
+                            },
+                            {"@afid": "60007033"}
+                        ],
+                        "@dptid": "104204295"
+                    },
+                    "author": [
+                        {
+                            "preferred-name": {
+                                "ce:given-name": "C.",
+                                "ce:initials": "C.",
+                                "ce:surname": "Schnabolk",
+                                "ce:indexed-name": "Schnabolk C."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Schnabolk",
+                            "@auid": "6507563736",
+                            "ce:indexed-name": "Schnabolk C."
+                        },
+                        {
+                            "preferred-name": {
+                                "ce:given-name": "T.",
+                                "ce:initials": "T.",
+                                "ce:surname": "Raphan",
+                                "ce:indexed-name": "Raphan T."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Raphan",
+                            "@auid": "7005885674",
+                            "ce:indexed-name": "Raphan T."
+                        }
+                    ]
+                },
+                "citation-title": "Modeling three-dimensional velocity-to-position transformation in oculomotor control",
+                "abstracts": "1. A considerable amount of attention has been devoted to understanding the velocity-position transformation that takes place in the control of eye movements in three dimensions. Much of the work has focused on the idea that rotations in three dimensions do not commute and that a 'multiplicative quaternion model' of velocity-position integration is necessary to explain eye movements in three dimensions. Our study has indicated that this approach is not consistent with the physiology of the types of signals necessary to rotate the eyes. 2. We developed a three-dimensional dynamical system model for movement of the eye within its surrounding orbital tissue. The main point of the model is that the eye muscles generate torque to rotate the eye. When the eye reaches an orientation such that the restoring torque of the orbital tissue counterbalances the torque applied by the muscles, a unique equilibrium point is reached. The trajectory of the eye to reach equilibrium may follow any path, depending on the starting eye orientation and eye velocity. However, according to Euler's theorem, the equilibrium reached is equivalent to a rotation about a fixed axis through some angle from a primary orientation. This represents the shortest path that the eye could take from the primary orientation in reaching equilibrium. Consequently, it is also the shortest path for returning the eye to the primary orientation. Thus the restoring torque developed by the tissue surrounding the eye was approximated as proportional to the product of this angle and a unit vector along this axis. The relationship between orientation and restoring torque gives a unique torque-orientation relationship. 3. Once the appropriate torque- orientation relationship for eye rotation is established the velocity- position integrator can be modeled as a dynamical system that is a direct extension of the one-dimensional velocity-position integrator. The linear combination of the integrator state and a direct pathway signal is converted to a torque signal that activates the muscles to rotate the eyes. Therefore the output of the integrator is related to a torque signal that positions the eyes. It is not an eye orientation signal. The applied torque signal drives the eye to an equilibrium orientation such that the restoring torque equals the applied torque but in the opposite direction. The eye orientation reached at equilibrium is determined by the unique torque-orientation relation. Because torque signals are vectors, they commute. Thus our model indicates that the signals in the CNS can be treated as vectors and that the nonvector orientation properties of the eye globe are inherent in the dynamical system associated with the globe and its underlying tissue. 4. Listing's law is explained very simply by our model as being a property of the vector nature of the signals in the CNS driving the eyes, and its implementation is not localized to any specific locality within the CNS. If the neural vector signal driving the eye is confined to Listing's plane, i.e., the pitch-yaw plane in our model, then eye orientation will obey Listing's law. 5. We performed simulations to show that Listing's law is obeyed by our model for both saccades and smooth pursuit eye movements in the steady state. The simulations also showed that there is commutativity in terms of steady-state eye orientation. We performed simulations that compared the model output with data of others. Deviations from Listing's law were consistent with the physiological findings.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Brooklyn, NY 11210",
+                        "country": "United States",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Computer/Information Science Dept."},
+                            {"$": "Neural/Intelligent Systems Institute"},
+                            {"$": "Brooklyn College of CUNY"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "T.",
+                        "ce:surname": "Raphan",
+                        "ce:indexed-name": "Raphan T."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://jn.physiology.org",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of Neurophysiology",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "71",
+                            "@issue": "2"
+                        },
+                        "pagerange": {
+                            "@first": "623",
+                            "@last": "638"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Journal of Neurophysiology",
+                    "publicationdate": {
+                        "year": "1994",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1994"
+                        }
+                    },
+                    "codencode": "JONEA",
+                    "sourcetitle-abbrev": "J. NEUROPHYSIOL.",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "00223077",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "1994"},
+                    "publisher": {"publishername": "American Physiological Society"},
+                    "@srcid": "23475"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CABSCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "88.4.8",
+                                "classification-description": "NEUROSCIENCE; PHYSIOLOGY OF THE CENTRAL NERVOUS SYSTEM; Midbrain"
+                            },
+                            {
+                                "classification-code": "88.8.6.4",
+                                "classification-description": "NEUROSCIENCE; SENSORY SYSTEMS; Visual System; Eye movements"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "EMCLASS",
+                        "classification": {
+                            "classification-code": "2",
+                            "classification-description": "Physiology"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2800"},
+                            {"$": "1314"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "NEUR"},
+                            {"$": "BIOC"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CABS"},
+                    {"$": "EMBASE"},
+                    {"$": "MEDL"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "30",
+                    "@year": "2018",
+                    "@timestamp": "BST 11:17:43",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "24068593",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "1994071317",
+                            "@idtype": "CABS"
+                        },
+                        {
+                            "$": "25289425",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "1994074132",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "8176431",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "0028127994",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "0028127994",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1152/jn.1994.71.2.623"
+                }
+            },
+            "tail": null
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "New York",
+        "@id": "60023814",
+        "affilname": "Brooklyn College",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023814",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-0028127994",
+        "dc:description": "1. A considerable amount of attention has been devoted to understanding the velocity-position transformation that takes place in the control of eye movements in three dimensions. Much of the work has focused on the idea that rotations in three dimensions do not commute and that a 'multiplicative quaternion model' of velocity-position integration is necessary to explain eye movements in three dimensions. Our study has indicated that this approach is not consistent with the physiology of the types of signals necessary to rotate the eyes. 2. We developed a three-dimensional dynamical system model for movement of the eye within its surrounding orbital tissue. The main point of the model is that the eye muscles generate torque to rotate the eye. When the eye reaches an orientation such that the restoring torque of the orbital tissue counterbalances the torque applied by the muscles, a unique equilibrium point is reached. The trajectory of the eye to reach equilibrium may follow any path, depending on the starting eye orientation and eye velocity. However, according to Euler's theorem, the equilibrium reached is equivalent to a rotation about a fixed axis through some angle from a primary orientation. This represents the shortest path that the eye could take from the primary orientation in reaching equilibrium. Consequently, it is also the shortest path for returning the eye to the primary orientation. Thus the restoring torque developed by the tissue surrounding the eye was approximated as proportional to the product of this angle and a unit vector along this axis. The relationship between orientation and restoring torque gives a unique torque-orientation relationship. 3. Once the appropriate torque- orientation relationship for eye rotation is established the velocity- position integrator can be modeled as a dynamical system that is a direct extension of the one-dimensional velocity-position integrator. The linear combination of the integrator state and a direct pathway signal is converted to a torque signal that activates the muscles to rotate the eyes. Therefore the output of the integrator is related to a torque signal that positions the eyes. It is not an eye orientation signal. The applied torque signal drives the eye to an equilibrium orientation such that the restoring torque equals the applied torque but in the opposite direction. The eye orientation reached at equilibrium is determined by the unique torque-orientation relation. Because torque signals are vectors, they commute. Thus our model indicates that the signals in the CNS can be treated as vectors and that the nonvector orientation properties of the eye globe are inherent in the dynamical system associated with the globe and its underlying tissue. 4. Listing's law is explained very simply by our model as being a property of the vector nature of the signals in the CNS driving the eyes, and its implementation is not localized to any specific locality within the CNS. If the neural vector signal driving the eye is confined to Listing's plane, i.e., the pitch-yaw plane in our model, then eye orientation will obey Listing's law. 5. We performed simulations to show that Listing's law is obeyed by our model for both saccades and smooth pursuit eye movements in the steady state. The simulations also showed that there is commutativity in terms of steady-state eye orientation. We performed simulations that compared the model output with data of others. Deviations from Listing's law were consistent with the physiological findings.",
+        "pubmed-id": "8176431",
+        "prism:coverDate": "1994-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/0028127994",
+        "dc:creator": {"author": [{
+            "preferred-name": {
+                "ce:given-name": "C.",
+                "ce:initials": "C.",
+                "ce:surname": "Schnabolk",
+                "ce:indexed-name": "Schnabolk C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60023814",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023814"
+            },
+            "ce:surname": "Schnabolk",
+            "@auid": "6507563736",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6507563736",
+            "ce:indexed-name": "Schnabolk C."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/0028127994"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0028127994&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=0028127994&origin=inward"
+            }
+        ],
+        "source-id": "23475",
+        "citedby-count": "97",
+        "prism:volume": "71",
+        "subtype": "ar",
+        "dc:title": "Modeling three-dimensional velocity-to-position transformation in oculomotor control",
+        "openaccess": "0",
+        "prism:issn": "00223077",
+        "prism:issueIdentifier": "2",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Journal of Neurophysiology",
+        "prism:pageRange": "623-638",
+        "prism:endingPage": "638",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1152/jn.1994.71.2.623",
+        "prism:startingPage": "623",
+        "dc:identifier": "SCOPUS_ID:0028127994",
+        "dc:publisher": "American Physiological Society"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Neuroscience (all)",
+            "@code": "2800",
+            "@abbrev": "NEUR"
+        },
+        {
+            "@_fa": "true",
+            "$": "Physiology",
+            "@code": "1314",
+            "@abbrev": "BIOC"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "preferred-name": {
+                "ce:given-name": "C.",
+                "ce:initials": "C.",
+                "ce:surname": "Schnabolk",
+                "ce:indexed-name": "Schnabolk C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60023814",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023814"
+            },
+            "ce:surname": "Schnabolk",
+            "@auid": "6507563736",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6507563736",
+            "ce:indexed-name": "Schnabolk C."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "T.",
+                "ce:initials": "T.",
+                "ce:surname": "Raphan",
+                "ce:indexed-name": "Raphan T."
+            },
+            "@seq": "2",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60023814",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023814"
+            },
+            "ce:surname": "Raphan",
+            "@auid": "7005885674",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005885674",
+            "ce:indexed-name": "Raphan T."
+        }
+    ]}
+}}

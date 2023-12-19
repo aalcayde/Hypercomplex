@@ -1,0 +1,1608 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "15",
+                "@timestamp": "2022-02-15T16:11:40.000040-05:00",
+                "@year": "2022",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "National Institutes of Health",
+                    "xocs:funding-agency-acronym": "NIH",
+                    "xocs:funding-agency": "National Institutes of Health",
+                    "xocs:funding-id": [
+                        {"$": "K99EB027177"},
+                        {"$": "P41EB015898"},
+                        {"$": "R01EB025964"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000002",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Institute of Biomedical Imaging and Bioengineering",
+                    "xocs:funding-agency-acronym": "NIBIB",
+                    "xocs:funding-agency": "National Institute of Biomedical Imaging and Bioengineering",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000070",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "BWH",
+                    "xocs:funding-agency-acronym": "BWH",
+                    "xocs:funding-agency": "Brigham and Women's Hospital",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100005292",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Partners HealthCare",
+                    "xocs:funding-agency": "Partners Healthcare",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100007806",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-12-03T01:03:27.123Z",
+            "xocs:funding-text": [
+                {"$": "This project was supported by the National Institute of Biomedical Imaging and Bioengineering of the National Institutes of Health through Grant Numbers K99EB027177, R01EB025964 and P41EB015898. Unrelated to this publication, Jagadeesan Jayender owns equity in Navigation Sciences, Inc. He is a co-inventor of a navigation device to assist surgeons in tumor excision that is licensed to Navigation Sciences. Dr. Jayender interests were reviewed and are managed by BWH and Partners HealthCare in accordance with their conflict of interest policies."},
+                {"$": "Acknowledgments. This project was supported by the National Institute of Biomedical Imaging and Bioengineering of the National Institutes of Health through Grant Numbers K99EB027177, R01EB025964 and P41EB015898. Unrelated to this publication, Jagadeesan Jayender owns equity in Navigation Sciences, Inc. He is a co-inventor of a navigation device to assist surgeons in tumor excision that is licensed to Navigation Sciences. Dr. Jayender interests were reviewed and are managed by BWH and Partners HealthCare in accordance with their conflict of interest policies."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@afid": "60002746",
+                        "@country": "usa",
+                        "city": "Boston",
+                        "organization": [
+                            {"$": "Surgical Planning Laboratory"},
+                            {"$": "Brigham and Women\u2019s Hospital"},
+                            {"$": "Harvard Medical School"}
+                        ],
+                        "affiliation-id": [
+                            {
+                                "@afid": "60002746",
+                                "@dptid": "103189132"
+                            },
+                            {"@afid": "60016782"}
+                        ],
+                        "ce:source-text": "Surgical Planning Laboratory, Brigham and Women\u2019s Hospital, Harvard Medical School, Boston, USA",
+                        "@dptid": "103189132"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Haoyin",
+                            "preferred-name": {
+                                "ce:given-name": "Haoyin",
+                                "ce:initials": "H.",
+                                "ce:surname": "Zhou",
+                                "ce:indexed-name": "Zhou H."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "H.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zhou",
+                            "@auid": "55365601600",
+                            "ce:indexed-name": "Zhou H."
+                        },
+                        {
+                            "ce:given-name": "Jagadeesan",
+                            "preferred-name": {
+                                "ce:given-name": "Jagadeesan",
+                                "ce:initials": "J.",
+                                "ce:surname": "Jayender",
+                                "ce:indexed-name": "Jayender J."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Jayender",
+                            "@auid": "15725486800",
+                            "ce:indexed-name": "Jayender J."
+                        }
+                    ]
+                },
+                "citation-title": "EMDQ-SLAM: Real-Time High-Resolution Reconstruction of Soft Tissue Surface from Stereo Laparoscopy Videos",
+                "abstracts": "© 2021, Springer Nature Switzerland AG.We propose a novel stereo laparoscopy video-based non-rigid SLAM method called EMDQ-SLAM, which can incrementally reconstruct thee-dimensional (3D) models of soft tissue surfaces in real-time and preserve high-resolution color textures. EMDQ-SLAM uses the expectation maximization and dual quaternion (EMDQ) algorithm combined with SURF features to track the camera motion and estimate tissue deformation between video frames. To overcome the problem of accumulative errors over time, we have integrated a g2o-based graph optimization method that combines the EMDQ mismatch removal and as-rigid-as-possible (ARAP) smoothing methods. Finally, the multi-band blending (MBB) algorithm has been used to obtain high resolution color textures with real-time performance. Experimental results demonstrate that our method outperforms two state-of-the-art non-rigid SLAM methods: MISSLAM and DefSLAM. Quantitative evaluation shows an average error in the range of 0.8\u20132.2 mm for different cases.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@country": "usa",
+                        "city": "Boston",
+                        "organization": [
+                            {"$": "Surgical Planning Laboratory"},
+                            {"$": "Brigham and Women\u2019s Hospital"},
+                            {"$": "Harvard Medical School"}
+                        ],
+                        "ce:source-text": "Surgical Planning Laboratory, Brigham and Women\u2019s Hospital, Harvard Medical School, Boston, USA"
+                    },
+                    "person": {
+                        "ce:given-name": "Jagadeesan",
+                        "ce:initials": "J.",
+                        "ce:surname": "Jayender",
+                        "ce:indexed-name": "Jayender J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "EMDQ",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "g2o-based graph optimization",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "GPU parallel computation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "High resolution texture",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Multi-band blending",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Non-rigid SLAM",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "12904 LNCS"},
+                        "pagerange": {
+                            "@first": "331",
+                            "@last": "340"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783030872014",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "4 of 8"},
+                        "confevent": {
+                            "confname": "24th International Conference on Medical Image Computing and Computer Assisted Intervention, MICCAI 2021",
+                            "confnumber": "24th",
+                            "confseriestitle": "International Conference on Medical Image Computing and Computer Assisted Intervention",
+                            "conflocation": {"city": "Virtual, Online"},
+                            "confcode": "265939",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "01",
+                                    "@year": "2021",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "27",
+                                    "@year": "2021",
+                                    "@month": "09"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Marleen",
+                            "@seq": "1",
+                            "ce:initials": "M.",
+                            "ce:surname": "de Bruijne",
+                            "@role": "edit",
+                            "ce:indexed-name": "de Bruijne M."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Marleen",
+                            "@seq": "1",
+                            "ce:initials": "M.",
+                            "ce:surname": "de Bruijne",
+                            "@role": "edit",
+                            "ce:indexed-name": "de Bruijne M."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Philippe C.",
+                            "@seq": "1",
+                            "ce:initials": "P.C.",
+                            "ce:surname": "Cattin",
+                            "@role": "edit",
+                            "ce:indexed-name": "Cattin P.C."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Stéphane",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Cotin",
+                            "@role": "edit",
+                            "ce:indexed-name": "Cotin S."
+                        }},
+                        {
+                            "contributor": {
+                                "ce:given-name": "Nicolas",
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "ce:surname": "Padoy",
+                                "@role": "edit",
+                                "ce:indexed-name": "Padoy N."
+                            },
+                            "affiliation": {
+                                "address-part": "ICube",
+                                "@country": "fra",
+                                "city": "Strasbourg",
+                                "organization": {"$": "Université de Strasbourg, CNRS"}
+                            }
+                        },
+                        {"contributor": {
+                            "ce:given-name": "Stefanie",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Speidel",
+                            "@role": "edit",
+                            "ce:indexed-name": "Speidel S."
+                        }},
+                        {
+                            "contributor": {
+                                "ce:given-name": "Yefeng",
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Zheng",
+                                "@role": "edit",
+                                "ce:indexed-name": "Zheng Y."
+                            },
+                            "affiliation": {
+                                "address-part": "Tencent Jarvis Lab",
+                                "@country": "chn",
+                                "city": "Shenzhen"
+                            }
+                        },
+                        {
+                            "contributor": {
+                                "ce:given-name": "Caroline",
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "ce:surname": "Essert",
+                                "@role": "edit",
+                                "ce:indexed-name": "Essert C."
+                            },
+                            "affiliation": {
+                                "address-part": "ICube",
+                                "@country": "fra",
+                                "city": "Strasbourg",
+                                "organization": {"$": "Université de Strasbourg, CNRS"}
+                            }
+                        }
+                    ],
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Medical Image Computing and Computer Assisted Intervention \u2013 MICCAI 2021 - 24th International Conference, Proceedings",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Springer Science and Business Media Deutschland GmbH"},
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.1",
+                                "classification-description": "Biomedical Engineering"
+                            },
+                            {
+                                "classification-code": "461.2",
+                                "classification-description": "Biological Materials and Tissue Engineering"
+                            },
+                            {
+                                "classification-code": "461.6",
+                                "classification-description": "Medicine and Pharmacology"
+                            },
+                            {
+                                "classification-code": "714.2",
+                                "classification-description": "Semiconductor Devices and Integrated Circuits"
+                            },
+                            {
+                                "classification-code": "721.3",
+                                "classification-description": "Computer Circuits"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "802.3",
+                                "classification-description": "Chemical Operations"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "78.23",
+                            "classification-description": "MIXING AND SEPARATION"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This project was supported by the National Institute of Biomedical Imaging and Bioengineering of the National Institutes of Health through Grant Numbers K99EB027177, R01EB025964 and P41EB015898. Unrelated to this publication, Jagadeesan Jayender owns equity in Navigation Sciences, Inc. He is a co-inventor of a navigation device to assist surgeons in tumor excision that is licensed to Navigation Sciences. Dr. Jayender interests were reviewed and are managed by BWH and Partners HealthCare in accordance with their conflict of interest policies.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-acronym": "NIBIB",
+                        "grant-agency": {
+                            "@iso-code": "usa",
+                            "$": "National Institute of Biomedical Imaging and Bioengineering"
+                        },
+                        "grant-agency-id": "100000070"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "09",
+                    "@timestamp": "BST 07:10:03",
+                    "@year": "2021",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "636163894",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "936039765",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20214110994413",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20213379779",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85116468872",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85116468872",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-030-87202-1_32"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "25",
+                "reference": [
+                    {
+                        "ref-fulltext": "Maier-Hein, L., et al.: Optical techniques for 3D surface reconstruction in computer-assisted laparoscopic surgery. Med. Image Anal. 17(8), 974\u2013996 (2013)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Optical techniques for 3D surface reconstruction in computer-assisted laparoscopic surgery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880179366",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "974",
+                                    "@last": "996"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maier-Hein",
+                                    "ce:indexed-name": "Maier-Hein L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Med. Image Anal."
+                        },
+                        "ce:source-text": "Maier-Hein, L., et al.: Optical techniques for 3D surface reconstruction in computer-assisted laparoscopic surgery. Med. Image Anal. 17(8), 974\u2013996 (2013)"
+                    },
+                    {
+                        "ref-fulltext": "Totz, J., Mountney, P., Stoyanov, D., Yang, G.-Z.: Dense surface reconstruction for enhanced navigation in MIS. In: Fichtinger, G., Martel, A., Peters, T. (eds.) MICCAI 2011. LNCS, vol. 6891, pp. 89\u201396. Springer, Heidelberg (2011). https://doi.org/10.1007/978-3-642-23623-5 12",
+                        "@id": "2",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85092759218",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Totz, J., Mountney, P., Stoyanov, D., Yang, G.-Z.: Dense surface reconstruction for enhanced navigation in MIS. In: Fichtinger, G., Martel, A., Peters, T. (eds.) MICCAI 2011. LNCS, vol. 6891, pp. 89\u201396. Springer, Heidelberg (2011). https://doi.org/10.1007/978-3-642-23623-5 12"
+                        },
+                        "ce:source-text": "Totz, J., Mountney, P., Stoyanov, D., Yang, G.-Z.: Dense surface reconstruction for enhanced navigation in MIS. In: Fichtinger, G., Martel, A., Peters, T. (eds.) MICCAI 2011. LNCS, vol. 6891, pp. 89\u201396. Springer, Heidelberg (2011). https://doi.org/10.1007/978-3-642-23623-5 12"
+                    },
+                    {
+                        "ref-fulltext": "Lacher, R.M., et al.: Nonrigid reconstruction of 3D breast surfaces with a low-cost RGBD camera for surgical planning and aesthetic evaluation. Med. Image Anal. 53, 11\u201325 (2019)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Nonrigid reconstruction of 3D breast surfaces with a low-cost RGBD camera for surgical planning and aesthetic evaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059937622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "53"},
+                                "pagerange": {
+                                    "@first": "11",
+                                    "@last": "25"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lacher",
+                                    "ce:indexed-name": "Lacher R.M."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Med. Image Anal."
+                        },
+                        "ce:source-text": "Lacher, R.M., et al.: Nonrigid reconstruction of 3D breast surfaces with a low-cost RGBD camera for surgical planning and aesthetic evaluation. Med. Image Anal. 53, 11\u201325 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Newcombe, R.A., Fox, D., Seitz, S.M.: DynamicFusion: reconstruction and tracking of non-rigid scenes in real-time. In: CVPR, pp. 343\u2013352 (2015)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "DynamicFusion: Reconstruction and tracking of non-rigid scenes in real-time"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958227024",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "343",
+                                "@last": "352"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Newcombe",
+                                    "ce:indexed-name": "Newcombe R.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fox",
+                                    "ce:indexed-name": "Fox D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seitz",
+                                    "ce:indexed-name": "Seitz S.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        },
+                        "ce:source-text": "Newcombe, R.A., Fox, D., Seitz, S.M.: DynamicFusion: reconstruction and tracking of non-rigid scenes in real-time. In: CVPR, pp. 343\u2013352 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Miroslava, S., Baust, M., Ilic, S.: Variational level set evolution for non-rigid 3D reconstruction from a single depth camera. IEEE TPAMI (2020)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Variational level set evolution for non-rigid 3D reconstruction from a single depth camera"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85116472911",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miroslava",
+                                    "ce:indexed-name": "Miroslava S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baust",
+                                    "ce:indexed-name": "Baust M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE TPAMI"
+                        },
+                        "ce:source-text": "Miroslava, S., Baust, M., Ilic, S.: Variational level set evolution for non-rigid 3D reconstruction from a single depth camera. IEEE TPAMI (2020)"
+                    },
+                    {
+                        "ref-fulltext": "Miroslava, S., Baust, M., Ilic, S.: SobolevFusion: 3D reconstruction of scenes undergoing free non-rigid motion. In: CVPR, pp. 2646\u20132655 (2018)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "SobolevFusion: 3D reconstruction of scenes undergoing free non-rigid motion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055122471",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2646",
+                                "@last": "2655"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miroslava",
+                                    "ce:indexed-name": "Miroslava S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baust",
+                                    "ce:indexed-name": "Baust M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        },
+                        "ce:source-text": "Miroslava, S., Baust, M., Ilic, S.: SobolevFusion: 3D reconstruction of scenes undergoing free non-rigid motion. In: CVPR, pp. 2646\u20132655 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Cadena, C., et al.: Past, present, and future of simultaneous localization and mapping: toward the robust-perception age. IEEE Trans. Rob., 1309\u20131332 (2016)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Past, present, and future of simultaneous localization and mapping: Toward the robust-perception age"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006054031",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1309",
+                                "@last": "1332"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cadena",
+                                    "ce:indexed-name": "Cadena C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Rob."
+                        },
+                        "ce:source-text": "Cadena, C., et al.: Past, present, and future of simultaneous localization and mapping: toward the robust-perception age. IEEE Trans. Rob., 1309\u20131332 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Mahmoud, N., Hostettler, A., Collins, T., Soler, L., Doignon, C., Montiel, J.M.: SLAM based quasi dense reconstruction for minimally invasive surgery scenes. arXiv preprint arXiv:1705.09107 (2017)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1705.09107",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85116454258",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1705"},
+                                "pagerange": {"@first": "09107"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahmoud",
+                                    "ce:indexed-name": "Mahmoud N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hostettler",
+                                    "ce:indexed-name": "Hostettler A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soler",
+                                    "ce:indexed-name": "Soler L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doignon",
+                                    "ce:indexed-name": "Doignon C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Montiel",
+                                    "ce:indexed-name": "Montiel J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SLAM Based Quasi Dense Reconstruction for Minimally Invasive Surgery Scenes. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Mahmoud, N., Hostettler, A., Collins, T., Soler, L., Doignon, C., Montiel, J.M.: SLAM based quasi dense reconstruction for minimally invasive surgery scenes. arXiv preprint arXiv:1705.09107 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Mahmoud, N., Collins, T., Hostettler, A., Soler, L., Doignon, C., Montiel, J.M.: Live tracking and dense reconstruction for handheld monocular endoscopy. IEEE Trans. Med. Imaging 13, 38(1), 79\u201389 (2018)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Live tracking and dense reconstruction for handheld monocular endoscopy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85049982837",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "79",
+                                    "@last": "89"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahmoud",
+                                    "ce:indexed-name": "Mahmoud N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hostettler",
+                                    "ce:indexed-name": "Hostettler A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soler",
+                                    "ce:indexed-name": "Soler L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doignon",
+                                    "ce:indexed-name": "Doignon C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Montiel",
+                                    "ce:indexed-name": "Montiel J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging 13"
+                        },
+                        "ce:source-text": "Mahmoud, N., Collins, T., Hostettler, A., Soler, L., Doignon, C., Montiel, J.M.: Live tracking and dense reconstruction for handheld monocular endoscopy. IEEE Trans. Med. Imaging 13, 38(1), 79\u201389 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Mountney, P., Yang, G.-Z.: Motion compensated SLAM for image guided surgery. In: Jiang, T., Navab, N., Pluim, J.P.W., Viergever, M.A. (eds.) MICCAI 2010. LNCS, vol. 6362, pp. 496\u2013504. Springer, Heidelberg (2010). https://doi.org/10. 1007/978-3-642-15745-5 61",
+                        "@id": "10",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85116484783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Mountney, P., Yang, G.-Z.: Motion compensated SLAM for image guided surgery. In: Jiang, T., Navab, N., Pluim, J.P.W., Viergever, M.A. (eds.) MICCAI 2010. LNCS, vol. 6362, pp. 496\u2013504. Springer, Heidelberg (2010). https://doi.org/10. 1007/978-3-642-15745-5 61"
+                        },
+                        "ce:source-text": "Mountney, P., Yang, G.-Z.: Motion compensated SLAM for image guided surgery. In: Jiang, T., Navab, N., Pluim, J.P.W., Viergever, M.A. (eds.) MICCAI 2010. LNCS, vol. 6362, pp. 496\u2013504. Springer, Heidelberg (2010). https://doi.org/10. 1007/978-3-642-15745-5 61"
+                    },
+                    {
+                        "@date-locked": "2022-02-15T00:00:00.000",
+                        "ref-fulltext": "Collins, T., Bartoli, A., Bourdel, N., Canis, M.: Robust, real-time, dense and deformable 3D organ tracking in laparoscopic videos. In: Ourselin, S., Joskowicz, L., Sabuncu, M.R., Unal, G., Wells, W. (eds.) MICCAI 2016. LNCS, vol. 9900, pp. 404\u2013412. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46720-7 47",
+                        "@id": "11",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85072855801",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Collins, T., Bartoli, A., Bourdel, N., Canis, M.: Robust, real-time, dense and deformable 3D organ tracking in laparoscopic videos. In: Ourselin, S., Joskowicz, L., Sabuncu, M.R., Unal, G., Wells, W. (eds.) MICCAI 2016. LNCS, vol. 9900, pp. 404\u2013412. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46720-7 47"
+                        },
+                        "ce:source-text": "Collins, T., Bartoli, A., Bourdel, N., Canis, M.: Robust, real-time, dense and deformable 3D organ tracking in laparoscopic videos. In: Ourselin, S., Joskowicz, L., Sabuncu, M.R., Unal, G., Wells, W. (eds.) MICCAI 2016. LNCS, vol. 9900, pp. 404\u2013412. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46720-7 47"
+                    },
+                    {
+                        "ref-fulltext": "Schoob, A., Kundrat, D., Kahrs, L.A., Ortmaier, T.: Stereo vision-based tracking of soft tissue motion with application to online ablation control in laser microsurgery. Med. Image Anal., 80\u201395 (2017)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Stereo vision-based tracking of soft tissue motion with application to online ablation control in laser microsurgery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020759232",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "80",
+                                "@last": "95"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schoob",
+                                    "ce:indexed-name": "Schoob A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kundrat",
+                                    "ce:indexed-name": "Kundrat D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kahrs",
+                                    "ce:indexed-name": "Kahrs L.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ortmaier",
+                                    "ce:indexed-name": "Ortmaier T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Med. Image Anal."
+                        },
+                        "ce:source-text": "Schoob, A., Kundrat, D., Kahrs, L.A., Ortmaier, T.: Stereo vision-based tracking of soft tissue motion with application to online ablation control in laser microsurgery. Med. Image Anal., 80\u201395 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Modrzejewski, R., Collins, T., Bartoli, A., Hostettler, A., Marescaux, J.: Soft-body registration of pre-operative 3D models to intra-operative RGBD partial body scans. In: Frangi, A.F., Schnabel, J.A., Davatzikos, C., Alberola-López, C., Fichtinger, G. (eds.) MICCAI 2018. LNCS, vol. 11073, pp. 39\u201346. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-00937-3 5",
+                        "@id": "13",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074809020",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Modrzejewski, R., Collins, T., Bartoli, A., Hostettler, A., Marescaux, J.: Soft-body registration of pre-operative 3D models to intra-operative RGBD partial body scans. In: Frangi, A.F., Schnabel, J.A., Davatzikos, C., Alberola-López, C., Fichtinger, G. (eds.) MICCAI 2018. LNCS, vol. 11073, pp. 39\u201346. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-00937-3 5"
+                        },
+                        "ce:source-text": "Modrzejewski, R., Collins, T., Bartoli, A., Hostettler, A., Marescaux, J.: Soft-body registration of pre-operative 3D models to intra-operative RGBD partial body scans. In: Frangi, A.F., Schnabel, J.A., Davatzikos, C., Alberola-López, C., Fichtinger, G. (eds.) MICCAI 2018. LNCS, vol. 11073, pp. 39\u201346. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-00937-3 5"
+                    },
+                    {
+                        "ref-fulltext": "Petit, A., Lippiello, V., Siciliano, B.: Real-time Tracking of 3D Elastic Objects with an RGB-D Sensor. In: IROS (2015)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Real-time Tracking of 3D Elastic Objects with an RGB-D Sensor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958191057",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petit",
+                                    "ce:indexed-name": "Petit A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lippiello",
+                                    "ce:indexed-name": "Lippiello V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siciliano",
+                                    "ce:indexed-name": "Siciliano B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IROS"
+                        },
+                        "ce:source-text": "Petit, A., Lippiello, V., Siciliano, B.: Real-time Tracking of 3D Elastic Objects with an RGB-D Sensor. In: IROS (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Song, J., Wang, J., Zhao, L., Huang, S., Dissanayake, G.: MIS-SLAM: real-time large-scale dense deformable SLAM system in minimal invasive surgery based on heterogeneous computing. IEEE Rob. Autom. Lett. 3(4), 4068\u20134075 (2018)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "MIS-SLAM: Real-time large-scale dense deformable SLAM system in minimal invasive surgery based on heterogeneous computing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063307064",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "4068",
+                                    "@last": "4075"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dissanayake",
+                                    "ce:indexed-name": "Dissanayake G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Rob. Autom. Lett."
+                        },
+                        "ce:source-text": "Song, J., Wang, J., Zhao, L., Huang, S., Dissanayake, G.: MIS-SLAM: real-time large-scale dense deformable SLAM system in minimal invasive surgery based on heterogeneous computing. IEEE Rob. Autom. Lett. 3(4), 4068\u20134075 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Lamarca, J., Parashar, S., Bartoli, A., Montiel, J.M.: DefSLAM: tracking and mapping of deforming scenes from monocular sequences. IEEE Trans. Rob. (2020)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "DefSLAM: Tracking and mapping of deforming scenes from monocular sequences"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85103969584",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lamarca",
+                                    "ce:indexed-name": "Lamarca J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parashar",
+                                    "ce:indexed-name": "Parashar S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bartoli",
+                                    "ce:indexed-name": "Bartoli A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Montiel",
+                                    "ce:indexed-name": "Montiel J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Rob."
+                        },
+                        "ce:source-text": "Lamarca, J., Parashar, S., Bartoli, A., Montiel, J.M.: DefSLAM: tracking and mapping of deforming scenes from monocular sequences. IEEE Trans. Rob. (2020)"
+                    },
+                    {
+                        "ref-fulltext": "Zhou, H., Jayender, J.: Smooth deformation field-based mismatch removal in real-time. arXiv preprint arXiv:2007.08553 (2020)",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2007.08553",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85116466279",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2007"},
+                                "pagerange": {"@first": "08553"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jayender",
+                                    "ce:indexed-name": "Jayender J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Smooth Deformation Field-Based Mismatch Removal in Real-Time. Arxiv Preprint Arxiv"
+                        },
+                        "ce:source-text": "Zhou, H., Jayender, J.: Smooth deformation field-based mismatch removal in real-time. arXiv preprint arXiv:2007.08553 (2020)"
+                    },
+                    {
+                        "ref-fulltext": "Kmmerle, R., Grisetti, G., Strasdat, H., Konolige, K., Burgard, W.: G2o: a general framework for graph optimization. In: ICRA, pp. 3607\u20133613 (2011)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "G2o: A general framework for graph optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871676827",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3607",
+                                "@last": "3613"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kmmerle",
+                                    "ce:indexed-name": "Kmmerle R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grisetti",
+                                    "ce:indexed-name": "Grisetti G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Strasdat",
+                                    "ce:indexed-name": "Strasdat H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burgard",
+                                    "ce:indexed-name": "Burgard W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICRA"
+                        },
+                        "ce:source-text": "Kmmerle, R., Grisetti, G., Strasdat, H., Konolige, K., Burgard, W.: G2o: a general framework for graph optimization. In: ICRA, pp. 3607\u20133613 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Brown, M., Lowe, D.G.: Automatic panoramic image stitching using invariant features. Int. J. Comput. Vision 74(1), 59\u201373 (2007)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Automatic panoramic image stitching using invariant features"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34247644569",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "74",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "59",
+                                    "@last": "73"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brown",
+                                    "ce:indexed-name": "Brown M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowe",
+                                    "ce:indexed-name": "Lowe D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Vision"
+                        },
+                        "ce:source-text": "Brown, M., Lowe, D.G.: Automatic panoramic image stitching using invariant features. Int. J. Comput. Vision 74(1), 59\u201373 (2007)"
+                    },
+                    {
+                        "ref-fulltext": "Mur-Artal, R., Tard, J.D.: ORB-SLAM2: an open-source SLAM system for monocular, stereo, and RGB-D cameras. IEEE Trans. Rob., 1255\u20131262 (2017)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "ORB-SLAM2: An open-source SLAM system for monocular, stereo, and RGB-D cameras"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020739341",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1255",
+                                "@last": "1262"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mur-Artal",
+                                    "ce:indexed-name": "Mur-Artal R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tard",
+                                    "ce:indexed-name": "Tard J.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Rob."
+                        },
+                        "ce:source-text": "Mur-Artal, R., Tard, J.D.: ORB-SLAM2: an open-source SLAM system for monocular, stereo, and RGB-D cameras. IEEE Trans. Rob., 1255\u20131262 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Zhou, H., Jayender, J.: Real-time dense reconstruction of tissue surface from stereo optical video. IEEE Trans. Med. Imaging 39(2), 400\u2013412 (2019)",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Real-time dense reconstruction of tissue surface from stereo optical video"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079023143",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "400",
+                                    "@last": "412"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jayender",
+                                    "ce:indexed-name": "Jayender J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        },
+                        "ce:source-text": "Zhou, H., Jayender, J.: Real-time dense reconstruction of tissue surface from stereo optical video. IEEE Trans. Med. Imaging 39(2), 400\u2013412 (2019)"
+                    },
+                    {
+                        "ref-fulltext": "Arun, K.S., Huang, T.S., Blostein, S.D.: Least-squares fitting of two 3-D point sets. IEEE TPAM I, 698\u2013700 (1987)",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Least-squares fitting of two 3-D point sets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890517975",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "698",
+                                "@last": "700"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arun",
+                                    "ce:indexed-name": "Arun K.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang T.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blostein",
+                                    "ce:indexed-name": "Blostein S.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE TPAM I"
+                        },
+                        "ce:source-text": "Arun, K.S., Huang, T.S., Blostein, S.D.: Least-squares fitting of two 3-D point sets. IEEE TPAM I, 698\u2013700 (1987)"
+                    },
+                    {
+                        "ref-fulltext": "Bay, H., Tuytelaars, T., Van Gool, L.: SURF: speeded up robust features. In: Leonardis, A., Bischof, H., Pinz, A. (eds.) ECCV 2006. LNCS, vol. 3951, pp. 404\u2013 417. Springer, Heidelberg (2006). https://doi.org/10.1007/11744023 32",
+                        "@id": "23",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85101749876",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Bay, H., Tuytelaars, T., Van Gool, L.: SURF: speeded up robust features. In: Leonardis, A., Bischof, H., Pinz, A. (eds.) ECCV 2006. LNCS, vol. 3951, pp. 404\u2013 417. Springer, Heidelberg (2006). https://doi.org/10.1007/11744023 32"
+                        },
+                        "ce:source-text": "Bay, H., Tuytelaars, T., Van Gool, L.: SURF: speeded up robust features. In: Leonardis, A., Bischof, H., Pinz, A. (eds.) ECCV 2006. LNCS, vol. 3951, pp. 404\u2013 417. Springer, Heidelberg (2006). https://doi.org/10.1007/11744023 32"
+                    },
+                    {
+                        "ref-fulltext": "Sorkine, O., Alexa, M.: As-Rigid-As-Possible Surface Modeling. In: Symposium on Geometry Processing, vol. 4, pp. 109\u2013116 (2007)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "As-Rigid-As-Possible Surface Modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85119397618",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "109",
+                                    "@last": "116"
+                                }
+                            },
+                            "ref-text": "vol., pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sorkine",
+                                    "ce:indexed-name": "Sorkine O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alexa",
+                                    "ce:indexed-name": "Alexa M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Symposium on Geometry Processing"
+                        },
+                        "ce:source-text": "Sorkine, O., Alexa, M.: As-Rigid-As-Possible Surface Modeling. In: Symposium on Geometry Processing, vol. 4, pp. 109\u2013116 (2007)"
+                    },
+                    {
+                        "ref-fulltext": "Osher, S., Fedkiw, R.: Level Set Methods and Dynamic Implicit Surfaces. AMS, vol. 153. Springer, New York (2003). https://doi.org/10.1007/b98879",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/b98879",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003754684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "153"}},
+                            "ref-text": "vol., Springer, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osher",
+                                    "ce:indexed-name": "Osher S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fedkiw",
+                                    "ce:indexed-name": "Fedkiw R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Level Set Methods and Dynamic Implicit Surfaces. AMS"
+                        },
+                        "ce:source-text": "Osher, S., Fedkiw, R.: Level Set Methods and Dynamic Implicit Surfaces. AMS, vol. 153. Springer, New York (2003). https://doi.org/10.1007/b98879"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Boston",
+        "@id": "60002746",
+        "affilname": "Harvard Medical School",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002746",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85116468872",
+        "dc:description": "We propose a novel stereo laparoscopy video-based non-rigid SLAM method called EMDQ-SLAM, which can incrementally reconstruct thee-dimensional (3D) models of soft tissue surfaces in real-time and preserve high-resolution color textures. EMDQ-SLAM uses the expectation maximization and dual quaternion (EMDQ) algorithm combined with SURF features to track the camera motion and estimate tissue deformation between video frames. To overcome the problem of accumulative errors over time, we have integrated a g2o-based graph optimization method that combines the EMDQ mismatch removal and as-rigid-as-possible (ARAP) smoothing methods. Finally, the multi-band blending (MBB) algorithm has been used to obtain high resolution color textures with real-time performance. Experimental results demonstrate that our method outperforms two state-of-the-art non-rigid SLAM methods: MISSLAM and DefSLAM. Quantitative evaluation shows an average error in the range of 0.8\u20132.2 mm for different cases.",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85116468872",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Haoyin",
+            "preferred-name": {
+                "ce:given-name": "Haoyin",
+                "ce:initials": "H.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002746",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002746"
+            },
+            "ce:surname": "Zhou",
+            "@auid": "55365601600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55365601600",
+            "ce:indexed-name": "Zhou H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85116468872"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85116468872&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85116468872&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783030872014",
+        "source-id": "25674",
+        "citedby-count": "6",
+        "prism:volume": "12904 LNCS",
+        "subtype": "cp",
+        "dc:title": "EMDQ-SLAM: Real-Time High-Resolution Reconstruction of Soft Tissue Surface from Stereo Laparoscopy Videos",
+        "openaccess": "2",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© 2021, Springer Nature Switzerland AG.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "331-340",
+        "prism:endingPage": "340",
+        "openaccessFlag": null,
+        "prism:doi": "10.1007/978-3-030-87202-1_32",
+        "prism:startingPage": "331",
+        "dc:identifier": "SCOPUS_ID:85116468872",
+        "dc:publisher": "Springer Science and Business Media Deutschland GmbH"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Dual quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Expectation Maximization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Expectation maximization and dual quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "G2o-based graph optimization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "GPU parallel computation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Graph optimization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "High-resolution textures",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-band blending",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Non-rigid",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Non-rigid SLAM",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Parallel Computation",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "EMDQ"
+        },
+        {
+            "@_fa": "true",
+            "$": "g2o-based graph optimization"
+        },
+        {
+            "@_fa": "true",
+            "$": "GPU parallel computation"
+        },
+        {
+            "@_fa": "true",
+            "$": "High resolution texture"
+        },
+        {
+            "@_fa": "true",
+            "$": "Multi-band blending"
+        },
+        {
+            "@_fa": "true",
+            "$": "Non-rigid SLAM"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Haoyin",
+            "preferred-name": {
+                "ce:given-name": "Haoyin",
+                "ce:initials": "H.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002746",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002746"
+            },
+            "ce:surname": "Zhou",
+            "@auid": "55365601600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55365601600",
+            "ce:indexed-name": "Zhou H."
+        },
+        {
+            "ce:given-name": "Jagadeesan",
+            "preferred-name": {
+                "ce:given-name": "Jagadeesan",
+                "ce:initials": "J.",
+                "ce:surname": "Jayender",
+                "ce:indexed-name": "Jayender J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002746",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002746"
+            },
+            "ce:surname": "Jayender",
+            "@auid": "15725486800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/15725486800",
+            "ce:indexed-name": "Jayender J."
+        }
+    ]}
+}}

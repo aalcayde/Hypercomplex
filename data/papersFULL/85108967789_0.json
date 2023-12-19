@@ -1,0 +1,2280 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "23",
+                "@year": "2021",
+                "@timestamp": "2021-09-23T09:33:12.000012-04:00",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "07"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Samsung Research Funding Center of Samsung Electronics",
+                    "xocs:funding-agency": "Samsung",
+                    "xocs:funding-id": "SRFC-IT1901-06",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100004358",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Kwangwoon University",
+                    "xocs:funding-agency-acronym": "KW University",
+                    "xocs:funding-agency": "Kwangwoon University",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002643",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Research Foundation of Korea",
+                    "xocs:funding-agency-acronym": "NRF",
+                    "xocs:funding-agency": "National Research Foundation of Korea",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003725",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "MSIT",
+                    "xocs:funding-agency-acronym": "MSIT",
+                    "xocs:funding-agency": "Ministry of Science and ICT, South Korea",
+                    "xocs:funding-id": "2019R1C1C1008462",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100014188",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1835841/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-07-05T22:33:25.515Z",
+            "xocs:funding-text": "Funding: This work was supported by Samsung Research Funding Center of Samsung Electronics (No. SRFC-IT1901-06) and by the National Research Foundation of Korea(NRF) grant funded by the Korea government(MSIT) (No. 2019R1C1C1008462). The present research has been conducted by the Research Grant of Kwangwoon University in 2021.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "South Korea",
+                        "postal-code": "01897",
+                        "@afid": "60013866",
+                        "@country": "kor",
+                        "city": "Seoul",
+                        "organization": [
+                            {"$": "Department of Electronics and Communication Engineering"},
+                            {"$": "Kwangwoon University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60013866",
+                            "@dptid": "113305621"
+                        },
+                        "@affiliation-instance-id": "2007656104-6d92ddba281baef44722d71bb96b8dc2",
+                        "ce:source-text": "Department of Electronics and Communication Engineering, Kwangwoon University, Seoul, 01897, Korea",
+                        "@dptid": "113305621"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Do-Yeop",
+                            "preferred-name": {
+                                "ce:given-name": "Do Yeop",
+                                "ce:initials": "D.Y.",
+                                "ce:surname": "Kim",
+                                "ce:indexed-name": "Kim D.Y."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "2007656104-0343528cf12229b005c74f014950e2eb",
+                            "ce:initials": "D.-Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kim",
+                            "@auid": "57225021063",
+                            "ce:indexed-name": "Kim D.-Y."
+                        },
+                        {
+                            "ce:given-name": "Ju-Yong",
+                            "preferred-name": {
+                                "ce:given-name": "Ju Yong",
+                                "ce:initials": "J.Y.",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang J.Y."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "2007656104-c361966362b584d4142e2cae06b1ccf3",
+                            "ce:initials": "J.-Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chang",
+                            "@auid": "7601552767",
+                            "ce:indexed-name": "Chang J.-Y."
+                        }
+                    ]
+                },
+                "citation-title": "Attention-based 3D human pose sequence refinement network",
+                "abstracts": "© 2021 by the authors. Licensee MDPI, Basel, Switzerland.Three-dimensional human mesh reconstruction from a single video has made much progress in recent years due to the advances in deep learning. However, previous methods still often reconstruct temporally noisy pose and mesh sequences given in-the-wild video data. To address this problem, we propose a human pose refinement network (HPR-Net) based on a non-local attention mechanism. The pipeline of the proposed framework consists of a weight-regression module, a weighted-averaging module, and a skinned multi-person linear (SMPL) module. First, the weight-regression module creates pose affinity weights from a 3D human pose sequence represented in a unit quaternion form. Next, the weighted-averaging module generates a refined 3D pose sequence by performing temporal weighted averaging using the generated affinity weights. Finally, the refined pose sequence is converted into a human mesh sequence using the SMPL module. HPR-Net is a simple but effective post-processing network that can substantially improve the accuracy and temporal smoothness of 3D human mesh sequences obtained from an input video by existing human mesh reconstruction methods. Our experiments show that the noisy results of the existing methods are consistently improved using the proposed method on various real datasets. Notably, our proposed method reduces the pose and acceleration errors of VIBE, the existing state-of-the-art human mesh reconstruction method, by 1.4% and 66.5%, respectively, on the 3DPW dataset.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "South Korea",
+                        "postal-code": "01897",
+                        "@country": "kor",
+                        "city": "Seoul",
+                        "organization": [
+                            {"$": "Department of Electronics and Communication Engineering"},
+                            {"$": "Kwangwoon University"}
+                        ],
+                        "ce:source-text": "Department of Electronics and Communication Engineering, Kwangwoon University, Seoul, 01897, Korea"
+                    },
+                    "person": {
+                        "ce:given-name": "Ju-Yong",
+                        "ce:initials": "J.-Y.",
+                        "ce:surname": "Chang",
+                        "ce:indexed-name": "Chang J.-Y."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "3D human mesh reconstruction",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "3D human pose estimation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Deep neural network",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.mdpi.com/1424-8220/21/13/4572/pdf",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Sensors",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "21",
+                        "@issue": "13"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "Sensors",
+                    "publicationdate": {
+                        "month": "07",
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 July 2021"
+                        },
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Sensors",
+                    "@country": "che",
+                    "issn": {
+                        "$": "14248220",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "MDPI AG"},
+                    "article-number": "4572",
+                    "@srcid": "130124"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1602"},
+                            {"$": "1710"},
+                            {"$": "3107"},
+                            {"$": "1303"},
+                            {"$": "3105"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "CHEM"},
+                            {"$": "COMP"},
+                            {"$": "PHYS"},
+                            {"$": "BIOC"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported by Samsung Research Funding Center of Samsung Electronics (No. SRFC-IT1901-06) and by the National Research Foundation of Korea(NRF) grant funded by the Korea government(MSIT) (No. 2019R1C1C1008462). The present research has been conducted by the Research Grant of Kwangwoon University in 2021.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "MEDL"}
+                ],
+                "history": {"date-created": {
+                    "@day": "05",
+                    "@year": "2021",
+                    "@timestamp": "BST 17:06:36",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2007656104",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "934076106",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20212710583671",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20212616539",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20212192934",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20219003254438",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85108967789",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85108967789",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "635657038",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "34283128",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "78324399",
+                            "@idtype": "OSIN"
+                        }
+                    ],
+                    "ce:doi": "10.3390/s21134572"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "33",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Loper, M.; Mahmood, N.; Romero, J.; Pons-Moll, G.; Black, M.J. SMPL: A skinned multi-person linear model. ACM Trans. Graph. (TOG) 2015, 34, 1\u201316.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "SMPL: A skinned multi-person linear model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84995874936",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "34"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loper",
+                                    "ce:indexed-name": "Loper M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahmood",
+                                    "ce:indexed-name": "Mahmood N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romero",
+                                    "ce:indexed-name": "Romero J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pons-Moll",
+                                    "ce:indexed-name": "Pons-Moll G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph. (TOG)"
+                        },
+                        "ce:source-text": "Loper, M.; Mahmood, N.; Romero, J.; Pons-Moll, G.; Black, M.J. SMPL: A skinned multi-person linear model. ACM Trans. Graph. (TOG) 2015, 34, 1\u201316."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kanazawa, A.; Zhang, J.Y.; Felsen, P.; Malik, J. Learning 3D human dynamics from video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019; pp. 5614\u20135623.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Learning 3D human dynamics from video"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075010599",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5614",
+                                "@last": "5623"
+                            }},
+                            "ref-text": "Long Beach, CA, USA, 15\u201320 June 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanazawa",
+                                    "ce:indexed-name": "Kanazawa A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Felsen",
+                                    "ce:indexed-name": "Felsen P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malik",
+                                    "ce:indexed-name": "Malik J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Kanazawa, A.; Zhang, J.Y.; Felsen, P.; Malik, J. Learning 3D human dynamics from video. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019; pp. 5614\u20135623."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kocabas, M.; Athanasiou, N.; Black, M.J. VIBE: Video inference for human body pose and shape estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020; pp. 5253\u20135263.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "VIBE: Video inference for human body pose and shape estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85090389943",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5253",
+                                "@last": "5263"
+                            }},
+                            "ref-text": "Seattle, WA, USA, 13\u201319 June 2020",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kocabas",
+                                    "ce:indexed-name": "Kocabas M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Athanasiou",
+                                    "ce:indexed-name": "Athanasiou N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Kocabas, M.; Athanasiou, N.; Black, M.J. VIBE: Video inference for human body pose and shape estimation. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA, 13\u201319 June 2020; pp. 5253\u20135263."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Luo, Z.; Golestaneh, S.A.; Kitani, K.M. 3D human motion estimation via motion compression and refinement. In Proceedings of the Asian Conference on Computer Vision, Kyoto, Japan, 30 November\u20134 December 2020.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "3D human motion estimation via motion compression and refinement"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098823024",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Kyoto, Japan, 30 November\u20134 December 2020",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Golestaneh",
+                                    "ce:indexed-name": "Golestaneh S.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kitani",
+                                    "ce:indexed-name": "Kitani K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Asian Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Luo, Z.; Golestaneh, S.A.; Kitani, K.M. 3D human motion estimation via motion compression and refinement. In Proceedings of the Asian Conference on Computer Vision, Kyoto, Japan, 30 November\u20134 December 2020."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Hartley, R.; Trumpf, J.; Dai, Y.; Li, H. Rotation averaging. Int. J. Comput. Vis. 2013, 103, 267\u2013305.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Rotation averaging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84878743245",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "103"},
+                                "pagerange": {
+                                    "@first": "267",
+                                    "@last": "305"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hartley",
+                                    "ce:indexed-name": "Hartley R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trumpf",
+                                    "ce:indexed-name": "Trumpf J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Vis"
+                        },
+                        "ce:source-text": "Hartley, R.; Trumpf, J.; Dai, Y.; Li, H. Rotation averaging. Int. J. Comput. Vis. 2013, 103, 267\u2013305."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Gramkow, C. On averaging rotations. J. Math. Imaging Vis. 2001, 15, 7\u201316.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "On averaging rotations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035397841",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {
+                                    "@first": "7",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Gramkow",
+                                "ce:indexed-name": "Gramkow C."
+                            }]},
+                            "ref-sourcetitle": "J. Math. Imaging Vis"
+                        },
+                        "ce:source-text": "Gramkow, C. On averaging rotations. J. Math. Imaging Vis. 2001, 15, 7\u201316."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Bogo, F.; Kanazawa, A.; Lassner, C.; Gehler, P.; Romero, J.; Black, M.J. Keep it SMPL: Automatic estimation of 3D human pose and shape from a single image. In Proceedings of the European Conference on Computer Vision, Amsterdam, The Netherlands, 8\u201316 October 2016; Springer: Berlin/Heisenberg, Germany, 2016; pp. 561\u2013578.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Keep it SMPL: Automatic estimation of 3D human pose and shape from a single image"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84990053222",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "561",
+                                "@last": "578"
+                            }},
+                            "ref-text": "Amsterdam, The Netherlands, 8\u201316 October Springer: Berlin/Heisenberg, Germany, 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bogo",
+                                    "ce:indexed-name": "Bogo F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanazawa",
+                                    "ce:indexed-name": "Kanazawa A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lassner",
+                                    "ce:indexed-name": "Lassner C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gehler",
+                                    "ce:indexed-name": "Gehler P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romero",
+                                    "ce:indexed-name": "Romero J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Bogo, F.; Kanazawa, A.; Lassner, C.; Gehler, P.; Romero, J.; Black, M.J. Keep it SMPL: Automatic estimation of 3D human pose and shape from a single image. In Proceedings of the European Conference on Computer Vision, Amsterdam, The Netherlands, 8\u201316 October 2016; Springer: Berlin/Heisenberg, Germany, 2016; pp. 561\u2013578."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Pavlakos, G.; Choutas, V.; Ghorbani, N.; Bolkart, T.; Osman, A.A.; Tzionas, D.; Black, M.J. Expressive body capture: 3D hands, face, and body from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019; pp. 10975\u201310985.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Expressive body capture: 3D hands, face, and body from a single image"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074834205",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "10975",
+                                "@last": "10985"
+                            }},
+                            "ref-text": "Long Beach, CA, USA, 15\u201320 June 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pavlakos",
+                                    "ce:indexed-name": "Pavlakos G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choutas",
+                                    "ce:indexed-name": "Choutas V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghorbani",
+                                    "ce:indexed-name": "Ghorbani N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bolkart",
+                                    "ce:indexed-name": "Bolkart T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osman",
+                                    "ce:indexed-name": "Osman A.A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tzionas",
+                                    "ce:indexed-name": "Tzionas D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Pavlakos, G.; Choutas, V.; Ghorbani, N.; Bolkart, T.; Osman, A.A.; Tzionas, D.; Black, M.J. Expressive body capture: 3D hands, face, and body from a single image. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019; pp. 10975\u201310985."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kanazawa, A.; Black, M.J.; Jacobs, D.W.; Malik, J. End-to-end recovery of human shape and pose. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18\u201323 June 2018; pp. 7122\u20137131.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "End-to-end recovery of human shape and pose"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062622120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7122",
+                                "@last": "7131"
+                            }},
+                            "ref-text": "Salt Lake City, UT, USA, 18\u201323 June 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanazawa",
+                                    "ce:indexed-name": "Kanazawa A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jacobs",
+                                    "ce:indexed-name": "Jacobs D.W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malik",
+                                    "ce:indexed-name": "Malik J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Kanazawa, A.; Black, M.J.; Jacobs, D.W.; Malik, J. End-to-end recovery of human shape and pose. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18\u201323 June 2018; pp. 7122\u20137131."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kolotouros, N.; Pavlakos, G.; Black, M.J.; Daniilidis, K. Learning to reconstruct 3D human pose and shape via model-fitting in the loop. In Proceedings of the IEEE/CVF International Conference on Computer Vision, Seoul, Korea, 27\u201328 October 2019; pp. 2252\u20132261.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Learning to reconstruct 3D human pose and shape via model-fitting in the loop"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85081913148",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2252",
+                                "@last": "2261"
+                            }},
+                            "ref-text": "Seoul, Korea, 27\u201328 October 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kolotouros",
+                                    "ce:indexed-name": "Kolotouros N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pavlakos",
+                                    "ce:indexed-name": "Pavlakos G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daniilidis",
+                                    "ce:indexed-name": "Daniilidis K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Kolotouros, N.; Pavlakos, G.; Black, M.J.; Daniilidis, K. Learning to reconstruct 3D human pose and shape via model-fitting in the loop. In Proceedings of the IEEE/CVF International Conference on Computer Vision, Seoul, Korea, 27\u201328 October 2019; pp. 2252\u20132261."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Bahdanau, D.; Cho, K.; Bengio, Y. Neural machine translation by jointly learning to align and translate. arXiv 2014, arXiv:1409.0473.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84922389693",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv arXiv:1409.0473",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bahdanau",
+                                    "ce:indexed-name": "Bahdanau D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural machine translation by jointly learning to align and translate"
+                        },
+                        "ce:source-text": "Bahdanau, D.; Cho, K.; Bengio, Y. Neural machine translation by jointly learning to align and translate. arXiv 2014, arXiv:1409.0473."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A.N.; Kaiser, L.; Polosukhin, I. Attention is all you need. arXiv 2017, arXiv:1706.03762.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85038368581",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv arXiv:1706.03762",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaswani",
+                                    "ce:indexed-name": "Vaswani A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shazeer",
+                                    "ce:indexed-name": "Shazeer N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parmar",
+                                    "ce:indexed-name": "Parmar N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uszkoreit",
+                                    "ce:indexed-name": "Uszkoreit J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jones",
+                                    "ce:indexed-name": "Jones L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomez",
+                                    "ce:indexed-name": "Gomez A.N."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaiser",
+                                    "ce:indexed-name": "Kaiser L."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Polosukhin",
+                                    "ce:indexed-name": "Polosukhin I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Attention is all you need"
+                        },
+                        "ce:source-text": "Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A.N.; Kaiser, L.; Polosukhin, I. Attention is all you need. arXiv 2017, arXiv:1706.03762."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Wang, X.; Girshick, R.; Gupta, A.; He, K. Non-local neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18\u201323 June 2018; pp. 7794\u20137803.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Non-local neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056889287",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7794",
+                                "@last": "7803"
+                            }},
+                            "ref-text": "Salt Lake City, UT, USA, 18\u201323 June 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gupta",
+                                    "ce:indexed-name": "Gupta A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Wang, X.; Girshick, R.; Gupta, A.; He, K. Non-local neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18\u201323 June 2018; pp. 7794\u20137803."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Cao, Y.; Xu, J.; Lin, S.; Wei, F.; Hu, H. Gcnet: Non-local networks meet squeeze-excitation networks and beyond. In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, Seoul, Korea, 27\u201328 October 2019.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Gcnet: Non-local networks meet squeeze-excitation networks and beyond"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85080962910",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Seoul, Korea, 27\u201328 October",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops"
+                        },
+                        "ce:source-text": "Cao, Y.; Xu, J.; Lin, S.; Wei, F.; Hu, H. Gcnet: Non-local networks meet squeeze-excitation networks and beyond. In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, Seoul, Korea, 27\u201328 October 2019."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Woo, S.; Park, J.; Lee, J.Y.; Kweon, I.S. CBAM: Convolutional block attention module. In Proceedings of the European Conference on Computer Vision, Munich, Germany, 8\u201314 September 2018; pp. 3\u201319.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "CBAM: Convolutional block attention module"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055111544",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3",
+                                "@last": "19"
+                            }},
+                            "ref-text": "Munich, Germany, 8\u201314 September 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Woo",
+                                    "ce:indexed-name": "Woo S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kweon",
+                                    "ce:indexed-name": "Kweon I.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Woo, S.; Park, J.; Lee, J.Y.; Kweon, I.S. CBAM: Convolutional block attention module. In Proceedings of the European Conference on Computer Vision, Munich, Germany, 8\u201314 September 2018; pp. 3\u201319."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Zhu, X.; Su, W.; Lu, L.; Li, B.; Wang, X.; Dai, J. Deformable DETR: Deformable transformers for end-to-end object detection. arXiv 2020, arXiv:2010.04159.",
+                        "@id": "16",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098615979",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv 2020, arXiv:2010.04159",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Deformable DETR: Deformable transformers for end-to-end object detection"
+                        },
+                        "ce:source-text": "Zhu, X.; Su, W.; Lu, L.; Li, B.; Wang, X.; Dai, J. Deformable DETR: Deformable transformers for end-to-end object detection. arXiv 2020, arXiv:2010.04159."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Carion, N.; Massa, F.; Synnaeve, G.; Usunier, N.; Kirillov, A.; Zagoruyko, S. End-to-end object detection with transformers. In Proceedings of the European Conference on Computer Vision, Glasgow, UK, 23\u201328 August 2020; Springer: Berlin/Heisenberg, Germany, 2020; pp. 213\u2013229.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "End-to-end object detection with transformers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85097232813",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "213",
+                                "@last": "229"
+                            }},
+                            "ref-text": "Glasgow, UK, 23\u201328 August 2020; Springer: Berlin/Heisenberg, Germany, 2020",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carion",
+                                    "ce:indexed-name": "Carion N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Massa",
+                                    "ce:indexed-name": "Massa F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Synnaeve",
+                                    "ce:indexed-name": "Synnaeve G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Usunier",
+                                    "ce:indexed-name": "Usunier N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kirillov",
+                                    "ce:indexed-name": "Kirillov A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zagoruyko",
+                                    "ce:indexed-name": "Zagoruyko S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Carion, N.; Massa, F.; Synnaeve, G.; Usunier, N.; Kirillov, A.; Zagoruyko, S. End-to-end object detection with transformers. In Proceedings of the European Conference on Computer Vision, Glasgow, UK, 23\u201328 August 2020; Springer: Berlin/Heisenberg, Germany, 2020; pp. 213\u2013229."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Chen, H.; Wang, Y.; Guo, T.; Xu, C.; Deng, Y.; Liu, Z.; Ma, S.; Xu, C.; Xu, C.; Gao, W. Pre-trained image processing transformer. arXiv 2020, arXiv:2012.00364.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100551581",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv arXiv:2012.00364",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng Y."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma S."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu C."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu C."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pre-trained image processing transformer"
+                        },
+                        "ce:source-text": "Chen, H.; Wang, Y.; Guo, T.; Xu, C.; Deng, Y.; Liu, Z.; Ma, S.; Xu, C.; Xu, C.; Gao, W. Pre-trained image processing transformer. arXiv 2020, arXiv:2012.00364."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Chen, M.; Radford, A.; Child, R.; Wu, J.; Jun, H.; Luan, D.; Sutskever, I. Generative pretraining from pixels. In Proceedings of the International Conference on Machine Learning, PMLR, Online, 13\u201318 July 2020; pp. 1691\u20131703.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Generative pretraining from pixels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85069784746",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1691",
+                                "@last": "1703"
+                            }},
+                            "ref-text": "PMLR, Online, 13\u201318 July 2020",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radford",
+                                    "ce:indexed-name": "Radford A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Child",
+                                    "ce:indexed-name": "Child R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jun",
+                                    "ce:indexed-name": "Jun H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luan",
+                                    "ce:indexed-name": "Luan D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Machine Learning"
+                        },
+                        "ce:source-text": "Chen, M.; Radford, A.; Child, R.; Wu, J.; Jun, H.; Luan, D.; Sutskever, I. Generative pretraining from pixels. In Proceedings of the International Conference on Machine Learning, PMLR, Online, 13\u201318 July 2020; pp. 1691\u20131703."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Dosovitskiy, A.; Beyer, L.; Kolesnikov, A.; Weissenborn, D.; Zhai, X.; Unterthiner, T.; Dehghani, M.; Minderer, M.; Heigold, G.; Gelly, S.; et al. An image is worth 16 × 16 words: Transformers for image recognition at scale. arXiv 2020, arXiv:2010.11929.",
+                        "@id": "20",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098842090",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv 2020, arXiv:2010.11929",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Dosovitskiy",
+                                        "ce:indexed-name": "Dosovitskiy A."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Beyer",
+                                        "ce:indexed-name": "Beyer L."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kolesnikov",
+                                        "ce:indexed-name": "Kolesnikov A."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Weissenborn",
+                                        "ce:indexed-name": "Weissenborn D."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "X.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhai",
+                                        "ce:indexed-name": "Zhai X."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Unterthiner",
+                                        "ce:indexed-name": "Unterthiner T."
+                                    },
+                                    {
+                                        "@seq": "7",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Dehghani",
+                                        "ce:indexed-name": "Dehghani M."
+                                    },
+                                    {
+                                        "@seq": "8",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Minderer",
+                                        "ce:indexed-name": "Minderer M."
+                                    },
+                                    {
+                                        "@seq": "9",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Heigold",
+                                        "ce:indexed-name": "Heigold G."
+                                    },
+                                    {
+                                        "@seq": "10",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gelly",
+                                        "ce:indexed-name": "Gelly S."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "An image is worth 16 × 16 words: Transformers for image recognition at scale"
+                        },
+                        "ce:source-text": "Dosovitskiy, A.; Beyer, L.; Kolesnikov, A.; Weissenborn, D.; Zhai, X.; Unterthiner, T.; Dehghani, M.; Minderer, M.; Heigold, G.; Gelly, S.; et al. An image is worth 16 × 16 words: Transformers for image recognition at scale. arXiv 2020, arXiv:2010.11929."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Buades, A.; Coll, B.; Morel, J.M. A non-local algorithm for image denoising. In Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, San Diego, CA, USA, 20\u201325 June 2005; Volume 2, pp. 60\u201365.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "A non-local algorithm for image denoising"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "24644478715",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "60",
+                                    "@last": "65"
+                                }
+                            },
+                            "ref-text": "San Diego, CA, USA, 20\u201325 June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buades",
+                                    "ce:indexed-name": "Buades A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coll",
+                                    "ce:indexed-name": "Coll B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morel",
+                                    "ce:indexed-name": "Morel J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Buades, A.; Coll, B.; Morel, J.M. A non-local algorithm for image denoising. In Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, San Diego, CA, USA, 20\u201325 June 2005; Volume 2, pp. 60\u201365."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Newell, A.; Yang, K.; Deng, J. Stacked hourglass networks for human pose estimation. In Proceedings of the European Conference on Computer Vision, Amsterdam, The Netherlands, 8\u201316 October 2016; Springer: Berlin/Heisenberg, Germany, 2016; pp. 483\u2013499.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Stacked hourglass networks for human pose estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84990052811",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "483",
+                                "@last": "499"
+                            }},
+                            "ref-text": "Amsterdam, The Netherlands, 8\u201316 October Springer: Berlin/Heisenberg, Germany, 2016",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Newell",
+                                    "ce:indexed-name": "Newell A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Newell, A.; Yang, K.; Deng, J. Stacked hourglass networks for human pose estimation. In Proceedings of the European Conference on Computer Vision, Amsterdam, The Netherlands, 8\u201316 October 2016; Springer: Berlin/Heisenberg, Germany, 2016; pp. 483\u2013499."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Chen, Y.; Wang, Z.; Peng, Y.; Zhang, Z.; Yu, G.; Sun, J. Cascaded pyramid network for multi-person pose estimation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18\u201323 June 2018; pp. 7103\u20137112.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Cascaded pyramid network for multi-person pose estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061772116",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7103",
+                                "@last": "7112"
+                            }},
+                            "ref-text": "Salt Lake City, UT, USA, 18\u201323 June 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Chen, Y.; Wang, Z.; Peng, Y.; Zhang, Z.; Yu, G.; Sun, J. Cascaded pyramid network for multi-person pose estimation. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Salt Lake City, UT, USA, 18\u201323 June 2018; pp. 7103\u20137112."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Moon, G.; Chang, J.Y.; Lee, K.M. Posefix: Model-agnostic general human pose refinement network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019; pp. 7773\u20137781.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Posefix: Model-agnostic general human pose refinement network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078724023",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7773",
+                                "@last": "7781"
+                            }},
+                            "ref-text": "Long Beach, CA, USA, 15\u201320 June 2019",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moon",
+                                    "ce:indexed-name": "Moon G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang J.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Moon, G.; Chang, J.Y.; Lee, K.M. Posefix: Model-agnostic general human pose refinement network. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA, 15\u201320 June 2019; pp. 7773\u20137781."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ruggero Ronchi, M.; Perona, P. Benchmarking and error diagnosis in multi-instance pose estimation. In Proceedings of the IEEE International Conference on Computer Vision, Venice, Italy, 22\u201329 October 2017; pp. 369\u2013378.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Benchmarking and error diagnosis in multi-instance pose estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041922423",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "369",
+                                "@last": "378"
+                            }},
+                            "ref-text": "Venice, Italy, 22\u201329 October 2017",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruggero Ronchi",
+                                    "ce:indexed-name": "Ruggero Ronchi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perona",
+                                    "ce:indexed-name": "Perona P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Ruggero Ronchi, M.; Perona, P. Benchmarking and error diagnosis in multi-instance pose estimation. In Proceedings of the IEEE International Conference on Computer Vision, Venice, Italy, 22\u201329 October 2017; pp. 369\u2013378."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Mall, U.; Lal, G.R.; Chaudhuri, S.; Chaudhuri, P. A deep recurrent framework for cleaning motion capture data. arXiv 2017, arXiv:1712.03380.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85060895050",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv arXiv:1712.03380",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mall",
+                                    "ce:indexed-name": "Mall U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lal",
+                                    "ce:indexed-name": "Lal G.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chaudhuri",
+                                    "ce:indexed-name": "Chaudhuri S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chaudhuri",
+                                    "ce:indexed-name": "Chaudhuri P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A deep recurrent framework for cleaning motion capture data"
+                        },
+                        "ce:source-text": "Mall, U.; Lal, G.R.; Chaudhuri, S.; Chaudhuri, P. A deep recurrent framework for cleaning motion capture data. arXiv 2017, arXiv:1712.03380."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ionescu, C.; Papava, D.; Olaru, V.; Sminchisescu, C. Human3. 6m: Large scale datasets and predictive methods for 3D human sensing in natural environments. IEEE Trans. Pattern Anal. Mach. Intell. 2013, 36, 1325\u20131339.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Human3. 6m: Large scale datasets and predictive methods for 3D human sensing in natural environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84903127719",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "36"},
+                                "pagerange": {
+                                    "@first": "1325",
+                                    "@last": "1339"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ionescu",
+                                    "ce:indexed-name": "Ionescu C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papava",
+                                    "ce:indexed-name": "Papava D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olaru",
+                                    "ce:indexed-name": "Olaru V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sminchisescu",
+                                    "ce:indexed-name": "Sminchisescu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        },
+                        "ce:source-text": "Ionescu, C.; Papava, D.; Olaru, V.; Sminchisescu, C. Human3. 6m: Large scale datasets and predictive methods for 3D human sensing in natural environments. IEEE Trans. Pattern Anal. Mach. Intell. 2013, 36, 1325\u20131339."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ba, J.L.; Kiros, J.R.; Hinton, G.E. Layer normalization. arXiv 2016, arXiv:1607.06450.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85015772444",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv arXiv:1607.06450",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kiros",
+                                    "ce:indexed-name": "Kiros J.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Layer normalization"
+                        },
+                        "ce:source-text": "Ba, J.L.; Kiros, J.R.; Hinton, G.E. Layer normalization. arXiv 2016, arXiv:1607.06450."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Ioffe, S.; Szegedy, C. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In Proceedings of the International Conference on Machine Learning, PMLR, Lille, France, 7\u20139 July 2015; pp. 448\u2013456.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Batch normalization: Accelerating deep network training by reducing internal covariate shift"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84969584486",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "448",
+                                "@last": "456"
+                            }},
+                            "ref-text": "PMLR, Lille, France, 7\u20139 July 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ioffe",
+                                    "ce:indexed-name": "Ioffe S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Machine Learning"
+                        },
+                        "ce:source-text": "Ioffe, S.; Szegedy, C. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In Proceedings of the International Conference on Machine Learning, PMLR, Lille, France, 7\u20139 July 2015; pp. 448\u2013456."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "von Marcard, T.; Henschel, R.; Black, M.J.; Rosenhahn, B.; Pons-Moll, G. Recovering accurate 3D human pose in the wild using imus and a moving camera. In Proceedings of the European Conference on Computer Vision, Munich, Germany, 8\u201314 September 2018; pp. 601\u2013617.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Recovering accurate 3D human pose in the wild using imus and a moving camera"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055127163",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "601",
+                                "@last": "617"
+                            }},
+                            "ref-text": "Munich, Germany, 8\u201314 September 2018",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "von Marcard",
+                                    "ce:indexed-name": "von Marcard T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Henschel",
+                                    "ce:indexed-name": "Henschel R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosenhahn",
+                                    "ce:indexed-name": "Rosenhahn B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pons-Moll",
+                                    "ce:indexed-name": "Pons-Moll G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision"
+                        },
+                        "ce:source-text": "von Marcard, T.; Henschel, R.; Black, M.J.; Rosenhahn, B.; Pons-Moll, G. Recovering accurate 3D human pose in the wild using imus and a moving camera. In Proceedings of the European Conference on Computer Vision, Munich, Germany, 8\u201314 September 2018; pp. 601\u2013617."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Gower, J.C. Generalized procrustes analysis. Psychometrika 1975, 40, 33\u201351.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1975"},
+                            "ref-title": {"ref-titletext": "Generalized procrustes analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001886818",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "40"},
+                                "pagerange": {
+                                    "@first": "33",
+                                    "@last": "51"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.C.",
+                                "@_fa": "true",
+                                "ce:surname": "Gower",
+                                "ce:indexed-name": "Gower J.C."
+                            }]},
+                            "ref-sourcetitle": "Psychometrika"
+                        },
+                        "ce:source-text": "Gower, J.C. Generalized procrustes analysis. Psychometrika 1975, 40, 33\u201351."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Kingma, D.P.; Ba, J. Adam: A method for stochastic optimization. arXiv 2014, arXiv:1412.6980.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941620184",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv arXiv:1412.6980",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingma",
+                                    "ce:indexed-name": "Kingma D.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ba",
+                                    "ce:indexed-name": "Ba J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adam: A method for stochastic optimization"
+                        },
+                        "ce:source-text": "Kingma, D.P.; Ba, J. Adam: A method for stochastic optimization. arXiv 2014, arXiv:1412.6980."
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v1.0.181",
+                        "ref-fulltext": "Paszke, A.; Gross, S.; Massa, F.; Lerer, A.; Bradbury, J.; Chanan, G.; Killeen, T.; Lin, Z.; Gimelshein, N.; Antiga, L.; et al. PyTorch: An imperative style, high-performance deep learning library. In Advances in Neural Information Processing Systems 32; Wallach, H., Larochelle, H., Beygelzimer, A., d\u2019 Alché-Buc, F., Fox, E., Garnett, R., Eds.; Curran Associates, Inc.: Red Hook, NY, USA, 2019; pp. 8024\u20138035.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "PyTorch: An imperative style, high-performance deep learning library"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85090176877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "32"},
+                                "pagerange": {
+                                    "@first": "8024",
+                                    "@last": "8035"
+                                }
+                            },
+                            "ref-text": "Wallach, H., Larochelle, H., Beygelzimer, A., d Alché-Buc, F., Fox, E., Garnett, R., Eds.; Curran Associates, Inc.: Red Hook, NY, USA",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Paszke",
+                                        "ce:indexed-name": "Paszke A."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gross",
+                                        "ce:indexed-name": "Gross S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Massa",
+                                        "ce:indexed-name": "Massa F."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lerer",
+                                        "ce:indexed-name": "Lerer A."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bradbury",
+                                        "ce:indexed-name": "Bradbury J."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Chanan",
+                                        "ce:indexed-name": "Chanan G."
+                                    },
+                                    {
+                                        "@seq": "7",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Killeen",
+                                        "ce:indexed-name": "Killeen T."
+                                    },
+                                    {
+                                        "@seq": "8",
+                                        "ce:initials": "Z.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lin",
+                                        "ce:indexed-name": "Lin Z."
+                                    },
+                                    {
+                                        "@seq": "9",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gimelshein",
+                                        "ce:indexed-name": "Gimelshein N."
+                                    },
+                                    {
+                                        "@seq": "10",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Antiga",
+                                        "ce:indexed-name": "Antiga L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Advances in Neural Information Processing Systems"
+                        },
+                        "ce:source-text": "Paszke, A.; Gross, S.; Massa, F.; Lerer, A.; Bradbury, J.; Chanan, G.; Killeen, T.; Lin, Z.; Gimelshein, N.; Antiga, L.; et al. PyTorch: An imperative style, high-performance deep learning library. In Advances in Neural Information Processing Systems 32; Wallach, H., Larochelle, H., Beygelzimer, A., d\u2019 Alché-Buc, F., Fox, E., Garnett, R., Eds.; Curran Associates, Inc.: Red Hook, NY, USA, 2019; pp. 8024\u20138035."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Seoul",
+        "@id": "60013866",
+        "affilname": "Kwangwoon University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013866",
+        "affiliation-country": "South Korea"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85108967789",
+        "dc:description": "Three-dimensional human mesh reconstruction from a single video has made much progress in recent years due to the advances in deep learning. However, previous methods still often reconstruct temporally noisy pose and mesh sequences given in-the-wild video data. To address this problem, we propose a human pose refinement network (HPR-Net) based on a non-local attention mechanism. The pipeline of the proposed framework consists of a weight-regression module, a weighted-averaging module, and a skinned multi-person linear (SMPL) module. First, the weight-regression module creates pose affinity weights from a 3D human pose sequence represented in a unit quaternion form. Next, the weighted-averaging module generates a refined 3D pose sequence by performing temporal weighted averaging using the generated affinity weights. Finally, the refined pose sequence is converted into a human mesh sequence using the SMPL module. HPR-Net is a simple but effective post-processing network that can substantially improve the accuracy and temporal smoothness of 3D human mesh sequences obtained from an input video by existing human mesh reconstruction methods. Our experiments show that the noisy results of the existing methods are consistently improved using the proposed method on various real datasets. Notably, our proposed method reduces the pose and acceleration errors of VIBE, the existing state-of-the-art human mesh reconstruction method, by 1.4% and 66.5%, respectively, on the 3DPW dataset.",
+        "pubmed-id": "34283128",
+        "prism:coverDate": "2021-07-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85108967789",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Do-Yeop",
+            "preferred-name": {
+                "ce:given-name": "Do Yeop",
+                "ce:initials": "D.Y.",
+                "ce:surname": "Kim",
+                "ce:indexed-name": "Kim D.Y."
+            },
+            "@seq": "1",
+            "ce:initials": "D.-Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60013866",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013866"
+            },
+            "ce:surname": "Kim",
+            "@auid": "57225021063",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57225021063",
+            "ce:indexed-name": "Kim D.-Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85108967789"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108967789&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85108967789&origin=inward"
+            }
+        ],
+        "source-id": "130124",
+        "citedby-count": "4",
+        "prism:volume": "21",
+        "subtype": "ar",
+        "dc:title": "Attention-based 3D human pose sequence refinement network",
+        "openaccess": "1",
+        "prism:issn": "14248220",
+        "publishercopyright": "© 2021 by the authors. Licensee MDPI, Basel, Switzerland.",
+        "article-number": "4572",
+        "prism:issueIdentifier": "13",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Sensors",
+        "openaccessFlag": "true",
+        "prism:doi": "10.3390/s21134572",
+        "dc:identifier": "SCOPUS_ID:85108967789",
+        "dc:publisher": "MDPI AG"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attention mechanisms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Input videos",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mesh reconstruction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Post processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real data sets",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State of the art",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unit quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Weighted averaging",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "3D human mesh reconstruction"
+        },
+        {
+            "@_fa": "true",
+            "$": "3D human pose estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Deep neural network"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Analytical Chemistry",
+            "@code": "1602",
+            "@abbrev": "CHEM"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Atomic and Molecular Physics, and Optics",
+            "@code": "3107",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biochemistry",
+            "@code": "1303",
+            "@abbrev": "BIOC"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Do-Yeop",
+            "preferred-name": {
+                "ce:given-name": "Do Yeop",
+                "ce:initials": "D.Y.",
+                "ce:surname": "Kim",
+                "ce:indexed-name": "Kim D.Y."
+            },
+            "@seq": "1",
+            "ce:initials": "D.-Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60013866",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013866"
+            },
+            "ce:surname": "Kim",
+            "@auid": "57225021063",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57225021063",
+            "ce:indexed-name": "Kim D.-Y."
+        },
+        {
+            "ce:given-name": "Ju-Yong",
+            "preferred-name": {
+                "ce:given-name": "Ju Yong",
+                "ce:initials": "J.Y.",
+                "ce:surname": "Chang",
+                "ce:indexed-name": "Chang J.Y."
+            },
+            "@seq": "2",
+            "ce:initials": "J.-Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60013866",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013866"
+            },
+            "ce:surname": "Chang",
+            "@auid": "7601552767",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7601552767",
+            "ce:indexed-name": "Chang J.-Y."
+        }
+    ]}
+}}

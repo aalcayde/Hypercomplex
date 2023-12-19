@@ -1,0 +1,1449 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "13",
+                "@year": "2020",
+                "@timestamp": "2020-02-13T08:33:06.000006-05:00",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "05",
+                "@year": "2018",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                "xocs:funding-agency": "National Natural Science Foundation of China",
+                "xocs:funding-id": "41431179",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-02-02T11:35:00.274377Z",
+            "xocs:funding-text": "The National Natural Science Foundation of China, No. 41431179; the National Key Research and Development Program of China, No.2016YFB0502501; Guangxi Innovative Development Grand,No.GuikeAA18118038.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "300072",
+                            "@afid": "60019533",
+                            "@country": "chn",
+                            "city": "Tianjin",
+                            "organization": [
+                                {"$": "School of Precision Instrument & Opto-Electronics Engineering"},
+                                {"$": "Tianjin University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60019533",
+                                "@dptid": "107123322"
+                            },
+                            "@dptid": "107123322"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Guoqing",
+                                "preferred-name": {
+                                    "ce:given-name": "Guoqing",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou G."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:degrees": "Ph.D. Prof.",
+                                "ce:surname": "Zhou",
+                                "@auid": "55554955100",
+                                "ce:indexed-name": "Zhou G."
+                            },
+                            {
+                                "ce:given-name": "Jingjin",
+                                "preferred-name": {
+                                    "ce:given-name": "Jingjin",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang J."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Huang",
+                                "@auid": "56342836600",
+                                "ce:indexed-name": "Huang J."
+                            },
+                            {
+                                "ce:given-name": "Lei",
+                                "preferred-name": {
+                                    "ce:given-name": "Lei",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Shu",
+                                    "ce:indexed-name": "Shu L."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Shu",
+                                "@auid": "57205602693",
+                                "ce:indexed-name": "Shu L."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "postal-code": "541004",
+                            "@afid": "60006356",
+                            "@country": "chn",
+                            "city": "Guilin",
+                            "organization": [
+                                {"$": "Guangxi Key Laboratory for Spatial Information and Geomatics"},
+                                {"$": "Guilin University of Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60006356",
+                                "@dptid": "114450588"
+                            },
+                            "@dptid": "114450588"
+                        },
+                        "author": [{
+                            "ce:given-name": "Guoqing",
+                            "preferred-name": {
+                                "ce:given-name": "Guoqing",
+                                "ce:initials": "G.",
+                                "ce:surname": "Zhou",
+                                "ce:indexed-name": "Zhou G."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "G.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:degrees": "Ph.D. Prof.",
+                            "ce:surname": "Zhou",
+                            "@auid": "55554955100",
+                            "ce:indexed-name": "Zhou G."
+                        }]
+                    }
+                ],
+                "citation-title": "An FPGA-Based P-H Method On-Board Solution for Satellite Relative Attitude基于FPGA的P-H法星上解算卫星相对姿态",
+                "abstracts": "© 2018, Research and Development Office of Wuhan University. All right reserved. Aimed at the situation that the low-level algorithms were implemented in satellite real time processing system for remote sensing image, this paper proposes an FPGA (field programmable gate array) -based P-H method for satellite relative attitude on-board solution. The proposed algorithm not only avoids computations of trigonometric function and estimation of initial value, but also reduces the number of iterations when comparing with the Eulerian angle-based algorithm. The Xilinx FPGA (V7 xc7vx1140tflg1930-1) is selected as the hardware platform for the real-time processing. In FPGA implementation: ①We adopt a 64-bit floating point data structure and a strategy of combination of serial and parallel processing; ②a lower-upper (LU) decomposition-block algorithm is adopted for matrix inversion. The experimental results indicate that the number of iterations of the proposed algorithm is 13 less than the Eulerian angle-based algorithm. The difference of FPGA and PC implementation is about 5.0×10 -14 and the speedup is about 10, which meets the requirements of precision and speed for on-board image real time processing. The proposed algorithm can be suitable for high real-time image processing field.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "300072",
+                        "@country": "chn",
+                        "city": "Tianjin",
+                        "organization": [
+                            {"$": "School of Precision Instrument & Opto-Electronics Engineering"},
+                            {"$": "Tianjin University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Jingjin",
+                        "ce:initials": "J.",
+                        "ce:surname": "Huang",
+                        "ce:indexed-name": "Huang J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "FPGA",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "LU decomposition-block algorithm",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "P-H method",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Relative attitude",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Unit quaternion",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "Chinese",
+                        "@xml:lang": "chi"
+                    },
+                    "abstract-language": [
+                        {
+                            "@language": "English",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "@language": "Chinese",
+                            "@xml:lang": "chi"
+                        }
+                    ]
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ch.whu.edu.cn/CN/volumn/home.shtml",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Wuhan Daxue Xuebao (Xinxi Kexue Ban)/Geomatics and Information Science of Wuhan University",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "43",
+                            "@issue": "12"
+                        },
+                        "pagerange": {
+                            "@first": "1838",
+                            "@last": "1846"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Wuhan Daxue Xuebao (Xinxi Kexue Ban)/Geomatics and Information Science of Wuhan University",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "5 December 2018"
+                        },
+                        "day": "05"
+                    },
+                    "codencode": "WDXKA",
+                    "sourcetitle-abbrev": "Wuhan Daxue Xuebao Xinxi Kexue Ban",
+                    "@country": "chn",
+                    "issn": {
+                        "$": "16718860",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Wuhan University"},
+                    "@srcid": "27930"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "655.2",
+                                "classification-description": "Satellites"
+                            },
+                            {
+                                "classification-code": "721.1",
+                                "classification-description": "Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)"
+                            },
+                            {
+                                "classification-code": "721.2",
+                                "classification-description": "Logic Elements"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {
+                            "classification-code": "71.8.5.4",
+                            "classification-description": "Remote sensing; numerical and image analysis"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1701"},
+                            {"$": "1904"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "The National Natural Science Foundation of China, No. 41431179; the National Key Research and Development Program of China, No.2016YFB0502501; Guangxi Innovative Development Grand,No.GuikeAA18118038.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "41431179",
+                        "grant-agency": {
+                            "@iso-code": "chn",
+                            "$": "National Natural Science Foundation of China"
+                        },
+                        "grant-agency-id": "501100001809"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "GEO"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "28",
+                    "@year": "2019",
+                    "@timestamp": "BST 09:06:08",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "626469561",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "915840193",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190806543678",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "5581831",
+                            "@idtype": "GEO"
+                        },
+                        {
+                            "$": "20190322367",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20190543455",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85060683410",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85060683410",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.13203/j.whugis20180248"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "20",
+                "reference": [
+                    {
+                        "ref-fulltext": "Zhou Guoqing, Baysal O, Kaye J. Concept Design of Future Intelligent Earth Observing Satellites[J]. International Journal of Remote Sensing, 2004, 25(14): 2667-2685",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Concept Design of Future Intelligent Earth Observing Satellites"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3242668120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "14"
+                                },
+                                "pagerange": {
+                                    "@first": "2667",
+                                    "@last": "2685"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Guoqing",
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baysal",
+                                    "ce:indexed-name": "Baysal O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaye",
+                                    "ce:indexed-name": "Kaye J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li Deren, Shen Xin. On Intelligent Earth Observation Systems[J]. Science of Surveying and Mapping, 2005, 30(4): 9-11 (李德仁, 沈欣. 论智能化对地观测系统[J]. 测绘科学, 2005, 30(4): 9-11)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "On Intelligent Earth Observation Systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51649092891",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "9",
+                                    "@last": "11"
+                                }
+                            },
+                            "ref-text": "(李德仁, 沈欣. 论智能化对地观测系统[J]. 测绘科学, 2005, 30(4): 9-11)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Deren",
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li D."
+                                },
+                                {
+                                    "ce:given-name": "Xin",
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science of Surveying and Mapping"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhang Bing. Intelligent Remote Sensing Satellite System[J]. Journal of Remote Sensing, 2011, 15(3): 415-431 (张兵. 智能遥感卫星系统[J]. 遥感学报, 2011, 15(3): 415-431)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Intelligent Remote Sensing Satellite System"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84873191562",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "415",
+                                    "@last": "431"
+                                }
+                            },
+                            "ref-text": "(张兵. 智能遥感卫星系统[J]. 遥感学报, 2011, 15(3): 415-431)",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Bing",
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang B."
+                            }]},
+                            "ref-sourcetitle": "Journal of Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li Deren, Wang Mi, Shen Xin, et al. From Earth Observation Satellite to Earth Observation Brain[J]. Geomatics and Information Science of Wuhan University, 2017, 42(2): 143-149 (李德仁, 王密, 沈欣, 等. 从对地观测卫星到对地观测脑[J]. 武汉大学学报\u2022信息科学版, 2017, 42(2): 143-149)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "From Earth Observation Satellite to Earth Observation Brain"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018782956",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "143",
+                                    "@last": "149"
+                                }
+                            },
+                            "ref-text": "(李德仁, 王密, 沈欣, 等. 从对地观测卫星到对地观测脑[J]. 武汉大学学报\u2022信息科学版, 2017, 42(2): 143-149)",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Deren",
+                                        "@seq": "1",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li D."
+                                    },
+                                    {
+                                        "ce:given-name": "Mi",
+                                        "@seq": "2",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang M."
+                                    },
+                                    {
+                                        "ce:given-name": "Xin",
+                                        "@seq": "3",
+                                        "ce:initials": "X.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shen",
+                                        "ce:indexed-name": "Shen X."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Geomatics and Information Science of Wuhan University"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li Deren, Gong Jianya, Shao Zhenfeng. From Digi-tal Earth to Smart Earth[J]. Geomatics and Information Science of Wuhan University, 2010, 35(2): 127-132 (李德仁, 龚健雅, 邵振峰. 从数字地球到智慧地球[J]. 武汉大学学报\u2022信息科学版, 2010, 35(2): 127-132)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "From Digi-tal Earth to Smart Earth"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77949907587",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "127",
+                                    "@last": "132"
+                                }
+                            },
+                            "ref-text": "(李德仁, 龚健雅, 邵振峰. 从数字地球到智慧地球[J]. 武汉大学学报\u2022信息科学版, 2010, 35(2): 127-132)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Deren",
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li D."
+                                },
+                                {
+                                    "ce:given-name": "Jianya",
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong J."
+                                },
+                                {
+                                    "ce:given-name": "Zhenfeng",
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geomatics and Information Science of Wuhan University"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Du Liebo, Xiao Xuemin, Lu Qin, et al. An Implementation Scheme for JPEG2000 Satellite-Borne Remote Sensing Image Compression Based on FPGA + Multi-DSPs[J]. Journal of Test and Measurement Technology, 2008, 22(6): 478-482 (杜列波, 肖学敏, 鲁琴, 等. 基于FPGA+多DSP的JPEG2000星载遥感图像压缩实现方案[J]. 测试技术学报, 2008, 22(6): 478-482)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "An Implementation Scheme for JPEG2000 Satellite-Borne Remote Sensing Image Compression Based on FPGA + Multi-DSPs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018820999",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "478",
+                                    "@last": "482"
+                                }
+                            },
+                            "ref-text": "(杜列波, 肖学敏, 鲁琴, 等. 基于FPGA+多DSP的JPEG2000星载遥感图像压缩实现方案[J]. 测试技术学报, 2008, 22(6): 478-482)",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Liebo",
+                                        "@seq": "1",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Du",
+                                        "ce:indexed-name": "Du L."
+                                    },
+                                    {
+                                        "ce:given-name": "Xuemin",
+                                        "@seq": "2",
+                                        "ce:initials": "X.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Xiao",
+                                        "ce:indexed-name": "Xiao X."
+                                    },
+                                    {
+                                        "ce:given-name": "Qin",
+                                        "@seq": "3",
+                                        "ce:initials": "Q.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lu",
+                                        "ce:indexed-name": "Lu Q."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Journal of Test and Measurement Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gong Jianya, Zhong Yanfei. Survey of Intelligent Optical Remote Sensing Image Processing[J]. Journal of Remote Sensing, 2016, 20(5): 733-747 (龚健雅, 钟燕飞. 光学遥感影像智能化处理研究进展[J]. 遥感学报, 2016, 20(5): 733-747)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Survey of Intelligent Optical Remote Sensing Image Processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84992358061",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "733",
+                                    "@last": "747"
+                                }
+                            },
+                            "ref-text": "(龚健雅, 钟燕飞. 光学遥感影像智能化处理研究进展[J]. 遥感学报, 2016, 20(5): 733-747)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jianya",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong J."
+                                },
+                                {
+                                    "ce:given-name": "Yanfei",
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gao Lining, Long Teng. On-Board Spaceborne Real-Time Digital Signal Processing System[C]. Compu-ter Engineering and Applications, Nanjing, China, 2008(高立宁, 龙腾. 基于FPGA的星上实时信息处理系统[C]. 全国信号处理与应用学术会议, 南京, 2008)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "On-Board Spaceborne Real-Time Digital Signal Processing System"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061856028",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(高立宁, 龙腾. 基于FPGA的星上实时信息处理系统[C]. 全国信号处理与应用学术会议, 南京, 2008) Compu-ter Engineering and Applications, Nanjing, China",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Lining",
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao L."
+                                },
+                                {
+                                    "ce:given-name": "Teng",
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Long",
+                                    "ce:indexed-name": "Long T."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "You Zheng, Dai Mi. \"Hangtian Tsinghua_1\" Micro-Satellite and Its Image Processing[J]. Journal of Remote Sensing, 2001, 5(3): 177-182 (尤政, 戴汩. \"航天清华一号\"微小卫星及其图像处理[J]. 遥感学报, 2001, 5(3): 177-182)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "\"Hangtian Tsinghua_1\" Micro-Satellite and Its Image Processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0013051055",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "177",
+                                    "@last": "182"
+                                }
+                            },
+                            "ref-text": "(尤政, 戴汩. \"航天清华一号\"微小卫星及其图像处理[J]. 遥感学报, 2001, 5(3): 177-182)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Zheng",
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "You",
+                                    "ce:indexed-name": "You Z."
+                                },
+                                {
+                                    "ce:given-name": "Mi",
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Williams J A, Dawood A S, Visser S J. FPGA-Based Cloud Detection for Real-Time Onboard Remote Sensing[C]. IEEE International Conference on Field-Programmable Technology, Hong Kong, China, 2002",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "FPGA-Based Cloud Detection for Real-Time Onboard Remote Sensing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84962888041",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Hong Kong, China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams J.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dawood",
+                                    "ce:indexed-name": "Dawood A.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Visser",
+                                    "ce:indexed-name": "Visser S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE International Conference on Field-Programmable Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gao Kun, Liu Yinghui, Ni Guoqiang, et al. Study on On-Board Real-Time Image Processing Technology of Optical Remote Sensing[J]. Spacecraft Recovery & Remote Sensing, 2008, 29(1): 50-54 (高昆, 刘迎辉, 倪国强, 等. 光学遥感图像星上实时处理技术的研究[J]. 航天返回与遥感, 2008, 29(1): 50-54)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Study on On-Board Real-Time Image Processing Technology of Optical Remote Sensing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84870624439",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "50",
+                                    "@last": "54"
+                                }
+                            },
+                            "ref-text": "(高昆, 刘迎辉, 倪国强, 等. 光学遥感图像星上实时处理技术的研究[J]. 航天返回与遥感, 2008, 29(1): 50-54)",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Kun",
+                                        "@seq": "1",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gao",
+                                        "ce:indexed-name": "Gao K."
+                                    },
+                                    {
+                                        "ce:given-name": "Yinghui",
+                                        "@seq": "2",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Liu",
+                                        "ce:indexed-name": "Liu Y."
+                                    },
+                                    {
+                                        "ce:given-name": "Guoqiang",
+                                        "@seq": "3",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ni",
+                                        "ce:indexed-name": "Ni G."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Spacecraft Recovery & Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Huang Jingjin, Zhou Guoqing. On-Board Detection and Matching of Feature Points[J]. Remote Sen-sing, 2017, 9: 601",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "On-Board Detection and Matching of Feature Points"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85021081416",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {"@first": "601"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jingjin",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang J."
+                                },
+                                {
+                                    "ce:given-name": "Guoqing",
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Remote Sen-sing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Huang Jingjin, Zhou Guoqing, Zhang Dianjun, et al. An FPGA-Based Implementation of Corner Detection and Matching with Outlier Rejection[J]. International Journal of Remote Sensing, 2018, doi:10.1080101431161.2018.1500728",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "An FPGA-Based Implementation of Corner Detection and Matching with Outlier Rejection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85052099463",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "10.1080101431161.2018.1500728",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Jingjin",
+                                        "@seq": "1",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Huang",
+                                        "ce:indexed-name": "Huang J."
+                                    },
+                                    {
+                                        "ce:given-name": "Guoqing",
+                                        "@seq": "2",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhou",
+                                        "ce:indexed-name": "Zhou G."
+                                    },
+                                    {
+                                        "ce:given-name": "Dianjun",
+                                        "@seq": "3",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhang",
+                                        "ce:indexed-name": "Zhang D."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "International Journal of Remote Sensing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhou Guoqing, Jiang Linjun, Huang Jingjin, et al. FPGA-Based On-Board Geometric Calibration for Linear CCD Array Sensors[J]. Sensors, 2018, 18(6): 1794",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "FPGA-Based On-Board Geometric Calibration for Linear CCD Array Sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048047841",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {"@first": "1794"}
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Guoqing",
+                                        "@seq": "1",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhou",
+                                        "ce:indexed-name": "Zhou G."
+                                    },
+                                    {
+                                        "ce:given-name": "Linjun",
+                                        "@seq": "2",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Jiang",
+                                        "ce:indexed-name": "Jiang L."
+                                    },
+                                    {
+                                        "ce:given-name": "Jingjin",
+                                        "@seq": "3",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Huang",
+                                        "ce:indexed-name": "Huang J."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yan Li, Nie Qian, Zhao Zhan. Space Resection of Line Scanner CCD Image Based on the Description of Quaternions[J]. Geomatics and Information Science of Wuhan University, 2010, 35(2): 201-204 (闫利, 聂倩, 赵展. 利用四元数描述线阵CCD影像的空间后方交会[J]. 武汉大学学报\u2022信息科学版, 2010, 35(2): 201-204)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Space Resection of Line Scanner CCD Image Based on the Description of Quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77950178088",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "201",
+                                    "@last": "204"
+                                }
+                            },
+                            "ref-text": "(闫利, 聂倩, 赵展. 利用四元数描述线阵CCD影像的空间后方交会[J]. 武汉大学学报\u2022信息科学版, 2010, 35(2): 201-204)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Li",
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan L."
+                                },
+                                {
+                                    "ce:given-name": "Qian",
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nie",
+                                    "ce:indexed-name": "Nie Q."
+                                },
+                                {
+                                    "ce:given-name": "Zhan",
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geomatics and Information Science of Wuhan University"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhou Yongjun, Deng Caihua. A New Method for Relative Orientation with Hybrid Genetic Algorithm and Unit Quaternion[J]. Geomatics and Information Science of Wuhan University, 2011, 36(6): 670-673 (周拥军, 邓才华. 利用HGA和单位四元数的相对定向解法[J]. 武汉大学学报\u2022信息科学版, 2011, 36(6): 670-673)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "A New Method for Relative Orientation with Hybrid Genetic Algorithm and Unit Quaternion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959805735",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "670",
+                                    "@last": "673"
+                                }
+                            },
+                            "ref-text": "(周拥军, 邓才华. 利用HGA和单位四元数的相对定向解法[J]. 武汉大学学报\u2022信息科学版, 2011, 36(6): 670-673)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Yongjun",
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "ce:given-name": "Caihua",
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geomatics and Information Science of Wuhan University"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ben Jin, Tong Xiaochong, Lv Haiqing. Space Resection Based on the Pope-Hinsken Algorithm[J]. Journal of Geomatics Science and Technology, 2011, 28(1): 37-41 (贲进, 童晓冲, 闾海庆. 基于Pope-Hinsken算法的空间后方交会[J]. 测绘科学技术学报, 2011, 28(1): 37-41)",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Space Resection Based on the Pope-Hinsken Algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84930061173",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "37",
+                                    "@last": "41"
+                                }
+                            },
+                            "ref-text": "(贲进, 童晓冲, 闾海庆. 基于Pope-Hinsken算法的空间后方交会[J]. 测绘科学技术学报, 2011, 28(1): 37-41)",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jin",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ben",
+                                    "ce:indexed-name": "Ben J."
+                                },
+                                {
+                                    "ce:given-name": "Xiaochong",
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tong",
+                                    "ce:indexed-name": "Tong X."
+                                },
+                                {
+                                    "ce:given-name": "Haiqing",
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lv",
+                                    "ce:indexed-name": "Lv H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Geomatics Science and Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jiang Gangwu, Jiang Ting, Wang Yong, et al. Space Resection Independent of Initial Value Based on Unit Quaternions[J]. Acta Geodaetica et Cartographica Sinica, 2007, 36(2): 169-175 (江刚武, 姜挺, 王勇, 等. 基于单位四元数的无初值依赖空间后方交会[J]. 测绘学报, 2007, 36(2): 169-175)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Space Resection Independent of Initial Value Based on Unit Quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34250308905",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "169",
+                                    "@last": "175"
+                                }
+                            },
+                            "ref-text": "(江刚武, 姜挺, 王勇, 等. 基于单位四元数的无初值依赖空间后方交会[J]. 测绘学报, 2007, 36(2): 169-175)",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Gangwu",
+                                        "@seq": "1",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Jiang",
+                                        "ce:indexed-name": "Jiang G."
+                                    },
+                                    {
+                                        "ce:given-name": "Ting",
+                                        "@seq": "2",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Jiang",
+                                        "ce:indexed-name": "Jiang T."
+                                    },
+                                    {
+                                        "ce:given-name": "Yong",
+                                        "@seq": "3",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang Y."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Acta Geodaetica et Cartographica Sinica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang Zhizhuo. Photogrammetry Principle[M]. Wuhan: Wuhan University Press, 2007(王之卓. 摄影测量原理[M]. 武汉: 武汉大学出版社, 2007)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893084653",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(王之卓. 摄影测量原理[M]. 武汉: 武汉大学出版社, 2007)Wuhan: Wuhan University Press",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Zhizhuo",
+                                "@seq": "1",
+                                "ce:initials": "Z.",
+                                "@_fa": "true",
+                                "ce:surname": "Wang",
+                                "ce:indexed-name": "Wang Z."
+                            }]},
+                            "ref-sourcetitle": "Photogrammetry Principle"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wu Guiming. Parallel Algorithms and Architectures for Matrix Computations on FPGA[D]. Changsha: National University of Defense Technology, 2011 (邬贵明. FPGA矩阵计算并行算法与结构[D]. 长沙: 国防科学技术大学, 2011)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Parallel Algorithms and Architectures for Matrix Computations on FPGA"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061859995",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(邬贵明. FPGA矩阵计算并行算法与结构[D]. 长沙: 国防科学技术大学, 2011)Changsha: National University of Defense Technology",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Guiming",
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Wu",
+                                "ce:indexed-name": "Wu G."
+                            }]}
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Tianjin",
+            "@id": "60019533",
+            "affilname": "Tianjin University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Guilin",
+            "@id": "60006356",
+            "affilname": "Guilin University of Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60006356",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85060683410",
+        "dc:description": "Aimed at the situation that the low-level algorithms were implemented in satellite real time processing system for remote sensing image, this paper proposes an FPGA (field programmable gate array) -based P-H method for satellite relative attitude on-board solution. The proposed algorithm not only avoids computations of trigonometric function and estimation of initial value, but also reduces the number of iterations when comparing with the Eulerian angle-based algorithm. The Xilinx FPGA (V7 xc7vx1140tflg1930-1) is selected as the hardware platform for the real-time processing. In FPGA implementation: ①We adopt a 64-bit floating point data structure and a strategy of combination of serial and parallel processing; ②a lower-upper (LU) decomposition-block algorithm is adopted for matrix inversion. The experimental results indicate that the number of iterations of the proposed algorithm is 13 less than the Eulerian angle-based algorithm. The difference of FPGA and PC implementation is about 5.0×10 -14 and the speedup is about 10, which meets the requirements of precision and speed for on-board image real time processing. The proposed algorithm can be suitable for high real-time image processing field.",
+        "prism:coverDate": "2018-12-05",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85060683410",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Guoqing",
+            "preferred-name": {
+                "ce:given-name": "Guoqing",
+                "ce:initials": "G.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019533",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+                },
+                {
+                    "@id": "60006356",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60006356"
+                }
+            ],
+            "ce:degrees": "Ph.D. Prof.",
+            "ce:surname": "Zhou",
+            "@auid": "55554955100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55554955100",
+            "ce:indexed-name": "Zhou G."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85060683410"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85060683410&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85060683410&origin=inward"
+            }
+        ],
+        "source-id": "27930",
+        "citedby-count": "3",
+        "prism:volume": "43",
+        "subtype": "ar",
+        "dc:title": "An FPGA-Based P-H Method On-Board Solution for Satellite Relative Attitude 基于FPGA的P-H法星上解算卫星相对姿态",
+        "openaccess": null,
+        "prism:issn": "16718860",
+        "publishercopyright": "© 2018, Research and Development Office of Wuhan University. All right reserved.",
+        "prism:issueIdentifier": "12",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Wuhan Daxue Xuebao (Xinxi Kexue Ban)/Geomatics and Information Science of Wuhan University",
+        "prism:pageRange": "1838-1846",
+        "prism:endingPage": "1846",
+        "openaccessFlag": null,
+        "prism:doi": "10.13203/j.whugis20180248",
+        "prism:startingPage": "1838",
+        "dc:identifier": "SCOPUS_ID:85060683410",
+        "dc:publisher": "Wuhan University"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Block algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "FPGA implementations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fpga(field programmable gate array)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real-time image processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Relative attitude",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Remote sensing images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Trigonometric functions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unit quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "chi"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "FPGA"
+        },
+        {
+            "@_fa": "true",
+            "$": "LU decomposition-block algorithm"
+        },
+        {
+            "@_fa": "true",
+            "$": "P-H method"
+        },
+        {
+            "@_fa": "true",
+            "$": "Relative attitude"
+        },
+        {
+            "@_fa": "true",
+            "$": "Unit quaternion"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (miscellaneous)",
+            "@code": "1701",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Earth-Surface Processes",
+            "@code": "1904",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Guoqing",
+            "preferred-name": {
+                "ce:given-name": "Guoqing",
+                "ce:initials": "G.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019533",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+                },
+                {
+                    "@id": "60006356",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60006356"
+                }
+            ],
+            "ce:degrees": "Ph.D. Prof.",
+            "ce:surname": "Zhou",
+            "@auid": "55554955100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55554955100",
+            "ce:indexed-name": "Zhou G."
+        },
+        {
+            "ce:given-name": "Jingjin",
+            "preferred-name": {
+                "ce:given-name": "Jingjin",
+                "ce:initials": "J.",
+                "ce:surname": "Huang",
+                "ce:indexed-name": "Huang J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019533",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            "ce:surname": "Huang",
+            "@auid": "56342836600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56342836600",
+            "ce:indexed-name": "Huang J."
+        },
+        {
+            "ce:given-name": "Lei",
+            "preferred-name": {
+                "ce:given-name": "Lei",
+                "ce:initials": "L.",
+                "ce:surname": "Shu",
+                "ce:indexed-name": "Shu L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019533",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019533"
+            },
+            "ce:surname": "Shu",
+            "@auid": "57205602693",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57205602693",
+            "ce:indexed-name": "Shu L."
+        }
+    ]}
+}}

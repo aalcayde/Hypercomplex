@@ -1,0 +1,2063 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@year": "2021",
+                "@timestamp": "2021-07-20T07:37:34.000034-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "08"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Key research project of Jiangxi Province",
+                    "xocs:funding-id": "20171BBE50013"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Outstanding Youth Scheme of Jiangxi Province",
+                    "xocs:funding-id": "20171BCB23057"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                    "xocs:funding-agency-acronym": "NSFC",
+                    "xocs:funding-agency": "National Natural Science Foundation of China",
+                    "xocs:funding-id": [
+                        {"$": "61563037"},
+                        {"$": "61866027"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Jiangxi Science Fund for Distinguished Young Scholars",
+                    "xocs:funding-agency": "National Science Fund for Distinguished Young Scholars",
+                    "xocs:funding-id": "20192ACB21032",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100014219",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-29T02:17:44.573Z",
+            "xocs:funding-text": "This work is partially supported by National Natural Science Foundation of China under Grant 61563037, 61866027; The Jiangxi Science Fund for Distinguished Young Scholars under Grant 20192ACB21032; Outstanding Youth Scheme of Jiangxi Province under Grant 20171BCB23057; Key research project of Jiangxi Province under Grant 20171BBE50013.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "330063",
+                        "@afid": "60083519",
+                        "@country": "chn",
+                        "city": "Nanchang",
+                        "organization": [
+                            {"$": "School of Information Engineering"},
+                            {"$": "Nanchang Hangkong University"}
+                        ],
+                        "affiliation-id": {"@afid": "60083519"},
+                        "@affiliation-instance-id": "2004131070-aa50f71f8b7b50e9ff428712554a8ac0",
+                        "ce:source-text": "School of Information Engineering, Nanchang Hangkong University, Nanchang, 330063, China"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Shan",
+                            "preferred-name": {
+                                "ce:given-name": "Shan",
+                                "ce:initials": "S.",
+                                "ce:surname": "Gai",
+                                "ce:indexed-name": "Gai S."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "2004131070-26c4fd52baec0adbf17c5a3fe6d1b829",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Gai",
+                            "@auid": "35748407200",
+                            "@orcid": "0000-0001-6139-1410",
+                            "ce:indexed-name": "Gai S."
+                        },
+                        {
+                            "ce:given-name": "Xiaolin",
+                            "preferred-name": {
+                                "ce:given-name": "Xiaolin",
+                                "ce:initials": "X.",
+                                "ce:surname": "Xu",
+                                "ce:indexed-name": "Xu X."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "2004131070-8d65c4562ca6f4cf42fd9822d5734fb9",
+                            "ce:initials": "X.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Xu",
+                            "@auid": "57214143457",
+                            "ce:indexed-name": "Xu X."
+                        },
+                        {
+                            "ce:given-name": "Bangshu",
+                            "preferred-name": {
+                                "ce:given-name": "Bangshu",
+                                "ce:initials": "B.",
+                                "ce:surname": "Xiong",
+                                "ce:indexed-name": "Xiong B."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "2004131070-241f83f7f72e57de9ce28fbcaa0837a5",
+                            "ce:initials": "B.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Xiong",
+                            "@auid": "22735929700",
+                            "ce:indexed-name": "Xiong B."
+                        }
+                    ]
+                },
+                "citation-title": "Paper currency defect detection algorithm using quaternion uniform strength",
+                "abstracts": "© 2020, Springer-Verlag London Ltd., part of Springer Nature.In this paper, we propose a novel paper currency defect detection algorithm using quaternion uniform strength. We first build paper currency image preprocessing integration framework which includes intensity balancing, paper currency location, and geometric correction. We then propose a global\u2013local paper currency image registration algorithm by moving key areas within certain range which can eliminate the false difference effectively. Finally, the quaternion uniform strength is calculated by using quaternion convolution edge detector. The defect degree of paper currency is determined by using the quaternion uniform color difference. The proposed algorithm is tested using different datasets from five countries: CNY, USD, EUR, VND, and RUB. The experimental results demonstrate that the proposed algorithm yields better results than the existing state-of-the-art paper currency defect detection techniques. The demo of the proposed paper currency defect detection algorithm will be publicly available.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "330063",
+                        "@country": "chn",
+                        "city": "Nanchang",
+                        "organization": [
+                            {"$": "School of Information Engineering"},
+                            {"$": "Nanchang Hangkong University"}
+                        ],
+                        "ce:source-text": "School of Information Engineering, Nanchang Hangkong University, Nanchang, 330063, China"
+                    },
+                    "person": {
+                        "ce:given-name": "Shan",
+                        "ce:initials": "S.",
+                        "ce:surname": "Gai",
+                        "ce:indexed-name": "Gai S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Defect detection",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Paper currency image registration",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Quaternion convolution",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Quaternion uniform strength",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Neural Comput. Appl.",
+                    "website": {"ce:e-address": {
+                        "$": "http://link.springer.com/journal/521",
+                        "@type": "email"
+                    }},
+                    "@country": "gbr",
+                    "translated-sourcetitle": {
+                        "$": "Neural Computing and Applications",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "14333058",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "09410643",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "32",
+                            "@issue": "16"
+                        },
+                        "pagerange": {
+                            "@first": "12999",
+                            "@last": "13016"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {"publishername": "Springer"},
+                    "sourcetitle": "Neural Computing and Applications",
+                    "@srcid": "24800",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2020",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 August 2020"
+                        },
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "941.4",
+                                "classification-description": "Optical Variables Measurements"
+                            },
+                            {
+                                "classification-code": "951",
+                                "classification-description": "Materials Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work is partially supported by National Natural Science Foundation of China under Grant 61563037, 61866027; The Jiangxi Science Fund for Distinguished Young Scholars under Grant 20192ACB21032; Outstanding Youth Scheme of Jiangxi Province under Grant 20171BCB23057; Key research project of Jiangxi Province under Grant 20171BBE50013.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-id": "61563037",
+                            "grant-acronym": "NSFC;NNSF;NNSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        },
+                        {
+                            "grant-id": "61866027",
+                            "grant-acronym": "NSFC;NNSF;NNSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "30",
+                    "@year": "2020",
+                    "@timestamp": "BST 03:56:25",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2004131070",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "923627670",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20200508093999",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20200305232",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20190019649928",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85078343881",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85078343881",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/s00521-020-04745-6"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "29",
+                "reference": [
+                    {
+                        "ref-fulltext": "Jin Y, Song L, Tang XL, Du M (2008) A hierarchical approach for paper currency image processing using homogeneity and FFD model. IEEE Signal Proc Lett 15(6):425\u2013428",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "A hierarchical approach for paper currency image processing using homogeneity and FFD model"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "67650134584",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "425",
+                                    "@last": "428"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Signal Proc Lett"
+                        },
+                        "ce:source-text": "Jin Y, Song L, Tang XL, Du M (2008) A hierarchical approach for paper currency image processing using homogeneity and FFD model. IEEE Signal Proc Lett 15(6):425\u2013428"
+                    },
+                    {
+                        "ref-fulltext": "Dirk L, Pieter S, Frederik M, Dirk V, Paul S (2010) Nonrigid image registration using conditional mutual information. IEEE Trans Med Imaging 29(1):19\u201329",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Nonrigid image registration using conditional mutual information"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "73849110555",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "19",
+                                    "@last": "29"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dirk",
+                                    "ce:indexed-name": "Dirk L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pieter",
+                                    "ce:indexed-name": "Pieter S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frederik",
+                                    "ce:indexed-name": "Frederik M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dirk",
+                                    "ce:indexed-name": "Dirk V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paul",
+                                    "ce:indexed-name": "Paul S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Med Imaging"
+                        },
+                        "ce:source-text": "Dirk L, Pieter S, Frederik M, Dirk V, Paul S (2010) Nonrigid image registration using conditional mutual information. IEEE Trans Med Imaging 29(1):19\u201329"
+                    },
+                    {
+                        "ref-fulltext": "Huang XL, Paragios N, Metaxas DN (2006) Shape registration in implicit spaces using information theory and free form deformations. IEEE Trans Pattern Anal Mach Intell 28(8):1303\u20131318",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Shape registration in implicit spaces using information theory and free form deformations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33748170722",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1303",
+                                    "@last": "1318"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang X.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paragios",
+                                    "ce:indexed-name": "Paragios N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Metaxas",
+                                    "ce:indexed-name": "Metaxas D.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Pattern Anal Mach Intell"
+                        },
+                        "ce:source-text": "Huang XL, Paragios N, Metaxas DN (2006) Shape registration in implicit spaces using information theory and free form deformations. IEEE Trans Pattern Anal Mach Intell 28(8):1303\u20131318"
+                    },
+                    {
+                        "ref-fulltext": "Jin Y, Liu SB, Liu JF, Song L, Tang XL (2007) An edge-based defect detection algorithm for paper currency. J Comput Res Dev 44(2):258\u2013264",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "An edge-based defect detection algorithm for paper currency"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "34147200890",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "44",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "258",
+                                    "@last": "264"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu S.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J.F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Comput Res Dev"
+                        },
+                        "ce:source-text": "Jin Y, Liu SB, Liu JF, Song L, Tang XL (2007) An edge-based defect detection algorithm for paper currency. J Comput Res Dev 44(2):258\u2013264"
+                    },
+                    {
+                        "ref-fulltext": "Liu SG, Cai QP (2019) Shape-optimizing and illumination-smoothing image stitching. IEEE Trans Multimed 21(3):690\u2013703",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Shape-optimizing and illumination-smoothing image stitching"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85051391989",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "690",
+                                    "@last": "703"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu S.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai Q.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Multimed"
+                        },
+                        "ce:source-text": "Liu SG, Cai QP (2019) Shape-optimizing and illumination-smoothing image stitching. IEEE Trans Multimed 21(3):690\u2013703"
+                    },
+                    {
+                        "ref-fulltext": "Lou ZY, Theo G (2014) Image alignment by piecewise planar region matching. IEEE Trans Multimedia 16(7):2052\u20132061",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Image alignment by piecewise planar region matching"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84908131699",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "2052",
+                                    "@last": "2061"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lou",
+                                    "ce:indexed-name": "Lou Z.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Theo",
+                                    "ce:indexed-name": "Theo G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Multimedia"
+                        },
+                        "ce:source-text": "Lou ZY, Theo G (2014) Image alignment by piecewise planar region matching. IEEE Trans Multimedia 16(7):2052\u20132061"
+                    },
+                    {
+                        "ref-fulltext": "Takeda F, Omatu S (1995) High speed paper currency recognition by neural networks. IEEE Trans Nerual Netw 6(1):73\u201377",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "High speed paper currency recognition by neural networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0029203541",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "73",
+                                    "@last": "77"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takeda",
+                                    "ce:indexed-name": "Takeda F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Omatu",
+                                    "ce:indexed-name": "Omatu S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Nerual Netw"
+                        },
+                        "ce:source-text": "Takeda F, Omatu S (1995) High speed paper currency recognition by neural networks. IEEE Trans Nerual Netw 6(1):73\u201377"
+                    },
+                    {
+                        "ref-fulltext": "Frosini A, Gori M, Priami P (1996) A neural network-based model for paper currency recognition and verification. IEEE Trans Nerual Netw 7(6):1482\u20131490",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "A neural network-based model for paper currency recognition and verification"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0010570099",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1482",
+                                    "@last": "1490"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frosini",
+                                    "ce:indexed-name": "Frosini A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gori",
+                                    "ce:indexed-name": "Gori M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Priami",
+                                    "ce:indexed-name": "Priami P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Nerual Netw"
+                        },
+                        "ce:source-text": "Frosini A, Gori M, Priami P (1996) A neural network-based model for paper currency recognition and verification. IEEE Trans Nerual Netw 7(6):1482\u20131490"
+                    },
+                    {
+                        "ref-fulltext": "Takeda F, Nishikage T, Omatu S (1999) Paper currency recognition by means of optimized masks, neural networks and genetic algorithms. Eng Appl Artif Intell 12(8):175\u2013184",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Paper currency recognition by means of optimized masks, neural networks and genetic algorithms"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0033300605",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "175",
+                                    "@last": "184"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takeda",
+                                    "ce:indexed-name": "Takeda F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nishikage",
+                                    "ce:indexed-name": "Nishikage T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Omatu",
+                                    "ce:indexed-name": "Omatu S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eng Appl Artif Intell"
+                        },
+                        "ce:source-text": "Takeda F, Nishikage T, Omatu S (1999) Paper currency recognition by means of optimized masks, neural networks and genetic algorithms. Eng Appl Artif Intell 12(8):175\u2013184"
+                    },
+                    {
+                        "ref-fulltext": "Sharma B, Vipan AK (2012) Recognition of Indian paper currency based on LBP. Int J Comput Appl 59(1):24\u201327",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Recognition of Indian paper currency based on LBP"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84940663991",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "24",
+                                    "@last": "27"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vipan",
+                                    "ce:indexed-name": "Vipan A.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int J Comput Appl"
+                        },
+                        "ce:source-text": "Sharma B, Vipan AK (2012) Recognition of Indian paper currency based on LBP. Int J Comput Appl 59(1):24\u201327"
+                    },
+                    {
+                        "ref-fulltext": "Garcia-Lamont F, Cevantes J, Lopez A (2012) Recognition of Mexican paper currencys via their color and texture features. Expert Syst Appl 30(10):9651\u20139660",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Recognition of Mexican paper currencys via their color and texture features"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84859218608",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "9651",
+                                    "@last": "9660"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia-Lamont",
+                                    "ce:indexed-name": "Garcia-Lamont F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cevantes",
+                                    "ce:indexed-name": "Cevantes J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lopez",
+                                    "ce:indexed-name": "Lopez A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst Appl"
+                        },
+                        "ce:source-text": "Garcia-Lamont F, Cevantes J, Lopez A (2012) Recognition of Mexican paper currencys via their color and texture features. Expert Syst Appl 30(10):9651\u20139660"
+                    },
+                    {
+                        "ref-fulltext": "Guo JF, Zhao YY, Cai A (2010) A reliable method for paper currency recognition based on LBP. In: Proceedings of the IEEE international conference on network infrastructure and digital content, Beijing, China, 2010, pp 24\u201326",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A reliable method for paper currency recognition based on LBP"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78651307361",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2010"},
+                                "pagerange": {
+                                    "@first": "24",
+                                    "@last": "26"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo J.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Y.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Network Infrastructure and Digital Content, Beijing, China"
+                        },
+                        "ce:source-text": "Guo JF, Zhao YY, Cai A (2010) A reliable method for paper currency recognition based on LBP. In: Proceedings of the IEEE international conference on network infrastructure and digital content, Beijing, China, 2010, pp 24\u201326"
+                    },
+                    {
+                        "ref-fulltext": "Takeda F, Omatu S, Onami S (1993) Recognition system of US dollars using a neural network with random masks. In: Proceedings of the IEEE international conference on neural networks, Nagoya, Japan, 1993, pp 25\u201329",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Recognition system of US dollars using a neural network with random masks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85088606581",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1993"},
+                                "pagerange": {
+                                    "@first": "25",
+                                    "@last": "29"
+                                }
+                            },
+                            "ref-text": "Nagoya, Japan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takeda",
+                                    "ce:indexed-name": "Takeda F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Omatu",
+                                    "ce:indexed-name": "Omatu S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Onami",
+                                    "ce:indexed-name": "Onami S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Neural Networks"
+                        },
+                        "ce:source-text": "Takeda F, Omatu S, Onami S (1993) Recognition system of US dollars using a neural network with random masks. In: Proceedings of the IEEE international conference on neural networks, Nagoya, Japan, 1993, pp 25\u201329"
+                    },
+                    {
+                        "ref-fulltext": "Takeda F, Nishikage T (2000) Multiple kinds of paper currency recognition using neural network and application for Euro currency. In: Proceedings of IEEE international conference on neural networks, Como, Italy, 2000, pp 143\u2013147",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Multiple kinds of paper currency recognition using neural network and application for Euro currency"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0033713952",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2000"},
+                                "pagerange": {
+                                    "@first": "143",
+                                    "@last": "147"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takeda",
+                                    "ce:indexed-name": "Takeda F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nishikage",
+                                    "ce:indexed-name": "Nishikage T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Neural Networks, Como, Italy"
+                        },
+                        "ce:source-text": "Takeda F, Nishikage T (2000) Multiple kinds of paper currency recognition using neural network and application for Euro currency. In: Proceedings of IEEE international conference on neural networks, Como, Italy, 2000, pp 143\u2013147"
+                    },
+                    {
+                        "ref-fulltext": "Song D, Tao D (2010) Biologically inspired feature manifold for scene classification. IEEE Trans Image Process 19(1):174\u2013184",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Biologically inspired feature manifold for scene classification"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "72949123287",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "174",
+                                    "@last": "184"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Image Process"
+                        },
+                        "ce:source-text": "Song D, Tao D (2010) Biologically inspired feature manifold for scene classification. IEEE Trans Image Process 19(1):174\u2013184"
+                    },
+                    {
+                        "ref-fulltext": "Liu JF, Liu SB, Tang XL (2003) An algorithm of real-time paper currency recognition. J Comput Res Dev 40(7):1057\u20131061",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "An algorithm of real-time paper currency recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "21944435578",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1057",
+                                    "@last": "1061"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu S.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Comput Res Dev"
+                        },
+                        "ce:source-text": "Liu JF, Liu SB, Tang XL (2003) An algorithm of real-time paper currency recognition. J Comput Res Dev 40(7):1057\u20131061"
+                    },
+                    {
+                        "ref-fulltext": "Youn S, Choi E, Baek Y, Lee C (2015) Efficient multi-currency classification of CIS paper currencys. Neurocomputing 156(25):22\u201332",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Efficient multi-currency classification of CIS paper currencys"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84923573721",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "156",
+                                    "@issue": "25"
+                                },
+                                "pagerange": {
+                                    "@first": "22",
+                                    "@last": "32"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Youn",
+                                    "ce:indexed-name": "Youn S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baek",
+                                    "ce:indexed-name": "Baek Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "Youn S, Choi E, Baek Y, Lee C (2015) Efficient multi-currency classification of CIS paper currencys. Neurocomputing 156(25):22\u201332"
+                    },
+                    {
+                        "ref-fulltext": "Ionescu M, Ralescu A (2005) Fuzzy hamming distance based paper currency validator. In: Proceedings of IEEE international conference on fuzzy systems, Reno, NV, USA, 2005, pp 300\u2013305",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Fuzzy hamming distance based paper currency validator"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "23944524376",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2005"},
+                                "pagerange": {
+                                    "@first": "300",
+                                    "@last": "305"
+                                }
+                            },
+                            "ref-text": "Reno, NV, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ionescu",
+                                    "ce:indexed-name": "Ionescu M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ralescu",
+                                    "ce:indexed-name": "Ralescu A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Fuzzy Systems"
+                        },
+                        "ce:source-text": "Ionescu M, Ralescu A (2005) Fuzzy hamming distance based paper currency validator. In: Proceedings of IEEE international conference on fuzzy systems, Reno, NV, USA, 2005, pp 300\u2013305"
+                    },
+                    {
+                        "ref-fulltext": "Pham TD, Kim KW, Kang JS, Park KR (2017) Banknote recognition based on optimization of discriminative regions by genetic algorithm with one-dimensional visible-light line sensor. Pattern Recogn 72(1):27\u201343",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Banknote recognition based on optimization of discriminative regions by genetic algorithm with one-dimensional visible-light line sensor"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85027514445",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "72",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "27",
+                                    "@last": "43"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham T.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim K.W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang J.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park K.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recogn"
+                        },
+                        "ce:source-text": "Pham TD, Kim KW, Kang JS, Park KR (2017) Banknote recognition based on optimization of discriminative regions by genetic algorithm with one-dimensional visible-light line sensor. Pattern Recogn 72(1):27\u201343"
+                    },
+                    {
+                        "ref-fulltext": "Baek S, Choi E, Baek Y, Lee C (2018) Detection of counterfeit banknotes using multispectral images. Digit Signal Proc 78(1):294\u2013304",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Detection of counterfeit banknotes using multispectral images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85044918160",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "78",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "294",
+                                    "@last": "304"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baek",
+                                    "ce:indexed-name": "Baek S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baek",
+                                    "ce:indexed-name": "Baek Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Digit Signal Proc"
+                        },
+                        "ce:source-text": "Baek S, Choi E, Baek Y, Lee C (2018) Detection of counterfeit banknotes using multispectral images. Digit Signal Proc 78(1):294\u2013304"
+                    },
+                    {
+                        "ref-fulltext": "Youn S, Choi E, Baek Y, Lee C (2015) Efficient multi-currency classification of CIS banknotes. Neurocomputing 156(1):22\u201332",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Efficient multi-currency classification of CIS banknotes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84923573721",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "156",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "22",
+                                    "@last": "32"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Youn",
+                                    "ce:indexed-name": "Youn S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baek",
+                                    "ce:indexed-name": "Baek Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "Youn S, Choi E, Baek Y, Lee C (2015) Efficient multi-currency classification of CIS banknotes. Neurocomputing 156(1):22\u201332"
+                    },
+                    {
+                        "ref-fulltext": "Choi E, Lee J, Yoon J (2006) Feature extraction for paper currency classification using wavelet transform. In: Proceedings of IEEE international conference on pattern recognition, Hong Kong, China, 2006, pp 20\u201324",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Feature extraction for paper currency classification using wavelet transform"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85078361762",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2006"},
+                                "pagerange": {
+                                    "@first": "20",
+                                    "@last": "24"
+                                }
+                            },
+                            "ref-text": "Hong Kong, China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yoon",
+                                    "ce:indexed-name": "Yoon J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE International Conference on Pattern Recognition"
+                        },
+                        "ce:source-text": "Choi E, Lee J, Yoon J (2006) Feature extraction for paper currency classification using wavelet transform. In: Proceedings of IEEE international conference on pattern recognition, Hong Kong, China, 2006, pp 20\u201324"
+                    },
+                    {
+                        "ref-fulltext": "Gai S (2016) New paper currency defect detection algorithm using quaternion wavelet transform. Neurocomputing 196(5):133\u2013139",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "New paper currency defect detection algorithm using quaternion wavelet transform"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84977961718",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "196",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "133",
+                                    "@last": "139"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Gai",
+                                "ce:indexed-name": "Gai S."
+                            }]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "Gai S (2016) New paper currency defect detection algorithm using quaternion wavelet transform. Neurocomputing 196(5):133\u2013139"
+                    },
+                    {
+                        "ref-fulltext": "Hassanpour H, Farahabadi PM (2009) Using hidden markov models for paper currency recognition. Expert Syst Appl 36(6):10105\u201310111",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Using hidden markov models for paper currency recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "64049086967",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "10105",
+                                    "@last": "10111"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hassanpour",
+                                    "ce:indexed-name": "Hassanpour H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Farahabadi",
+                                    "ce:indexed-name": "Farahabadi P.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst Appl"
+                        },
+                        "ce:source-text": "Hassanpour H, Farahabadi PM (2009) Using hidden markov models for paper currency recognition. Expert Syst Appl 36(6):10105\u201310111"
+                    },
+                    {
+                        "ref-fulltext": "Yeh CY, Su WP, Lee SJ (2011) Employing multiple-kernel support vector machines for counterfeit paper currency recognition. Appl Soft Comput 11(1):1439\u20131447",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Employing multiple-kernel support vector machines for counterfeit paper currency recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77957889304",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1439",
+                                    "@last": "1447"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yeh",
+                                    "ce:indexed-name": "Yeh C.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su W.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl Soft Comput"
+                        },
+                        "ce:source-text": "Yeh CY, Su WP, Lee SJ (2011) Employing multiple-kernel support vector machines for counterfeit paper currency recognition. Appl Soft Comput 11(1):1439\u20131447"
+                    },
+                    {
+                        "ref-fulltext": "Faiz MH, Yang XD, Tian YL (2012) Robust and effective component-based paper currency recognition for the blind. IEEE Trans Syst Man Cybern Part C Appl Rev 42(6):1021\u20131030",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Robust and effective component-based paper currency recognition for the blind"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84867858288",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1021",
+                                    "@last": "1030"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faiz",
+                                    "ce:indexed-name": "Faiz M.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang X.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian Y.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Syst Man Cybern Part C Appl Rev"
+                        },
+                        "ce:source-text": "Faiz MH, Yang XD, Tian YL (2012) Robust and effective component-based paper currency recognition for the blind. IEEE Trans Syst Man Cybern Part C Appl Rev 42(6):1021\u20131030"
+                    },
+                    {
+                        "ref-fulltext": "Ma JB, Teng GF (2019) A hybrid multiple feature construction approach for classification using Genetic Programming. Appl Soft Comput 80(6):687\u2013699",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A hybrid multiple feature construction approach for classification using Genetic Programming"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR27",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85065421862",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "80",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "687",
+                                    "@last": "699"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma J.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teng",
+                                    "ce:indexed-name": "Teng G.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl Soft Comput"
+                        },
+                        "ce:source-text": "Ma JB, Teng GF (2019) A hybrid multiple feature construction approach for classification using Genetic Programming. Appl Soft Comput 80(6):687\u2013699"
+                    },
+                    {
+                        "ref-fulltext": "Zhang Y, Rockett PI (2018) A generic optimizing feature extraction method using multiobjective genetic programming. Appl Soft Comput 11(1):1087\u20131097",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A generic optimizing feature extraction method using multiobjective genetic programming"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR28",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77957916556",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1087",
+                                    "@last": "1097"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rockett",
+                                    "ce:indexed-name": "Rockett P.I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl Soft Comput"
+                        },
+                        "ce:source-text": "Zhang Y, Rockett PI (2018) A generic optimizing feature extraction method using multiobjective genetic programming. Appl Soft Comput 11(1):1087\u20131097"
+                    },
+                    {
+                        "ref-fulltext": "Moxey CE, Sangwine SJ, Ell TA (2003) Hypercomplex correlation techniques for vector images. IEEE Trans Signal Process 51(7):1941\u20131953",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Hypercomplex correlation techniques for vector images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR29",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0037861990",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "51",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1941",
+                                    "@last": "1953"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moxey",
+                                    "ce:indexed-name": "Moxey C.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Signal Process"
+                        },
+                        "ce:source-text": "Moxey CE, Sangwine SJ, Ell TA (2003) Hypercomplex correlation techniques for vector images. IEEE Trans Signal Process 51(7):1941\u20131953"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Nanchang",
+        "@id": "60083519",
+        "affilname": "Nanchang Hangkong University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85078343881",
+        "dc:description": "In this paper, we propose a novel paper currency defect detection algorithm using quaternion uniform strength. We first build paper currency image preprocessing integration framework which includes intensity balancing, paper currency location, and geometric correction. We then propose a global\u2013local paper currency image registration algorithm by moving key areas within certain range which can eliminate the false difference effectively. Finally, the quaternion uniform strength is calculated by using quaternion convolution edge detector. The defect degree of paper currency is determined by using the quaternion uniform color difference. The proposed algorithm is tested using different datasets from five countries: CNY, USD, EUR, VND, and RUB. The experimental results demonstrate that the proposed algorithm yields better results than the existing state-of-the-art paper currency defect detection techniques. The demo of the proposed paper currency defect detection algorithm will be publicly available.",
+        "prism:coverDate": "2020-08-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85078343881",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Shan",
+            "preferred-name": {
+                "ce:given-name": "Shan",
+                "ce:initials": "S.",
+                "ce:surname": "Gai",
+                "ce:indexed-name": "Gai S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Gai",
+            "@auid": "35748407200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35748407200",
+            "ce:indexed-name": "Gai S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85078343881"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078343881&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85078343881&origin=inward"
+            }
+        ],
+        "source-id": "24800",
+        "citedby-count": "2",
+        "prism:volume": "32",
+        "subtype": "ar",
+        "dc:title": "Paper currency defect detection algorithm using quaternion uniform strength",
+        "openaccess": "0",
+        "prism:issn": "14333058 09410643",
+        "publishercopyright": "© 2020, Springer-Verlag London Ltd., part of Springer Nature.",
+        "prism:issueIdentifier": "16",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Neural Computing and Applications",
+        "prism:pageRange": "12999-13016",
+        "prism:endingPage": "13016",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/s00521-020-04745-6",
+        "prism:startingPage": "12999",
+        "dc:identifier": "SCOPUS_ID:85078343881",
+        "dc:publisher": "Springer"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Color difference",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Defect detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Defect detection algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geometric correction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Integration frameworks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Paper currency",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion uniform strength",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State of the art",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Defect detection"
+        },
+        {
+            "@_fa": "true",
+            "$": "Paper currency image registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion convolution"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion uniform strength"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Shan",
+            "preferred-name": {
+                "ce:given-name": "Shan",
+                "ce:initials": "S.",
+                "ce:surname": "Gai",
+                "ce:indexed-name": "Gai S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Gai",
+            "@auid": "35748407200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35748407200",
+            "ce:indexed-name": "Gai S."
+        },
+        {
+            "ce:given-name": "Xiaolin",
+            "preferred-name": {
+                "ce:given-name": "Xiaolin",
+                "ce:initials": "X.",
+                "ce:surname": "Xu",
+                "ce:indexed-name": "Xu X."
+            },
+            "@seq": "2",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Xu",
+            "@auid": "57214143457",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57214143457",
+            "ce:indexed-name": "Xu X."
+        },
+        {
+            "ce:given-name": "Bangshu",
+            "preferred-name": {
+                "ce:given-name": "Bangshu",
+                "ce:initials": "B.",
+                "ce:surname": "Xiong",
+                "ce:indexed-name": "Xiong B."
+            },
+            "@seq": "3",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Xiong",
+            "@auid": "22735929700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/22735929700",
+            "ce:indexed-name": "Xiong B."
+        }
+    ]}
+}}

@@ -1,0 +1,1491 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "16",
+                "@timestamp": "2022-04-16T01:00:02.000002-04:00",
+                "@year": "2022",
+                "@month": "04"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2019-08-10T21:36:48.321Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "@afid": "122958207",
+                            "organization": [
+                                {"$": "Multitude-Technologies"},
+                                {"$": "Company of Wedo"}
+                            ],
+                            "affiliation-id": {"@afid": "122958207"},
+                            "ce:source-text": "Multitude-Technologies, a company of Wedo"
+                        },
+                        "author": [{
+                            "preferred-name": {
+                                "ce:given-name": "J.",
+                                "ce:initials": "J.",
+                                "ce:surname": "Langlois",
+                                "ce:indexed-name": "Langlois J."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Langlois",
+                            "@auid": "57203514321",
+                            "ce:indexed-name": "Langlois J."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "France",
+                            "@afid": "60032006",
+                            "@country": "fra",
+                            "organization": [
+                                {"$": "LS2N"},
+                                {"$": "UMR 6004"},
+                                {"$": "University of Nantes"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60032006"},
+                                {"@afid": "60110511"}
+                            ],
+                            "ce:source-text": "LS2N UMR 6004, University of Nantes"
+                        },
+                        "author": [
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "H.",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Mouchère",
+                                    "ce:indexed-name": "Mouchère H."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Mouchère",
+                                "@auid": "16024847700",
+                                "ce:indexed-name": "Mouchere H."
+                            },
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "N.",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Normand",
+                                    "ce:indexed-name": "Normand N."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Normand",
+                                "@auid": "6603951502",
+                                "ce:indexed-name": "Normand N."
+                            },
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "C.",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Viard-Gaudin",
+                                    "ce:indexed-name": "Viard-Gaudin C."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Viard-Gaudin",
+                                "@auid": "9133978000",
+                                "ce:indexed-name": "Viard-Gaudin C."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "On the fly generated data for industrial part orientation estimation with deep neural networks",
+                "abstracts": "© 2019 SPIE.In this paper a method is proposed for estimating the orientation of industrial parts. Classical 2d images of the part are used to train a deep neural network and infer the part pose by computing its quaternion representation. Another innovative point of this work is in the use of synthetic data which are generated on the fly during the network training from a textured cad model placed in a virtual scene. This way overcomes the difficulties to obtain pose ground truth images from real images. At the same time, using the cad model with several lighting conditions and material reflectances allows to anticipate challenging industrial situations. As a first step of the method, the part is separated from the background using a semantic segmentation network. Then a depth image of the part is produced employing an encoder-decoder network with skip connections. Finally, the depth map is associated with the local pixels coordinates to estimate the part orientation with a fully connected network using a SO(3) metric loss function. This method can estimate the part pose from real images with visually convincing results suitable for any pose refinement processes.",
+                "correspondence": {
+                    "affiliation": {
+                        "organization": [
+                            {"$": "Multitude-Technologies"},
+                            {"$": "Company of Wedo"}
+                        ],
+                        "ce:source-text": "Multitude-Technologies, a company of Wedo"
+                    },
+                    "person": {
+                        "ce:initials": "J.",
+                        "ce:surname": "Langlois",
+                        "ce:indexed-name": "Langlois J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Convolutional neural networks",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Deep neural networks",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Depth estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Industrial Parts",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pose estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Rendered data",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://spie.org/x1848.xml",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of SPIE - The International Society for Optical Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "11172"}},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781510630536",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "14th International Conference on Quality Control by Artificial Vision, QCAV 2019",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "IDS GmbH"},
+                                    {"$": "Mulhouse Alsace Agglomeration"},
+                                    {"$": "Region Grand-Est"}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confnumber": "14",
+                            "conforganization": "Universite de Haute-Alsace",
+                            "confseriestitle": "International Conference on Quality Control by Artificial Vision",
+                            "conflocation": {
+                                "@country": "fra",
+                                "city": "Mulhouse"
+                            },
+                            "confcode": "149834",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "17",
+                                    "@year": "2019",
+                                    "@month": "05"
+                                },
+                                "startdate": {
+                                    "@day": "15",
+                                    "@year": "2019",
+                                    "@month": "05"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of SPIE - The International Society for Optical Engineering",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Christophe",
+                            "@seq": "1",
+                            "ce:initials": "C.",
+                            "ce:degrees": "Prof.",
+                            "ce:surname": "Cudel",
+                            "@role": "edit",
+                            "ce:indexed-name": "Cudel C."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Stephane",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Bazeille",
+                            "@role": "edit",
+                            "ce:indexed-name": "Bazeille S."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Nicolas",
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "ce:surname": "Verrier",
+                            "@role": "edit",
+                            "ce:indexed-name": "Verrier N."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2019"
+                        }
+                    },
+                    "codencode": "PSISD",
+                    "sourcetitle-abbrev": "Proc SPIE Int Soc Opt Eng",
+                    "@country": "usa",
+                    "issuetitle": "Fourteenth International Conference on Quality Control by Artificial Vision",
+                    "issn": [
+                        {
+                            "$": "1996756X",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "0277786X",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "SPIE",
+                        "ce:e-address": {
+                            "$": "spie@spie.org",
+                            "@type": "email"
+                        }
+                    },
+                    "article-number": "111720I",
+                    "@srcid": "40067"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "913.3",
+                                "classification-description": "Quality Assurance and Control"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3104"},
+                            {"$": "1706"},
+                            {"$": "2604"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "10",
+                    "@timestamp": "BST 07:32:04",
+                    "@year": "2019",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "628843243",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "919366281",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20193207288424",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20191523393",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20192247913",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85070193281",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85070193281",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.2521753"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "17",
+                "reference": [
+                    {
+                        "ref-fulltext": "Wohlhart, P. and Lepetit, V., Learning descriptors for object recognition and 3d pose estimation CVPR (2015).",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959233990",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wohlhart",
+                                    "ce:indexed-name": "Wohlhart P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning Descriptors for Object Recognition and 3d Pose Estimation CVPR"
+                        },
+                        "ce:source-text": "Wohlhart, P. and Lepetit, V., Learning descriptors for object recognition and 3d pose estimation CVPR (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Schwarz, M., Schulz, H., and Behnke, S., Rgb-d object recognition and pose estimation based on pre-Trained convolutional neural network features ICRA (2015).",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006375798",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwarz",
+                                    "ce:indexed-name": "Schwarz M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schulz",
+                                    "ce:indexed-name": "Schulz H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Behnke",
+                                    "ce:indexed-name": "Behnke S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Rgb-d Object Recognition and Pose Estimation Based on Pre-Trained Convolutional Neural Network Features ICRA"
+                        },
+                        "ce:source-text": "Schwarz, M., Schulz, H., and Behnke, S., Rgb-d object recognition and pose estimation based on pre-Trained convolutional neural network features ICRA (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Brachmann, E., Krull, A., Michel, F., Gumhold, S., Shotton, J., and Rother, C., Learning 6d object pose estimation using 3d object coordinates ECCV (2014).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Learning 6d object pose estimation using 3d object coordinates"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937466021",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brachmann",
+                                    "ce:indexed-name": "Brachmann E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krull",
+                                    "ce:indexed-name": "Krull A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michel",
+                                    "ce:indexed-name": "Michel F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gumhold",
+                                    "ce:indexed-name": "Gumhold S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shotton",
+                                    "ce:indexed-name": "Shotton J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rother",
+                                    "ce:indexed-name": "Rother C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ECCV"
+                        },
+                        "ce:source-text": "Brachmann, E., Krull, A., Michel, F., Gumhold, S., Shotton, J., and Rother, C., Learning 6d object pose estimation using 3d object coordinates ECCV (2014)."
+                    },
+                    {
+                        "ref-fulltext": "Krull, A., Brachmann, E., Michel, F., Yang, M. Y., Gumhold, S., and Rother, C., Learning analysis-by-synthesis for 6d pose estimation in rgb-d images. ICCV (2015).",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Learning analysis-by-synthesis for 6d pose estimation in rgb-d images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973862725",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krull",
+                                    "ce:indexed-name": "Krull A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brachmann",
+                                    "ce:indexed-name": "Brachmann E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michel",
+                                    "ce:indexed-name": "Michel F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gumhold",
+                                    "ce:indexed-name": "Gumhold S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rother",
+                                    "ce:indexed-name": "Rother C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICCV"
+                        },
+                        "ce:source-text": "Krull, A., Brachmann, E., Michel, F., Yang, M. Y., Gumhold, S., and Rother, C., Learning analysis-by-synthesis for 6d pose estimation in rgb-d images. ICCV (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Krull, A., Brachmann, E., Nowozin, S., Michel, F., Gumhold, S., and Rother, C., Poseagent: Budget-constrained 6d object pose estimation via reinforcement learning. CVPR (2017).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Poseagent: Budget-constrained 6d object pose estimation via reinforcement learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85044284993",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krull",
+                                    "ce:indexed-name": "Krull A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brachmann",
+                                    "ce:indexed-name": "Brachmann E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nowozin",
+                                    "ce:indexed-name": "Nowozin S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michel",
+                                    "ce:indexed-name": "Michel F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gumhold",
+                                    "ce:indexed-name": "Gumhold S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rother",
+                                    "ce:indexed-name": "Rother C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        },
+                        "ce:source-text": "Krull, A., Brachmann, E., Nowozin, S., Michel, F., Gumhold, S., and Rother, C., Poseagent: Budget-constrained 6d object pose estimation via reinforcement learning. CVPR (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Doumanoglou, A., Balntas, V., Kouskouridas, R., and Kim, T.-K., Siamese regression networks with e-cient mid-level feature extraction for 3d object pose estimation arXiv:1607.02257 (2016).",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006463702",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "1607.02257",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doumanoglou",
+                                    "ce:indexed-name": "Doumanoglou A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balntas",
+                                    "ce:indexed-name": "Balntas V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kouskouridas",
+                                    "ce:indexed-name": "Kouskouridas R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T.-K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Siamese Regression Networks with E-cient Mid-level Feature Extraction for 3d Object Pose Estimation ArXiv"
+                        },
+                        "ce:source-text": "Doumanoglou, A., Balntas, V., Kouskouridas, R., and Kim, T.-K., Siamese regression networks with e-cient mid-level feature extraction for 3d object pose estimation arXiv:1607.02257 (2016)."
+                    },
+                    {
+                        "ref-fulltext": "Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D., Vanhoucke, V., and Rabinovich, A., Going deeper with convolutions. CVPR (2015).",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Going deeper with convolutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937522268",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sermanet",
+                                    "ce:indexed-name": "Sermanet P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reed",
+                                    "ce:indexed-name": "Reed S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anguelov",
+                                    "ce:indexed-name": "Anguelov D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erhan",
+                                    "ce:indexed-name": "Erhan D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vanhoucke",
+                                    "ce:indexed-name": "Vanhoucke V."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rabinovich",
+                                    "ce:indexed-name": "Rabinovich A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        },
+                        "ce:source-text": "Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D., Vanhoucke, V., and Rabinovich, A., Going deeper with convolutions. CVPR (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Kendall, A., Grimes, M., and Cipolla, R., Posenet: A convolutional network for real-Time 6-dof camera relocalization ICCV (2015).",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973912724",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ICCV",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kendall",
+                                    "ce:indexed-name": "Kendall A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grimes",
+                                    "ce:indexed-name": "Grimes M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cipolla",
+                                    "ce:indexed-name": "Cipolla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Posenet: A Convolutional Network for Real-Time 6-dof Camera Relocalization"
+                        },
+                        "ce:source-text": "Kendall, A., Grimes, M., and Cipolla, R., Posenet: A convolutional network for real-Time 6-dof camera relocalization ICCV (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Liu, W., Angualov, D., Erhan, D., Szegedy, C., Reed, S. E., Fu, C.-Y., and Berg, A. C., Ssd: single shot multibox detector. ECCV (2016).",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Ssd: Single shot multibox detector"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011302702",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Angualov",
+                                    "ce:indexed-name": "Angualov D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erhan",
+                                    "ce:indexed-name": "Erhan D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reed",
+                                    "ce:indexed-name": "Reed S.E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu C.-Y."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berg",
+                                    "ce:indexed-name": "Berg A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ECCV"
+                        },
+                        "ce:source-text": "Liu, W., Angualov, D., Erhan, D., Szegedy, C., Reed, S. E., Fu, C.-Y., and Berg, A. C., Ssd: single shot multibox detector. ECCV (2016)."
+                    },
+                    {
+                        "ref-fulltext": "Kehl, W., Manhardt, F., Tombari, F., Ilic, S., and Navab, N., Ssd-6d: making rgb-based 3d detection and pose estimation great again. ICCV (2017).",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Ssd-6d: Making rgb-based 3d detection and pose estimation great again"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041907567",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kehl",
+                                    "ce:indexed-name": "Kehl W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manhardt",
+                                    "ce:indexed-name": "Manhardt F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tombari",
+                                    "ce:indexed-name": "Tombari F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICCV"
+                        },
+                        "ce:source-text": "Kehl, W., Manhardt, F., Tombari, F., Ilic, S., and Navab, N., Ssd-6d: making rgb-based 3d detection and pose estimation great again. ICCV (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Xiang, Y., Schmidt, T., Narayanan, V., and Fox, D., Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes. RSS (2018).",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85127084152",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidt",
+                                    "ce:indexed-name": "Schmidt T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Narayanan",
+                                    "ce:indexed-name": "Narayanan V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fox",
+                                    "ce:indexed-name": "Fox D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "RSS"
+                        },
+                        "ce:source-text": "Xiang, Y., Schmidt, T., Narayanan, V., and Fox, D., Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes. RSS (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Jafari, O. H., Mustikovela, S. K., Pertsch, K., Brachmann, E., and Rother, C., ipose: Instance-Aware 6d pose estimation of partly occluded objects arXiv:1712.01924 (2018).",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070193392",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1712"},
+                                "pagerange": {"@first": "01924"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jafari",
+                                    "ce:indexed-name": "Jafari O.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mustikovela",
+                                    "ce:indexed-name": "Mustikovela S.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pertsch",
+                                    "ce:indexed-name": "Pertsch K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brachmann",
+                                    "ce:indexed-name": "Brachmann E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rother",
+                                    "ce:indexed-name": "Rother C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ipose: Instance-Aware 6d Pose Estimation of Partly Occluded Objects ArXiv"
+                        },
+                        "ce:source-text": "Jafari, O. H., Mustikovela, S. K., Pertsch, K., Brachmann, E., and Rother, C., ipose: Instance-Aware 6d pose estimation of partly occluded objects arXiv:1712.01924 (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Dosovitskiy, A., Fischer, P., Ilg, E., Hausser, P., Hazirbas, C., Golkov, V., Smagt, P. V. D., Cremers, D., and Brox, T., Flownet: Learning optical ow with convolutional networks Proceedings of the IEEE international conference on computer vision , 2758-2766 (2015).",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Flownet: Learning optical ow with convolutional networks Proceedings of the"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973904859",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2758",
+                                "@last": "2766"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dosovitskiy",
+                                    "ce:indexed-name": "Dosovitskiy A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischer",
+                                    "ce:indexed-name": "Fischer P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilg",
+                                    "ce:indexed-name": "Ilg E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hausser",
+                                    "ce:indexed-name": "Hausser P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hazirbas",
+                                    "ce:indexed-name": "Hazirbas C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Golkov",
+                                    "ce:indexed-name": "Golkov V."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "P.V.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smagt",
+                                    "ce:indexed-name": "Smagt P.V.D."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremers",
+                                    "ce:indexed-name": "Cremers D."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brox",
+                                    "ce:indexed-name": "Brox T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE International Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Dosovitskiy, A., Fischer, P., Ilg, E., Hausser, P., Hazirbas, C., Golkov, V., Smagt, P. V. D., Cremers, D., and Brox, T., Flownet: Learning optical ow with convolutional networks Proceedings of the IEEE international conference on computer vision , 2758-2766 (2015)."
+                    },
+                    {
+                        "ref-fulltext": "Li, Y., Wang, G., Ji, X., Xiang, Y., and Fox, D., Deepim: Deep iterative matching for 6d pose estimation ECCV (2018).",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Deepim: Deep iterative matching for 6d pose estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85070189010",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fox",
+                                    "ce:indexed-name": "Fox D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ECCV"
+                        },
+                        "ce:source-text": "Li, Y., Wang, G., Ji, X., Xiang, Y., and Fox, D., Deepim: Deep iterative matching for 6d pose estimation ECCV (2018)."
+                    },
+                    {
+                        "ref-fulltext": "Karen, S. and Zisserman, A., Very deep convolutional networks for large-scale image recognition arXiv preprint arXiv:1409.1556 (2014).",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030977147",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "1409.1556",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karen",
+                                    "ce:indexed-name": "Karen S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Very Deep Convolutional Networks for Large-scale Image Recognition ArXiv Preprint ArXiv"
+                        },
+                        "ce:source-text": "Karen, S. and Zisserman, A., Very deep convolutional networks for large-scale image recognition arXiv preprint arXiv:1409.1556 (2014)."
+                    },
+                    {
+                        "ref-fulltext": "Rad, M. and Lepetit, V., Bb8: A scalable, accurate, robust to partial occlusion method for predicting the 3d poses of challenging objects without using depth. ICCV (2017).",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Bb8: A scalable, accurate, robust to partial occlusion method for predicting the 3d poses of challenging objects without using depth"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041909033",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rad",
+                                    "ce:indexed-name": "Rad M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICCV"
+                        },
+                        "ce:source-text": "Rad, M. and Lepetit, V., Bb8: A scalable, accurate, robust to partial occlusion method for predicting the 3d poses of challenging objects without using depth. ICCV (2017)."
+                    },
+                    {
+                        "ref-fulltext": "Hinterstoisser, S., Ilic, V. L. S., Holzer, S., Bradski, G., Konolige, K., and Navab, N., Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes ACCV (2012).",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890382488",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinterstoisser",
+                                    "ce:indexed-name": "Hinterstoisser S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.L.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic V.L.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holzer",
+                                    "ce:indexed-name": "Holzer S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bradski",
+                                    "ce:indexed-name": "Bradski G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACCV"
+                        },
+                        "ce:source-text": "Hinterstoisser, S., Ilic, V. L. S., Holzer, S., Bradski, G., Konolige, K., and Navab, N., Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes ACCV (2012)."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Nantes",
+            "@id": "60032006",
+            "affilname": "Nantes Université",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032006",
+            "affiliation-country": "France"
+        },
+        {
+            "affiliation-city": null,
+            "@id": "122958207",
+            "affilname": "Multitude-Technologies, Company of Wedo",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122958207",
+            "affiliation-country": null
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85070193281",
+        "dc:description": "In this paper a method is proposed for estimating the orientation of industrial parts. Classical 2d images of the part are used to train a deep neural network and infer the part pose by computing its quaternion representation. Another innovative point of this work is in the use of synthetic data which are generated on the fly during the network training from a textured cad model placed in a virtual scene. This way overcomes the difficulties to obtain pose ground truth images from real images. At the same time, using the cad model with several lighting conditions and material reflectances allows to anticipate challenging industrial situations. As a first step of the method, the part is separated from the background using a semantic segmentation network. Then a depth image of the part is produced employing an encoder-decoder network with skip connections. Finally, the depth map is associated with the local pixels coordinates to estimate the part orientation with a fully connected network using a SO(3) metric loss function. This method can estimate the part pose from real images with visually convincing results suitable for any pose refinement processes.",
+        "prism:coverDate": "2019-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85070193281",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "preferred-name": {
+                "ce:given-name": "J.",
+                "ce:initials": "J.",
+                "ce:surname": "Langlois",
+                "ce:indexed-name": "Langlois J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "122958207",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122958207"
+            },
+            "ce:surname": "Langlois",
+            "@auid": "57203514321",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57203514321",
+            "ce:indexed-name": "Langlois J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85070193281"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85070193281&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85070193281&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781510630536",
+        "prism:publicationName": "Proceedings of SPIE - The International Society for Optical Engineering",
+        "source-id": "40067",
+        "citedby-count": "1",
+        "prism:volume": "11172",
+        "subtype": "cp",
+        "dc:title": "On the fly generated data for industrial part orientation estimation with deep neural networks",
+        "openaccess": "2",
+        "openaccessFlag": null,
+        "prism:doi": "10.1117/12.2521753",
+        "prism:issn": "1996756X 0277786X",
+        "publishercopyright": "© 2019 SPIE.",
+        "article-number": "111720I",
+        "dc:identifier": "SCOPUS_ID:85070193281",
+        "dc:publisher": "SPIEspie@spie.org"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Depth Estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Industrial parts",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rendered data",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Convolutional neural networks"
+        },
+        {
+            "@_fa": "true",
+            "$": "Deep neural networks"
+        },
+        {
+            "@_fa": "true",
+            "$": "Depth estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Industrial Parts"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pose estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rendered data"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "preferred-name": {
+                "ce:given-name": "J.",
+                "ce:initials": "J.",
+                "ce:surname": "Langlois",
+                "ce:indexed-name": "Langlois J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "122958207",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122958207"
+            },
+            "ce:surname": "Langlois",
+            "@auid": "57203514321",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57203514321",
+            "ce:indexed-name": "Langlois J."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "H.",
+                "ce:initials": "H.",
+                "ce:surname": "Mouchère",
+                "ce:indexed-name": "Mouchère H."
+            },
+            "@seq": "2",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032006",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032006"
+            },
+            "ce:surname": "Mouchère",
+            "@auid": "16024847700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/16024847700",
+            "ce:indexed-name": "Mouchere H."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "N.",
+                "ce:initials": "N.",
+                "ce:surname": "Normand",
+                "ce:indexed-name": "Normand N."
+            },
+            "@seq": "3",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032006",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032006"
+            },
+            "ce:surname": "Normand",
+            "@auid": "6603951502",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603951502",
+            "ce:indexed-name": "Normand N."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "C.",
+                "ce:initials": "C.",
+                "ce:surname": "Viard-Gaudin",
+                "ce:indexed-name": "Viard-Gaudin C."
+            },
+            "@seq": "4",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032006",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032006"
+            },
+            "ce:surname": "Viard-Gaudin",
+            "@auid": "9133978000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/9133978000",
+            "ce:indexed-name": "Viard-Gaudin C."
+        }
+    ]}
+}}

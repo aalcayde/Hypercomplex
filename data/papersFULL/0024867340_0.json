@@ -1,0 +1,1439 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "29",
+                "@year": "2022",
+                "@timestamp": "2022-04-29T13:25:30.000030-04:00",
+                "@month": "04"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "1989",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "National Science Foundation",
+                    "xocs:funding-agency-acronym": "NSF",
+                    "xocs:funding-agency": "National Science Foundation",
+                    "xocs:funding-id": [
+                        {"$": "DMS-86-11959"},
+                        {"$": "F49620-86-C0037"},
+                        {"$": "IRI-87-16960"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000001",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "AFOSR",
+                    "xocs:funding-agency-acronym": "AFOSR",
+                    "xocs:funding-agency": "Air Force Office of Scientific Research",
+                    "xocs:funding-id": [
+                        {"$": "F49620-86-C-0037"},
+                        {"$": "F49620-87-C-0018"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000181",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Army Research Office",
+                    "xocs:funding-agency-acronym": "ARO",
+                    "xocs:funding-agency": "Army Research Office",
+                    "xocs:funding-id": "ARO DAAL03-88-K-0088",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000183",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-29T14:29:10.171Z",
+            "xocs:funding-text": "This article is the first in a series that develops a self-organizing neural network architecture for invariant pattern recognition in a cluttered environment. Carpenter and Grossberg (1987a) described this architecture (Figure la). They reported computer simulation experiments in which an earlier version of the architecture learned to categorize individual image Requests for reprints should be sent to Gail A. Carpenter, Center for Adaptive Systems, Boston University, 111 Cumming-ton Street, Boston, MA 02215. *Supported in part by the Air Force Office of Scientific Research (AFOSR F49620-86-C-0037 and AFOSR F49620-87-C-0018), the Army Research Office (ARO DAAL03-88-K-0088), and the National Science Foundation (NSF DMS-86-11959). tSupported in part by the Air Force Office of Scientific Research (AFOSR F49620-86-C0037 and AFOSR F49620-87-C-0018), the Army Research Office (ARO DAAL03-88-K-0088), and the National Science Foundation (NSF IRI-87-16960).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@afid": "60019674",
+                        "@country": "usa",
+                        "organization": {"$": "Boston University"},
+                        "affiliation-id": {"@afid": "60019674"}
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Gail A.",
+                            "preferred-name": {
+                                "ce:given-name": "Gail A.",
+                                "ce:initials": "G.A.",
+                                "ce:surname": "Carpenter",
+                                "ce:indexed-name": "Carpenter G.A."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "G.A.",
+                            "@date-locked": "2020-05-04T20:38:26.104",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Carpenter",
+                            "@auid": "7201701766",
+                            "ce:indexed-name": "Carpenter G.A."
+                        },
+                        {
+                            "ce:given-name": "Stephen",
+                            "preferred-name": {
+                                "ce:given-name": "Stephen",
+                                "ce:initials": "S.",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg S."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "S.",
+                            "@date-locked": "2019-03-26T16:59:34.943",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Grossberg",
+                            "@auid": "7101773583",
+                            "ce:indexed-name": "Grossberg S."
+                        },
+                        {
+                            "ce:given-name": "Courosh",
+                            "preferred-name": {
+                                "ce:given-name": "Courosh",
+                                "ce:initials": "C.",
+                                "ce:surname": "Mehanian",
+                                "ce:indexed-name": "Mehanian C."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Mehanian",
+                            "@auid": "6507682376",
+                            "ce:indexed-name": "Mehanian C."
+                        }
+                    ]
+                },
+                "citation-title": "Invariant recognition of cluttered scenes by a self-organizing ART architecture: CORT-X boundary segmentation",
+                "abstracts": "A neural network architecture is outlined that self-organizes invariant pattern recognition codes of noisy images. The processing stages are figure-ground separation, boundary segmentation, invariant filtering, and self-organization of a pattern recognition code by an ART 2 network. The article describes a new circuit for boundary segmentation, called the CORT-X filter, that detects, regularizes, and completes sharp (even one-pixel wide) image boundaries in up to 50% noise, while simultaneously suppressing the noise. The CORT-X filter achieves this competence by using nonlinear interactions between multiple spatial scales to resolve a design trade-off that exists between the properties of boundary localization, boundary completion, and noise suppression. The processing levels of the CORT-X filter are analogous to those of the Grossberg-Mingolla Boundary Contour System, but contain only feedforward operations that are easier to implement in hardware. The network nodes in these levels are analogous to cortical simple cells, complex cells, hypercomplex cells, and unoriented and oriented cooperative cells. © 1989.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@country": "usa",
+                        "organization": {"$": "Boston University"}
+                    },
+                    "person": {
+                        "ce:initials": "G.A.",
+                        "ce:surname": "Carpenter",
+                        "ce:indexed-name": "Carpenter G.A."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Boundary contour system",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Boundary segmentation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Competition cooperation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Neural networks",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pattern recognition",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Self-organization",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Visual cortex",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "NNETE",
+                    "sourcetitle-abbrev": "Neural Netw.",
+                    "issn": {
+                        "$": "08936080",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "2",
+                            "@issue": "3"
+                        },
+                        "pagerange": {
+                            "@first": "169",
+                            "@last": "181"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "1989"},
+                    "sourcetitle": "Neural Networks",
+                    "@srcid": "24804",
+                    "publicationdate": {
+                        "year": "1989",
+                        "date-text": "1989"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": "723"
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2805"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "NEUR"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2014 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "ARCELS"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "CPX"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@year": "2014",
+                    "@month": "11"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "219239249",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2007335876",
+                            "@idtype": "ARCELS"
+                        },
+                        {
+                            "$": "44249277",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "0024867340",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "0024867340",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "22667371",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "1992090349158",
+                            "@idtype": "CPX"
+                        }
+                    ],
+                    "ce:pii": "0893-6080(89)90002-6",
+                    "ce:doi": "10.1016/0893-6080(89)90002-6"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "31",
+                "reference": [
+                    {
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Invariant pattern recognition and recall by an attentive self-organizing ART architecture in a nonstationary world"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023566096",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "737",
+                                "@last": "745"
+                            }},
+                            "ref-text": "M. Caudill, C. Butler, IEEE, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Converence on Neural Networks, II"
+                        }
+                    },
+                    {
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "ART 2 Self-organization of stable category recognition codes for analog input patterns"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973857317",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "26"},
+                                "pagerange": {
+                                    "@first": "4919",
+                                    "@last": "4930"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applied Optics"
+                        }
+                    },
+                    {
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "The ART of adaptive pattern recognition by a self-organizing neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023981451",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "88"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer"
+                        }
+                    },
+                    {
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Self-organization of invariant recognition categories for noisy images by an adaptive resonance theory (ART) architecture"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0024167414",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {"@first": "15"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "C.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mehanian",
+                                    "ce:indexed-name": "Mehanian"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Networks"
+                        }
+                    },
+                    {
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "Position, rotation, and scale invariant optical correlations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0016974698",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {
+                                    "@first": "1793",
+                                    "@last": "1799"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Casasent",
+                                    "ce:indexed-name": "Casasent"
+                                },
+                                {
+                                    "ce:given-name": "D.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Psaltis",
+                                    "ce:indexed-name": "Psaltis"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applied Optics"
+                        }
+                    },
+                    {
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "ref-title": {"ref-titletext": "Size and position invariance in the visual system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017855992",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "167",
+                                    "@last": "177"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "P.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Cavanagh",
+                                "ce:indexed-name": "Cavanagh"
+                            }]},
+                            "ref-sourcetitle": "Perception"
+                        }
+                    },
+                    {
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Image transforms in the visual system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85128602183",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "185",
+                                "@last": "218"
+                            }},
+                            "ref-text": "P.C. Dodwell, T. Caelli, Erlbaum, Hillsdale, NJ",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "P.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Cavanagh",
+                                "ce:indexed-name": "Cavanagh"
+                            }]},
+                            "ref-sourcetitle": "Figural synthesis"
+                        }
+                    },
+                    {
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "Two-dimensional spectral analysis of cortical receptive field profiles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018925643",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "847",
+                                    "@last": "856"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "J.G.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Daugman",
+                                "ce:indexed-name": "Daugman"
+                            }]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Uncertainty relation for resolution in space, spatial frequency, and orientation optimized by two-dimensional visual cortical filters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022098435",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "1160",
+                                    "@last": "1169"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "J.G.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Daugman",
+                                "ce:indexed-name": "Daugman"
+                            }]},
+                            "ref-sourcetitle": "Journal of the Optical Society of America"
+                        }
+                    },
+                    {
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1946"},
+                            "ref-title": {"ref-titletext": "Theory of communication"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000293183",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "93"},
+                                "pagerange": {
+                                    "@first": "429",
+                                    "@last": "457"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "D.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Gabor",
+                                "ce:indexed-name": "Gabor"
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions"
+                        }
+                    },
+                    {
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0012637029",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Elsevier/North-Holland, Amsterdam",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "The adaptive brain, I: Cognition, learning, reinforcement, and rhythm"
+                        }
+                    },
+                    {
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003691704",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "MIT Press, Cambridge, MA",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Neural networks and natural intelligence"
+                        }
+                    },
+                    {
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Stereo boundary fusion by cortical complex cells: A system of maps, filters, and feedback networks for multiplexing distributed data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0024775135",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "29",
+                                    "@last": "51"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "J.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marshall",
+                                    "ce:indexed-name": "Marshall"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Networks"
+                        }
+                    },
+                    {
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of perceptual grouping: Textures, boundaries, and emergent segmentations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022385099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "141",
+                                    "@last": "171"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "E.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mingolla",
+                                    "ce:indexed-name": "Mingolla"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of 1-D and 2-D brightness perception: A unified model of classical and recent phenomena"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023971935",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "43"},
+                                "pagerange": {
+                                    "@first": "241",
+                                    "@last": "277"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "D.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Todorović",
+                                    "ce:indexed-name": "Todorovic"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Coherent IR radar technology"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747792912",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "D.K. Killinger, A. Mooradian, Springer-Verlag, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "A.B.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gschwendtner",
+                                    "ce:indexed-name": "Gschwendtner"
+                                },
+                                {
+                                    "ce:given-name": "R.C.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harney",
+                                    "ce:indexed-name": "Harney"
+                                },
+                                {
+                                    "ce:given-name": "R.J.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hull",
+                                    "ce:indexed-name": "Hull"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Optical and laser remote sensing"
+                        }
+                    },
+                    {
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "Infrared airborne radar"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019248503",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "462",
+                                "@last": "471"
+                            }},
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "R.C.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Harney",
+                                "ce:indexed-name": "Harney"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Electronic and Aerospace Systems Conference"
+                        }
+                    },
+                    {
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Military applications of coherent infrared radar"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957468443",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "300"},
+                                "pagerange": {
+                                    "@first": "2",
+                                    "@last": "11"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "R.C.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Harney",
+                                "ce:indexed-name": "Harney"
+                            }]},
+                            "ref-sourcetitle": "Physics and Technology of Coherent Infrared Radar (SPIE Proceedings)"
+                        }
+                    },
+                    {
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "Compact infrared radar technology"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019290828",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "227"},
+                                "pagerange": {
+                                    "@first": "162",
+                                    "@last": "170"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "R.C.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harney",
+                                    "ce:indexed-name": "Harney"
+                                },
+                                {
+                                    "ce:given-name": "R.J.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hull",
+                                    "ce:indexed-name": "Hull"
+                                }
+                            ]},
+                            "ref-sourcetitle": "CO2Laser Devices and Applications (SPIE Proceedings)"
+                        }
+                    },
+                    {
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1977"},
+                            "ref-title": {"ref-titletext": "Functional architecture of macaque monkey visual cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017785109",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "198"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "59"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.H.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hubel",
+                                    "ce:indexed-name": "Hubel"
+                                },
+                                {
+                                    "ce:given-name": "T.N.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiesel",
+                                    "ce:indexed-name": "Wiesel"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Royal Society B: Biological Sciences"
+                        }
+                    },
+                    {
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "A tactical 10.6 micrometer imaging radar"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017919022",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "662",
+                                    "@last": "668"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "R.J.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hull",
+                                    "ce:indexed-name": "Hull"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marcus",
+                                    "ce:indexed-name": "Marcus"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE National Aerospace and Electronics Conference"
+                        }
+                    },
+                    {
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Multidimensional machine vision using neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023543793",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "747",
+                                "@last": "758"
+                            }},
+                            "ref-text": "M. Caudill, C. Butler, IEEE, New York",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "P.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Kolodzy",
+                                "ce:indexed-name": "Kolodzy"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Neural Networks, II"
+                        }
+                    },
+                    {
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "ref-title": {"ref-titletext": "Spatial frequency selectivity of periodic complex cells in the visual cortex of the cat"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018147081",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "665",
+                                    "@last": "682"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pollen",
+                                    "ce:indexed-name": "Pollen"
+                                },
+                                {
+                                    "ce:given-name": "B.W.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrews",
+                                    "ce:indexed-name": "Andrews"
+                                },
+                                {
+                                    "ce:given-name": "S.E.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feldon",
+                                    "ce:indexed-name": "Feldon"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1975"},
+                            "ref-title": {"ref-titletext": "Periodic excitability changes across the receptive fields of complex cells in the striate and parastriate cortex of the cat"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0016663676",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "245"},
+                                "pagerange": {
+                                    "@first": "667",
+                                    "@last": "697"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pollen",
+                                    "ce:indexed-name": "Pollen"
+                                },
+                                {
+                                    "ce:given-name": "S.F.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ronner",
+                                    "ce:indexed-name": "Ronner"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Physiology (London)"
+                        }
+                    },
+                    {
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Phase relationships between adjacent simple cells in the visual cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019796233",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "212"},
+                                "pagerange": {
+                                    "@first": "1409",
+                                    "@last": "1411"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pollen",
+                                    "ce:indexed-name": "Pollen"
+                                },
+                                {
+                                    "ce:given-name": "S.F.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ronner",
+                                    "ce:indexed-name": "Ronner"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science"
+                        }
+                    },
+                    {
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Visual cortical neurons as localized spatial frequency filters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0020970727",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13 SMC"},
+                                "pagerange": {
+                                    "@first": "907",
+                                    "@last": "916"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pollen",
+                                    "ce:indexed-name": "Pollen"
+                                },
+                                {
+                                    "ce:given-name": "S.F.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ronner",
+                                    "ce:indexed-name": "Ronner"
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Systems, Man, and Cybernetics"
+                        }
+                    },
+                    {
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "Active 10.6 micrometer image processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019104958",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "238"},
+                                "pagerange": {
+                                    "@first": "103",
+                                    "@last": "117"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "D.R.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Sullivan",
+                                "ce:indexed-name": "Sullivan"
+                            }]},
+                            "ref-sourcetitle": "Imaging Processing and Missile Guidance (SPIE Proceedings)"
+                        }
+                    },
+                    {
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "Infrared coherent radar"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019260112",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "227"},
+                                "pagerange": {
+                                    "@first": "148",
+                                    "@last": "161"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "L.J.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Sullivan",
+                                "ce:indexed-name": "Sullivan"
+                            }]},
+                            "ref-sourcetitle": "CO2Laser Devices and Applications (SPIE Proceedings)"
+                        }
+                    },
+                    {
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Firepond laser radar"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84910737541",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Session 34",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "L.J.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Sullivan",
+                                "ce:indexed-name": "Sullivan"
+                            }]},
+                            "ref-sourcetitle": "Electro/81 Conference Record"
+                        }
+                    },
+                    {
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1979"},
+                            "ref-title": {"ref-titletext": "Real-time quasi-3-dimensional display of infrared radar images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018752755",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "180"},
+                                "pagerange": {
+                                    "@first": "57",
+                                    "@last": "65"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.R.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sullivan",
+                                    "ce:indexed-name": "Sullivan"
+                                },
+                                {
+                                    "ce:given-name": "R.C.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harney",
+                                    "ce:indexed-name": "Harney"
+                                },
+                                {
+                                    "ce:given-name": "J.S.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martin",
+                                    "ce:indexed-name": "Martin"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Real-Time Signal Processing, II (SPIE Proceedings)"
+                        }
+                    },
+                    {
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Three layers of vector output product neural networks for optical pattern recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023547554",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "312",
+                                "@last": "330"
+                            }},
+                            "ref-text": "H. Szu, SPIE, Bellingham, WA",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "H.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Szu",
+                                "ce:indexed-name": "Szu"
+                            }]},
+                            "ref-sourcetitle": "Optical and hybrid computing"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Boston",
+        "@id": "60019674",
+        "affilname": "Boston University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-0024867340",
+        "dc:description": "A neural network architecture is outlined that self-organizes invariant pattern recognition codes of noisy images. The processing stages are figure-ground separation, boundary segmentation, invariant filtering, and self-organization of a pattern recognition code by an ART 2 network. The article describes a new circuit for boundary segmentation, called the CORT-X filter, that detects, regularizes, and completes sharp (even one-pixel wide) image boundaries in up to 50% noise, while simultaneously suppressing the noise. The CORT-X filter achieves this competence by using nonlinear interactions between multiple spatial scales to resolve a design trade-off that exists between the properties of boundary localization, boundary completion, and noise suppression. The processing levels of the CORT-X filter are analogous to those of the Grossberg-Mingolla Boundary Contour System, but contain only feedforward operations that are easier to implement in hardware. The network nodes in these levels are analogous to cortical simple cells, complex cells, hypercomplex cells, and unoriented and oriented cooperative cells. © 1989.",
+        "prism:coverDate": "1989-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/0024867340",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Gail A.",
+            "preferred-name": {
+                "ce:given-name": "Gail A.",
+                "ce:initials": "G.A.",
+                "ce:surname": "Carpenter",
+                "ce:indexed-name": "Carpenter G.A."
+            },
+            "@seq": "1",
+            "ce:initials": "G.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Carpenter",
+            "@auid": "7201701766",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7201701766",
+            "ce:indexed-name": "Carpenter G.A."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/0024867340"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0024867340&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=0024867340&origin=inward"
+            }
+        ],
+        "source-id": "24804",
+        "pii": "0893-6080(89)90002-6",
+        "citedby-count": "44",
+        "prism:volume": "2",
+        "subtype": "ar",
+        "dc:title": "Invariant recognition of cluttered scenes by a self-organizing ART architecture: CORT-X boundary segmentation",
+        "openaccess": "0",
+        "prism:issn": "08936080",
+        "prism:issueIdentifier": "3",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Neural Networks",
+        "prism:pageRange": "169-181",
+        "prism:endingPage": "181",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/0893-6080(89)90002-6",
+        "prism:startingPage": "169",
+        "dc:identifier": "SCOPUS_ID:0024867340"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "ART 2 Architecture",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Boundary Segmentation",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cluttered Scenes",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "CORT-X Filter",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Invariant Recognition",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Self Organization",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Boundary contour system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Boundary segmentation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Competition cooperation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Neural networks"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pattern recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Self-organization"
+        },
+        {
+            "@_fa": "true",
+            "$": "Visual cortex"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Cognitive Neuroscience",
+            "@code": "2805",
+            "@abbrev": "NEUR"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Gail A.",
+            "preferred-name": {
+                "ce:given-name": "Gail A.",
+                "ce:initials": "G.A.",
+                "ce:surname": "Carpenter",
+                "ce:indexed-name": "Carpenter G.A."
+            },
+            "@seq": "1",
+            "ce:initials": "G.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Carpenter",
+            "@auid": "7201701766",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7201701766",
+            "ce:indexed-name": "Carpenter G.A."
+        },
+        {
+            "ce:given-name": "Stephen",
+            "preferred-name": {
+                "ce:given-name": "Stephen",
+                "ce:initials": "S.",
+                "ce:surname": "Grossberg",
+                "ce:indexed-name": "Grossberg S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Grossberg",
+            "@auid": "7101773583",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7101773583",
+            "ce:indexed-name": "Grossberg S."
+        },
+        {
+            "ce:given-name": "Courosh",
+            "preferred-name": {
+                "ce:given-name": "Courosh",
+                "ce:initials": "C.",
+                "ce:surname": "Mehanian",
+                "ce:indexed-name": "Mehanian C."
+            },
+            "@seq": "3",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Mehanian",
+            "@auid": "6507682376",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6507682376",
+            "ce:indexed-name": "Mehanian C."
+        }
+    ]}
+}}

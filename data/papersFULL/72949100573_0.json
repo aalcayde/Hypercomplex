@@ -1,0 +1,2567 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "16",
+                "@timestamp": "2023-05-16T20:14:17.000017-04:00",
+                "@year": "2023",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2010",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "National Nature Science Foundation of China",
+                    "xocs:funding-id": "60571052"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Shanghai Leading Academic Discipline Project",
+                    "xocs:funding-agency": "Shanghai Leading Academic Discipline Project",
+                    "xocs:funding-id": "B112",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012150",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-24T16:31:15.970Z",
+            "xocs:funding-text": "Manuscript received June 11, 2008; revised July 26, 2009. First published August 25, 2009; current version published December 16, 2009. This work is supported by the National Nature Science Foundation of China (60571052) and Shanghai Leading Academic Discipline Project (B112). The associate editor coordinating the review of this manuscript and approving it for publication was Dr. Jenq-Neng Hwang.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Shanghai, 200433",
+                            "country": "China",
+                            "@afid": "60009860",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "Department of Electronic Engineering"},
+                                {"$": "Fudan University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60009860",
+                                "@dptid": "103536885"
+                            },
+                            "@dptid": "103536885"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Chenlei",
+                                "preferred-name": {
+                                    "ce:given-name": "Chenlei",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo C."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Guo",
+                                "@auid": "23090530600",
+                                "ce:indexed-name": "Guo C."
+                            },
+                            {
+                                "ce:given-name": "Liming",
+                                "preferred-name": {
+                                    "ce:given-name": "Liming",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "L.",
+                                "@date-locked": "2019-06-05T21:54:26.365",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "@auid": "13606649200",
+                                "ce:indexed-name": "Zhang L."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Pittsburgh, 15213",
+                            "country": "United States",
+                            "@afid": "60027950",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Electrical and Computer Engineering"},
+                                {"$": "Carnegie Mellon University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60027950",
+                                "@dptid": "107867657"
+                            },
+                            "@dptid": "107867657"
+                        },
+                        "author": [{
+                            "ce:given-name": "Chenlei",
+                            "preferred-name": {
+                                "ce:given-name": "Chenlei",
+                                "ce:initials": "C.",
+                                "ce:surname": "Guo",
+                                "ce:indexed-name": "Guo C."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "ce:surname": "Guo",
+                            "@auid": "23090530600",
+                            "ce:indexed-name": "Guo C."
+                        }]
+                    }
+                ],
+                "citation-title": "A novel multiresolution spatiotemporal saliency detection model and its applications in image and video compression",
+                "abstracts": "Salient areas in natural scenes are generally regarded as areas which the human eye will typically focus on, and finding these areas is the key step in object detection. In computer vision, many models have been proposed to simulate the behavior of eyes such as SaliencyToolBox (STB), Neuromorphic Vision Toolkit (NVT), and others, but they demand high computational cost and computing useful results mostly relies on their choice of parameters. Although some region-based approaches were proposed to reduce the computational complexity of feature maps, these approaches still were not able to work in real time. Recently, a simple and fast approach called spectral residual (SR) was proposed, which uses the SR of the amplitude spectrum to calculate the image's saliency map. However, in our previous work, we pointed out that it is the phase spectrum, not the amplitude spectrum, of an image's Fourier transform that is key to calculating the location of salient areas, and proposed the phase spectrum of Fourier transform (PFT) model. In this paper, we present a quaternion representation of an image which is composed of intensity, color, and motion features. Based on the principle of PFT, a novel multiresolution spatiotemporal saliency detection model called phase spectrum of quaternion Fourier transform (PQFT) is proposed in this paper to calculate the spatiotemporal saliency map of an image by its quaternion representation. Distinct from other models, the added motion dimension allows the phase spectrum to represent spatiotemporal saliency in order to perform attention selection not only for images but also for videos. In addition, the PQFT model can compute the saliency map of an image under various resolutions from coarse to fine. Therefore, the hierarchical selectivity (HS) framework based on the PQFT model is introduced here to construct the tree structure representation of an image.With the help of HS, a model called multiresolution wavelet domain foveation (MWDF) is proposed in this paper to improve coding efficiency in image and video compression. Extensive tests of videos, natural images, and psychological patterns show that the proposed PQFT model is more effective in saliency detection and can predict eye fixations better than other state-of-the-art models in previous literature. Moreover, our model requires low computational cost and, therefore, can work in real time. Additional experiments on image and video compression show that the HS-MWDF model can achieve higher compression rate than the traditional model. © 2009 IEEE.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Shanghai, 200433",
+                        "country": "China",
+                        "@country": "chn",
+                        "organization": [
+                            {"$": "Department of Electronic Engineering"},
+                            {"$": "Fudan University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "C.",
+                        "ce:surname": "Guo",
+                        "ce:indexed-name": "Guo C."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Hierarchical selectivity (HS)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Multiresolution wavelet domain foveation (MWDF)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Phase spectrum of Fourier transform (PFT)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Phase spectrum of quaternion fourier transform (PQFT)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Receiver operating characteristic (ROC) curve",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Spatiotemporal saliency map",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Visual attention",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "IIPRE",
+                    "sourcetitle-abbrev": "IEEE Trans Image Process",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "10577149",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "19",
+                            "@issue": "1"
+                        },
+                        "pagerange": {
+                            "@first": "185",
+                            "@last": "198"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2010"},
+                    "sourcetitle": "IEEE Transactions on Image Processing",
+                    "article-number": "5223506",
+                    "@srcid": "25534",
+                    "publicationdate": {
+                        "month": "01",
+                        "year": "2010",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "January 2010"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "741.2",
+                                "classification-description": "Vision"
+                            },
+                            {
+                                "classification-code": "741.1",
+                                "classification-description": "Light and Optics"
+                            },
+                            {
+                                "classification-code": "741",
+                                "classification-description": "Light, Optics and Optical Devices"
+                            },
+                            {
+                                "classification-code": "731.6",
+                                "classification-description": "Robot Applications"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "921.3",
+                                "classification-description": "Mathematical Transformations"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "611",
+                                "classification-description": "Hydro and Tidal Power Plants"
+                            },
+                            {
+                                "classification-code": "446.2",
+                                "classification-description": "Related Hydraulic Structures"
+                            },
+                            {
+                                "classification-code": "441",
+                                "classification-description": "Dams and Reservoirs; Hydro Development"
+                            },
+                            {
+                                "classification-code": "407.2",
+                                "classification-description": "Waterways"
+                            },
+                            {
+                                "classification-code": "721.1",
+                                "classification-description": "Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {"classification-code": "Related Topics"}
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1704"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2010 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "04",
+                    "@year": "2010",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "358014753",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20100112606991",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "72949100573",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "72949100573",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TIP.2009.2030969"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "56",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. Fergus, P. Perona, and A. Zisserman, \"Object class recognition by unsupervised scale-invariant learning,\" presented at the CVPR, 2003.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Object class recognition by unsupervised scale-invariant learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0041940256",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fergus",
+                                    "ce:indexed-name": "Fergus R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perona",
+                                    "ce:indexed-name": "Perona P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        }
+                    },
+                    {
+                        "@date-locked": "2011-12-29T00:00:00.000",
+                        "ref-fulltext": "T. Liu, J. Sun, N. Zheng, X. Tang, and H. Shum, \"Learning to detect a salient object,\" presented at the CVPR, 2007.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Learning to detect a salient object"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34948869862",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shum",
+                                    "ce:indexed-name": "Shum H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. James, The Principles of Psychology. New York: Holt, 1890.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1890"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003891643",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "New York: Holt",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "ce:surname": "James",
+                                "ce:indexed-name": "James W."
+                            }]},
+                            "ref-sourcetitle": "The Principles of Psychology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Treisman and G. Gelade, \"A feature-integration theory of attention,\" Cogn. Psych., vol.12, no.1, pp. 97-136, 1980.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "ref-title": {"ref-titletext": "A feature-integration theory of attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018878142",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "97",
+                                    "@last": "136"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Treisman",
+                                    "ce:indexed-name": "Treisman A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gelade",
+                                    "ce:indexed-name": "Gelade G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Cogn. Psych"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J.Wolfe, \"Guided search 2.0: A revised model of guided search,\" Psychonomic Bull. Rev., vol.1, no.2, pp. 202-238, 1994.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Guided search 2.0: A revised model of guided search"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864888849",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "202",
+                                    "@last": "238"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Wolfe",
+                                "ce:indexed-name": "Wolfe J."
+                            }]},
+                            "ref-sourcetitle": "Psychonomic Bull. Rev"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Koch and S. Ullman, \"Shifts in selection in visual attention: Toward the underlying neural circuitry,\" Human Neurobiol., vol.4, no.4, pp. 219-227, 1985.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Shifts in selection in visual attention: Toward the underlying neural circuitry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022388528",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "219",
+                                    "@last": "227"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ullman",
+                                    "ce:indexed-name": "Ullman S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Human Neurobiol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Itti, C.Koch, and E. Niebur, \"A model of saliency-based visual attention for rapid scene analysis,\" IEEE Trans. Pattern Anal. Mach. Intell., vol.20, no.11, pp. 1254-1259, Nov. 1998.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "A model of saliency-based visual attention for rapid scene analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032204063",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1254",
+                                    "@last": "1259"
+                                }
+                            },
+                            "ref-text": "Nov",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Niebur",
+                                    "ce:indexed-name": "Niebur E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Itti and C. Koch, \"A saliency-based search mechanism for overt and covert shifts of visual attention,\" Vis. Res., vol.40, pp. 1489-1506, 2000.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "A saliency-based search mechanism for overt and covert shifts of visual attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034003645",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "40"},
+                                "pagerange": {
+                                    "@first": "1489",
+                                    "@last": "1506"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vis. Res"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Itti and P. Baldi, \"Bayesian surprise attracts human attention,\" in Proc. NIPS, 2005, pp. 547-554.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Bayesian surprise attracts human attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864068293",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "547",
+                                "@last": "554"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baldi",
+                                    "ce:indexed-name": "Baldi P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. NIPS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Itti and P. Baldi, \"A principled approach to detecting surprising events in video,\" in Proc. CVPR, 2005, pp. 631-637.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "A principled approach to detecting surprising events in video"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "30444455292",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "631",
+                                "@last": "637"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baldi",
+                                    "ce:indexed-name": "Baldi P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. CVPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Itti, \"Models of Bottom-Up and Top-Down Visual Attention,\" Ph.D. dissertation, California Inst. chnol., Pasadena, 2000.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003782162",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Itti",
+                                "ce:indexed-name": "Itti L."
+                            }]},
+                            "ref-sourcetitle": "Models of Bottom-Up and Top-Down Visual Attention,\" Ph.D. dissertation, California Inst. chnol., Pasadena"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D.Walther and C. Koch, \"Modeling attention to salient proto-objects,\" Neural Netw., vol.19, pp. 1395-1407, 2006.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Modeling attention to salient proto-objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33750684017",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "1395",
+                                    "@last": "1407"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walther",
+                                    "ce:indexed-name": "Walther D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Netw"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Walther, L. Itti, M. Riesenhuber, T. Poggio, and C. Koch, \"Attentional selection for object recognition-A gentle way,\" Lecture Notes in Computer Science, vol.2525, no.1, pp. 472-479, 2002.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Attentional selection for object recognition-A gentle way"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952819004",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2525",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "472",
+                                    "@last": "479"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walther",
+                                    "ce:indexed-name": "Walther D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riesenhuber",
+                                    "ce:indexed-name": "Riesenhuber M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poggio",
+                                    "ce:indexed-name": "Poggio T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lecture Notes in Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Hou and L. Zhang, \"Saliency detection: A spectral residual approach,\" presented at the CVPR, 2007.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Saliency detection: A spectral residual approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35148814949",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hou",
+                                    "ce:indexed-name": "Hou X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. L. Guo, Q. Ma, and L. M. Zhang, \"Spatio-temporal saliency detection using phase spectrum of quaternion Fourier transform,\" presented at the CVPR, 2008.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Spatio-temporal saliency detection using phase spectrum of quaternion Fourier transform"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51949107445",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo C.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. D. Bruce and J. K. Tsotsos, \"Saliency based on information maximization,\" presented at the NIPS, 2005.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Saliency based on information maximization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864039864",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruce",
+                                    "ce:indexed-name": "Bruce N.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsotsos",
+                                    "ce:indexed-name": "Tsotsos J.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NIPS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Gao, V. Mahadevan, and N. Vasconcelos, \"The discriminant centersurround hypothesis for bottom-up saliency,\" presented at the NIPS, 2007.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "The discriminant centersurround hypothesis for bottom-up saliency"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79956010071",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahadevan",
+                                    "ce:indexed-name": "Mahadevan V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vasconcelos",
+                                    "ce:indexed-name": "Vasconcelos N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NIPS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Harel, C. Koch, and P. Perona, \"Graph-based visual saliency,\" presented at the NIPS, 2006.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Graph-based visual saliency"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85156217966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harel",
+                                    "ce:indexed-name": "Harel J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perona",
+                                    "ce:indexed-name": "Perona P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NIPS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Backer, B. Mertsching, and M. Bollmann, \"Data- and model-driven gaze control for an active-vision system,\" IEEE Trans. Pattern Anal. Mach. Intell., vol.23, no.12, pp. 1415-1429, Dec. 2001.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Data- and model-driven gaze control for an active-vision system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035674629",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1415",
+                                    "@last": "1429"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Backer",
+                                    "ce:indexed-name": "Backer G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mertsching",
+                                    "ce:indexed-name": "Mertsching B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bollmann",
+                                    "ce:indexed-name": "Bollmann M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Z. Aziz and B. Mertsching, \"Fast and robust generation of feature maps for region-based visual attention,\" IEEE Trans. Image Process., vol.17, no.5, pp. 5, 633-644, May 2008.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Fast and robust generation of feature maps for region-based visual attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "42649114129",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "633",
+                                    "@last": "644"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aziz",
+                                    "ce:indexed-name": "Aziz M.Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mertsching",
+                                    "ce:indexed-name": "Mertsching B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Frintrop, \"OCUS: A Visual Attention System for Object Detection and Goal-Directed Search,\" Ph.D. dissertation, 2006.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27244451786",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Frintrop",
+                                "ce:indexed-name": "Frintrop S."
+                            }]},
+                            "ref-sourcetitle": "OCUS: A Visual Attention System for Object Detection and Goal-Directed Search,\" Ph.D. dissertation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. L. Meur, O. L. Callet, D. Barba, and D. Thoreau, \"A coherent computational approach to model bottom-up visual attention,\" IEEE Trans. Pattern Anal. Mach. Intell., vol.28, pp. 802-817, 2006.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "A coherent computational approach to model bottom-up visual attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33645236179",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "802",
+                                    "@last": "817"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meur",
+                                    "ce:indexed-name": "Meur O.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Callet",
+                                    "ce:indexed-name": "Callet O.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barba",
+                                    "ce:indexed-name": "Barba D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thoreau",
+                                    "ce:indexed-name": "Thoreau D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. K. Tsotsos, S. M. Culhane, W. Y. K.Wai, Y. H. Lai, N. Davis, and F. Nuflo, \"Modelling visual attention via selective tuning,\" Artif. Intell., vol.78, no.1-2, pp. 507-545, 1995.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Modelling visual attention via selective tuning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029388540",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "78",
+                                    "@issue": "1-2"
+                                },
+                                "pagerange": {
+                                    "@first": "507",
+                                    "@last": "545"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsotsos",
+                                    "ce:indexed-name": "Tsotsos J.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Culhane",
+                                    "ce:indexed-name": "Culhane S.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wai",
+                                    "ce:indexed-name": "Wai W.Y.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Y.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davis",
+                                    "ce:indexed-name": "Davis N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nuflo",
+                                    "ce:indexed-name": "Nuflo F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artif. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Rensink, \"Seeing, sensing, and scrutinizing,\" Vis. Res., vol.40, no.10-12, pp. 1469-1487, 2000.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Seeing, sensing, and scrutinizing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034004132",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "10-12"
+                                },
+                                "pagerange": {
+                                    "@first": "1469",
+                                    "@last": "1487"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Rensink",
+                                "ce:indexed-name": "Rensink R."
+                            }]},
+                            "ref-sourcetitle": "Vis. Res"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Itti, \"Automatic foveation for video compression using a neurobiological model of visual attention,\" IEEE Trans. Image Process., vol.13, no.10, pp. 1304-1318, Oct. 2004.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Automatic foveation for video compression using a neurobiological model of visual attention"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4544260101",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1304",
+                                    "@last": "1318"
+                                }
+                            },
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Itti",
+                                "ce:indexed-name": "Itti L."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. Castleman, Digital Image Processing. New York: Prentice-Hall, 1996.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003409574",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Castleman",
+                                "ce:indexed-name": "Castleman K."
+                            }]},
+                            "ref-sourcetitle": "Digital Image Processing. New York: Prentice-Hall"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Engel, X. Zhang, and B. Wandell, \"Colour tuning in human visual cortex measured with functional magnetic resonance imaging,\" Nature, vol.388, no.6,637, pp. 68-71, Jul. 1997.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Colour tuning in human visual cortex measured with functional magnetic resonance imaging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030744384",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "388",
+                                    "@issue": "6-637"
+                                },
+                                "pagerange": {
+                                    "@first": "68",
+                                    "@last": "71"
+                                }
+                            },
+                            "ref-text": "Jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engel",
+                                    "ce:indexed-name": "Engel S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wandell",
+                                    "ce:indexed-name": "Wandell B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. J. Sangwine, \"Fourier transforms of colour images using quaternion, or hypercomplex, numbers,\" Electron. Lett., vol.32, no.21, pp. 1979-1980, Oct. 1996.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Fourier transforms of colour images using quaternion, or hypercomplex, numbers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030260155",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "21"
+                                },
+                                "pagerange": {
+                                    "@first": "1979",
+                                    "@last": "1980"
+                                }
+                            },
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Sangwine",
+                                "ce:indexed-name": "Sangwine S.J."
+                            }]},
+                            "ref-sourcetitle": "Electron. Lett"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. A. Ell, \"Hypercomplex Spectral Transforms,\" Ph.D. dissertation, Univ. Minnesota, Minneapolis, 1992.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004203538",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D. dissertation, Univ. Minnesota, Minneapolis",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Ell",
+                                "ce:indexed-name": "Ell T.A."
+                            }]},
+                            "ref-sourcetitle": "Hypercomplex Spectral Transforms"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. A. Ell, \"Quaternion-Fourier transforms for analysis of two-dimensional linear time-invariant partial-differential systems,\" in Proc. IEEE Conf. Decision and Control, San Antonio, TX, Dec. 15-17, 1993, vol.1-4, pp. 1830-1841.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Quaternion-Fourier transforms for analysis of two-dimensional linear time-invariant partial-differential systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027810912",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1-4"},
+                                "pagerange": {
+                                    "@first": "1830",
+                                    "@last": "1841"
+                                }
+                            },
+                            "ref-text": "San Antonio, TX, Dec. 15-17",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Ell",
+                                "ce:indexed-name": "Ell T.A."
+                            }]},
+                            "ref-sourcetitle": "Proc. IEEE Conf. Decision and Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S.-C. Pei, J.-J. Ding, and J.-H. Chang, \"Efficient implementation of quaternion Fourier transform, convolution, and correlation by 2-D complex FFT,\" IEEE Trans. Signal Process., vol.49, no.11, pp. 2783-2797, Nov. 2001.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Efficient implementation of quaternion Fourier transform, convolution, and correlation by 2-D complex FFT"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035503273",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2783",
+                                    "@last": "2797"
+                                }
+                            },
+                            "ref-text": "Nov",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pei",
+                                    "ce:indexed-name": "Pei S.-C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding J.-J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang J.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. J. Sangwine and T. A. Ell, J. M. Blackledge and M. J. Turner, Eds., \"The discrete Fourier transform of a colour image,\" in Proc. Image Processing II Mathematical Methods, Algorithms and Applications, Chichester, U.K., 2000, pp. 430-441.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "The discrete Fourier transform of a colour image"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001861011",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "430",
+                                "@last": "441"
+                            }},
+                            "ref-text": "S. J. Sangwine and T. A. Ell, J. M. Blackledge and M. J. Turner, Eds",
+                            "ref-sourcetitle": "Proc. Image Processing II Mathematical Methods, Algorithms and Applications, Chichester, U.K"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Ell and S. Sangwin, \"Hypercomplex Fourier transforms of color images,\" IEEE Trans. Image Process., vol.16, pp. 22-35, 2007.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Hypercomplex Fourier transforms of color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33847695369",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "16"},
+                                "pagerange": {
+                                    "@first": "22",
+                                    "@last": "35"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwin",
+                                    "ce:indexed-name": "Sangwin S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. J. Scholl, \"Objects and attention: The state of the art,\" Cognition, vol.80, pp. 1-46, 2001.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Objects and attention: The state of the art"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035109896",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "80"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "46"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Scholl",
+                                "ce:indexed-name": "Scholl B.J."
+                            }]},
+                            "ref-sourcetitle": "Cognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. I. Posner and Y. Cohen, \"Components of visual orienting,\" in Attention and Performance, H. Bouma and D. G. Bouwhuis, Eds. Hillsdale, NJ: Erlbaum, 1984, vol.10, pp. 531-556.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Components of visual orienting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002442636",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {
+                                    "@first": "531",
+                                    "@last": "556"
+                                }
+                            },
+                            "ref-text": "H. Bouma and D. G. Bouwhuis, Eds Hillsdale, NJ: Erlbaum",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Posner",
+                                    "ce:indexed-name": "Posner M.I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Attention and Performance"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Sun and R. Fisher, \"Object-based visual attention for computer vision,\" Artif. Intell., vol.146, no.1, pp. 77-123, May 2003.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Object-based visual attention for computer vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037404930",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "146",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "123"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fisher",
+                                    "ce:indexed-name": "Fisher R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artif. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. W. Tatler, R. J. Baddeley, and I. D. Gilchrist, \"Visual correlates of fixation selection: Effects of scale and time,\" Vis. Res., vol.45, pp. 643-659, 2005.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Visual correlates of fixation selection: Effects of scale and time"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "11144343233",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "45"},
+                                "pagerange": {
+                                    "@first": "643",
+                                    "@last": "659"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tatler",
+                                    "ce:indexed-name": "Tatler B.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baddeley",
+                                    "ce:indexed-name": "Baddeley R.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gilchrist",
+                                    "ce:indexed-name": "Gilchrist I.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vis. Res"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Horn and B. Schunck, \"Determining optical flow,\" Artif. Intell., vol.17, no.1-3, pp. 185-203, 1981.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Determining optical flow"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019698606",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1-3"
+                                },
+                                "pagerange": {
+                                    "@first": "185",
+                                    "@last": "203"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schunck",
+                                    "ce:indexed-name": "Schunck B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artif. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Brox, A. Bruhn, N. Papenberg, and J.Weickert, \"High accuracy optical flow estimation based on a theory for warping,\" presented at the ECCV, 2004.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "High accuracy optical flow estimation based on a theory for warping"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18844364899",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "presented at the",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brox",
+                                    "ce:indexed-name": "Brox T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruhn",
+                                    "ce:indexed-name": "Bruhn A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papenberg",
+                                    "ce:indexed-name": "Papenberg N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weickert",
+                                    "ce:indexed-name": "Weickert J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ECCV"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Treisman and S. Gormican, \"Feature analysis in early vision: Evidence from search asymmetries,\" Psych. Rev., vol.95, pp. 14-58, 1988.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Feature analysis in early vision: Evidence from search asymmetries"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023716924",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "95"},
+                                "pagerange": {
+                                    "@first": "14",
+                                    "@last": "58"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Treisman",
+                                    "ce:indexed-name": "Treisman A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gormican",
+                                    "ce:indexed-name": "Gormican S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Psych. Rev"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Wandell, Foundations of Vision. Sunderland, MA: Sinauer, 1995.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003953928",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Wandell",
+                                "ce:indexed-name": "Wandell B."
+                            }]},
+                            "ref-sourcetitle": "Foundations of Vision. Sunderland, MA: Sinauer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "V. Sanchez, A. Basu, and M. K. Mandal, \"Prioritized region of interest coding in JPEG2000,\" IEEE Trans. Circuits Syst. Video Technol., vol.14, no.9, pp. 1149-1155, Sep. 2004.",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Prioritized region of interest coding in JPEG2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4444376044",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1149",
+                                    "@last": "1155"
+                                }
+                            },
+                            "ref-text": "Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanchez",
+                                    "ce:indexed-name": "Sanchez V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Basu",
+                                    "ce:indexed-name": "Basu A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mandal",
+                                    "ce:indexed-name": "Mandal M.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "JPEG 2000 Part I: Final Draft International Standard (ISO/IEC FDIS15444-1), , Aug. 2000, ISO/IECJTC1/SC29/WG1 N1855.",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004079344",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Aug,ISO/IECJTC1/SC29/WG1 N1855",
+                            "ref-sourcetitle": "JPEG 2000 Part I: Final Draft International Standard (ISO/IEC FDIS15444-1)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. T. Kortum and W. S. Geisler, \"Implementation of a foveated imagecoding system for bandwidth reduction of video images,\" in Proc. SPIE, 1996, vol.2657, pp. 350-360.",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Implementation of a foveated imagecoding system for bandwidth reduction of video images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029698167",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2657"},
+                                "pagerange": {
+                                    "@first": "350",
+                                    "@last": "360"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kortum",
+                                    "ce:indexed-name": "Kortum P.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geisler",
+                                    "ce:indexed-name": "Geisler W.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Doulamis, A. Doulamis, D. Kalogeras, and S. Kollias, \"Improving the performance of MPEG coders using adaptive regions of interest,\" IEEE Trans. Circuits Syst. Video Technol., vol.8, no.12, pp. 928-934, Dec. 1998.",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Improving the performance of MPEG coders using adaptive regions of interest"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032266056",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "928",
+                                    "@last": "934"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doulamis",
+                                    "ce:indexed-name": "Doulamis N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doulamis",
+                                    "ce:indexed-name": "Doulamis A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kalogeras",
+                                    "ce:indexed-name": "Kalogeras D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kollias",
+                                    "ce:indexed-name": "Kollias S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Circuits Syst. Video Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Lee, A. C. Bovik, and Y. Y. Kim, \"Low delay foveated visual communications over wireless channels,\" in Proc. Int. Conf. Image Processing, 1999, pp. 90-94.",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Low delay foveated visual communications over wireless channels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033335951",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "90",
+                                "@last": "94"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim Y.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "U. Rauschenbach and H. Schumann, \"Demand-driven image transmission with levels of detail and regions of interest,\" Comput. Graph., vol.23, no.6, pp. 857-866, 1999.",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Demand-driven image transmission with levels of detail and regions of interest"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033336388",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "857",
+                                    "@last": "866"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rauschenbach",
+                                    "ce:indexed-name": "Rauschenbach U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schumann",
+                                    "ce:indexed-name": "Schumann H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Graph"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. M. Reingold and L. C. Loschky, \"Saliency of peripheral targets in gaze-contingent multiresolutional displays,\" Behavior Res. Meth., Instrum. Comput., vol.34, no.4, pp. 491-499, 2002.",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Saliency of peripheral targets in gaze-contingent multiresolutional displays"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036878226",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "491",
+                                    "@last": "499"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reingold",
+                                    "ce:indexed-name": "Reingold E.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loschky",
+                                    "ce:indexed-name": "Loschky L.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Behavior Res. Meth., Instrum. Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. J. Parkhurst and E. Niebur, \"Variable-resolution displays: A theoretical, practical, and behavioral evaluation,\" Human Factors, vol.44, no.4, pp. 611-629, 2002.",
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Variable-resolution displays: A theoretical, practical, and behavioral evaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036965396",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "44",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "611",
+                                    "@last": "629"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parkhurst",
+                                    "ce:indexed-name": "Parkhurst D.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Niebur",
+                                    "ce:indexed-name": "Niebur E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Human Factors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. Osberger and A. J. Maeder, \"Automatic identification of perceptually important regions in an image using a model of the human visual system,\" in Proc. ICPR, Aug. 1998, pp. 701-704.",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Automatic identification of perceptually important regions in an image using a model of the human visual system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003288551",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "701",
+                                "@last": "704"
+                            }},
+                            "ref-text": "Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osberger",
+                                    "ce:indexed-name": "Osberger W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maeder",
+                                    "ce:indexed-name": "Maeder A.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ICPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Stentiford, \"An estimator for visual attention through competitive novelty with application to image compression,\" in Proc. Picture Coding Symp., Apr. 2001, pp. 101-104.",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "An estimator for visual attention through competitive novelty with application to image compression"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035785406",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "101",
+                                "@last": "104"
+                            }},
+                            "ref-text": "Apr",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Stentiford",
+                                "ce:indexed-name": "Stentiford F."
+                            }]},
+                            "ref-sourcetitle": "Proc. Picture Coding Symp"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. M. Privitera and L. W. Stark, \"Algorithms for defining visual regions- of-interest: Comparison with eye fixations,\" IEEE Trans. Pattern Anal. Mach. Intell., vol.22, no.9, pp. 970-982, Sep. 2000.",
+                        "@id": "52",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Algorithms for defining visual regions- of-interest: Comparison with eye fixations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034269226",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "970",
+                                    "@last": "982"
+                                }
+                            },
+                            "ref-text": "Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Privitera",
+                                    "ce:indexed-name": "Privitera C.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stark",
+                                    "ce:indexed-name": "Stark L.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Z.Wang, L. G. Lu, and A. C. Bovik, \"Foveation scalable video coding with automatic fixation selection,\" IEEE Trans. Image Process., vol.12, no.2, pp. 243-254, Feb. 2003.",
+                        "@id": "53",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Foveation scalable video coding with automatic fixation selection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038343438",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "243",
+                                    "@last": "254"
+                                }
+                            },
+                            "ref-text": "Feb",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu L.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "V. Navalpakkam and L. Itti, \"An integrated model of top-down and bottom-up attention for optimizing detection speed,\" in Proc. CVPR, 2006, pp. 2049-2056.",
+                        "@id": "54",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "An integrated model of top-down and bottom-up attention for optimizing detection speed"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33845566741",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2049",
+                                "@last": "2056"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navalpakkam",
+                                    "ce:indexed-name": "Navalpakkam V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. CVPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "U. Rutishauser,D.Walther, C.Koch, and P. Perona, \"Is bottomup attention useful for object recognition?,\" in Proc. CVPR, 2004, pp. 37-44.",
+                        "@id": "55",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Is bottomup attention useful for object recognition?"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "5044223783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "37",
+                                "@last": "44"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rutishauser",
+                                    "ce:indexed-name": "Rutishauser U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walther",
+                                    "ce:indexed-name": "Walther D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perona",
+                                    "ce:indexed-name": "Perona P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. CVPR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "[Online]. Available: http://homepage.fudan.edu.cn/~clguo",
+                        "@id": "56",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://homepage.fudan.edu.cn/~clguo",
+                                "@type": "url"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72949092549",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Available: [Online]"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Pittsburgh",
+            "@id": "60027950",
+            "affilname": "Carnegie Mellon University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027950",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Shanghai",
+            "@id": "60009860",
+            "affilname": "Fudan University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009860",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-72949100573",
+        "dc:description": "Salient areas in natural scenes are generally regarded as areas which the human eye will typically focus on, and finding these areas is the key step in object detection. In computer vision, many models have been proposed to simulate the behavior of eyes such as SaliencyToolBox (STB), Neuromorphic Vision Toolkit (NVT), and others, but they demand high computational cost and computing useful results mostly relies on their choice of parameters. Although some region-based approaches were proposed to reduce the computational complexity of feature maps, these approaches still were not able to work in real time. Recently, a simple and fast approach called spectral residual (SR) was proposed, which uses the SR of the amplitude spectrum to calculate the image's saliency map. However, in our previous work, we pointed out that it is the phase spectrum, not the amplitude spectrum, of an image's Fourier transform that is key to calculating the location of salient areas, and proposed the phase spectrum of Fourier transform (PFT) model. In this paper, we present a quaternion representation of an image which is composed of intensity, color, and motion features. Based on the principle of PFT, a novel multiresolution spatiotemporal saliency detection model called phase spectrum of quaternion Fourier transform (PQFT) is proposed in this paper to calculate the spatiotemporal saliency map of an image by its quaternion representation. Distinct from other models, the added motion dimension allows the phase spectrum to represent spatiotemporal saliency in order to perform attention selection not only for images but also for videos. In addition, the PQFT model can compute the saliency map of an image under various resolutions from coarse to fine. Therefore, the hierarchical selectivity (HS) framework based on the PQFT model is introduced here to construct the tree structure representation of an image.With the help of HS, a model called multiresolution wavelet domain foveation (MWDF) is proposed in this paper to improve coding efficiency in image and video compression. Extensive tests of videos, natural images, and psychological patterns show that the proposed PQFT model is more effective in saliency detection and can predict eye fixations better than other state-of-the-art models in previous literature. Moreover, our model requires low computational cost and, therefore, can work in real time. Additional experiments on image and video compression show that the HS-MWDF model can achieve higher compression rate than the traditional model. © 2009 IEEE.",
+        "prism:coverDate": "2010-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/72949100573",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Chenlei",
+            "preferred-name": {
+                "ce:given-name": "Chenlei",
+                "ce:initials": "C.",
+                "ce:surname": "Guo",
+                "ce:indexed-name": "Guo C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60009860",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009860"
+                },
+                {
+                    "@id": "60027950",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027950"
+                }
+            ],
+            "ce:surname": "Guo",
+            "@auid": "23090530600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23090530600",
+            "ce:indexed-name": "Guo C."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/72949100573"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=72949100573&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=72949100573&origin=inward"
+            }
+        ],
+        "source-id": "25534",
+        "citedby-count": "861",
+        "prism:volume": "19",
+        "subtype": "ar",
+        "dc:title": "A novel multiresolution spatiotemporal saliency detection model and its applications in image and video compression",
+        "openaccess": "0",
+        "prism:issn": "10577149",
+        "article-number": "5223506",
+        "prism:issueIdentifier": "1",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Transactions on Image Processing",
+        "prism:pageRange": "185-198",
+        "prism:endingPage": "198",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/TIP.2009.2030969",
+        "prism:startingPage": "185",
+        "dc:identifier": "SCOPUS_ID:72949100573"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Foveation",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiresolution wavelet domain foveation (MWDF)",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiresolution wavelets",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Phase spectra",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Phase spectrum of Fourier transform (PFT)",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Receiver operating characteristic curves",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spatiotemporal saliency",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Visual Attention",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Hierarchical selectivity (HS)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Multiresolution wavelet domain foveation (MWDF)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Phase spectrum of Fourier transform (PFT)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Phase spectrum of quaternion fourier transform (PQFT)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Receiver operating characteristic (ROC) curve"
+        },
+        {
+            "@_fa": "true",
+            "$": "Spatiotemporal saliency map"
+        },
+        {
+            "@_fa": "true",
+            "$": "Visual attention"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Graphics and Computer-Aided Design",
+            "@code": "1704",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Chenlei",
+            "preferred-name": {
+                "ce:given-name": "Chenlei",
+                "ce:initials": "C.",
+                "ce:surname": "Guo",
+                "ce:indexed-name": "Guo C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60009860",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009860"
+                },
+                {
+                    "@id": "60027950",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60027950"
+                }
+            ],
+            "ce:surname": "Guo",
+            "@auid": "23090530600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23090530600",
+            "ce:indexed-name": "Guo C."
+        },
+        {
+            "ce:given-name": "Liming",
+            "preferred-name": {
+                "ce:given-name": "Liming",
+                "ce:initials": "L.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang L."
+            },
+            "@seq": "2",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60009860",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009860"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "13606649200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/13606649200",
+            "ce:indexed-name": "Zhang L."
+        }
+    ]}
+}}

@@ -1,0 +1,1404 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "19",
+                "@timestamp": "2021-09-19T19:03:46.000046-04:00",
+                "@year": "2021",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2019-05-06T21:13:18.198Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "South Korea",
+                            "@afid": "60008783",
+                            "@country": "kor",
+                            "organization": [
+                                {"$": "Department of Electronics Engineering"},
+                                {"$": "Pusan National University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60008783",
+                                "@dptid": "115541798"
+                            },
+                            "ce:source-text": "Department of Electronics Engineering, Pusan National UniversityKorea",
+                            "@dptid": "115541798"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Jun-Woo",
+                                "preferred-name": {
+                                    "ce:given-name": "Jun Woo",
+                                    "ce:initials": "J.W.",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song J.W."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "J.-W.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "송 준 우",
+                                "ce:surname": "Song",
+                                "@auid": "57214400089",
+                                "ce:indexed-name": "Song J.-W."
+                            },
+                            {
+                                "ce:given-name": "Yang",
+                                "preferred-name": {
+                                    "ce:given-name": "Yang",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "류 양",
+                                "ce:surname": "Liu",
+                                "@auid": "57206822671",
+                                "ce:indexed-name": "Liu Y."
+                            },
+                            {
+                                "ce:given-name": "Jang-Myung",
+                                "preferred-name": {
+                                    "ce:given-name": "Jang Myung",
+                                    "ce:initials": "J.M.",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.M."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "J.-M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "이 장 명",
+                                "ce:surname": "Lee",
+                                "@auid": "7601484617",
+                                "@orcid": "0000-0003-4290-8087",
+                                "ce:indexed-name": "Lee J.-M."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "South Korea",
+                            "@afid": "122480816",
+                            "@country": "kor",
+                            "organization": {"$": "Electroinics and Telecommunications Research Institute"},
+                            "affiliation-id": {"@afid": "122480816"},
+                            "ce:source-text": "Electroinics and Telecommunications Research InstituteKorea"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Hoe-Sung",
+                                "preferred-name": {
+                                    "ce:given-name": "Hoe Sung",
+                                    "ce:initials": "H.S.",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang H.S."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "H.-S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "양 회 성",
+                                "ce:surname": "Yang",
+                                "@auid": "57204958247",
+                                "ce:indexed-name": "Yang H.-S."
+                            },
+                            {
+                                "ce:given-name": "Kang-Bok",
+                                "preferred-name": {
+                                    "ce:given-name": "Kang Bok",
+                                    "ce:initials": "K.B.",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee K.B."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "K.-B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:alt-name": "이 강 복",
+                                "ce:surname": "Lee",
+                                "@auid": "56102808200",
+                                "ce:indexed-name": "Lee K.-B."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Three-dimensional pedestrian position estimation algorithm using waist-mounted IMU sensor",
+                "abstracts": "© ICROS 2018.This paper proposes a three-dimensional pedestrian position estimation algorithm using a waist-mounted Inertial Measurement Unit (IMU) sensor. A Pedestrian Dead Reckoning (PDR) system has been implemented using a single IMU sensor to locate a pedestrian who is carrying the PDR system on his waist in a building in which GPS signals are too weak to be utilized for localization. The position estimation system using IMU data suffers from degraded accuracy caused by the bias drift of gyroscope values. This approach adopts the quaternion to reduce the bias drift and obtain the precise Euler angles to localize the pedestrian in two-dimensional space with the step length estimation. To extend the localization into three-dimensional space to incorporate situations in which the pedestrian is ascending or descending the stairs, Zero-Velocity UpdaTe (ZUPT) scheme has been applied for processing gyroscope data from the IMU sensor. Real experiments have been performed to show the proposed algorithm\u2019s effectiveness in both two-and three-dimensional spaces.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "South Korea",
+                        "@country": "kor",
+                        "organization": [
+                            {"$": "Department of Electronics Engineering"},
+                            {"$": "Pusan National University"}
+                        ],
+                        "ce:source-text": "Department of Electronics Engineering, Pusan National UniversityKorea"
+                    },
+                    "person": {
+                        "ce:given-name": "Jang-Myung",
+                        "ce:initials": "J.-M.",
+                        "ce:alt-name": "이 장 명",
+                        "ce:surname": "Lee",
+                        "ce:indexed-name": "Lee J.-M."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "IMU sensor",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "PDR system",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Step length estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "ZUPT",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "Korean",
+                        "@xml:lang": "kor"
+                    },
+                    "abstract-language": [
+                        {
+                            "@language": "English",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "@language": "Korean",
+                            "@xml:lang": "kor"
+                        }
+                    ]
+                },
+                "source": {
+                    "sourcetitle-abbrev": "J. Inst. Control Rob. Syst.",
+                    "website": {"ce:e-address": {
+                        "$": "http://journal.icros.org/",
+                        "@type": "email"
+                    }},
+                    "@country": "kor",
+                    "translated-sourcetitle": {
+                        "$": "Journal of Institute of Control, Robotics and Systems",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "19765622",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "24",
+                            "@issue": "5"
+                        },
+                        "pagerange": {
+                            "@first": "453",
+                            "@last": "459"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {
+                        "publishername": "Institute of Control, Robotics and Systems",
+                        "ce:e-address": {
+                            "$": "journal@ijcas.com",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "Journal of Institute of Control, Robotics and Systems",
+                    "@srcid": "21100201073",
+                    "publicationdate": {
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2018"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "943.2",
+                                "classification-description": "Mechanical Variables Measurements"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "2207"},
+                            {"$": "2604"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "06",
+                    "@timestamp": "BST 10:15:18",
+                    "@year": "2019",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2001795617",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "917183275",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20191806866801",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20190817474",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20191225033",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20190003201619",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85059704171",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85059704171",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.5302/J.ICROS.2018.17.0217"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "17",
+                "reference": [
+                    {
+                        "ref-fulltext": "M. S. Lee, H. J. Ju, C. G. Park, and M. B. Heo, \u201cStep length estimation algorithm for firefighter using linear calibration,\u201d Journal of Institute of Control, Robotics and Systems (in Korean), vol. 19, no. 7, pp. 640-645, Jul. 2013.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Step length estimation algorithm for firefighter using linear calibration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887177313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "640",
+                                    "@last": "645"
+                                }
+                            },
+                            "ref-text": "Jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee M.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ju",
+                                    "ce:indexed-name": "Ju H.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park C.G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heo",
+                                    "ce:indexed-name": "Heo M.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Institute of Control, Robotics and Systems (In Korean)"
+                        },
+                        "ce:source-text": "M. S. Lee, H. J. Ju, C. G. Park, and M. B. Heo, \u201cStep length estimation algorithm for firefighter using linear calibration,\u201d Journal of Institute of Control, Robotics and Systems (in Korean), vol. 19, no. 7, pp. 640-645, Jul. 2013."
+                    },
+                    {
+                        "ref-fulltext": "W. J. Seo, K. I. Han, and K. R. Baek, \u201cA positioning method using bluetooth and odometry for a mobile robot,\u201d Journal of Institute of Control, Robotics and Systems (in Korean), vol. 23, no. 1, pp. 53-59, Jan. 2017.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A positioning method using bluetooth and odometry for a mobile robot"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85008698012",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "53",
+                                    "@last": "59"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seo",
+                                    "ce:indexed-name": "Seo W.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han K.I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baek",
+                                    "ce:indexed-name": "Baek K.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Institute of Control, Robotics and Systems (In Korean)"
+                        },
+                        "ce:source-text": "W. J. Seo, K. I. Han, and K. R. Baek, \u201cA positioning method using bluetooth and odometry for a mobile robot,\u201d Journal of Institute of Control, Robotics and Systems (in Korean), vol. 23, no. 1, pp. 53-59, Jan. 2017."
+                    },
+                    {
+                        "ref-fulltext": "Q. Wang, X. Chen, R. Chen, Y. Chen, and X. Zhang, \u201cElectro-myography-Based Locomotion Pattern Recognition and personal Positionig Toward Improved Context-Awareness Applications,\u201d IEE Trans. On Systems, Man, and Cybernetics: Systems, vol. 43, no. 5, pp. 1216-1227, Sep. 2013.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Electro-myography-Based Locomotion Pattern Recognition and personal Positionig Toward Improved Context-Awareness Applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887027673",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1216",
+                                    "@last": "1227"
+                                }
+                            },
+                            "ref-text": "Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEE Trans. on Systems, Man, and Cybernetics: Systems"
+                        },
+                        "ce:source-text": "Q. Wang, X. Chen, R. Chen, Y. Chen, and X. Zhang, \u201cElectro-myography-Based Locomotion Pattern Recognition and personal Positionig Toward Improved Context-Awareness Applications,\u201d IEE Trans. On Systems, Man, and Cybernetics: Systems, vol. 43, no. 5, pp. 1216-1227, Sep. 2013."
+                    },
+                    {
+                        "ref-fulltext": "C. Huang, Z. Liao, and L. Zhao, \u201cSynergism of INS and PDR in Self-Contained pedestrian tracking with a miniature sensor module,\u201d IEEE Trans. On Sensor Journal, vol. 10, no. 8, pp. 1349-1359, Aug. 2010.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Synergism of INS and PDR in Self-Contained pedestrian tracking with a miniature sensor module"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77952912529",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1349",
+                                    "@last": "1359"
+                                }
+                            },
+                            "ref-text": "Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liao",
+                                    "ce:indexed-name": "Liao Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. on Sensor Journal"
+                        },
+                        "ce:source-text": "C. Huang, Z. Liao, and L. Zhao, \u201cSynergism of INS and PDR in Self-Contained pedestrian tracking with a miniature sensor module,\u201d IEEE Trans. On Sensor Journal, vol. 10, no. 8, pp. 1349-1359, Aug. 2010."
+                    },
+                    {
+                        "ref-fulltext": "J. Y. Kim, J. S. Kim, G. T. Kang, and W. C. Lee, \u201cAn indoor positioning system for mobile robots using visible light communication and f uzzy l ogic,\u201d Journal of Institute of Control, Robotics and Systems (in Korean), vol. 22, no. 2, pp. 75-82, Feb. 2016.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "An indoor positioning system for mobile robots using visible light communication and f uzzy l ogic"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957664928",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "75",
+                                    "@last": "82"
+                                }
+                            },
+                            "ref-text": "Robotics and Systems (in Korean, Feb",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang G.T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee W.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Institute of Control"
+                        },
+                        "ce:source-text": "J. Y. Kim, J. S. Kim, G. T. Kang, and W. C. Lee, \u201cAn indoor positioning system for mobile robots using visible light communication and f uzzy l ogic,\u201d Journal of Institute of Control, Robotics and Systems (in Korean), vol. 22, no. 2, pp. 75-82, Feb. 2016."
+                    },
+                    {
+                        "ref-fulltext": "W. Kang and Y. Han, \u201cSmartPDR: Smartphone-Based pedestrian dead reckoning for indoor localization,\u201d IEEE Trans. On Sensors Journal, vol. 15, no. 5, pp. 2906-2916, May 2015.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "SmartPDR: Smartphone-Based pedestrian dead reckoning for indoor localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84926442536",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "2906",
+                                    "@last": "2916"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. on Sensors Journal"
+                        },
+                        "ce:source-text": "W. Kang and Y. Han, \u201cSmartPDR: Smartphone-Based pedestrian dead reckoning for indoor localization,\u201d IEEE Trans. On Sensors Journal, vol. 15, no. 5, pp. 2906-2916, May 2015."
+                    },
+                    {
+                        "ref-fulltext": "I. Nabney, NETLAB: algorithms for pattern recognition, Springer Science & Business Media, London, 2002.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003410452",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer Science & Business Media, London",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "I.",
+                                "@_fa": "true",
+                                "ce:surname": "Nabney",
+                                "ce:indexed-name": "Nabney I."
+                            }]},
+                            "ref-sourcetitle": "NETLAB: Algorithms for Pattern Recognition"
+                        },
+                        "ce:source-text": "I. Nabney, NETLAB: algorithms for pattern recognition, Springer Science & Business Media, London, 2002."
+                    },
+                    {
+                        "ref-fulltext": "J. Georgy, A. Noureldin, M. J. Korenberg, and M. M. Bayoumi, \u201cModeling the stochastic drift of a MEMS-Based gyroscope in Gyro/Odometer/GPS integrated navigation,\u201d IEEE Trans. on Geoscience and Remote Sensing, vol. 49, no. 1, pp. 203-210, Jan. 2011.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Modeling the stochastic drift of a MEMS-Based gyroscope in Gyro/Odometer/GPS integrated navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85064983578",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "49",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "203",
+                                    "@last": "210"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Georgy",
+                                    "ce:indexed-name": "Georgy J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Noureldin",
+                                    "ce:indexed-name": "Noureldin A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Korenberg",
+                                    "ce:indexed-name": "Korenberg M.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bayoumi",
+                                    "ce:indexed-name": "Bayoumi M.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. on Geoscience and Remote Sensing"
+                        },
+                        "ce:source-text": "J. Georgy, A. Noureldin, M. J. Korenberg, and M. M. Bayoumi, \u201cModeling the stochastic drift of a MEMS-Based gyroscope in Gyro/Odometer/GPS integrated navigation,\u201d IEEE Trans. on Geoscience and Remote Sensing, vol. 49, no. 1, pp. 203-210, Jan. 2011."
+                    },
+                    {
+                        "ref-fulltext": "W. Soehren and W. Hawkinson, \u201cPrototype personal navigation system,\u201d IEEE on Aerospace and Electrinic Systems Magazine, vol. 23, no. 4, pp. 10-18, Apr. 2008.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Prototype personal navigation system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "42949168956",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "10",
+                                    "@last": "18"
+                                }
+                            },
+                            "ref-text": "Apr",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soehren",
+                                    "ce:indexed-name": "Soehren W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hawkinson",
+                                    "ce:indexed-name": "Hawkinson W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE on Aerospace and Electrinic Systems Magazine"
+                        },
+                        "ce:source-text": "W. Soehren and W. Hawkinson, \u201cPrototype personal navigation system,\u201d IEEE on Aerospace and Electrinic Systems Magazine, vol. 23, no. 4, pp. 10-18, Apr. 2008."
+                    },
+                    {
+                        "ref-fulltext": "J. Kim and S. Lee, \u201cEstimation of the user\u2019s location/posture for mobile augmented reality,\u201d Journal of Institute of Control Robotics and System (in Korean), vol. 18, no. 11, pp. 1011-1017, Dec. 2012.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Estimation of the user\u2019s location/posture for mobile augmented reality"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872848769",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1011",
+                                    "@last": "1017"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Institute of Control Robotics and System (In Korean)"
+                        },
+                        "ce:source-text": "J. Kim and S. Lee, \u201cEstimation of the user\u2019s location/posture for mobile augmented reality,\u201d Journal of Institute of Control Robotics and System (in Korean), vol. 18, no. 11, pp. 1011-1017, Dec. 2012."
+                    },
+                    {
+                        "ref-fulltext": "W. Chen, R. Chen, Y. Chen, H. Kuusniemi and J. Wang, \u201cAn effective pedestrian dead reckoning algorithm using a unified heading error model,\u201d Proc. of Position Location and Navigation Symposium(PLANS), pp. 340-347, May. 2010.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "An effective pedestrian dead reckoning algorithm using a unified heading error model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955043536",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "340",
+                                "@last": "347"
+                            }},
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuusniemi",
+                                    "ce:indexed-name": "Kuusniemi H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of Position Location and Navigation Symposium(Plans)"
+                        },
+                        "ce:source-text": "W. Chen, R. Chen, Y. Chen, H. Kuusniemi and J. Wang, \u201cAn effective pedestrian dead reckoning algorithm using a unified heading error model,\u201d Proc. of Position Location and Navigation Symposium(PLANS), pp. 340-347, May. 2010."
+                    },
+                    {
+                        "ref-fulltext": "W. Zijlstra and A. L. Hof, \u201cDisplacement of the pelvis during human walking: experimental data and model predications,\u201d Gait & Posture, vol. 6, no. 3, pp. 249-262, Dec. 1997.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Displacement of the pelvis during human walking: Experimental data and model predications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030667603",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "249",
+                                    "@last": "262"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zijlstra",
+                                    "ce:indexed-name": "Zijlstra W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hof",
+                                    "ce:indexed-name": "Hof A.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait & Posture"
+                        },
+                        "ce:source-text": "W. Zijlstra and A. L. Hof, \u201cDisplacement of the pelvis during human walking: experimental data and model predications,\u201d Gait & Posture, vol. 6, no. 3, pp. 249-262, Dec. 1997."
+                    },
+                    {
+                        "ref-fulltext": "S. Cho and C. Park, \u201cMEMS based pedestrian navigation system,\u201d The Journal of Navigation, vol. 59, pp. 135-153, Jan. 2006.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "MEMS based pedestrian navigation system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "31144461059",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "59"},
+                                "pagerange": {
+                                    "@first": "135",
+                                    "@last": "153"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Journal of Navigation"
+                        },
+                        "ce:source-text": "S. Cho and C. Park, \u201cMEMS based pedestrian navigation system,\u201d The Journal of Navigation, vol. 59, pp. 135-153, Jan. 2006."
+                    },
+                    {
+                        "ref-fulltext": "S. Y. Hwang and J. M. Lee, \u201cEstimation of attitude and position of moving objects using multi-filtered inertial navigation system,\u201d The Transactions of The Korean Institute of Electrical Engineers, vol. 60, no. 12, pp. 2339-2345, Dec. 2011.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Estimation of attitude and position of moving objects using multi-filtered inertial navigation system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "83755228899",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2339",
+                                    "@last": "2345"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hwang",
+                                    "ce:indexed-name": "Hwang S.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Transactions of the Korean Institute of Electrical Engineers"
+                        },
+                        "ce:source-text": "S. Y. Hwang and J. M. Lee, \u201cEstimation of attitude and position of moving objects using multi-filtered inertial navigation system,\u201d The Transactions of The Korean Institute of Electrical Engineers, vol. 60, no. 12, pp. 2339-2345, Dec. 2011."
+                    },
+                    {
+                        "ref-fulltext": "S. Y. Cho and C. G. Park, \u201cMEMS based pedestrian navigation system,\u201d The Journal of Navigation, vol. 59, no. 1, pp. 135-153, Jan. 2006.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "MEMS based pedestrian navigation system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "31144461059",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "135",
+                                    "@last": "153"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho S.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park C.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Journal of Navigation"
+                        },
+                        "ce:source-text": "S. Y. Cho and C. G. Park, \u201cMEMS based pedestrian navigation system,\u201d The Journal of Navigation, vol. 59, no. 1, pp. 135-153, Jan. 2006."
+                    },
+                    {
+                        "ref-fulltext": "W. T. Faulkner, R. Alwood, D. W. A. Taylor, and J. Bohlin, \u201cAltitude accuracy while tracking pedestrians using a boot-mounted IMU,\u201d Proc. of 2010 IEEE/ION Position Location and Navigation Symposium (PLANS), pp. 90-96, May. 2010.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Altitude accuracy while tracking pedestrians using a boot-mounted IMU"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955030062",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "90",
+                                "@last": "96"
+                            }},
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faulkner",
+                                    "ce:indexed-name": "Faulkner W.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alwood",
+                                    "ce:indexed-name": "Alwood R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.W.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor D.W.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bohlin",
+                                    "ce:indexed-name": "Bohlin J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of 2010 IEEE/ION Position Location and Navigation Symposium (PLANS)"
+                        },
+                        "ce:source-text": "W. T. Faulkner, R. Alwood, D. W. A. Taylor, and J. Bohlin, \u201cAltitude accuracy while tracking pedestrians using a boot-mounted IMU,\u201d Proc. of 2010 IEEE/ION Position Location and Navigation Symposium (PLANS), pp. 90-96, May. 2010."
+                    },
+                    {
+                        "ref-fulltext": "L. I. Iozan, J. Colliny, J. Takala, and C. Rusu, \u201cImproved indoor navigation system based on MEMS Technology,\u201d Proc. of Signals, Circuits and Systems (ISSCS), 2011 10thInternational Symposium on, pp. 1-4, Jun. 2011.",
+                        "@id": "17",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052646723",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "4"
+                            }},
+                            "ref-text": "2011 10thInternational Symposium on,, Jun. 2011",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iozan",
+                                    "ce:indexed-name": "Iozan L.I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Colliny",
+                                    "ce:indexed-name": "Colliny J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takala",
+                                    "ce:indexed-name": "Takala J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusu",
+                                    "ce:indexed-name": "Rusu C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Improved Indoor Navigation System Based on MEMS Technology, Proc. of Signals, Circuits and Systems (ISSCS)"
+                        },
+                        "ce:source-text": "L. I. Iozan, J. Colliny, J. Takala, and C. Rusu, \u201cImproved indoor navigation system based on MEMS Technology,\u201d Proc. of Signals, Circuits and Systems (ISSCS), 2011 10th International Symposium on, pp. 1-4, Jun. 2011."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Busan",
+            "@id": "60008783",
+            "affilname": "Pusan National University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008783",
+            "affiliation-country": "South Korea"
+        },
+        {
+            "affiliation-city": null,
+            "@id": "122480816",
+            "affilname": "Electroinics and Telecommunications Research Institute",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122480816",
+            "affiliation-country": "South Korea"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85059704171",
+        "dc:description": "This paper proposes a three-dimensional pedestrian position estimation algorithm using a waist-mounted Inertial Measurement Unit (IMU) sensor. A Pedestrian Dead Reckoning (PDR) system has been implemented using a single IMU sensor to locate a pedestrian who is carrying the PDR system on his waist in a building in which GPS signals are too weak to be utilized for localization. The position estimation system using IMU data suffers from degraded accuracy caused by the bias drift of gyroscope values. This approach adopts the quaternion to reduce the bias drift and obtain the precise Euler angles to localize the pedestrian in two-dimensional space with the step length estimation. To extend the localization into three-dimensional space to incorporate situations in which the pedestrian is ascending or descending the stairs, Zero-Velocity UpdaTe (ZUPT) scheme has been applied for processing gyroscope data from the IMU sensor. Real experiments have been performed to show the proposed algorithm\u2019s effectiveness in both two-and three-dimensional spaces.",
+        "prism:coverDate": "2018-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85059704171",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Jun-Woo",
+            "preferred-name": {
+                "ce:given-name": "Jun Woo",
+                "ce:initials": "J.W.",
+                "ce:surname": "Song",
+                "ce:indexed-name": "Song J.W."
+            },
+            "@seq": "1",
+            "ce:initials": "J.-W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60008783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008783"
+            },
+            "ce:alt-name": "송 준 우",
+            "ce:surname": "Song",
+            "@auid": "57214400089",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57214400089",
+            "ce:indexed-name": "Song J.-W."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85059704171"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85059704171&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85059704171&origin=inward"
+            }
+        ],
+        "source-id": "21100201073",
+        "citedby-count": "5",
+        "prism:volume": "24",
+        "subtype": "ar",
+        "dc:title": "Three-dimensional pedestrian position estimation algorithm using waist-mounted IMU sensor",
+        "openaccess": "0",
+        "prism:issn": "19765622",
+        "publishercopyright": "© ICROS 2018.",
+        "prism:issueIdentifier": "5",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Journal of Institute of Control, Robotics and Systems",
+        "prism:pageRange": "453-459",
+        "prism:endingPage": "459",
+        "openaccessFlag": "false",
+        "prism:doi": "10.5302/J.ICROS.2018.17.0217",
+        "prism:startingPage": "453",
+        "dc:identifier": "SCOPUS_ID:85059704171",
+        "dc:publisher": "Institute of Control, Robotics and Systemsjournal@ijcas.com"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Inertial measurement unit",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "PDR system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pedestrian dead reckoning systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Position estimation system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Step length estimations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Zero velocity update (ZUPT)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "ZUPT",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "IMU sensor"
+        },
+        {
+            "@_fa": "true",
+            "$": "PDR system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Step length estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "ZUPT"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Jun-Woo",
+            "preferred-name": {
+                "ce:given-name": "Jun Woo",
+                "ce:initials": "J.W.",
+                "ce:surname": "Song",
+                "ce:indexed-name": "Song J.W."
+            },
+            "@seq": "1",
+            "ce:initials": "J.-W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60008783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008783"
+            },
+            "ce:alt-name": "송 준 우",
+            "ce:surname": "Song",
+            "@auid": "57214400089",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57214400089",
+            "ce:indexed-name": "Song J.-W."
+        },
+        {
+            "ce:given-name": "Yang",
+            "preferred-name": {
+                "ce:given-name": "Yang",
+                "ce:initials": "Y.",
+                "ce:surname": "Liu",
+                "ce:indexed-name": "Liu Y."
+            },
+            "@seq": "2",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60008783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008783"
+            },
+            "ce:alt-name": "류 양",
+            "ce:surname": "Liu",
+            "@auid": "57206822671",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57206822671",
+            "ce:indexed-name": "Liu Y."
+        },
+        {
+            "ce:given-name": "Hoe-Sung",
+            "preferred-name": {
+                "ce:given-name": "Hoe Sung",
+                "ce:initials": "H.S.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang H.S."
+            },
+            "@seq": "3",
+            "ce:initials": "H.-S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "122480816",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122480816"
+            },
+            "ce:alt-name": "양 회 성",
+            "ce:surname": "Yang",
+            "@auid": "57204958247",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57204958247",
+            "ce:indexed-name": "Yang H.-S."
+        },
+        {
+            "ce:given-name": "Kang-Bok",
+            "preferred-name": {
+                "ce:given-name": "Kang Bok",
+                "ce:initials": "K.B.",
+                "ce:surname": "Lee",
+                "ce:indexed-name": "Lee K.B."
+            },
+            "@seq": "4",
+            "ce:initials": "K.-B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "122480816",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/122480816"
+            },
+            "ce:alt-name": "이 강 복",
+            "ce:surname": "Lee",
+            "@auid": "56102808200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56102808200",
+            "ce:indexed-name": "Lee K.-B."
+        },
+        {
+            "ce:given-name": "Jang-Myung",
+            "preferred-name": {
+                "ce:given-name": "Jang Myung",
+                "ce:initials": "J.M.",
+                "ce:surname": "Lee",
+                "ce:indexed-name": "Lee J.M."
+            },
+            "@seq": "5",
+            "ce:initials": "J.-M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60008783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60008783"
+            },
+            "ce:alt-name": "이 장 명",
+            "ce:surname": "Lee",
+            "@auid": "7601484617",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7601484617",
+            "ce:indexed-name": "Lee J.-M."
+        }
+    ]}
+}}

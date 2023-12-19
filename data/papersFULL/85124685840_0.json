@@ -1,0 +1,1769 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "08",
+                "@timestamp": "2023-06-08T12:07:56.000056-04:00",
+                "@year": "2023",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Austrian Research Foundation",
+                    "xocs:funding-id": "IPN 86-N30"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Academy of Finland",
+                    "xocs:funding-agency": "Academy of Finland",
+                    "xocs:funding-id": "326304",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002341",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/660013/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-02-24T12:12:23.838Z",
+            "xocs:funding-text": "This work has been partially supported by CHIST-ERA project IPALM (Academy of Finland decision 326304), and by the Austrian Research Foundation (Euregio IPN 86-N30, OLIVER).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Finland",
+                            "@afid": "60103653",
+                            "@country": "fin",
+                            "organization": [
+                                {"$": "Intelligent Robotics Group"},
+                                {"$": "Aalto University"},
+                                {"$": "Dept of Electrical Engineering and Automation"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60103653",
+                                "@dptid": "114447492"
+                            },
+                            "ce:source-text": "Intelligent Robotics Group, Aalto University, Dept of Electrical Engineering and Automation, Finland",
+                            "@dptid": "114447492"
+                        },
+                        "author": [{
+                            "ce:given-name": "Fares J.",
+                            "preferred-name": {
+                                "ce:given-name": "Fares J.",
+                                "ce:initials": "F.J.",
+                                "ce:surname": "Abu-Dakka",
+                                "ce:indexed-name": "Abu-Dakka F.J."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "F.J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Abu-Dakka",
+                            "@auid": "54882427200",
+                            "ce:indexed-name": "Abu-Dakka F.J."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Austria",
+                            "@afid": "60009999",
+                            "@country": "aut",
+                            "organization": [
+                                {"$": "Digital Science Center"},
+                                {"$": "University of Innsbruck"},
+                                {"$": "Dept of Computer Science"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60009999",
+                                "@dptid": "103546246"
+                            },
+                            "ce:source-text": "Digital Science Center, University of Innsbruck, Dept of Computer Science, Austria",
+                            "@dptid": "103546246"
+                        },
+                        "author": [{
+                            "ce:given-name": "Matteo",
+                            "preferred-name": {
+                                "ce:given-name": "Matteo",
+                                "ce:initials": "M.",
+                                "ce:surname": "Saveriano",
+                                "ce:indexed-name": "Saveriano M."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "M.",
+                            "@date-locked": "2022-09-14T22:29:30.857",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Saveriano",
+                            "@auid": "55556026600",
+                            "ce:indexed-name": "Saveriano M."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Netherlands",
+                            "@afid": "60118240",
+                            "@country": "nld",
+                            "city": "Delft",
+                            "organization": [
+                                {"$": "Delft Haptics Lab"},
+                                {"$": "Delft University of Technology"},
+                                {"$": "Dept of Cognitive Robotics"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60118240"},
+                                {"@afid": "60006288"}
+                            ],
+                            "ce:source-text": "Delft Haptics Lab, Delft University of Technology, Dept of Cognitive Robotics, Delft, Netherlands"
+                        },
+                        "author": [{
+                            "ce:given-name": "Luka",
+                            "preferred-name": {
+                                "ce:given-name": "Luka",
+                                "ce:initials": "L.",
+                                "ce:surname": "Peternel",
+                                "ce:indexed-name": "Peternel L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Peternel",
+                            "@auid": "56943287700",
+                            "ce:indexed-name": "Peternel L."
+                        }]
+                    }
+                ],
+                "citation-title": "Periodic DMP formulation for Quaternion Trajectories",
+                "abstracts": "© 2021 IEEE.Imitation learning techniques have been used as a way to transfer skills to robots. Among them, dynamic movement primitives (DMPs) have been widely exploited as an effective and an efficient technique to learn and reproduce complex discrete and periodic skills. While DMPs have been properly formulated for learning point-to-point movements for both translation and orientation, periodic ones are missing a formulation to learn the orientation. To address this gap, we propose a novel DMP formulation that enables encoding of periodic orientation trajectories. Within this formulation we develop two approaches: Riemannian metric-based projection approach and unit quaternion based periodic DMP. Both formulations exploit unit quaternions to represent the orientation. However, the first exploits the properties of Riemannian manifolds to work in the tangent space of the unit sphere. The second encodes directly the unit quaternion trajectory while guaranteeing the unitary norm of the generated quaternions. We validated the technical aspects of the proposed methods in simulation. Then we performed experiments on a real robot to execute daily tasks that involve periodic orientation changes (i.e., surface polishing/wiping and liquid mixing by shaking).",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9658571",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "2021 20th International Conference on Advanced Robotics, ICAR 2021",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "658",
+                        "@last": "663"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665436847",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "20th International Conference on Advanced Robotics, ICAR 2021",
+                            "confnumber": "20",
+                            "confcatnumber": "CFP21ROB-ART",
+                            "confseriestitle": "International Conference on Advanced Robotics",
+                            "conflocation": {
+                                "@country": "svn",
+                                "city": "Ljubljana"
+                            },
+                            "confcode": "176154",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "10",
+                                    "@year": "2021",
+                                    "@month": "12"
+                                },
+                                "startdate": {
+                                    "@day": "06",
+                                    "@year": "2021",
+                                    "@month": "12"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2021 20th International Conference on Advanced Robotics, ICAR 2021",
+                    "publicationdate": {
+                        "year": "2021",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2021"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Int. Conf. Adv. Robot., ICAR",
+                    "@country": "usa",
+                    "issuetitle": "2021 20th International Conference on Advanced Robotics, ICAR 2021",
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21101076066"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1709"},
+                            {"$": "1712"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work has been partially supported by CHIST-ERA project IPALM (Academy of Finland decision 326304), and by the Austrian Research Foundation (Euregio IPN 86-N30, OLIVER).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "21",
+                    "@timestamp": "BST 11:02:08",
+                    "@year": "2022",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "637278599",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "938613657",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20220811680396",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20220629910",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85124685840",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85124685840",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ICAR53236.2021.9659319"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "25",
+                "reference": [
+                    {
+                        "ref-fulltext": "A. J. Ijspeert, J. Nakanishi, and S. Schaal, \"Learning rhythmic movements by demonstration using nonlinear oscillators, \" in IROS, vol. 1, Lausanne, Switzerland, 2002, pp. 958-963.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Learning rhythmic movements by demonstration using nonlinear oscillators"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036452134",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "958",
+                                    "@last": "963"
+                                }
+                            },
+                            "ref-text": "Lausanne, Switzerland",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ijspeert",
+                                    "ce:indexed-name": "Ijspeert A.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakanishi",
+                                    "ce:indexed-name": "Nakanishi J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaal",
+                                    "ce:indexed-name": "Schaal S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IROS"
+                        },
+                        "ce:source-text": "A. J. Ijspeert, J. Nakanishi, and S. Schaal, \"Learning rhythmic movements by demonstration using nonlinear oscillators, \" in IROS, vol. 1, Lausanne, Switzerland, 2002, pp. 958-963."
+                    },
+                    {
+                        "ref-fulltext": "M. Saveriano, F. J. Abu-Dakka, A. Kramberger, and L. Peternel, \"Dynamic movement primitives in robotics: A tutorial survey, \" arXiv preprint arXiv: 2102. 03861, 2021.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "2102. 03861",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85111232548",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saveriano",
+                                    "ce:indexed-name": "Saveriano M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abu-Dakka",
+                                    "ce:indexed-name": "Abu-Dakka F.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kramberger",
+                                    "ce:indexed-name": "Kramberger A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peternel",
+                                    "ce:indexed-name": "Peternel L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Dynamic Movement Primitives in Robotics: A Tutorial Survey"
+                        },
+                        "ce:source-text": "M. Saveriano, F. J. Abu-Dakka, A. Kramberger, and L. Peternel, \"Dynamic movement primitives in robotics: A tutorial survey, \" arXiv preprint arXiv: 2102. 03861, 2021."
+                    },
+                    {
+                        "ref-fulltext": "A. Gams, T. Petric, M. Do, B. Nemec, J. Morimoto, T. Asfour, and A. Ude, \"Adaptation and coaching of periodic motion primitives through physical and visual interaction, \" Rob. Auton. Syst., vol. 75, pp. 340-351, 2016.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Adaptation and coaching of periodic motion primitives through physical and visual interaction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84949870621",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "75"},
+                                "pagerange": {
+                                    "@first": "340",
+                                    "@last": "351"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gams",
+                                    "ce:indexed-name": "Gams A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petric",
+                                    "ce:indexed-name": "Petric T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Do",
+                                    "ce:indexed-name": "Do M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nemec",
+                                    "ce:indexed-name": "Nemec B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morimoto",
+                                    "ce:indexed-name": "Morimoto J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asfour",
+                                    "ce:indexed-name": "Asfour T."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ude",
+                                    "ce:indexed-name": "Ude A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Rob. Auton. Syst."
+                        },
+                        "ce:source-text": "A. Gams, T. Petric, M. Do, B. Nemec, J. Morimoto, T. Asfour, and A. Ude, \"Adaptation and coaching of periodic motion primitives through physical and visual interaction, \" Rob. Auton. Syst., vol. 75, pp. 340-351, 2016."
+                    },
+                    {
+                        "ref-fulltext": "L. Peternel, N. Tsagarakis, D. Caldwell, and A. Ajoudani, \"Robot adaptation to human physical fatigue in human-robot comanipulation, \" Auton. Robots, vol. 42, no. 5, pp. 1011-1021, 2018.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Robot adaptation to human physical fatigue in human-robot comanipulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85033501598",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1011",
+                                    "@last": "1021"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peternel",
+                                    "ce:indexed-name": "Peternel L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsagarakis",
+                                    "ce:indexed-name": "Tsagarakis N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Caldwell",
+                                    "ce:indexed-name": "Caldwell D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ajoudani",
+                                    "ce:indexed-name": "Ajoudani A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Auton. Robots"
+                        },
+                        "ce:source-text": "L. Peternel, N. Tsagarakis, D. Caldwell, and A. Ajoudani, \"Robot adaptation to human physical fatigue in human-robot comanipulation, \" Auton. Robots, vol. 42, no. 5, pp. 1011-1021, 2018."
+                    },
+                    {
+                        "ref-fulltext": "L. Peternel, T. Petric, and J. Babic, \"Robotic assembly solution by human-in-the-loop teaching method based on real-time stiffness modulation, \" Auton. Robots, vol. 42, no. 1, pp. 1-17, 2018.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Robotic assembly solution by human-in-the-loop teaching method based on real-time stiffness modulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017466888",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "17"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peternel",
+                                    "ce:indexed-name": "Peternel L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petric",
+                                    "ce:indexed-name": "Petric T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babic",
+                                    "ce:indexed-name": "Babic J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Auton. Robots"
+                        },
+                        "ce:source-text": "L. Peternel, T. Petric, and J. Babic, \"Robotic assembly solution by human-in-the-loop teaching method based on real-time stiffness modulation, \" Auton. Robots, vol. 42, no. 1, pp. 1-17, 2018."
+                    },
+                    {
+                        "ref-fulltext": "E. Rückert and A. d'Avella, \"Learned parametrized dynamic movement primitives with shared synergies for controlling robotic and musculoskeletal systems, \" Front. Comput. Neurosci., 2013.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Learned parametrized dynamic movement primitives with shared synergies for controlling robotic and musculoskeletal systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84886246837",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rückert",
+                                    "ce:indexed-name": "Ruckert E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "D'Avella",
+                                    "ce:indexed-name": "D'Avella A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Front. Comput. Neurosci."
+                        },
+                        "ce:source-text": "E. Rückert and A. d'Avella, \"Learned parametrized dynamic movement primitives with shared synergies for controlling robotic and musculoskeletal systems, \" Front. Comput. Neurosci., 2013."
+                    },
+                    {
+                        "ref-fulltext": "L. Peternel, T. Noda, T. Petric, A. Ude, J. Morimoto, and J. Babic, \"Adaptive control of exoskeleton robots for periodic assistive behaviours based on emg feedback minimisation, \" PLOS ONE, 2016.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Adaptive control of exoskeleton robots for periodic assistive behaviours based on emg feedback minimisation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979020342",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peternel",
+                                    "ce:indexed-name": "Peternel L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Noda",
+                                    "ce:indexed-name": "Noda T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petric",
+                                    "ce:indexed-name": "Petric T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ude",
+                                    "ce:indexed-name": "Ude A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morimoto",
+                                    "ce:indexed-name": "Morimoto J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Babic",
+                                    "ce:indexed-name": "Babic J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PLOS ONE"
+                        },
+                        "ce:source-text": "L. Peternel, T. Noda, T. Petric, A. Ude, J. Morimoto, and J. Babic, \"Adaptive control of exoskeleton robots for periodic assistive behaviours based on emg feedback minimisation, \" PLOS ONE, 2016."
+                    },
+                    {
+                        "ref-fulltext": "P. Pastor, L. Righetti, M. Kalakrishnan, and S. Schaal, \"Online movement adaptation based on previous sensor experiences, \" in IROS, San Francisco, CA, USA, 2011, pp. 365-371.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Online movement adaptation based on previous sensor experiences"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84455185041",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "365",
+                                "@last": "371"
+                            }},
+                            "ref-text": "San Francisco, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pastor",
+                                    "ce:indexed-name": "Pastor P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Righetti",
+                                    "ce:indexed-name": "Righetti L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kalakrishnan",
+                                    "ce:indexed-name": "Kalakrishnan M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaal",
+                                    "ce:indexed-name": "Schaal S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IROS"
+                        },
+                        "ce:source-text": "P. Pastor, L. Righetti, M. Kalakrishnan, and S. Schaal, \"Online movement adaptation based on previous sensor experiences, \" in IROS, San Francisco, CA, USA, 2011, pp. 365-371."
+                    },
+                    {
+                        "ref-fulltext": "F. J. Abu-Dakka, B. Nemec, J. A. Jørgensen, T. R. Savarimuthu, N. Krüger, and A. Ude, \"Adaptation of manipulation skills in physical contact with the environment to reference force profiles, \" Auton. Robots, vol. 39, no. 2, pp. 199-217, 2015.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Adaptation of manipulation skills in physical contact with the environment to reference force profiles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937523610",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "199",
+                                    "@last": "217"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abu-Dakka",
+                                    "ce:indexed-name": "Abu-Dakka F.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nemec",
+                                    "ce:indexed-name": "Nemec B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jørgensen",
+                                    "ce:indexed-name": "Jorgensen J.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Savarimuthu",
+                                    "ce:indexed-name": "Savarimuthu T.R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krüger",
+                                    "ce:indexed-name": "Kruger N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ude",
+                                    "ce:indexed-name": "Ude A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Auton. Robots"
+                        },
+                        "ce:source-text": "F. J. Abu-Dakka, B. Nemec, J. A. Jørgensen, T. R. Savarimuthu, N. Krüger, and A. Ude, \"Adaptation of manipulation skills in physical contact with the environment to reference force profiles, \" Auton. Robots, vol. 39, no. 2, pp. 199-217, 2015."
+                    },
+                    {
+                        "ref-fulltext": "L. Koutras and Z. Doulgeri, \"A correct formulation for the orientation dynamic movement primitives for robot control in the cartesian space, \" in Conference on robot learning, 2020, pp. 293-302.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A correct formulation for the orientation dynamic movement primitives for robot control in the cartesian space"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85160818474",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "293",
+                                "@last": "302"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koutras",
+                                    "ce:indexed-name": "Koutras L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doulgeri",
+                                    "ce:indexed-name": "Doulgeri Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Conference on Robot Learning"
+                        },
+                        "ce:source-text": "L. Koutras and Z. Doulgeri, \"A correct formulation for the orientation dynamic movement primitives for robot control in the cartesian space, \" in Conference on robot learning, 2020, pp. 293-302."
+                    },
+                    {
+                        "ref-fulltext": "A. Ude, B. Nemec, T. Petric, and J. Morimoto, \"Orientation in cartesian space dynamic movement primitives, \" in ICRA, 2014, pp. 2997-3004.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Orientation in cartesian space dynamic movement primitives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84929192871",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2997",
+                                "@last": "3004"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ude",
+                                    "ce:indexed-name": "Ude A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nemec",
+                                    "ce:indexed-name": "Nemec B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petric",
+                                    "ce:indexed-name": "Petric T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morimoto",
+                                    "ce:indexed-name": "Morimoto J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICRA"
+                        },
+                        "ce:source-text": "A. Ude, B. Nemec, T. Petric, and J. Morimoto, \"Orientation in cartesian space dynamic movement primitives, \" in ICRA, 2014, pp. 2997-3004."
+                    },
+                    {
+                        "ref-fulltext": "A. J. Ijspeert, J. Nakanishi, H. Hoffmann, P. Pastor, and S. Schaal, \"Dynamical Movement Primitives: Learning Attractor Models for Motor Behaviors, \" Neural Comput., vol. 25, no. 2, pp. 328-373, 2013.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Dynamical Movement Primitives: Learning Attractor Models for Motor Behaviors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875592161",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "328",
+                                    "@last": "373"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ijspeert",
+                                    "ce:indexed-name": "Ijspeert A.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakanishi",
+                                    "ce:indexed-name": "Nakanishi J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoffmann",
+                                    "ce:indexed-name": "Hoffmann H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pastor",
+                                    "ce:indexed-name": "Pastor P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaal",
+                                    "ce:indexed-name": "Schaal S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput."
+                        },
+                        "ce:source-text": "A. J. Ijspeert, J. Nakanishi, H. Hoffmann, P. Pastor, and S. Schaal, \"Dynamical Movement Primitives: Learning Attractor Models for Motor Behaviors, \" Neural Comput., vol. 25, no. 2, pp. 328-373, 2013."
+                    },
+                    {
+                        "ref-fulltext": "A. Paraschos, C. Daniel, J. Peters, and G. Neumann, \"Probabilistic movement primitives, \" in NeurIPS, 2013, pp. 2616-2624.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Probabilistic movement primitives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898978448",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2616",
+                                "@last": "2624"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paraschos",
+                                    "ce:indexed-name": "Paraschos A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daniel",
+                                    "ce:indexed-name": "Daniel C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neumann",
+                                    "ce:indexed-name": "Neumann G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "NeurIPS"
+                        },
+                        "ce:source-text": "A. Paraschos, C. Daniel, J. Peters, and G. Neumann, \"Probabilistic movement primitives, \" in NeurIPS, 2013, pp. 2616-2624."
+                    },
+                    {
+                        "ref-fulltext": "S. M. Khansari-Zadeh and A. Billard, \"Learning stable non-linear dynamical systems with gaussian mixture models, \" IEEE Trans. Robot., vol. 27, no. 5, pp. 943-957, 2011.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Learning stable non-linear dynamical systems with gaussian mixture models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053623760",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "943",
+                                    "@last": "957"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khansari-Zadeh",
+                                    "ce:indexed-name": "Khansari-Zadeh S.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Billard",
+                                    "ce:indexed-name": "Billard A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        },
+                        "ce:source-text": "S. M. Khansari-Zadeh and A. Billard, \"Learning stable non-linear dynamical systems with gaussian mixture models, \" IEEE Trans. Robot., vol. 27, no. 5, pp. 943-957, 2011."
+                    },
+                    {
+                        "ref-fulltext": "M. Saveriano, \"An energy-based approach to ensure the stability of learned dynamical systems, \" in ICRA, 2020, pp. 4407-4413.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "An energy-based approach to ensure the stability of learned dynamical systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85088782143",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4407",
+                                "@last": "4413"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Saveriano",
+                                "ce:indexed-name": "Saveriano M."
+                            }]},
+                            "ref-sourcetitle": "ICRA"
+                        },
+                        "ce:source-text": "M. Saveriano, \"An energy-based approach to ensure the stability of learned dynamical systems, \" in ICRA, 2020, pp. 4407-4413."
+                    },
+                    {
+                        "ref-fulltext": "S. Calinon, D. Bruno, and D. G. Caldwell, \"A task-parameterized probabilistic model with minimal intervention control, \" in ICRA, 2014, pp. 3339-3344.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A task-parameterized probabilistic model with minimal intervention control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84926299115",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3339",
+                                "@last": "3344"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Calinon",
+                                    "ce:indexed-name": "Calinon S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruno",
+                                    "ce:indexed-name": "Bruno D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Caldwell",
+                                    "ce:indexed-name": "Caldwell D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICRA"
+                        },
+                        "ce:source-text": "S. Calinon, D. Bruno, and D. G. Caldwell, \"A task-parameterized probabilistic model with minimal intervention control, \" in ICRA, 2014, pp. 3339-3344."
+                    },
+                    {
+                        "ref-fulltext": "Y. Huang, F. J. Abu-Dakka, J. Silvério, and D. G. Caldwell, \"Toward orientation learning and adaptation in cartesian space, \" IEEE Trans. Robot., vol. 37, no. 1, pp. 82-98, 2021.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Toward orientation learning and adaptation in cartesian space"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100982583",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "82",
+                                    "@last": "98"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abu-Dakka",
+                                    "ce:indexed-name": "Abu-Dakka F.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silvério",
+                                    "ce:indexed-name": "Silverio J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Caldwell",
+                                    "ce:indexed-name": "Caldwell D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        },
+                        "ce:source-text": "Y. Huang, F. J. Abu-Dakka, J. Silvério, and D. G. Caldwell, \"Toward orientation learning and adaptation in cartesian space, \" IEEE Trans. Robot., vol. 37, no. 1, pp. 82-98, 2021."
+                    },
+                    {
+                        "ref-fulltext": "P. Pastor, H. Hoffmann, T. Asfour, and S. Schaal, \"Learning and generalization of motor skills by learning from demonstration, \" in ICRA, 2009, pp. 763-768.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Learning and generalization of motor skills by learning from demonstration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85105191314",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "763",
+                                "@last": "768"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pastor",
+                                    "ce:indexed-name": "Pastor P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoffmann",
+                                    "ce:indexed-name": "Hoffmann H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asfour",
+                                    "ce:indexed-name": "Asfour T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaal",
+                                    "ce:indexed-name": "Schaal S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICRA"
+                        },
+                        "ce:source-text": "P. Pastor, H. Hoffmann, T. Asfour, and S. Schaal, \"Learning and generalization of motor skills by learning from demonstration, \" in ICRA, 2009, pp. 763-768."
+                    },
+                    {
+                        "ref-fulltext": "J. Silvério, L. Rozo, S. Calinon, and D. G. Caldwell, \"Learning bimanual end-effector poses from demonstrations using task-parameterized dynamical systems, \" in IROS, 2015, pp. 464-470.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Learning bimanual end-effector poses from demonstrations using task-parameterized dynamical systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958164908",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "464",
+                                "@last": "470"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silvério",
+                                    "ce:indexed-name": "Silverio J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rozo",
+                                    "ce:indexed-name": "Rozo L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Calinon",
+                                    "ce:indexed-name": "Calinon S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Caldwell",
+                                    "ce:indexed-name": "Caldwell D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IROS"
+                        },
+                        "ce:source-text": "J. Silvério, L. Rozo, S. Calinon, and D. G. Caldwell, \"Learning bimanual end-effector poses from demonstrations using task-parameterized dynamical systems, \" in IROS, 2015, pp. 464-470."
+                    },
+                    {
+                        "ref-fulltext": "M. Saveriano, F. Franzel, and D. Lee, \"Merging position and orientation motion primitives, \" in ICRA, 2019, pp. 7041-7047.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Merging position and orientation motion primitives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071513693",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "7041",
+                                "@last": "7047"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saveriano",
+                                    "ce:indexed-name": "Saveriano M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Franzel",
+                                    "ce:indexed-name": "Franzel F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ICRA"
+                        },
+                        "ce:source-text": "M. Saveriano, F. Franzel, and D. Lee, \"Merging position and orientation motion primitives, \" in ICRA, 2019, pp. 7041-7047."
+                    },
+                    {
+                        "ref-fulltext": "S. Kim, R. Haschke, and H. Ritter, \"Gaussian mixture model for 3-dof orientations, \" Rob. Auton. Syst., vol. 87, pp. 28-37, 2017.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Gaussian mixture model for 3-dof orientations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84997079918",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "87"},
+                                "pagerange": {
+                                    "@first": "28",
+                                    "@last": "37"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haschke",
+                                    "ce:indexed-name": "Haschke R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ritter",
+                                    "ce:indexed-name": "Ritter H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Rob. Auton. Syst."
+                        },
+                        "ce:source-text": "S. Kim, R. Haschke, and H. Ritter, \"Gaussian mixture model for 3-dof orientations, \" Rob. Auton. Syst., vol. 87, pp. 28-37, 2017."
+                    },
+                    {
+                        "ref-fulltext": "M. J. Zeestraten, I. Havoutis, J. Silvério, S. Calinon, and D. G. Caldwell, \"An approach for imitation learning on riemannian manifolds, \" IEEE Robot. Autom. Lett., vol. 2, no. 3, pp. 1240-1247, 2017.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "An approach for imitation learning on riemannian manifolds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041962287",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1240",
+                                    "@last": "1247"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeestraten",
+                                    "ce:indexed-name": "Zeestraten M.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Havoutis",
+                                    "ce:indexed-name": "Havoutis I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silvério",
+                                    "ce:indexed-name": "Silverio J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Calinon",
+                                    "ce:indexed-name": "Calinon S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Caldwell",
+                                    "ce:indexed-name": "Caldwell D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robot. Autom. Lett."
+                        },
+                        "ce:source-text": "M. J. Zeestraten, I. Havoutis, J. Silvério, S. Calinon, and D. G. Caldwell, \"An approach for imitation learning on riemannian manifolds, \" IEEE Robot. Autom. Lett., vol. 2, no. 3, pp. 1240-1247, 2017."
+                    },
+                    {
+                        "ref-fulltext": "A. Gams, A. Ijspeert, S. Schaal, and J. Lenarcic, \"On-line learning and modulation of periodic movements with nonlinear dynamical systems, \" Auton. Robots, vol. 27, no. 1, pp. 3-23, 2009.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "On-line learning and modulation of periodic movements with nonlinear dynamical systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67651002795",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "3",
+                                    "@last": "23"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gams",
+                                    "ce:indexed-name": "Gams A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ijspeert",
+                                    "ce:indexed-name": "Ijspeert A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaal",
+                                    "ce:indexed-name": "Schaal S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lenarcic",
+                                    "ce:indexed-name": "Lenarcic J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Auton. Robots"
+                        },
+                        "ce:source-text": "A. Gams, A. Ijspeert, S. Schaal, and J. Lenarcic, \"On-line learning and modulation of periodic movements with nonlinear dynamical systems, \" Auton. Robots, vol. 27, no. 1, pp. 3-23, 2009."
+                    },
+                    {
+                        "ref-fulltext": "J. Ernesti, L. Righetti, M. Do, T. Asfour, and S. Schaal, \"Encoding of periodic and their transient motions by a single dynamic movement primitive, \" in IEEE-RAS Humanoids, 2012, pp. 57-64.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Encoding of periodic and their transient motions by a single dynamic movement primitive"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84883499730",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "57",
+                                "@last": "64"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ernesti",
+                                    "ce:indexed-name": "Ernesti J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Righetti",
+                                    "ce:indexed-name": "Righetti L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Do",
+                                    "ce:indexed-name": "Do M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asfour",
+                                    "ce:indexed-name": "Asfour T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaal",
+                                    "ce:indexed-name": "Schaal S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE-RAS Humanoids"
+                        },
+                        "ce:source-text": "J. Ernesti, L. Righetti, M. Do, T. Asfour, and S. Schaal, \"Encoding of periodic and their transient motions by a single dynamic movement primitive, \" in IEEE-RAS Humanoids, 2012, pp. 57-64."
+                    },
+                    {
+                        "ref-fulltext": "T. Petric, A. Gams, A. J. Ijspeert, and L. Zlajpah, \"On-line frequency adaptation and movement imitation for rhythmic robotic tasks, \" Int. J. Robot. Res., vol. 30, no. 14, pp. 1775-1788, 2011.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "On-line frequency adaptation and movement imitation for rhythmic robotic tasks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "83755219988",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "14"
+                                },
+                                "pagerange": {
+                                    "@first": "1775",
+                                    "@last": "1788"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petric",
+                                    "ce:indexed-name": "Petric T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gams",
+                                    "ce:indexed-name": "Gams A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ijspeert",
+                                    "ce:indexed-name": "Ijspeert A.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zlajpah",
+                                    "ce:indexed-name": "Zlajpah L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Robot. Res."
+                        },
+                        "ce:source-text": "T. Petric, A. Gams, A. J. Ijspeert, and L. Zlajpah, \"On-line frequency adaptation and movement imitation for rhythmic robotic tasks, \" Int. J. Robot. Res., vol. 30, no. 14, pp. 1775-1788, 2011."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Delft",
+            "@id": "60118240",
+            "affilname": "Department of Cognitive Robotics, TU Delft",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118240",
+            "affiliation-country": "Netherlands"
+        },
+        {
+            "affiliation-city": "Espoo",
+            "@id": "60103653",
+            "affilname": "Aalto University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103653",
+            "affiliation-country": "Finland"
+        },
+        {
+            "affiliation-city": "Innsbruck",
+            "@id": "60009999",
+            "affilname": "Universität Innsbruck",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009999",
+            "affiliation-country": "Austria"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85124685840",
+        "dc:description": "Imitation learning techniques have been used as a way to transfer skills to robots. Among them, dynamic movement primitives (DMPs) have been widely exploited as an effective and an efficient technique to learn and reproduce complex discrete and periodic skills. While DMPs have been properly formulated for learning point-to-point movements for both translation and orientation, periodic ones are missing a formulation to learn the orientation. To address this gap, we propose a novel DMP formulation that enables encoding of periodic orientation trajectories. Within this formulation we develop two approaches: Riemannian metric-based projection approach and unit quaternion based periodic DMP. Both formulations exploit unit quaternions to represent the orientation. However, the first exploits the properties of Riemannian manifolds to work in the tangent space of the unit sphere. The second encodes directly the unit quaternion trajectory while guaranteeing the unitary norm of the generated quaternions. We validated the technical aspects of the proposed methods in simulation. Then we performed experiments on a real robot to execute daily tasks that involve periodic orientation changes (i.e., surface polishing/wiping and liquid mixing by shaking).",
+        "prism:coverDate": "2021-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85124685840",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Fares J.",
+            "preferred-name": {
+                "ce:given-name": "Fares J.",
+                "ce:initials": "F.J.",
+                "ce:surname": "Abu-Dakka",
+                "ce:indexed-name": "Abu-Dakka F.J."
+            },
+            "@seq": "1",
+            "ce:initials": "F.J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60103653",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103653"
+            },
+            "ce:surname": "Abu-Dakka",
+            "@auid": "54882427200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/54882427200",
+            "ce:indexed-name": "Abu-Dakka F.J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85124685840"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124685840&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85124685840&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665436847",
+        "prism:publicationName": "2021 20th International Conference on Advanced Robotics, ICAR 2021",
+        "source-id": "21101076066",
+        "citedby-count": "4",
+        "subtype": "cp",
+        "prism:pageRange": "658-663",
+        "dc:title": "Periodic DMP formulation for Quaternion Trajectories",
+        "prism:endingPage": "663",
+        "openaccess": "2",
+        "openaccessFlag": null,
+        "prism:doi": "10.1109/ICAR53236.2021.9659319",
+        "prism:startingPage": "658",
+        "publishercopyright": "© 2021 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85124685840",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Dynamic movement primitives",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Imitation learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learn+",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Learning techniques",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Periodic dynamics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Property",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Riemannian manifold",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Riemannian metrics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tangent space",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unit quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Fares J.",
+            "preferred-name": {
+                "ce:given-name": "Fares J.",
+                "ce:initials": "F.J.",
+                "ce:surname": "Abu-Dakka",
+                "ce:indexed-name": "Abu-Dakka F.J."
+            },
+            "@seq": "1",
+            "ce:initials": "F.J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60103653",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103653"
+            },
+            "ce:surname": "Abu-Dakka",
+            "@auid": "54882427200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/54882427200",
+            "ce:indexed-name": "Abu-Dakka F.J."
+        },
+        {
+            "ce:given-name": "Matteo",
+            "preferred-name": {
+                "ce:given-name": "Matteo",
+                "ce:initials": "M.",
+                "ce:surname": "Saveriano",
+                "ce:indexed-name": "Saveriano M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60009999",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60009999"
+            },
+            "ce:surname": "Saveriano",
+            "@auid": "55556026600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55556026600",
+            "ce:indexed-name": "Saveriano M."
+        },
+        {
+            "ce:given-name": "Luka",
+            "preferred-name": {
+                "ce:given-name": "Luka",
+                "ce:initials": "L.",
+                "ce:surname": "Peternel",
+                "ce:indexed-name": "Peternel L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60118240",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60118240"
+            },
+            "ce:surname": "Peternel",
+            "@auid": "56943287700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56943287700",
+            "ce:indexed-name": "Peternel L."
+        }
+    ]}
+}}

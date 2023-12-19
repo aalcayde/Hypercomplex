@@ -1,0 +1,2676 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "01",
+                "@timestamp": "2021-11-01T12:09:22.000022-04:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "08"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Natural Sciences and Engineering Research Council",
+                    "xocs:funding-agency-acronym": "NSERC",
+                    "xocs:funding-agency": "Natural Sciences and Engineering Research Council of Canada",
+                    "xocs:funding-id": "STPGP 493908",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100000038",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6251999/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Mexican National Council of Science and Technology",
+                    "xocs:funding-agency-acronym": "CONACYT",
+                    "xocs:funding-agency": "Consejo Nacional de Ciencia y Tecnología",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003141",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/3996063/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-06-05T06:18:11.840Z",
+            "xocs:funding-text": [
+                {"$": "This work is funded by the Natural Sciences and Engineering Research Council (NSERC) of Canada through the Strategic Partnership Grants project STPGP 493908 \u201cResearch in Sensory Information Technologies and Implementation in Sleep Disorder Monitoring.\u201d."},
+                {"$": "We thank the Natural Sciences and Engineering Research Council (NSERC) of Canada for their financial support through the Strategic Partnership Grants project STPGP 493908 \u201cResearch in Sensory Information Technologies and Implementation in Sleep Disorder Monitoring.\u201d Author J. E. Hernandez thanks the Mexican National Council of Science and Technology (CONACYT) for their funding and support. The authors also thank Dr. Hadi Mansoor, from Clinical Sleep Solutions, for providing us with a Perfect Fit commercial belt. The authors acknowledge Mr. Reuben Paul, Mr. Rashmi Prakash, Mr. Jonathan Schmok, and Mr. Donald Witt for the design of the electrical interface used for the PE effort belt. We thankfully acknowledge the valuable input by Martin Krzywinski for data visualization."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Canada",
+                        "address-part": "3063-2332 Main Mall",
+                        "postal-code": "V6T 1Z4",
+                        "@afid": "60010365",
+                        "@country": "can",
+                        "city": "Vancouver",
+                        "organization": [
+                            {"$": "Electrical and Computer Engineering"},
+                            {"$": "The University of British Columbia"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60010365",
+                            "@dptid": "113835984"
+                        },
+                        "state": "BC",
+                        "@affiliation-instance-id": "S1746809420301798-96a98c6264e3fa9afd421f281033a356",
+                        "ce:source-text": "Electrical and Computer Engineering, The University of British Columbia, 3063-2332 Main Mall, Vancouver, BC, Canada V6T 1Z4",
+                        "@dptid": "113835984"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Joel Ezequiel",
+                            "preferred-name": {
+                                "ce:given-name": "Joel Ezequiel",
+                                "ce:initials": "J.E.",
+                                "ce:surname": "Hernandez",
+                                "ce:indexed-name": "Hernandez J.E."
+                            },
+                            "@author-instance-id": "S1746809420301798-303be47e6585b0e46d62570e8e4e58f2",
+                            "@seq": "1",
+                            "ce:initials": "J.E.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Hernandez",
+                            "@auid": "57201704215",
+                            "ce:indexed-name": "Hernandez J.E."
+                        },
+                        {
+                            "ce:given-name": "Edmond",
+                            "preferred-name": {
+                                "ce:given-name": "Edmond",
+                                "ce:initials": "E.",
+                                "ce:surname": "Cretu",
+                                "ce:indexed-name": "Cretu E."
+                            },
+                            "@author-instance-id": "S1746809420301798-d1ebe8d6a784a275d6d2892cd56ba396",
+                            "@seq": "2",
+                            "ce:initials": "E.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Cretu",
+                            "@auid": "6603679542",
+                            "ce:indexed-name": "Cretu E."
+                        }
+                    ]
+                },
+                "citation-title": "A wireless, real-time respiratory effort and body position monitoring system for sleep",
+                "abstracts": "© 2020 Elsevier LtdThe number of people suffering from a sleep disorder is growing considerably, with obstructive sleep apnea syndrome (OSAS) being the most common one. Unfortunately, it is estimated that at least 75% of OSAS cases are currently undiagnosed and without treatment, mainly due to the lack of availability and high costs of the polysomnography (PSG) test required. OSAS is known to increase the risk for many severe health complications such as hypertension and neurodegenerative conditions, to mention a few, making early diagnosis important. The monitoring of respiratory effort (RE) and body position (BP) during sleep is essential for OSAS detection. Compared to existing commercial systems for respiratory effort monitoring using piezoelectric sensors wired to a central processing system, we present an embedded system solution that is wireless, runs standalone for up to 12 h, and implements on board an extended Kalman filter (EKF) for performing data fusion. An inertial measurement unit (3D acceleration, angular rate, and orientation sensors) is used for real-time measurement of both the respiratory effort and the body position. The experimental tests, when we compare the collected data with a reference signal, acquired by a commercial belt, indicate a general average Pearson correlation coefficient of ρ=0.963 with results ranging from 0.928 to 0.981, improving over previous works. Low-cost technologies, such as the one presented here, can help to reduce the number of undiagnosed cases of OSAS, and sleep disorders in general, and improve the health of those patients.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Canada",
+                        "address-part": "3063-2332 Main Mall",
+                        "postal-code": "V6T 1Z4",
+                        "@country": "can",
+                        "city": "Vancouver",
+                        "organization": [
+                            {"$": "Electrical and Computer Engineering"},
+                            {"$": "The University of British Columbia"}
+                        ],
+                        "state": "BC"
+                    },
+                    "person": {
+                        "ce:given-name": "Joel Ezequiel",
+                        "ce:initials": "J.E.",
+                        "ce:surname": "Hernandez",
+                        "ce:indexed-name": "Hernandez J.E."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Body position",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Data fusion",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Inertial measurement units",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Respiratory effort",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Sleep monitoring",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.elsevier.com/wps/find/journalbibliographicinfo.cws_home/706718/description#bibliographicinfo",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Biomedical Signal Processing and Control",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "61"}},
+                    "@type": "j",
+                    "sourcetitle": "Biomedical Signal Processing and Control",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2020",
+                        "date-text": "August 2020",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Biomed. Signal Process. Control",
+                    "@country": "gbr",
+                    "issn": [
+                        {
+                            "$": "17468108",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "17468094",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {"publishername": "Elsevier Ltd"},
+                    "article-number": "102023",
+                    "@srcid": "4700152237"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CABSCLASS",
+                        "classification": {
+                            "classification-code": "99",
+                            "classification-description": "General"
+                        }
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461",
+                                "classification-description": "Bioengineering and Biology"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "EMCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "27",
+                                "classification-description": "Biophysics, Bioengineering and Medical Instrumentation"
+                            },
+                            {
+                                "classification-code": "8",
+                                "classification-description": "Neurology and Neurosurgery"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1711"},
+                            {"$": "2718"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MEDI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "We thank the Natural Sciences and Engineering Research Council (NSERC) of Canada for their financial support through the Strategic Partnership Grants project STPGP 493908 \u201cResearch in Sensory Information Technologies and Implementation in Sleep Disorder Monitoring.\u201d Author J. E. Hernandez thanks the Mexican National Council of Science and Technology (CONACYT) for their funding and support. The authors also thank Dr. Hadi Mansoor, from Clinical Sleep Solutions, for providing us with a Perfect Fit commercial belt. The authors acknowledge Mr. Reuben Paul, Mr. Rashmi Prakash, Mr. Jonathan Schmok, and Mr. Donald Witt for the design of the electrical interface used for the PE effort belt. We thankfully acknowledge the valuable input by Martin Krzywinski for data visualization.",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CABS"},
+                    {"$": "CPX"},
+                    {"$": "EMBASE"},
+                    {"$": "EMBIO"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "RMC"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "22",
+                    "@timestamp": "BST 07:59:57",
+                    "@year": "2021",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2006855605",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2020220889",
+                            "@idtype": "CABS"
+                        },
+                        {
+                            "$": "926480936",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20202608876040",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20200524319",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "2018807407",
+                            "@idtype": "EMBIO"
+                        },
+                        {
+                            "$": "20201359242",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "2020230413",
+                            "@idtype": "RMC"
+                        },
+                        {
+                            "$": "20202329986",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85086826555",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85086826555",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S1746809420301798",
+                    "ce:ern": "pii:S1746809420301798",
+                    "ce:doi": "10.1016/j.bspc.2020.102023"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "40",
+                "reference": [
+                    {
+                        "ref-fulltext": "Pien, G.W., Rosen, I.M., Fields, B.G., Sleep apnea syndromes: central and obstructive. Grippi, M.A., Elias, J.A., Fishman, J.A., Kotloff, R.M., Pack, A.I., Senior, R.M., Siegel, M.D., (eds.) Fishman's Pulmonary Diseases and Disorders, 5e, 2015, McGraw-Hill Education, New York, NY accessmedicine.mhmedical.com/content.aspx?aid=1122366079.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "accessmedicine.mhmedical.com/content.aspx?aid=1122366079",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Sleep apnea syndromes: central and obstructive"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84914696290",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "M.A. Grippi J.A. Elias J.A. Fishman R.M. Kotloff A.I. Pack R.M. Senior M.D. Siegel 5e McGraw-Hill Education New York, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pien",
+                                    "ce:indexed-name": "Pien G.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosen",
+                                    "ce:indexed-name": "Rosen I.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fields",
+                                    "ce:indexed-name": "Fields B.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Fishman's Pulmonary Diseases and Disorders"
+                        },
+                        "ce:source-text": "Pien G.W., Rosen I.M., Fields B.G., Sleep Apnea Syndromes: Central and Obstructive In: Grippi M.A., Elias J.A., Fishman J.A., Kotloff R.M., Pack A.I., Senior R.M., Siegel M.D. (Eds.), Fishman's Pulmonary Diseases and Disorders, 2015, 5e, McGraw-Hill Education, New York, NY, accessmedicine.mhmedical.com/content.aspx?aid=1122366079."
+                    },
+                    {
+                        "ref-fulltext": "Bousquet, J., Weltgesundheitsorganisation, (eds.) Global Surveillance, Prevention and Control of Chronic Respiratory Diseases: A Comprehensive Approach, 2007, WHO, Geneva oCLC: 254451348.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "42549171664",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "WHO Geneva oCLC: 254451348",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bousquet",
+                                    "ce:indexed-name": "Bousquet J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weltgesundheitsorganisation",
+                                    "ce:indexed-name": "Weltgesundheitsorganisation"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Global Surveillance, Prevention and Control of Chronic Respiratory Diseases: A Comprehensive Approach"
+                        },
+                        "ce:source-text": "In: Bousquet J., Weltgesundheitsorganisation (Eds.), Global surveillance, prevention and control of chronic respiratory diseases: a comprehensive approach, 2007, WHO, Geneva, oCLC: 254451348."
+                    },
+                    {
+                        "ref-fulltext": "Senaratna, C.V., Perret, J.L., Lodge, C.J., Lowe, A.J., Campbell, B.E., Matheson, M.C., Hamilton, G.S., Dharmage, S.C., Prevalence of obstructive sleep apnea in the general population: a systematic review. Sleep Med. Rev. 34 (2017), 70\u201381, 10.1016/j.smrv.2016.07.002.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Prevalence of obstructive sleep apnea in the general population: a systematic review"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.smrv.2016.07.002",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84994157839",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "34"},
+                                "pagerange": {
+                                    "@first": "70",
+                                    "@last": "81"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Senaratna",
+                                    "ce:indexed-name": "Senaratna C.V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perret",
+                                    "ce:indexed-name": "Perret J.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lodge",
+                                    "ce:indexed-name": "Lodge C.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowe",
+                                    "ce:indexed-name": "Lowe A.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Campbell",
+                                    "ce:indexed-name": "Campbell B.E."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matheson",
+                                    "ce:indexed-name": "Matheson M.C."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamilton",
+                                    "ce:indexed-name": "Hamilton G.S."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dharmage",
+                                    "ce:indexed-name": "Dharmage S.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sleep Med. Rev."
+                        },
+                        "ce:source-text": "Senaratna C.V., Perret J.L., Lodge C.J., Lowe A.J., Campbell B.E., Matheson M.C., Hamilton G.S., Dharmage S.C., Prevalence of obstructive sleep apnea in the general population: a systematic review, Sleep Med. Rev., 2017, 34, 70\u201381, 10.1016/j.smrv.2016.07.002."
+                    },
+                    {
+                        "ref-fulltext": "Andrade, A.G., Bubu, O.M., Varga, A.W., Osorio, R.S., The relationship between obstructive sleep apnea and Alzheimer's disease. J. Alzheimers Dis. 64:s1 (2018), S255\u2013S270 doi:10.3233/JAD-179936.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "The relationship between obstructive sleep apnea and Alzheimer's disease"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85048643532",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "s1"
+                                },
+                                "pagerange": {
+                                    "@first": "S255",
+                                    "@last": "S270"
+                                }
+                            },
+                            "ref-text": "doi:10.3233/JAD-179936",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrade",
+                                    "ce:indexed-name": "Andrade A.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bubu",
+                                    "ce:indexed-name": "Bubu O.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varga",
+                                    "ce:indexed-name": "Varga A.W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osorio",
+                                    "ce:indexed-name": "Osorio R.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Alzheimers Dis."
+                        },
+                        "ce:source-text": "Andrade A.G., Bubu O.M., Varga A.W., Osorio R.S., The relationship between obstructive sleep apnea and Alzheimer's disease, J. Alzheimers Dis., 2018, 64, s1, S255\u2013S270, doi:10.3233/JAD-179936."
+                    },
+                    {
+                        "ref-fulltext": "Aurora, R.N., Collop, N.A., Jacobowitz, O., Thomas, S.M., Quan, S.F., Aronsky, A.J., Quality measures for the care of adult patients with obstructive sleep apnea. J. Clin. Sleep Med., 2015, 10.5664/jcsm.4556 http://jcsm.aasm.org/ViewAbstract.aspx?pid=29932.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://jcsm.aasm.org/ViewAbstract.aspx?pid=29932",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Quality measures for the care of adult patients with obstructive sleep apnea"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.5664/jcsm.4556",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0025",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84924873846",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aurora",
+                                    "ce:indexed-name": "Aurora R.N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collop",
+                                    "ce:indexed-name": "Collop N.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jacobowitz",
+                                    "ce:indexed-name": "Jacobowitz O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomas",
+                                    "ce:indexed-name": "Thomas S.M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quan",
+                                    "ce:indexed-name": "Quan S.F."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aronsky",
+                                    "ce:indexed-name": "Aronsky A.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Clin. Sleep Med."
+                        },
+                        "ce:source-text": "R.N. Aurora, N.A. Collop, O. Jacobowitz, S.M. Thomas, S.F. Quan, A.J. Aronsky, Quality measures for the care of adult patients with obstructive sleep apnea, J. Clin. Sleep Med., 10.5664/jcsm.4556, 2015, http://www.jcsm.aasm.org/ViewAbstract.aspx?pid=29932http://jcsm.aasm.org/ViewAbstract.aspx?pid=29932."
+                    },
+                    {
+                        "ref-fulltext": "The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology, and Technical Specifications, ver. 2.4. 2017, American Academy of Sleep Medicine Tech. rep.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology, and Technical Specifications, ver. 2.4"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0030",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84872728792",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "American Academy of Sleep Medicine Tech. rep."
+                        },
+                        "ce:source-text": "The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology, and Technical Specifications, ver. 2.4, 2017, American Academy of Sleep Medicine, Tech. rep."
+                    },
+                    {
+                        "ref-fulltext": "Banhiran, W., Chotinaiwattarakul, W., Chongkolwatana, C., Metheetrairut, C., Home-based diagnosis of obstructive sleep apnea by polysomnography type 2: accuracy, reliability, and feasibility. Sleep Breath. 18:4 (2014), 817\u2013823, 10.1007/s11325-014-0949-1.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Home-based diagnosis of obstructive sleep apnea by polysomnography type 2: accuracy, reliability, and feasibility"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s11325-014-0949-1",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0035",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84893671537",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "817",
+                                    "@last": "823"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banhiran",
+                                    "ce:indexed-name": "Banhiran W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chotinaiwattarakul",
+                                    "ce:indexed-name": "Chotinaiwattarakul W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chongkolwatana",
+                                    "ce:indexed-name": "Chongkolwatana C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Metheetrairut",
+                                    "ce:indexed-name": "Metheetrairut C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sleep Breath."
+                        },
+                        "ce:source-text": "Banhiran W., Chotinaiwattarakul W., Chongkolwatana C., Metheetrairut C., Home-based diagnosis of obstructive sleep apnea by polysomnography type 2: accuracy, reliability, and feasibility, Sleep Breath., 2014, 18, 4, 817\u2013823, 10.1007/s11325-014-0949-1."
+                    },
+                    {
+                        "ref-fulltext": "Campbell, A.J., Neill, A.M., Home set-up polysomnography in the assessment of suspected obstructive sleep apnea. J. Sleep Res. 20:1pt2 (2011), 207\u2013213, 10.1111/j.1365-2869.2010.00854.x.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Home set-up polysomnography in the assessment of suspected obstructive sleep apnea"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1111/j.1365-2869.2010.00854.x",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0040",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79751489715",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "1pt2"
+                                },
+                                "pagerange": {
+                                    "@first": "207",
+                                    "@last": "213"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Campbell",
+                                    "ce:indexed-name": "Campbell A.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Neill",
+                                    "ce:indexed-name": "Neill A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Sleep Res."
+                        },
+                        "ce:source-text": "Campbell A.J., Neill A.M., Home set-up polysomnography in the assessment of suspected obstructive sleep apnea, J. Sleep Res., 2011, 20, 1pt2, 207\u2013213, 10.1111/j.1365-2869.2010.00854.x."
+                    },
+                    {
+                        "ref-fulltext": "Bruyneel, M., Sanida, C., Art, G., Libert, W., Cuvelier, L., Paesmans, M., Sergysels, R., Ninane, V., Sleep efficiency during sleep studies: results of a prospective study comparing home-based and in-hospital polysomnography. J. Sleep Res. 20:1pt2 (2011), 201\u2013206, 10.1111/j.1365-2869.2010.00859.x.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Sleep efficiency during sleep studies: results of a prospective study comparing home-based and in-hospital polysomnography"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1111/j.1365-2869.2010.00859.x",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0045",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "79751472387",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "1pt2"
+                                },
+                                "pagerange": {
+                                    "@first": "201",
+                                    "@last": "206"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruyneel",
+                                    "ce:indexed-name": "Bruyneel M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanida",
+                                    "ce:indexed-name": "Sanida C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Art",
+                                    "ce:indexed-name": "Art G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Libert",
+                                    "ce:indexed-name": "Libert W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cuvelier",
+                                    "ce:indexed-name": "Cuvelier L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paesmans",
+                                    "ce:indexed-name": "Paesmans M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sergysels",
+                                    "ce:indexed-name": "Sergysels R."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ninane",
+                                    "ce:indexed-name": "Ninane V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Sleep Res."
+                        },
+                        "ce:source-text": "Bruyneel M., Sanida C., Art G., Libert W., Cuvelier L., Paesmans M., Sergysels R., Ninane V., Sleep efficiency during sleep studies: results of a prospective study comparing home-based and in-hospital polysomnography, J. Sleep Res., 2011, 20, 1pt2, 201\u2013206, 10.1111/j.1365-2869.2010.00859.x."
+                    },
+                    {
+                        "ref-fulltext": "Tedeschi, E., Carratu, P., Damiani, M.F., Ventura, V.A., Drigo, R., Enzo, E., Ferraresso, A., Sasso, G., Zambotto, F.M., Resta, O., Home unattended portable monitoring and automatic CPAP titration in patients with high risk for moderate to severe obstructive sleep apnea. Respir. Care, 58(7), 2013 1178+. http://link.galegroup.com/apps/doc/A336490136/HRCA?u=ubcolumbia&sid=HRCA&xid=bab9d24f.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://link.galegroup.com/apps/doc/A336490136/HRCA?u=ubcolumbia&sid=HRCA&xid=bab9d24f",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Home unattended portable monitoring and automatic CPAP titration in patients with high risk for moderate to severe obstructive sleep apnea"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0050",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84879386211",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "58",
+                                "@issue": "7"
+                            }},
+                            "ref-text": "1178+.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tedeschi",
+                                    "ce:indexed-name": "Tedeschi E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carratu",
+                                    "ce:indexed-name": "Carratu P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Damiani",
+                                    "ce:indexed-name": "Damiani M.F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ventura",
+                                    "ce:indexed-name": "Ventura V.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Drigo",
+                                    "ce:indexed-name": "Drigo R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Enzo",
+                                    "ce:indexed-name": "Enzo E."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ferraresso",
+                                    "ce:indexed-name": "Ferraresso A."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sasso",
+                                    "ce:indexed-name": "Sasso G."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "F.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zambotto",
+                                    "ce:indexed-name": "Zambotto F.M."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Resta",
+                                    "ce:indexed-name": "Resta O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Respir. Care"
+                        },
+                        "ce:source-text": "Tedeschi E., Carratu P., Damiani M.F., Ventura V.A., Drigo R., Enzo E., Ferraresso A., Sasso G., Zambotto F.M., Resta O., Home unattended portable monitoring and automatic CPAP titration in patients with high risk for moderate to severe obstructive sleep apnea, Respir. Care, 2013, 58, 7, 1178+. http://www.link.galegroup.com/apps/doc/A336490136/HRCA?u=ubcolumbia&sid=HRCA&xid=bab9d24fhttp://link.galegroup.com/apps/doc/A336490136/HRCA?u=ubcolumbia&sid=HRCA&xid=bab9d24f."
+                    },
+                    {
+                        "ref-fulltext": "Nizami, S., Bekele, A., Hozayen, M., Greenwood, K.J., Harrold, J., Green, J.R., Measuring uncertainty during respiratory rate estimation using pressure-sensitive mats. IEEE Trans. Instrum. Meas., 2018, 1\u20138, 10.1109/TIM.2018.2805154 http://ieeexplore.ieee.org/document/8306133/.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://ieeexplore.ieee.org/document/8306133/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Measuring uncertainty during respiratory rate estimation using pressure-sensitive mats"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TIM.2018.2805154",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0055",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85042882491",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nizami",
+                                    "ce:indexed-name": "Nizami S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bekele",
+                                    "ce:indexed-name": "Bekele A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hozayen",
+                                    "ce:indexed-name": "Hozayen M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Greenwood",
+                                    "ce:indexed-name": "Greenwood K.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harrold",
+                                    "ce:indexed-name": "Harrold J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Green",
+                                    "ce:indexed-name": "Green J.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "Nizami S., Bekele A., Hozayen M., Greenwood K.J., Harrold J., Green J.R., Measuring uncertainty during respiratory rate estimation using pressure-sensitive mats, IEEE Trans. Instrum. Meas., 2018, 1\u20138, http://www.ieeexplore.ieee.org/document/8306133/http://ieeexplore.ieee.org/document/8306133/, 10.1109/TIM.2018.2805154."
+                    },
+                    {
+                        "ref-fulltext": "Waltisberg, D., Amft, O., Brunner, D.P., Tröster, G., Detecting disordered breathing and limb movement using in-bed force sensors. IEEE J. Biomed. Health Inf. 21:4 (2017), 930\u2013938, 10.1109/JBHI.2016.2549938.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Detecting disordered breathing and limb movement using in-bed force sensors"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/JBHI.2016.2549938",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0060",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85023599757",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "930",
+                                    "@last": "938"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Waltisberg",
+                                    "ce:indexed-name": "Waltisberg D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amft",
+                                    "ce:indexed-name": "Amft O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brunner",
+                                    "ce:indexed-name": "Brunner D.P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tröster",
+                                    "ce:indexed-name": "Troster G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Biomed. Health Inf."
+                        },
+                        "ce:source-text": "Waltisberg D., Amft O., Brunner D.P., Tröster G., Detecting disordered breathing and limb movement using in-bed force sensors, IEEE J. Biomed. Health Inf., 2017, 21, 4, 930\u2013938, 10.1109/JBHI.2016.2549938."
+                    },
+                    {
+                        "ref-fulltext": "Tayaranian Hosseini, S.M.A., Amindavar, H., A new Ka-band doppler radar in robust and precise cardiopulmonary remote sensing. IEEE Trans. Instrum. Meas. 66:11 (2017), 3012\u20133022, 10.1109/TIM.2017.2714480 http://ieeexplore.ieee.org/document/7955078/.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://ieeexplore.ieee.org/document/7955078/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A new Ka-band doppler radar in robust and precise cardiopulmonary remote sensing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TIM.2017.2714480",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0065",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85021831903",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "66",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "3012",
+                                    "@last": "3022"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tayaranian Hosseini",
+                                    "ce:indexed-name": "Tayaranian Hosseini S.M.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amindavar",
+                                    "ce:indexed-name": "Amindavar H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "Tayaranian Hosseini S.M.A., Amindavar H., A new Ka-band doppler radar in robust and precise cardiopulmonary remote sensing, IEEE Trans. Instrum. Meas., 2017, 66, 11, 3012\u20133022, http://www.ieeexplore.ieee.org/document/7955078/http://ieeexplore.ieee.org/document/7955078/, 10.1109/TIM.2017.2714480."
+                    },
+                    {
+                        "ref-fulltext": "Zhao, H., Hong, H., Sun, L., Li, Y., Li, C., Zhu, X., Noncontact physiological dynamics detection using low-power digital-IF Doppler radar. IEEE Trans. Instrum. Meas. 66:7 (2017), 1780\u20131788, 10.1109/TIM.2017.2669699 http://ieeexplore.ieee.org/document/7872421/.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://ieeexplore.ieee.org/document/7872421/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Noncontact physiological dynamics detection using low-power digital-IF Doppler radar"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TIM.2017.2669699",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0070",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85014812290",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "66",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1780",
+                                    "@last": "1788"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "Zhao H., Hong H., Sun L., Li Y., Li C., Zhu X., Noncontact physiological dynamics detection using low-power digital-IF Doppler radar, IEEE Trans. Instrum. Meas., 2017, 66, 7, 1780\u20131788, http://www.ieeexplore.ieee.org/document/7872421/http://ieeexplore.ieee.org/document/7872421/, 10.1109/TIM.2017.2669699."
+                    },
+                    {
+                        "ref-fulltext": "Bonnesen, M.P., Sorensen, H.B.D., Jennum, P., Mobile apnea screening system for at-home recording and analysis of sleep apnea severity. 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), IEEE, Honolulu, HI, 2018, 457\u2013460, 10.1109/EMBC.2018.8512335.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Mobile apnea screening system for at-home recording and analysis of sleep apnea severity"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/EMBC.2018.8512335",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0075",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85056666178",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "457",
+                                "@last": "460"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonnesen",
+                                    "ce:indexed-name": "Bonnesen M.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.B.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sorensen",
+                                    "ce:indexed-name": "Sorensen H.B.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jennum",
+                                    "ce:indexed-name": "Jennum P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), IEEE, Honolulu, HI"
+                        },
+                        "ce:source-text": "Bonnesen M.P., Sorensen H.B.D., Jennum P., Mobile apnea screening system for at-home recording and analysis of sleep apnea severity, 2018, IEEE, Honolulu, HI, 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 457\u2013460, 10.1109/EMBC.2018.8512335."
+                    },
+                    {
+                        "ref-fulltext": "Młyńczak, M., Migacz, E., Migacz, M., Kukwa, W., Detecting breathing and snoring episodes using a wireless tracheal sensor \u2013 a feasibility study. IEEE J. Biomed. Health Inf. 21:6 (2017), 1504\u20131510, 10.1109/JBHI.2016.2632976.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Detecting breathing and snoring episodes using a wireless tracheal sensor \u2013 a feasibility study"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/JBHI.2016.2632976",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0080",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85035781087",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1504",
+                                    "@last": "1510"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Młyńczak",
+                                    "ce:indexed-name": "Mlynczak M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Migacz",
+                                    "ce:indexed-name": "Migacz E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Migacz",
+                                    "ce:indexed-name": "Migacz M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kukwa",
+                                    "ce:indexed-name": "Kukwa W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Biomed. Health Inf."
+                        },
+                        "ce:source-text": "Myńczak M., Migacz E., Migacz M., Kukwa W., Detecting breathing and snoring episodes using a wireless tracheal sensor \u2013 a feasibility study, IEEE J. Biomed. Health Inf., 2017, 21, 6, 1504\u20131510, 10.1109/JBHI.2016.2632976."
+                    },
+                    {
+                        "ref-fulltext": "Reinvuo, T., Hannula, M., Sorvoja, H., Alasaarela, E., Myllyla, R., Measurement of respiratory rate with high-resolution accelerometer and EMFit pressure sensor. Proceedings of the 2006 Sensors Applications Symposium, 2006, IEEE, 2006, 192\u2013195.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Measurement of respiratory rate with high-resolution accelerometer and EMFit pressure sensor"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0085",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "33751062412",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "192",
+                                "@last": "195"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reinvuo",
+                                    "ce:indexed-name": "Reinvuo T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hannula",
+                                    "ce:indexed-name": "Hannula M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sorvoja",
+                                    "ce:indexed-name": "Sorvoja H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alasaarela",
+                                    "ce:indexed-name": "Alasaarela E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Myllyla",
+                                    "ce:indexed-name": "Myllyla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2006 Sensors Applications Symposium, 2006, IEEE"
+                        },
+                        "ce:source-text": "Reinvuo T., Hannula M., Sorvoja H., Alasaarela E., Myllyla R., Measurement of respiratory rate with high-resolution accelerometer and EMFit pressure sensor, 2006, IEEE, Proceedings of the 2006 Sensors Applications Symposium, 2006, IEEE, 192\u2013195."
+                    },
+                    {
+                        "ref-fulltext": "Jarchi, D., Rodgers, S.J., Tarassenko, L., Clifton, D.A., Accelerometry-based estimation of respiratory rate for post-intensive care patient monitoring. IEEE Sens. J., 2018, 10.1109/JSEN.2018.2828599 1-1. http://ieeexplore.ieee.org/document/8341486/.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://ieeexplore.ieee.org/document/8341486/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Accelerometry-based estimation of respiratory rate for post-intensive care patient monitoring"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/JSEN.2018.2828599",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0090",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85045751334",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "1-1.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jarchi",
+                                    "ce:indexed-name": "Jarchi D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodgers",
+                                    "ce:indexed-name": "Rodgers S.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tarassenko",
+                                    "ce:indexed-name": "Tarassenko L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clifton",
+                                    "ce:indexed-name": "Clifton D.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sens. J."
+                        },
+                        "ce:source-text": "Jarchi D., Rodgers S.J., Tarassenko L., Clifton D.A., Accelerometry-based estimation of respiratory rate for post-intensive care patient monitoring, IEEE Sens. J., 2018, 1-1. http://www.ieeexplore.ieee.org/document/8341486/http://ieeexplore.ieee.org/document/8341486/, 10.1109/JSEN.2018.2828599."
+                    },
+                    {
+                        "ref-fulltext": "Wu, J., Wang, C., Huang, Y., Wu, H., Huang, P., Lo, Y., A portable monitoring system with automatic event detection for sleep apnea level-IV evaluation. 2018 IEEE International Symposium on Circuits and Systems (ISCAS), 2018, 1\u20134, 10.1109/ISCAS.2018.8351221.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A portable monitoring system with automatic event detection for sleep apnea level-IV evaluation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ISCAS.2018.8351221",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0095",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85057110912",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "4"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lo",
+                                    "ce:indexed-name": "Lo Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE International Symposium on Circuits and Systems (ISCAS)"
+                        },
+                        "ce:source-text": "Wu J., Wang C., Huang Y., Wu H., Huang P., Lo Y., A portable monitoring system with automatic event detection for sleep apnea level-IV evaluation, 2018, 2018 IEEE International Symposium on Circuits and Systems (ISCAS), 1\u20134, 10.1109/ISCAS.2018.8351221."
+                    },
+                    {
+                        "ref-fulltext": "Huang, C., Lin, W., Lee, M., Development and verification of an accelerometer-based respiratory detection algorithm with wearable instrumented smart clothes. 2017 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2017, 578\u2013581, 10.1109/SMC.2017.8122668.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Development and verification of an accelerometer-based respiratory detection algorithm with wearable instrumented smart clothes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/SMC.2017.8122668",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0100",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85044245644",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "578",
+                                "@last": "581"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+                        },
+                        "ce:source-text": "Huang C., Lin W., Lee M., Development and verification of an accelerometer-based respiratory detection algorithm with wearable instrumented smart clothes, 2017, 2017 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 578\u2013581, 10.1109/SMC.2017.8122668."
+                    },
+                    {
+                        "ref-fulltext": "Fekr, A.R., Janidarmian, M., Radecka, K., Zilic, Z., Respiration disorders classification with informative features for m-health applications. IEEE J. Biomed. Health Inf. 20:3 (2016), 733\u2013747, 10.1109/JBHI.2015.2458965.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Respiration disorders classification with informative features for m-health applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/JBHI.2015.2458965",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0105",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84969815979",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "733",
+                                    "@last": "747"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fekr",
+                                    "ce:indexed-name": "Fekr A.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Janidarmian",
+                                    "ce:indexed-name": "Janidarmian M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radecka",
+                                    "ce:indexed-name": "Radecka K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zilic",
+                                    "ce:indexed-name": "Zilic Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Biomed. Health Inf."
+                        },
+                        "ce:source-text": "Fekr A.R., Janidarmian M., Radecka K., Zilic Z., Respiration disorders classification with informative features for m-health applications, IEEE J. Biomed. Health Inf., 2016, 20, 3, 733\u2013747, 10.1109/JBHI.2015.2458965."
+                    },
+                    {
+                        "ref-fulltext": "Jiang, P., Zhu, R., Dual tri-axis accelerometers for monitoring physiological parameters of human body in sleep. 2016 IEEE SENSORS, 2016, 1\u20133, 10.1109/ICSENS.2016.7808735.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Dual tri-axis accelerometers for monitoring physiological parameters of human body in sleep"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/ICSENS.2016.7808735",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0110",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85010952785",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "3"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE SENSORS"
+                        },
+                        "ce:source-text": "Jiang P., Zhu R., Dual tri-axis accelerometers for monitoring physiological parameters of human body in sleep, 2016, 2016 IEEE SENSORS, 1\u20133, 10.1109/ICSENS.2016.7808735."
+                    },
+                    {
+                        "ref-fulltext": "Fekr, A.R., Radecka, K., Zilic, Z., Design and evaluation of an intelligent remote tidal volume variability monitoring system in E-health applications. IEEE J. Biomed. Health Inf. 19:5 (2015), 1532\u20131548, 10.1109/JBHI.2015.2445783.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Design and evaluation of an intelligent remote tidal volume variability monitoring system in E-health applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/JBHI.2015.2445783",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0115",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84941001247",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1532",
+                                    "@last": "1548"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fekr",
+                                    "ce:indexed-name": "Fekr A.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radecka",
+                                    "ce:indexed-name": "Radecka K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zilic",
+                                    "ce:indexed-name": "Zilic Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Biomed. Health Inf."
+                        },
+                        "ce:source-text": "Fekr A.R., Radecka K., Zilic Z., Design and evaluation of an intelligent remote tidal volume variability monitoring system in E-health applications, IEEE J. Biomed. Health Inf., 2015, 19, 5, 1532\u20131548, 10.1109/JBHI.2015.2445783."
+                    },
+                    {
+                        "ref-fulltext": "Dehkordi, P., Marzencki, M., Tavakolian, K., Kaminska, M., Kaminska, B., Monitoring torso acceleration for estimating the respiratory flow and efforts for sleep apnea detection. 2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 2012, 6345\u20136348, 10.1109/EMBC.2012.6347445.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Monitoring torso acceleration for estimating the respiratory flow and efforts for sleep apnea detection"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/EMBC.2012.6347445",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0120",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84870804503",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "6345",
+                                "@last": "6348"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dehkordi",
+                                    "ce:indexed-name": "Dehkordi P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marzencki",
+                                    "ce:indexed-name": "Marzencki M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tavakolian",
+                                    "ce:indexed-name": "Tavakolian K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaminska",
+                                    "ce:indexed-name": "Kaminska M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaminska",
+                                    "ce:indexed-name": "Kaminska B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
+                        },
+                        "ce:source-text": "Dehkordi P., Marzencki M., Tavakolian K., Kaminska M., Kaminska B., Monitoring torso acceleration for estimating the respiratory flow and efforts for sleep apnea detection, 2012, 2012 Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 6345\u20136348, 10.1109/EMBC.2012.6347445."
+                    },
+                    {
+                        "ref-fulltext": "Sabatelli, S., Galgani, M., Fanucci, L., Rocchi, A., A double-stage Kalman filter for orientation tracking with an integrated processor in 9-D IMU. IEEE Trans. Instrum. Meas. 62:3 (2013), 590\u2013598, 10.1109/TIM.2012.2218692.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "A double-stage Kalman filter for orientation tracking with an integrated processor in 9-D IMU"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/TIM.2012.2218692",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0125",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84873723195",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "62",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "590",
+                                    "@last": "598"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabatelli",
+                                    "ce:indexed-name": "Sabatelli S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Galgani",
+                                    "ce:indexed-name": "Galgani M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fanucci",
+                                    "ce:indexed-name": "Fanucci L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rocchi",
+                                    "ce:indexed-name": "Rocchi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "Sabatelli S., Galgani M., Fanucci L., Rocchi A., A double-stage Kalman filter for orientation tracking with an integrated processor in 9-D IMU, IEEE Trans. Instrum. Meas., 2013, 62, 3, 590\u2013598, 10.1109/TIM.2012.2218692."
+                    },
+                    {
+                        "ref-fulltext": "Hernandez, J.E., Cretu, E., Respiratory effort monitoring system for sleep apnea screening for both supine and lateral recumbent positions. 2017 8th IEEE Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), 2017, 191\u2013197, 10.1109/IEMCON.2017.8117188.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Respiratory effort monitoring system for sleep apnea screening for both supine and lateral recumbent positions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/IEMCON.2017.8117188",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0130",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85045854859",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "191",
+                                "@last": "197"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hernandez",
+                                    "ce:indexed-name": "Hernandez J.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cretu",
+                                    "ce:indexed-name": "Cretu E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2017 8th IEEE Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)"
+                        },
+                        "ce:source-text": "Hernandez J.E., Cretu E., Respiratory effort monitoring system for sleep apnea screening for both supine and lateral recumbent positions, 2017, 2017 8th IEEE Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), 191\u2013197, 10.1109/IEMCON.2017.8117188."
+                    },
+                    {
+                        "ref-fulltext": "Hanson, A., Fundamentals of rotations. Visualizing Quaternions, The Morgan Kaufmann Series in Interactive 3D Technology, Elsevier Morgan Kaufmann, San Francisco, Calif, 2006, 50.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Fundamentals of rotations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0135",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85045851988",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "50"}},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Hanson",
+                                "ce:indexed-name": "Hanson A."
+                            }]},
+                            "ref-sourcetitle": "Visualizing Quaternions, The Morgan Kaufmann Series in Interactive 3D Technology, Elsevier Morgan Kaufmann, San Francisco, Calif"
+                        },
+                        "ce:source-text": "Hanson A., Fundamentals of rotations, 2006, Elsevier Morgan Kaufmann, San Francisco, Calif, Visualizing Quaternions, The Morgan Kaufmann Series in Interactive 3D Technology, 50."
+                    },
+                    {
+                        "ref-fulltext": "Instruments, T., CC2650 SimpleLink Multistandard Wireless MCU. 2015 Tech. rep.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "CC2650 SimpleLink Multistandard Wireless MCU"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0140",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85015249670",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Tech. rep.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Instruments",
+                                "ce:indexed-name": "Instruments T."
+                            }]}
+                        },
+                        "ce:source-text": "Instruments T., CC2650 SimpleLink Multistandard Wireless MCU, 2015, Tech. rep."
+                    },
+                    {
+                        "ref-fulltext": "2640CC and CC2650 SimpleLink Bluetooth Low Energy Software Stack 2.2.1 Developer's Guide. 2010, Texas Instruments Literature Number: SWRU393D.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "2640CC and CC2650 SimpleLink Bluetooth Low Energy Software Stack 2.2.1 Developer's Guide"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0145",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086828228",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Texas Instruments Literature Number: SWRU393D"
+                        },
+                        "ce:source-text": "2640CC and CC2650 SimpleLink Bluetooth Low Energy Software Stack 2.2.1 Developer's Guide, 2010, Texas Instruments, Literature Number: SWRU393D."
+                    },
+                    {
+                        "ref-fulltext": "InvenSense, MPU-9250 Product Specification Revision 1.0, MPU-9250 datasheet, PS-MPU-9250A-01.",
+                        "@id": "30",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0150",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086819738",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "InvenSense, MPU-9250 Product Specification Revision 1.0, MPU-9250 datasheet, PS-MPU-9250A-01."
+                        },
+                        "ce:source-text": "InvenSense, MPU-9250 Product Specification Revision 1.0, MPU-9250 datasheet, PS-MPU-9250A-01."
+                    },
+                    {
+                        "ref-fulltext": "Joyce Smith, R.R., Vital Signs for Nurses: An Introduction to Clinical Observations. 2011, Wiley-Blackwell, Chichester, West Sussex An optional note.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Vital Signs for Nurses: An Introduction to Clinical Observations"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0155",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086821235",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Wiley-Blackwell Chichester, West Sussex An optional note",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Joyce Smith",
+                                "ce:indexed-name": "Joyce Smith R.R."
+                            }]}
+                        },
+                        "ce:source-text": "Joyce Smith R.R., Vital Signs for Nurses: An Introduction to Clinical Observations, 2011, Wiley-Blackwell, Chichester, West Sussex, An optional note."
+                    },
+                    {
+                        "ref-fulltext": "Kamath, S., Lindh, J., Application Note AN092-Measuring Bluetooth® Low Energy Power Consumption, Tech. Rep. 2012, Texas Instruments http://www.ti.com/lit/an/swra347a/swra347a.pdf.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.ti.com/lit/an/swra347a/swra347a.pdf",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Application Note AN092-Measuring Bluetooth® Low Energy Power Consumption, Tech. Rep."},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0160",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84867022809",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Texas Instruments",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kamath",
+                                    "ce:indexed-name": "Kamath S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lindh",
+                                    "ce:indexed-name": "Lindh J."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Kamath S., Lindh J., Application Note AN092-Measuring BluetoothLow Energy Power Consumption, Tech. Rep., 2012, Texas Instruments, http://www.ti.com/lit/an/swra347a/swra347a.pdfhttp://www.ti.com/lit/an/swra347a/swra347a.pdf."
+                    },
+                    {
+                        "ref-fulltext": "Rohatgi, V.K., 4.5 Covariance, correlation and moments. An Introduction to Probability and Statistics, 3rd Edition, 2015, John Wiley & Sons, Inc, 144 Wiley series in probability and statistics.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "4.5 Covariance, correlation and moments"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0165",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086822640",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {"@first": "144"}},
+                            "ref-text": "3rd Edition John Wiley & Sons, Inc Wiley series in probability and statistics",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.K.",
+                                "@_fa": "true",
+                                "ce:surname": "Rohatgi",
+                                "ce:indexed-name": "Rohatgi V.K."
+                            }]},
+                            "ref-sourcetitle": "An Introduction to Probability and Statistics"
+                        },
+                        "ce:source-text": "Rohatgi V.K., 4.5 Covariance, correlation and moments, An Introduction to Probability and Statistics, 2015, 3rd Edition, John Wiley & Sons, Inc, 144, Wiley series in probability and statistics."
+                    },
+                    {
+                        "ref-fulltext": "Phan, D.H., Bonnet, S., Guillemaud, R., Castelli, E., Pham Thi, N.Y., Estimation of respiratory waveform and heart rate using an accelerometer. 2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 2008, 4916\u20134919, 10.1109/IEMBS.2008.4650316.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Estimation of respiratory waveform and heart rate using an accelerometer"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/IEMBS.2008.4650316",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0170",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "61849135661",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4916",
+                                "@last": "4919"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phan",
+                                    "ce:indexed-name": "Phan D.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonnet",
+                                    "ce:indexed-name": "Bonnet S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guillemaud",
+                                    "ce:indexed-name": "Guillemaud R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castelli",
+                                    "ce:indexed-name": "Castelli E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham Thi",
+                                    "ce:indexed-name": "Pham Thi N.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
+                        },
+                        "ce:source-text": "Phan D.H., Bonnet S., Guillemaud R., Castelli E., Pham Thi N.Y., Estimation of respiratory waveform and heart rate using an accelerometer, 2008, 2008 30th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, 4916\u20134919, 10.1109/IEMBS.2008.4650316."
+                    },
+                    {
+                        "ref-fulltext": "Jafari Tadi, M., Koivisto, T., Pänkäälä, M., Paasio, A., Accelerometer-based method for extracting respiratory and cardiac gating information for dual gating during nuclear medicine imaging. Int. J. Biomed. Imaging 2014 (2014), 1\u201311, 10.1155/2014/690124.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Accelerometer-based method for extracting respiratory and cardiac gating information for dual gating during nuclear medicine imaging"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1155/2014/690124",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0175",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84904634004",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2014"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "11"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jafari Tadi",
+                                    "ce:indexed-name": "Jafari Tadi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koivisto",
+                                    "ce:indexed-name": "Koivisto T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pänkäälä",
+                                    "ce:indexed-name": "Pankaala M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paasio",
+                                    "ce:indexed-name": "Paasio A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Biomed. Imaging"
+                        },
+                        "ce:source-text": "Jafari Tadi M., Koivisto T., Pänkäälä M., Paasio A., Accelerometer-based method for extracting respiratory and cardiac gating information for dual gating during nuclear medicine imaging, Int. J. Biomed. Imaging, 2014, 2014, 1\u201311, 10.1155/2014/690124."
+                    },
+                    {
+                        "ref-fulltext": "Dehkordi, P., Tavakolian, K., Marzencki, M., Kaminska, M., Kaminska, B., Assessment of respiratory flow and efforts using upper-body acceleration. Med. Biol. Eng. Comput. 52:8 (2014), 653\u2013661, 10.1007/s11517-014-1168-4.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Assessment of respiratory flow and efforts using upper-body acceleration"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/s11517-014-1168-4",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0180",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84906783531",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "653",
+                                    "@last": "661"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dehkordi",
+                                    "ce:indexed-name": "Dehkordi P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tavakolian",
+                                    "ce:indexed-name": "Tavakolian K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marzencki",
+                                    "ce:indexed-name": "Marzencki M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaminska",
+                                    "ce:indexed-name": "Kaminska M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaminska",
+                                    "ce:indexed-name": "Kaminska B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Med. Biol. Eng. Comput."
+                        },
+                        "ce:source-text": "Dehkordi P., Tavakolian K., Marzencki M., Kaminska M., Kaminska B., Assessment of respiratory flow and efforts using upper-body acceleration, Med. Biol. Eng. Comput., 2014, 52, 8, 653\u2013661, 10.1007/s11517-014-1168-4."
+                    },
+                    {
+                        "ref-fulltext": "Bates, A., Ling, M.J., Mann, J., Arvind, D., Respiratory Rate and Flow Waveform Estimation from Tri-Axial Accelerometer Data. 2010, IEEE, 144\u2013150, 10.1109/BSN.2010.50.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Respiratory Rate and Flow Waveform Estimation from Tri-Axial Accelerometer Data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/BSN.2010.50",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0185",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77955188413",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "144",
+                                "@last": "150"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bates",
+                                    "ce:indexed-name": "Bates A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ling",
+                                    "ce:indexed-name": "Ling M.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mann",
+                                    "ce:indexed-name": "Mann J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arvind",
+                                    "ce:indexed-name": "Arvind D."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Bates A., Ling M.J., Mann J., Arvind D., Respiratory Rate and Flow Waveform Estimation from Tri-Axial Accelerometer Data, 2010, IEEE, 144\u2013150, 10.1109/BSN.2010.50."
+                    },
+                    {
+                        "ref-fulltext": "Dymedix PerfectFit 2 R/S Effort Belt Abdomen Sensor \u2013 Adult, accessed: 2019-08-25, URL https://mfimedical.com/products/dymedix-perfectfit-2-r-s-effort-belt-abdomen-sensor-adult.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://mfimedical.com/products/dymedix-perfectfit-2-r-s-effort-belt-abdomen-sensor-adult",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0190",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086823714",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Dymedix PerfectFit 2 R/S Effort Belt Abdomen Sensor \u2013 Adult, accessed: 2019-08-25, URL"
+                        },
+                        "ce:source-text": "Dymedix PerfectFit 2 R/S Effort Belt Abdomen Sensor \u2013 Adult, accessed: 2019-08-25, URL https://mfimedical.com/products/dymedix-perfectfit-2-r-s-effort-belt-abdomen-sensor-adult."
+                    },
+                    {
+                        "ref-fulltext": "CC2650stk Texas Instruments | Development Boards, Kits, Programmers | DigiKey, accessed: 2018-11-07, URL https://www.digikey.com/product-detail/en/texas-instruments/CC2650STK/296-38831-ND/5130740.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.digikey.com/product-detail/en/texas-instruments/CC2650STK/296-38831-ND/5130740",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "bib0195",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086827190",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "CC2650stk Texas Instruments | Development Boards, Kits, Programmers | DigiKey, accessed: 2018-11-07, URL"
+                        },
+                        "ce:source-text": "CC2650stk Texas Instruments | Development Boards, Kits, Programmers | DigiKey, accessed: 2018-11-07, URL https://www.digikey.com/product-detail/en/texas-instruments/CC2650STK/296-38831-ND/5130740."
+                    },
+                    {
+                        "ref-fulltext": "Hernandez, J.E., Cretu, E., Simple heart rate monitoring system with a MEMS gyroscope for sleep studies. 2018 IEEE 9th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), 2018, 61\u201367, 10.1109/IEMCON.2018.8614753.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Simple heart rate monitoring system with a MEMS gyroscope for sleep studies"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/IEMCON.2018.8614753",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "bib0200",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85062077494",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "61",
+                                "@last": "67"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hernandez",
+                                    "ce:indexed-name": "Hernandez J.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cretu",
+                                    "ce:indexed-name": "Cretu E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE 9th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)"
+                        },
+                        "ce:source-text": "Hernandez J.E., Cretu E., Simple heart rate monitoring system with a MEMS gyroscope for sleep studies, 2018, 2018 IEEE 9th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON), 61\u201367, 10.1109/IEMCON.2018.8614753."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Vancouver",
+        "@id": "60010365",
+        "affilname": "The University of British Columbia",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010365",
+        "affiliation-country": "Canada"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85086826555",
+        "dc:description": "The number of people suffering from a sleep disorder is growing considerably, with obstructive sleep apnea syndrome (OSAS) being the most common one. Unfortunately, it is estimated that at least 75% of OSAS cases are currently undiagnosed and without treatment, mainly due to the lack of availability and high costs of the polysomnography (PSG) test required. OSAS is known to increase the risk for many severe health complications such as hypertension and neurodegenerative conditions, to mention a few, making early diagnosis important. The monitoring of respiratory effort (RE) and body position (BP) during sleep is essential for OSAS detection. Compared to existing commercial systems for respiratory effort monitoring using piezoelectric sensors wired to a central processing system, we present an embedded system solution that is wireless, runs standalone for up to 12 h, and implements on board an extended Kalman filter (EKF) for performing data fusion. An inertial measurement unit (3D acceleration, angular rate, and orientation sensors) is used for real-time measurement of both the respiratory effort and the body position. The experimental tests, when we compare the collected data with a reference signal, acquired by a commercial belt, indicate a general average Pearson correlation coefficient of ρ=0.963 with results ranging from 0.928 to 0.981, improving over previous works. Low-cost technologies, such as the one presented here, can help to reduce the number of undiagnosed cases of OSAS, and sleep disorders in general, and improve the health of those patients.",
+        "prism:coverDate": "2020-08-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85086826555",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Joel Ezequiel",
+            "preferred-name": {
+                "ce:given-name": "Joel Ezequiel",
+                "ce:initials": "J.E.",
+                "ce:surname": "Hernandez",
+                "ce:indexed-name": "Hernandez J.E."
+            },
+            "@seq": "1",
+            "ce:initials": "J.E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010365",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010365"
+            },
+            "ce:surname": "Hernandez",
+            "@auid": "57201704215",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201704215",
+            "ce:indexed-name": "Hernandez J.E."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85086826555"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85086826555&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85086826555&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Biomedical Signal Processing and Control",
+        "source-id": "4700152237",
+        "pii": "S1746809420301798",
+        "citedby-count": "10",
+        "prism:volume": "61",
+        "subtype": "ar",
+        "dc:title": "A wireless, real-time respiratory effort and body position monitoring system for sleep",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.bspc.2020.102023",
+        "prism:issn": "17468108 17468094",
+        "publishercopyright": "© 2020 Elsevier Ltd",
+        "article-number": "102023",
+        "dc:identifier": "SCOPUS_ID:85086826555",
+        "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Health complications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial measurement unit",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Low cost technology",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Obstructive sleep apnea",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Orientation sensors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pearson correlation coefficients",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Piezoelectric sensors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real time measurements",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Body position"
+        },
+        {
+            "@_fa": "true",
+            "$": "Data fusion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Inertial measurement units"
+        },
+        {
+            "@_fa": "true",
+            "$": "Respiratory effort"
+        },
+        {
+            "@_fa": "true",
+            "$": "Sleep monitoring"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Health Informatics",
+            "@code": "2718",
+            "@abbrev": "MEDI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Joel Ezequiel",
+            "preferred-name": {
+                "ce:given-name": "Joel Ezequiel",
+                "ce:initials": "J.E.",
+                "ce:surname": "Hernandez",
+                "ce:indexed-name": "Hernandez J.E."
+            },
+            "@seq": "1",
+            "ce:initials": "J.E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010365",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010365"
+            },
+            "ce:surname": "Hernandez",
+            "@auid": "57201704215",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201704215",
+            "ce:indexed-name": "Hernandez J.E."
+        },
+        {
+            "ce:given-name": "Edmond",
+            "preferred-name": {
+                "ce:given-name": "Edmond",
+                "ce:initials": "E.",
+                "ce:surname": "Cretu",
+                "ce:indexed-name": "Cretu E."
+            },
+            "@seq": "2",
+            "ce:initials": "E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010365",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010365"
+            },
+            "ce:surname": "Cretu",
+            "@auid": "6603679542",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603679542",
+            "ce:indexed-name": "Cretu E."
+        }
+    ]}
+}}

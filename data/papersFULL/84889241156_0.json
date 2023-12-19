@@ -1,0 +1,996 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@year": "2023",
+                "@timestamp": "2023-07-07T08:25:42.000042-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "20",
+                "@year": "2013",
+                "@month": "11"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Hangzhou 310023",
+                            "country": "China",
+                            "@afid": "60026282",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "College of Information Engineering"},
+                                {"$": "Zhejiang University of Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60026282",
+                                "@dptid": "113720124"
+                            },
+                            "@dptid": "113720124"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Liang",
+                                "preferred-name": {
+                                    "ce:given-name": "Liang",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Hua",
+                                    "ce:indexed-name": "Hua L."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Hua",
+                                "@auid": "35195975900",
+                                "ce:indexed-name": "Hua L."
+                            },
+                            {
+                                "ce:given-name": "Yu",
+                                "preferred-name": {
+                                    "ce:given-name": "Yu",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Y."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "ce:surname": "Huang",
+                                "@auid": "57196142394",
+                                "ce:indexed-name": "Huang Y."
+                            },
+                            {
+                                "ce:given-name": "Lijun",
+                                "preferred-name": {
+                                    "ce:given-name": "Lijun",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding L."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Ding",
+                                "@auid": "7403132986",
+                                "ce:indexed-name": "Ding L."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Nantong 226019",
+                            "country": "China",
+                            "@afid": "60021783",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "School of Electrical Engineering"},
+                                {"$": "Nantong University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60021783",
+                                "@dptid": "108078233"
+                            },
+                            "@dptid": "108078233"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Liang",
+                                "preferred-name": {
+                                    "ce:given-name": "Liang",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Hua",
+                                    "ce:indexed-name": "Hua L."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Hua",
+                                "@auid": "35195975900",
+                                "ce:indexed-name": "Hua L."
+                            },
+                            {
+                                "ce:given-name": "Yuqing",
+                                "preferred-name": {
+                                    "ce:given-name": "Yuqing",
+                                    "ce:initials": "Y.",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "ce:surname": "Liu",
+                                "@auid": "55951846100",
+                                "ce:indexed-name": "Liu Y."
+                            },
+                            {
+                                "ce:given-name": "Hao",
+                                "preferred-name": {
+                                    "ce:given-name": "Hao",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng H."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Feng",
+                                "@auid": "35302377700",
+                                "ce:indexed-name": "Feng H."
+                            },
+                            {
+                                "ce:given-name": "Juping",
+                                "preferred-name": {
+                                    "ce:given-name": "Juping",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu J."
+                                },
+                                "@seq": "6",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Gu",
+                                "@auid": "7403129551",
+                                "ce:indexed-name": "Gu J."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Color medical image registration based on quaternion",
+                "abstracts": "Image registration technique has been widely studied and used in the field of medical diagnosis and treatment. Most methodologies adopted for registration of color image can be viewed as the extensions of related approaches for gray image. The 'R' channel, 'G' channel and 'B' channel of color image can be processed independently using gray image based processing method. However, the relationships between tri-channels are ignored, and the processed image will get distortion. In this paper, a novel color medical image registration method based on quaternion is put forward. Cross-correlation of two color images is transformed from frequency domain to time domain based on quaternion. The cross-correlation coefficients expression of quaternion matrix in time domain is put forward, deduced and proved. Good registration results are obtained by using registration algorithm of quaternion cross-correlation coefficients. Peak signal-to-noise ratio of processed image is relatively high. High registration precision is achieved without changing the relative position of RGB components. © 2013 Binary Information Press.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Hangzhou 310023",
+                        "country": "China",
+                        "@country": "chn",
+                        "organization": [
+                            {"$": "College of Information Engineering"},
+                            {"$": "Zhejiang University of Technology"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "L.",
+                        "ce:surname": "Hua",
+                        "ce:indexed-name": "Hua L."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Color medical image registration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Cross-correlation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Time domain",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "J. Inf. Comput. Sci.",
+                    "@country": "hkg",
+                    "issn": {
+                        "$": "15487741",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "10",
+                            "@issue": "17"
+                        },
+                        "pagerange": {
+                            "@first": "5607",
+                            "@last": "5617"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2013"},
+                    "sourcetitle": "Journal of Information and Computational Science",
+                    "@srcid": "144748",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2013",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "20 November 2013"
+                        },
+                        "day": "20"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.6",
+                                "classification-description": "Medicine"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "741.1",
+                                "classification-description": "Light and Optics"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {"classification-code": "Related Topics"}
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "1704"},
+                            {"$": "1703"},
+                            {"$": "3309"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "SOCI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2013 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "10",
+                    "@year": "2013",
+                    "@month": "12"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "370407337",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20135017075198",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84889241156",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84889241156",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.12733/jics20103231"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "Rohde G. K, Pajevic S, Pierpaoli C, A comprehensive approach for multi-channel image registration [A]. In: Gee JC, Maintz JBA, Vannier MW(Ed.) 2nd International Workshop on Biomedical Image Registration [C]. Proceedings of Philadelphia, Pennsylvania, 2003, 214-223",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "A comprehensive approach for multi-channel image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142183410",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "214",
+                                "@last": "223"
+                            }},
+                            "ref-text": "Gee JC, Maintz JBA, Vannier MW(Ed.), Proceedings of Philadelphia, Pennsylvania",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohde",
+                                    "ce:indexed-name": "Rohde G.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pajevic",
+                                    "ce:indexed-name": "Pajevic S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pierpaoli",
+                                    "ce:indexed-name": "Pierpaoli C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2nd International Workshop on Biomedical Image Registration"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hainan Wang, The Research about Medical Image Registration Method Based on the Mutual Information Multi-modality [D]. Northwestern Polytechnical University, 2006",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "The research about medical image registration method based on the mutual information multi-modality"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84889250620",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Northwestern Polytechnical University",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Wang",
+                                "ce:indexed-name": "Wang H."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yujin Zhang, Image processing and analysis [M]. Beijing: Tsinghua university Press, 1999",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003557272",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Beijing: Tsinghua university Press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Y.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang Y."
+                            }]},
+                            "ref-sourcetitle": "Image Processing and Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Todd Anthony Ell, Hypercomplex spectral transformations [D]. University of Minnesota, PhD thesis, 1992",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Hypercomplex spectral transformations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004203538",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "University of Minnesota, PhD thesis",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Ell",
+                                "ce:indexed-name": "Ell T.A."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zheng Lu, Yi Xu, Xiaokang Yang, 2D quaternion Fourier transform: The spectrum properties and its application in color image registration [A]. In: IEEE (Ed.), International Conference on Multimedia and Expo [C]. Proceedings of Beijing, Peoples China, 2007, 1715-1718",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "2D quaternion Fourier transform: The spectrum properties and its application in color image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "46449134617",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1715",
+                                "@last": "1718"
+                            }},
+                            "ref-text": "IEEE (Ed.), Proceedings of Beijing, Peoples China",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Multimedia and Expo"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wei Feng, Bo Hu, Novel Color Image Registration Algorithm Using Quaternion Phase-only Correlation [J]. Systems Engineering and Electronics, 32(1), 2010, 183-187",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Novel color image registration algorithm using quaternion phase-only correlation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77649196498",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "183",
+                                    "@last": "187"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Systems Engineering and Electronics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sangwine S. J., Ell T. A., Moxey C. E., Vector Phase Correlation [J]. Electronics Letters, 37(25), 2001, 1513-1515",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Vector phase correlation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035818811",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "25"
+                                },
+                                "pagerange": {
+                                    "@first": "1513",
+                                    "@last": "1515"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moxey",
+                                    "ce:indexed-name": "Moxey C.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electronics Letters"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Moxey C. E., Sangwine S. J., Ell T. A., Color-grayscale image registration using hypercomplex phase correlation [A]. In: IEEE (Ed.), International Conference on Image Processing [C]. Proceedings of Rochester, New York, 2002, 385-388",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Color-grayscale image registration using hypercomplex phase correlation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036447836",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "385",
+                                "@last": "388"
+                            }},
+                            "ref-text": "IEEE (Ed.), Proceedings of Rochester, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moxey",
+                                    "ce:indexed-name": "Moxey C.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Moxey C. E., Sangwine S. J., Ell T. A., Hypereomplex Correlation Techniques for Vector Images [J]. IEEE Trans, on Signal Processing, 51(7), 2003, 1941-1953",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Hypereomplex correlation techniques for vector images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037861990",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "51",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1941",
+                                    "@last": "1953"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moxey",
+                                    "ce:indexed-name": "Moxey C.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans, on Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ming Zhu, Jigang Sun, Liqiang Guo, Quaternion Moment Invariant for Color Image, Chinese Optics, 4(2), 2011, 187-195",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Quaternion moment invariant for color image"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872439736",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "187",
+                                    "@last": "195"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Chinese Optics"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Hangzhou",
+            "@id": "60026282",
+            "affilname": "Zhejiang University of Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026282",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Nantong",
+            "@id": "60021783",
+            "affilname": "Nantong University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021783",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "17",
+        "eid": "2-s2.0-84889241156",
+        "dc:description": "Image registration technique has been widely studied and used in the field of medical diagnosis and treatment. Most methodologies adopted for registration of color image can be viewed as the extensions of related approaches for gray image. The 'R' channel, 'G' channel and 'B' channel of color image can be processed independently using gray image based processing method. However, the relationships between tri-channels are ignored, and the processed image will get distortion. In this paper, a novel color medical image registration method based on quaternion is put forward. Cross-correlation of two color images is transformed from frequency domain to time domain based on quaternion. The cross-correlation coefficients expression of quaternion matrix in time domain is put forward, deduced and proved. Good registration results are obtained by using registration algorithm of quaternion cross-correlation coefficients. Peak signal-to-noise ratio of processed image is relatively high. High registration precision is achieved without changing the relative position of RGB components. © 2013 Binary Information Press.",
+        "prism:coverDate": "2013-11-20",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84889241156",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Liang",
+            "preferred-name": {
+                "ce:given-name": "Liang",
+                "ce:initials": "L.",
+                "ce:surname": "Hua",
+                "ce:indexed-name": "Hua L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60026282",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026282"
+                },
+                {
+                    "@id": "60021783",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021783"
+                }
+            ],
+            "ce:surname": "Hua",
+            "@auid": "35195975900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35195975900",
+            "ce:indexed-name": "Hua L."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84889241156"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84889241156&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84889241156&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Journal of Information and Computational Science",
+        "source-id": "144748",
+        "citedby-count": "5",
+        "prism:volume": "10",
+        "subtype": "ar",
+        "prism:pageRange": "5607-5617",
+        "dc:title": "Color medical image registration based on quaternion",
+        "prism:endingPage": "5617",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.12733/jics20103231",
+        "prism:issn": "15487741",
+        "prism:startingPage": "5607",
+        "dc:identifier": "SCOPUS_ID:84889241156"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Cross correlations",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cross-correlation coefficient",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Image registration techniques",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Peak signal-to-noise ratio",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Registration algorithms",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Registration precision",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time domain",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Color medical image registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Cross-correlation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Time domain"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Graphics and Computer-Aided Design",
+            "@code": "1704",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational Theory and Mathematics",
+            "@code": "1703",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Library and Information Sciences",
+            "@code": "3309",
+            "@abbrev": "SOCI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Liang",
+            "preferred-name": {
+                "ce:given-name": "Liang",
+                "ce:initials": "L.",
+                "ce:surname": "Hua",
+                "ce:indexed-name": "Hua L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60026282",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026282"
+                },
+                {
+                    "@id": "60021783",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021783"
+                }
+            ],
+            "ce:surname": "Hua",
+            "@auid": "35195975900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35195975900",
+            "ce:indexed-name": "Hua L."
+        },
+        {
+            "ce:given-name": "Yu",
+            "preferred-name": {
+                "ce:given-name": "Yu",
+                "ce:initials": "Y.",
+                "ce:surname": "Huang",
+                "ce:indexed-name": "Huang Y."
+            },
+            "@seq": "2",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60026282",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026282"
+            },
+            "ce:surname": "Huang",
+            "@auid": "57196142394",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57196142394",
+            "ce:indexed-name": "Huang Y."
+        },
+        {
+            "ce:given-name": "Yuqing",
+            "preferred-name": {
+                "ce:given-name": "Yuqing",
+                "ce:initials": "Y.",
+                "ce:surname": "Liu",
+                "ce:indexed-name": "Liu Y."
+            },
+            "@seq": "3",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021783"
+            },
+            "ce:surname": "Liu",
+            "@auid": "55951846100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55951846100",
+            "ce:indexed-name": "Liu Y."
+        },
+        {
+            "ce:given-name": "Lijun",
+            "preferred-name": {
+                "ce:given-name": "Lijun",
+                "ce:initials": "L.",
+                "ce:surname": "Ding",
+                "ce:indexed-name": "Ding L."
+            },
+            "@seq": "4",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60026282",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026282"
+            },
+            "ce:surname": "Ding",
+            "@auid": "7403132986",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7403132986",
+            "ce:indexed-name": "Ding L."
+        },
+        {
+            "ce:given-name": "Hao",
+            "preferred-name": {
+                "ce:given-name": "Hao",
+                "ce:initials": "H.",
+                "ce:surname": "Feng",
+                "ce:indexed-name": "Feng H."
+            },
+            "@seq": "5",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021783"
+            },
+            "ce:surname": "Feng",
+            "@auid": "35302377700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35302377700",
+            "ce:indexed-name": "Feng H."
+        },
+        {
+            "ce:given-name": "Juping",
+            "preferred-name": {
+                "ce:given-name": "Juping",
+                "ce:initials": "J.",
+                "ce:surname": "Gu",
+                "ce:indexed-name": "Gu J."
+            },
+            "@seq": "6",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021783",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021783"
+            },
+            "ce:surname": "Gu",
+            "@auid": "7403129551",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7403129551",
+            "ce:indexed-name": "Gu J."
+        }
+    ]}
+}}

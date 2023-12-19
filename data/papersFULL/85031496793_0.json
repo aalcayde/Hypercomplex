@@ -1,0 +1,1865 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "26",
+                "@timestamp": "2020-10-26T13:13:53.000053-04:00",
+                "@year": "2020",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2018-10-31T14:07:22.787Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United Kingdom",
+                            "address-part": "Wolfson Building, Parks Rd",
+                            "postal-code": "OX1 3QD",
+                            "@afid": "60026851",
+                            "@country": "gbr",
+                            "city": "Oxford",
+                            "organization": {"$": "University of Oxford"},
+                            "affiliation-id": {"@afid": "60026851"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Stefano",
+                            "preferred-name": {
+                                "ce:given-name": "Stefano",
+                                "ce:initials": "S.",
+                                "ce:surname": "Rosa",
+                                "ce:indexed-name": "Rosa S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Rosa",
+                            "@auid": "53867082700",
+                            "ce:indexed-name": "Rosa S."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Italy",
+                            "address-part": "Corso D. Degli Abruzzi 24",
+                            "postal-code": "10129",
+                            "@afid": "60012162",
+                            "@country": "ita",
+                            "city": "Turin",
+                            "organization": {"$": "Politecnico di Torino"},
+                            "affiliation-id": {"@afid": "60012162"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Giorgio",
+                                "preferred-name": {
+                                    "ce:given-name": "Giorgio",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Toscana",
+                                    "ce:indexed-name": "Toscana G."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Toscana",
+                                "@auid": "57035380900",
+                                "ce:indexed-name": "Toscana G."
+                            },
+                            {
+                                "ce:given-name": "Basilio",
+                                "preferred-name": {
+                                    "ce:given-name": "Basilio",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Bona",
+                                    "ce:indexed-name": "Bona B."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bona",
+                                "@auid": "35579762500",
+                                "ce:indexed-name": "Bona B."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Q-PSO: Fast Quaternion-Based Pose Estimation from RGB-D Images",
+                "abstracts": "© 2017, Springer Science+Business Media B.V.We present a pipeline for fast object pose estimation using RGB-D images, which does not rely on image features or machine learning. We are interested in segmenting objects with large variety in app.earance, from lack of texture to presence of strong textures, with a focus on the task of robotic grasping. The proposed pipeline is divided into an object segmentation part and a pose estimation part. We first find candidate object clusters using a graph-based image segmentation technique. A modified Canny edge detector is introduced for extracting robust graph edges by fusing RGB and depth information. A suitable cost function is used for building the graph, which is then partitioned using the concept of internal and external differences between graph regions. The extracted object regions are then used to initialize the 3D position of a quaternion-based Particle Swarm Optimization algorithm (Q-PSO), that fits a 3D model of the object to the depth image. The fitness function is based on depth information only and the quaternion formulation avoids singularities and the need for conversions between rotation representations. In this work we focus on the details of the GPU implementation of Q-PSO, in order to fully exploit the highly parallelizable nature of the particular implementation of the particle swarm algorithm, and discuss critic implementation details. We then test the app.roach on different publicly available RGB-D object datasets, and provide numeric comparisons with other state-of-the-art methods, as well as a discussion on robustness and an extension to the case of articulated objects. We show how Q-PSO offers comparable performances to current learning-based app.roaches, while not suffering from the problems of lack of features in objects or issues related to training, such as the need for a large training set and long training times.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United Kingdom",
+                        "address-part": "Wolfson Building, Parks Rd",
+                        "postal-code": "OX1 3QD",
+                        "@country": "gbr",
+                        "city": "Oxford",
+                        "organization": {"$": "University of Oxford"}
+                    },
+                    "person": {
+                        "ce:given-name": "Stefano",
+                        "ce:initials": "S.",
+                        "ce:surname": "Rosa",
+                        "ce:indexed-name": "Rosa S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "GPU",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Object pose estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Particle swarm optimization",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Robotic grasping",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "www.kluweronline.com/issn/0921-0296/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of Intelligent and Robotic Systems: Theory and Applications",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "92",
+                            "@issue": "3-4"
+                        },
+                        "pagerange": {
+                            "@first": "465",
+                            "@last": "487"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Journal of Intelligent and Robotic Systems: Theory and Applications",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 December 2018"
+                        },
+                        "day": "01"
+                    },
+                    "codencode": "JIRSE",
+                    "sourcetitle-abbrev": "J Intell Rob Syst Theor Appl",
+                    "@country": "nld",
+                    "issn": [
+                        {
+                            "$": "15730409",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "09210296",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {
+                        "publishername": "Springer Netherlands",
+                        "ce:e-address": {
+                            "$": "rbk@louisiana.edu",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "24360"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "2207"},
+                            {"$": "2210"},
+                            {"$": "2209"},
+                            {"$": "1702"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "24",
+                    "@timestamp": "BST 06:24:15",
+                    "@year": "2018",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "618796947",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "748996899",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20174204285234",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20171823948",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20170707788",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85031496793",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85031496793",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/s10846-017-0714-3"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "26",
+                "reference": [
+                    {
+                        "ref-fulltext": "Amazon Picking Challenge. Website, http://amazonpickingchallenge.org (2016)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://amazonpickingchallenge.org",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85046273509",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Website",
+                            "ref-sourcetitle": "Amazon Picking Challenge"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Abramov, A., Pauwels, K., Papon, J., Worgotter, F., Dellen, B.: Depth-supported real-time video segmentation with the kinect. In: 2012 IEEE Workshop on App.lications of Computer Vision (WACV), pp. 457\u2013464 (2012). http://doi.org/10.1109/WACV.2012.6163000",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://doi.org/10.1109/WACV.2012.6163000",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Depth-supported real-time video segmentation with the kinect"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84860677256",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "457",
+                                "@last": "464"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abramov",
+                                    "ce:indexed-name": "Abramov A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pauwels",
+                                    "ce:indexed-name": "Pauwels K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papon",
+                                    "ce:indexed-name": "Papon J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Worgotter",
+                                    "ce:indexed-name": "Worgotter F."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dellen",
+                                    "ce:indexed-name": "Dellen B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2012 IEEE Workshop on App.Lications of Computer Vision (WACV)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aldoma, A., Tombari, F., Rusu, R.B., Vincze, M.: Pattern Recognition: Joint 34th DAGM and 36th OAGM Symposium, Graz, Austria, August 28\u201331, 2012. Proceedings, Springer Berlin Heidelberg, Berlin, chap OUR-CVFH \u2013 Oriented, Unique and Repeatable Clustered Viewpoint Feature Histogram for Object Recognition and 6DOF Pose Estimation, pp. 113\u2013122 (2012). 10.1007/978-3-642-32717-9_12",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "OUR-CVFH \u2013 Oriented, Unique and Repeatable Clustered Viewpoint Feature Histogram for Object Recognition and 6DOF Pose Estimation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/978-3-642-32717-9_12",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84865829934",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "113",
+                                "@last": "122"
+                            }},
+                            "ref-text": "Springer Berlin Heidelberg, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Aitor",
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aldoma",
+                                    "ce:indexed-name": "Aldoma A."
+                                },
+                                {
+                                    "ce:given-name": "Federico",
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tombari",
+                                    "ce:indexed-name": "Tombari F."
+                                },
+                                {
+                                    "ce:given-name": "Radu Bogdan",
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusu",
+                                    "ce:indexed-name": "Rusu R.B."
+                                },
+                                {
+                                    "ce:given-name": "Markus",
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vincze",
+                                    "ce:indexed-name": "Vincze M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lecture Notes in Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bastos-Filho, C., Nascimento, D., Junior, M.O.: Running particle swarm optimization on graphic processing units. INTECH Open Access Publisher (2011)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85047730634",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "INTECH Open Access Publisher",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bastos-Filho",
+                                    "ce:indexed-name": "Bastos-Filho C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nascimento",
+                                    "ce:indexed-name": "Nascimento D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Junior",
+                                    "ce:indexed-name": "Junior M.O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Running Particle Swarm Optimization on Graphic Processing Units"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bonde, U., Badrinarayanan, V., Cipolla, R.: Robust instance recognition in presence of occlusion and clutter. In: European Conference on Computer Vision, pp. 520\u2013535. Springer, Berlin (2014)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Robust Instance Recognition in Presence of Occlusion and Clutter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84906508324",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "520",
+                                "@last": "535"
+                            }},
+                            "ref-text": "Springer International Publishing, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Ujwal",
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonde",
+                                    "ce:indexed-name": "Bonde U."
+                                },
+                                {
+                                    "ce:given-name": "Vijay",
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Badrinarayanan",
+                                    "ce:indexed-name": "Badrinarayanan V."
+                                },
+                                {
+                                    "ce:given-name": "Roberto",
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cipolla",
+                                    "ce:indexed-name": "Cipolla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision \u2013 ECCV 2014"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Brachmann, E., Krull, A., Michel, F., Gumhold, S., Shotton, J., Rother, C.: Learning 6d object pose estimation using 3d object coordinates. In: European Conference on Computer Vision, pp. 536\u2013551. Springer, Berlin (2014)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Learning 6D Object Pose Estimation Using 3D Object Coordinates"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84906517211",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "536",
+                                "@last": "551"
+                            }},
+                            "ref-text": "Springer International Publishing, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Eric",
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brachmann",
+                                    "ce:indexed-name": "Brachmann E."
+                                },
+                                {
+                                    "ce:given-name": "Alexander",
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krull",
+                                    "ce:indexed-name": "Krull A."
+                                },
+                                {
+                                    "ce:given-name": "Frank",
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michel",
+                                    "ce:indexed-name": "Michel F."
+                                },
+                                {
+                                    "ce:given-name": "Stefan",
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gumhold",
+                                    "ce:indexed-name": "Gumhold S."
+                                },
+                                {
+                                    "ce:given-name": "Jamie",
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shotton",
+                                    "ce:indexed-name": "Shotton J."
+                                },
+                                {
+                                    "ce:given-name": "Carsten",
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rother",
+                                    "ce:indexed-name": "Rother C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision \u2013 ECCV 2014"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Carpin, S., Birk, A., Jucikas, V.: On map merging. Robot. Auton. Syst. 53(1), 1\u201314 (2005). 10.1016/j.robot.2005.07.001. http://www.sciencedirect.com/science/article/pii/S0921889005001041",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.sciencedirect.com/science/article/pii/S0921889005001041",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "On map merging"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1016/j.robot.2005.07.001",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "25144489218",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "53",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "14"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpin",
+                                    "ce:indexed-name": "Carpin S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Birk",
+                                    "ce:indexed-name": "Birk A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jucikas",
+                                    "ce:indexed-name": "Jucikas V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robot. Auton. Syst."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Felzenszwalb, P.F., Huttenlocher, D.P.: Efficient graph-based image segmentation. Int. J. Comput. Vis. 59(2), 167\u2013181 (2004)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Efficient graph-based image segmentation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1023/B:VISI.0000022288.19776.77",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "9644254228",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "167",
+                                    "@last": "181"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Felzenszwalb",
+                                    "ce:indexed-name": "Felzenszwalb P.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huttenlocher",
+                                    "ce:indexed-name": "Huttenlocher D.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Vis."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hinterstoisser, S., Lepetit, V., Ilic, S., Holzer, S., Bradski, G., Konolige, K., Navab, N.: Model based training, detection and pose estimation of texture-less 3d objects in heavily cluttered scenes. In: Computer Vision\u2013ACCV 2012, pp. 548\u2013562. Springer, Berlin (2012)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Model Based Training, Detection and Pose Estimation of Texture-Less 3D Objects in Heavily Cluttered Scenes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/978-3-642-37331-2_42",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84875875840",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "548",
+                                "@last": "562"
+                            }},
+                            "ref-text": "Springer Berlin Heidelberg, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Stefan",
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinterstoisser",
+                                    "ce:indexed-name": "Hinterstoisser S."
+                                },
+                                {
+                                    "ce:given-name": "Vincent",
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                },
+                                {
+                                    "ce:given-name": "Slobodan",
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                },
+                                {
+                                    "ce:given-name": "Stefan",
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holzer",
+                                    "ce:indexed-name": "Holzer S."
+                                },
+                                {
+                                    "ce:given-name": "Gary",
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bradski",
+                                    "ce:indexed-name": "Bradski G."
+                                },
+                                {
+                                    "ce:given-name": "Kurt",
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                },
+                                {
+                                    "ce:given-name": "Nassir",
+                                    "@seq": "7",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision \u2013 ACCV 2012"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Holzer, H.S.S., Cagniart, C., Ilic, S., Konolige, K., Navab, N., Lepetit, V.: Multimodal templates for real-time detection of texture-less objects in heavily cluttered scenes (2011)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85029379145",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holzer",
+                                    "ce:indexed-name": "Holzer H.S.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cagniart",
+                                    "ce:indexed-name": "Cagniart C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Multimodal Templates for Real-Time Detection of Texture-Less Objects in Heavily Cluttered Scenes"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hodaň, T, Zabulis, X., Lourakis, M., Obdrlek, C., Matas, J.: Detection and fine 3d pose estimation of texture-less objects in rgb-d images. In: 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 4421\u20134428 (2015). 10.1109/IROS.2015.7354005",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/IROS.2015.7354005",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Detection and fine 3d pose estimation of texture-less objects in rgb-d images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84958185174",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4421",
+                                "@last": "4428"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hodaň",
+                                    "ce:indexed-name": "Hodan T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zabulis",
+                                    "ce:indexed-name": "Zabulis X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lourakis",
+                                    "ce:indexed-name": "Lourakis M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Obdrlek",
+                                    "ce:indexed-name": "Obdrlek C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matas",
+                                    "ce:indexed-name": "Matas J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Holzer, S., Rusu, R., Dixon, M., Gedikli, S., Navab, N.: Adaptive neighborhood selection for real-time surface normal estimation from organized point cloud data using integral images. In: 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 2684\u20132689 (2012). 10.1109/IROS.2012.6385999",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1109/IROS.2012.6385999",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Adaptive neighborhood selection for real-time surface normal estimation from organized point cloud data using integral images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84872324867",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2684",
+                                "@last": "2689"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holzer",
+                                    "ce:indexed-name": "Holzer S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusu",
+                                    "ce:indexed-name": "Rusu R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dixon",
+                                    "ce:indexed-name": "Dixon M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gedikli",
+                                    "ce:indexed-name": "Gedikli S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2012 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kennedy, J.: Particle swarm optimization. In: Encyclopedia of Machine Learning, pp. 760\u2013766. Springer, Berlin (2010)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Particle swarm optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84886563124",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "760",
+                                "@last": "766"
+                            }},
+                            "ref-text": "Springer, Berlin",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Kennedy",
+                                "ce:indexed-name": "Kennedy J."
+                            }]},
+                            "ref-sourcetitle": "Encyclopedia of Machine Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Michel, F., Krull, A., Brachmann, E., Yang, M.Y., Gumhold, S., Rother, C.: Pose estimation of kinematic chain instances via object coordinate regression. In: Proceedings of the British Machine Vision Conference 2015, BMVC 2015, pp. 181.1\u2013181.11, Swansea (2015). 10.5244/C.29.181",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.5244/C.29.181",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Pose estimation of kinematic chain instances via object coordinate regression"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84986261036",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "181"
+                            }},
+                            "ref-text": "Swansea",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michel",
+                                    "ce:indexed-name": "Michel F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krull",
+                                    "ce:indexed-name": "Krull A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brachmann",
+                                    "ce:indexed-name": "Brachmann E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gumhold",
+                                    "ce:indexed-name": "Gumhold S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rother",
+                                    "ce:indexed-name": "Rother C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the British Machine Vision Conference 2015, BMVC 2015"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mishra, A.K., Shrivastava, A., Aloimonos, Y.: Segmenting simple objects using rgb-d. In: 2012 IEEE International Conference on Robotics and Automation (ICRA), pp. 4406\u20134413. IEEE (2012)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Segmenting simple objects using rgb-d"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84864436634",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4406",
+                                "@last": "4413"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mishra",
+                                    "ce:indexed-name": "Mishra A.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shrivastava",
+                                    "ce:indexed-name": "Shrivastava A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aloimonos",
+                                    "ce:indexed-name": "Aloimonos Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2012 IEEE International Conference on Robotics and Automation (ICRA)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "de P, Veronese, L., Krohling, R.A.: Swarm\u2019s flight: accelerating the particles using c-cuda. In: IEEE Congress on Evolutionary Computation, 2009. CEC\u201909, pp. 3264\u20133270. IEEE, New Jersey (2009)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Swarm\u2019s flight: Accelerating the particles using c-cuda"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70450001554",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3264",
+                                "@last": "3270"
+                            }},
+                            "ref-text": "IEEE, New Jersey",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De",
+                                    "ce:indexed-name": "De P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veronese",
+                                    "ce:indexed-name": "Veronese L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krohling",
+                                    "ce:indexed-name": "Krohling R.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Congress on Evolutionary Computation, 2009. CEC\u201909"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pineda, J.: A parallel algorithm for polygon rasterization. In: ACM SIGGRAPH Computer Graphics, vol. 22, pp. 17\u201320. ACM, New York (1988)",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "A parallel algorithm for polygon rasterization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/378456.378457",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0024062080",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "17",
+                                    "@last": "20"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Juan",
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Pineda",
+                                "ce:indexed-name": "Pineda J."
+                            }]},
+                            "ref-sourcetitle": "ACM SIGGRAPH Computer Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rao, D., Le, Q.V., Phoka, T., Quigley, M., Sudsang, A., Ng, A.Y.: Grasping novel objects with depth segmentation. In: 2010 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 2578\u20132585. IEEE, New Jersey (2010)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Grasping novel objects with depth segmentation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78651483922",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2578",
+                                "@last": "2585"
+                            }},
+                            "ref-text": "IEEE, New Jersey",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rao",
+                                    "ce:indexed-name": "Rao D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le",
+                                    "ce:indexed-name": "Le Q.V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phoka",
+                                    "ce:indexed-name": "Phoka T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Quigley",
+                                    "ce:indexed-name": "Quigley M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sudsang",
+                                    "ce:indexed-name": "Sudsang A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng A.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2010 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rennie, C., Shome, R., Bekris, K.E., De Souza, A.F.: A dataset for improved rgbd-based object detection and pose estimation for warehouse pick-and-place. CoRR arXiv:1509.01277 (2016)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1509.01277",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85000984197",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rennie",
+                                    "ce:indexed-name": "Rennie C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shome",
+                                    "ce:indexed-name": "Shome R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bekris",
+                                    "ce:indexed-name": "Bekris K.E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "de Souza",
+                                    "ce:indexed-name": "de Souza A.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Dataset for Improved Rgbd-Based Object Detection and Pose Estimation for Warehouse Pick-And-Place"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rosa, S., Toscana, G.: Fast feature-less quaternion-based particle swarm optimization for object pose estimation from rgb-d images. In: Proceedings of the British Machine Vision Conference (BMVC) (2016)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Fast feature-less quaternion-based particle swarm optimization for object pose estimation from rgb-d images"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85047763832",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosa",
+                                    "ce:indexed-name": "Rosa S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toscana",
+                                    "ce:indexed-name": "Toscana G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the British Machine Vision Conference (BMVC)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Schäfer, H., Lenzen, F., Garbe, C.S.: Depth and intensity based edge detection in time-of-flight images. In: 3DV, pp. 111\u2013118 (2013)",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84886015269",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "111",
+                                "@last": "118"
+                            }},
+                            "ref-text": "3DV",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schäfer",
+                                    "ce:indexed-name": "Schafer H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lenzen",
+                                    "ce:indexed-name": "Lenzen F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garbe",
+                                    "ce:indexed-name": "Garbe C.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Depth and Intensity Based Edge Detection in Time-Of-Flight Images"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shoemake, K.: Animating rotation with quaternion curves. In: ACM SIGGRAPH computer graphics, vol. 19, pp. 245\u2013254. ACM, New York (1985)",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Animating rotation with quaternion curves"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1145/325165.325242",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "CR22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0022095776",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "245",
+                                    "@last": "254"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Ken",
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Shoemake",
+                                "ce:indexed-name": "Shoemake K."
+                            }]},
+                            "ref-sourcetitle": "ACM SIGGRAPH Computer Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sola J: Quaternion kinematics for the error-state kf (2017)",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85041961485",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Sola",
+                                "ce:indexed-name": "Sola J."
+                            }]},
+                            "ref-sourcetitle": "Quaternion Kinematics for the Error-State Kf"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tejani, A., Tang, D., Kouskouridas, R., Kim, T.K.: Latent-class hough forests for 3d object detection and pose estimation. In: Computer Vision\u2013ECCV 2014, pp. 462\u2013477. Springer, Berlin (2014)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Latent-Class Hough Forests for 3D Object Detection and Pose Estimation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84906355478",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "462",
+                                "@last": "477"
+                            }},
+                            "ref-text": "Springer International Publishing, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Alykhan",
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tejani",
+                                    "ce:indexed-name": "Tejani A."
+                                },
+                                {
+                                    "ce:given-name": "Danhang",
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang D."
+                                },
+                                {
+                                    "ce:given-name": "Rigas",
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kouskouridas",
+                                    "ce:indexed-name": "Kouskouridas R."
+                                },
+                                {
+                                    "ce:given-name": "Tae-Kyun",
+                                    "@seq": "4",
+                                    "ce:initials": "T.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T.-K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision \u2013 ECCV 2014"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Toscana, G., Rosa, S.: Fast graph-based object segmentation for rgb-d images. CoRR arXiv:1605.03746 (2016)",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1605.03746",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85034429593",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toscana",
+                                    "ce:indexed-name": "Toscana G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosa",
+                                    "ce:indexed-name": "Rosa S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Fast Graph-Based Object Segmentation for Rgb-D Images"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhou, Y., Tan, Y.: Gpu-based parallel particle swarm optimization. In: IEEE Congress on Evolutionary Computation, 2009. CEC\u201909, pp. 1493\u20131500. IEEE, New Jersey (2009)",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Gpu-based parallel particle swarm optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "CR26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70450131391",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1493",
+                                "@last": "1500"
+                            }},
+                            "ref-text": "IEEE, New Jersey",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Congress on Evolutionary Computation, 2009. CEC\u201909"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Oxford",
+            "@id": "60026851",
+            "affilname": "University of Oxford",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026851",
+            "affiliation-country": "United Kingdom"
+        },
+        {
+            "affiliation-city": "Turin",
+            "@id": "60012162",
+            "affilname": "Politecnico di Torino",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012162",
+            "affiliation-country": "Italy"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85031496793",
+        "dc:description": "We present a pipeline for fast object pose estimation using RGB-D images, which does not rely on image features or machine learning. We are interested in segmenting objects with large variety in app.earance, from lack of texture to presence of strong textures, with a focus on the task of robotic grasping. The proposed pipeline is divided into an object segmentation part and a pose estimation part. We first find candidate object clusters using a graph-based image segmentation technique. A modified Canny edge detector is introduced for extracting robust graph edges by fusing RGB and depth information. A suitable cost function is used for building the graph, which is then partitioned using the concept of internal and external differences between graph regions. The extracted object regions are then used to initialize the 3D position of a quaternion-based Particle Swarm Optimization algorithm (Q-PSO), that fits a 3D model of the object to the depth image. The fitness function is based on depth information only and the quaternion formulation avoids singularities and the need for conversions between rotation representations. In this work we focus on the details of the GPU implementation of Q-PSO, in order to fully exploit the highly parallelizable nature of the particular implementation of the particle swarm algorithm, and discuss critic implementation details. We then test the app.roach on different publicly available RGB-D object datasets, and provide numeric comparisons with other state-of-the-art methods, as well as a discussion on robustness and an extension to the case of articulated objects. We show how Q-PSO offers comparable performances to current learning-based app.roaches, while not suffering from the problems of lack of features in objects or issues related to training, such as the need for a large training set and long training times.",
+        "prism:coverDate": "2018-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85031496793",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Stefano",
+            "preferred-name": {
+                "ce:given-name": "Stefano",
+                "ce:initials": "S.",
+                "ce:surname": "Rosa",
+                "ce:indexed-name": "Rosa S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60026851",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026851"
+            },
+            "ce:surname": "Rosa",
+            "@auid": "53867082700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/53867082700",
+            "ce:indexed-name": "Rosa S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85031496793"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85031496793&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85031496793&origin=inward"
+            }
+        ],
+        "source-id": "24360",
+        "citedby-count": "3",
+        "prism:volume": "92",
+        "subtype": "ar",
+        "dc:title": "Q-PSO: Fast Quaternion-Based Pose Estimation from RGB-D Images",
+        "openaccess": "0",
+        "prism:issn": "15730409 09210296",
+        "publishercopyright": "© 2017, Springer Science+Business Media B.V.",
+        "prism:issueIdentifier": "3-4",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Journal of Intelligent and Robotic Systems: Theory and Applications",
+        "prism:pageRange": "465-487",
+        "prism:endingPage": "487",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/s10846-017-0714-3",
+        "prism:startingPage": "465",
+        "dc:identifier": "SCOPUS_ID:85031496793",
+        "dc:publisher": "Springer Netherlandsrbk@louisiana.edu"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Canny edge detectors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Graph-based image segmentations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Object pose",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Object segmentation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Particle swarm algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Particle swarm optimization algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Robotic grasping",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State-of-the-art methods",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "GPU"
+        },
+        {
+            "@_fa": "true",
+            "$": "Object pose estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Particle swarm optimization"
+        },
+        {
+            "@_fa": "true",
+            "$": "Robotic grasping"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Industrial and Manufacturing Engineering",
+            "@code": "2209",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Stefano",
+            "preferred-name": {
+                "ce:given-name": "Stefano",
+                "ce:initials": "S.",
+                "ce:surname": "Rosa",
+                "ce:indexed-name": "Rosa S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60026851",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60026851"
+            },
+            "ce:surname": "Rosa",
+            "@auid": "53867082700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/53867082700",
+            "ce:indexed-name": "Rosa S."
+        },
+        {
+            "ce:given-name": "Giorgio",
+            "preferred-name": {
+                "ce:given-name": "Giorgio",
+                "ce:initials": "G.",
+                "ce:surname": "Toscana",
+                "ce:indexed-name": "Toscana G."
+            },
+            "@seq": "2",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012162",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012162"
+            },
+            "ce:surname": "Toscana",
+            "@auid": "57035380900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57035380900",
+            "ce:indexed-name": "Toscana G."
+        },
+        {
+            "ce:given-name": "Basilio",
+            "preferred-name": {
+                "ce:given-name": "Basilio",
+                "ce:initials": "B.",
+                "ce:surname": "Bona",
+                "ce:indexed-name": "Bona B."
+            },
+            "@seq": "3",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60012162",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60012162"
+            },
+            "ce:surname": "Bona",
+            "@auid": "35579762500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35579762500",
+            "ce:indexed-name": "Bona B."
+        }
+    ]}
+}}

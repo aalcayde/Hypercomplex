@@ -1,0 +1,1988 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "13",
+                "@year": "2023",
+                "@timestamp": "2023-07-13T15:14:29.000029-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "15",
+                "@year": "2016",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Germany",
+                            "@afid": "60019722",
+                            "@country": "deu",
+                            "organization": [
+                                {"$": "Computer Aided Medical Procedures"},
+                                {"$": "Technische Universität München"}
+                            ],
+                            "affiliation-id": {"@afid": "60019722"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Benjamin",
+                                "preferred-name": {
+                                    "ce:given-name": "Benjamin",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Busam",
+                                    "ce:indexed-name": "Busam B."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@date-locked": "2022-11-28T07:31:49.094",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Busam",
+                                "@auid": "57015641800",
+                                "ce:indexed-name": "Busam B."
+                            },
+                            {
+                                "ce:given-name": "Marco",
+                                "preferred-name": {
+                                    "ce:given-name": "Marco",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Esposito",
+                                    "ce:indexed-name": "Esposito M."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Esposito",
+                                "@auid": "56340644100",
+                                "ce:indexed-name": "Esposito M."
+                            },
+                            {
+                                "ce:given-name": "Benjamin",
+                                "preferred-name": {
+                                    "ce:given-name": "Benjamin",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Frisch",
+                                    "ce:indexed-name": "Frisch B."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Frisch",
+                                "@auid": "26655593100",
+                                "ce:indexed-name": "Frisch B."
+                            },
+                            {
+                                "ce:given-name": "Nassir",
+                                "preferred-name": {
+                                    "ce:given-name": "Nassir",
+                                    "ce:initials": "N.",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "N.",
+                                "@date-locked": "2020-01-17T01:43:54.229",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Navab",
+                                "@auid": "7003458998",
+                                "ce:indexed-name": "Navab N."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Germany",
+                            "@afid": "60116236",
+                            "@country": "deu",
+                            "organization": {"$": "FRAMOS Imaging Sytems"},
+                            "affiliation-id": {"@afid": "60116236"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Benjamin",
+                            "preferred-name": {
+                                "ce:given-name": "Benjamin",
+                                "ce:initials": "B.",
+                                "ce:surname": "Busam",
+                                "ce:indexed-name": "Busam B."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "B.",
+                            "@date-locked": "2022-11-28T07:31:49.094",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Busam",
+                            "@auid": "57015641800",
+                            "ce:indexed-name": "Busam B."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60005248",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Computer Aided Medical Procedures"},
+                                {"$": "Johns Hopkins University"}
+                            ],
+                            "affiliation-id": {"@afid": "60005248"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Nassir",
+                            "preferred-name": {
+                                "ce:given-name": "Nassir",
+                                "ce:initials": "N.",
+                                "ce:surname": "Navab",
+                                "ce:indexed-name": "Navab N."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "N.",
+                            "@date-locked": "2020-01-17T01:43:54.229",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Navab",
+                            "@auid": "7003458998",
+                            "ce:indexed-name": "Navab N."
+                        }]
+                    }
+                ],
+                "citation-title": "Quaternionic upsampling: Hyperspherical techniques for 6 DoF pose tracking",
+                "abstracts": "© 2016 IEEE.Fast real-time tracking is an integral component of modern 3D computer vision pipelines. Despite their advantages in accuracy and reliability, optical trackers suffer from limited acquisition rates depending either on intrinsic sensor capabilities or physical limitations such as exposure time. Moreover, data transmission and image processing produce latency in the pose stream. We introduce quaternionic upsampling to overcome these problems. The technique models the pose parameters as points on multidimensional hyperspheres in (dual) quaternion space. In order to upsample the pose stream, we present several methods to sample points on geodesics and piecewise continuous curves on these manifolds and compare them regarding accuracy and computation efficiency. With the unified approach of quaternionic upsampling, both interpolation and extrapolation in pose space can be done by continuous linear variation of only one sampling parameter. Since the method can be implemented rather efficiently, pose rates of over 4 kHz and future pose predictions with an accuracy of 128 μm and 0.5° are possible in real-time. The method does not depend on a special tracking algorithm and can thus be used for any arbitrary 3 DoF or 6 DoF rotation or pose tracking system.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Germany",
+                        "@country": "deu",
+                        "organization": [
+                            {"$": "Computer Aided Medical Procedures"},
+                            {"$": "Technische Universität München"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Benjamin",
+                        "ce:initials": "B.",
+                        "ce:surname": "Busam",
+                        "ce:indexed-name": "Busam B."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "6 DoF Pose Tracking",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Dead Reckoning",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Dual Quaternions",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Extrapolation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Interpolation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pose Stream Synchronization",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "Proceedings - 2016 4th International Conference on 3D Vision, 3DV 2016",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "629",
+                        "@last": "638"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "$": "9781509054077",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {"confevent": {
+                        "confname": "4th International Conference on 3D Vision, 3DV 2016",
+                        "confsponsors": {
+                            "confsponsor": null,
+                            "@complete": "n"
+                        },
+                        "confnumber": "4",
+                        "confcatnumber": "E6007",
+                        "confseriestitle": "International Conference on 3D Vision",
+                        "conflocation": {
+                            "@country": "usa",
+                            "city": "Stanford",
+                            "state": "CA"
+                        },
+                        "confcode": "125615",
+                        "confdate": {
+                            "enddate": {
+                                "@day": "28",
+                                "@year": "2016",
+                                "@month": "10"
+                            },
+                            "startdate": {
+                                "@day": "25",
+                                "@year": "2016",
+                                "@month": "10"
+                            }
+                        }
+                    }}},
+                    "sourcetitle": "Proceedings - 2016 4th International Conference on 3D Vision, 3DV 2016",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2016",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "15 December 2016"
+                        },
+                        "day": "15"
+                    },
+                    "sourcetitle-abbrev": "Proc. - Int. Conf. 3D Vis., 3DV",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings - 2016 4th International Conference on 3D Vision, 3DV 2016",
+                    "publicationyear": {"@first": "2016"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "7785139",
+                    "@srcid": "21100793805"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1707"},
+                            {"$": "1711"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "07",
+                    "@year": "2017",
+                    "@timestamp": "BST 08:30:46",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "614293172",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "660610882",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20170603325142",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "85011309740",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85011309740",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/3DV.2016.71"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "39",
+                "reference": [
+                    {
+                        "ref-fulltext": "R. Ablamowicz, and G. Sobczyk. Lectures on Clifford (geometric) algebras and applications. Springer Science & Business Media, 2004",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3543078672",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer Science & Business Media",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ablamowicz",
+                                    "ce:indexed-name": "Ablamowicz R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sobczyk",
+                                    "ce:indexed-name": "Sobczyk G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lectures on Clifford (Geometric) Algebras and Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "V. I. Arnold. The geometry of spherical curves and the algebra of quaternions. Russian Mathematical Surveys, 50(1): 1, 1995",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "The geometry of spherical curves and the algebra of quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84956209886",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "50",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "1"}
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.I.",
+                                "@_fa": "true",
+                                "ce:surname": "Arnold",
+                                "ce:indexed-name": "Arnold V.I."
+                            }]},
+                            "ref-sourcetitle": "Russian Mathematical Surveys"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. H. Barr, B. Currin, S. Gabriel, and J. F. Hughes. Smooth interpolation of orientations with angular velocity constraints using quaternions. In Proceedings of the 19th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH, pages 313-320, New York, NY, USA, 1992",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Smooth interpolation of orientations with angular velocity constraints using quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026884426",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "313",
+                                "@last": "320"
+                            }},
+                            "ref-text": "New York, NY, USA ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barr",
+                                    "ce:indexed-name": "Barr A.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Currin",
+                                    "ce:indexed-name": "Currin B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gabriel",
+                                    "ce:indexed-name": "Gabriel S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hughes",
+                                    "ce:indexed-name": "Hughes J.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19th Annual Conference on Computer Graphics and Interactive Techniques, SIGGRAPH"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Busam, M. Esposito, S. CheRose, N. Navab, and B. Frisch. A stereo vision approach for cooperative robotic movement therapy. In Proceedings of the IEEE International Conference on Computer Vision Workshops, ICCVW, pages 127-135, 2015",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A stereo vision approach for cooperative robotic movement therapy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85141690970",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "127",
+                                "@last": "135"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Busam",
+                                    "ce:indexed-name": "Busam B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Esposito",
+                                    "ce:indexed-name": "Esposito M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "CheRose",
+                                    "ce:indexed-name": "CheRose S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frisch",
+                                    "ce:indexed-name": "Frisch B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE International Conference on Computer Vision Workshops, ICCVW"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y.-P. Chui and P.-A. Heng. Adaptive attitude dead-reckoning by cumulative polynomial extrapolation of quaternions. In Fifth IEEE International Workshop on Distributed Simulation and Real-Time Applications, pages 45-52, Aug 2001. 2",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Adaptive attitude dead-reckoning by cumulative polynomial extrapolation of quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2442654846",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "45",
+                                "@last": "52"
+                            }},
+                            "ref-text": "Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chui",
+                                    "ce:indexed-name": "Chui Y.-P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.-A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heng",
+                                    "ce:indexed-name": "Heng P.-A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Fifth IEEE International Workshop on Distributed Simulation and Real-Time Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. A. Clifford. Preliminary sketch of biquaternions. Proceedings of the London Mathematical Society, 1-4: 381-395, 1871",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1871"},
+                            "ref-title": {"ref-titletext": "Preliminary sketch of biquaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84960556043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1-4"},
+                                "pagerange": {
+                                    "@first": "381",
+                                    "@last": "395"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Clifford",
+                                "ce:indexed-name": "Clifford M.A."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the London Mathematical Society"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. B. Dam, M. Koch, and M. Lillholm. Quaternions, interpolation and animation. Datalogisk Institut, Kobenhavns Universitet, 1998",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Quaternions, interpolation and animation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0039557784",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dam",
+                                    "ce:indexed-name": "Dam E.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lillholm",
+                                    "ce:indexed-name": "Lillholm M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Datalogisk Institut, Kobenhavns Universitet"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. Daniilidis. Hand-eye calibration using dual quaternions. The International Journal of Robotics Research, 18(3): 286-298, 1999",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Hand-eye calibration using dual quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033099697",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "286",
+                                    "@last": "298"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Daniilidis",
+                                "ce:indexed-name": "Daniilidis K."
+                            }]},
+                            "ref-sourcetitle": "The International Journal of Robotics Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Z. Ercan, and S. Yce. On properties of the dual quaternions. European Journal of Pure and Applied Mathematics, 4(2): 142-146, 2011",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "On properties of the dual quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84971228509",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "142",
+                                    "@last": "146"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ercan",
+                                    "ce:indexed-name": "Ercan Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yce",
+                                    "ce:indexed-name": "Yce S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "European Journal of Pure and Applied Mathematics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Esposito, B. Busam, C. Hennersperger, J. Rackerseder, A. Lu, N. Navab, and B. Frisch. Cooperative robotic gamma imaging: Enhancing us-guided needle biopsy. In Proceedings of the 18th International Conference on Medical Image Computing and Computer Assisted Interventions, MICCAI, October 2015. 1",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Cooperative robotic gamma imaging: Enhancing us-guided needle biopsy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84951036475",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Esposito",
+                                    "ce:indexed-name": "Esposito M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Busam",
+                                    "ce:indexed-name": "Busam B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hennersperger",
+                                    "ce:indexed-name": "Hennersperger C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rackerseder",
+                                    "ce:indexed-name": "Rackerseder J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frisch",
+                                    "ce:indexed-name": "Frisch B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 18th International Conference on Medical Image Computing and Computer Assisted Interventions, MICCAI, October"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O. D. Faugeras. Three-Dimensional Computer Vision. The MIT Press, fourth printing edition, 2001",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003939313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "The MIT Press fourth printing edition",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "O.D.",
+                                "@_fa": "true",
+                                "ce:surname": "Faugeras",
+                                "ce:indexed-name": "Faugeras O.D."
+                            }]},
+                            "ref-sourcetitle": "Three-Dimensional Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Feng, and W. Wan. Dual quaternion blending algorithm and its application in character animation. Indonesian Journal of Electrical Engineering and Computer Science, 11(10): 5553-5562, 2013",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Dual quaternion blending algorithm and its application in character animation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011259854",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "5553",
+                                    "@last": "5562"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Indonesian Journal of Electrical Engineering and Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Foxlin, Y. Altshuler, L. Naimark, and M. Harrington. Flighttracker: A novel optical/ inertial tracker for cockpit enhanced vision. In Proceedings of the 3rd IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR, pages 212-221, 2004",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Flighttracker: A novel optical/ inertial tracker for cockpit enhanced vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18844387445",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "212",
+                                "@last": "221"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Foxlin",
+                                    "ce:indexed-name": "Foxlin E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Altshuler",
+                                    "ce:indexed-name": "Altshuler Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Naimark",
+                                    "ce:indexed-name": "Naimark L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harrington",
+                                    "ce:indexed-name": "Harrington M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 3rd IEEE/ACM International Symposium on Mixed and Augmented Reality, ISMAR"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Funda, R. H. Taylor, and R. P. Paul. On homogeneous transforms, quaternions, and computational efficiency. IEEE Transactions on Robotics and Automation, 6(3): 382-388, June 1990. 6",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "On homogeneous transforms, quaternions, and computational efficiency"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025448864",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "382",
+                                    "@last": "388"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Funda",
+                                    "ce:indexed-name": "Funda J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor R.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paul",
+                                    "ce:indexed-name": "Paul R.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Robotics and Automation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Guennebaud, B. Jacob, et al. Eigen v3. http://eigen.tuxfamily.org, 2010",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://eigen.tuxfamily.org",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "81055135407",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Guennebaud",
+                                        "ce:indexed-name": "Guennebaud G."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Jacob",
+                                        "ce:indexed-name": "Jacob B."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Eigen v3"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. R. Hamilton. On quaternions; or on a new system of imaginaries in algebra. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science, 25(163): 10-13, 1844",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1844"},
+                            "ref-title": {"ref-titletext": "On quaternions; Or on a new system of imaginaries in algebra. The London"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000613202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "163"
+                                },
+                                "pagerange": {
+                                    "@first": "10",
+                                    "@last": "13"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Hamilton",
+                                "ce:indexed-name": "Hamilton W.R."
+                            }]},
+                            "ref-sourcetitle": "Edinburgh, and Dublin Philosophical Magazine and Journal of Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Johnson, and G. Somu. Robotic telesurgery: Benefits beyond barriers. BMH Medical Journal, 3(2), 2016",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Robotic telesurgery: Benefits beyond barriers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011261644",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "3",
+                                "@issue": "2"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johnson",
+                                    "ce:indexed-name": "Johnson B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Somu",
+                                    "ce:indexed-name": "Somu G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "BMH Medical Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Kavan, S. Collins, C. O'Sullivan, and J. Žára. Dual quaternions for rigid transformation blending. Trinity College Dublin, Tech. Rep. TCD-CS-2006-46, 2006",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Dual quaternions for rigid transformation blending. Trinity College Dublin"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "37849019748",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavan",
+                                    "ce:indexed-name": "Kavan L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O'Sullivan",
+                                    "ce:indexed-name": "O'Sullivan C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Žára",
+                                    "ce:indexed-name": "Zara J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Tech. Rep. TCD-CS-2006-46"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Kavan, S. Collins, J. Ž ára, and C. O'Sullivan. Skinning with dual quaternions. In Proceedings of the 2007 Symposium on Interactive 3D Graphics and Games, I3D, pages 39-46, New York, USA, 2007",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Skinning with dual quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "63049087999",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2007"},
+                                "pagerange": {
+                                    "@first": "39",
+                                    "@last": "46"
+                                }
+                            },
+                            "ref-text": "New York, USA ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavan",
+                                    "ce:indexed-name": "Kavan L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ára",
+                                    "ce:indexed-name": "Ara J.Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O'Sullivan",
+                                    "ce:indexed-name": "O'Sullivan C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2007 Symposium on Interactive 3D Graphics and Games, I3D"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Kavan, and J. Ž ára. Spherical blend skinning: A real-Time deformation of articulated models. In Proceedings of the 2005 Symposium on Interactive 3D Graphics and Games, I3D '05, pages 9-16, New York, NY, USA, 2005",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Spherical blend skinning: A real-Time deformation of articulated models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "29244487096",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2005"},
+                                "pagerange": {
+                                    "@first": "9",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-text": "New York, NY, USA ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavan",
+                                    "ce:indexed-name": "Kavan L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Žára",
+                                    "ce:indexed-name": "Zara J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2005 Symposium on Interactive 3D Graphics and Games, I3D '05"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Kenwright. A beginners guide to dual-quaternions. Winter School of Computer Graphics, 2012",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A beginners guide to dual-quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011280512",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Kenwright",
+                                "ce:indexed-name": "Kenwright B."
+                            }]},
+                            "ref-sourcetitle": "Winter School of Computer Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Kuang, A. Mao, G. Li, and Y. Xiong. A strategy of realtime animation of clothed body movement. In International Conference on Multimedia Technology, ICMT, pages 4793-4797, July 2011. 1",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "A strategy of realtime animation of clothed body movement"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052929818",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4793",
+                                "@last": "4797"
+                            }},
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuang",
+                                    "ce:indexed-name": "Kuang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mao",
+                                    "ce:indexed-name": "Mao A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Multimedia Technology, ICMT"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "KUKA GmbH. Kuka lwr. user-friendly, sensitive and flexible. http://www.kukaconnect. com/wp-content/uploads/2012/07/KUKA-LBR4plus-ENLISCH.pdf, 2012",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.kukaconnect.com/wp-content/uploads/2012/07/KUKA_LBR4plus_ENLISCH.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011302736",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "KUKA GmbH",
+                            "ref-sourcetitle": "Kuka Lwr User-friendly Sensitive and Flexible"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. J. LaViola. A comparison of unscented and extended kalman filtering for estimating quaternion motion. In Proceedings of the American Control Conference, volume 3, pages 2435-2440, June 2003. 2",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "A comparison of unscented and extended kalman filtering for estimating quaternion motion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142184141",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "2435",
+                                    "@last": "2440"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.J.",
+                                "@_fa": "true",
+                                "ce:surname": "LaViola",
+                                "ce:indexed-name": "LaViola J.J."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the American Control Conference"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "V. Lepetit, and P. Fua. Monocular model-based 3d tracking of rigid objects: A survey. Foundations and Trends in Computer Graphics and Vision, 1(1): 1-89, 2005",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Monocular model-based 3d tracking of rigid objects: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33745827310",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "89"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fua",
+                                    "ce:indexed-name": "Fua P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Foundations and Trends in Computer Graphics and Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Marchand, F. Spindler, and F. Chaumette. Visp for visual servoing: A generic software platform with a wide class of robot control skills. IEEE Robotics & Automation Magazine, 12(4): 40-52, 2005",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Visp for visual servoing: A generic software platform with a wide class of robot control skills"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "31344436717",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "40",
+                                    "@last": "52"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marchand",
+                                    "ce:indexed-name": "Marchand E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spindler",
+                                    "ce:indexed-name": "Spindler F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chaumette",
+                                    "ce:indexed-name": "Chaumette F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robotics & Automation Magazine"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Mukundan. Quaternions: From classical mechanics to computer graphics, and beyond. In Proceedings of the 7th Asian Technology conference in Mathematics, pages 97-105, 2002",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Quaternions: From classical mechanics to computer graphics, and beyond"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "12944278191",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "97",
+                                "@last": "105"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Mukundan",
+                                "ce:indexed-name": "Mukundan R."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the 7th Asian Technology Conference in Mathematics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. M. Nielson. -quaternion splines for the smooth interpolation of orientations. IEEE Transactions on Visualization and Computer Graphics, 10(2): 224-229, March 2004. 2",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Quaternion splines for the smooth interpolation of orientations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1342303337",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "224",
+                                    "@last": "229"
+                                }
+                            },
+                            "ref-text": "March",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.M.",
+                                "@_fa": "true",
+                                "ce:surname": "Nielson",
+                                "ce:indexed-name": "Nielson G.M."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Visualization and Computer Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Parent. Computer animation: Algorithms and Techniques. Newnes, 2012",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85133919269",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Newnes",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Parent",
+                                "ce:indexed-name": "Parent R."
+                            }]},
+                            "ref-sourcetitle": "Computer Animation: Algorithms and Techniques"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Pennestrì, and P. Valentini. Dual quaternions as a tool for rigid body motion analysis: A tutorial with an application to biomechanics. Archive of Mechanical Engineering, 57(2): 187-205, 2010",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Dual quaternions as a tool for rigid body motion analysis: A tutorial with an application to biomechanics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011262457",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "187",
+                                    "@last": "205"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pennestrì",
+                                    "ce:indexed-name": "Pennestri E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Valentini",
+                                    "ce:indexed-name": "Valentini P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Archive of Mechanical Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Pervin, and J. A. Webb. Quaternions in computer vision and robotics. Technical report, Carnegie Mellon University. Computer Science Department, 1982",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "25744441263",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Technical report Carnegie Mellon University. Computer Science Department",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pervin",
+                                    "ce:indexed-name": "Pervin E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Webb",
+                                    "ce:indexed-name": "Webb J.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Quaternions in Computer Vision and Robotics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Pletinckx. Quaternion calculus as a basic tool in computer graphics. The Visual Computer, 5(1): 2-13, 1989",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Quaternion calculus as a basic tool in computer graphics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002349193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "2",
+                                    "@last": "13"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Pletinckx",
+                                "ce:indexed-name": "Pletinckx D."
+                            }]},
+                            "ref-sourcetitle": "The Visual Computer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Richter-Gebert, and T. Orendt. Geometriekalküle, volume XI. Springer, 2009",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84892259116",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Richter-Gebert",
+                                    "ce:indexed-name": "Richter-Gebert J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orendt",
+                                    "ce:indexed-name": "Orendt T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geometriekalküle, Volume XI"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. A. Samareh. Application of quaternions for mesh deformation. Technical report, NASA, 2002",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Application of quaternions for mesh deformation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27444442298",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Samareh",
+                                "ce:indexed-name": "Samareh J.A."
+                            }]},
+                            "ref-sourcetitle": "Technical Report NASA"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "K. Shoemake. Animating rotation with quaternion curves. In SIGGRAPH computer graphics, volume 19, pages 245-254. ACM, 1985",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Animating rotation with quaternion curves"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022095776",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "245",
+                                    "@last": "254"
+                                }
+                            },
+                            "ref-text": "ACM",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Shoemake",
+                                "ce:indexed-name": "Shoemake K."
+                            }]},
+                            "ref-sourcetitle": "SIGGRAPH Computer Graphics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Tsai, and R. Lenz. A new technique for fully autonomous and efficient 3D robotics hand/eye calibration. IEEE Transactions on Robotics and Automation, 5(3): 345-358, June 1989. 7",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "A new technique for fully autonomous and efficient 3D robotics hand/eye calibration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0024679903",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "345",
+                                    "@last": "358"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsai",
+                                    "ce:indexed-name": "Tsai R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lenz",
+                                    "ce:indexed-name": "Lenz R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Robotics and Automation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. W. Walker, L. Shao, and R. A. Volz. Estimating 3-d location parameters using dual number quaternions. CVGIP: Image Understanding, 54(3): 358-367, 1991",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "ref-title": {"ref-titletext": "Estimating 3-d location parameters using dual number quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026255934",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "358",
+                                    "@last": "367"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walker",
+                                    "ce:indexed-name": "Walker M.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Volz",
+                                    "ce:indexed-name": "Volz R.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVGIP: Image Understanding"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Yefremov. Quaternions and biquaternions: Algebra, geometry and physical theories. arXiv preprint mathph/0501055, 2005",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "54949097123",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv preprint mathph/0501055",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Yefremov",
+                                "ce:indexed-name": "Yefremov A."
+                            }]},
+                            "ref-sourcetitle": "Quaternions and Biquaternions: Algebra Geometry and Physical Theories"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Yun, and E. R. Bachmann. Design, implementation, and experimental results of a quaternion-based kalman filter for human body motion tracking. IEEE Transactions on Robotics, 22(6): 1216-1227, 2006",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Design, implementation, and experimental results of a quaternion-based kalman filter for human body motion tracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33845529645",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1216",
+                                    "@last": "1227"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yun",
+                                    "ce:indexed-name": "Yun X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachmann",
+                                    "ce:indexed-name": "Bachmann E.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Robotics"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Taufkirchen",
+            "@id": "60116236",
+            "affilname": "FRAMOS GmbH",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60116236",
+            "affiliation-country": "Germany"
+        },
+        {
+            "affiliation-city": "Munich",
+            "@id": "60019722",
+            "affilname": "Technische Universität München",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019722",
+            "affiliation-country": "Germany"
+        },
+        {
+            "affiliation-city": "Baltimore",
+            "@id": "60005248",
+            "affilname": "Johns Hopkins University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005248",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85011309740",
+        "dc:description": "Fast real-time tracking is an integral component of modern 3D computer vision pipelines. Despite their advantages in accuracy and reliability, optical trackers suffer from limited acquisition rates depending either on intrinsic sensor capabilities or physical limitations such as exposure time. Moreover, data transmission and image processing produce latency in the pose stream. We introduce quaternionic upsampling to overcome these problems. The technique models the pose parameters as points on multidimensional hyperspheres in (dual) quaternion space. In order to upsample the pose stream, we present several methods to sample points on geodesics and piecewise continuous curves on these manifolds and compare them regarding accuracy and computation efficiency. With the unified approach of quaternionic upsampling, both interpolation and extrapolation in pose space can be done by continuous linear variation of only one sampling parameter. Since the method can be implemented rather efficiently, pose rates of over 4 kHz and future pose predictions with an accuracy of 128 μm and 0.5° are possible in real-time. The method does not depend on a special tracking algorithm and can thus be used for any arbitrary 3 DoF or 6 DoF rotation or pose tracking system.",
+        "prism:coverDate": "2016-12-15",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85011309740",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Benjamin",
+            "preferred-name": {
+                "ce:given-name": "Benjamin",
+                "ce:initials": "B.",
+                "ce:surname": "Busam",
+                "ce:indexed-name": "Busam B."
+            },
+            "@seq": "1",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019722",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019722"
+                },
+                {
+                    "@id": "60116236",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60116236"
+                }
+            ],
+            "ce:surname": "Busam",
+            "@auid": "57015641800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57015641800",
+            "ce:indexed-name": "Busam B."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85011309740"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85011309740&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85011309740&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781509054077",
+        "source-id": "21100793805",
+        "citedby-count": "5",
+        "subtype": "cp",
+        "dc:title": "Quaternionic upsampling: Hyperspherical techniques for 6 DoF pose tracking",
+        "openaccess": "0",
+        "publishercopyright": "© 2016 IEEE.",
+        "article-number": "7785139",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Proceedings - 2016 4th International Conference on 3D Vision, 3DV 2016",
+        "prism:pageRange": "629-638",
+        "prism:endingPage": "638",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/3DV.2016.71",
+        "prism:startingPage": "629",
+        "dc:identifier": "SCOPUS_ID:85011309740",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Computation efficiency",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Dead reckoning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Dual quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Integral components",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Physical limitations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Piecewise-continuous",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose tracking",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sampling parameters",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "6 DoF Pose Tracking"
+        },
+        {
+            "@_fa": "true",
+            "$": "Dead Reckoning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Dual Quaternions"
+        },
+        {
+            "@_fa": "true",
+            "$": "Extrapolation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Interpolation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pose Stream Synchronization"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Benjamin",
+            "preferred-name": {
+                "ce:given-name": "Benjamin",
+                "ce:initials": "B.",
+                "ce:surname": "Busam",
+                "ce:indexed-name": "Busam B."
+            },
+            "@seq": "1",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019722",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019722"
+                },
+                {
+                    "@id": "60116236",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60116236"
+                }
+            ],
+            "ce:surname": "Busam",
+            "@auid": "57015641800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57015641800",
+            "ce:indexed-name": "Busam B."
+        },
+        {
+            "ce:given-name": "Marco",
+            "preferred-name": {
+                "ce:given-name": "Marco",
+                "ce:initials": "M.",
+                "ce:surname": "Esposito",
+                "ce:indexed-name": "Esposito M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019722",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019722"
+            },
+            "ce:surname": "Esposito",
+            "@auid": "56340644100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56340644100",
+            "ce:indexed-name": "Esposito M."
+        },
+        {
+            "ce:given-name": "Benjamin",
+            "preferred-name": {
+                "ce:given-name": "Benjamin",
+                "ce:initials": "B.",
+                "ce:surname": "Frisch",
+                "ce:indexed-name": "Frisch B."
+            },
+            "@seq": "3",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019722",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019722"
+            },
+            "ce:surname": "Frisch",
+            "@auid": "26655593100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/26655593100",
+            "ce:indexed-name": "Frisch B."
+        },
+        {
+            "ce:given-name": "Nassir",
+            "preferred-name": {
+                "ce:given-name": "Nassir",
+                "ce:initials": "N.",
+                "ce:surname": "Navab",
+                "ce:indexed-name": "Navab N."
+            },
+            "@seq": "4",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60019722",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019722"
+                },
+                {
+                    "@id": "60005248",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60005248"
+                }
+            ],
+            "ce:surname": "Navab",
+            "@auid": "7003458998",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7003458998",
+            "ce:indexed-name": "Navab N."
+        }
+    ]}
+}}

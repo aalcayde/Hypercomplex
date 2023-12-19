@@ -1,0 +1,2499 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@year": "2020",
+                "@timestamp": "2020-01-07T05:25:15.000015-05:00",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "23",
+                "@year": "2015",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "EC",
+                    "xocs:funding-agency-acronym": "EC",
+                    "xocs:funding-agency": "European Commission",
+                    "xocs:funding-id": "CIP-ICT-PSP-2011-5-297225",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100000780",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6695072/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "MIUR",
+                    "xocs:funding-agency-acronym": "MIUR",
+                    "xocs:funding-agency": "Ministero dell\u2019Istruzione, dell\u2019Università e della Ricerca",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003407",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/3175395/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-06-10T19:46:14.998828Z",
+            "xocs:funding-text": "The authors are grateful to Dr. Vincenzo Genovese for his help in the WIMU design and development. This work was partly supported by the Italian Ministry of Education and Research (MIUR) through the research project of national interest (PRIN) \u201cA quantitative and multi-factorial approach for estimating and preventing the risk of falls in the elderly people\u201d, and by the EC funded project I-DONT-FALL \u201cIntegrated prevention and Detection sOlutioNs Tailored to the population and Risk Factors associated with FALLs\u201d(CIP-ICT-PSP-2011-5-297225). Fondazione Santa Lucia, IRCCS, Ethical Committee unanimously approved on June 28th, 2013 (Reference number: CE/AG4/PROG. 409-29).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Italy",
+                        "address-part": "Viale Rinaldo Piaggio, 34",
+                        "postal-code": "56025",
+                        "@afid": "60028039",
+                        "@country": "ita",
+                        "city": "Pontedera, Pisa",
+                        "organization": [
+                            {"$": "The BioRobotics Institute"},
+                            {"$": "Scuola Superiore Sant'Anna"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60028039",
+                            "@dptid": "109722633"
+                        },
+                        "@dptid": "109722633"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Angelo Maria",
+                            "preferred-name": {
+                                "ce:given-name": "Angelo Maria",
+                                "ce:initials": "A.M.",
+                                "ce:surname": "Sabatini",
+                                "ce:indexed-name": "Sabatini A."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "A.M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Sabatini",
+                            "@auid": "7005616188",
+                            "ce:indexed-name": "Sabatini A.M."
+                        },
+                        {
+                            "ce:given-name": "Gabriele",
+                            "preferred-name": {
+                                "ce:given-name": "Gabriele",
+                                "ce:initials": "G.",
+                                "ce:surname": "Ligorio",
+                                "ce:indexed-name": "Ligorio G."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "G.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Ligorio",
+                            "@auid": "55948532200",
+                            "ce:indexed-name": "Ligorio G."
+                        },
+                        {
+                            "ce:given-name": "Andrea",
+                            "preferred-name": {
+                                "ce:given-name": "Andrea",
+                                "ce:initials": "A.",
+                                "ce:surname": "Mannini",
+                                "ce:indexed-name": "Mannini A."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Mannini",
+                            "@auid": "55971103000",
+                            "ce:indexed-name": "Mannini A."
+                        }
+                    ]
+                },
+                "citation-title": "Fourier-based integration of quasi-periodic gait accelerations for drift-free displacement estimation using inertial sensors",
+                "abstracts": "© 2015 Sabatini et al.Background: In biomechanical studies Optical Motion Capture Systems (OMCS) are considered the gold standard for determining the orientation and the position (pose) of an object in a global reference frame. However, the use of OMCS can be difficult, which has prompted research on alternative sensing technologies, such as body-worn inertial sensors. Methods: We developed a drift-free method to estimate the three-dimensional (3D) displacement of a body part during cyclical motions using body-worn inertial sensors. We performed the Fourier analysis of the stride-by-stride estimates of the linear acceleration, which were obtained by transposing the specific forces measured by the tri-axial accelerometer into the global frame using a quaternion-based orientation estimation algorithm and detecting when each stride began using a gait-segmentation algorithm. The time integration was performed analytically using the Fourier series coefficients; the inverse Fourier series was then taken for reconstructing the displacement over each single stride. The displacement traces were concatenated and spline-interpolated to obtain the entire trace. Results: The method was applied to estimate the motion of the lower trunk of healthy subjects that walked on a treadmill and it was validated using OMCS reference 3D displacement data; different approaches were tested for transposing the measured specific force into the global frame, segmenting the gait and performing time integration (numerically and analytically). The width of the limits of agreements were computed between each tested method and the OMCS reference method for each anatomical direction: Medio-Lateral (ML), VerTical (VT) and Antero-Posterior (AP); using the proposed method, it was observed that the vertical component of displacement (VT) was within ±4mm (±1.96 standard deviation) of OMCS data and each component of horizontal displacement (ML and AP) was within ±9mm of OMCS data. Conclusions: Fourier harmonic analysis was applied to model stride-by-stride linear accelerations during walking and to perform their analytical integration. Our results showed that analytical integration based on Fourier series coefficients was a useful approach to accurately estimate 3D displacement from noisy acceleration data.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Italy",
+                        "address-part": "Viale Rinaldo Piaggio, 34",
+                        "postal-code": "56025",
+                        "@country": "ita",
+                        "city": "Pontedera, Pisa",
+                        "organization": [
+                            {"$": "The BioRobotics Institute"},
+                            {"$": "Scuola Superiore Sant'Anna"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Angelo Maria",
+                        "ce:initials": "A.M.",
+                        "ce:surname": "Sabatini",
+                        "ce:indexed-name": "Sabatini A.M."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Fourier harmonic analysis",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Gait analysis",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Inertial measurement unit",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pose estimation",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.biomedical-engineering-online.com/start.asp",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "BioMedical Engineering Online",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {
+                        "@volume": "14",
+                        "@issue": "1"
+                    }},
+                    "@type": "j",
+                    "sourcetitle": "BioMedical Engineering Online",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2015",
+                        "date-text": "November 23, 2015",
+                        "day": "23"
+                    },
+                    "codencode": "BEOIB",
+                    "sourcetitle-abbrev": "Biomed. Eng. Online",
+                    "@country": "gbr",
+                    "issn": {
+                        "$": "1475925X",
+                        "@type": "electronic"
+                    },
+                    "publicationyear": {"@first": "2015"},
+                    "publisher": {
+                        "publishername": "BioMed Central Ltd.",
+                        "ce:e-address": {
+                            "$": "info@biomedcentral.com",
+                            "@type": "email"
+                        }
+                    },
+                    "article-number": "106",
+                    "@srcid": "28586"
+                },
+                "enhancement": {
+                    "classificationgroup": {"classifications": [
+                        {
+                            "@type": "CABSCLASS",
+                            "classification": {
+                                "classification-code": "99",
+                                "classification-description": "General"
+                            }
+                        },
+                        {
+                            "@type": "CPXCLASS",
+                            "classification": [
+                                {
+                                    "classification-code": "461.3",
+                                    "classification-description": "Biomechanics"
+                                },
+                                {
+                                    "classification-code": "723.2",
+                                    "classification-description": "Data Processing"
+                                },
+                                {
+                                    "classification-code": "902.2",
+                                    "classification-description": "Codes and Standards"
+                                },
+                                {
+                                    "classification-code": "921",
+                                    "classification-description": "Applied Mathematics"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "EMCLASS",
+                            "classification": [
+                                {
+                                    "classification-code": "27",
+                                    "classification-description": "Biophysics, Bioengineering and Medical Instrumentation"
+                                },
+                                {
+                                    "classification-code": "33",
+                                    "classification-description": "Orthopedic Surgery"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "FLXCLASS",
+                            "classification": {
+                                "classification-code": "902",
+                                "classification-description": "FLUIDEX; Related Topics"
+                            }
+                        },
+                        {
+                            "@type": "ASJC",
+                            "classification": [
+                                {"$": "3614"},
+                                {"$": "2502"},
+                                {"$": "2204"},
+                                {"$": "2741"}
+                            ]
+                        },
+                        {
+                            "@type": "SUBJABBR",
+                            "classification": [
+                                {"$": "HEAL"},
+                                {"$": "MATE"},
+                                {"$": "ENGI"},
+                                {"$": "MEDI"}
+                            ]
+                        }
+                    ]},
+                    "tradenamegroup": {"tradenames": {
+                        "trademanuitem": [
+                            {
+                                "tradename": "HMC 5843",
+                                "manufacturer": "Honeywell"
+                            },
+                            {"tradename": "InvenSense"}
+                        ],
+                        "@type": "TNV"
+                    }},
+                    "manufacturergroup": {"manufacturers": {
+                        "@type": "MNV",
+                        "manufacturer": [
+                            {"$": "Bosch"},
+                            {"$": "Honeywell"}
+                        ]
+                    }}
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2015 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CABS"},
+                    {"$": "CPX"},
+                    {"$": "EMBASE"},
+                    {"$": "EMBIO"},
+                    {"$": "NURSNG"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "MEDL"}
+                ],
+                "history": {"date-created": {
+                    "@day": "27",
+                    "@year": "2015",
+                    "@timestamp": "BST 14:47:23",
+                    "@month": "11"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "607001024",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2015056139",
+                            "@idtype": "CABS"
+                        },
+                        {
+                            "$": "642381204",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20154801612251",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "2015535927",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "2016166505",
+                            "@idtype": "EMBIO"
+                        },
+                        {
+                            "$": "2015036966",
+                            "@idtype": "NURSNG"
+                        },
+                        {
+                            "$": "84947710059",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84947710059",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "615939961",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "26597696",
+                            "@idtype": "MEDL"
+                        }
+                    ],
+                    "ce:doi": "10.1186/s12938-015-0103-8"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "43",
+                "reference": [
+                    {
+                        "ref-fulltext": "Cappozzo A, Della Croce U, Leardini A, Chiari L. Human movement analysis using stereophotogrammetry. Part 1: theoretical background. Gait Posture. 2005;21:186-96.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Human movement analysis using stereophotogrammetry. Part 1: theoretical background"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "19644386156",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "186",
+                                    "@last": "196"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cappozzo",
+                                    "ce:indexed-name": "Cappozzo A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Della Croce",
+                                    "ce:indexed-name": "Della Croce U."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leardini",
+                                    "ce:indexed-name": "Leardini A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiari",
+                                    "ce:indexed-name": "Chiari L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aminian K, Najafi B. Capturing human motion using body-fixed sensors: outdoor measurement and clinical applications. Comput Animat Virtual Worlds. 2004;15:79-94.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Capturing human motion using body-fixed sensors: outdoor measurement and clinical applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "13944251890",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "15"},
+                                "pagerange": {
+                                    "@first": "79",
+                                    "@last": "94"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aminian",
+                                    "ce:indexed-name": "Aminian K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Najafi",
+                                    "ce:indexed-name": "Najafi B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput Animat Virtual Worlds"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sabatini AM. Inertial sensing in biomechanics: a survey of computational techniques bridging motion analysis and personal navigation. In: Begg R, Palaniswami M, editors. Computational intelligence for movement sciences: neural networks and other emerging techniques. Hershey PA, USA: IGI Global; 2006. p. 70-100.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Inertial sensing in biomechanics: a survey of computational techniques bridging motion analysis and personal navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899169877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "70",
+                                "@last": "100"
+                            }},
+                            "ref-text": "Begg R, Palaniswami M, editors",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.M.",
+                                "@_fa": "true",
+                                "ce:surname": "Sabatini",
+                                "ce:indexed-name": "Sabatini A.M."
+                            }]},
+                            "ref-sourcetitle": "Computational intelligence for movement sciences: neural networks and other emerging techniques. Hershey PA, USA: IGI Global"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Titterton D, Weston JL. Strapdown Inertial Navigation Technology. London: Peter Peregrinus and The Institution of Electrical Engineers; 1997.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Strapdown Inertial Navigation Technology"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004082873",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Titterton",
+                                    "ce:indexed-name": "Titterton D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weston",
+                                    "ce:indexed-name": "Weston J.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "London: Peter Peregrinus and The Institution of Electrical Engineers; 1997."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sabatini AM. Estimating three-dimensional orientation of human body parts by inertial/magnetic sensing. Sensors. 2011;11:1489-525.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Estimating three-dimensional orientation of human body parts by inertial/magnetic sensing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952080343",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "1489",
+                                    "@last": "1525"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.M.",
+                                "@_fa": "true",
+                                "ce:surname": "Sabatini",
+                                "ce:indexed-name": "Sabatini A.M."
+                            }]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Foxlin E. Pedestrian tracking with shoe-mounted inertial sensors. IEEE Comput Graph Appl. 2005;25:38-46.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Pedestrian tracking with shoe-mounted inertial sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "28244441640",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "25"},
+                                "pagerange": {
+                                    "@first": "38",
+                                    "@last": "46"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Foxlin",
+                                "ce:indexed-name": "Foxlin E."
+                            }]},
+                            "ref-sourcetitle": "IEEE Comput Graph Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Skog I, Handel P, Nilsson JO, Rantakokko J. Zero-velocity detection-an algorithm evaluation. IEEE Trans Biomed Eng. 2010;57:2657-66.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Zero-velocity detection-an algorithm evaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77958126969",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "57"},
+                                "pagerange": {
+                                    "@first": "2657",
+                                    "@last": "2666"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Skog",
+                                    "ce:indexed-name": "Skog I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Handel",
+                                    "ce:indexed-name": "Handel P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nilsson",
+                                    "ce:indexed-name": "Nilsson J.O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rantakokko",
+                                    "ce:indexed-name": "Rantakokko J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Biomed Eng"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tan U-X, Veluvolu KC, Latt WT, Shee CY, Riviere CN, Ang WT. Estimating displacement of periodic motion with inertial sensors. IEEE Sens J. 2008;8:1385-6.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Estimating displacement of periodic motion with inertial sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "47849129124",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "1385",
+                                    "@last": "1386"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.-X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tan",
+                                    "ce:indexed-name": "Tan U.-X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veluvolu",
+                                    "ce:indexed-name": "Veluvolu K.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Latt",
+                                    "ce:indexed-name": "Latt W.T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shee",
+                                    "ce:indexed-name": "Shee C.Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Riviere",
+                                    "ce:indexed-name": "Riviere C.N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ang",
+                                    "ce:indexed-name": "Ang W.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sens J"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pfau T, Witte TH, Wilson AM. A method for deriving displacement data during cyclical movement using an inertial sensor. J Exp Biol. 2005;208:2503-14.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "A method for deriving displacement data during cyclical movement using an inertial sensor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "23144463675",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "208"},
+                                "pagerange": {
+                                    "@first": "2503",
+                                    "@last": "2514"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfau",
+                                    "ce:indexed-name": "Pfau T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witte",
+                                    "ce:indexed-name": "Witte T.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Exp Biol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zijlstra W, Hof AL. Assessment of spatio-temporal gait parameters from trunk accelerations during human walking. Gait Posture. 2003;18:1-10.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Assessment of spatio-temporal gait parameters from trunk accelerations during human walking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0344084396",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "10"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zijlstra",
+                                    "ce:indexed-name": "Zijlstra W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hof",
+                                    "ce:indexed-name": "Hof A.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Warner SM, Koch TO, Pfau T. Inertial sensors for assessment of back movements in horses during locomotion over ground. Equine Vet J. 2010;42:417-24.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Inertial sensors for assessment of back movements in horses during locomotion over ground"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78249267910",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "42"},
+                                "pagerange": {
+                                    "@first": "417",
+                                    "@last": "424"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Warner",
+                                    "ce:indexed-name": "Warner S.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koch",
+                                    "ce:indexed-name": "Koch T.O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfau",
+                                    "ce:indexed-name": "Pfau T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Equine Vet J"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Veluvolu KC, Ang WT. Estimation of physiological tremor from accelerometers for real-time applications. Sensors. 2011;11:3020-36.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Estimation of physiological tremor from accelerometers for real-time applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79953320470",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "3020",
+                                    "@last": "3036"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veluvolu",
+                                    "ce:indexed-name": "Veluvolu K.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ang",
+                                    "ce:indexed-name": "Ang W.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Latt WT, Veluvolu KC, Ang WT. Drift-free position estimation of periodic or quasi-periodic motion using inertial sensors. Sensors. 2011;11:5931-51.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Drift-free position estimation of periodic or quasi-periodic motion using inertial sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959830925",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "5931",
+                                    "@last": "5951"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Latt",
+                                    "ce:indexed-name": "Latt W.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veluvolu",
+                                    "ce:indexed-name": "Veluvolu K.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ang",
+                                    "ce:indexed-name": "Ang W.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bonnet V, McCamley J, Mazzà C, Cappozzo A. Trunk orientation estimate during walking using gyroscope sensors. In: Proc. 4th IEEE RAS/EMBS Internat Conf Biomed Robotics and Biomechatronics, Rome, Italy, June 24-27 2012, p. 367-72.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Trunk orientation estimate during walking using gyroscope sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867423262",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "367",
+                                "@last": "372"
+                            }},
+                            "ref-text": "Rome, Italy, June 24-27",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bonnet",
+                                    "ce:indexed-name": "Bonnet V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McCamley",
+                                    "ce:indexed-name": "McCamley J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazzà",
+                                    "ce:indexed-name": "Mazza C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cappozzo",
+                                    "ce:indexed-name": "Cappozzo A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 4th IEEE RAS/EMBS Internat Conf Biomed Robotics and Biomechatronics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Esser P, Dawes H, Collett J, Howells K. IMU: inertial sensing of vertical CoM movement. J Biomech. 2009;42:1578-81.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "IMU: inertial sensing of vertical CoM movement"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67649470440",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "42"},
+                                "pagerange": {
+                                    "@first": "1578",
+                                    "@last": "1581"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Esser",
+                                    "ce:indexed-name": "Esser P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dawes",
+                                    "ce:indexed-name": "Dawes H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collett",
+                                    "ce:indexed-name": "Collett J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Howells",
+                                    "ce:indexed-name": "Howells K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Doi T, Hirata S, Ono R, Tsutsumimoto K, Misu S, Ando H. The harmonic ratio of trunk acceleration predicts falling among older people: results of a 1-year prospective study. J Neuroeng Rehabil. 2013;10:7.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "The harmonic ratio of trunk acceleration predicts falling among older people: results of a 1-year prospective study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872785768",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {"@first": "7"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doi",
+                                    "ce:indexed-name": "Doi T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hirata",
+                                    "ce:indexed-name": "Hirata S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ono",
+                                    "ce:indexed-name": "Ono R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsutsumimoto",
+                                    "ce:indexed-name": "Tsutsumimoto K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Misu",
+                                    "ce:indexed-name": "Misu S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ando",
+                                    "ce:indexed-name": "Ando H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Neuroeng Rehabil"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lowry KA, Smiley-Oyen AL, Carrel AJ, Kerr JP. Walking stability using harmonic ratios in Parkinson's disease. Mov Disord. 2009;24:261-7.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Walking stability using harmonic ratios in Parkinson's disease"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "61649101289",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "24"},
+                                "pagerange": {
+                                    "@first": "261",
+                                    "@last": "267"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowry",
+                                    "ce:indexed-name": "Lowry K.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smiley-Oyen",
+                                    "ce:indexed-name": "Smiley-Oyen A.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carrel",
+                                    "ce:indexed-name": "Carrel A.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kerr",
+                                    "ce:indexed-name": "Kerr J.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mov Disord"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bellanca JL, Lowry KA, VanSwearingen JM, Brach JS, Redfern MS. Harmonic ratios: a quantification of step to step symmetry. J Biomech. 2013;46:828-31.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Harmonic ratios: a quantification of step to step symmetry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879879218",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "46"},
+                                "pagerange": {
+                                    "@first": "828",
+                                    "@last": "831"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bellanca",
+                                    "ce:indexed-name": "Bellanca J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowry",
+                                    "ce:indexed-name": "Lowry K.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "VanSwearingen",
+                                    "ce:indexed-name": "VanSwearingen J.M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brach",
+                                    "ce:indexed-name": "Brach J.S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Redfern",
+                                    "ce:indexed-name": "Redfern M.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Barban F, Annicchiarico R, Federici A, Mazzù ID, Lombardi MG, Giuli S, et al. ICT solutions to develop an effective motor and cognitive training to reduce risk of falls. The I-DONT-FALL project. Accepted for presentation, Proc Internat Conf Information Communication Technologies for Ageing Well and e-Health, Lisbona, Portugal, 20-22 May, 2015.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "ICT solutions to develop an effective motor and cognitive training to reduce risk of falls. The I-DONT-FALL project"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84939539356",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Barban",
+                                        "ce:indexed-name": "Barban F."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Annicchiarico",
+                                        "ce:indexed-name": "Annicchiarico R."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Federici",
+                                        "ce:indexed-name": "Federici A."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "I.D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Mazzù",
+                                        "ce:indexed-name": "Mazzu I.D."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "M.G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lombardi",
+                                        "ce:indexed-name": "Lombardi M.G."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Giuli",
+                                        "ce:indexed-name": "Giuli S."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Accepted for presentation, Proc Internat Conf Information Communication Technologies for Ageing Well and e-Health, Lisbona, Portugal, 20-22 May"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lowry KA, Lokenvitz N, Smiley-Oyen AL. Age- and speed-related differences in harmonic ratios during walking. Gait Posture. 2012;35:272-6.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Age- and speed-related differences in harmonic ratios during walking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84856676858",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "35"},
+                                "pagerange": {
+                                    "@first": "272",
+                                    "@last": "276"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lowry",
+                                    "ce:indexed-name": "Lowry K.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lokenvitz",
+                                    "ce:indexed-name": "Lokenvitz N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smiley-Oyen",
+                                    "ce:indexed-name": "Smiley-Oyen A.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zijlstra W, Hof AL. Displacement of the pelvis during human walking: experimental data and model predictions. Gait Posture. 1997;6:249-62.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Displacement of the pelvis during human walking: experimental data and model predictions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030667603",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "6"},
+                                "pagerange": {
+                                    "@first": "249",
+                                    "@last": "262"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zijlstra",
+                                    "ce:indexed-name": "Zijlstra W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hof",
+                                    "ce:indexed-name": "Hof A.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Minetti AE, Cisotti C, Mian OS. The mathematical description of the body centre of mass 3D path in human and animal locomotion. J Biomech. 2011;44:1471-7.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "The mathematical description of the body centre of mass 3D path in human and animal locomotion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955472033",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "44"},
+                                "pagerange": {
+                                    "@first": "1471",
+                                    "@last": "1477"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Minetti",
+                                    "ce:indexed-name": "Minetti A.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cisotti",
+                                    "ce:indexed-name": "Cisotti C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mian",
+                                    "ce:indexed-name": "Mian O.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cavagna GA, Thys H, Zamboni A. The sources of external work in level walking and running. J Physiol. 1976;262:639-57.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "The sources of external work in level walking and running"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017021176",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "262"},
+                                "pagerange": {
+                                    "@first": "639",
+                                    "@last": "657"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cavagna",
+                                    "ce:indexed-name": "Cavagna G.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thys",
+                                    "ce:indexed-name": "Thys H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zamboni",
+                                    "ce:indexed-name": "Zamboni A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Physiol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bland JM, Altman DG. Measuring agreement in method comparison studies. Stat Meth Med Res. 1999;8:135-60.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Measuring agreement in method comparison studies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032884749",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "135",
+                                    "@last": "160"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bland",
+                                    "ce:indexed-name": "Bland J.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Altman",
+                                    "ce:indexed-name": "Altman D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Stat Meth Med Res"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lötters JC, Schipper J, Veltink PH, Olthuis W, Bergveld P. Procedure for in-use calibration of triaxial accelerometers in medical applications. Sens Actuators A Phys. 1998;68:221-8.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Procedure for in-use calibration of triaxial accelerometers in medical applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0043139064",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "68"},
+                                "pagerange": {
+                                    "@first": "221",
+                                    "@last": "228"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lötters",
+                                    "ce:indexed-name": "Lotters J.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schipper",
+                                    "ce:indexed-name": "Schipper J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veltink",
+                                    "ce:indexed-name": "Veltink P.H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olthuis",
+                                    "ce:indexed-name": "Olthuis W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergveld",
+                                    "ce:indexed-name": "Bergveld P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sens Actuators A Phys"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bergamini E, Ligorio G, Summa A, Vannozzi G, Cappozzo A, Sabatini AM. Estimating orientation using magnetic and inertial sensors and different sensor fusion approaches: accuracy assessment in manual and locomotion tasks. Sensors. 2014;14:18625-49.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Estimating orientation using magnetic and inertial sensors and different sensor fusion approaches: accuracy assessment in manual and locomotion tasks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908547742",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "18625",
+                                    "@last": "18649"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergamini",
+                                    "ce:indexed-name": "Bergamini E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ligorio",
+                                    "ce:indexed-name": "Ligorio G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Summa",
+                                    "ce:indexed-name": "Summa A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vannozzi",
+                                    "ce:indexed-name": "Vannozzi G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cappozzo",
+                                    "ce:indexed-name": "Cappozzo A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabatini",
+                                    "ce:indexed-name": "Sabatini A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Horn BKP. Closed form solution of absolute orientation using unit quaternions. J Opt Soc Am A: 1987;4:629-42.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed form solution of absolute orientation using unit quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.K.P.",
+                                "@_fa": "true",
+                                "ce:surname": "Horn",
+                                "ce:indexed-name": "Horn B.K.P."
+                            }]},
+                            "ref-sourcetitle": "J Opt Soc Am A:"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mannini A, Sabatini AM. Gait phase detection and discrimination between walking-jogging activities using hidden Markov models applied to foot motion data from a gyroscope. Gait Posture. 2012;36:657-61.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Gait phase detection and discrimination between walking-jogging activities using hidden Markov models applied to foot motion data from a gyroscope"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867143005",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "36"},
+                                "pagerange": {
+                                    "@first": "657",
+                                    "@last": "661"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mannini",
+                                    "ce:indexed-name": "Mannini A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabatini",
+                                    "ce:indexed-name": "Sabatini A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mannini A, Trojaniello D, Della Croce U, Sabatini AM. Hidden Markov model-based strategy for gait segmentation using inertial sensors: application to elderly, hemiparetic patients and Huntington's disease patients. In: Proc 37th IEEE/EMBC Internat Conf, Milan, Italy, Aug 25-29, 2015, p. 5179-82.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Hidden Markov model-based strategy for gait segmentation using inertial sensors: application to elderly, hemiparetic patients and Huntington's disease patients"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84947710445",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5179",
+                                "@last": "5182"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mannini",
+                                    "ce:indexed-name": "Mannini A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trojaniello",
+                                    "ce:indexed-name": "Trojaniello D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Della Croce",
+                                    "ce:indexed-name": "Della Croce U."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabatini",
+                                    "ce:indexed-name": "Sabatini A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc 37th IEEE/EMBC Internat Conf, Milan, Italy, Aug 25-29"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ramsey J, Silverman BW. Functional data analysis. 2nd ed. New York: Springer Science+Business Media Inc; 2005.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Functional data analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004130505",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "2nd ed. New York: Springer Science+Business Media Inc",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ramsey",
+                                    "ce:indexed-name": "Ramsey J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silverman",
+                                    "ce:indexed-name": "Silverman B.W."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cappozzo A. Analysis of the linear displacement of the head and trunk during walking at different speeds. J Biomech. 1981;14:411-25.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Analysis of the linear displacement of the head and trunk during walking at different speeds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019390048",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "411",
+                                    "@last": "425"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Cappozzo",
+                                "ce:indexed-name": "Cappozzo A."
+                            }]},
+                            "ref-sourcetitle": "J Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Thompson WJ. Fourier series and the Gibbs phenomenon. Amer J Phys. 1992;60:425-9.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Fourier series and the Gibbs phenomenon"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038806968",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "60"},
+                                "pagerange": {
+                                    "@first": "425",
+                                    "@last": "429"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Thompson",
+                                "ce:indexed-name": "Thompson W.J."
+                            }]},
+                            "ref-sourcetitle": "Amer J Phys"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ishigaki N, Kimura T, Usui Y, Aoki K, Narita N, Shimizu M, et al. Analysis of pelvic movement in the elderly during walking using a posture monitoring system equipped with a triaxial accelerometer and a gyroscope. J Biomech. 2011;44:1788-92.",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Analysis of pelvic movement in the elderly during walking using a posture monitoring system equipped with a triaxial accelerometer and a gyroscope"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79956095026",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "44"},
+                                "pagerange": {
+                                    "@first": "1788",
+                                    "@last": "1792"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ishigaki",
+                                        "ce:indexed-name": "Ishigaki N."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kimura",
+                                        "ce:indexed-name": "Kimura T."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Usui",
+                                        "ce:indexed-name": "Usui Y."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Aoki",
+                                        "ce:indexed-name": "Aoki K."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Narita",
+                                        "ce:indexed-name": "Narita N."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shimizu",
+                                        "ce:indexed-name": "Shimizu M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "J Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Buganè F, Benedetti MG, D'Angeli V, Leardini A. Estimation of pelvis kinematics in level walking based on a single inertial sensor positioned close to the sacrum: validation on healthy subjects with stereophotogrammetric system. Biomed Eng Online. 2014;13:146.",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Estimation of pelvis kinematics in level walking based on a single inertial sensor positioned close to the sacrum: validation on healthy subjects with stereophotogrammetric system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937210597",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {"@first": "146"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buganè",
+                                    "ce:indexed-name": "Bugane F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benedetti",
+                                    "ce:indexed-name": "Benedetti M.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "D'Angeli",
+                                    "ce:indexed-name": "D'Angeli V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leardini",
+                                    "ce:indexed-name": "Leardini A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biomed Eng Online"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Henriksen M, Lund H, Moe-Nilssen R, Bliddal H, Danneskiod-Samsøe B. Test-retest reliability of trunk accelerometric gait analysis. Gait Posture. 2004;19:288-97.",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Test-retest reliability of trunk accelerometric gait analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2342538459",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "288",
+                                    "@last": "297"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Henriksen",
+                                    "ce:indexed-name": "Henriksen M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lund",
+                                    "ce:indexed-name": "Lund H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moe-Nilssen",
+                                    "ce:indexed-name": "Moe-Nilssen R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bliddal",
+                                    "ce:indexed-name": "Bliddal H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Danneskiod-Samsøe",
+                                    "ce:indexed-name": "Danneskiod-Samsoe B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lau H, Tong K. The reliability of using accelerometer and gyroscope for gait event identification on persons with dropped foot. Gait Posture. 2008;27:248-57.",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "The reliability of using accelerometer and gyroscope for gait event identification on persons with dropped foot"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "38049081476",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "27"},
+                                "pagerange": {
+                                    "@first": "248",
+                                    "@last": "257"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lau",
+                                    "ce:indexed-name": "Lau H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tong",
+                                    "ce:indexed-name": "Tong K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Trojaniello D, Cereatti A, Pelosin E, Avanzino L, Mirelman A, Hausdorff JM, Della Croce U. Estimation of step-by-step spatio-temporal parameters of normal and impaired gait using shank-mounted magneto-inertial sensors: application to elderly, hemiparetic, parkinsonian and choreic gait. J Neuroeng Rehabil. 2014;11:152.",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Estimation of step-by-step spatio-temporal parameters of normal and impaired gait using shank-mounted magneto-inertial sensors: application to elderly, hemiparetic, parkinsonian and choreic gait"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84925246414",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {"@first": "152"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trojaniello",
+                                    "ce:indexed-name": "Trojaniello D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cereatti",
+                                    "ce:indexed-name": "Cereatti A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pelosin",
+                                    "ce:indexed-name": "Pelosin E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Avanzino",
+                                    "ce:indexed-name": "Avanzino L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mirelman",
+                                    "ce:indexed-name": "Mirelman A."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hausdorff",
+                                    "ce:indexed-name": "Hausdorff J.M."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "C.U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Della",
+                                    "ce:indexed-name": "Della C.U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Neuroeng Rehabil"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Moe-Nilssen R, Helbostad JL. Estimation of gait cycle characteristics by trunk accelerometry. J Biomech. 2004;37:121-6.",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Estimation of gait cycle characteristics by trunk accelerometry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0347627535",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "37"},
+                                "pagerange": {
+                                    "@first": "121",
+                                    "@last": "126"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moe-Nilssen",
+                                    "ce:indexed-name": "Moe-Nilssen R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Helbostad",
+                                    "ce:indexed-name": "Helbostad J.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kavanagh JJ, Menz HB. Accelerometry: a technique for quantifying movement patterns during walking. Gait Posture. 2008;28:1-15.",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Accelerometry: a technique for quantifying movement patterns during walking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "44149123362",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "15"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavanagh",
+                                    "ce:indexed-name": "Kavanagh J.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Menz",
+                                    "ce:indexed-name": "Menz H.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Trojaniello D, Cereatti A, Della Croce U. Accuracy, sensitivity and robustness of five different methods for the estimation of gait temporal parameters using a single inertial sensor mounted on the lower trunk. Gait Posture. 2014;40:487-92.",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Accuracy, sensitivity and robustness of five different methods for the estimation of gait temporal parameters using a single inertial sensor mounted on the lower trunk"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921989606",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "40"},
+                                "pagerange": {
+                                    "@first": "487",
+                                    "@last": "492"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trojaniello",
+                                    "ce:indexed-name": "Trojaniello D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cereatti",
+                                    "ce:indexed-name": "Cereatti A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Della",
+                                    "ce:indexed-name": "Della C.U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gait Posture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sabatini AM. Quaternion-based strap-down integration method for applications of inertial sensing to gait analysis. Med Biol Eng Comput. 2005;43:94-101.",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Quaternion-based strap-down integration method for applications of inertial sensing to gait analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "14044266347",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "43"},
+                                "pagerange": {
+                                    "@first": "94",
+                                    "@last": "101"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.M.",
+                                "@_fa": "true",
+                                "ce:surname": "Sabatini",
+                                "ce:indexed-name": "Sabatini A.M."
+                            }]},
+                            "ref-sourcetitle": "Med Biol Eng Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pfau T, Boultbee H, Davis H, Walker A, Rhodin M. Agreement between two inertial sensor gait analysis systems for lameness examination in horses. Equine Vet Educ 2015 (in press).",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Agreement between two inertial sensor gait analysis systems for lameness examination in horses"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959464549",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "(in press).",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfau",
+                                    "ce:indexed-name": "Pfau T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boultbee",
+                                    "ce:indexed-name": "Boultbee H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davis",
+                                    "ce:indexed-name": "Davis H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walker",
+                                    "ce:indexed-name": "Walker A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rhodin",
+                                    "ce:indexed-name": "Rhodin M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Equine Vet Educ"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Richards JG. The measurement of human motion: a comparison of commercially available systems. Hum Mov Sci. 1999;18:589-602.",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "The measurement of human motion: a comparison of commercially available systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001746929",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "589",
+                                    "@last": "602"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Richards",
+                                "ce:indexed-name": "Richards J.G."
+                            }]},
+                            "ref-sourcetitle": "Hum Mov Sci"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Pisa",
+        "@id": "60028039",
+        "affilname": "Sant'Anna Scuola Universitaria Superiore Pisa",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028039",
+        "affiliation-country": "Italy"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-84947710059",
+        "dc:description": "Background: In biomechanical studies Optical Motion Capture Systems (OMCS) are considered the gold standard for determining the orientation and the position (pose) of an object in a global reference frame. However, the use of OMCS can be difficult, which has prompted research on alternative sensing technologies, such as body-worn inertial sensors. Methods: We developed a drift-free method to estimate the three-dimensional (3D) displacement of a body part during cyclical motions using body-worn inertial sensors. We performed the Fourier analysis of the stride-by-stride estimates of the linear acceleration, which were obtained by transposing the specific forces measured by the tri-axial accelerometer into the global frame using a quaternion-based orientation estimation algorithm and detecting when each stride began using a gait-segmentation algorithm. The time integration was performed analytically using the Fourier series coefficients; the inverse Fourier series was then taken for reconstructing the displacement over each single stride. The displacement traces were concatenated and spline-interpolated to obtain the entire trace. Results: The method was applied to estimate the motion of the lower trunk of healthy subjects that walked on a treadmill and it was validated using OMCS reference 3D displacement data; different approaches were tested for transposing the measured specific force into the global frame, segmenting the gait and performing time integration (numerically and analytically). The width of the limits of agreements were computed between each tested method and the OMCS reference method for each anatomical direction: Medio-Lateral (ML), VerTical (VT) and Antero-Posterior (AP); using the proposed method, it was observed that the vertical component of displacement (VT) was within ±4mm (±1.96 standard deviation) of OMCS data and each component of horizontal displacement (ML and AP) was within ±9mm of OMCS data. Conclusions: Fourier harmonic analysis was applied to model stride-by-stride linear accelerations during walking and to perform their analytical integration. Our results showed that analytical integration based on Fourier series coefficients was a useful approach to accurately estimate 3D displacement from noisy acceleration data.",
+        "pubmed-id": "26597696",
+        "prism:coverDate": "2015-11-23",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84947710059",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Angelo Maria",
+            "preferred-name": {
+                "ce:given-name": "Angelo Maria",
+                "ce:initials": "A.M.",
+                "ce:surname": "Sabatini",
+                "ce:indexed-name": "Sabatini A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028039",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028039"
+            },
+            "ce:surname": "Sabatini",
+            "@auid": "7005616188",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005616188",
+            "ce:indexed-name": "Sabatini A.M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84947710059"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84947710059&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84947710059&origin=inward"
+            }
+        ],
+        "source-id": "28586",
+        "citedby-count": "21",
+        "prism:volume": "14",
+        "subtype": "ar",
+        "dc:title": "Fourier-based integration of quasi-periodic gait accelerations for drift-free displacement estimation using inertial sensors",
+        "openaccess": "1",
+        "prism:issn": "1475925X",
+        "publishercopyright": "© 2015 Sabatini et al.",
+        "article-number": "106",
+        "prism:issueIdentifier": "1",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "BioMedical Engineering Online",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1186/s12938-015-0103-8",
+        "dc:identifier": "SCOPUS_ID:84947710059",
+        "dc:publisher": "BioMed Central Ltd.info@biomedcentral.com"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Displacement estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fourier harmonic analysis",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Horizontal displacements",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial measurement unit",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optical motion capture",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Segmentation algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Triaxial accelerometer",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Acceleration",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Accelerometry",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Adult",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Algorithms",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Exercise Test",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Female",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fourier Analysis",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Gait",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Humans",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Male",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Middle Aged",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Signal Processing, Computer-Assisted",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Young Adult",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Fourier harmonic analysis"
+        },
+        {
+            "@_fa": "true",
+            "$": "Gait analysis"
+        },
+        {
+            "@_fa": "true",
+            "$": "Inertial measurement unit"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pose estimation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Radiological and Ultrasound Technology",
+            "@code": "3614",
+            "@abbrev": "HEAL"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biomaterials",
+            "@code": "2502",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biomedical Engineering",
+            "@code": "2204",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Radiology, Nuclear Medicine and Imaging",
+            "@code": "2741",
+            "@abbrev": "MEDI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Angelo Maria",
+            "preferred-name": {
+                "ce:given-name": "Angelo Maria",
+                "ce:initials": "A.M.",
+                "ce:surname": "Sabatini",
+                "ce:indexed-name": "Sabatini A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028039",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028039"
+            },
+            "ce:surname": "Sabatini",
+            "@auid": "7005616188",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005616188",
+            "ce:indexed-name": "Sabatini A.M."
+        },
+        {
+            "ce:given-name": "Gabriele",
+            "preferred-name": {
+                "ce:given-name": "Gabriele",
+                "ce:initials": "G.",
+                "ce:surname": "Ligorio",
+                "ce:indexed-name": "Ligorio G."
+            },
+            "@seq": "2",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028039",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028039"
+            },
+            "ce:surname": "Ligorio",
+            "@auid": "55948532200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55948532200",
+            "ce:indexed-name": "Ligorio G."
+        },
+        {
+            "ce:given-name": "Andrea",
+            "preferred-name": {
+                "ce:given-name": "Andrea",
+                "ce:initials": "A.",
+                "ce:surname": "Mannini",
+                "ce:indexed-name": "Mannini A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028039",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028039"
+            },
+            "ce:surname": "Mannini",
+            "@auid": "55971103000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55971103000",
+            "ce:indexed-name": "Mannini A."
+        }
+    ]}
+}}

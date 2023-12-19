@@ -1,0 +1,1866 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "05",
+                "@year": "2020",
+                "@timestamp": "2020-02-05T04:11:54.000054-05:00",
+                "@month": "02"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2017",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "National Robotics Initiative"},
+                {
+                    "xocs:funding-agency-matched-string": "NSF",
+                    "xocs:funding-agency-acronym": "NSF",
+                    "xocs:funding-agency": "National Science Foundation",
+                    "xocs:funding-id": "IIS-1426655",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000001",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "NSF",
+                    "xocs:funding-agency-acronym": "NSF",
+                    "xocs:funding-agency": "National Sleep Foundation",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100003187",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Stroke Foundation",
+                    "xocs:funding-agency-acronym": "NSF",
+                    "xocs:funding-agency": "National Stroke Foundation",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100000930",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/2077456/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-04T16:16:24.997713Z",
+            "xocs:funding-text": "This work has been funded through the National Robotics Initiative by NSF grant IIS-1426655.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "address-part": "5000 Forbes Avenue",
+                        "postal-code": "15213",
+                        "@afid": "60104841",
+                        "@country": "usa",
+                        "city": "Pittsburgh",
+                        "organization": [
+                            {"$": "Robotics Institute"},
+                            {"$": "Carnegie Mellon University"}
+                        ],
+                        "affiliation-id": [
+                            {"@afid": "60104841"},
+                            {"@afid": "60027950"}
+                        ],
+                        "state": "PA"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Rangaprasad Arun",
+                            "preferred-name": {
+                                "ce:given-name": "Rangaprasad Arun",
+                                "ce:initials": "R.A.",
+                                "ce:surname": "Srivatsan",
+                                "ce:indexed-name": "Srivatsan R."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "R.A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Srivatsan",
+                            "@auid": "55533463500",
+                            "ce:indexed-name": "Srivatsan R.A."
+                        },
+                        {
+                            "ce:given-name": "Mengyun",
+                            "preferred-name": {
+                                "ce:given-name": "Mengyun",
+                                "ce:initials": "M.",
+                                "ce:surname": "Xu",
+                                "ce:indexed-name": "Xu M."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Xu",
+                            "@auid": "57202574222",
+                            "ce:indexed-name": "Xu M."
+                        },
+                        {
+                            "ce:given-name": "Nicolas",
+                            "preferred-name": {
+                                "ce:given-name": "Nicolas",
+                                "ce:initials": "N.",
+                                "ce:surname": "Zevallos",
+                                "ce:indexed-name": "Zevallos N."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "N.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zevallos",
+                            "@auid": "56423625000",
+                            "ce:indexed-name": "Zevallos N."
+                        },
+                        {
+                            "ce:given-name": "Howie",
+                            "preferred-name": {
+                                "ce:given-name": "Howie",
+                                "ce:initials": "H.",
+                                "ce:surname": "Choset",
+                                "ce:indexed-name": "Choset H."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "H.",
+                            "@date-locked": "2018-08-20T03:20:27.601",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Choset",
+                            "@auid": "35576235700",
+                            "ce:indexed-name": "Choset H."
+                        }
+                    ]
+                },
+                "citation-title": "Bingham distribution-based linear filter for online pose estimation",
+                "abstracts": "© 2017 MIT Press Journals. All rights reserved.Pose estimation is central to several robotics applications such as registration, hand-eye calibration, SLAM, etc. Online pose estimation methods typically use Gaussian distributions to describe the uncertainty in the pose parameters. Such a description can be inadequate when using parameters such as unit-quaternions that are not unimodally distributed. A Bingham distribution can effectively model the uncertainty in unit-quaternions, as it has antipodal symmetry and is defined on a unit-hypersphere. A combination of Gaussian and Bingham distributions is used to develop a linear filter that accurately estimates the distribution of the pose parameters, in their true space. To the best of our knowledge our approach is the first implementation to use a Bingham distribution for 6 DoF pose estimation. Experiments assert that this approach is robust to initial estimation errors as well as sensor noise. Compared to state of the art methods, our approach takes fewer iterations to converge onto the correct pose estimate. The efficacy of the formulation is illustrated with a number of simulated examples on standard datasets as well as real-world experiments.",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://roboticsproceedings.org/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "volisspag": {"voliss": {"@volume": "13"}},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9780992374730",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2017 Robotics: Science and Systems, RSS 2017",
+                            "confsponsors": {
+                                "confsponsor": null,
+                                "@complete": "n"
+                            },
+                            "confseriestitle": "Robotics: Science and Systems",
+                            "conflocation": {
+                                "venue": "Massachusetts Institute of Technology",
+                                "@country": "usa",
+                                "city": "Cambridge",
+                                "state": "MA"
+                            },
+                            "confcode": "136707",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "16",
+                                    "@year": "2017",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "12",
+                                    "@year": "2017",
+                                    "@month": "07"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Robotics: Science and Systems",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Siddhartha",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Srinivasa",
+                            "@role": "edit",
+                            "ce:indexed-name": "Srinivasa S."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Nora",
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "ce:surname": "Ayanian",
+                            "@role": "edit",
+                            "ce:indexed-name": "Ayanian N."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Nancy",
+                            "@seq": "1",
+                            "ce:initials": "N.",
+                            "ce:surname": "Amato",
+                            "@role": "edit",
+                            "ce:indexed-name": "Amato N."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Scott",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Kuindersma",
+                            "@role": "edit",
+                            "ce:indexed-name": "Kuindersma S."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2017",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2017"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Robot. Sci. Syst.",
+                    "@country": "usa",
+                    "issuetitle": "Robotics: Science and Systems XIII, RSS 2017",
+                    "issn": {
+                        "$": "2330765X",
+                        "@type": "electronic"
+                    },
+                    "preferred-sourcetitle": "Robotics: Science and Systems",
+                    "publicationyear": {"@first": "2017"},
+                    "publisher": {
+                        "publishername": "MIT Press Journals",
+                        "ce:e-address": {
+                            "$": "cellas@mit.edu",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "21100448299"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "2207"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "703.2",
+                                "classification-description": "Electric Filters"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work has been funded through the National Robotics Initiative by NSF grant IIS-1426655.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "IIS-1426655",
+                        "grant-acronym": "NSF",
+                        "grant-agency": {
+                            "@iso-code": "aus",
+                            "$": "National Stroke Foundation"
+                        },
+                        "grant-agency-id": "501100000930"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "25",
+                    "@year": "2018",
+                    "@timestamp": "BST 08:10:56",
+                    "@month": "06"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "622661651",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "911262643",
+                        "@idtype": "CAR-ID"
+                    },
+                    {
+                        "$": "20182605357818",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "20181105660",
+                        "@idtype": "REAXYSCAR"
+                    },
+                    {
+                        "$": "20181899019",
+                        "@idtype": "SCOPUS"
+                    },
+                    {
+                        "$": "2018062340",
+                        "@idtype": "SNCPX"
+                    },
+                    {
+                        "$": "85048775905",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "85048775905",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "Paul J Besl and Neil D McKay. Method for registration of 3-D shapes. In Robotics-DL tentative, pages 586-606. International Society for Optics and Photonics, 1992.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Method for registration of 3-D shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026630919",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "586",
+                                "@last": "606"
+                            }},
+                            "ref-text": "International Society for Optics and Photonics",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Besl",
+                                    "ce:indexed-name": "Besl P.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKay",
+                                    "ce:indexed-name": "McKay N.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics-DL Tentative"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Seth D Billings, Emad M Boctor, and Russell H Taylor. Iterative most-likely point registration (IMLP): A robust algorithm for computing optimal shape alignment. PloS one, 10(3):e0117688, 2015.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Iterative most-likely point registration (IMLP): A robust algorithm for computing optimal shape alignment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84924529709",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {"@first": "e0117688"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Billings",
+                                    "ce:indexed-name": "Billings S.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boctor",
+                                    "ce:indexed-name": "Boctor E.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor R.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PloS One"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Christopher Bingham. An antipodally symmetric distribution on the sphere. The Annals of Statistics, pages 1201-1225, 1974.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1974"},
+                            "ref-title": {"ref-titletext": "An antipodally symmetric distribution on the sphere"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001199893",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1201",
+                                "@last": "1225"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Bingham",
+                                "ce:indexed-name": "Bingham C."
+                            }]},
+                            "ref-sourcetitle": "The Annals of Statistics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Luca Carlone and Andrea Censi. From angular manifolds to the integer lattice: Guaranteed orientation estimation with application to pose graph optimization. IEEE Transactions on Robotics, 30(2):475-492, 2014.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "From angular manifolds to the integer lattice: Guaranteed orientation estimation with application to pose graph optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898456014",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "475",
+                                    "@last": "492"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carlone",
+                                    "ce:indexed-name": "Carlone L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Censi",
+                                    "ce:indexed-name": "Censi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Robotics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nikolas Engelhard, Felix Endres, Jürgen Hess, Jürgen Sturm, and Wolfram Burgard. Real-time 3D visual SLAM with a hand-held RGB-D camera. In Proc. of the RGB-D Workshop on 3D Perception in Robotics at the European Robotics Forum, Vasteras, Sweden, volume 180, 2011.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Real-time 3D visual SLAM with a hand-held RGB-D camera"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84856680796",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "180"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engelhard",
+                                    "ce:indexed-name": "Engelhard N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Endres",
+                                    "ce:indexed-name": "Endres F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hess",
+                                    "ce:indexed-name": "Hess J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sturm",
+                                    "ce:indexed-name": "Sturm J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burgard",
+                                    "ce:indexed-name": "Burgard W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of the RGB-D Workshop on 3D Perception in Robotics at the European Robotics Forum, Vasteras, Sweden"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Faion, P. Ruoff, A. Zea, and U.D. Hanebeck. Recursive Bayesian calibration of depth sensors with nonoverlapping views. In 15th International Conference on Information Fusion, pages 757-762, July 2012.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Recursive Bayesian calibration of depth sensors with nonoverlapping views"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867653292",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "757",
+                                "@last": "762"
+                            }},
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faion",
+                                    "ce:indexed-name": "Faion F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruoff",
+                                    "ce:indexed-name": "Ruoff P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zea",
+                                    "ce:indexed-name": "Zea A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "U.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanebeck",
+                                    "ce:indexed-name": "Hanebeck U.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "15th International Conference on Information Fusion"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Olivier D Faugeras and Martial Hebert. The representation, recognition, and locating of 3-d objects. The international journal of robotics research, 5(3):27-52, 1986.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "The representation, recognition, and locating of 3-d objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022777806",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "27",
+                                    "@last": "52"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faugeras",
+                                    "ce:indexed-name": "Faugeras O.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hebert",
+                                    "ce:indexed-name": "Hebert M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The International Journal of Robotics Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Igor Gilitschenski, Gerhard Kurz, Simon J Julier, and Uwe D Hanebeck. A new probability distribution for simultaneous representation of uncertain position and orientation. In 17th International Conference on Information Fusion, pages 1-7. IEEE, 2014.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A new probability distribution for simultaneous representation of uncertain position and orientation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84910639878",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gilitschenski",
+                                    "ce:indexed-name": "Gilitschenski I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurz",
+                                    "ce:indexed-name": "Kurz G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Julier",
+                                    "ce:indexed-name": "Julier S.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "U.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanebeck",
+                                    "ce:indexed-name": "Hanebeck U.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "17th International Conference on Information Fusion"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Igor Gilitschenski, Gerhard Kurz, Simon J Julier, and Uwe D Hanebeck. Unscented orientation estimation based on the Bingham distribution. IEEE Transactions on Automatic Control, 61(1):172-177, 2016.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Unscented orientation estimation based on the Bingham distribution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84961707852",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "172",
+                                    "@last": "177"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gilitschenski",
+                                    "ce:indexed-name": "Gilitschenski I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurz",
+                                    "ce:indexed-name": "Kurz G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Julier",
+                                    "ce:indexed-name": "Julier S.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "U.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanebeck",
+                                    "ce:indexed-name": "Hanebeck U.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jared Glover, Gary Bradski, and Radu Bogdan Rusu. Monte carlo pose estimation with quaternion kernels and the distribution. In Robotics: Science and Systems, volume 7, page 97, 2012.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Monte carlo pose estimation with quaternion kernels and the distribution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898776520",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {"@first": "97"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glover",
+                                    "ce:indexed-name": "Glover J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bradski",
+                                    "ce:indexed-name": "Bradski G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusu",
+                                    "ce:indexed-name": "Rusu R.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics: Science and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "James Samuel Goddard and Mongi A Abidi. Pose and motion estimation using dual quaternion-based extended Kalman filtering. In Photonics West'98 Electronic Imaging, pages 189-200. International Society for Optics and Photonics, 1998.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Pose and motion estimation using dual quaternion-based extended Kalman filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032224342",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "189",
+                                "@last": "200"
+                            }},
+                            "ref-text": "International Society for Optics and Photonics",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goddard",
+                                    "ce:indexed-name": "Goddard J.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abidi",
+                                    "ce:indexed-name": "Abidi M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Photonics West'98 Electronic Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tom SF Haines and Richard C Wilson. Belief propagation with directional statistics for solving the shape-fromshading problem. In European Conference on Computer Vision, pages 780-791. Springer, 2008.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Belief propagation with directional statistics for solving the shape-fromshading problem"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "57149140084",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "780",
+                                "@last": "791"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.S.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haines",
+                                    "ce:indexed-name": "Haines T.S.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson R.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "European Conference on Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Søren Hauberg, François Lauze, and Kim Steenstrup Pedersen. Unscented Kalman filtering on Riemannian manifolds. Journal of Mathematical Imaging and Vision, 46(1):103-120, 2013.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Unscented Kalman filtering on Riemannian manifolds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84874930194",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "103",
+                                    "@last": "120"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hauberg",
+                                    "ce:indexed-name": "Hauberg S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lauze",
+                                    "ce:indexed-name": "Lauze F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pedersen",
+                                    "ce:indexed-name": "Pedersen K.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Mathematical Imaging and Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Berthold KP Horn. Closed-form solution of absolute orientation using unit quaternions. JOSA A, 4(4):629-642, 1987.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed-form solution of absolute orientation using unit quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.K.P.",
+                                "@_fa": "true",
+                                "ce:surname": "Horn",
+                                "ce:indexed-name": "Horn B.K.P."
+                            }]},
+                            "ref-sourcetitle": "JOSA A"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rudolph Emil Kalman. A new approach to linear filtering and prediction problems. Journal of Fluids Engineering, 82(1):35-45, 1960.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1960"},
+                            "ref-title": {"ref-titletext": "A new approach to linear filtering and prediction problems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85024429815",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "82",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "35",
+                                    "@last": "45"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.E.",
+                                "@_fa": "true",
+                                "ce:surname": "Kalman",
+                                "ce:indexed-name": "Kalman R.E."
+                            }]},
+                            "ref-sourcetitle": "Journal of Fluids Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kourosh Khoshelham and Sander Oude Elberink. Accuracy and resolution of kinect depth data for indoor mapping applications. Sensors, 12(2):1437-1454, 2012.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Accuracy and resolution of kinect depth data for indoor mapping applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84857612141",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1437",
+                                    "@last": "1454"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khoshelham",
+                                    "ce:indexed-name": "Khoshelham K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Elberink",
+                                    "ce:indexed-name": "Elberink S.O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Karsten Kunze and Helmut Schaeben. The Bingham distribution of quaternions and its spherical radon transform in texture analysis. Mathematical Geology, 36(8):917-943, 2004.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "The Bingham distribution of quaternions and its spherical radon transform in texture analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "9144243086",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "917",
+                                    "@last": "943"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kunze",
+                                    "ce:indexed-name": "Kunze K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaeben",
+                                    "ce:indexed-name": "Schaeben H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mathematical Geology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gerhard Kurz, Igor Gilitschenski, Simon Julier, and Uwe D Hanebeck. Recursive estimation of orientation based on the Bingham distribution. In 16th International Conference on Information Fusion, pages 1487-1494, 2013.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Recursive estimation of orientation based on the Bingham distribution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890852017",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1487",
+                                "@last": "1494"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurz",
+                                    "ce:indexed-name": "Kurz G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gilitschenski",
+                                    "ce:indexed-name": "Gilitschenski I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Julier",
+                                    "ce:indexed-name": "Julier S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "U.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanebeck",
+                                    "ce:indexed-name": "Hanebeck U.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "16th International Conference on Information Fusion"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Joseph J LaViola Jr. A comparison of unscented and extended Kalman filtering for estimating quaternion motion. In American Control Conference, 2003. Proceedings of the 2003, volume 3, pages 2435-2440. IEEE, 2003.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "A comparison of unscented and extended Kalman filtering for estimating quaternion motion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142184141",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "2435",
+                                    "@last": "2440"
+                                }
+                            },
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.J.",
+                                "@_fa": "true",
+                                "ce:surname": "LaViola",
+                                "ce:suffix": "Jr.",
+                                "ce:indexed-name": "LaViola J.J."
+                            }]},
+                            "ref-sourcetitle": "American Control Conference, 2003. Proceedings of the 2003"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "João Luís Marins, Xiaoping Yun, Eric R Bachmann, Robert B McGhee, and Michael J Zyda. An extended Kalman filter for quaternion-based orientation estimation using MARG sensors. In Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems, volume 4, pages 2003-2011. IEEE, 2001.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "An extended Kalman filter for quaternion-based orientation estimation using MARG sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035558199",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "2003",
+                                    "@last": "2011"
+                                }
+                            },
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marins",
+                                    "ce:indexed-name": "Marins J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yun",
+                                    "ce:indexed-name": "Yun X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachmann",
+                                    "ce:indexed-name": "Bachmann E.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McGhee",
+                                    "ce:indexed-name": "McGhee R.B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zyda",
+                                    "ce:indexed-name": "Zyda M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mehdi Hedjazi Moghari and Purang Abolmaesumi. Point-based rigid-body registration using an unscented Kalman filter. IEEE Transactions on Medical Imaging, 26(12):1708-1728, 2007.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Point-based rigid-body registration using an unscented Kalman filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "36549021532",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1708",
+                                    "@last": "1728"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moghari",
+                                    "ce:indexed-name": "Moghari M.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abolmaesumi",
+                                    "ce:indexed-name": "Abolmaesumi P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Medical Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xavier Pennec and Jean-Philippe Thirion. A framework for uncertainty and validation of 3-D registration methods based on points and frames. International Journal of Computer Vision, 25(3):203-229, 1997.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "A framework for uncertainty and validation of 3-D registration methods based on points and frames"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031360403",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "203",
+                                    "@last": "229"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pennec",
+                                    "ce:indexed-name": "Pennec X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thirion",
+                                    "ce:indexed-name": "Thirion J.-P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "PW Richards. Constrained Kalman filtering using pseudo-measurements. In IEEE Colloquium on Algorithms for Target Tracking, pages 75-79, 1995.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Constrained Kalman filtering using pseudo-measurements"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4444324906",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "75",
+                                "@last": "79"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Richards",
+                                "ce:indexed-name": "Richards P.W."
+                            }]},
+                            "ref-sourcetitle": "IEEE Colloquium on Algorithms for Target Tracking"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "David M Rosen, Luca Carlone, Afonso S Bandeira, and John J Leonard. Se-sync: A certifiably correct algorithm for synchronization over the special euclidean group. arXiv preprint arXiv:1612.07386, 2016.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1612.07386",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85032432975",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosen",
+                                    "ce:indexed-name": "Rosen D.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carlone",
+                                    "ce:indexed-name": "Carlone L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bandeira",
+                                    "ce:indexed-name": "Bandeira A.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Se-sync: A Certifiably Correct Algorithm for Synchronization over the Special Euclidean Group"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Szymon Rusinkiewicz and Marc Levoy. Efficient variants of the ICP algorithm. In Proceedings of 3rd International Conference on 3-D Digital Imaging and Modeling.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Efficient variants of the ICP algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33745891885",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusinkiewicz",
+                                    "ce:indexed-name": "Rusinkiewicz S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levoy",
+                                    "ce:indexed-name": "Levoy M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 3rd International Conference on 3-D Digital Imaging and Modeling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Aleksandr Segal, Dirk Haehnel, and Sebastian Thrun. Generalized-ICP. In Robotics: Science and Systems, volume 2, 2009.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Generalized-ICP"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84860174981",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "2"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Segal",
+                                    "ce:indexed-name": "Segal A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haehnel",
+                                    "ce:indexed-name": "Haehnel D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thrun",
+                                    "ce:indexed-name": "Thrun S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics: Science and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rangaprasad Arun Srivatsan and Howie Choset. Multiple start branch and prune filtering algorithm for nonconvex optimization. In The 12th International Workshop on The Algorithmic Foundations of Robotics. Springer, 2016.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Multiple start branch and prune filtering algorithm for nonconvex optimization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048756711",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srivatsan",
+                                    "ce:indexed-name": "Srivatsan R.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choset",
+                                    "ce:indexed-name": "Choset H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The 12th International Workshop on the Algorithmic Foundations of Robotics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rangaprasad Arun Srivatsan, Elif Ayvali, Long Wang, Rajarshi Roy, Nabil Simaan, and Howie Choset. Complementary Model Update: A Method for Simultaneous Registration and Stiffness Mapping in Flexible Environments. In IEEE International Conference on Robotics and Automation, pages 924-930, 2016.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Complementary model update: A method for simultaneous registration and stiffness mapping in flexible environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84977480822",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "924",
+                                "@last": "930"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srivatsan",
+                                    "ce:indexed-name": "Srivatsan R.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ayvali",
+                                    "ce:indexed-name": "Ayvali E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roy",
+                                    "ce:indexed-name": "Roy R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simaan",
+                                    "ce:indexed-name": "Simaan N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choset",
+                                    "ce:indexed-name": "Choset H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE International Conference on Robotics and Automation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rangaprasad Arun Srivatsan, Gillian T Rosen, Feroze D Naina, and Howie Choset. Estimating SE(3) elements using a dual quaternion based linear Kalman filter. In Robotics : Science and Systems, 2016.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Estimating SE(3) elements using a dual quaternion based linear Kalman filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046298496",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srivatsan",
+                                    "ce:indexed-name": "Srivatsan R.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosen",
+                                    "ce:indexed-name": "Rosen G.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Naina",
+                                    "ce:indexed-name": "Naina F.D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choset",
+                                    "ce:indexed-name": "Choset H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics : Science and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Sturm, N. Engelhard, F. Endres, W. Burgard, and D. Cremers. A Benchmark for the Evaluation of RGB-D SLAM Systems. In Proc. of the International Conference on Intelligent Robot Systems, Oct. 2012.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A benchmark for the evaluation of RGB-D SLAM systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872356320",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sturm",
+                                    "ce:indexed-name": "Sturm J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engelhard",
+                                    "ce:indexed-name": "Engelhard N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Endres",
+                                    "ce:indexed-name": "Endres F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burgard",
+                                    "ce:indexed-name": "Burgard W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cremers",
+                                    "ce:indexed-name": "Cremers D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of the International Conference on Intelligent Robot Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Greg Turk and Marc Levoy. The Stanford 3D Scanning Repository. Stanford University Computer Graphics Laboratory http://graphics.stanford.edu/data/3Dscanrep.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://graphics.stanford.edu/data/3Dscanrep",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "5444225341",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Stanford University Computer Graphics Laboratory",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Turk",
+                                    "ce:indexed-name": "Turk G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levoy",
+                                    "ce:indexed-name": "Levoy M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Stanford 3D Scanning Repository"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Qian-Yi Zhou, Jaesik Park, and Vladlen Koltun. Fast global registration. In European Conference on Computer Vision, pages 766-782. Springer, 2016.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Fast global registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84990843565",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "766",
+                                "@last": "782"
+                            }},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Q.-Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koltun",
+                                    "ce:indexed-name": "Koltun V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "European Conference on Computer Vision"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Pittsburgh",
+        "@id": "60104841",
+        "affilname": "The Robotics Institute",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104841",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85048775905",
+        "dc:description": "Pose estimation is central to several robotics applications such as registration, hand-eye calibration, SLAM, etc. Online pose estimation methods typically use Gaussian distributions to describe the uncertainty in the pose parameters. Such a description can be inadequate when using parameters such as unit-quaternions that are not unimodally distributed. A Bingham distribution can effectively model the uncertainty in unit-quaternions, as it has antipodal symmetry and is defined on a unit-hypersphere. A combination of Gaussian and Bingham distributions is used to develop a linear filter that accurately estimates the distribution of the pose parameters, in their true space. To the best of our knowledge our approach is the first implementation to use a Bingham distribution for 6 DoF pose estimation. Experiments assert that this approach is robust to initial estimation errors as well as sensor noise. Compared to state of the art methods, our approach takes fewer iterations to converge onto the correct pose estimate. The efficacy of the formulation is illustrated with a number of simulated examples on standard datasets as well as real-world experiments.",
+        "prism:coverDate": "2017-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85048775905",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Rangaprasad Arun",
+            "preferred-name": {
+                "ce:given-name": "Rangaprasad Arun",
+                "ce:initials": "R.A.",
+                "ce:surname": "Srivatsan",
+                "ce:indexed-name": "Srivatsan R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104841",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104841"
+            },
+            "ce:surname": "Srivatsan",
+            "@auid": "55533463500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55533463500",
+            "ce:indexed-name": "Srivatsan R.A."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85048775905"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85048775905&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85048775905&origin=inward"
+            }
+        ],
+        "prism:isbn": "9780992374730",
+        "prism:publicationName": "Robotics: Science and Systems",
+        "source-id": "21100448299",
+        "citedby-count": "18",
+        "prism:volume": "13",
+        "subtype": "cp",
+        "dc:title": "Bingham distribution-based linear filter for online pose estimation",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:issn": "2330765X",
+        "publishercopyright": "© 2017 MIT Press Journals. All rights reserved.",
+        "dc:identifier": "SCOPUS_ID:85048775905",
+        "dc:publisher": "MIT Press Journalscellas@mit.edu"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "6-dof pose estimations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Hand-eye calibration",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Initial estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose parameters",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real world experiment",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Robotics applications",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State-of-the-art methods",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Rangaprasad Arun",
+            "preferred-name": {
+                "ce:given-name": "Rangaprasad Arun",
+                "ce:initials": "R.A.",
+                "ce:surname": "Srivatsan",
+                "ce:indexed-name": "Srivatsan R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104841",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104841"
+            },
+            "ce:surname": "Srivatsan",
+            "@auid": "55533463500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55533463500",
+            "ce:indexed-name": "Srivatsan R.A."
+        },
+        {
+            "ce:given-name": "Mengyun",
+            "preferred-name": {
+                "ce:given-name": "Mengyun",
+                "ce:initials": "M.",
+                "ce:surname": "Xu",
+                "ce:indexed-name": "Xu M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104841",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104841"
+            },
+            "ce:surname": "Xu",
+            "@auid": "57202574222",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57202574222",
+            "ce:indexed-name": "Xu M."
+        },
+        {
+            "ce:given-name": "Nicolas",
+            "preferred-name": {
+                "ce:given-name": "Nicolas",
+                "ce:initials": "N.",
+                "ce:surname": "Zevallos",
+                "ce:indexed-name": "Zevallos N."
+            },
+            "@seq": "3",
+            "ce:initials": "N.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104841",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104841"
+            },
+            "ce:surname": "Zevallos",
+            "@auid": "56423625000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56423625000",
+            "ce:indexed-name": "Zevallos N."
+        },
+        {
+            "ce:given-name": "Howie",
+            "preferred-name": {
+                "ce:given-name": "Howie",
+                "ce:initials": "H.",
+                "ce:surname": "Choset",
+                "ce:indexed-name": "Choset H."
+            },
+            "@seq": "4",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104841",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104841"
+            },
+            "ce:surname": "Choset",
+            "@auid": "35576235700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35576235700",
+            "ce:indexed-name": "Choset H."
+        }
+    ]}
+}}

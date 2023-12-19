@@ -1,0 +1,805 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@timestamp": "2020-08-02T08:25:09.000009-04:00",
+                "@year": "2020",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2012",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2019-02-23T03:15:43.012Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/car"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Claremont, CA 91711",
+                            "country": "United States",
+                            "address-part": "301 Platt Blvd.",
+                            "@afid": "60000812",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Engineering"},
+                                {"$": "Harvey Mudd College"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60000812",
+                                "@dptid": "109833039"
+                            },
+                            "@dptid": "109833039"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Brian",
+                                "preferred-name": {
+                                    "ce:given-name": "Brian",
+                                    "ce:initials": "B.",
+                                    "ce:surname": "Soe",
+                                    "ce:indexed-name": "Soe B."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Soe",
+                                "@auid": "37016821000",
+                                "ce:indexed-name": "Soe B."
+                            },
+                            {
+                                "ce:given-name": "Cullen",
+                                "preferred-name": {
+                                    "ce:given-name": "Cullen",
+                                    "ce:initials": "C.",
+                                    "ce:surname": "McMahon",
+                                    "ce:indexed-name": "McMahon C."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "McMahon",
+                                "@auid": "56678962800",
+                                "ce:indexed-name": "McMahon C."
+                            },
+                            {
+                                "ce:given-name": "David",
+                                "preferred-name": {
+                                    "ce:given-name": "David",
+                                    "ce:initials": "D.",
+                                    "ce:surname": "Golay",
+                                    "ce:indexed-name": "Golay D."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Golay",
+                                "@auid": "57204191655",
+                                "ce:indexed-name": "Golay D."
+                            },
+                            {
+                                "ce:given-name": "Lori",
+                                "preferred-name": {
+                                    "ce:given-name": "Lori",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Bassman",
+                                    "ce:indexed-name": "Bassman L."
+                                },
+                                "@seq": "6",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bassman",
+                                "@auid": "6603643806",
+                                "ce:indexed-name": "Bassman L."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Sydney NSW 2052",
+                            "country": "Australia",
+                            "@afid": "60028333",
+                            "@country": "aus",
+                            "organization": [
+                                {"$": "School of Materials Science and Engineering"},
+                                {"$": "University of New South Wales"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028333",
+                                "@dptid": "112781993"
+                            },
+                            "@dptid": "112781993"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Md. Zakaria",
+                                "preferred-name": {
+                                    "ce:given-name": "Md Zakaria",
+                                    "ce:initials": "M.Z.",
+                                    "ce:surname": "Quadir",
+                                    "ce:indexed-name": "Quadir M.Z."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "Md.Z.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Quadir",
+                                "@auid": "6603710687",
+                                "ce:indexed-name": "Quadir Md.Z."
+                            },
+                            {
+                                "ce:given-name": "Michael",
+                                "preferred-name": {
+                                    "ce:given-name": "Michael",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Ferry",
+                                    "ce:indexed-name": "Ferry M."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Ferry",
+                                "@auid": "7005135028",
+                                "ce:indexed-name": "Ferry M."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Subgrain boundary identification in 3D EBSD data through fast multiscale clustering",
+                "abstracts": "Complete and accurate characterization of subgrain microstructural features permits study of the relationships among loading, microstructure and properties in plastically deformed metals. 3D electron backscatter diffraction data can produce reconstructed crystallographic volumes, however low angle subgrain boundaries cannot be determined simply with point-to-point misorientation thresholding because many are gradual transitions in orientation. We demonstrate a novel 3D implementation of the data segmentation technique Fast Multiscale Clustering, which uses a quaternion representation of orientation and a corresponding distance metric. Examples of the 3D segmentation of microbands and morphological analysis from the results are presented for die-compressed nickel single crystal and uniaxially loaded commercially pure aluminum.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "3D EBSD",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Electron backscatter diffraction",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Fast multiscale clustering",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Low angle boundaries",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Microbands",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Segmentation",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "1st International Conference on 3D Materials Science 2012, 3DMS 2012",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "189",
+                        "@last": "194"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781627489331",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpagerange": "var.pagings"},
+                        "confevent": {
+                            "confname": "1st International Conference on 3D Materials Science 2012, 3DMS 2012",
+                            "conflocation": {
+                                "city-group": "Seven Springs, PA",
+                                "@country": "usa"
+                            },
+                            "confcode": "101352",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "12",
+                                    "@year": "2012",
+                                    "@month": "07"
+                                },
+                                "startdate": {
+                                    "@day": "08",
+                                    "@year": "2012",
+                                    "@month": "07"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "1st International Conference on 3D Materials Science 2012, 3DMS 2012",
+                    "publicationdate": {
+                        "year": "2012",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2012"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Int. Conf. 3D Mater. Sci., 3DMS",
+                    "@country": "usa",
+                    "issuetitle": "1st International Conference on 3D Materials Science 2012, 3DMS 2012",
+                    "publicationyear": {"@first": "2012"},
+                    "publisher": {
+                        "publishername": "John Wiley and Sons Inc",
+                        "ce:e-address": {
+                            "$": "contentdelivery@wiley.com",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "21100273255"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "2211"
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "933.1",
+                            "classification-description": "Crystalline Solids"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "19",
+                    "@timestamp": "BST 14:03:13",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "370432836",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "337417794",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20135017088187",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20130306914",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "84875418607",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84875418607",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-319-48762-5_29"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "7",
+                "reference": [
+                    {
+                        "ref-fulltext": "A.D. Rollett et al., \"Three-dimensional characterization of microstructure by electron backscatter diffraction,\" Annual Review of Materials Research 37 (2007), 627-658.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Three-dimensional characterization of microstructure by electron backscatter diffraction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34848832043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "37"},
+                                "pagerange": {
+                                    "@first": "627",
+                                    "@last": "658"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rollett",
+                                    "ce:indexed-name": "Rollett A.D."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Annual Review of Materials Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Rohrer et al., \"Deriving grain boundary character distributions and relative grain boundary energies from three-dimensional EBSD data,\" Materials Science and Technology, 26 (2010), 661-669.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Deriving grain boundary character distributions and relative grain boundary energies from three-dimensional EBSD data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77954193348",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "26"},
+                                "pagerange": {
+                                    "@first": "661",
+                                    "@last": "669"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohrer",
+                                    "ce:indexed-name": "Rohrer G."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Materials Science and Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. McMahon et al., \"Segmentation of three-dimensional EBSD data through fast multiscale clustering,\" Proceedings of The Minerals, Metals & Materials Society 140th Annual Meeting, (2011).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Segmentation of three-dimensional EBSD data through fast multiscale clustering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85088717965",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McMahon",
+                                    "ce:indexed-name": "McMahon C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of The Minerals, Metals & Materials Society 140th Annual Meeting, (2011)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. Sharon et al., \"Hierarchy and adaptivity in segmenting visual scenes,\" Nature, 442 (2006), 810-813.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Hierarchy and adaptivity in segmenting visual scenes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747472134",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "442"},
+                                "pagerange": {
+                                    "@first": "810",
+                                    "@last": "813"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharon",
+                                    "ce:indexed-name": "Sharon E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Nature"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Bassman et al., \"Study of the true nature of microband boundaries in aluminum with 3D EBSD,\" Proceedings of the 16th International Conference on Textures of Microstructures. In Materials Science Forum 702-703 (2012), 558-561.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Study of the true nature of microband boundaries in aluminum with 3D EBSD"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84855369192",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "702-703"},
+                                "pagerange": {
+                                    "@first": "558",
+                                    "@last": "561"
+                                }
+                            },
+                            "ref-text": "Proceedings of the 16th International Conference on Textures of Microstructures",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bassman",
+                                    "ce:indexed-name": "Bassman L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Materials Science Forum"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Afrin et al., \"The three-dimensional nature of microbands in a channel die compressed Goss-oriented Ni single crystal,\" Scripta Materialia 64 (2011) 221-224.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "The three-dimensional nature of microbands in a channel die compressed Goss-oriented Ni single crystal"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78649328619",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "64"},
+                                "pagerange": {
+                                    "@first": "221",
+                                    "@last": "224"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Afrin",
+                                    "ce:indexed-name": "Afrin N."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Scripta Materialia"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Afrin et al., \"On the bumps and curves in the microband boundaries in a channel-die compressed Goss-oriented Ni single crystal,\" Proceedings of the 16th International Conference on Textures of Microstructures. In Materials Science Forum 702-703 (2012), 101-104.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "On the bumps and curves in the microband boundaries in a channel-die compressed Goss-oriented Ni single crystal"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84855370215",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "702-703"},
+                                "pagerange": {
+                                    "@first": "101",
+                                    "@last": "104"
+                                }
+                            },
+                            "ref-text": "Proceedings of the 16th International Conference on Textures of Microstructures",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Afrin",
+                                    "ce:indexed-name": "Afrin N."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Materials Science Forum"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Sydney",
+            "@id": "60028333",
+            "affilname": "UNSW Sydney",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028333",
+            "affiliation-country": "Australia"
+        },
+        {
+            "affiliation-city": "Claremont",
+            "@id": "60000812",
+            "affilname": "Harvey Mudd College",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000812",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84875418607",
+        "dc:description": "Complete and accurate characterization of subgrain microstructural features permits study of the relationships among loading, microstructure and properties in plastically deformed metals. 3D electron backscatter diffraction data can produce reconstructed crystallographic volumes, however low angle subgrain boundaries cannot be determined simply with point-to-point misorientation thresholding because many are gradual transitions in orientation. We demonstrate a novel 3D implementation of the data segmentation technique Fast Multiscale Clustering, which uses a quaternion representation of orientation and a corresponding distance metric. Examples of the 3D segmentation of microbands and morphological analysis from the results are presented for die-compressed nickel single crystal and uniaxially loaded commercially pure aluminum.",
+        "prism:coverDate": "2012-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84875418607",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Brian",
+            "preferred-name": {
+                "ce:given-name": "Brian",
+                "ce:initials": "B.",
+                "ce:surname": "Soe",
+                "ce:indexed-name": "Soe B."
+            },
+            "@seq": "1",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000812",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000812"
+            },
+            "ce:surname": "Soe",
+            "@auid": "37016821000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/37016821000",
+            "ce:indexed-name": "Soe B."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84875418607"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84875418607&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84875418607&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781627489331",
+        "prism:publicationName": "1st International Conference on 3D Materials Science 2012, 3DMS 2012",
+        "source-id": "21100273255",
+        "citedby-count": "4",
+        "subtype": "cp",
+        "prism:pageRange": "189-194",
+        "dc:title": "Subgrain boundary identification in 3D EBSD data through fast multiscale clustering",
+        "prism:endingPage": "194",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-319-48762-5_29",
+        "prism:startingPage": "189",
+        "dc:identifier": "SCOPUS_ID:84875418607",
+        "dc:publisher": "John Wiley and Sons Inccontentdelivery@wiley.com"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "3D EBSD",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electron back scatter diffraction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fast multiscale clustering",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Low angle boundaries",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Microbands",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "3D EBSD"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electron backscatter diffraction"
+        },
+        {
+            "@_fa": "true",
+            "$": "Fast multiscale clustering"
+        },
+        {
+            "@_fa": "true",
+            "$": "Low angle boundaries"
+        },
+        {
+            "@_fa": "true",
+            "$": "Microbands"
+        },
+        {
+            "@_fa": "true",
+            "$": "Segmentation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Mechanics of Materials",
+        "@code": "2211",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Brian",
+            "preferred-name": {
+                "ce:given-name": "Brian",
+                "ce:initials": "B.",
+                "ce:surname": "Soe",
+                "ce:indexed-name": "Soe B."
+            },
+            "@seq": "1",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000812",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000812"
+            },
+            "ce:surname": "Soe",
+            "@auid": "37016821000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/37016821000",
+            "ce:indexed-name": "Soe B."
+        },
+        {
+            "ce:given-name": "Cullen",
+            "preferred-name": {
+                "ce:given-name": "Cullen",
+                "ce:initials": "C.",
+                "ce:surname": "McMahon",
+                "ce:indexed-name": "McMahon C."
+            },
+            "@seq": "2",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000812",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000812"
+            },
+            "ce:surname": "McMahon",
+            "@auid": "56678962800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56678962800",
+            "ce:indexed-name": "McMahon C."
+        },
+        {
+            "ce:given-name": "David",
+            "preferred-name": {
+                "ce:given-name": "David",
+                "ce:initials": "D.",
+                "ce:surname": "Golay",
+                "ce:indexed-name": "Golay D."
+            },
+            "@seq": "3",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000812",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000812"
+            },
+            "ce:surname": "Golay",
+            "@auid": "57204191655",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57204191655",
+            "ce:indexed-name": "Golay D."
+        },
+        {
+            "ce:given-name": "Md. Zakaria",
+            "preferred-name": {
+                "ce:given-name": "Md Zakaria",
+                "ce:initials": "M.Z.",
+                "ce:surname": "Quadir",
+                "ce:indexed-name": "Quadir M.Z."
+            },
+            "@seq": "4",
+            "ce:initials": "Md.Z.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028333",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028333"
+            },
+            "ce:surname": "Quadir",
+            "@auid": "6603710687",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603710687",
+            "ce:indexed-name": "Quadir Md.Z."
+        },
+        {
+            "ce:given-name": "Michael",
+            "preferred-name": {
+                "ce:given-name": "Michael",
+                "ce:initials": "M.",
+                "ce:surname": "Ferry",
+                "ce:indexed-name": "Ferry M."
+            },
+            "@seq": "5",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028333",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028333"
+            },
+            "ce:surname": "Ferry",
+            "@auid": "7005135028",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005135028",
+            "ce:indexed-name": "Ferry M."
+        },
+        {
+            "ce:given-name": "Lori",
+            "preferred-name": {
+                "ce:given-name": "Lori",
+                "ce:initials": "L.",
+                "ce:surname": "Bassman",
+                "ce:indexed-name": "Bassman L."
+            },
+            "@seq": "6",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000812",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000812"
+            },
+            "ce:surname": "Bassman",
+            "@auid": "6603643806",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603643806",
+            "ce:indexed-name": "Bassman L."
+        }
+    ]}
+}}

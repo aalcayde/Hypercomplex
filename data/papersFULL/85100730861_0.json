@@ -1,0 +1,1673 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "08",
+                "@timestamp": "2022-06-08T18:51:14.000014-04:00",
+                "@year": "2022",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "04"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "State Ministry of Economic Affairs Baden-Württemberg"},
+                {
+                    "xocs:funding-agency-matched-string": "U-Shift II",
+                    "xocs:funding-id": "AK 3-433.62-DLR/60"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Federal Ministry of Education and Research",
+                    "xocs:funding-agency-acronym": "BMBF",
+                    "xocs:funding-agency": "Bundesministerium für Bildung und Forschung",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002347",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/2921044/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-06-11T13:09:44.933357Z",
+            "xocs:funding-text": "Manuscript received October 15, 2020; accepted January 18, 2021. Date of publication February 2, 2021; date of current version February 16, 2021. This letter was recommended for publication by Associate Editor M. Posa and Editor L. Pallottino upon evaluation of the reviewers\u2019 comments. This work was supported by the Projects UNICARagil (FKZ 16EMO0290) and U-Shift II (AK 3-433.62-DLR/60), in part by the Federal Ministry of Education and Research (BMBF), and in part by the State Ministry of Economic Affairs Baden-Württemberg. (Markus Horn and Thomas Wodtko are co-first authors). (Corresponding author: Markus Horn.) The authors are with the Institute of Measurement, Control and Microtechnology, Ulm University, Ulm 89081, Germany (e-mail: markus.horn@uni-ulm. de; thomas.wodtko@uni-ulm.de; michael.buchholz@uni-ulm.de; klaus. dietmayer@uni-ulm.de). Digital Object Identifier 10.1109/LRA.2021.3056352 Fig. 1. Our proposed extrinsic calibration can be divided into distinct parts. First, ego-motions Va and Vb are estimated separately for each sensor. The resulting motions are then passed to our calibration, which consists of a fast local and a global estimation part for estimating the calibration T . In the beginning, a global solution is calculated. This global solution is then used to initialize the fast optimization. When updating the fast solution, its globality is verified by evaluating the duality gap. In case of errors, the global solution is used as a fallback.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "Germany",
+                        "postal-code": "89081",
+                        "@afid": "60010586",
+                        "@country": "deu",
+                        "city": "Ulm",
+                        "organization": [
+                            {"$": "Institute of Measurement"},
+                            {"$": "Control and Microtechnology"},
+                            {"$": "Ulm University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60010586",
+                            "@dptid": "103577184"
+                        },
+                        "ce:source-text": "Institute of Measurement, Control and Microtechnology, Ulm University, Ulm, Germany",
+                        "@dptid": "103577184"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Markus",
+                            "preferred-name": {
+                                "ce:given-name": "Markus",
+                                "ce:initials": "M.",
+                                "ce:surname": "Horn",
+                                "ce:indexed-name": "Horn M."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Horn",
+                            "@auid": "57205428312",
+                            "@orcid": "0000-0002-1981-283X",
+                            "ce:indexed-name": "Horn M."
+                        },
+                        {
+                            "ce:given-name": "Thomas",
+                            "preferred-name": {
+                                "ce:given-name": "Thomas",
+                                "ce:initials": "T.",
+                                "ce:surname": "Wodtko",
+                                "ce:indexed-name": "Wodtko T."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wodtko",
+                            "@auid": "57221965269",
+                            "@orcid": "0000-0001-5151-8553",
+                            "ce:indexed-name": "Wodtko T."
+                        },
+                        {
+                            "ce:given-name": "Michael",
+                            "preferred-name": {
+                                "ce:given-name": "Michael",
+                                "ce:initials": "M.",
+                                "ce:surname": "Buchholz",
+                                "ce:indexed-name": "Buchholz M."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Buchholz",
+                            "@auid": "36971899800",
+                            "@orcid": "0000-0001-5973-0794",
+                            "ce:indexed-name": "Buchholz M."
+                        },
+                        {
+                            "ce:given-name": "Klaus",
+                            "preferred-name": {
+                                "ce:given-name": "Klaus",
+                                "ce:initials": "K.",
+                                "ce:surname": "Dietmayer",
+                                "ce:indexed-name": "Dietmayer K."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Dietmayer",
+                            "@auid": "6602970323",
+                            "@orcid": "0000-0002-1651-014X",
+                            "ce:indexed-name": "Dietmayer K."
+                        }
+                    ]
+                },
+                "citation-title": "Online extrinsic calibration based on per-sensor ego-motion using dual quaternions",
+                "abstracts": "© 2016 IEEE.In this work, we propose an approach for extrinsic sensor calibration from per-sensor ego-motion estimates. Our problem formulation is based on dual quaternions, enabling two different online capable solving approaches. We provide a certifiable globally optimal and a fast local approach along with a method to verify the globality of the local approach. Additionally, means for integrating previous knowledge, for example, a common ground plane for planar sensor motion, are described. Our algorithms are evaluated on simulated data and on a publicly available dataset containing RGB-D camera images. Further, our online calibration approach is tested on the KITTI odometry dataset, which provides data of a lidar and two stereo camera systems mounted on a vehicle. Our evaluation confirms the short run time, state-of-the-art accuracy, as well as online capability of our approach while retaining the global optimality of the solution at any time.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Germany",
+                        "postal-code": "89081",
+                        "@country": "deu",
+                        "city": "Ulm",
+                        "organization": [
+                            {"$": "Institute of Measurement"},
+                            {"$": "Control and Microtechnology"},
+                            {"$": "Ulm University"}
+                        ],
+                        "ce:source-text": "Institute of Measurement, Control and Microtechnology, Ulm University, Ulm, Germany"
+                    },
+                    "person": {
+                        "ce:given-name": "Markus",
+                        "ce:initials": "M.",
+                        "ce:surname": "Horn",
+                        "ce:indexed-name": "Horn M."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Calibration and identification",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "optimization and optimal control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "sensor networks",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/servlet/opac?punumber=7083369",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {"@xml:lang": "eng"},
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "6",
+                            "@issue": "2"
+                        },
+                        "pagerange": {
+                            "@first": "982",
+                            "@last": "989"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "IEEE Robotics and Automation Letters",
+                    "publicationdate": {
+                        "month": "04",
+                        "year": "2021",
+                        "date-text": "April 2021",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "IEEE Robot. Autom.",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "23773766",
+                        "@type": "electronic"
+                    },
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9345480",
+                    "@srcid": "21100900379"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "512.1.2",
+                                "classification-description": "Development Operations"
+                            },
+                            {
+                                "classification-code": "722.4",
+                                "classification-description": "Digital Computers and Systems"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "742.2",
+                                "classification-description": "Photographic and Video Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "2204"},
+                            {"$": "1709"},
+                            {"$": "2210"},
+                            {"$": "1707"},
+                            {"$": "1706"},
+                            {"$": "2606"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "24",
+                    "@timestamp": "BST 06:11:13",
+                    "@year": "2021",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "634184769",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "931351383",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20210709925223",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20210759133",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20210506974",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85100730861",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85100730861",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/LRA.2021.3056352"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "27",
+                "reference": [
+                    {
+                        "ref-fulltext": "A. Geiger, F. Moosmann, Ö. Car, and B. Schuster, \"Automatic camera and range sensor calibration using a single shot,\" in Proc. IEEE Int. Conf. Robot. Automat., 2012, pp. 3936-3943.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Automatic camera and range sensor calibration using a single shot"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864452767",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3936",
+                                "@last": "3943"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geiger",
+                                    "ce:indexed-name": "Geiger A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moosmann",
+                                    "ce:indexed-name": "Moosmann F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Ö.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Car",
+                                    "ce:indexed-name": "Car O."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schuster",
+                                    "ce:indexed-name": "Schuster B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "A. Geiger, F. Moosmann, Ö. Car, and B. Schuster, \"Automatic camera and range sensor calibration using a single shot,\" in Proc. IEEE Int. Conf. Robot. Automat., 2012, pp. 3936-3943."
+                    },
+                    {
+                        "ref-fulltext": "J.Kümmerle, T. Kühner, andM. Lauer, \"Automatic calibration ofmultiple cameras and depth sensors with a spherical target,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2018, pp. 1-8.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Automatic calibration ofmultiple cameras and depth sensors with a spherical target"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062967128",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kümmerle",
+                                    "ce:indexed-name": "Kummerle J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kühner",
+                                    "ce:indexed-name": "Kuhner T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lauer",
+                                    "ce:indexed-name": "Lauer M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst."
+                        },
+                        "ce:source-text": "J.Kümmerle, T. Kühner, andM. Lauer, \"Automatic calibration ofmultiple cameras and depth sensors with a spherical target,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2018, pp. 1-8."
+                    },
+                    {
+                        "ref-fulltext": "J. Domhof, J. F. P. Kooij, and D.M. Gavrila, \"An extrinsic calibration tool for radar, camera and lidar,\" in Proc. IEEE Int. Conf. Robot. Automat., 2019, pp. 8107-8113.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "An extrinsic calibration tool for radar, camera and lidar"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071416452",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "8107",
+                                "@last": "8113"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Domhof",
+                                    "ce:indexed-name": "Domhof J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.F.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kooij",
+                                    "ce:indexed-name": "Kooij J.F.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gavrila",
+                                    "ce:indexed-name": "Gavrila D.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "J. Domhof, J. F. P. Kooij, and D.M. Gavrila, \"An extrinsic calibration tool for radar, camera and lidar,\" in Proc. IEEE Int. Conf. Robot. Automat., 2019, pp. 8107-8113."
+                    },
+                    {
+                        "ref-fulltext": "P. J. Besl and N. D. McKay, \"Method for registration of 3-D shapes,\" in IEEE Trans. Pattern Anal. Mach. Intell., vol. 14, no. 2 pp. 239-256, 1992.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Method for registration of 3-D shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026821209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "239",
+                                    "@last": "256"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Besl",
+                                    "ce:indexed-name": "Besl P.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKay",
+                                    "ce:indexed-name": "McKay N.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Trans. Pattern Anal. Mach. Intell."
+                        },
+                        "ce:source-text": "P. J. Besl and N. D. McKay, \"Method for registration of 3-D shapes,\" in IEEE Trans. Pattern Anal. Mach. Intell., vol. 14, no. 2 pp. 239-256, 1992."
+                    },
+                    {
+                        "ref-fulltext": "J. Levinson and S. Thrun, \"Automatic online calibration of cameras and lasers,\" in Proc. Robot.: Sci. Syst., 2013, vol. 9.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Automatic online calibration of cameras and lasers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84951002972",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "9"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levinson",
+                                    "ce:indexed-name": "Levinson J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thrun",
+                                    "ce:indexed-name": "Thrun S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Robot.: Sci. Syst."
+                        },
+                        "ce:source-text": "J. Levinson and S. Thrun, \"Automatic online calibration of cameras and lasers,\" in Proc. Robot.: Sci. Syst., 2013, vol. 9."
+                    },
+                    {
+                        "ref-fulltext": "N. Schneider, F. Piewak, C. Stiller, and U. Franke, \"RegNet: Multimodal sensor registration using deep neural networks,\" in Proc. IEEE Intell. Veh. Symp., 2017, pp. 1803-1810.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "RegNet: Multimodal sensor registration using deep neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028077400",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1803",
+                                "@last": "1810"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schneider",
+                                    "ce:indexed-name": "Schneider N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piewak",
+                                    "ce:indexed-name": "Piewak F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stiller",
+                                    "ce:indexed-name": "Stiller C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Franke",
+                                    "ce:indexed-name": "Franke U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Intell. Veh. Symp."
+                        },
+                        "ce:source-text": "N. Schneider, F. Piewak, C. Stiller, and U. Franke, \"RegNet: Multimodal sensor registration using deep neural networks,\" in Proc. IEEE Intell. Veh. Symp., 2017, pp. 1803-1810."
+                    },
+                    {
+                        "ref-fulltext": "J. Brookshire and S. Teller, \"Extrinsic calibration from per-sensor egomotion,\" in Proc. Robot.: Sci. Syst., 2013, vol. 8.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Extrinsic calibration from per-sensor egomotion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84959313006",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "8"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brookshire",
+                                    "ce:indexed-name": "Brookshire J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teller",
+                                    "ce:indexed-name": "Teller S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Robot.: Sci. Syst."
+                        },
+                        "ce:source-text": "J. Brookshire and S. Teller, \"Extrinsic calibration from per-sensor egomotion,\" in Proc. Robot.: Sci. Syst., 2013, vol. 8."
+                    },
+                    {
+                        "ref-fulltext": "M. Giamou, Z. Ma, V. Peretroukhin, and J. Kelly, \"Certifiably globally optimal extrinsic calibration from per-sensor egomotion,\" IEEE Robot. Automat. Lett., vol. 4, no. 2, pp. 367-374, Apr. 2019.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Certifiably globally optimal extrinsic calibration from per-sensor egomotion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063311283",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "367",
+                                    "@last": "374"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giamou",
+                                    "ce:indexed-name": "Giamou M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peretroukhin",
+                                    "ce:indexed-name": "Peretroukhin V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kelly",
+                                    "ce:indexed-name": "Kelly J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Robot. Automat. Lett."
+                        },
+                        "ce:source-text": "M. Giamou, Z. Ma, V. Peretroukhin, and J. Kelly, \"Certifiably globally optimal extrinsic calibration from per-sensor egomotion,\" IEEE Robot. Automat. Lett., vol. 4, no. 2, pp. 367-374, Apr. 2019."
+                    },
+                    {
+                        "ref-fulltext": "J.Zhang and S. Singh,\"LOAM:Lidar odometry and mapping in real-time,\" in Proc. Robot.: Sci. Syst., 2014, vol. 10.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "LOAM:Lidar odometry and mapping in real-time"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85131222440",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "10"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Robot.: Sci. Syst."
+                        },
+                        "ce:source-text": "J.Zhang and S. Singh,\"LOAM:Lidar odometry and mapping in real-time,\" in Proc. Robot.: Sci. Syst., 2014, vol. 10."
+                    },
+                    {
+                        "ref-fulltext": "S. Sumikura, M. Shibuya, and K. Sakurada, \"OpenVSLAM: A versatile visual slam framework,\" in Proc. ACM Int. Conf. Multimedia, (Ser.MM '19), 2019, pp. 2292-2295.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "OpenVSLAM: A versatile visual slam framework"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074826890",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2292",
+                                "@last": "2295"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sumikura",
+                                    "ce:indexed-name": "Sumikura S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shibuya",
+                                    "ce:indexed-name": "Shibuya M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sakurada",
+                                    "ce:indexed-name": "Sakurada K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Acm Int. Conf. Multimedia, (Ser.MM '19)"
+                        },
+                        "ce:source-text": "S. Sumikura, M. Shibuya, and K. Sakurada, \"OpenVSLAM: A versatile visual slam framework,\" in Proc. ACM Int. Conf. Multimedia, (Ser.MM '19), 2019, pp. 2292-2295."
+                    },
+                    {
+                        "ref-fulltext": "M. Horn, N. Engel, V. Belagiannis, M. Buchholz, and K. Dietmayer, \"DeepCLR: Correspondence-less architecture for deep end-to-end point cloud registration,\" in Proc. IEEE Int. Conf. Intell. Transp. Syst., 2020, pp. 1-7.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "DeepCLR: Correspondence-less architecture for deep end-to-end point cloud registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85099641927",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engel",
+                                    "ce:indexed-name": "Engel N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Belagiannis",
+                                    "ce:indexed-name": "Belagiannis V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buchholz",
+                                    "ce:indexed-name": "Buchholz M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dietmayer",
+                                    "ce:indexed-name": "Dietmayer K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Intell. Transp. Syst."
+                        },
+                        "ce:source-text": "M. Horn, N. Engel, V. Belagiannis, M. Buchholz, and K. Dietmayer, \"DeepCLR: Correspondence-less architecture for deep end-to-end point cloud registration,\" in Proc. IEEE Int. Conf. Intell. Transp. Syst., 2020, pp. 1-7."
+                    },
+                    {
+                        "ref-fulltext": "S. Schneider, T. Luettel, and H.-J. Wuensche, \"Odometry-based online extrinsic sensor calibration,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2013, pp. 1287-1292.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Odometry-based online extrinsic sensor calibration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893727985",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1287",
+                                "@last": "1292"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schneider",
+                                    "ce:indexed-name": "Schneider S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luettel",
+                                    "ce:indexed-name": "Luettel T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.-J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wuensche",
+                                    "ce:indexed-name": "Wuensche H.-J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst."
+                        },
+                        "ce:source-text": "S. Schneider, T. Luettel, and H.-J. Wuensche, \"Odometry-based online extrinsic sensor calibration,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2013, pp. 1287-1292."
+                    },
+                    {
+                        "ref-fulltext": "J. M. McCarthy, Introduction to Theoretical Kinematics. Cambridge,MA, USA: MIT Press, 1990.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003488995",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "USA: MIT Press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.M.",
+                                "@_fa": "true",
+                                "ce:surname": "McCarthy",
+                                "ce:indexed-name": "McCarthy J.M."
+                            }]},
+                            "ref-sourcetitle": "Introduction to Theoretical Kinematics. Cambridge,MA"
+                        },
+                        "ce:source-text": "J. M. McCarthy, Introduction to Theoretical Kinematics. Cambridge,MA, USA: MIT Press, 1990."
+                    },
+                    {
+                        "ref-fulltext": "G. Carrera, A. Angeli, and A. J. Davison, \"Slam-based automatic extrinsic calibration of a multi-camera rig,\" in Proc. IEEE Int. Conf. Robot. Automat., 2011, pp. 2652-2659.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Slam-based automatic extrinsic calibration of a multi-camera rig"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84871700736",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2652",
+                                "@last": "2659"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carrera",
+                                    "ce:indexed-name": "Carrera G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Angeli",
+                                    "ce:indexed-name": "Angeli A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davison",
+                                    "ce:indexed-name": "Davison A.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "G. Carrera, A. Angeli, and A. J. Davison, \"Slam-based automatic extrinsic calibration of a multi-camera rig,\" in Proc. IEEE Int. Conf. Robot. Automat., 2011, pp. 2652-2659."
+                    },
+                    {
+                        "ref-fulltext": "L. Heng, B. Li, and M. Pollefeys, \"CamOdoCal: Automatic intrinsic and extrinsic calibration of a rig with multiple generic cameras and odometry,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2013, pp. 1793-1800.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "CamOdoCal: Automatic intrinsic and extrinsic calibration of a rig with multiple generic cameras and odometry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893816726",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1793",
+                                "@last": "1800"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heng",
+                                    "ce:indexed-name": "Heng L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pollefeys",
+                                    "ce:indexed-name": "Pollefeys M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst."
+                        },
+                        "ce:source-text": "L. Heng, B. Li, and M. Pollefeys, \"CamOdoCal: Automatic intrinsic and extrinsic calibration of a rig with multiple generic cameras and odometry,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2013, pp. 1793-1800."
+                    },
+                    {
+                        "ref-fulltext": "X. Wang, H. Chen, and Y. Li, \"Online calibration for monocular vision and odometry fusion,\" in Proc. IEEE Int. Conf. Unmanned Syst., 2017, pp. 602-607.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Online calibration for monocular vision and odometry fusion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050926123",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "602",
+                                "@last": "607"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Unmanned Syst."
+                        },
+                        "ce:source-text": "X. Wang, H. Chen, and Y. Li, \"Online calibration for monocular vision and odometry fusion,\" in Proc. IEEE Int. Conf. Unmanned Syst., 2017, pp. 602-607."
+                    },
+                    {
+                        "ref-fulltext": "Z. Taylor and J. Nieto, \"Motion-based calibration of multimodal sensor arrays,\" in Proc. IEEE Int. Conf. Robot. Automat., 2015, pp. 4843-4850.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Motion-based calibration of multimodal sensor arrays"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84938280553",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4843",
+                                "@last": "4850"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Taylor",
+                                    "ce:indexed-name": "Taylor Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nieto",
+                                    "ce:indexed-name": "Nieto J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "Z. Taylor and J. Nieto, \"Motion-based calibration of multimodal sensor arrays,\" in Proc. IEEE Int. Conf. Robot. Automat., 2015, pp. 4843-4850."
+                    },
+                    {
+                        "ref-fulltext": "J. Holtz and J. Biswas, \"Automatic extrinsic calibration of depth sensors with ambiguous environments and restricted motion,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2017, pp. 2235-2240.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Automatic extrinsic calibration of depth sensors with ambiguous environments and restricted motion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041957341",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2235",
+                                "@last": "2240"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holtz",
+                                    "ce:indexed-name": "Holtz J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Biswas",
+                                    "ce:indexed-name": "Biswas J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst."
+                        },
+                        "ce:source-text": "J. Holtz and J. Biswas, \"Automatic extrinsic calibration of depth sensors with ambiguous environments and restricted motion,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2017, pp. 2235-2240."
+                    },
+                    {
+                        "ref-fulltext": "K. Daniilidis, \"Hand-eye calibration using dual quaternions,\" Int. J. Robot. Res., vol. 18, no. 3, pp. 286-298, 1999.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Hand-eye calibration using dual quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033099697",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "286",
+                                    "@last": "298"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Daniilidis",
+                                "ce:indexed-name": "Daniilidis K."
+                            }]},
+                            "ref-sourcetitle": "Int. J. Robot. Res."
+                        },
+                        "ce:source-text": "K. Daniilidis, \"Hand-eye calibration using dual quaternions,\" Int. J. Robot. Res., vol. 18, no. 3, pp. 286-298, 1999."
+                    },
+                    {
+                        "ref-fulltext": "J. Briales and J. Gonzalez-Jimenez, \"Convex global 3D registration with lagrangian duality,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2017, pp. 4960-4969.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Convex global 3D registration with lagrangian duality"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85042703541",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4960",
+                                "@last": "4969"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Briales",
+                                    "ce:indexed-name": "Briales J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gonzalez-Jimenez",
+                                    "ce:indexed-name": "Gonzalez-Jimenez J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Ieee Conf. Comput. Vis. Pattern Recognit."
+                        },
+                        "ce:source-text": "J. Briales and J. Gonzalez-Jimenez, \"Convex global 3D registration with lagrangian duality,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2017, pp. 4960-4969."
+                    },
+                    {
+                        "ref-fulltext": "E.Wise,M.Giamou, S. Khoubyarian,A.Grover, and J.Kelly, \"Certifiably optimal monocular hand-eye calibration,\" in Proc. Int. Conf. Multisensor Fusion Integration, 2020, pp. 271-278.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Certifiably optimal monocular hand-eye calibration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85096125806",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "271",
+                                "@last": "278"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wise",
+                                    "ce:indexed-name": "Wise E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Giamou",
+                                    "ce:indexed-name": "Giamou M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khoubyarian",
+                                    "ce:indexed-name": "Khoubyarian S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grover",
+                                    "ce:indexed-name": "Grover A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kelly",
+                                    "ce:indexed-name": "Kelly J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Multisensor Fusion Integration"
+                        },
+                        "ce:source-text": "E.Wise,M.Giamou, S. Khoubyarian,A.Grover, and J.Kelly, \"Certifiably optimal monocular hand-eye calibration,\" in Proc. Int. Conf. Multisensor Fusion Integration, 2020, pp. 271-278."
+                    },
+                    {
+                        "ref-fulltext": "K. Huang and C. Stachniss, \"Extrinsic multi-sensor calibration for mobile robots using the gauss-helmertmodel,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2017, pp. 1490-1496.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Extrinsic multi-sensor calibration for mobile robots using the gauss-helmertmodel"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041957770",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1490",
+                                "@last": "1496"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stachniss",
+                                    "ce:indexed-name": "Stachniss C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst."
+                        },
+                        "ce:source-text": "K. Huang and C. Stachniss, \"Extrinsic multi-sensor calibration for mobile robots using the gauss-helmertmodel,\" in Proc. IEEE/RSJ Int. Conf. Intell. Robot. Syst., 2017, pp. 1490-1496."
+                    },
+                    {
+                        "ref-fulltext": "D. Zuñiga-Noël, J.-R. Ruiz-Sarmiento, R.Gomez-Ojeda, and J.Gonzalez-Jimenez, \"Automatic multi-sensor extrinsic calibration for mobile robots,\" IEEE Robot. Automat. Lett., vol. 4, no. 3, pp. 2862-2869, Jul. 2019.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Automatic multi-sensor extrinsic calibration for mobile robots"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85068209620",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "2862",
+                                    "@last": "2869"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zuñiga-Noël",
+                                    "ce:indexed-name": "Zuniga-Noel D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz-Sarmiento",
+                                    "ce:indexed-name": "Ruiz-Sarmiento J.-R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gomez-Ojeda",
+                                    "ce:indexed-name": "Gomez-Ojeda R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gonzalez-Jimenez",
+                                    "ce:indexed-name": "Gonzalez-Jimenez J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ieee Robot. Automat. Lett."
+                        },
+                        "ce:source-text": "D. Zuñiga-Noël, J.-R. Ruiz-Sarmiento, R.Gomez-Ojeda, and J.Gonzalez-Jimenez, \"Automatic multi-sensor extrinsic calibration for mobile robots,\" IEEE Robot. Automat. Lett., vol. 4, no. 3, pp. 2862-2869, Jul. 2019."
+                    },
+                    {
+                        "ref-fulltext": "M. Grant and S. Boyd, \"CVX: Matlab software for disciplined convex programming, version 2.1,\" Mar. 2014. [Online]. Available: http://cvxr. com/cvx.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://cvxr.com/cvx",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51349098876",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grant",
+                                    "ce:indexed-name": "Grant M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boyd",
+                                    "ce:indexed-name": "Boyd S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVX: Matlab Software for Disciplined Convex Programming, Version 2.1"
+                        },
+                        "ce:source-text": "M. Grant and S. Boyd, \"CVX: Matlab software for disciplined convex programming, version 2.1,\" Mar. 2014. [Online]. Available: http://cvxr. com/cvx."
+                    },
+                    {
+                        "ref-fulltext": "L. Carlone, D. M. Rosen, G. Calafiore, J. J. Leonard, and F. Dellaert, \"Lagrangian duality in 3D slam: Verification techniques and optimal solutions,\" in Proc. IEEE/RSJ Int.Conf. Intell. Robot. Syst., 2015, pp. 125-132.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Lagrangian duality in 3D slam: Verification techniques and optimal solutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958153627",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "125",
+                                "@last": "132"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carlone",
+                                    "ce:indexed-name": "Carlone L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosen",
+                                    "ce:indexed-name": "Rosen D.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Calafiore",
+                                    "ce:indexed-name": "Calafiore G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard J.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dellaert",
+                                    "ce:indexed-name": "Dellaert F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int.Conf. Intell. Robot. Syst."
+                        },
+                        "ce:source-text": "L. Carlone, D. M. Rosen, G. Calafiore, J. J. Leonard, and F. Dellaert, \"Lagrangian duality in 3D slam: Verification techniques and optimal solutions,\" in Proc. IEEE/RSJ Int.Conf. Intell. Robot. Syst., 2015, pp. 125-132."
+                    },
+                    {
+                        "ref-fulltext": "J. Nocedal and S. Wright, Numerical Optimization. New York, NY, USA: Springer, 2006.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003982971",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "NY, USA: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nocedal",
+                                    "ce:indexed-name": "Nocedal J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wright",
+                                    "ce:indexed-name": "Wright S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Numerical Optimization. New York"
+                        },
+                        "ce:source-text": "J. Nocedal and S. Wright, Numerical Optimization. New York, NY, USA: Springer, 2006."
+                    },
+                    {
+                        "ref-fulltext": "A. Geiger, P. Lenz, andR.Urtasun, \"Are we ready for autonomous driving? the kitti vision benchmark suite,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., 2012, pp. 3354-3361.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Are we ready for autonomous driving? The kitti vision benchmark suite"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866704163",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3354",
+                                "@last": "3361"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geiger",
+                                    "ce:indexed-name": "Geiger A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lenz",
+                                    "ce:indexed-name": "Lenz P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Urtasun",
+                                    "ce:indexed-name": "Urtasun R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit."
+                        },
+                        "ce:source-text": "A. Geiger, P. Lenz, andR.Urtasun, \"Are we ready for autonomous driving? the kitti vision benchmark suite,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit., 2012, pp. 3354-3361."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Ulm",
+        "@id": "60010586",
+        "affilname": "Universität Ulm",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010586",
+        "affiliation-country": "Germany"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85100730861",
+        "dc:description": "In this work, we propose an approach for extrinsic sensor calibration from per-sensor ego-motion estimates. Our problem formulation is based on dual quaternions, enabling two different online capable solving approaches. We provide a certifiable globally optimal and a fast local approach along with a method to verify the globality of the local approach. Additionally, means for integrating previous knowledge, for example, a common ground plane for planar sensor motion, are described. Our algorithms are evaluated on simulated data and on a publicly available dataset containing RGB-D camera images. Further, our online calibration approach is tested on the KITTI odometry dataset, which provides data of a lidar and two stereo camera systems mounted on a vehicle. Our evaluation confirms the short run time, state-of-the-art accuracy, as well as online capability of our approach while retaining the global optimality of the solution at any time.",
+        "prism:coverDate": "2021-04-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85100730861",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Markus",
+            "preferred-name": {
+                "ce:given-name": "Markus",
+                "ce:initials": "M.",
+                "ce:surname": "Horn",
+                "ce:indexed-name": "Horn M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010586",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010586"
+            },
+            "ce:surname": "Horn",
+            "@auid": "57205428312",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57205428312",
+            "ce:indexed-name": "Horn M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85100730861"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85100730861&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85100730861&origin=inward"
+            }
+        ],
+        "source-id": "21100900379",
+        "citedby-count": "13",
+        "prism:volume": "6",
+        "subtype": "ar",
+        "dc:title": "Online extrinsic calibration based on per-sensor ego-motion using dual quaternions",
+        "openaccess": "2",
+        "prism:issn": "23773766",
+        "publishercopyright": "© 2016 IEEE.",
+        "article-number": "9345480",
+        "prism:issueIdentifier": "2",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Robotics and Automation Letters",
+        "prism:pageRange": "982-989",
+        "prism:endingPage": "989",
+        "openaccessFlag": null,
+        "prism:doi": "10.1109/LRA.2021.3056352",
+        "prism:startingPage": "982",
+        "dc:identifier": "SCOPUS_ID:85100730861",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Extrinsic calibration",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Global optimality",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Local approaches",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "On-line calibration",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Problem formulation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sensor calibration",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State of the art",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stereo camera system",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Calibration and identification"
+        },
+        {
+            "@_fa": "true",
+            "$": "optimization and optimal control"
+        },
+        {
+            "@_fa": "true",
+            "$": "sensor networks"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biomedical Engineering",
+            "@code": "2204",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human-Computer Interaction",
+            "@code": "1709",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mechanical Engineering",
+            "@code": "2210",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Markus",
+            "preferred-name": {
+                "ce:given-name": "Markus",
+                "ce:initials": "M.",
+                "ce:surname": "Horn",
+                "ce:indexed-name": "Horn M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010586",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010586"
+            },
+            "ce:surname": "Horn",
+            "@auid": "57205428312",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57205428312",
+            "ce:indexed-name": "Horn M."
+        },
+        {
+            "ce:given-name": "Thomas",
+            "preferred-name": {
+                "ce:given-name": "Thomas",
+                "ce:initials": "T.",
+                "ce:surname": "Wodtko",
+                "ce:indexed-name": "Wodtko T."
+            },
+            "@seq": "2",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010586",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010586"
+            },
+            "ce:surname": "Wodtko",
+            "@auid": "57221965269",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57221965269",
+            "ce:indexed-name": "Wodtko T."
+        },
+        {
+            "ce:given-name": "Michael",
+            "preferred-name": {
+                "ce:given-name": "Michael",
+                "ce:initials": "M.",
+                "ce:surname": "Buchholz",
+                "ce:indexed-name": "Buchholz M."
+            },
+            "@seq": "3",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010586",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010586"
+            },
+            "ce:surname": "Buchholz",
+            "@auid": "36971899800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36971899800",
+            "ce:indexed-name": "Buchholz M."
+        },
+        {
+            "ce:given-name": "Klaus",
+            "preferred-name": {
+                "ce:given-name": "Klaus",
+                "ce:initials": "K.",
+                "ce:surname": "Dietmayer",
+                "ce:indexed-name": "Dietmayer K."
+            },
+            "@seq": "4",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010586",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010586"
+            },
+            "ce:surname": "Dietmayer",
+            "@auid": "6602970323",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6602970323",
+            "ce:indexed-name": "Dietmayer K."
+        }
+    ]}
+}}

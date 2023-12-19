@@ -1,0 +1,698 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2021-11-07T17:37:42.000042-05:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2005",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Belgium",
+                            "@country": "bel",
+                            "organization": {"$": "Septentrio NV"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Leen",
+                                "preferred-name": {
+                                    "ce:given-name": "Leen",
+                                    "ce:initials": "L.",
+                                    "ce:surname": "Vander Kuylen",
+                                    "ce:indexed-name": "Vander Kuylen L."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Vander Kuylen",
+                                "@auid": "13410023300",
+                                "ce:indexed-name": "Vander Kuylen L."
+                            },
+                            {
+                                "ce:given-name": "Frank",
+                                "preferred-name": {
+                                    "ce:given-name": "Frank",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Boon",
+                                    "ce:indexed-name": "Boon F."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Boon",
+                                "@auid": "15623027000",
+                                "ce:indexed-name": "Boon F."
+                            },
+                            {
+                                "ce:given-name": "Andrew",
+                                "preferred-name": {
+                                    "ce:given-name": "Andrew",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Simsky",
+                                    "ce:indexed-name": "Simsky A."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Simsky",
+                                "@auid": "13410778900",
+                                "ce:indexed-name": "Simsky A."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Belgium",
+                            "@country": "bel",
+                            "organization": {"$": "Septentrio"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Andrew",
+                            "preferred-name": {
+                                "ce:given-name": "Andrew",
+                                "ce:initials": "A.",
+                                "ce:surname": "Simsky",
+                                "ce:indexed-name": "Simsky A."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "ce:surname": "Simsky",
+                            "@auid": "13410778900",
+                            "ce:indexed-name": "Simsky A."
+                        }]
+                    }
+                ],
+                "citation-title": "Attitude determination methods used in the PolaRx2@ multi-antenna GPS receiver",
+                "abstracts": "Septentrio has designed a lightweight single-board position/attitude determination system based on its unique multi-antenna dual-frequency GNSS receiver, PolaRx2@, which receives and provides measurements from 3 antennas. One of the antennas serves as a main antenna and its output is used to compute position. Two additional antennas provide measurements for attitude determination. The tracking channels are configurable, and consequently, the same receiver can be used with one, 2, or 3 antennas. Currently, the main antenna can be dualfrequency, while the auxiliary antennas are single-frequency only. Attitude determination in the PolaRx2@ is therefore based only on LI code/phase measurements. This paper focuses on two methods that can be used for attitude determination based on GPS measurements only. The first method uses a Kalman filter in which double-differenced phase and pseudorange measurements are used to determine the positions of the auxiliary antennas relative to the main antenna in the local-level navigation frame. The attitude angles are computed based on these relative positions. This method is known as Direct Computation Method (DCM) and is currently implemented in the PolaRx2@. The second method uses a Kalman filter in which double-differenced phase and pseudorange measurements are used to directly determine attitude angles expressed as quaternion. This method requires a priori knowledge of the antenna positions in the vehicle frame, which are determined using a calibration procedure. This method is currently under development and is referred to as the quaternion-based Kalman filter. In this paper, both attitude determination methods are described, and their performance is compared using simulated error-free measurements. Static tests are used to obtain the Time-To-First-Fixed Attitude (TTFFA) statistics for the DCM. The flight tests have demonstrated high robustness of the PolaRx2@ in real-life high-dynamic environment. The test with a car and a trailer shows how the DCM algorithm can be used to obtain information on the deformations of flexible vehicles.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Belgium",
+                        "@country": "bel",
+                        "organization": {"$": "Septentrio NV"}
+                    },
+                    "person": {
+                        "ce:initials": "L.",
+                        "ce:surname": "Vander Kuylen",
+                        "ce:indexed-name": "Vander Kuylen L."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Proc. Int. Tech. Meet. Satellite Div. Inst. Navig.",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of the18th International Technical Meeting of the Satellite Divisionof The Institute of Navigation, ION GNSS 2005",
+                    "volisspag": {
+                        "voliss": {"@volume": "2005"},
+                        "pagerange": {
+                            "@first": "125",
+                            "@last": "135"
+                        }
+                    },
+                    "@type": "p",
+                    "publicationyear": {"@first": "2005"},
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpagerange": "var pagings"},
+                        "confevent": {
+                            "confname": "18th International Technical Meeting of the Satellite Division of The Institute of Navigation, ION GNSS 2005",
+                            "conflocation": {
+                                "city-group": "Long Beach, CA",
+                                "@country": "usa"
+                            },
+                            "confcode": "67277",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "16",
+                                    "@year": "2005",
+                                    "@month": "09"
+                                },
+                                "startdate": {
+                                    "@day": "13",
+                                    "@year": "2005",
+                                    "@month": "09"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of the 18th International Technical Meeting of the Satellite Division of The Institute of Navigation, ION GNSS 2005",
+                    "@srcid": "4400151738",
+                    "publicationdate": {
+                        "year": "2005",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2005"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "2200"
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "408.2",
+                                "classification-description": "Structural Members and Shapes"
+                            },
+                            {
+                                "classification-code": "655.2.1",
+                                "classification-description": "Communication Satellites"
+                            },
+                            {
+                                "classification-code": "703.2",
+                                "classification-description": "Electric Filters"
+                            },
+                            {
+                                "classification-code": "716",
+                                "classification-description": "Electronic Equipment, Radar, Radio and Television"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2013 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "22",
+                    "@year": "2006",
+                    "@month": "05"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "43720949",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "2006219889892",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "33646551469",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "33646551469",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "Simsky, A., Vander Kuylen, L., Boon F. Single-board attitude determination system based on the PolaRx2@ GPS receiver, Proceedings of ENC-GNSS 2005, Munich, July 19-22, 2005.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Single-board attitude determination system based on the PolaRx2@ GPS receiver"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33646581155",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Munich, July 19-22",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simsky",
+                                    "ce:indexed-name": "Simsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vander Kuylen",
+                                    "ce:indexed-name": "Vander Kuylen L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boon",
+                                    "ce:indexed-name": "Boon F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of ENC-GNSS 2005"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Van Graas, F., and Braasch, M. GPS Interferometric Attitude and heading determination: Initial flight test results, Navigation, Vol. 38, Fall 1991, pp 297-316.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "ref-title": {"ref-titletext": "GPS Interferometric Attitude and heading determination: Initial flight test results"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026392527",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "297",
+                                    "@last": "316"
+                                }
+                            },
+                            "ref-text": "Fall",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Graas",
+                                    "ce:indexed-name": "Van Graas F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Braasch",
+                                    "ce:indexed-name": "Braasch M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Navigation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cohen, C., et al. Flight tests of attitude determination using GPS compared against an inertial navigation unit, Navigation, Vol. 41, Fall 1994.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Flight tests of attitude determination using GPS compared against an inertial navigation unit"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028383252",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "41"}},
+                            "ref-text": "Fall",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen C."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Navigation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cohen, C. Attitude Determination, Global Positioning System: Theory and Applications, Volume II, edited by B.W. Parkinson and J.J.Spilker, Vol.163, Progress in Astronautics and Aeronautics, AIAA, Washington DC, 1996, pp. 519-538.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Attitude determination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000231820",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "163"},
+                                "pagerange": {
+                                    "@first": "519",
+                                    "@last": "538"
+                                }
+                            },
+                            "ref-text": "Volume II, edited by B.W. Parkinson and J.J.Spilker, Progress in Astronautics and Aeronautics, AIAA, Washington DC",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Cohen",
+                                "ce:indexed-name": "Cohen C."
+                            }]},
+                            "ref-sourcetitle": "Global Positioning System: Theory and Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cannon, M.E., Schleppe, J.B., Mclellan, J.F., and Ollevier, T.E. Real-time heading determination using an integrated GPS/dead-reckoning system, Proceedings of ION GPS-92, Institute of Navigation, 1992, pp. 767-773.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Real-time heading determination using an integrated GPS/dead-reckoning system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33646544183",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "767",
+                                "@last": "773"
+                            }},
+                            "ref-text": "Institute of Navigation",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cannon",
+                                    "ce:indexed-name": "Cannon M.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schleppe",
+                                    "ce:indexed-name": "Schleppe J.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mclellan",
+                                    "ce:indexed-name": "Mclellan J.F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ollevier",
+                                    "ce:indexed-name": "Ollevier T.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of ION GPS-92"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Axelrad, P and Chesley, B.C. Performance testing of a GPS-based attitude determination system. AIAA Guidance, Navigation and Control Conference, Monterey, CA, USA, Aug 1993.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Performance testing of a GPS-based attitude determination system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84992316952",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Navigation and Control Conference, Monterey, CA, USA, Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Axelrad",
+                                    "ce:indexed-name": "Axelrad P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chesley",
+                                    "ce:indexed-name": "Chesley B.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AIAA Guidance"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lu, G., Development of a GPS Multi-Antenna System for Attitude Determination, PhD Thesis, UCGE Report Number 20073, Department of Geomatics Engineering, University of Calgary, Jan 1995.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Development of a GPS multi-antenna system for attitude determination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0011351196",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "PhD Thesis, Department of Geomatics Engineering, University of Calgary, Jan",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Lu",
+                                "ce:indexed-name": "Lu G."
+                            }]},
+                            "ref-sourcetitle": "UCGE Report Number 20073"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Simsky A., Boon F., Carrier-phase and Doppler-based algorithms for real-time standalone positioning. Proceedings of GNSS 2003, Graz April 2003.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Carrier-phase and Doppler-based algorithms for real-time standalone positioning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33646547087",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Graz April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simsky",
+                                    "ce:indexed-name": "Simsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boon",
+                                    "ce:indexed-name": "Boon F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of GNSS 2003"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Teunissen, P.J.G., and C.C.J.M. Tiberius, Integer least-squares estimation of the GPS phase ambiguities. Proceedings of International Symposium on Kinematic Systems in Geodesy, Geomatics and Navigation KIS'94, Banff, Canada, August 30-September 2, 1994, pp. 221-231.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Integer least-squares estimation of the GPS phase ambiguities"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0345080844",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "221",
+                                "@last": "231"
+                            }},
+                            "ref-text": "Geomatics and Navigation KIS'94, Banff, Canada, August 30-September 2",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teunissen",
+                                    "ce:indexed-name": "Teunissen P.J.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tiberius",
+                                    "ce:indexed-name": "Tiberius C.C.J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of International Symposium on Kinematic Systems in Geodesy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Schleppe, J.B., Development of a Real-Time Attitude System Using a Quaternion Parameterization and Non-Dedicated GPS Receivers, M.Sc. Thesis, UCGE Report Number 20096, Department of Geomatics Engineering, University of Calgary, July 1996.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Development of a real-time attitude system using a quaternion parameterization and non-dedicated GPS receivers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "10244225071",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "M.Sc. Thesis, Department of Geomatics Engineering, University of Calgary, July",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.B.",
+                                "@_fa": "true",
+                                "ce:surname": "Schleppe",
+                                "ce:indexed-name": "Schleppe J.B."
+                            }]},
+                            "ref-sourcetitle": "UCGE Report Number 20096"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-33646551469",
+        "dc:description": "Septentrio has designed a lightweight single-board position/attitude determination system based on its unique multi-antenna dual-frequency GNSS receiver, PolaRx2@, which receives and provides measurements from 3 antennas. One of the antennas serves as a main antenna and its output is used to compute position. Two additional antennas provide measurements for attitude determination. The tracking channels are configurable, and consequently, the same receiver can be used with one, 2, or 3 antennas. Currently, the main antenna can be dualfrequency, while the auxiliary antennas are single-frequency only. Attitude determination in the PolaRx2@ is therefore based only on LI code/phase measurements. This paper focuses on two methods that can be used for attitude determination based on GPS measurements only. The first method uses a Kalman filter in which double-differenced phase and pseudorange measurements are used to determine the positions of the auxiliary antennas relative to the main antenna in the local-level navigation frame. The attitude angles are computed based on these relative positions. This method is known as Direct Computation Method (DCM) and is currently implemented in the PolaRx2@. The second method uses a Kalman filter in which double-differenced phase and pseudorange measurements are used to directly determine attitude angles expressed as quaternion. This method requires a priori knowledge of the antenna positions in the vehicle frame, which are determined using a calibration procedure. This method is currently under development and is referred to as the quaternion-based Kalman filter. In this paper, both attitude determination methods are described, and their performance is compared using simulated error-free measurements. Static tests are used to obtain the Time-To-First-Fixed Attitude (TTFFA) statistics for the DCM. The flight tests have demonstrated high robustness of the PolaRx2@ in real-life high-dynamic environment. The test with a car and a trailer shows how the DCM algorithm can be used to obtain information on the deformations of flexible vehicles.",
+        "prism:coverDate": "2005-12-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/33646551469",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Leen",
+            "preferred-name": {
+                "ce:given-name": "Leen",
+                "ce:initials": "L.",
+                "ce:surname": "Vander Kuylen",
+                "ce:indexed-name": "Vander Kuylen L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "ce:surname": "Vander Kuylen",
+            "@auid": "13410023300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/13410023300",
+            "ce:indexed-name": "Vander Kuylen L."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/33646551469"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33646551469&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=33646551469&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Proceedings of the 18th International Technical Meeting of the Satellite Division of The Institute of Navigation, ION GNSS 2005",
+        "source-id": "4400151738",
+        "citedby-count": "21",
+        "prism:volume": "2005",
+        "subtype": "cp",
+        "prism:pageRange": "125-135",
+        "dc:title": "Attitude determination methods used in the PolaRx2@ multi-antenna GPS receiver",
+        "prism:endingPage": "135",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:startingPage": "125",
+        "dc:identifier": "SCOPUS_ID:33646551469"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "DCM algorithm",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Error-free measurements",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion-based Kalman filter",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time-To-First-Fixed Attitude (TTFFA) statistics",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Engineering (all)",
+        "@code": "2200",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Leen",
+            "preferred-name": {
+                "ce:given-name": "Leen",
+                "ce:initials": "L.",
+                "ce:surname": "Vander Kuylen",
+                "ce:indexed-name": "Vander Kuylen L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "ce:surname": "Vander Kuylen",
+            "@auid": "13410023300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/13410023300",
+            "ce:indexed-name": "Vander Kuylen L."
+        },
+        {
+            "ce:given-name": "Frank",
+            "preferred-name": {
+                "ce:given-name": "Frank",
+                "ce:initials": "F.",
+                "ce:surname": "Boon",
+                "ce:indexed-name": "Boon F."
+            },
+            "@seq": "2",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "ce:surname": "Boon",
+            "@auid": "15623027000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/15623027000",
+            "ce:indexed-name": "Boon F."
+        },
+        {
+            "ce:given-name": "Andrew",
+            "preferred-name": {
+                "ce:given-name": "Andrew",
+                "ce:initials": "A.",
+                "ce:surname": "Simsky",
+                "ce:indexed-name": "Simsky A."
+            },
+            "@seq": "3",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "ce:surname": "Simsky",
+            "@auid": "13410778900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/13410778900",
+            "ce:indexed-name": "Simsky A."
+        }
+    ]}
+}}

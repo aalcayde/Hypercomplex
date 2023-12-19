@@ -1,0 +1,1626 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "30",
+                "@timestamp": "2020-08-30T01:32:11.000011-04:00",
+                "@year": "2020",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "04"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Chongqing Education Commission of China",
+                    "xocs:funding-id": "KJQN201801212"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Natural Science Foundation Project of CQ CSTC",
+                    "xocs:funding-agency": "Natural Science Foundation Project of Chongqing, Chongqing Science and Technology Commission",
+                    "xocs:funding-id": [
+                        {"$": "cstc2018jcyjAX0038"},
+                        {"$": "cstc2018jcyjAX0812"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012669",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-13T13:59:07.031337Z",
+            "xocs:funding-text": [
+                {"$": "In this paper, the research was sponsored by Natural Science Foundation Project of CQ CSTC (Grant No. cstc2018jcyjAX0812, cstc2018jcyjAX0038), Supported by Youth project of science and technology research program of Chongqing Education Commission of China (No. KJQN201801212)."},
+                {"$": "ACKNOWLEDGMENT In this paper, the research was sponsored by Natural Science Foundation Project of CQ CSTC (Grant No. cstc2018jcyjAX0812, cstc2018jcyjAX0038), Supported by Youth project of science and technology research program of Chongqing Education Commission of China (No. KJQN201801212)."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "@afid": "60083518",
+                        "@country": "chn",
+                        "city": "Chongqing, Wanzhou",
+                        "organization": [
+                            {"$": "School of Electronic Information Engineering"},
+                            {"$": "Chongqing Three Gorges University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60083518",
+                            "@dptid": "113168072"
+                        },
+                        "ce:source-text": "School of Electronic information Engineering Chongqing Three Gorges University, Chongqing, Wanzhou, China",
+                        "@dptid": "113168072"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Guoping",
+                            "preferred-name": {
+                                "ce:given-name": "Guoping",
+                                "ce:initials": "G.",
+                                "ce:surname": "Lei",
+                                "ce:indexed-name": "Lei G."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "G.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Lei",
+                            "@auid": "56187057800",
+                            "ce:indexed-name": "Lei G."
+                        },
+                        {
+                            "ce:given-name": "Xiuying",
+                            "preferred-name": {
+                                "ce:given-name": "Xiuying",
+                                "ce:initials": "X.",
+                                "ce:surname": "Luo",
+                                "ce:indexed-name": "Luo X."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "X.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Luo",
+                            "@auid": "57214152967",
+                            "ce:indexed-name": "Luo X."
+                        },
+                        {
+                            "ce:given-name": "Zhiyuan",
+                            "preferred-name": {
+                                "ce:given-name": "Zhiyuan",
+                                "ce:initials": "Z.",
+                                "ce:surname": "Liu",
+                                "ce:indexed-name": "Liu Z."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "Z.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Liu",
+                            "@auid": "57217072476",
+                            "ce:indexed-name": "Liu Z."
+                        },
+                        {
+                            "ce:given-name": "Minlu",
+                            "preferred-name": {
+                                "ce:given-name": "Minlu",
+                                "ce:initials": "M.",
+                                "ce:surname": "Dai",
+                                "ce:indexed-name": "Dai M."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Dai",
+                            "@auid": "36663497100",
+                            "ce:indexed-name": "Dai M."
+                        }
+                    ]
+                },
+                "citation-title": "Implementation of least squares algorithm based on dynamic threshold in beidou satellite positioning",
+                "abstracts": "© 2020 IEEE.At present, China's Beidou Navigation Satellite System (BDS) has been successfully applied in all walks of life, entering a period of rapid development. The least squares algorithm is often used to solve problems in the application of BDS, while the quaternary nonlinear equation set is used for solving the positioning and timing issues. The application of least square algorithm in the PVT solution of Beidou satellite navigation is to solve a set of quaternion nonlinear equations. The solution of the least squares is an iterative process, but if the convergence threshold is too small in the iterative process, it may lead to iteration without convergence. In order to improve the failure of convergence caused by too small convergence threshold in the original algorithm, a least squares algorithm based on dynamic threshold was proposed in this paper. The proposed algorithm could continue iteration until convergence by increasing the system's dynamic threshold. At the same time, the proposed algorithm could also change the satellite combination in time, so as to conduct the positioning and calculation again over the threshold value that increases to a fixed value but fails to converge. And the simulation results show that if the threshold is set too small, it can converge well. As a result, the algorithm not only effectively prevents the program failure in Beidou satellite positioning caused by the convergence failure of algorithm iteration, but also greatly improves the stability and reliability of the system program operation.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Convergence",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Dynamic threshold",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Eidou satellite",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Least squares algorithm",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Positioning algorithm",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9110529",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of 2020 Asia-Pacific Conference on Image Processing, Electronics and Computers, IPEC 2020",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "438",
+                        "@last": "444"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728160665",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2020 Asia-Pacific Conference on Image Processing, Electronics and Computers, IPEC 2020",
+                            "confcatnumber": "CFP20W68-USB",
+                            "confseriestitle": "Asia-Pacific Conference on Image Processing, Electronics and Computers",
+                            "conflocation": {
+                                "@country": "chn",
+                                "city": "Dalian"
+                            },
+                            "confcode": "161115",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "16",
+                                    "@year": "2020",
+                                    "@month": "04"
+                                },
+                                "startdate": {
+                                    "@day": "14",
+                                    "@year": "2020",
+                                    "@month": "04"
+                                }
+                            },
+                            "confURL": "http://www.ipec2020.org/"
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of 2020 Asia-Pacific Conference on Image Processing, Electronics and Computers, IPEC 2020",
+                    "publicationdate": {
+                        "month": "04",
+                        "year": "2020",
+                        "date-text": "April 2020",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "Proc. Asia-Pacific Conf. Image Process., Electron. Comput., IPEC",
+                    "@country": "usa",
+                    "issuetitle": "Proceedings of 2020 Asia-Pacific Conference on Image Processing, Electronics and Computers, IPEC 2020",
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9115173",
+                    "@srcid": "21101020129"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2606"},
+                            {"$": "3105"},
+                            {"$": "1702"},
+                            {"$": "1705"},
+                            {"$": "1706"},
+                            {"$": "1711"},
+                            {"$": "1802"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "655.2",
+                                "classification-description": "Satellites"
+                            },
+                            {
+                                "classification-code": "716.3",
+                                "classification-description": "Radio Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "DECI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "In this paper, the research was sponsored by Natural Science Foundation Project of CQ CSTC (Grant No. cstc2018jcyjAX0812, cstc2018jcyjAX0038), Supported by Youth project of science and technology research program of Chongqing Education Commission of China (No. KJQN201801212).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "29",
+                    "@timestamp": "BST 07:04:36",
+                    "@year": "2020",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "632684180",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "928044643",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20203509108524",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20203074873",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85089837986",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85089837986",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/IPEC49694.2020.9115173"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "19",
+                "reference": [
+                    {
+                        "ref-fulltext": "J. S. Tang, X. Y. Hou, and L. Liu, \"Long-term evolution of the inclined geosynchronous orbit in Beidou Navigation Satellite System, \" Advances in Space Research, vol. 59, no. 3, pp. 762-774, 2017.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Long-term evolution of the inclined geosynchronous orbit in beidou navigation satellite system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85003554303",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "762",
+                                    "@last": "774"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang J.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hou",
+                                    "ce:indexed-name": "Hou X.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Space Research"
+                        },
+                        "ce:source-text": "J. S. Tang, X. Y. Hou, and L. Liu, \"Long-term evolution of the inclined geosynchronous orbit in Beidou Navigation Satellite System, \" Advances in Space Research, vol. 59, no. 3, pp. 762-774, 2017."
+                    },
+                    {
+                        "ref-fulltext": "W. P. Jiang, R. J. Xi, H. Hua, Y. G. Xiao, \"Accuracy analysis of continuous deformation monitoring using BeiDou Navigation Satellite System at middle and high latitudes in China, \" Advances in Space Research, vol. 59, no. 3, pp. 843-857, 2017.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Accuracy analysis of continuous deformation monitoring using beidou navigation satellite system at middle and high latitudes in China"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85007504671",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "843",
+                                    "@last": "857"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang W.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xi",
+                                    "ce:indexed-name": "Xi R.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hua",
+                                    "ce:indexed-name": "Hua H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao Y.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Space Research"
+                        },
+                        "ce:source-text": "W. P. Jiang, R. J. Xi, H. Hua, Y. G. Xiao, \"Accuracy analysis of continuous deformation monitoring using BeiDou Navigation Satellite System at middle and high latitudes in China, \" Advances in Space Research, vol. 59, no. 3, pp. 843-857, 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. G. Jin, X. D. Qian, X. Wu, \"Sea level change from BeiDou Navigation Satellite System-Reflectometry (BDS-R): First results and evaluation, \" Global and Planetary Change, no. 149, pp. 20-25, 2017.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Sea level change from beidou navigation satellite system-reflectometry (bds-r): First results and evaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85007572101",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "149"},
+                                "pagerange": {
+                                    "@first": "20",
+                                    "@last": "25"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin S.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian X.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Global and Planetary Change"
+                        },
+                        "ce:source-text": "S. G. Jin, X. D. Qian, X. Wu, \"Sea level change from BeiDou Navigation Satellite System-Reflectometry (BDS-R): First results and evaluation, \" Global and Planetary Change, no. 149, pp. 20-25, 2017."
+                    },
+                    {
+                        "ref-fulltext": "H. Z. Zhu, C. H. Li, C. Y. Wang, K. Zhang, M. Gao, \"The real time rapid integer ambiguity resolution between reference stations of GPS Network RTK, \" Science of Surveying and Mapping, vol. 43, no. 11, pp. 1-7, 2018.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "The real time rapid integer ambiguity resolution between reference stations of GPS network rtk"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85086027960",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "7"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu H.Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C.Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science of Surveying and Mapping"
+                        },
+                        "ce:source-text": "H. Z. Zhu, C. H. Li, C. Y. Wang, K. Zhang, M. Gao, \"The real time rapid integer ambiguity resolution between reference stations of GPS Network RTK, \" Science of Surveying and Mapping, vol. 43, no. 11, pp. 1-7, 2018."
+                    },
+                    {
+                        "ref-fulltext": "X. Liu, S. B. Zhang, Q. Z. Zhang, W. Yang, \"An extended ADOP for performance evaluation of single-frequency single-epoch positioning by BDS/GPS in Asia-Pacific Region, \" Sensors, vol. 17, no. 10, pp. 2254 (1-30), 2017.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "An extended adop for performance evaluation of single-frequency single-epoch positioning by bds/GPS in Asia-pacific region"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030670684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "225411",
+                                    "@last": "225430"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang S.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Q.Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "X. Liu, S. B. Zhang, Q. Z. Zhang, W. Yang, \"An extended ADOP for performance evaluation of single-frequency single-epoch positioning by BDS/GPS in Asia-Pacific Region, \" Sensors, vol. 17, no. 10, pp. 2254 (1-30), 2017."
+                    },
+                    {
+                        "ref-fulltext": "H. L. Yuan, T. Jin, Q. Yang, and Y. F. Ji, \"A separation method for navigation satellites multipath signals using relative curve bias, \" Journal of Xi'an Jiaotong University, vol. 51, no. 2, pp. 65-71, 2017.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A separation method for navigation satellites multipath signals using relative curve bias"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019845573",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "51",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "65",
+                                    "@last": "71"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan H.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji Y.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of xi'An Jiaotong University"
+                        },
+                        "ce:source-text": "H. L. Yuan, T. Jin, Q. Yang, and Y. F. Ji, \"A separation method for navigation satellites multipath signals using relative curve bias, \" Journal of Xi'an Jiaotong University, vol. 51, no. 2, pp. 65-71, 2017."
+                    },
+                    {
+                        "ref-fulltext": "X. X. Li, X. Li, Y. Q. Yuan, K. K. Zhang, X. H. Zhang, \"Multi-GNSS phase delay estimation and PPP ambiguity resolution: GPS, BDS, GLONASS, Galileo, \" Journal of Geodesy, vol. 92, no. 6, pp. 579-608, 2018.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Multi-gnss phase delay estimation and ppp ambiguity resolution: GPS, bds, glonass, galileo"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85032684746",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "92",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "579",
+                                    "@last": "608"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X.X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan Y.Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang K.K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Geodesy"
+                        },
+                        "ce:source-text": "X. X. Li, X. Li, Y. Q. Yuan, K. K. Zhang, X. H. Zhang, \"Multi-GNSS phase delay estimation and PPP ambiguity resolution: GPS, BDS, GLONASS, Galileo, \" Journal of Geodesy, vol. 92, no. 6, pp. 579-608, 2018."
+                    },
+                    {
+                        "ref-fulltext": "W. Wang, H. J. Guo, Y. Meng, \"Satellite/Pseudolite/INS integrated navigation algorithm, \" Systems Engineering and Electronics, vol. 39, no. 2, pp. 391-397, 2017.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Satellite/pseudolite/ins integrated navigation algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018262152",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "391",
+                                    "@last": "397"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo H.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Systems Engineering and Electronics"
+                        },
+                        "ce:source-text": "W. Wang, H. J. Guo, Y. Meng, \"Satellite/Pseudolite/INS integrated navigation algorithm, \" Systems Engineering and Electronics, vol. 39, no. 2, pp. 391-397, 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. Liu, G. R. Zhao, C. Gao, B. Zeng, \"A fast satellite selection algorithm for GPS/BD Integrated navigation system, \" Electro Optical&Control, vol. 24, no. 3, pp. 32-35, 2017.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A fast satellite selection algorithm for GPS/bd integrated navigation system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046896123",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "32",
+                                    "@last": "35"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao G.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zeng",
+                                    "ce:indexed-name": "Zeng B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electro Optical&Control"
+                        },
+                        "ce:source-text": "S. Liu, G. R. Zhao, C. Gao, B. Zeng, \"A fast satellite selection algorithm for GPS/BD Integrated navigation system, \" Electro Optical&Control, vol. 24, no. 3, pp. 32-35, 2017."
+                    },
+                    {
+                        "ref-fulltext": "T. B. Qiang, C. C. Hu, Q. Wang, L. Y. Yang, \"Wind power generator foundation settlement monitoring based on high?precision positioning of BDS, \" Modern Electronic Technique, vol. 40, no. 23, pp. 182-186, 2017.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Wind power generator foundation settlement monitoring based on high?Precision positioning of bds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056269030",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "23"
+                                },
+                                "pagerange": {
+                                    "@first": "182",
+                                    "@last": "186"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiang",
+                                    "ce:indexed-name": "Qiang T.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang L.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Modern Electronic Technique"
+                        },
+                        "ce:source-text": "T. B. Qiang, C. C. Hu, Q. Wang, L. Y. Yang, \"Wind power generator foundation settlement monitoring based on high?precision positioning of BDS, \" Modern Electronic Technique, vol. 40, no. 23, pp. 182-186, 2017."
+                    },
+                    {
+                        "ref-fulltext": "C. H. Li, C. L. Cai, Y. G. Liang, L. B. Xu, \"A high-Precision weighting least squares algorithm for BDS pseudo-range single point positioning, \" Science of Surveying and Mapping, vol. 40, no. 9, pp. 33-38, 2015.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A high-precision weighting least squares algorithm for bds pseudo-range single point positioning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019211258",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "33",
+                                    "@last": "38"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai C.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liang",
+                                    "ce:indexed-name": "Liang Y.G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu L.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science of Surveying and Mapping"
+                        },
+                        "ce:source-text": "C. H. Li, C. L. Cai, Y. G. Liang, L. B. Xu, \"A high-Precision weighting least squares algorithm for BDS pseudo-range single point positioning, \" Science of Surveying and Mapping, vol. 40, no. 9, pp. 33-38, 2015."
+                    },
+                    {
+                        "ref-fulltext": "X. Xie, T. Geng, Q. L. Zhao, J. N. Liu, B. Wang, \"Performance of BDS-3: Measurement Quality Analysis, Precise Orbit and Clock Determination, \" Sensors, vol. 17, no. 6, pp. 1233 (1-14), 2017.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Performance of bds-3: Measurement quality analysis, precise orbit and clock determination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019981000",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "14"
+                                }
+                            },
+                            "ref-text": "1233",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geng",
+                                    "ce:indexed-name": "Geng T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Q.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J.N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "X. Xie, T. Geng, Q. L. Zhao, J. N. Liu, B. Wang, \"Performance of BDS-3: Measurement Quality Analysis, Precise Orbit and Clock Determination, \" Sensors, vol. 17, no. 6, pp. 1233 (1-14), 2017."
+                    },
+                    {
+                        "ref-fulltext": "W. J. Dai, Q. Shi and C. S. Cai, \"Characteristics of the BDS Carrier Phase Multipath and Its Mitigation Methods in Relative Positioning, \" Sensors, vol. 17, no. 4, pp. 796 (1-15), 2017.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Characteristics of the bds carrier phase multipath and its mitigation methods in relative positioning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017295344",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "7961",
+                                    "@last": "8015"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai W.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai C.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "W. J. Dai, Q. Shi and C. S. Cai, \"Characteristics of the BDS Carrier Phase Multipath and Its Mitigation Methods in Relative Positioning, \" Sensors, vol. 17, no. 4, pp. 796 (1-15), 2017."
+                    },
+                    {
+                        "ref-fulltext": "H. F. Chen, S. P. Zhang, L. D. Sun, Y. Y. Liu, C. Wei, \"Design of highprecision and high-reliability satellite antonymous time calibration system based on GPS, \" Modern Electronic Technique, vol. 41, no. 15, pp. 105-107, 113, 2018.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Design of highprecision and high-reliability satellite antonymous time calibration system based on GPS"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85086030164",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "41",
+                                    "@issue": "15"
+                                },
+                                "pagerange": {
+                                    "@first": "105",
+                                    "@last": "107"
+                                }
+                            },
+                            "ref-text": "113",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen H.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang S.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun L.D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y.Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Modern Electronic Technique"
+                        },
+                        "ce:source-text": "H. F. Chen, S. P. Zhang, L. D. Sun, Y. Y. Liu, C. Wei, \"Design of highprecision and high-reliability satellite antonymous time calibration system based on GPS, \" Modern Electronic Technique, vol. 41, no. 15, pp. 105-107, 113, 2018."
+                    },
+                    {
+                        "ref-fulltext": "W. Li, Y. B. Yuan, J. K. Ou, Y. J. Cai, Z. S. Li, Y. Liou, et al., \"New versions of the BDS/GNSS zenith tropospheric delay model IGGtrop, \" Journal of Geodesy, vol. 89, no. 1, pp. 73-80, 2015.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "New versions of the bds/gnss zenith tropospheric delay model iggtrop"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84934284718",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "89",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "73",
+                                    "@last": "80"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "W.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li W."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "Y.B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Yuan",
+                                        "ce:indexed-name": "Yuan Y.B."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "J.K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ou",
+                                        "ce:indexed-name": "Ou J.K."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "Y.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Cai",
+                                        "ce:indexed-name": "Cai Y.J."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "Z.S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li Z.S."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "Y.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Liou",
+                                        "ce:indexed-name": "Liou Y."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Journal of Geodesy"
+                        },
+                        "ce:source-text": "W. Li, Y. B. Yuan, J. K. Ou, Y. J. Cai, Z. S. Li, Y. Liou, et al., \"New versions of the BDS/GNSS zenith tropospheric delay model IGGtrop, \" Journal of Geodesy, vol. 89, no. 1, pp. 73-80, 2015."
+                    },
+                    {
+                        "ref-fulltext": "M. Wang, H. Z. Chai, and Y. Li, \"Performance analysis of BDS/GPS precise point positioning with undifferenced ambiguity resolution, \" Advances in Space Research, vol. 60, no. 12, pp. 2581-2595, 2017.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Performance analysis of bds/GPS precise point positioning with undifferenced ambiguity resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85013057094",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "60",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2581",
+                                    "@last": "2595"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chai",
+                                    "ce:indexed-name": "Chai H.Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Space Research"
+                        },
+                        "ce:source-text": "M. Wang, H. Z. Chai, and Y. Li, \"Performance analysis of BDS/GPS precise point positioning with undifferenced ambiguity resolution, \" Advances in Space Research, vol. 60, no. 12, pp. 2581-2595, 2017."
+                    },
+                    {
+                        "ref-fulltext": "T. Geng, X. Xie, Q. L. Zhao, X. L. Liu, J. N. Liu, \"Improving BDS integer ambiguity resolution using satellite-induced code bias correction for precise orbit determination, \" GPS Solutions, vol. 21, no. 3, pp. 1191-1201, 2017.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Improving bds integer ambiguity resolution using satellite-induced code bias correction for precise orbit determination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85011591470",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1191",
+                                    "@last": "1201"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geng",
+                                    "ce:indexed-name": "Geng T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Q.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X.L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "GPS Solutions"
+                        },
+                        "ce:source-text": "T. Geng, X. Xie, Q. L. Zhao, X. L. Liu, J. N. Liu, \"Improving BDS integer ambiguity resolution using satellite-induced code bias correction for precise orbit determination, \" GPS Solutions, vol. 21, no. 3, pp. 1191-1201, 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. G. Jin, \"Preface: BeiDou Navigation Satellite System (BDS)/GNSS+: Recent progress and new applications, \" Advances in Space Research, vol. 59, no. 3, pp. 751-752, 2017.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Preface: Beidou navigation satellite system (bds)/gnss+: Recent progress and new applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046573289",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "751",
+                                    "@last": "752"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Jin",
+                                "ce:indexed-name": "Jin S.G."
+                            }]},
+                            "ref-sourcetitle": "Advances in Space Research"
+                        },
+                        "ce:source-text": "S. G. Jin, \"Preface: BeiDou Navigation Satellite System (BDS)/GNSS+: Recent progress and new applications, \" Advances in Space Research, vol. 59, no. 3, pp. 751-752, 2017."
+                    },
+                    {
+                        "ref-fulltext": "W. K. Liu, X. Y. Jin, M. K. Wu, J. Hu, Y. Wu, \"A New Real-Time Cycle Slip Detection and Repair Method under High Ionospheric Activity for a Triple-Frequency GPS/BDS Receiver, \" Sensors, vol. 18, no. 2, pp. 427 (1-21), 2018.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A new real-time cycle slip detection and repair method under high ionospheric activity for a triple-frequency GPS/bds receiver"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041537584",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "427"}
+                            },
+                            "ref-text": "1-21",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin X.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu M.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "W. K. Liu, X. Y. Jin, M. K. Wu, J. Hu, Y. Wu, \"A New Real-Time Cycle Slip Detection and Repair Method under High Ionospheric Activity for a Triple-Frequency GPS/BDS Receiver, \" Sensors, vol. 18, no. 2, pp. 427 (1-21), 2018."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Chongqing",
+        "@id": "60083518",
+        "affilname": "Chongqing Three Gorges University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083518",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85089837986",
+        "dc:description": "At present, China's Beidou Navigation Satellite System (BDS) has been successfully applied in all walks of life, entering a period of rapid development. The least squares algorithm is often used to solve problems in the application of BDS, while the quaternary nonlinear equation set is used for solving the positioning and timing issues. The application of least square algorithm in the PVT solution of Beidou satellite navigation is to solve a set of quaternion nonlinear equations. The solution of the least squares is an iterative process, but if the convergence threshold is too small in the iterative process, it may lead to iteration without convergence. In order to improve the failure of convergence caused by too small convergence threshold in the original algorithm, a least squares algorithm based on dynamic threshold was proposed in this paper. The proposed algorithm could continue iteration until convergence by increasing the system's dynamic threshold. At the same time, the proposed algorithm could also change the satellite combination in time, so as to conduct the positioning and calculation again over the threshold value that increases to a fixed value but fails to converge. And the simulation results show that if the threshold is set too small, it can converge well. As a result, the algorithm not only effectively prevents the program failure in Beidou satellite positioning caused by the convergence failure of algorithm iteration, but also greatly improves the stability and reliability of the system program operation.",
+        "prism:coverDate": "2020-04-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85089837986",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Guoping",
+            "preferred-name": {
+                "ce:given-name": "Guoping",
+                "ce:initials": "G.",
+                "ce:surname": "Lei",
+                "ce:indexed-name": "Lei G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083518",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083518"
+            },
+            "ce:surname": "Lei",
+            "@auid": "56187057800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56187057800",
+            "ce:indexed-name": "Lei G."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85089837986"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089837986&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85089837986&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728160665",
+        "source-id": "21101020129",
+        "citedby-count": "0",
+        "subtype": "cp",
+        "dc:title": "Implementation of least squares algorithm based on dynamic threshold in beidou satellite positioning",
+        "openaccess": "0",
+        "publishercopyright": "© 2020 IEEE.",
+        "article-number": "9115173",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Proceedings of 2020 Asia-Pacific Conference on Image Processing, Electronics and Computers, IPEC 2020",
+        "prism:pageRange": "438-444",
+        "prism:endingPage": "444",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/IPEC49694.2020.9115173",
+        "prism:startingPage": "438",
+        "dc:identifier": "SCOPUS_ID:85089837986",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Beidou navigation satellite systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Beidou satellite navigation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Iterative process",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Least square algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Least squares algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Original algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Program operation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stability and reliabilities",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Convergence"
+        },
+        {
+            "@_fa": "true",
+            "$": "Dynamic threshold"
+        },
+        {
+            "@_fa": "true",
+            "$": "Eidou satellite"
+        },
+        {
+            "@_fa": "true",
+            "$": "Least squares algorithm"
+        },
+        {
+            "@_fa": "true",
+            "$": "Positioning algorithm"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Networks and Communications",
+            "@code": "1705",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems and Management",
+            "@code": "1802",
+            "@abbrev": "DECI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Guoping",
+            "preferred-name": {
+                "ce:given-name": "Guoping",
+                "ce:initials": "G.",
+                "ce:surname": "Lei",
+                "ce:indexed-name": "Lei G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083518",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083518"
+            },
+            "ce:surname": "Lei",
+            "@auid": "56187057800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56187057800",
+            "ce:indexed-name": "Lei G."
+        },
+        {
+            "ce:given-name": "Xiuying",
+            "preferred-name": {
+                "ce:given-name": "Xiuying",
+                "ce:initials": "X.",
+                "ce:surname": "Luo",
+                "ce:indexed-name": "Luo X."
+            },
+            "@seq": "2",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083518",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083518"
+            },
+            "ce:surname": "Luo",
+            "@auid": "57214152967",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57214152967",
+            "ce:indexed-name": "Luo X."
+        },
+        {
+            "ce:given-name": "Zhiyuan",
+            "preferred-name": {
+                "ce:given-name": "Zhiyuan",
+                "ce:initials": "Z.",
+                "ce:surname": "Liu",
+                "ce:indexed-name": "Liu Z."
+            },
+            "@seq": "3",
+            "ce:initials": "Z.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083518",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083518"
+            },
+            "ce:surname": "Liu",
+            "@auid": "57217072476",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57217072476",
+            "ce:indexed-name": "Liu Z."
+        },
+        {
+            "ce:given-name": "Minlu",
+            "preferred-name": {
+                "ce:given-name": "Minlu",
+                "ce:initials": "M.",
+                "ce:surname": "Dai",
+                "ce:indexed-name": "Dai M."
+            },
+            "@seq": "4",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083518",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083518"
+            },
+            "ce:surname": "Dai",
+            "@auid": "36663497100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36663497100",
+            "ce:indexed-name": "Dai M."
+        }
+    ]}
+}}

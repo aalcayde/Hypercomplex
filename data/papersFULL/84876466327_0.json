@@ -1,0 +1,1251 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "06",
+                "@timestamp": "2020-03-06T12:58:40.000040-05:00",
+                "@year": "2020",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2012",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Hong Kong",
+                            "@afid": "60002798",
+                            "@country": "hkg",
+                            "organization": {"$": "Chinese University of Hong Kong (CUHK)"},
+                            "affiliation-id": {"@afid": "60002798"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Shengli",
+                                "preferred-name": {
+                                    "ce:given-name": "Shengli",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou S."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhou",
+                                "@auid": "55193647200",
+                                "ce:indexed-name": "Zhou S."
+                            },
+                            {
+                                "ce:given-name": "Ronald",
+                                "preferred-name": {
+                                    "ce:given-name": "Ronald",
+                                    "ce:initials": "R.",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung R."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Chung",
+                                "@auid": "7202439610",
+                                "ce:indexed-name": "Chung R."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Hong Kong",
+                            "@afid": "60013983",
+                            "@country": "hkg",
+                            "organization": {"$": "City University of Hong Kong (CityU)."},
+                            "affiliation-id": {"@afid": "60013983"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Guanglie",
+                                "preferred-name": {
+                                    "ce:given-name": "Guanglie",
+                                    "ce:initials": "G.",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang G."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "@auid": "8987548300",
+                                "ce:indexed-name": "Zhang G."
+                            },
+                            {
+                                "ce:given-name": "Wen J.",
+                                "preferred-name": {
+                                    "ce:given-name": "Wen J.",
+                                    "ce:initials": "W.J.",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W.J."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "W.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Li",
+                                "@auid": "27172170000",
+                                "ce:indexed-name": "Li W.J."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Hong Kong",
+                            "@afid": "60002798",
+                            "@country": "hkg",
+                            "organization": {"$": "CUHK"},
+                            "affiliation-id": {"@afid": "60002798"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Wen J.",
+                            "preferred-name": {
+                                "ce:given-name": "Wen J.",
+                                "ce:initials": "W.J.",
+                                "ce:surname": "Li",
+                                "ce:indexed-name": "Li W.J."
+                            },
+                            "@seq": "5",
+                            "ce:initials": "W.J.",
+                            "@_fa": "true",
+                            "ce:surname": "Li",
+                            "@auid": "27172170000",
+                            "ce:indexed-name": "Li W.J."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Hong Kong",
+                            "@afid": "60103941",
+                            "@country": "hkg",
+                            "organization": {"$": "Hong Kong Applied Science and Technology Research Institute"},
+                            "affiliation-id": {"@afid": "60103941"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Jay Y. J.",
+                            "preferred-name": {
+                                "ce:given-name": "Jay Y.J.",
+                                "ce:initials": "J.Y.J.",
+                                "ce:surname": "Liou",
+                                "ce:indexed-name": "Liou J.Y.J."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "J.Y.J.",
+                            "@_fa": "true",
+                            "ce:surname": "Liou",
+                            "@auid": "35100382400",
+                            "ce:indexed-name": "Liou J.Y.J."
+                        }]
+                    }
+                ],
+                "citation-title": "Real-time hand-writing tracking and recognition by integrated micro motion and vision sensors platform",
+                "abstracts": "A real-time 2D gesture tracking and recognition system based on micro motion and vision sensors fusion is presented in this paper. The 100 Hz inertial data from MEMS sensors and 5 Hz visual data from a CMOS camera (a small webcam) are fused by using extended Kalman filter (EKF). To synchronize data from the two sensing components (i.e., inertial sensor and vision sensor) and filter out high frequency noise, the inertial data are processed by passing it through a moving average filter in the data preprocessing stage. Moreover, features of a checkerboard image are extracted by using the Harris corner extraction algorithm, and the pose the webcam relative to the world coordinate could be thus estimated by using direct linear transform (DLT). In order to avoid the gimbal lock problem, rotation quaternion is preferred to represent the orientation of the overall system. For trajectory feature extraction, the obtained trajectories are first normalized to a 0.5×0.5 area through a linear normalization, and then the features are extracted by using a linear Discrete Cosine Transform (DCT). The extracted data are subsequently sent to a dynamic time warping (DTW) algorithm for recognition. The experimental results show that 92.3% accuracy can be achieved for recognizing hand written numbers from 0 to 9, where ∼100ms is required for recognition if hand writing speed is ∼137 mm/s. © 2012 IEEE.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Hong Kong",
+                        "@country": "hkg",
+                        "organization": {"$": "Chinese University of Hong Kong (CUHK)"}
+                    },
+                    "person": {
+                        "ce:initials": "S.",
+                        "ce:surname": "Zhou",
+                        "ce:indexed-name": "Zhou S."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Int. Conf. Rob. Biomimetics, ROBIO - Conf. Dig.",
+                    "@country": "usa",
+                    "issuetitle": "2012 IEEE International Conference on Robotics and Biomimetics, ROBIO 2012 - Conference Digest",
+                    "volisspag": {"pagerange": {
+                        "@first": "1747",
+                        "@last": "1752"
+                    }},
+                    "@type": "p",
+                    "publicationyear": {"@first": "2012"},
+                    "isbn": {
+                        "$": "9781467321273",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpagerange": "var.pagings"},
+                        "confevent": {
+                            "confname": "2012 IEEE International Conference on Robotics and Biomimetics, ROBIO 2012",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "IEEE Robotics and Automation Society (RAS)"},
+                                    {"$": "South China University of Technology (SCUT)"},
+                                    {"$": "National Natural Science Foundation of China (NSFC)"},
+                                    {"$": "State Key Laboratory of Robotics and System, HIT"},
+                                    {"$": "IEEE Systems, Man, and Cybernetics Society (SMC)"}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confcatnumber": "CFP12581-ART",
+                            "conflocation": {
+                                "city-group": "Guangzhou",
+                                "@country": "chn"
+                            },
+                            "confcode": "96620",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "14",
+                                    "@year": "2012",
+                                    "@month": "12"
+                                },
+                                "startdate": {
+                                    "@day": "11",
+                                    "@year": "2012",
+                                    "@month": "12"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "2012 IEEE International Conference on Robotics and Biomimetics, ROBIO 2012 - Conference Digest",
+                    "article-number": "6491220",
+                    "@srcid": "21100238403",
+                    "publicationdate": {
+                        "year": "2012",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2012"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1702"},
+                            {"$": "1305"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "801.2",
+                                "classification-description": "Biochemistry"
+                            },
+                            {
+                                "classification-code": "801",
+                                "classification-description": "Chemistry"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            },
+                            {
+                                "classification-code": "921.3",
+                                "classification-description": "Mathematical Transformations"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "716",
+                                "classification-description": "Electronic Equipment, Radar, Radio and Television"
+                            },
+                            {
+                                "classification-code": "714.2",
+                                "classification-description": "Semiconductor Devices and Integrated Circuits"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {"classification-code": "Related Topics"}
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "BIOC"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2013 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "26",
+                    "@year": "2013",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "368771867",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20131716244059",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84876466327",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84876466327",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ROBIO.2012.6491220"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "18",
+                "reference": [
+                    {
+                        "ref-fulltext": "J. L. Weston, and D. H. Titterton, \"Modern Inertial Navigation Technology and Its Application,\" Electronics & Communication Engineering Journal, pp. 49-64, 2000.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Modern inertial navigation technology and its application"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033742401",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "49",
+                                "@last": "64"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weston",
+                                    "ce:indexed-name": "Weston J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Titterton",
+                                    "ce:indexed-name": "Titterton D.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electronics & Communication Engineering Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. I. B. Randeniya, S. Sarkar, and M. Gunaratne, \"Vision-IMU Integration Using a Slow-Frame-Rate Monocular Vision System in an Actual Roadway Setting,\" IEEE Trans. on Intelligent Transportation Systems, vol. 11, no. 2, pp. 256-266, 2010.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Vision-IMU integration using a slow-frame-rate monocular vision system in an actual roadway setting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953123811",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "256",
+                                    "@last": "266"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.I.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Randeniya",
+                                    "ce:indexed-name": "Randeniya D.I.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarkar",
+                                    "ce:indexed-name": "Sarkar S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gunaratne",
+                                    "ce:indexed-name": "Gunaratne M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. on Intelligent Transportation Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Frank, \"Positioning Refinement Algorithm,\" U.S. Patent 6,292,751 B1, 2001.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Positioning refinement algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876487579",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Frank",
+                                "ce:indexed-name": "Frank M."
+                            }]},
+                            "ref-sourcetitle": "U.S Patent 6 292,751 B1"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Allen, G. Bishop, and G. Welch, Tracking: Beyond 15 Minutes of Thought, Los Angleles, CA: ACM, Inc., 2001.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33750098875",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Los Angleles, CA: ACM, Inc.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Allen",
+                                    "ce:indexed-name": "Allen B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bishop",
+                                    "ce:indexed-name": "Bishop G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welch",
+                                    "ce:indexed-name": "Welch G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Tracking: Beyond 15 Minutes of Thought"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Welch and G. Bishop, An Introduction to the Kalman Filter, CA: ACM, Inc, 2001.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955750805",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "CA: ACM, Inc",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welch",
+                                    "ce:indexed-name": "Welch G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bishop",
+                                    "ce:indexed-name": "Bishop G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "An Introduction to the Kalman Filter"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. A. Corrales, F. A. Candelas, and F. Torres, \"Kalman Filtering for Sensor Fusion in a Human Tracking System,\" croatia: intech, 2010.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84876478404",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "croatia: intech",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Corrales",
+                                    "ce:indexed-name": "Corrales J.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Candelas",
+                                    "ce:indexed-name": "Candelas F.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torres",
+                                    "ce:indexed-name": "Torres F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Kalman Filtering for Sensor Fusion in A Human Tracking System"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. J. Julier, and J. K. Uhlmann, \"A New Extension of the Kalman Filter to Nonlinear Systems,\" in the 11th Int. Symp. on Aerospace/Defense Sensing, Simulation and Controls, 1997.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "A new extension of the kalman filter to nonlinear systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003195240",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Julier",
+                                    "ce:indexed-name": "Julier S.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uhlmann",
+                                    "ce:indexed-name": "Uhlmann J.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The 11th Int. Symp. on Aerospace/Defense Sensing, Simulation and Controls"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Armesto, J. Tornero, and M. Vincze, \"On Multi-rate Fusion for Non-linear Sampled-data Systems: Application to a 6D Tracking System,\" Robotics and Autonomous Systems, vol. 56, no. 8, pp. 706-715, 2007.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "On multi-rate fusion for non-linear sampled-data systems: Application to a 6D tracking system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "47349095700",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "706",
+                                    "@last": "715"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Armesto",
+                                    "ce:indexed-name": "Armesto L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tornero",
+                                    "ce:indexed-name": "Tornero J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vincze",
+                                    "ce:indexed-name": "Vincze M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics and Autonomous Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Armesto, and J. Tornero, \"Fast Ego-motion Estimation with Multi-Rate Fusion of Inertial and Vision,\" The Int. Journal of Robotics Research, vol. 26, no. 6, pp. 577-589, 2007.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Fast ego-motion estimation with multi-rate fusion of inertial and vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34347342969",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "577",
+                                    "@last": "589"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Armesto",
+                                    "ce:indexed-name": "Armesto L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tornero",
+                                    "ce:indexed-name": "Tornero J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Int. Journal of Robotics Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Mitra, and T. Acharya, \"Gesture Recognition: A Survey,\" IEEE Transactions on Systems, Man, and Cybernetics-Part C: Applications and Reviews, vol. 37, no. 3, pp. 311-324, 2007.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Gesture recognition: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34247194893",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "311",
+                                    "@last": "324"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mitra",
+                                    "ce:indexed-name": "Mitra S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Acharya",
+                                    "ce:indexed-name": "Acharya T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Systems, Man, and Cybernetics-Part C: Applications and Reviews"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Heikkila, and O. Silven, \"A Four-step Camera Calibration Procedure with Implicit Image Correction,\" in Proc. of IEEE Computer Society Conference on Computer Vision and Pattern Recognition, pp. 1106-1112, 1999.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "A four-step camera calibration procedure with implicit image correction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030719753",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1106",
+                                "@last": "1112"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Heikkila",
+                                    "ce:indexed-name": "Heikkila J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Silven",
+                                    "ce:indexed-name": "Silven O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Lobo and J. Dias, \"Relative Pose Calibration between Visual and Inertial Sensors,\" The Int. Journal of Robotics Research, vol. 26, no. 6, pp. 561-575, 2007.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Relative pose calibration between visual and inertial sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34347337557",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "561",
+                                    "@last": "575"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lobo",
+                                    "ce:indexed-name": "Lobo J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dias",
+                                    "ce:indexed-name": "Dias J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Int. Journal of Robotics Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. L. Marins, X. Yun, E. R. Bachmann, R. B. McGhee, and M. J. Zyda, \"An Extended Kalman Filter for Quaternion-Based Orientation Estimation Using MARG Sensors,\" in Proc. of IEEE/RSJ Int. Conf. on Intelligent Robots and Systems, pp. 2003-2011, 2001.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "An extended kalman filter for quaternion-based orientation estimation using MARG sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035558199",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2003",
+                                "@last": "2011"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marins",
+                                    "ce:indexed-name": "Marins J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yun",
+                                    "ce:indexed-name": "Yun X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bachmann",
+                                    "ce:indexed-name": "Bachmann E.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McGhee",
+                                    "ce:indexed-name": "McGhee R.B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zyda",
+                                    "ce:indexed-name": "Zyda M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of IEEE/RSJ Int. Conf. on Intelligent Robots and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Berthold K. P. Horn, \"Closed-form Solution of Absolute Orientation Using Unit Quaternions,\" Journal of Optical Society of America, vol. 4, pp. 629-642, 1987.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed-form solution of absolute orientation using unit quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berthold",
+                                    "ce:indexed-name": "Berthold K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Optical Society of America"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Salvador, and P. Chan, \"Fast DTW: Toward Accurate Dynamic Time Warping in Linear Time and Space,\" Journal of Intelligent Data Analysis, vol. 11, no. 5, pp. 561-580, 2007.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Fast DTW: Toward accurate dynamic time warping in linear time and space"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "41749090269",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "561",
+                                    "@last": "580"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salvador",
+                                    "ce:indexed-name": "Salvador S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chan",
+                                    "ce:indexed-name": "Chan P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Intelligent Data Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Senin, Dynamic Time Warping Algorithm Review. Technical Report, University of Hawaii at Manoa, 2008.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955398869",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Technical Report, University of Hawaii at Manoa",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Senin",
+                                "ce:indexed-name": "Senin P."
+                            }]},
+                            "ref-sourcetitle": "Dynamic Time Warping Algorithm Review"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. C. Tappert, C. Y. Suen, and T. Wakahara, \"The State of The Art in Online Handwriting Recognition,\" IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 12, no. 8, pp. 787-808, 1990.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "The state of the art in online handwriting recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025468480",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "787",
+                                    "@last": "808"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tappert",
+                                    "ce:indexed-name": "Tappert C.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suen",
+                                    "ce:indexed-name": "Suen C.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wakahara",
+                                    "ce:indexed-name": "Wakahara T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Kuzmanic and V. Zanchi, \"Hand Shape Classification Using DTW and Lcss as Similarity Measures for Vision-based Gesture Recognition System,\" in the Proc. of Int. Conf. on \"Computer as a Tool\", pp. 264-269, 2007.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Hand shape classification using DTW and lcss as similarity measures for vision-based gesture recognition system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "46149099126",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "264",
+                                "@last": "269"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuzmanic",
+                                    "ce:indexed-name": "Kuzmanic A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zanchi",
+                                    "ce:indexed-name": "Zanchi V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Proc. of Int. Conf. on \"computer As A Tool\""
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Hong Kong",
+            "@id": "60002798",
+            "affilname": "Chinese University of Hong Kong",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798",
+            "affiliation-country": "Hong Kong"
+        },
+        {
+            "affiliation-city": "Hong Kong",
+            "@id": "60103941",
+            "affilname": "Hong Kong Applied Science and Technology Research Institute",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103941",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Hong Kong",
+            "@id": "60013983",
+            "affilname": "City University of Hong Kong",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013983",
+            "affiliation-country": "Hong Kong"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84876466327",
+        "dc:description": "A real-time 2D gesture tracking and recognition system based on micro motion and vision sensors fusion is presented in this paper. The 100 Hz inertial data from MEMS sensors and 5 Hz visual data from a CMOS camera (a small webcam) are fused by using extended Kalman filter (EKF). To synchronize data from the two sensing components (i.e., inertial sensor and vision sensor) and filter out high frequency noise, the inertial data are processed by passing it through a moving average filter in the data preprocessing stage. Moreover, features of a checkerboard image are extracted by using the Harris corner extraction algorithm, and the pose the webcam relative to the world coordinate could be thus estimated by using direct linear transform (DLT). In order to avoid the gimbal lock problem, rotation quaternion is preferred to represent the orientation of the overall system. For trajectory feature extraction, the obtained trajectories are first normalized to a 0.5×0.5 area through a linear normalization, and then the features are extracted by using a linear Discrete Cosine Transform (DCT). The extracted data are subsequently sent to a dynamic time warping (DTW) algorithm for recognition. The experimental results show that 92.3% accuracy can be achieved for recognizing hand written numbers from 0 to 9, where ∼100ms is required for recognition if hand writing speed is ∼137 mm/s. © 2012 IEEE.",
+        "prism:coverDate": "2012-12-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84876466327",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Shengli",
+            "preferred-name": {
+                "ce:given-name": "Shengli",
+                "ce:initials": "S.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Zhou",
+            "@auid": "55193647200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55193647200",
+            "ce:indexed-name": "Zhou S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84876466327"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84876466327&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84876466327&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781467321273",
+        "prism:publicationName": "2012 IEEE International Conference on Robotics and Biomimetics, ROBIO 2012 - Conference Digest",
+        "source-id": "21100238403",
+        "citedby-count": "3",
+        "subtype": "cp",
+        "prism:pageRange": "1747-1752",
+        "dc:title": "Real-time hand-writing tracking and recognition by integrated micro motion and vision sensors platform",
+        "prism:endingPage": "1752",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/ROBIO.2012.6491220",
+        "prism:startingPage": "1747",
+        "article-number": "6491220",
+        "dc:identifier": "SCOPUS_ID:84876466327"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Data preprocessing",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Discrete Cosine Transform(DCT)",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Dynamic time warping algorithms",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "High-frequency noise",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Moving average filter",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Recognition systems",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sensing components",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Trajectory features",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biotechnology",
+            "@code": "1305",
+            "@abbrev": "BIOC"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Shengli",
+            "preferred-name": {
+                "ce:given-name": "Shengli",
+                "ce:initials": "S.",
+                "ce:surname": "Zhou",
+                "ce:indexed-name": "Zhou S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Zhou",
+            "@auid": "55193647200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55193647200",
+            "ce:indexed-name": "Zhou S."
+        },
+        {
+            "ce:given-name": "Guanglie",
+            "preferred-name": {
+                "ce:given-name": "Guanglie",
+                "ce:initials": "G.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang G."
+            },
+            "@seq": "2",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60013983",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013983"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "8987548300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8987548300",
+            "ce:indexed-name": "Zhang G."
+        },
+        {
+            "ce:given-name": "Ronald",
+            "preferred-name": {
+                "ce:given-name": "Ronald",
+                "ce:initials": "R.",
+                "ce:surname": "Chung",
+                "ce:indexed-name": "Chung R."
+            },
+            "@seq": "3",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Chung",
+            "@auid": "7202439610",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7202439610",
+            "ce:indexed-name": "Chung R."
+        },
+        {
+            "ce:given-name": "Jay Y. J.",
+            "preferred-name": {
+                "ce:given-name": "Jay Y.J.",
+                "ce:initials": "J.Y.J.",
+                "ce:surname": "Liou",
+                "ce:indexed-name": "Liou J.Y.J."
+            },
+            "@seq": "4",
+            "ce:initials": "J.Y.J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60103941",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103941"
+            },
+            "ce:surname": "Liou",
+            "@auid": "35100382400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35100382400",
+            "ce:indexed-name": "Liou J.Y.J."
+        },
+        {
+            "ce:given-name": "Wen J.",
+            "preferred-name": {
+                "ce:given-name": "Wen J.",
+                "ce:initials": "W.J.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li W.J."
+            },
+            "@seq": "5",
+            "ce:initials": "W.J.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60013983",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60013983"
+                },
+                {
+                    "@id": "60002798",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+                }
+            ],
+            "ce:surname": "Li",
+            "@auid": "27172170000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/27172170000",
+            "ce:indexed-name": "Li W.J."
+        }
+    ]}
+}}

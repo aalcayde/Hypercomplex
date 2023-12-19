@@ -1,0 +1,1405 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "30",
+                "@timestamp": "2021-09-30T18:43:14.000014-04:00",
+                "@year": "2021",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2014",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "@afid": "60025084",
+                        "@country": "chn",
+                        "city": "Shanghai",
+                        "organization": {"$": "Institute of Image Communication and Network Engineering, Shanghai Jiao Tong University"},
+                        "affiliation-id": {
+                            "@afid": "60025084",
+                            "@dptid": "104268167"
+                        },
+                        "@dptid": "104268167"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Ting",
+                            "preferred-name": {
+                                "ce:given-name": "Ting",
+                                "ce:initials": "T.",
+                                "ce:surname": "Li",
+                                "ce:indexed-name": "Li T."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Li",
+                            "@auid": "55567464300",
+                            "ce:indexed-name": "Li T."
+                        },
+                        {
+                            "ce:given-name": "Yi",
+                            "preferred-name": {
+                                "ce:given-name": "Yi",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Xu",
+                                "ce:indexed-name": "Xu Y."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Xu",
+                            "@auid": "55695017800",
+                            "ce:indexed-name": "Xu Y."
+                        },
+                        {
+                            "ce:given-name": "Chongyang",
+                            "preferred-name": {
+                                "ce:given-name": "Chongyang",
+                                "ce:initials": "C.",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang C."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zhang",
+                            "@auid": "8397907500",
+                            "ce:indexed-name": "Zhang C."
+                        }
+                    ]
+                },
+                "citation-title": "Learning to predict where human gaze is using quaternion DCT based regional saliency detection",
+                "abstracts": "© 2014 SPIE.Many current visual attention approaches used semantic features to accurately capture human gaze. However, these approaches demand high computational cost and can hardly be applied to daily use. Recently, some quaternion-based saliency detection models, such as PQFT (phase spectrum of Quaternion Fourier Transform), QDCT (Quaternion Discrete Cosine Transform), have been proposed to meet real-time requirement of human gaze tracking tasks. However, current saliency detection methods used global PQFT and QDCT to locate jump edges of the input, which can hardly detect the object boundaries accurately. To address the problem, we improved QDCT-based saliency detection model by introducing superpixel-wised regional saliency detection mechanism. The local smoothness of saliency value distribution is emphasized to distinguish noises of background from salient regions. Our algorithm called saliency confidence can distinguish the patches belonging to the salient object and those of the background. It decides whether the image patches belong to the same region. When an image patch belongs to a region consisting of other salient patches, this patch should be salient as well. Therefore, we use saliency confidence map to get background weight and foreground weight to do the optimization on saliency map obtained by QDCT. The optimization is accomplished by least square method. The optimization approach we proposed unifies local and global saliency by combination of QDCT and measuring the similarity between each image superpixel. We evaluate our model on four commonly-used datasets (Toronto, MIT, OSIE and ASD) using standard precision-recall curves (PR curves), the mean absolute error (MAE) and area under curve (AUC) measures. In comparison with most state-of-art models, our approach can achieve higher consistency with human perception without training. It can get accurate human gaze even in cluttered background. Furthermore, it achieves better compromise between speed and accuracy.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Optimization model",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternion transform",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Saliency detection",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Superpixels",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "volumetitle": "Applications of Digital Image Processing XXXVII",
+                    "website": {"ce:e-address": {
+                        "$": "http://spie.org/x1848.xml",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of SPIE - The International Society for Optical Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "9217"}},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781628412444",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "Applications of Digital Image Processing XXXVII",
+                            "confsponsors": {
+                                "confsponsor": "The Society of Photo-Optical Instrumentation Engineers (SPIE)",
+                                "@complete": "n"
+                            },
+                            "confnumber": "37",
+                            "confseriestitle": "Applications of Digital Image Processing",
+                            "conflocation": {
+                                "@country": "usa",
+                                "city": "San Diego",
+                                "state": "CA"
+                            },
+                            "confcode": "110636",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "21",
+                                    "@year": "2014",
+                                    "@month": "08"
+                                },
+                                "startdate": {
+                                    "@day": "18",
+                                    "@year": "2014",
+                                    "@month": "08"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of SPIE - The International Society for Optical Engineering",
+                    "contributor-group": {"contributor": {
+                        "ce:given-name": "Andrew G.",
+                        "@seq": "1",
+                        "ce:initials": "A.G.",
+                        "ce:surname": "Tescher",
+                        "@role": "edit",
+                        "ce:indexed-name": "Tescher A.G."
+                    }},
+                    "publicationdate": {
+                        "year": "2014",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2014"
+                        }
+                    },
+                    "codencode": "PSISD",
+                    "sourcetitle-abbrev": "Proc SPIE Int Soc Opt Eng",
+                    "@country": "usa",
+                    "issn": [
+                        {
+                            "$": "1996756X",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "0277786X",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2014"},
+                    "publisher": {
+                        "publishername": "SPIE",
+                        "ce:e-address": {
+                            "$": "spie@spie.org",
+                            "@type": "email"
+                        }
+                    },
+                    "article-number": "92171K",
+                    "@srcid": "40067"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "741",
+                                "classification-description": "Light, Optics and Optical Devices"
+                            },
+                            {
+                                "classification-code": "903.2",
+                                "classification-description": "Information Dissemination"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "971",
+                                "classification-description": "Social Sciences"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3104"},
+                            {"$": "1706"},
+                            {"$": "2604"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2015 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "18",
+                    "@year": "2015",
+                    "@month": "02"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "602241619",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "632661997",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20150700531016",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84922725707",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84922725707",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.2063974"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "19",
+                "reference": [
+                    {
+                        "ref-fulltext": "Guo, C., Ma, Q., and Zhang, L., \"Spatio-temporal saliency detection using phase spectrum of quaternion fourier transform, \" Computer Vision and Pattern Recognition, IEEE Conference on, 1-8(2008).",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Spatio-temporal saliency detection using phase spectrum of quaternion fourier transform"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51949107445",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition, IEEE Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guo, C., Zhang, L., \"A novel multiresolution spatiotemporal saliency detection model and its applications in image and video compression, \" Image Processing, IEEE Transactions on, 19(1): 185-198(2010).",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A novel multiresolution spatiotemporal saliency detection model and its applications in image and video compression"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72949100573",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "185",
+                                    "@last": "198"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image Processing, IEEE Transactions on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Schauerte, B., and Stiefelhagen, R., \"Predicting human gaze using quaternion dct image signature saliency and face detection, \" Applications of Computer Vision (WACV), 2012 IEEE Workshop on. IEEE, 137-144(2012).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Predicting human gaze using quaternion dct image signature saliency and face detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84860679156",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "137",
+                                "@last": "144"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schauerte",
+                                    "ce:indexed-name": "Schauerte B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stiefelhagen",
+                                    "ce:indexed-name": "Stiefelhagen R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applications of Computer Vision (WACV), 2012 IEEE Workshop on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Schauerte, B., and Stiefelhagen, R., \"Quaternion-based spectral saliency detection for eye fixation prediction, \" Computer Vision-ECCV 2012. Springer Berlin Heidelberg, 116-129(2012).",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Quaternion-based spectral saliency detection for eye fixation prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867891493",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "116",
+                                "@last": "129"
+                            }},
+                            "ref-text": "Springer Berlin Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schauerte",
+                                    "ce:indexed-name": "Schauerte B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stiefelhagen",
+                                    "ce:indexed-name": "Stiefelhagen R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision-ECCV 2012"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bruce N., Tsotsos J., \"Attention based on information maximization, \" Journal of Vision 7.9, 950-950(2007).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Attention based on information maximization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51849100654",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "950",
+                                    "@last": "950"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruce",
+                                    "ce:indexed-name": "Bruce N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsotsos",
+                                    "ce:indexed-name": "Tsotsos J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Judd, T., Ehinger, K., Durand, F., & Torralba, A., \"Learning to predict where humans look, \" Computer Vision, 2009 IEEE 12th international conference on 2106-2113. IEEE(2009).",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Learning to predict where humans look"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953205576",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2106",
+                                "@last": "2113"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Judd",
+                                    "ce:indexed-name": "Judd T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ehinger",
+                                    "ce:indexed-name": "Ehinger K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durand",
+                                    "ce:indexed-name": "Durand F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torralba",
+                                    "ce:indexed-name": "Torralba A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision, 2009 IEEE 12th International Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xu, J., Jiang, M., Wang, S., Kankanhalli, M. S., and Zhao, Q., \"Predicting human gaze beyond pixels, \" Journal of vision 14.1: 28(2014).",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Predicting human gaze beyond pixels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893634313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "28"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kankanhalli",
+                                    "ce:indexed-name": "Kankanhalli M.S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Achanta R., Hemami S., Estrada F. & Susstrunk S, \"Frequency-tuned salient region detection, \" Computer Vision and Pattern Recognition, 2009. CVPR 2009. IEEE Conference on. IEEE, 1597-1604(2009).",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Frequency-tuned salient region detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70450186191",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1597",
+                                "@last": "1604"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Achanta",
+                                    "ce:indexed-name": "Achanta R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hemami",
+                                    "ce:indexed-name": "Hemami S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Estrada",
+                                    "ce:indexed-name": "Estrada F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Susstrunk",
+                                    "ce:indexed-name": "Susstrunk S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition, 2009, CVPR 2009, IEEE Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Itti, L., Christof K., and Ernst N., \"A model of saliency-based visual attention for rapid scene analysis.\" IEEE Transactions on pattern analysis and machine intelligence 20(11), 1254-1259 (1998).",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "A model of saliency-based visual attention for rapid scene analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032204063",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1254",
+                                    "@last": "1259"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Christof",
+                                    "ce:indexed-name": "Christof K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ernst",
+                                    "ce:indexed-name": "Ernst N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Itti",
+                                    "ce:indexed-name": "Itti L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liu, T., Yuan, Z., Sun, J., Wang, J., Zheng, N., Tang, X., and Shum, H. Y., \"Learning to detect a salient object, \" Pattern Analysis and Machine Intelligence, IEEE Transactions on 33(2), 353-367(2011).",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Learning to detect a salient object"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78650512633",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "353",
+                                    "@last": "367"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "H.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shum",
+                                    "ce:indexed-name": "Shum H.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Analysis and Machine Intelligence, IEEE Transactions on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Liu, T., Sun, J., Zheng, N., Tang, X., & Shum, H. Y, \"Learning to detect a salient object, \" Computer Vision and Pattern Recognition. IEEE Conference on 383074, 1-8(2007).",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Learning to detect a salient object"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34948869862",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-text": "383074",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shum",
+                                    "ce:indexed-name": "Shum H.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition, IEEE Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hou, X., and Liqing, Z., \"Saliency detection: A spectral residual approach, \" Computer Vision and Pattern Recognition, 2007. IEEE Conference on. IEEE: 1-8(2007).",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Saliency detection: A spectral residual approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35148814949",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "8"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hou",
+                                    "ce:indexed-name": "Hou X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liqing",
+                                    "ce:indexed-name": "Liqing Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition, 2007, IEEE Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bian, P., Zhang, L., \"Biological plausibility of spectral domain approach for spatiotemporal visual saliency, \" Advances in Neuro-Information Processing. Springer Berlin Heidelberg, 251-258(2009).",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Biological plausibility of spectral domain approach for spatiotemporal visual saliency"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70349153467",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "251",
+                                "@last": "258"
+                            }},
+                            "ref-text": "Springer Berlin Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bian",
+                                    "ce:indexed-name": "Bian P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Neuro-Information Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wangjiang Z., Shuang L., Yichen W., and Jian S. \"Saliency Optimization from Robust Background Detection, \" Computer Vision and Pattern Recognition, 2014.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Saliency optimization from robust background detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911390996",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wangjiang",
+                                    "ce:indexed-name": "Wangjiang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shuang",
+                                    "ce:indexed-name": "Shuang L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yichen",
+                                    "ce:indexed-name": "Yichen W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jian",
+                                    "ce:indexed-name": "Jian S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Achanta R., Shaji A., Smith K., Lucchi A., Fua P., and Susstrunk S., \"Slic superpixels compared to state-of-theart superpixel methods, \" Pattern Analysis and Machine Intelligence, IEEE Transactions on, 34(11), 2274- 2282(2012).",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Slic superpixels compared to state-of-theart superpixel methods"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866657764",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2274",
+                                    "@last": "2282"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Achanta",
+                                    "ce:indexed-name": "Achanta R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shaji",
+                                    "ce:indexed-name": "Shaji A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smith",
+                                    "ce:indexed-name": "Smith K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lucchi",
+                                    "ce:indexed-name": "Lucchi A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fua",
+                                    "ce:indexed-name": "Fua P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Susstrunk",
+                                    "ce:indexed-name": "Susstrunk S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Analysis and Machine Intelligence, IEEE Transactions on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Perazzi F., Krahenbuhl P., Pritch Y., and Hornung A., \"Saliency filters: Contrast based filtering for salient region detection.\" Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on. IEEE, 733- 740(2012).",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Saliency filters: Contrast based filtering for salient region detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866667038",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "733",
+                                "@last": "740"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perazzi",
+                                    "ce:indexed-name": "Perazzi F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krahenbuhl",
+                                    "ce:indexed-name": "Krahenbuhl P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pritch",
+                                    "ce:indexed-name": "Pritch Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hornung",
+                                    "ce:indexed-name": "Hornung A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wei, Y., Wen, F., Zhu, W., and Sun, J., \"Geodesic saliency using background priors.\" Computer Vision-ECCV 2012. Springer Berlin Heidelberg, 29-42(2012).",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Geodesic saliency using background priors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867849070",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "29",
+                                "@last": "42"
+                            }},
+                            "ref-text": "Springer Berlin Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision-ECCV 2012"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yang, C., Zhang, L., Lu, H., Ruan, X., and Yang, M. H., \"Saliency detection via graph-based manifold ranking, \" Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on. IEEE, 3166- 3173(2013).",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Saliency detection via graph-based manifold ranking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887357058",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3166",
+                                "@last": "3173"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruan",
+                                    "ce:indexed-name": "Ruan X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Johnson, D. B., \"Efficient algorithms for shortest paths in sparse networks.\" Journal of the ACM (JACM), 24(1), 1-13(1977).",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1977"},
+                            "ref-title": {"ref-titletext": "Efficient algorithms for shortest paths in sparse networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84976789814",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "13"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.B.",
+                                "@_fa": "true",
+                                "ce:surname": "Johnson",
+                                "ce:indexed-name": "Johnson D.B."
+                            }]},
+                            "ref-sourcetitle": "Journal of the ACM (JACM)"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Shanghai",
+        "@id": "60025084",
+        "affilname": "Shanghai Jiao Tong University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84922725707",
+        "dc:description": "Many current visual attention approaches used semantic features to accurately capture human gaze. However, these approaches demand high computational cost and can hardly be applied to daily use. Recently, some quaternion-based saliency detection models, such as PQFT (phase spectrum of Quaternion Fourier Transform), QDCT (Quaternion Discrete Cosine Transform), have been proposed to meet real-time requirement of human gaze tracking tasks. However, current saliency detection methods used global PQFT and QDCT to locate jump edges of the input, which can hardly detect the object boundaries accurately. To address the problem, we improved QDCT-based saliency detection model by introducing superpixel-wised regional saliency detection mechanism. The local smoothness of saliency value distribution is emphasized to distinguish noises of background from salient regions. Our algorithm called saliency confidence can distinguish the patches belonging to the salient object and those of the background. It decides whether the image patches belong to the same region. When an image patch belongs to a region consisting of other salient patches, this patch should be salient as well. Therefore, we use saliency confidence map to get background weight and foreground weight to do the optimization on saliency map obtained by QDCT. The optimization is accomplished by least square method. The optimization approach we proposed unifies local and global saliency by combination of QDCT and measuring the similarity between each image superpixel. We evaluate our model on four commonly-used datasets (Toronto, MIT, OSIE and ASD) using standard precision-recall curves (PR curves), the mean absolute error (MAE) and area under curve (AUC) measures. In comparison with most state-of-art models, our approach can achieve higher consistency with human perception without training. It can get accurate human gaze even in cluttered background. Furthermore, it achieves better compromise between speed and accuracy.",
+        "prism:coverDate": "2014-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84922725707",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Ting",
+            "preferred-name": {
+                "ce:given-name": "Ting",
+                "ce:initials": "T.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Li",
+            "@auid": "55567464300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55567464300",
+            "ce:indexed-name": "Li T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84922725707"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84922725707&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84922725707&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781628412444",
+        "prism:publicationName": "Proceedings of SPIE - The International Society for Optical Engineering",
+        "source-id": "40067",
+        "citedby-count": "0",
+        "prism:volume": "9217",
+        "subtype": "cp",
+        "dc:title": "Learning to predict where human gaze is using quaternion DCT based regional saliency detection",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1117/12.2063974",
+        "prism:issn": "1996756X 0277786X",
+        "publishercopyright": "© 2014 SPIE.",
+        "article-number": "92171K",
+        "dc:identifier": "SCOPUS_ID:84922725707",
+        "dc:publisher": "SPIEspie@spie.org"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Cluttered backgrounds",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Least square methods",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimization approach",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimization modeling",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion Fourier transforms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real time requirement",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Saliency detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Superpixels",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Optimization model"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion transform"
+        },
+        {
+            "@_fa": "true",
+            "$": "Saliency detection"
+        },
+        {
+            "@_fa": "true",
+            "$": "Superpixels"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Ting",
+            "preferred-name": {
+                "ce:given-name": "Ting",
+                "ce:initials": "T.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Li",
+            "@auid": "55567464300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55567464300",
+            "ce:indexed-name": "Li T."
+        },
+        {
+            "ce:given-name": "Yi",
+            "preferred-name": {
+                "ce:given-name": "Yi",
+                "ce:initials": "Y.",
+                "ce:surname": "Xu",
+                "ce:indexed-name": "Xu Y."
+            },
+            "@seq": "2",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Xu",
+            "@auid": "55695017800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55695017800",
+            "ce:indexed-name": "Xu Y."
+        },
+        {
+            "ce:given-name": "Chongyang",
+            "preferred-name": {
+                "ce:given-name": "Chongyang",
+                "ce:initials": "C.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang C."
+            },
+            "@seq": "3",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60025084",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60025084"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "8397907500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8397907500",
+            "ce:indexed-name": "Zhang C."
+        }
+    ]}
+}}

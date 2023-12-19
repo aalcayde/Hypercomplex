@@ -1,0 +1,2047 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "23",
+                "@timestamp": "2023-08-23T19:28:14.000014-04:00",
+                "@year": "2023",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "08"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "postal-code": "99354",
+                            "@afid": "60023471",
+                            "@country": "usa",
+                            "city": "Richland",
+                            "organization": {"$": "Pacific Northwest National Laboratory"},
+                            "affiliation-id": {"@afid": "60023471"},
+                            "state": "WA",
+                            "@affiliation-instance-id": "OB2BibRecID-948312314-1107d11b42a9a687c321f11db9f7b7cd-1",
+                            "ce:source-text": "Pacific Northwest National Laboratory, Richland, WA, USA, 99354"
+                        },
+                        "author": [{
+                            "ce:given-name": "Wenceslao Shaw",
+                            "preferred-name": {
+                                "ce:given-name": "Wenceslao Shaw",
+                                "ce:initials": "W.S.",
+                                "ce:surname": "Cortez",
+                                "ce:indexed-name": "Cortez W.S."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948312314-6a2d3376610da128110c0a31d378dafe-1",
+                            "@seq": "1",
+                            "ce:initials": "W.S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Cortez",
+                            "@auid": "55848824000",
+                            "@orcid": "0000-0002-1809-5656",
+                            "ce:indexed-name": "Cortez W.S."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Sweden",
+                            "postal-code": "752 36",
+                            "@afid": "60003858",
+                            "@country": "swe",
+                            "city": "Uppsala",
+                            "organization": [
+                                {"$": "Uppsala University"},
+                                {"$": "Division of Signals and Systems"},
+                                {"$": "Department of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60003858",
+                                "@dptid": "116877849"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-948312314-906bd312d84b5d314699b947f3fe6385-1",
+                            "ce:source-text": "Uppsala University, Division of Signals and Systems, Department of Electrical Engineering, Uppsala, Sweden, 752 36",
+                            "@dptid": "116877849"
+                        },
+                        "author": [{
+                            "ce:given-name": "Christos K.",
+                            "preferred-name": {
+                                "ce:given-name": "Christos K.",
+                                "ce:initials": "C.K.",
+                                "ce:surname": "Verginis",
+                                "ce:indexed-name": "Verginis C.K."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948312314-676b085fd8b364d620c3d05d5fb6acfb-1",
+                            "@seq": "2",
+                            "ce:initials": "C.K.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Verginis",
+                            "@auid": "56043456900",
+                            "@orcid": "0000-0002-4289-2866",
+                            "ce:indexed-name": "Verginis C.K."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Sweden",
+                            "postal-code": "114 28",
+                            "@afid": "60002014",
+                            "@country": "swe",
+                            "city": "Stockholm",
+                            "organization": [
+                                {"$": "KTH Royal Institute of Technology"},
+                                {"$": "School of Electrical Engineering"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60002014",
+                                "@dptid": "112811563"
+                            },
+                            "@affiliation-instance-id": "OB2BibRecID-948312314-48ecc7488a2f5831cff8107791374e6e-1",
+                            "ce:source-text": "KTH Royal Institute of Technology, School of Electrical Engineering, Stockholm, Sweden, 114 28",
+                            "@dptid": "112811563"
+                        },
+                        "author": [{
+                            "ce:given-name": "Dimos V.",
+                            "preferred-name": {
+                                "ce:given-name": "Dimos V.",
+                                "ce:initials": "D.V.",
+                                "ce:surname": "Dimarogonas",
+                                "ce:indexed-name": "Dimarogonas D.V."
+                            },
+                            "@author-instance-id": "OB2BibRecID-948312314-2cea292c3cbd8f463b2fe9789612e5fa-1",
+                            "@seq": "3",
+                            "ce:initials": "D.V.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Dimarogonas",
+                            "@auid": "6506281602",
+                            "@orcid": "0000-0001-7309-8086",
+                            "ce:indexed-name": "Dimarogonas D.V."
+                        }]
+                    }
+                ],
+                "citation-title": "A Distributed, Event-Triggered, Adaptive Controller for Cooperative Manipulation with Rolling Contacts",
+                "abstracts": "© 2004-2012 IEEE.We present a distributed, event-triggered, and adaptive control algorithm for cooperative object manipulation with rolling contacts and unknown dynamic parameters. Whereas conventional cooperative manipulation methods require rigid contact points, our approach exploits rolling effects of passive end-effectors and does not require force/torque sensing. The removal of rigidity allows for more modular grasping, increased application to more object types, and online adjustment of the grasp. The proposed control algorithm exhibits the following properties: 1) it is distributed, in the sense that the robotic agents calculate their own control signal, under an event-triggered communication scheme. Such a scheme reduces the interagent communication requirements with respect to continuous communication schemes; 2) it uses an online adaptation mechanism to accommodate for unknown dynamic parameters of the object and the agents and 3) it adapts existing internal force controllers to guarantee no slip throughout the manipulation task despite the event-triggered nature of the communication scheme. Hardware implementation validates the effectiveness of the proposed approach.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "postal-code": "99354",
+                        "@country": "usa",
+                        "city": "Richland",
+                        "organization": {"$": "Pacific Northwest National Laboratory"},
+                        "state": "WA",
+                        "@affiliation-instance-id": "OB2BibRecID-948312314-1107d11b42a9a687c321f11db9f7b7cd-1",
+                        "ce:source-text": "Pacific Northwest National Laboratory, Richland, WA, USA, 99354"
+                    },
+                    "person": {
+                        "ce:given-name": "Wenceslao Shaw",
+                        "@author-instance-id": "OB2BibRecID-948312314-9e4fe0cf97b65a6e9a233b54849b212c-1",
+                        "ce:initials": "W.S.",
+                        "ce:surname": "Cortez",
+                        "ce:indexed-name": "Cortez W.S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Adaptive control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "cooperative systems",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "decentralized control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "manipulators",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "multi-agent systems",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "multi-robot systems",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Trans. Rob.",
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Robotics",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "19410468",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "15523098",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "39",
+                            "@issue": "4"
+                        },
+                        "pagerange": {
+                            "@first": "3120",
+                            "@last": "3133"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "sourcetitle": "IEEE Transactions on Robotics",
+                    "@srcid": "95101",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 August 2023"
+                        },
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.1",
+                                "classification-description": "Computer Programming"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "731.5",
+                                "classification-description": "Robotics"
+                            },
+                            {
+                                "classification-code": "731.6",
+                                "classification-description": "Robot Applications"
+                            },
+                            {
+                                "classification-code": "732.1",
+                                "classification-description": "Control Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "1706"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported in part by the Swedish Research Council (VR), in part by the H2020 ERC Consolidator under Grant LEAFHOUND, in part byt the Knut and Alice Wallenberg Foundation (KAW), and in part by the H2020-EU Research and Innovation Programme under Grant 101016906 (CANOPIES).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@timestamp": "BST 11:48:00",
+                    "@year": "2023",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2024673256",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "948312314",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20232114132878",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231416310",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231886937",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20210017972321",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85159827727",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85159827727",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TRO.2023.3268595"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "33",
+                "reference": [
+                    {
+                        "ref-fulltext": "S. Erhart, D. Sieber, and S. Hirche, \"An impedance-based control architecture for multi-robot cooperative dual-arm mobile manipulation, \" in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., 2013, pp. 315-322.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-fe66684ea28da8f11a916fbd50978dd5-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "An impedance-based control architecture for multi-robot cooperative dual-arm mobile manipulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893748968",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "315",
+                                "@last": "322"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erhart",
+                                    "ce:indexed-name": "Erhart S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sieber",
+                                    "ce:indexed-name": "Sieber D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hirche",
+                                    "ce:indexed-name": "Hirche S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst."
+                        },
+                        "ce:source-text": "S. Erhart, D. Sieber, and S. Hirche, \"An impedance-based control architecture for multi-robot cooperative dual-arm mobile manipulation, \" in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., 2013, pp. 315-322."
+                    },
+                    {
+                        "ref-fulltext": "F. Ficuciello, A. Romano, L. Villani, and B. Siciliano, \"Cartesian impedance control of redundant manipulators for human-robot comanipulation, \" in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., 2014, pp. 2120-2125.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-8de6b54d124cbb8a9476e9bb39f0a0e3-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Cartesian impedance control of redundant manipulators for human-robot comanipulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911488159",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2120",
+                                "@last": "2125"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ficuciello",
+                                    "ce:indexed-name": "Ficuciello F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Romano",
+                                    "ce:indexed-name": "Romano A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Villani",
+                                    "ce:indexed-name": "Villani L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siciliano",
+                                    "ce:indexed-name": "Siciliano B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst."
+                        },
+                        "ce:source-text": "F. Ficuciello, A. Romano, L. Villani, and B. Siciliano, \"Cartesian impedance control of redundant manipulators for human-robot comanipulation, \" in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst., 2014, pp. 2120-2125."
+                    },
+                    {
+                        "ref-fulltext": "A.-N. Ponce-Hinestroza, J.-A. Castro-Castro, H.-I. Guerrero-Reyes, V. Parra-Vega, and E. Olguín-Díaz, \"Cooperative redundant omnidirectional mobile manipulators:Model-free decentralized integral slidingmodes and passive velocity fields, \" in Proc. IEEE Int. Conf. Robot. Automat., 2016, pp. 2375-2380.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-15d88527fd2b1c163ccdeb98c6b2cb2b-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Cooperative redundant omnidirectional mobile manipulators:Model-free decentralized integral slidingmodes and passive velocity fields"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84977500815",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2375",
+                                "@last": "2380"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.-N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ponce-Hinestroza",
+                                    "ce:indexed-name": "Ponce-Hinestroza A.-N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castro-Castro",
+                                    "ce:indexed-name": "Castro-Castro J.-A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.-I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guerrero-Reyes",
+                                    "ce:indexed-name": "Guerrero-Reyes H.-I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parra-Vega",
+                                    "ce:indexed-name": "Parra-Vega V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olguín-Díaz",
+                                    "ce:indexed-name": "Olguin-Diaz E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "A.-N. Ponce-Hinestroza, J.-A. Castro-Castro, H.-I. Guerrero-Reyes, V. Parra-Vega, and E. Olguín-Díaz, \"Cooperative redundant omnidirectional mobile manipulators:Model-free decentralized integral slidingmodes and passive velocity fields, \" in Proc. IEEE Int. Conf. Robot. Automat., 2016, pp. 2375-2380."
+                    },
+                    {
+                        "ref-fulltext": "Y.-H. Liu and S. Arimoto, \"Decentralized adaptive and nonadaptive position/force controllers for redundant manipulators in cooperations, \" Int. J. Robot. Res., vol. 17, no. 3, pp. 232-247, 1998.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-4db36a40cdd7fb57772a1783f70fbed4-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Decentralized adaptive and nonadaptive position/force controllers for redundant manipulators in cooperations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032025453",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "232",
+                                    "@last": "247"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y.-H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arimoto",
+                                    "ce:indexed-name": "Arimoto S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Robot. Res."
+                        },
+                        "ce:source-text": "Y.-H. Liu and S. Arimoto, \"Decentralized adaptive and nonadaptive position/force controllers for redundant manipulators in cooperations, \" Int. J. Robot. Res., vol. 17, no. 3, pp. 232-247, 1998."
+                    },
+                    {
+                        "ref-fulltext": "C. K. Verginis, M. Mastellaro, and D. V. Dimarogonas, \"Robust cooperative manipulation without force/torque measurements: Control design and experiments, \" IEEE Trans. Control Syst. Technol., vol. 28, no. 3, pp. 713-729, May 2020.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-247b1b567a824dea9d0ce84be8f597b9-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Robust cooperative manipulation without force/torque measurements: Control design and experiments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083355483",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "713",
+                                    "@last": "729"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verginis",
+                                    "ce:indexed-name": "Verginis C.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mastellaro",
+                                    "ce:indexed-name": "Mastellaro M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dimarogonas",
+                                    "ce:indexed-name": "Dimarogonas D.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Control Syst. Technol."
+                        },
+                        "ce:source-text": "C. K. Verginis, M. Mastellaro, and D. V. Dimarogonas, \"Robust cooperative manipulation without force/torque measurements: Control design and experiments, \" IEEE Trans. Control Syst. Technol., vol. 28, no. 3, pp. 713-729, May 2020."
+                    },
+                    {
+                        "ref-fulltext": "R. Ozawa and K. Tahara, \"Grasp and dexterous manipulation of multifingered robotic hands: A review from a control view point, \" Adv. Robot., vol. 31, no. 19-20, pp. 1030-1050, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-a85b64c762009461765ec96217b4e05d-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Grasp and dexterous manipulation of multifingered robotic hands: A review from a control view point"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028565642",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "19-20"
+                                },
+                                "pagerange": {
+                                    "@first": "1030",
+                                    "@last": "1050"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ozawa",
+                                    "ce:indexed-name": "Ozawa R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tahara",
+                                    "ce:indexed-name": "Tahara K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adv. Robot."
+                        },
+                        "ce:source-text": "R. Ozawa and K. Tahara, \"Grasp and dexterous manipulation of multifingered robotic hands: A review from a control view point, \" Adv. Robot., vol. 31, no. 19-20, pp. 1030-1050, 2017."
+                    },
+                    {
+                        "ref-fulltext": "J. Kerr and B. Roth, \"Analysis of multifingered hands, \" Int. J. Robot. Res., vol. 4, no. 4, pp. 3-17, 1986.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-0c67d00267f938796be98015a8aa623f-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Analysis of multifingered hands"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022905525",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "3",
+                                    "@last": "17"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kerr",
+                                    "ce:indexed-name": "Kerr J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Robot. Res."
+                        },
+                        "ce:source-text": "J. Kerr and B. Roth, \"Analysis of multifingered hands, \" Int. J. Robot. Res., vol. 4, no. 4, pp. 3-17, 1986."
+                    },
+                    {
+                        "ref-fulltext": "A. B. Cole, J. E. Hauser, and S. S. Sastry, \"Kinematics and control of multifingered hands with rolling contact, \" IEEE Trans. Autom. Control, vol. 34, no. 4, pp. 398-404, Apr. 1989.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-493026903d6a6237d07c99f023e670bc-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Kinematics and control of multifingered hands with rolling contact"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0024647463",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "398",
+                                    "@last": "404"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cole",
+                                    "ce:indexed-name": "Cole A.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hauser",
+                                    "ce:indexed-name": "Hauser J.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sastry",
+                                    "ce:indexed-name": "Sastry S.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Autom. Control"
+                        },
+                        "ce:source-text": "A. B. Cole, J. E. Hauser, and S. S. Sastry, \"Kinematics and control of multifingered hands with rolling contact, \" IEEE Trans. Autom. Control, vol. 34, no. 4, pp. 398-404, Apr. 1989."
+                    },
+                    {
+                        "ref-fulltext": "Y. Fan, L. Sun, M. Zheng, W. Gao, and M. Tomizuka, \"Robust dexterous manipulation under object dynamics uncertainties, \" in Proc. IEEE Int. Conf. Adv. Intell. Mechatron., 2017, pp. 613-619.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-ba1dedfec5c87ee1461bbf729b9af81f-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Robust dexterous manipulation under object dynamics uncertainties"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028762369",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "613",
+                                "@last": "619"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fan",
+                                    "ce:indexed-name": "Fan Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao W."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomizuka",
+                                    "ce:indexed-name": "Tomizuka M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Adv. Intell. Mechatron."
+                        },
+                        "ce:source-text": "Y. Fan, L. Sun, M. Zheng, W. Gao, and M. Tomizuka, \"Robust dexterous manipulation under object dynamics uncertainties, \" in Proc. IEEE Int. Conf. Adv. Intell. Mechatron., 2017, pp. 613-619."
+                    },
+                    {
+                        "ref-fulltext": "A. Caldas, A. Micaelli, M. Grossard, M. Makarov, P. Rodriguez-Ayerbe, and D. Dumur, \"Object-level impedance control for dexterous manipulation with contact uncertainties using an LMI-based approach, \" in Proc. IEEE Int. Conf. Robot. Automat., 2015, pp. 3668-3674.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-1d0b666fd22fa99097e678d60879ec33-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Object-level impedance control for dexterous manipulation with contact uncertainties using an LMI-based approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84938250422",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3668",
+                                "@last": "3674"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Caldas",
+                                    "ce:indexed-name": "Caldas A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Micaelli",
+                                    "ce:indexed-name": "Micaelli A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossard",
+                                    "ce:indexed-name": "Grossard M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Makarov",
+                                    "ce:indexed-name": "Makarov M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodriguez-Ayerbe",
+                                    "ce:indexed-name": "Rodriguez-Ayerbe P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dumur",
+                                    "ce:indexed-name": "Dumur D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "A. Caldas, A. Micaelli, M. Grossard, M. Makarov, P. Rodriguez-Ayerbe, and D. Dumur, \"Object-level impedance control for dexterous manipulation with contact uncertainties using an LMI-based approach, \" in Proc. IEEE Int. Conf. Robot. Automat., 2015, pp. 3668-3674."
+                    },
+                    {
+                        "ref-fulltext": "T.Wimböck, C. Ott, A. Albu-Schäffer, and G. Hirzinger, \"Comparison of object-level grasp controllers for dynamic dexterous manipulation, \" Int. J. Robot. Res., vol. 31, no. 1, pp. 3-23, 2012.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-707a6f78733c06678847a97f10d89d6a-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Comparison of object-level grasp controllers for dynamic dexterous manipulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84856497046",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "3",
+                                    "@last": "23"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wimböck",
+                                    "ce:indexed-name": "Wimbock T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ott",
+                                    "ce:indexed-name": "Ott C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Albu-Schäffer",
+                                    "ce:indexed-name": "Albu-Schaffer A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hirzinger",
+                                    "ce:indexed-name": "Hirzinger G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Robot. Res."
+                        },
+                        "ce:source-text": "T.Wimböck, C. Ott, A. Albu-Schäffer, and G. Hirzinger, \"Comparison of object-level grasp controllers for dynamic dexterous manipulation, \" Int. J. Robot. Res., vol. 31, no. 1, pp. 3-23, 2012."
+                    },
+                    {
+                        "ref-fulltext": "K. Tahara, S. Arimoto, and M. Yoshida, \"Dynamic object manipulation using a virtual frame by a triple soft-fingered robotic hand, \" in Proc. IEEE Int. Conf. Robot. Automat., 2010, pp. 4322-4327.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-dbf1e8733b7589b2990d5f21c722f5b1-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Dynamic object manipulation using a virtual frame by a triple soft-fingered robotic hand"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955828387",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4322",
+                                "@last": "4327"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tahara",
+                                    "ce:indexed-name": "Tahara K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arimoto",
+                                    "ce:indexed-name": "Arimoto S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yoshida",
+                                    "ce:indexed-name": "Yoshida M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "K. Tahara, S. Arimoto, and M. Yoshida, \"Dynamic object manipulation using a virtual frame by a triple soft-fingered robotic hand, \" in Proc. IEEE Int. Conf. Robot. Automat., 2010, pp. 4322-4327."
+                    },
+                    {
+                        "ref-fulltext": "A. Kawamura, K. Tahara, R. Kurazume, and T. Hasegawa, \"Dynamic grasping of an arbitrary polyhedral object, \" Robotica, vol. 31, no. 4, pp. 511-523, 2013.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-0d45f0869f6ffe8f89b58314be4670b5-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Dynamic grasping of an arbitrary polyhedral object"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84879090934",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "511",
+                                    "@last": "523"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawamura",
+                                    "ce:indexed-name": "Kawamura A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tahara",
+                                    "ce:indexed-name": "Tahara K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kurazume",
+                                    "ce:indexed-name": "Kurazume R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hasegawa",
+                                    "ce:indexed-name": "Hasegawa T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotica"
+                        },
+                        "ce:source-text": "A. Kawamura, K. Tahara, R. Kurazume, and T. Hasegawa, \"Dynamic grasping of an arbitrary polyhedral object, \" Robotica, vol. 31, no. 4, pp. 511-523, 2013."
+                    },
+                    {
+                        "ref-fulltext": "W. Shaw Cortez, D. Oetomo, C. Manzie, and P. Choong, \"Tactile-based blind grasping: Trajectory tracking and disturbance rejection for in-hand manipulation of unknown objects, \" in Proc. IEEE Amer. Control Conf., 2019, pp. 693-698.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-f0f5efbe987b31126d85e12997b1a6f4-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Tactile-based blind grasping: Trajectory tracking and disturbance rejection for in-hand manipulation of unknown objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85072297207",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "693",
+                                "@last": "698"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shaw Cortez",
+                                    "ce:indexed-name": "Shaw Cortez W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oetomo",
+                                    "ce:indexed-name": "Oetomo D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manzie",
+                                    "ce:indexed-name": "Manzie C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choong",
+                                    "ce:indexed-name": "Choong P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Amer. Control Conf."
+                        },
+                        "ce:source-text": "W. Shaw Cortez, D. Oetomo, C. Manzie, and P. Choong, \"Tactile-based blind grasping: Trajectory tracking and disturbance rejection for in-hand manipulation of unknown objects, \" in Proc. IEEE Amer. Control Conf., 2019, pp. 693-698."
+                    },
+                    {
+                        "ref-fulltext": "S. Ueki, H. Kawasaki, and T. Mouri, \"Adaptive control of multi-fingered robot hand using quaternion, \" in Proc. 17th IFAC World Congr., 2008, pp. 6757-6762.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-f939d32d32e0fcb881186c1cfa7e530d-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Adaptive control of multi-fingered robot hand using quaternion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79961020283",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "6757",
+                                "@last": "6762"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ueki",
+                                    "ce:indexed-name": "Ueki S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawasaki",
+                                    "ce:indexed-name": "Kawasaki H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mouri",
+                                    "ce:indexed-name": "Mouri T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 17th IFAC World Congr."
+                        },
+                        "ce:source-text": "S. Ueki, H. Kawasaki, and T. Mouri, \"Adaptive control of multi-fingered robot hand using quaternion, \" in Proc. 17th IFAC World Congr., 2008, pp. 6757-6762."
+                    },
+                    {
+                        "ref-fulltext": "S. Ueki, H. Kawasaki, T. Mouri, and A. Kaneshige, \"Object manipulation based on robust and adaptive control by hemispherical soft fingertips, \" in Proc. 18th IFAC World Congr., 2011, vol. 18, pp. 14654-14659.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-2cad62f49225bedaf297b7bf970adfb6-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Object manipulation based on robust and adaptive control by hemispherical soft fingertips"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84866759745",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "14654",
+                                    "@last": "14659"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ueki",
+                                    "ce:indexed-name": "Ueki S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawasaki",
+                                    "ce:indexed-name": "Kawasaki H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mouri",
+                                    "ce:indexed-name": "Mouri T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaneshige",
+                                    "ce:indexed-name": "Kaneshige A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 18th IFAC World Congr."
+                        },
+                        "ce:source-text": "S. Ueki, H. Kawasaki, T. Mouri, and A. Kaneshige, \"Object manipulation based on robust and adaptive control by hemispherical soft fingertips, \" in Proc. 18th IFAC World Congr., 2011, vol. 18, pp. 14654-14659."
+                    },
+                    {
+                        "ref-fulltext": "C. Cheah, H. Han, S. Kawamura, and S. Arimoto, \"Grasping and position control for multi-fingered robot hands with uncertain jacobian matrices, \" in Proc. IEEE Int. Conf. Robot. Automat., 1998, vol. 3, pp. 2403-2408.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-5980913302a24820b9f6306ebe29632c-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Grasping and position control for multi-fingered robot hands with uncertain jacobian matrices"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031631869",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "2403",
+                                    "@last": "2408"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheah",
+                                    "ce:indexed-name": "Cheah C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kawamura",
+                                    "ce:indexed-name": "Kawamura S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arimoto",
+                                    "ce:indexed-name": "Arimoto S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Automat."
+                        },
+                        "ce:source-text": "C. Cheah, H. Han, S. Kawamura, and S. Arimoto, \"Grasping and position control for multi-fingered robot hands with uncertain jacobian matrices, \" in Proc. IEEE Int. Conf. Robot. Automat., 1998, vol. 3, pp. 2403-2408."
+                    },
+                    {
+                        "ref-fulltext": "W. Shaw Cortez, D. Oetomo, C. Manzie, and P. Choong, \"Tactile-based blind grasping: A discrete-time object manipulation controller for robotic hands, \" IEEE Robot. Autom. Lett., vol. 3, no. 2, pp. 1064-1071, Apr. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-2b6e15b01f7d79e82f2adb6d6843b3a9-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Tactile-based blind grasping: A discrete-time object manipulation controller for robotic hands"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048876676",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1064",
+                                    "@last": "1071"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shaw Cortez",
+                                    "ce:indexed-name": "Shaw Cortez W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oetomo",
+                                    "ce:indexed-name": "Oetomo D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manzie",
+                                    "ce:indexed-name": "Manzie C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choong",
+                                    "ce:indexed-name": "Choong P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robot. Autom. Lett."
+                        },
+                        "ce:source-text": "W. Shaw Cortez, D. Oetomo, C. Manzie, and P. Choong, \"Tactile-based blind grasping: A discrete-time object manipulation controller for robotic hands, \" IEEE Robot. Autom. Lett., vol. 3, no. 2, pp. 1064-1071, Apr. 2018."
+                    },
+                    {
+                        "ref-fulltext": "P. Fungtammasan and T. Watanabe, \"Grasp input optimization taking contact position and object information uncertainties into consideration, \" IEEE Trans. Robot., vol. 28, no. 5, pp. 1170-1177, Oct. 2012.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-bd1419ad9a31319958e4b0bb79c19912-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Grasp input optimization taking contact position and object information uncertainties into consideration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867192395",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1170",
+                                    "@last": "1177"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fungtammasan",
+                                    "ce:indexed-name": "Fungtammasan P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Watanabe",
+                                    "ce:indexed-name": "Watanabe T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        },
+                        "ce:source-text": "P. Fungtammasan and T. Watanabe, \"Grasp input optimization taking contact position and object information uncertainties into consideration, \" IEEE Trans. Robot., vol. 28, no. 5, pp. 1170-1177, Oct. 2012."
+                    },
+                    {
+                        "ref-fulltext": "C. K. Verginis, W. Shaw Cortez, and D. V. Dimarogonas, \"Adaptive cooperative manipulation with rolling contacts, \" in Proc. Amer. Control Conf., 2020, pp. 2735-2740.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-147867275ffa697fe1f51319d4fa5b75-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Adaptive cooperative manipulation with rolling contacts"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089597586",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2735",
+                                "@last": "2740"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verginis",
+                                    "ce:indexed-name": "Verginis C.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shaw Cortez",
+                                    "ce:indexed-name": "Shaw Cortez W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dimarogonas",
+                                    "ce:indexed-name": "Dimarogonas D.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Amer. Control Conf."
+                        },
+                        "ce:source-text": "C. K. Verginis, W. Shaw Cortez, and D. V. Dimarogonas, \"Adaptive cooperative manipulation with rolling contacts, \" in Proc. Amer. Control Conf., 2020, pp. 2735-2740."
+                    },
+                    {
+                        "ref-fulltext": "R. Murray, Z. Li, and S. Sastry, A Mathematical Introduction to Robotic Manipulation. Boca Raton, FL, USA: CRC Press, 1994.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-aeb6d2831514f334a9a3fd9b15712806-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003654667",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Boca Raton, FL, USA: CRC Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murray",
+                                    "ce:indexed-name": "Murray R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sastry",
+                                    "ce:indexed-name": "Sastry S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Mathematical Introduction to Robotic Manipulation"
+                        },
+                        "ce:source-text": "R. Murray, Z. Li, and S. Sastry, A Mathematical Introduction to Robotic Manipulation. Boca Raton, FL, USA: CRC Press, 1994."
+                    },
+                    {
+                        "ref-fulltext": "V. Lippiello, F. Ruggiero, B. Siciliano, and L. Villani, \"Visual grasp planning for unknown objects using a multifingered robotic hand, \" IEEE-Asme Trans. Mechatron., vol. 18, no. 3, pp. 1050-1059, Jun. 2013.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-b50f12325ee518ec1c9784f4c5a33dd3-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Visual grasp planning for unknown objects using a multifingered robotic hand"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872981247",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1050",
+                                    "@last": "1059"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lippiello",
+                                    "ce:indexed-name": "Lippiello V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruggiero",
+                                    "ce:indexed-name": "Ruggiero F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siciliano",
+                                    "ce:indexed-name": "Siciliano B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Villani",
+                                    "ce:indexed-name": "Villani L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE-Asme Trans. Mechatron."
+                        },
+                        "ce:source-text": "V. Lippiello, F. Ruggiero, B. Siciliano, and L. Villani, \"Visual grasp planning for unknown objects using a multifingered robotic hand, \" IEEE-Asme Trans. Mechatron., vol. 18, no. 3, pp. 1050-1059, Jun. 2013."
+                    },
+                    {
+                        "ref-fulltext": "W. Shaw Cortez, D. Oetomo, C.Manzie, and P. Choong, \"Grasp constraint satisfaction for object manipulation using robotic hands, \" in Proc. IEEE Conf. Decis. Control, 2018, pp. 415-420.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-977dd9e0dae01e5083d5c88bdf7ecea6-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Grasp constraint satisfaction for object manipulation using robotic hands"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062182577",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "415",
+                                "@last": "420"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shaw Cortez",
+                                    "ce:indexed-name": "Shaw Cortez W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oetomo",
+                                    "ce:indexed-name": "Oetomo D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manzie",
+                                    "ce:indexed-name": "Manzie C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choong",
+                                    "ce:indexed-name": "Choong P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Conf. Decis. Control"
+                        },
+                        "ce:source-text": "W. Shaw Cortez, D. Oetomo, C.Manzie, and P. Choong, \"Grasp constraint satisfaction for object manipulation using robotic hands, \" in Proc. IEEE Conf. Decis. Control, 2018, pp. 415-420."
+                    },
+                    {
+                        "ref-fulltext": "K. Hang et al., \"Hierarchical fingertip space:Aunified framework for grasp planning and in-hand grasp adaptation, \" IEEE Trans. Robot., vol. 32, no. 4, pp. 960-972, Aug. 2016.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-6d9b41be48ca72f448a3aa267fa0f6f0-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Hierarchical fingertip space:Aunified framework for grasp planning and in-hand grasp adaptation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84981303220",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "960",
+                                    "@last": "972"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hang",
+                                    "ce:indexed-name": "Hang K."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        },
+                        "ce:source-text": "K. Hang et al., \"Hierarchical fingertip space:Aunified framework for grasp planning and in-hand grasp adaptation, \" IEEE Trans. Robot., vol. 32, no. 4, pp. 960-972, Aug. 2016."
+                    },
+                    {
+                        "ref-fulltext": "W. Shaw Cortez, D. Oetomo, C. Manzie, and P. Choong, \"Control barrier functions for mechanical systems: Theory and application to robotic grasping, \" IEEE Trans. Control Syst. Technol., vol. 29, no. 2, pp. 530-545, Mar. 2021.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-5cd55e475764e667184b590e7f4f7c3f-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Control barrier functions for mechanical systems: Theory and application to robotic grasping"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074756834",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "530",
+                                    "@last": "545"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shaw Cortez",
+                                    "ce:indexed-name": "Shaw Cortez W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oetomo",
+                                    "ce:indexed-name": "Oetomo D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manzie",
+                                    "ce:indexed-name": "Manzie C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choong",
+                                    "ce:indexed-name": "Choong P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Control Syst. Technol."
+                        },
+                        "ce:source-text": "W. Shaw Cortez, D. Oetomo, C. Manzie, and P. Choong, \"Control barrier functions for mechanical systems: Theory and application to robotic grasping, \" IEEE Trans. Control Syst. Technol., vol. 29, no. 2, pp. 530-545, Mar. 2021."
+                    },
+                    {
+                        "ref-fulltext": "E. Lavretsky and K. A. Wise, Robust Adaptive Control. Berlin, Germany: Springer, 2013.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-15a545df6d71b688da4af6529a1d01a5-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85022068599",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Berlin, Germany: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lavretsky",
+                                    "ce:indexed-name": "Lavretsky E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wise",
+                                    "ce:indexed-name": "Wise K.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robust Adaptive Control."
+                        },
+                        "ce:source-text": "E. Lavretsky and K. A. Wise, Robust Adaptive Control. Berlin, Germany: Springer, 2013."
+                    },
+                    {
+                        "ref-fulltext": "M. Mesbahi and E. Magnus, Graph Theoretic Methods in Multiagent Networks, Ser. Princeton Series in Applied Mathematics. Princeton, NJ, USA: Princeton Univ. Press, 2010, vol. 33.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-5b352411744687bfaf697d6954339815-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72349090681",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "33"}},
+                            "ref-text": "Princeton, NJ, USA: Princeton Univ. Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mesbahi",
+                                    "ce:indexed-name": "Mesbahi M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Magnus",
+                                    "ce:indexed-name": "Magnus E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Graph Theoretic Methods in Multiagent Networks, Ser. Princeton Series in Applied Mathematics"
+                        },
+                        "ce:source-text": "M. Mesbahi and E. Magnus, Graph Theoretic Methods in Multiagent Networks, Ser. Princeton Series in Applied Mathematics. Princeton, NJ, USA: Princeton Univ. Press, 2010, vol. 33."
+                    },
+                    {
+                        "ref-fulltext": "B. Mirtich and J. Canny, \"Easily computable optimum grasps in 2-D and 3-D, \" in Proc. IEEE Int. Conf. Robot. Autom., 1994, pp. 739-747.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-a7d60a7dc38e839bd1a9b25a8fb52899-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Easily computable optimum grasps in 2-D and 3-D"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028090847",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "739",
+                                "@last": "747"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mirtich",
+                                    "ce:indexed-name": "Mirtich B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Canny",
+                                    "ce:indexed-name": "Canny J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Robot. Autom."
+                        },
+                        "ce:source-text": "B. Mirtich and J. Canny, \"Easily computable optimum grasps in 2-D and 3-D, \" in Proc. IEEE Int. Conf. Robot. Autom., 1994, pp. 739-747."
+                    },
+                    {
+                        "ref-fulltext": "W. S. Cortez, \"Robust object manipulation for fully-actuated robotic hands, \" Ph.D. dissertation, TheUniversity of Melbourne, Melbourne, VIC, Australia, 2019. [Online]. Available: http://hdl.handle.net/11343/233378",
+                        "@reference-instance-id": "OB2BibRecID-948312314-55c34d4e11ee177dc94508f1d10f9262-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://hdl.handle.net/11343/233378",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85168227466",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D. dissertation, TheUniversity of Melbourne, Melbourne, VIC, Australia",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Cortez",
+                                "ce:indexed-name": "Cortez W.S."
+                            }]},
+                            "ref-sourcetitle": "Robust Object Manipulation for Fully-actuated Robotic Hands"
+                        },
+                        "ce:source-text": "W. S. Cortez, \"Robust object manipulation for fully-actuated robotic hands, \" Ph.D. dissertation, TheUniversity of Melbourne, Melbourne, VIC, Australia, 2019. [Online]. Available: http://hdl.handle.net/11343/233378"
+                    },
+                    {
+                        "ref-fulltext": "\"Event-triggered, adaptive control for cooperative manipulation with rolling contacts, \" 2022. [Online]. Available: https://youtu.be/tQcnlBbkAHU",
+                        "@reference-instance-id": "OB2BibRecID-948312314-94476b3a8556e06b8c9688aa2d6b2425-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://youtu.be/tQcnlBbkAHU",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85168229628",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Event-triggered, Adaptive Control for Cooperative Manipulation with Rolling Contacts"
+                        },
+                        "ce:source-text": "\"Event-triggered, adaptive control for cooperative manipulation with rolling contacts, \" 2022. [Online]. Available: https://youtu.be/tQcnlBbkAHU"
+                    },
+                    {
+                        "ref-fulltext": "A. Bressan and B. Piccoli, Introduction to the Mathematical Theory of Control, vol. 1, Springfield, MA, USA: Amer. Inst. Math. Sci., 2007.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-90d6d8df67ff0b756c4ea196d4cdc672-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85168231823",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "1"}},
+                            "ref-text": "Springfield, MA, USA: Amer. Inst. Math. Sci.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bressan",
+                                    "ce:indexed-name": "Bressan A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piccoli",
+                                    "ce:indexed-name": "Piccoli B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Introduction to the Mathematical Theory of Control"
+                        },
+                        "ce:source-text": "A. Bressan and B. Piccoli, Introduction to the Mathematical Theory of Control, vol. 1, Springfield, MA, USA: Amer. Inst. Math. Sci., 2007."
+                    },
+                    {
+                        "ref-fulltext": "H. K. Khalil, Nonlinear Systems. Upper Saddle River, NJ, USA: Prentice Hall, 2002.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-75ff86187420da9e3c6648320e420800-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004178386",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Upper Saddle River, NJ, USA: Prentice Hall",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.K.",
+                                "@_fa": "true",
+                                "ce:surname": "Khalil",
+                                "ce:indexed-name": "Khalil H.K."
+                            }]},
+                            "ref-sourcetitle": "Nonlinear Systems"
+                        },
+                        "ce:source-text": "H. K. Khalil, Nonlinear Systems. Upper Saddle River, NJ, USA: Prentice Hall, 2002."
+                    },
+                    {
+                        "ref-fulltext": "L. Grüne and J. Pannek, \"Nonlinear model predictive control, \" in Communications and Control Engineering, 2nd ed. Cham, Switzerland: Springer International Publishing, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-948312314-fceff3831d389b0ac0bd54ea2b220669-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Nonlinear model predictive control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85042872243",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Cham, Switzerland: Springer International Publishing",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grüne",
+                                    "ce:indexed-name": "Grune L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pannek",
+                                    "ce:indexed-name": "Pannek J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Communications and Control Engineering, 2nd Ed"
+                        },
+                        "ce:source-text": "L. Grüne and J. Pannek, \"Nonlinear model predictive control, \" in Communications and Control Engineering, 2nd ed. Cham, Switzerland: Springer International Publishing, 2017."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Richland",
+            "@id": "60023471",
+            "affilname": "Pacific Northwest National Laboratory",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023471",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Uppsala",
+            "@id": "60003858",
+            "affilname": "Uppsala Universitet",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003858",
+            "affiliation-country": "Sweden"
+        },
+        {
+            "affiliation-city": "Stockholm",
+            "@id": "60002014",
+            "affilname": "The Royal Institute of Technology (KTH)",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002014",
+            "affiliation-country": "Sweden"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85159827727",
+        "dc:description": "We present a distributed, event-triggered, and adaptive control algorithm for cooperative object manipulation with rolling contacts and unknown dynamic parameters. Whereas conventional cooperative manipulation methods require rigid contact points, our approach exploits rolling effects of passive end-effectors and does not require force/torque sensing. The removal of rigidity allows for more modular grasping, increased application to more object types, and online adjustment of the grasp. The proposed control algorithm exhibits the following properties: 1) it is distributed, in the sense that the robotic agents calculate their own control signal, under an event-triggered communication scheme. Such a scheme reduces the interagent communication requirements with respect to continuous communication schemes; 2) it uses an online adaptation mechanism to accommodate for unknown dynamic parameters of the object and the agents and 3) it adapts existing internal force controllers to guarantee no slip throughout the manipulation task despite the event-triggered nature of the communication scheme. Hardware implementation validates the effectiveness of the proposed approach.",
+        "prism:coverDate": "2023-08-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85159827727",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Wenceslao Shaw",
+            "preferred-name": {
+                "ce:given-name": "Wenceslao Shaw",
+                "ce:initials": "W.S.",
+                "ce:surname": "Cortez",
+                "ce:indexed-name": "Cortez W.S."
+            },
+            "@seq": "1",
+            "ce:initials": "W.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60023471",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023471"
+            },
+            "ce:surname": "Cortez",
+            "@auid": "55848824000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55848824000",
+            "ce:indexed-name": "Cortez W.S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85159827727"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85159827727&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85159827727&origin=inward"
+            }
+        ],
+        "source-id": "95101",
+        "citedby-count": "0",
+        "prism:volume": "39",
+        "subtype": "ar",
+        "dc:title": "A Distributed, Event-Triggered, Adaptive Controller for Cooperative Manipulation with Rolling Contacts",
+        "openaccess": "2",
+        "prism:issn": "19410468 15523098",
+        "publishercopyright": "© 2004-2012 IEEE.",
+        "prism:issueIdentifier": "4",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Transactions on Robotics",
+        "prism:pageRange": "3120-3133",
+        "prism:endingPage": "3133",
+        "openaccessFlag": null,
+        "prism:doi": "10.1109/TRO.2023.3268595",
+        "prism:startingPage": "3120",
+        "dc:identifier": "SCOPUS_ID:85159827727",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Adaptive Control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cooperative systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Decentralised control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Event-triggered",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Grasping",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Heuristics algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Manipulator dynamics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multi-robot systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Robot sensing system",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Adaptive control"
+        },
+        {
+            "@_fa": "true",
+            "$": "cooperative systems"
+        },
+        {
+            "@_fa": "true",
+            "$": "decentralized control"
+        },
+        {
+            "@_fa": "true",
+            "$": "manipulators"
+        },
+        {
+            "@_fa": "true",
+            "$": "multi-agent systems"
+        },
+        {
+            "@_fa": "true",
+            "$": "multi-robot systems"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Wenceslao Shaw",
+            "preferred-name": {
+                "ce:given-name": "Wenceslao Shaw",
+                "ce:initials": "W.S.",
+                "ce:surname": "Cortez",
+                "ce:indexed-name": "Cortez W.S."
+            },
+            "@seq": "1",
+            "ce:initials": "W.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60023471",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60023471"
+            },
+            "ce:surname": "Cortez",
+            "@auid": "55848824000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55848824000",
+            "ce:indexed-name": "Cortez W.S."
+        },
+        {
+            "ce:given-name": "Christos K.",
+            "preferred-name": {
+                "ce:given-name": "Christos K.",
+                "ce:initials": "C.K.",
+                "ce:surname": "Verginis",
+                "ce:indexed-name": "Verginis C.K."
+            },
+            "@seq": "2",
+            "ce:initials": "C.K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003858",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003858"
+            },
+            "ce:surname": "Verginis",
+            "@auid": "56043456900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56043456900",
+            "ce:indexed-name": "Verginis C.K."
+        },
+        {
+            "ce:given-name": "Dimos V.",
+            "preferred-name": {
+                "ce:given-name": "Dimos V.",
+                "ce:initials": "D.V.",
+                "ce:surname": "Dimarogonas",
+                "ce:indexed-name": "Dimarogonas D.V."
+            },
+            "@seq": "3",
+            "ce:initials": "D.V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002014",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002014"
+            },
+            "ce:surname": "Dimarogonas",
+            "@auid": "6506281602",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6506281602",
+            "ce:indexed-name": "Dimarogonas D.V."
+        }
+    ]}
+}}

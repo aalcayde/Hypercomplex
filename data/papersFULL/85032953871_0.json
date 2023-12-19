@@ -1,0 +1,2135 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "11",
+                "@timestamp": "2021-11-11T13:24:08.000008-05:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2017",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "NAVEGABLE"},
+                {
+                    "xocs:funding-agency-matched-string": "China Scholarship Council",
+                    "xocs:funding-agency-acronym": "CSC",
+                    "xocs:funding-agency": "China Scholarship Council",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004543",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "MICINN",
+                    "xocs:funding-agency-acronym": "MICINN",
+                    "xocs:funding-agency": "Ministerio de Ciencia e Innovación",
+                    "xocs:funding-id": "DPI2014\u201153525\u2011C3\u20112\u2011R",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004837",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/2510769/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-06-05T07:36:00.705Z",
+            "xocs:funding-text": "This work has been supported by China Scholarship Council scholarship and ASLP\u2011MULÁN (TIN2014\u201154288\u2011C4\u20111\u2011R) and NAVEGABLE (MICINN, DPI2014\u201153525\u2011C3\u20112\u2011R) projects.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "China",
+                            "address-part": "10 Xitucheng Rd",
+                            "postal-code": "100876",
+                            "@afid": "60016930",
+                            "@country": "chn",
+                            "city": "Beijing",
+                            "organization": [
+                                {"$": "School of Computer Science"},
+                                {"$": "Beijing University of Posts and Telecommunications"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60016930",
+                                "@dptid": "113845588"
+                            },
+                            "@dptid": "113845588"
+                        },
+                        "author": [{
+                            "ce:given-name": "Jiadong",
+                            "preferred-name": {
+                                "ce:given-name": "Jiadong",
+                                "ce:initials": "J.",
+                                "ce:surname": "Zhu",
+                                "ce:indexed-name": "Zhu J."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zhu",
+                            "@auid": "57190380876",
+                            "ce:indexed-name": "Zhu J."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Spain",
+                            "postal-code": "28040",
+                            "@afid": "60028442",
+                            "@country": "esp",
+                            "city": "Madrid",
+                            "organization": [
+                                {"$": "Speech Technology Group"},
+                                {"$": "E.T.S.I. Telecomunicación"},
+                                {"$": "Universidad Politécnica de Madrid"},
+                                {"$": "Ciudad Universitaria"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028442",
+                                "@dptid": "106415065"
+                            },
+                            "@dptid": "106415065"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Rubén",
+                                "preferred-name": {
+                                    "ce:given-name": "Rubén",
+                                    "ce:initials": "R.",
+                                    "ce:surname": "San-Segundo",
+                                    "ce:indexed-name": "San-Segundo R."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "R.",
+                                "@date-locked": "2020-07-28T09:51:56.003",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "San-Segundo",
+                                "@auid": "8333266700",
+                                "ce:indexed-name": "San-Segundo R."
+                            },
+                            {
+                                "ce:given-name": "José M.",
+                                "preferred-name": {
+                                    "ce:given-name": "José M.",
+                                    "ce:initials": "J.M.",
+                                    "ce:surname": "Pardo",
+                                    "ce:indexed-name": "Pardo J.M."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "J.M.",
+                                "@date-locked": "2020-07-27T09:21:44.376",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Pardo",
+                                "@auid": "57193752834",
+                                "ce:indexed-name": "Pardo J.M."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Feature extraction for robust physical activity recognition",
+                "abstracts": "© 2017, The Author(s). All rights reserved.This paper presents the development of a Human Activity Recognition (HAR) system that uses a network of nine inertial measurement units situated in different body parts. Every unit provides 3D (3-dimension) acceleration, 3D angular velocity, 3D magnetic field orientation, and 4D quaternions. This system identifies 33 different physical activities (walking, running, cycling, lateral elevation of arms, etc.). The system is composed of two main modules: a feature extractor for obtaining the most relevant characteristics from the inertial signals every second, and a machine learning algorithm for classifying between the different activities. This paper focuses on the feature extractor module, evaluating several types of features and proposing different normalization approaches. This paper also analyses the performance of every sensor included in the inertial measurement units. The main experiments have been done using a public available dataset named REALDISP Activity Recognition dataset. This dataset includes recordings from 17 subjects performing 33 different activities in three different scenarios. Final results demonstrate that the proposed HAR system significantly improves the classification accuracy compared to previous works on this dataset. For the best configuration, the system accuracy is 99.1%. This system has been also evaluated with the OPPORTUNITY dataset obtaining competitive results.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Spain",
+                        "postal-code": "28040",
+                        "@country": "esp",
+                        "city": "Madrid",
+                        "organization": [
+                            {"$": "Speech Technology Group"},
+                            {"$": "E.T.S.I. Telecomunicación"},
+                            {"$": "Universidad Politécnica de Madrid"},
+                            {"$": "Ciudad Universitaria"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Rubén",
+                        "ce:initials": "R.",
+                        "ce:surname": "San-Segundo",
+                        "ce:indexed-name": "San-Segundo R."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Feature extraction robustness",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Human activity recognition",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Machine learning",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "OPPORTUNITY dataset",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pattern recognition",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Physical activity recognition",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Random forest",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "REALDISP activity recognition dataset",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Signal normalization",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Type of sensor",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Hum.-centric Comput. Inf. Sci.",
+                    "website": [
+                        {"ce:e-address": {
+                            "$": "http://link.springer.com/journal/13673",
+                            "@type": "email"
+                        }},
+                        {"ce:e-address": {
+                            "$": "www.hcis-journal.com/",
+                            "@type": "email"
+                        }}
+                    ],
+                    "@country": "deu",
+                    "translated-sourcetitle": {
+                        "$": "Human-centric Computing and Information Sciences",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "21921962",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "7",
+                            "@issue": "1"
+                        },
+                        "pagerange": {
+                            "@first": "1",
+                            "@last": "16"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2017"},
+                    "publisher": {"publishername": "Springer Berlin Heidelberg"},
+                    "sourcetitle": "Human-centric Computing and Information Sciences",
+                    "@srcid": "21100358314",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2017",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 December 2017"
+                        },
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "802.3",
+                                "classification-description": "Chemical Operations"
+                            },
+                            {
+                                "classification-code": "961",
+                                "classification-description": "Systems Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "78.23",
+                            "classification-description": "MIXING AND SEPARATION"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": "1700"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work has been supported by China Scholarship Council scholarship and ASLP-MULÁN (TIN2014-54288-C4-1-R) and NAVEGABLE (MICINN, DPI2014-53525-C3-2-R) projects.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "TIN2014-54288-C4-1-R",
+                        "grant-acronym": "CSC",
+                        "grant-agency": {
+                            "@iso-code": "chn",
+                            "$": "China Scholarship Council"
+                        },
+                        "grant-agency-id": "501100004543"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "22",
+                    "@timestamp": "BST 12:47:26",
+                    "@year": "2020",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "619054538",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "775723999",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20201608456512",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20170879619",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2017131103",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "85032953871",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85032953871",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1186/s13673-017-0097-2"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "31",
+                "reference": [
+                    {
+                        "ref-fulltext": "Lee IM, Shiroma EJ, Lobelo F, Puska P, Blair SN, Katzmarzyk PT et al, Lancet Physical Activity Series Working Group (2012) Effect of physical inactivity on major noncommunicable diseases worldwide: an analysis of burden of disease and life expectancy. Lancet 380:219-229",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Effect of physical inactivity on major noncommunicable diseases worldwide: An analysis of burden of disease and life expectancy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864049574",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "380"},
+                                "pagerange": {
+                                    "@first": "219",
+                                    "@last": "229"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "I.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lee",
+                                        "ce:indexed-name": "Lee I.M."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "E.J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Shiroma",
+                                        "ce:indexed-name": "Shiroma E.J."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lobelo",
+                                        "ce:indexed-name": "Lobelo F."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "P.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Puska",
+                                        "ce:indexed-name": "Puska P."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "S.N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Blair",
+                                        "ce:indexed-name": "Blair S.N."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "P.T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Katzmarzyk",
+                                        "ce:indexed-name": "Katzmarzyk P.T."
+                                    }
+                                ],
+                                "collaboration": {
+                                    "@seq": "1",
+                                    "ce:text": "Lancet Physical Activity Series Working Group",
+                                    "ce:indexed-name": "Lancet Physical Activity Series Working Group"
+                                }
+                            },
+                            "ref-sourcetitle": "Lancet"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pavón J, Gómez-Sanz J, Fernández-Caballero A, Valencia-Jiménez JJ (2007) Development of intelligent multisensory surveillance systems with agents. Robot Auton Syst 55:892-903",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Development of intelligent multisensory surveillance systems with agents"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35648967009",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "55"},
+                                "pagerange": {
+                                    "@first": "892",
+                                    "@last": "903"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pavón",
+                                    "ce:indexed-name": "Pavon J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gómez-Sanz",
+                                    "ce:indexed-name": "Gomez-Sanz J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fernández-Caballero",
+                                    "ce:indexed-name": "Fernandez-Caballero A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Valencia-Jiménez",
+                                    "ce:indexed-name": "Valencia-Jimenez J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robot Auton Syst"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jatoba LC, Grossmann U, Kunze C, Ottenbacher J, Stork W (2008) Context-aware mobile health monitoring: evaluation of different pattern recognition methods for classification of physical activity. In: 2008 30th annual international conference of the IEEE engineering in medicine and biology society. IEEE, New York, pp 5250-5253",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Context-aware mobile health monitoring: Evaluation of different pattern recognition methods for classification of physical activity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "61849168968",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5250",
+                                "@last": "5253"
+                            }},
+                            "ref-text": "IEEE, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jatoba",
+                                    "ce:indexed-name": "Jatoba L.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossmann",
+                                    "ce:indexed-name": "Grossmann U."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kunze",
+                                    "ce:indexed-name": "Kunze C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ottenbacher",
+                                    "ce:indexed-name": "Ottenbacher J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stork",
+                                    "ce:indexed-name": "Stork W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2008 30Th Annual International Conference of the IEEE Engineering in Medicine and Biology Society"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maurer U, Smailagic A, Siewiorek DP, Deisher M (2006) Activity recognition and monitoring using multiple sensors on different body positions. In: International workshop on wearable and implantable body sensor networks (BSN\u201906). IEEE, New York",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Activity recognition and monitoring using multiple sensors on different body positions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33750826738",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "IEEE, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maurer",
+                                    "ce:indexed-name": "Maurer U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smailagic",
+                                    "ce:indexed-name": "Smailagic A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siewiorek",
+                                    "ce:indexed-name": "Siewiorek D.P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deisher",
+                                    "ce:indexed-name": "Deisher M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop on Wearable and Implantable Body Sensor Networks (BSN\u201906)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Anguita D, Ghio A, Oneto L, Parra X, Reyes-Ortiz JL (2013) Energy efficient smartphone-based activity recognition using fixed-point arithmetic. J UCS 19:1295-1314",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Energy efficient smartphone-based activity recognition using fixed-point arithmetic"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84883731834",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "1295",
+                                    "@last": "1314"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anguita",
+                                    "ce:indexed-name": "Anguita D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghio",
+                                    "ce:indexed-name": "Ghio A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oneto",
+                                    "ce:indexed-name": "Oneto L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parra",
+                                    "ce:indexed-name": "Parra X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reyes-Ortiz",
+                                    "ce:indexed-name": "Reyes-Ortiz J.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J UCS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ronao CA, Cho S (2016) Human activity recognition with smartphone sensors using deep learning neural networks. Expert Syst Appl 59:235-244",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Human activity recognition with smartphone sensors using deep learning neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964950481",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "59"},
+                                "pagerange": {
+                                    "@first": "235",
+                                    "@last": "244"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ronao",
+                                    "ce:indexed-name": "Ronao C.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "San-Segundo R, Lorenzo-Trueba J, Martínez-González B, Pardo JM (2016) Segmenting human activities based on HMMs using smartphone inertial sensors. Pervasive Mob Comput 30:84-96",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Segmenting human activities based on HMMs using smartphone inertial sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84988281755",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "30"},
+                                "pagerange": {
+                                    "@first": "84",
+                                    "@last": "96"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "San-Segundo",
+                                    "ce:indexed-name": "San-Segundo R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lorenzo-Trueba",
+                                    "ce:indexed-name": "Lorenzo-Trueba J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martínez-González",
+                                    "ce:indexed-name": "Martinez-Gonzalez B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pardo",
+                                    "ce:indexed-name": "Pardo J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pervasive Mob Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Holmes G, Donkin A, Witten IH (1994) Weka: a machine learning workbench. In: Proceedings of the 1994 Second Australian and New Zealand conference on intelligent information systems. IEEE, New York, pp 357-361",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Weka: A machine learning workbench"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028737912",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "357",
+                                "@last": "361"
+                            }},
+                            "ref-text": "IEEE, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holmes",
+                                    "ce:indexed-name": "Holmes G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Donkin",
+                                    "ce:indexed-name": "Donkin A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Witten",
+                                    "ce:indexed-name": "Witten I.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 1994 Second Australian and New Zealand Conference on Intelligent Information Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yang J (2009) Toward physical activity diary: motion recognition using simple acceleration features with mobile phones. In: Proceedings of the 1st international workshop on Interactive multimedia for consumer electronics. ACM, New York, pp 1-10",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Toward physical activity diary: Motion recognition using simple acceleration features with mobile phones"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "72049112876",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "10"
+                            }},
+                            "ref-text": "ACM, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Yang",
+                                "ce:indexed-name": "Yang J."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the 1St International Workshop on Interactive Multimedia for Consumer Electronics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kwapisz JR, Weiss GM, Moore SA (2011) Activity recognition using cell phone accelerometers. ACM SIGKDD Explor Newsl 12:74-82",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Activity recognition using cell phone accelerometers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80054964826",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "74",
+                                    "@last": "82"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwapisz",
+                                    "ce:indexed-name": "Kwapisz J.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weiss",
+                                    "ce:indexed-name": "Weiss G.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moore",
+                                    "ce:indexed-name": "Moore S.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM SIGKDD Explor Newsl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kwon Y, Kang K, Bae C (2014) Unsupervised learning for human activity recognition using smartphone sensors. Expert Syst Appl 41(14):6067-6074",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Unsupervised learning for human activity recognition using smartphone sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84901411499",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "41",
+                                    "@issue": "14"
+                                },
+                                "pagerange": {
+                                    "@first": "6067",
+                                    "@last": "6074"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwon",
+                                    "ce:indexed-name": "Kwon Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bae",
+                                    "ce:indexed-name": "Bae C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Stisen A, Blunck H, Bhattacharya S, Prentow TS, Kjærgaard MB, Dey A, Sonne T, Jensen MM (2015) Smart devices are different: assessing and mitigating mobile sensing heterogeneities for activity recognition. In: Proceedings of the 13th ACM conference on embedded networked sensor systems. ACM, New York, pp 127-140",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Smart devices are different: Assessing and mitigating mobile sensing heterogeneities for activity recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84962920836",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "127",
+                                "@last": "140"
+                            }},
+                            "ref-text": "ACM, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stisen",
+                                    "ce:indexed-name": "Stisen A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blunck",
+                                    "ce:indexed-name": "Blunck H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bhattacharya",
+                                    "ce:indexed-name": "Bhattacharya S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prentow",
+                                    "ce:indexed-name": "Prentow T.S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kjærgaard",
+                                    "ce:indexed-name": "Kjaergaard M.B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dey",
+                                    "ce:indexed-name": "Dey A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sonne",
+                                    "ce:indexed-name": "Sonne T."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jensen",
+                                    "ce:indexed-name": "Jensen M.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 13Th ACM Conference on Embedded Networked Sensor Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Poppe R (2010) A survey on vision-based human action recognition. Image Vis Comput 28:976-990",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A survey on vision-based human action recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77949275097",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "976",
+                                    "@last": "990"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Poppe",
+                                "ce:indexed-name": "Poppe R."
+                            }]},
+                            "ref-sourcetitle": "Image Vis Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Onofri L, Soda P, Pechenizkiy M, Iannello G (2016) A survey on using domain and contextual knowledge for human activity recognition in video streams. Expert Syst Appl 63(30):97-111",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A survey on using domain and contextual knowledge for human activity recognition in video streams"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84976872300",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "63",
+                                    "@issue": "30"
+                                },
+                                "pagerange": {
+                                    "@first": "97",
+                                    "@last": "111"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Onofri",
+                                    "ce:indexed-name": "Onofri L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soda",
+                                    "ce:indexed-name": "Soda P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pechenizkiy",
+                                    "ce:indexed-name": "Pechenizkiy M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iannello",
+                                    "ce:indexed-name": "Iannello G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Expert Syst Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Temko A, Nadeu C, Macho D, Malkin R, Zieger C, Omologo M (2009) Chapter 7: Acoustic event detection and classification. In: Waibel A, Stiefelhagen R (eds) Computers in the human interaction loop. Springer, London, pp 61-73",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Chapter 7: Acoustic event detection and classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84865730361",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "61",
+                                "@last": "73"
+                            }},
+                            "ref-text": "Waibel A, Stiefelhagen R, Springer, London",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Temko",
+                                    "ce:indexed-name": "Temko A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nadeu",
+                                    "ce:indexed-name": "Nadeu C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macho",
+                                    "ce:indexed-name": "Macho D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malkin",
+                                    "ce:indexed-name": "Malkin R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zieger",
+                                    "ce:indexed-name": "Zieger C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Omologo",
+                                    "ce:indexed-name": "Omologo M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers in the Human Interaction Loop"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lukowicz P, Ward JA, Junker H, Stäger M, Tröster G, Atrash A, Starner T (2004) Recognizing workshop activity using body worn microphones and accelerometers. In: International conference on pervasive computing. Springer, Heidelberg, pp 18-32",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Recognizing workshop activity using body worn microphones and accelerometers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35048870269",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "18",
+                                "@last": "32"
+                            }},
+                            "ref-text": "Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lukowicz",
+                                    "ce:indexed-name": "Lukowicz P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ward",
+                                    "ce:indexed-name": "Ward J.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Junker",
+                                    "ce:indexed-name": "Junker H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stäger",
+                                    "ce:indexed-name": "Stager M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tröster",
+                                    "ce:indexed-name": "Troster G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Atrash",
+                                    "ce:indexed-name": "Atrash A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Starner",
+                                    "ce:indexed-name": "Starner T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Pervasive Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Karantonis DM, Narayanan MR, Mathie M, Lovell NH, Celler BG (2006) Implementation of a real-time human movement classifier using a triaxial accelerometer for ambulatory monitoring. IEEE Trans Inf Technol Biomed 10:156-167",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Implementation of a real-time human movement classifier using a triaxial accelerometer for ambulatory monitoring"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "30744436064",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {
+                                    "@first": "156",
+                                    "@last": "167"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karantonis",
+                                    "ce:indexed-name": "Karantonis D.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Narayanan",
+                                    "ce:indexed-name": "Narayanan M.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mathie",
+                                    "ce:indexed-name": "Mathie M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lovell",
+                                    "ce:indexed-name": "Lovell N.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Celler",
+                                    "ce:indexed-name": "Celler B.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Inf Technol Biomed"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bao L, Intille SS (2004) Activity recognition from user-annotated acceleration data. In: International conference on pervasive computing. Springer, Heidelberg, pp 1-17",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Activity recognition from user-annotated acceleration data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "35048842427",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "17"
+                            }},
+                            "ref-text": "Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bao",
+                                    "ce:indexed-name": "Bao L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Intille",
+                                    "ce:indexed-name": "Intille S.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Pervasive Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Casale P, Pujol O, Radeva P (2011) Human activity recognition from accelerometer data using a wearable device. In: Iberian conference on pattern recognition and image analysis. Springer, Heidelberg, pp 289-296",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Human activity recognition from accelerometer data using a wearable device"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959952700",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "289",
+                                "@last": "296"
+                            }},
+                            "ref-text": "Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Casale",
+                                    "ce:indexed-name": "Casale P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pujol",
+                                    "ce:indexed-name": "Pujol O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radeva",
+                                    "ce:indexed-name": "Radeva P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Iberian Conference on Pattern Recognition and Image Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Krishnan NC, Colbry D, Juillard C, Panchanathan S (2008) Real time human activity recognition using tri-axial accelerometers. Sensors, signals and information processing workshop. pp 3337-3340",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Real time human activity recognition using tri-axial accelerometers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78650852483",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3337",
+                                "@last": "3340"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnan",
+                                    "ce:indexed-name": "Krishnan N.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Colbry",
+                                    "ce:indexed-name": "Colbry D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Juillard",
+                                    "ce:indexed-name": "Juillard C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Panchanathan",
+                                    "ce:indexed-name": "Panchanathan S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors, Signals and Information Processing Workshop"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ravi N, Dandekar N, Mysore P, Littman ML (2005) Activity recognition from accelerometer data. AAAI 5:1541-1546",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Activity recognition from accelerometer data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34249813319",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "1541",
+                                    "@last": "1546"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ravi",
+                                    "ce:indexed-name": "Ravi N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dandekar",
+                                    "ce:indexed-name": "Dandekar N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mysore",
+                                    "ce:indexed-name": "Mysore P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Littman",
+                                    "ce:indexed-name": "Littman M.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AAAI"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hanai Y, Nishimura J, Kuroda T (2009) Haar-like filtering for human activity recognition using 3d accelerometer. In: Digital signal processing workshop and 5th IEEE signal processing education workshop, 2009. DSP/SPE 2009. IEEE 13th, IEEE, New York, pp 675-678",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Haar-like filtering for human activity recognition using 3d accelerometer"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "63649152771",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "675",
+                                "@last": "678"
+                            }},
+                            "ref-text": "2009. DSP/SPE 2009. IEEE 13th, IEEE, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanai",
+                                    "ce:indexed-name": "Hanai Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nishimura",
+                                    "ce:indexed-name": "Nishimura J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuroda",
+                                    "ce:indexed-name": "Kuroda T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Digital Signal Processing Workshop and 5Th IEEE Signal Processing Education Workshop"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Banos O, Damas M, Pomares H, Rojas I (2013) Handling displacement effects in on-body sensor-based activity recognition. In: International workshop on ambient assisted living. Springer, Heidelberg, pp 80-87",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Handling displacement effects in on-body sensor-based activity recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893929211",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "80",
+                                "@last": "87"
+                            }},
+                            "ref-text": "Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banos",
+                                    "ce:indexed-name": "Banos O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Damas",
+                                    "ce:indexed-name": "Damas M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pomares",
+                                    "ce:indexed-name": "Pomares H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rojas",
+                                    "ce:indexed-name": "Rojas I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop on Ambient Assisted Living"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Banos O, Toth MA, Damas M, Pomares H, Rojas I (2014) Dealing with the effects of sensor displacement in wearable activity recognition. Sensors 14:9995-10023",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Dealing with the effects of sensor displacement in wearable activity recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84902161665",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "9995",
+                                    "@last": "10023"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banos",
+                                    "ce:indexed-name": "Banos O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toth",
+                                    "ce:indexed-name": "Toth M.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Damas",
+                                    "ce:indexed-name": "Damas M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pomares",
+                                    "ce:indexed-name": "Pomares H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rojas",
+                                    "ce:indexed-name": "Rojas I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Punchoojit L, Hongwarittorrn N (2015). A comparative study on sensor displacement effect on realistic sensor displacement benchmark dataset. In: Recent advances in information and communication technology 2015. Springer, New York, pp 97-106",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A comparative study on sensor displacement effect on realistic sensor displacement benchmark dataset"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84931292224",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "97",
+                                "@last": "106"
+                            }},
+                            "ref-text": "Springer, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Punchoojit",
+                                    "ce:indexed-name": "Punchoojit L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hongwarittorrn",
+                                    "ce:indexed-name": "Hongwarittorrn N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Recent Advances in Information and Communication Technology 2015"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Banos O, Galvez JM, Damas M, Pomares H, Rojas I (2014) Window size impact in human activity recognition. Sensors 14:6474-6499",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Window size impact in human activity recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84898670848",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "6474",
+                                    "@last": "6499"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Banos",
+                                    "ce:indexed-name": "Banos O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Galvez",
+                                    "ce:indexed-name": "Galvez J.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Damas",
+                                    "ce:indexed-name": "Damas M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pomares",
+                                    "ce:indexed-name": "Pomares H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rojas",
+                                    "ce:indexed-name": "Rojas I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Reyes-Ortiz JL, Oneto L, Samá A, Parra X, Anguita D (2016) Transition aware human activity recognition using smartphones. Neurocomputing 171:754-767",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Transition aware human activity recognition using smartphones"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84946430442",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "171"},
+                                "pagerange": {
+                                    "@first": "754",
+                                    "@last": "767"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reyes-Ortiz",
+                                    "ce:indexed-name": "Reyes-Ortiz J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oneto",
+                                    "ce:indexed-name": "Oneto L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Samá",
+                                    "ce:indexed-name": "Sama A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parra",
+                                    "ce:indexed-name": "Parra X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anguita",
+                                    "ce:indexed-name": "Anguita D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Breiman L (2001) Random forests. Mach Learn 45:5-32",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035478854",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "45"},
+                                "pagerange": {
+                                    "@first": "5",
+                                    "@last": "32"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Breiman",
+                                "ce:indexed-name": "Breiman L."
+                            }]},
+                            "ref-sourcetitle": "Random Forests. Mach Learn"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cox DR, Hinkley DV (1974) Theoretical statistics. Chapman &Hall, London",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1974"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004184934",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Chapman & Hall, London",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cox",
+                                    "ce:indexed-name": "Cox D.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinkley",
+                                    "ce:indexed-name": "Hinkley D.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Theoretical Statistics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Roggen D, Calatroni A, Rossi M, Holleczek T, Forster K, Tröster G, Lukowicz P, Bannach D, Pirkl G, Ferscha A, et al (2010) Collecting complex activity datasets in highly rich networked sensor environments. In: 2010 seventh international conference on networked sensing systems (INSS). IEEE, New York, pp 233-240",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Collecting complex activity datasets in highly rich networked sensor environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78149236604",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "233",
+                                "@last": "240"
+                            }},
+                            "ref-text": "IEEE, New York",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Roggen",
+                                        "ce:indexed-name": "Roggen D."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Calatroni",
+                                        "ce:indexed-name": "Calatroni A."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Rossi",
+                                        "ce:indexed-name": "Rossi M."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Holleczek",
+                                        "ce:indexed-name": "Holleczek T."
+                                    },
+                                    {
+                                        "@seq": "5",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Forster",
+                                        "ce:indexed-name": "Forster K."
+                                    },
+                                    {
+                                        "@seq": "6",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Tröster",
+                                        "ce:indexed-name": "Troster G."
+                                    },
+                                    {
+                                        "@seq": "7",
+                                        "ce:initials": "P.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lukowicz",
+                                        "ce:indexed-name": "Lukowicz P."
+                                    },
+                                    {
+                                        "@seq": "8",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Bannach",
+                                        "ce:indexed-name": "Bannach D."
+                                    },
+                                    {
+                                        "@seq": "9",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Pirkl",
+                                        "ce:indexed-name": "Pirkl G."
+                                    },
+                                    {
+                                        "@seq": "10",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ferscha",
+                                        "ce:indexed-name": "Ferscha A."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2010 Seventh International Conference on Networked Sensing Systems (INSS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chavarriaga R, Sagha H, Calatroni A, Digumarti ST, Tröster G, Millán JDR, Roggen D (2013) The OPPORTUNITY challenge: a benchmark database for on-body sensor-based activity recognition. Pattern Recogn Lett 34:2033-2042",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "The OPPORTUNITY challenge: A benchmark database for on-body sensor-based activity recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84885071495",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "34"},
+                                "pagerange": {
+                                    "@first": "2033",
+                                    "@last": "2042"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chavarriaga",
+                                    "ce:indexed-name": "Chavarriaga R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sagha",
+                                    "ce:indexed-name": "Sagha H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Calatroni",
+                                    "ce:indexed-name": "Calatroni A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Digumarti",
+                                    "ce:indexed-name": "Digumarti S.T."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tröster",
+                                    "ce:indexed-name": "Troster G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Millán",
+                                    "ce:indexed-name": "Millan J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roggen",
+                                    "ce:indexed-name": "Roggen D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recogn Lett"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Madrid",
+            "@id": "60028442",
+            "affilname": "Universidad Politécnica de Madrid",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028442",
+            "affiliation-country": "Spain"
+        },
+        {
+            "affiliation-city": "Beijing",
+            "@id": "60016930",
+            "affilname": "Beijing University of Posts and Telecommunications",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60016930",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85032953871",
+        "dc:description": "This paper presents the development of a Human Activity Recognition (HAR) system that uses a network of nine inertial measurement units situated in different body parts. Every unit provides 3D (3-dimension) acceleration, 3D angular velocity, 3D magnetic field orientation, and 4D quaternions. This system identifies 33 different physical activities (walking, running, cycling, lateral elevation of arms, etc.). The system is composed of two main modules: a feature extractor for obtaining the most relevant characteristics from the inertial signals every second, and a machine learning algorithm for classifying between the different activities. This paper focuses on the feature extractor module, evaluating several types of features and proposing different normalization approaches. This paper also analyses the performance of every sensor included in the inertial measurement units. The main experiments have been done using a public available dataset named REALDISP Activity Recognition dataset. This dataset includes recordings from 17 subjects performing 33 different activities in three different scenarios. Final results demonstrate that the proposed HAR system significantly improves the classification accuracy compared to previous works on this dataset. For the best configuration, the system accuracy is 99.1%. This system has been also evaluated with the OPPORTUNITY dataset obtaining competitive results.",
+        "prism:coverDate": "2017-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85032953871",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Jiadong",
+            "preferred-name": {
+                "ce:given-name": "Jiadong",
+                "ce:initials": "J.",
+                "ce:surname": "Zhu",
+                "ce:indexed-name": "Zhu J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60016930",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60016930"
+            },
+            "ce:surname": "Zhu",
+            "@auid": "57190380876",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57190380876",
+            "ce:indexed-name": "Zhu J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85032953871"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85032953871&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85032953871&origin=inward"
+            }
+        ],
+        "source-id": "21100358314",
+        "citedby-count": "43",
+        "prism:volume": "7",
+        "subtype": "ar",
+        "dc:title": "Feature extraction for robust physical activity recognition",
+        "openaccess": "1",
+        "prism:issn": "21921962",
+        "publishercopyright": "© 2017, The Author(s). All rights reserved.",
+        "prism:issueIdentifier": "1",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Human-centric Computing and Information Sciences",
+        "prism:pageRange": "1-16",
+        "prism:endingPage": "16",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1186/s13673-017-0097-2",
+        "prism:startingPage": "1",
+        "dc:identifier": "SCOPUS_ID:85032953871",
+        "dc:publisher": "Springer Berlin Heidelberg"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Activity recognition",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Human activity recognition",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "OPPORTUNITY dataset",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Physical activity",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Signal normalization",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Feature extraction robustness"
+        },
+        {
+            "@_fa": "true",
+            "$": "Human activity recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Machine learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "OPPORTUNITY dataset"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pattern recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Physical activity recognition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Random forest"
+        },
+        {
+            "@_fa": "true",
+            "$": "REALDISP activity recognition dataset"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal normalization"
+        },
+        {
+            "@_fa": "true",
+            "$": "Type of sensor"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Computer Science (all)",
+        "@code": "1700",
+        "@abbrev": "COMP"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Jiadong",
+            "preferred-name": {
+                "ce:given-name": "Jiadong",
+                "ce:initials": "J.",
+                "ce:surname": "Zhu",
+                "ce:indexed-name": "Zhu J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60016930",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60016930"
+            },
+            "ce:surname": "Zhu",
+            "@auid": "57190380876",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57190380876",
+            "ce:indexed-name": "Zhu J."
+        },
+        {
+            "ce:given-name": "Rubén",
+            "preferred-name": {
+                "ce:given-name": "Rubén",
+                "ce:initials": "R.",
+                "ce:surname": "San-Segundo",
+                "ce:indexed-name": "San-Segundo R."
+            },
+            "@seq": "2",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028442",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028442"
+            },
+            "ce:surname": "San-Segundo",
+            "@auid": "8333266700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8333266700",
+            "ce:indexed-name": "San-Segundo R."
+        },
+        {
+            "ce:given-name": "José M.",
+            "preferred-name": {
+                "ce:given-name": "José M.",
+                "ce:initials": "J.M.",
+                "ce:surname": "Pardo",
+                "ce:indexed-name": "Pardo J.M."
+            },
+            "@seq": "3",
+            "ce:initials": "J.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028442",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028442"
+            },
+            "ce:surname": "Pardo",
+            "@auid": "57193752834",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57193752834",
+            "ce:indexed-name": "Pardo J.M."
+        }
+    ]}
+}}

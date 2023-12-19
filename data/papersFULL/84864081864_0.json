@@ -1,0 +1,1372 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "21",
+                "@year": "2019",
+                "@timestamp": "2019-11-21T11:31:12.000012-05:00",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2011",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Glasgow",
+                        "country": "United Kingdom",
+                        "@afid": "109031401",
+                        "@country": "gbr",
+                        "organization": {"$": "Advanced Space Concepts Laboratory"},
+                        "affiliation-id": {"@afid": "109031401"}
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Craig",
+                            "preferred-name": {
+                                "ce:given-name": "Craig",
+                                "ce:initials": "C.",
+                                "ce:surname": "Maclean",
+                                "ce:indexed-name": "Maclean C."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "ce:surname": "Maclean",
+                            "@auid": "55318784100",
+                            "ce:indexed-name": "Maclean C."
+                        },
+                        {
+                            "ce:given-name": "Daniele",
+                            "preferred-name": {
+                                "ce:given-name": "Daniele",
+                                "ce:initials": "D.",
+                                "ce:surname": "Pagnozzi",
+                                "ce:indexed-name": "Pagnozzi D."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "D.",
+                            "@_fa": "true",
+                            "ce:surname": "Pagnozzi",
+                            "@auid": "55318077700",
+                            "ce:indexed-name": "Pagnozzi D."
+                        },
+                        {
+                            "ce:given-name": "James",
+                            "preferred-name": {
+                                "ce:given-name": "James",
+                                "ce:initials": "J.",
+                                "ce:surname": "Biggs",
+                                "ce:indexed-name": "Biggs J."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "ce:surname": "Biggs",
+                            "@auid": "7101919171",
+                            "ce:indexed-name": "Biggs J."
+                        }
+                    ]
+                },
+                "citation-title": "Computationally light attitude controls for resource limited nano-spacecraft",
+                "abstracts": "Nano-spacecraft have emerged as practical alternatives to large conventional spacecraft for specific missions (e.g. as technology demonstrators) due to their low cost and short time to launch. However these spacecraft have a number of limitations compared to larger spacecraft: a tendency to tumble post-launch; lower computational power in relation to larger satellites and limited propulsion systems due to small payload capacity. As a result new methodologies for attitude control are required to meet the challenges associated with nano-spacecraft. This paper presents two novel attitude control methods to tackle two phases of a mission using zero-propellant (i) the detumbling post-launch and (ii) the repointing of nano-spacecraft. The first method consists of a time-delayed feedback control law which is applied to a magnetically actuated spacecraft and used for autonomous detumbling. The second uses geometric mechanics to construct zero propellant reference manoeuvres which are then tracked using quaternion feedback control. The problem of detumbling a magnetically actuated spacecraft in the first phase of a mission is conventionally tackled using BDOT control. This involves applying controls which are proportional to the rate of change of the magnetic field. However, real systems contain sensor noise which can lead to discontinuities in the signal and problems with computing the numerical derivative. This means that a noise filter must be used and this increases the computational overhead of the system. It is shown that a time-delayed feedback control law is advantageous as the use of a delayed signal rather than a derivative negates the need for such a filter, thus reducing computational overhead. The second phase of the mission is the repointing of the spacecraft to a desired target. Exploiting the analytic solutions of the angular velocities of a symmetric spacecraft and further using Lax pair integration it is possible to derive exact equations of the natural motions including the time evolution of the quaternions. It is shown that parametric optimisation of these solutions can be used to generate low torque reference motions that match prescribed boundary conditions on the initial and final configurations. Through numerical simulation it is shown that these references can be tracked using nano-spacecraft reaction wheels while eigenaxis rotations, used for comparison, are more torque intensive. As the method requires parameter optimisation as opposed to optimisation methods that require numerical integration, the computational effort is reduced.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Glasgow",
+                        "country": "United Kingdom",
+                        "@country": "gbr",
+                        "organization": {"$": "Advanced Space Concepts Laboratory"}
+                    },
+                    "person": {
+                        "ce:initials": "C.",
+                        "ce:surname": "Maclean",
+                        "ce:indexed-name": "Maclean C."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Geometric control",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Nano-spacecraft",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Repointing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Time delay",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Int. Astronaut. Congr., IAC",
+                    "@country": "fra",
+                    "issuetitle": "62nd International Astronautical Congress 2011, IAC 2011",
+                    "volisspag": {
+                        "voliss": {"@volume": "6"},
+                        "pagerange": {
+                            "@first": "5137",
+                            "@last": "5145"
+                        }
+                    },
+                    "@type": "p",
+                    "publicationyear": {"@first": "2011"},
+                    "isbn": {
+                        "$": "9781618398055",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {
+                            "procpagerange": "var.pagings",
+                            "procpartno": "6 of 12"
+                        },
+                        "confevent": {
+                            "confname": "62nd International Astronautical Congress 2011, IAC 2011",
+                            "conflocation": {
+                                "city-group": "Cape Town",
+                                "@country": "zaf"
+                            },
+                            "confcode": "91159",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "07",
+                                    "@year": "2011",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "03",
+                                    "@year": "2011",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "62nd International Astronautical Congress 2011, IAC 2011",
+                    "@srcid": "21100206003",
+                    "publicationdate": {
+                        "year": "2011",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2011"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "2202"
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "921.5",
+                                "classification-description": "Optimization Techniques"
+                            },
+                            {
+                                "classification-code": "804",
+                                "classification-description": "Chemical Products Generally"
+                            },
+                            {
+                                "classification-code": "761",
+                                "classification-description": "Nanotechnology"
+                            },
+                            {
+                                "classification-code": "731",
+                                "classification-description": "Automatic Control Principles and Applications"
+                            },
+                            {
+                                "classification-code": "933",
+                                "classification-description": "Solid State Physics"
+                            },
+                            {
+                                "classification-code": "713",
+                                "classification-description": "Electronic Circuits"
+                            },
+                            {
+                                "classification-code": "524",
+                                "classification-description": "Solid Fuels"
+                            },
+                            {
+                                "classification-code": "523",
+                                "classification-description": "Liquid Fuels"
+                            },
+                            {
+                                "classification-code": "462",
+                                "classification-description": "Biomedical Equipment"
+                            },
+                            {
+                                "classification-code": "655.1",
+                                "classification-description": "Spacecraft, General"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {"classification-code": "Related Topics"}
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2012 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "26",
+                    "@year": "2012",
+                    "@month": "07"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "365288604",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "20123015279767",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "84864081864",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "84864081864",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "25",
+                "reference": [
+                    {
+                        "ref-fulltext": "Wie, B., \"Space Vehicle Dynamics and Control,\" AIAA Education Series, 2nd addition, 2008.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Space Vehicle Dynamics and Control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003808478",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "2nd addition",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Wie",
+                                "ce:indexed-name": "Wie B."
+                            }]},
+                            "ref-sourcetitle": "AIAA Education Series"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wisniewski, R. and Blanke, M., \"Fully magnetic attitude control for spacecraft subject to gravity gradient,\" Automatica, 35, 1201-1214, 1999.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Fully magnetic attitude control for spacecraft subject to gravity gradient"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033164902",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "35"},
+                                "pagerange": {
+                                    "@first": "1201",
+                                    "@last": "1214"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wisniewski",
+                                    "ce:indexed-name": "Wisniewski R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blanke",
+                                    "ce:indexed-name": "Blanke M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Automatica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lovera, M. and Astolfi, A., \"Spacecraft attitude control using magnetic actuators,\" Automatica 40, 1405-1414, 2004.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Spacecraft attitude control using magnetic actuators"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2942571541",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "40"},
+                                "pagerange": {
+                                    "@first": "1405",
+                                    "@last": "1414"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lovera",
+                                    "ce:indexed-name": "Lovera M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Astolfi",
+                                    "ce:indexed-name": "Astolfi A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Automatica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wertz J. R., (ed.), \"Spacecraft Attitude Determination and Control,\" Kluwer Academic Publishers, Dordrecht, 1978.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003586152",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Kluwer Academic Publishers, Dordrecht",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Wertz",
+                                "ce:indexed-name": "Wertz J.R."
+                            }]},
+                            "ref-sourcetitle": "Spacecraft Attitude Determination and Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Flatley, T. W., Morgenstern, W., Reth, A., and Bauer, F., \"A B-Dot Acquisition Controller for the RADARSAT Spacecraft.\"",
+                        "@id": "5",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864096179",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flatley",
+                                    "ce:indexed-name": "Flatley T.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morgenstern",
+                                    "ce:indexed-name": "Morgenstern W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reth",
+                                    "ce:indexed-name": "Reth A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bauer",
+                                    "ce:indexed-name": "Bauer F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A B-Dot Acquisition Controller for the RADARSAT Spacecraft"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "GieBelmann, J., 2006, \"Development of an Active Magnetic Attitude Determination and Control System for Picosatellites on Highly Inclined Low Earth Orbits,\" MRes, RMIT University.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956061377",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "MRes, RMIT University",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "GieBelmann",
+                                "ce:indexed-name": "GieBelmann J."
+                            }]},
+                            "ref-sourcetitle": "Development of An Active Magnetic Attitude Determination and Control System for Picosatellites on Highly Inclined Low Earth Orbits"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guerrant, D., 2005, \"Design and Analysis of Fully Magnetic Control for Picosatellite Stabilisation,\" Masters, California Polytechnic State University.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955759273",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Masters, California Polytechnic State University",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Guerrant",
+                                "ce:indexed-name": "Guerrant D."
+                            }]},
+                            "ref-sourcetitle": "Design and Analysis of Fully Magnetic Control for Picosatellite Stabilisation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pyragas, K., \"Continuous control of chaos by self-controlling feedback,\" Physics Letters A, Vol. 170, pp. 421-428, 1992.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Continuous control of chaos by self-controlling feedback"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34250315551",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "170"},
+                                "pagerange": {
+                                    "@first": "421",
+                                    "@last": "428"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Pyragas",
+                                "ce:indexed-name": "Pyragas K."
+                            }]},
+                            "ref-sourcetitle": "Physics Letters A"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pyragas, K. and Tamasevicius, T., \"Experimental control of chaos by delayed self-controlling feedback,\" Physics Letters A, Vol. 180, pp. 99-102, 1993.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Experimental control of chaos by delayed self-controlling feedback"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "43949167979",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "180"},
+                                "pagerange": {
+                                    "@first": "99",
+                                    "@last": "102"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pyragas",
+                                    "ce:indexed-name": "Pyragas K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tamasevicius",
+                                    "ce:indexed-name": "Tamasevicius T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physics Letters A"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Christini, D. J., In, V., Spano, M. L., Ditto, W. L. and Collins, J. J., \"Real time experimental control of a system in its chaotic and nonchaotic regimes,\" Physics Review E, Vol. 49, pp. R971-974, 1994.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Real time experimental control of a system in its chaotic and nonchaotic regimes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864097919",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "pages": "R971-R974",
+                                "voliss": {"@volume": "49"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Christini",
+                                    "ce:indexed-name": "Christini D.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "In",
+                                    "ce:indexed-name": "In V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spano",
+                                    "ce:indexed-name": "Spano M.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ditto",
+                                    "ce:indexed-name": "Ditto W.L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physics Review E"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Brandt, M., Shih, H. T., Chen, G., \"Linear time-delay feedback control of a pathological rhythm in a cardiac conduction model,\" Phys. Rev. E, Vol. 56, pp. 1334-1337, 1997.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Linear time-delay feedback control of a pathological rhythm in a cardiac conduction model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001662452",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "56"},
+                                "pagerange": {
+                                    "@first": "1334",
+                                    "@last": "1337"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brandt",
+                                    "ce:indexed-name": "Brandt M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shih",
+                                    "ce:indexed-name": "Shih H.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Phys. Rev. E"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Biggs, J. D., McInnes, C. R., \"Time-delayed feedback control in astrodynamics\", Journal of Guidance, Control and Dynamics, 2010.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Time-delayed feedback control in astrodynamics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864096348",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Biggs",
+                                    "ce:indexed-name": "Biggs J.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McInnes",
+                                    "ce:indexed-name": "McInnes C.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Balanov, A. G., Janson, N. B. and Scholl, E., \"Control of noise induced oscillations by delayed feedback\" Physica D, Vol. 199, pp. 1-12, 2004.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Control of noise induced oscillations by delayed feedback"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "9644273883",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "199"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "12"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balanov",
+                                    "ce:indexed-name": "Balanov A.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Janson",
+                                    "ce:indexed-name": "Janson N.B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scholl",
+                                    "ce:indexed-name": "Scholl E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physica D"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Balanov, A. G., Beato, V., Janson, N. B., Engel, H. and Scholl, E., 'Delayed feedback control of noise-induced patterns in excitable media' Physical Review E, Vol. 74, 2006.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Delayed feedback control of noise-induced patterns in excitable media"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33746622536",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "74"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balanov",
+                                    "ce:indexed-name": "Balanov A.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beato",
+                                    "ce:indexed-name": "Beato V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Janson",
+                                    "ce:indexed-name": "Janson N.B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Engel",
+                                    "ce:indexed-name": "Engel H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scholl",
+                                    "ce:indexed-name": "Scholl E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physical Review E"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Flunkert, V. and Scholl, E., \"Suppressing noise-induced intensity pulsations in semiconductor lasers by means of time-delayed feedback\". Physical Review E, Vol. 76, 2007.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Suppressing noise-induced intensity pulsations in semiconductor lasers by means of time-delayed feedback"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "36849061591",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "76"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flunkert",
+                                    "ce:indexed-name": "Flunkert V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scholl",
+                                    "ce:indexed-name": "Scholl E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physical Review E"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Surrey Satellite Technology Limited, 2011, Available at: http://www.sstl.co.uk/Downloads/Datasheets/Subsys-datasheets/ SmallSat-Reaction-Wheel-10-SP-M-ST0123486-v00-02 [Accessed 06/07/2011].",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-website": {
+                                "websitename": "Surrey Satellite Technology Limited",
+                                "ce:e-address": {
+                                    "$": "http://www.sstl.co.uk/Downloads/Datasheets/Subsys-datasheets/ SmallSat-Reaction-Wheel-10-SP-M-ST0123486-v00-02",
+                                    "@type": "url"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864096350",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Available at: [Accessed 06/07/2011]"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wie, B., Weiss, H., and Arapostathis, A., \"Quaternion feedback regulator for spacecraft eigenaxis rotations\" Journal of Guidance, Control, and Dynamics, Vol. 12, No. 3, pp. 375-380, 1989.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Quaternion feedback regulator for spacecraft eigenaxis rotations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0024656129",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "375",
+                                    "@last": "380"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wie",
+                                    "ce:indexed-name": "Wie B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weiss",
+                                    "ce:indexed-name": "Weiss H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arapostathis",
+                                    "ce:indexed-name": "Arapostathis A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Radice, G. and McInnes, C. R., \"Multiple target selection and obstacle avoidance using potential function guidance method,\" In Proceedings of the AAS/AIAA Astrodynamics Specialists Conference, Quebec City, Canada, 2001, paper AAS 01-419.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Multiple target selection and obstacle avoidance using potential function guidance method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036062120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "paper AAS 01-419",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Radice",
+                                    "ce:indexed-name": "Radice G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McInnes",
+                                    "ce:indexed-name": "McInnes C.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the AAS/AIAA Astrodynamics Specialists Conference, Quebec City, Canada, 2001"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jurdjevic, V., 'Geometric Control Theory'. Advanced Studies in Mathematics, Cambridge University Press, 52, 1997.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Geometric Control Theory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002406886",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "52"}},
+                            "ref-text": "Cambridge University Press",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "ce:surname": "Jurdjevic",
+                                "ce:indexed-name": "Jurdjevic V."
+                            }]},
+                            "ref-sourcetitle": "Advanced Studies in Mathematics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Biggs, J.D. and Horn, N., \"Optimal geometric motion planning for spin-stabilized spacecraft,\" Submitted for publication.",
+                        "@id": "20",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84864108944",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Submitted for publication",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Biggs",
+                                    "ce:indexed-name": "Biggs J.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Optimal Geometric Motion Planning for Spin-stabilized Spacecraft"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kang, W. and Bedrossian, N., \"Pseudospectral optimal control theory makes debut flight, saves NASA $1M in under 3 hours\", SIAM News, Vol. 40, No. 7, 2007.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Pseudospectral optimal control theory makes debut flight, saves NASA $1M in under 3 hours"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "44649182527",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "40",
+                                "@issue": "7"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bedrossian",
+                                    "ce:indexed-name": "Bedrossian N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIAM News"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Crouch, P. E., 'Spacecraft attitude control and stabilization: Applications of geometric control theory to rigid body models\" IEEE. Transactions on automatic control, vol. 29, No. 4, 1984.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Spacecraft attitude control and stabilization: Applications of geometric control theory to rigid body models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021411956",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "29",
+                                "@issue": "4"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.E.",
+                                "@_fa": "true",
+                                "ce:surname": "Crouch",
+                                "ce:indexed-name": "Crouch P.E."
+                            }]},
+                            "ref-sourcetitle": "IEEE. Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Leonard, N. E., Krishnaprasad, P. S., 'Motion control of drift-free, left-invariant systems on Lie groups\" IEEE. Transactions on automatic control, vol. 40, No. 9, pp. 1539-1554, 1995.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Motion control of drift-free, left-invariant systems on Lie groups"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029375604",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1539",
+                                    "@last": "1554"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard N.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnaprasad",
+                                    "ce:indexed-name": "Krishnaprasad P.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE. Transactions on Automatic Control"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Spindler, K., 'Optimal Attitude Control of a Rigid Body'. Applied Mathematics and Optimization, 34: pp. 79-90, 1996.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Optimal Attitude Control of a Rigid Body"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030182786",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "34"},
+                                "pagerange": {
+                                    "@first": "79",
+                                    "@last": "90"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Spindler",
+                                "ce:indexed-name": "Spindler K."
+                            }]},
+                            "ref-sourcetitle": "Applied Mathematics and Optimization"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hughes, P.C., 1986, \"Spacecraft Attitude Dynamics,\" Dover Books.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004294561",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Dover Books",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.C.",
+                                "@_fa": "true",
+                                "ce:surname": "Hughes",
+                                "ce:indexed-name": "Hughes P.C."
+                            }]},
+                            "ref-sourcetitle": "Spacecraft Attitude Dynamics"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Glasgow",
+        "@id": "109031401",
+        "affilname": "Advanced Space Concepts Laboratory",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/109031401",
+        "affiliation-country": "United Kingdom"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84864081864",
+        "dc:description": "Nano-spacecraft have emerged as practical alternatives to large conventional spacecraft for specific missions (e.g. as technology demonstrators) due to their low cost and short time to launch. However these spacecraft have a number of limitations compared to larger spacecraft: a tendency to tumble post-launch; lower computational power in relation to larger satellites and limited propulsion systems due to small payload capacity. As a result new methodologies for attitude control are required to meet the challenges associated with nano-spacecraft. This paper presents two novel attitude control methods to tackle two phases of a mission using zero-propellant (i) the detumbling post-launch and (ii) the repointing of nano-spacecraft. The first method consists of a time-delayed feedback control law which is applied to a magnetically actuated spacecraft and used for autonomous detumbling. The second uses geometric mechanics to construct zero propellant reference manoeuvres which are then tracked using quaternion feedback control. The problem of detumbling a magnetically actuated spacecraft in the first phase of a mission is conventionally tackled using BDOT control. This involves applying controls which are proportional to the rate of change of the magnetic field. However, real systems contain sensor noise which can lead to discontinuities in the signal and problems with computing the numerical derivative. This means that a noise filter must be used and this increases the computational overhead of the system. It is shown that a time-delayed feedback control law is advantageous as the use of a delayed signal rather than a derivative negates the need for such a filter, thus reducing computational overhead. The second phase of the mission is the repointing of the spacecraft to a desired target. Exploiting the analytic solutions of the angular velocities of a symmetric spacecraft and further using Lax pair integration it is possible to derive exact equations of the natural motions including the time evolution of the quaternions. It is shown that parametric optimisation of these solutions can be used to generate low torque reference motions that match prescribed boundary conditions on the initial and final configurations. Through numerical simulation it is shown that these references can be tracked using nano-spacecraft reaction wheels while eigenaxis rotations, used for comparison, are more torque intensive. As the method requires parameter optimisation as opposed to optimisation methods that require numerical integration, the computational effort is reduced.",
+        "prism:coverDate": "2011-12-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84864081864",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Craig",
+            "preferred-name": {
+                "ce:given-name": "Craig",
+                "ce:initials": "C.",
+                "ce:surname": "Maclean",
+                "ce:indexed-name": "Maclean C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "109031401",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/109031401"
+            },
+            "ce:surname": "Maclean",
+            "@auid": "55318784100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55318784100",
+            "ce:indexed-name": "Maclean C."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84864081864"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84864081864&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84864081864&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781618398055",
+        "prism:publicationName": "62nd International Astronautical Congress 2011, IAC 2011",
+        "source-id": "21100206003",
+        "citedby-count": "4",
+        "prism:volume": "6",
+        "subtype": "cp",
+        "prism:pageRange": "5137-5145",
+        "dc:title": "Computationally light attitude controls for resource limited nano-spacecraft",
+        "prism:endingPage": "5145",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:startingPage": "5137",
+        "dc:identifier": "SCOPUS_ID:84864081864"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Analytic solution",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computational effort",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computational overheads",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computational power",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Conventional spacecraft",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Eigenaxis rotation",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geometric control",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geometric mechanics",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Lax pairs",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Low costs",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Nano-spacecraft",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Noise filters",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Numerical derivatives",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Numerical integrations",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimisation method",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimisations",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Parameter optimisation",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pay load capacity",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Propulsion system",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion feedback",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rate of change",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reaction wheels",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real systems",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Repointing",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Second phase",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sensor noise",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Technology demonstrators",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time evolutions",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time-delayed feedback",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Geometric control"
+        },
+        {
+            "@_fa": "true",
+            "$": "Nano-spacecraft"
+        },
+        {
+            "@_fa": "true",
+            "$": "Repointing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Time delay"
+        }
+    ]},
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Aerospace Engineering",
+        "@code": "2202",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Craig",
+            "preferred-name": {
+                "ce:given-name": "Craig",
+                "ce:initials": "C.",
+                "ce:surname": "Maclean",
+                "ce:indexed-name": "Maclean C."
+            },
+            "@seq": "1",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "109031401",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/109031401"
+            },
+            "ce:surname": "Maclean",
+            "@auid": "55318784100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55318784100",
+            "ce:indexed-name": "Maclean C."
+        },
+        {
+            "ce:given-name": "Daniele",
+            "preferred-name": {
+                "ce:given-name": "Daniele",
+                "ce:initials": "D.",
+                "ce:surname": "Pagnozzi",
+                "ce:indexed-name": "Pagnozzi D."
+            },
+            "@seq": "2",
+            "ce:initials": "D.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "109031401",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/109031401"
+            },
+            "ce:surname": "Pagnozzi",
+            "@auid": "55318077700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55318077700",
+            "ce:indexed-name": "Pagnozzi D."
+        },
+        {
+            "ce:given-name": "James",
+            "preferred-name": {
+                "ce:given-name": "James",
+                "ce:initials": "J.",
+                "ce:surname": "Biggs",
+                "ce:indexed-name": "Biggs J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "109031401",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/109031401"
+            },
+            "ce:surname": "Biggs",
+            "@auid": "7101919171",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7101919171",
+            "ce:indexed-name": "Biggs J."
+        }
+    ]}
+}}

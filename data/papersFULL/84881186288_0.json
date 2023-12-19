@@ -1,0 +1,950 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@year": "2021",
+                "@timestamp": "2021-07-20T05:41:01.000001-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "12",
+                "@year": "2013",
+                "@month": "08"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Patuxent River, Maryland",
+                            "country": "United States",
+                            "@afid": "60004306",
+                            "@country": "usa",
+                            "organization": {"$": "NAWCAD"},
+                            "affiliation-id": {"@afid": "60004306"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Alec E.",
+                                "preferred-name": {
+                                    "ce:given-name": "Alec E.",
+                                    "ce:initials": "A.E.",
+                                    "ce:surname": "Forsman",
+                                    "ce:indexed-name": "Forsman A.E."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "A.E.",
+                                "@_fa": "true",
+                                "ce:surname": "Forsman",
+                                "@auid": "57225830108",
+                                "ce:indexed-name": "Forsman A.E."
+                            },
+                            {
+                                "ce:given-name": "David A.",
+                                "preferred-name": {
+                                    "ce:given-name": "David A.",
+                                    "ce:initials": "D.A.",
+                                    "ce:surname": "Schug",
+                                    "ce:indexed-name": "Schug D.A."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "D.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Schug",
+                                "@auid": "56700123300",
+                                "ce:indexed-name": "Schug D.A."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Laurel, MD",
+                            "country": "United States",
+                            "@afid": "60022054",
+                            "@country": "usa",
+                            "organization": {"$": "Johns Hopkins University Applied Physics Lab"},
+                            "affiliation-id": {"@afid": "60022054"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Anton J.",
+                            "preferred-name": {
+                                "ce:given-name": "Anton J.",
+                                "ce:initials": "A.J.",
+                                "ce:surname": "Haug",
+                                "ce:indexed-name": "Haug A.J."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "A.J.",
+                            "@_fa": "true",
+                            "ce:surname": "Haug",
+                            "@auid": "7102013560",
+                            "ce:indexed-name": "Haug A.J."
+                        }]
+                    }
+                ],
+                "citation-title": "Multi-camera rigid body pose estimation using higher order dynamic models",
+                "abstracts": "We describe a Bayesian filtering process that estimates the pose (3-D position and orientation) of a moving rigid body using multiple cameras. The estimator also produces an arbitrary number of pose derivatives. We first discuss various ways to represent 3-D orientation. Unfortunately all 3-parameter representations have areas of instability. Higher dimensional representations are stable but require unwieldy constraints. Our combination of an axis-angle vector with a unit quaternion represents orientation minimally while remaining stable under realistic circumstances. Our dynamic model of rigid body motion can include an arbitrary number of derivatives, and we explicitly develop it up to the third order. Our observation model takes a predicted pose and produces the 2-D locations in each camera's image plane of the visible features on the body's surface. We provide noise terms for both the dynamic and observation models. We describe how our models are used in extended and unscented Kalman filters, and also in a particle filter. As a baseline we also describe a non-linear least squares method that uses just our observation model. We construct a synthetic testing scenario, and use root-mean-square error analysis to grade the relative performance of each model/filter combination. We derive the Cramer-Rao lower bound that gives the best achievable performance for our particular scenario. Our results show that adding derivatives to the state vector significantly improves the accuracy of pose estimates, and we also show that an unscented Kalman filter with a second order dynamic model is best suited to the task. © 2013 SPIE.",
+                "correspondence": {"affiliation": {
+                    "city-group": "Patuxent River, Maryland",
+                    "country": "United States",
+                    "@country": "usa",
+                    "organization": {"$": "NAWCAD"}
+                }},
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Bayesian estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Tracking",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "volisspag": {"voliss": {"@volume": "8744"}},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9780819495358",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpagerange": "var.pagings"},
+                        "confevent": {
+                            "confname": "Automatic Target Recognition XXIII",
+                            "confsponsors": {
+                                "confsponsor": "The Society of Photo-Optical Instrumentation Engineers (SPIE)",
+                                "@complete": "y"
+                            },
+                            "conflocation": {
+                                "city-group": "Baltimore, MD",
+                                "@country": "usa"
+                            },
+                            "confcode": "98202",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "30",
+                                    "@year": "2013",
+                                    "@month": "04"
+                                },
+                                "startdate": {
+                                    "@day": "29",
+                                    "@year": "2013",
+                                    "@month": "04"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of SPIE - The International Society for Optical Engineering",
+                    "publicationdate": {
+                        "year": "2013",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2013"
+                        }
+                    },
+                    "codencode": "PSISD",
+                    "sourcetitle-abbrev": "Proc SPIE Int Soc Opt Eng",
+                    "@country": "usa",
+                    "issuetitle": "Automatic Target Recognition XXIII",
+                    "issn": [
+                        {
+                            "$": "0277786X",
+                            "@type": "print"
+                        },
+                        {
+                            "$": "1996756X",
+                            "@type": "electronic"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2013"},
+                    "article-number": "874407",
+                    "@srcid": "40067"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "921.4",
+                                "classification-description": "Combinatorial Mathematics, Includes Graph Theory, Set Theory"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "902.1",
+                                "classification-description": "Engineering Graphics"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "716",
+                                "classification-description": "Electronic Equipment, Radar, Radio and Television"
+                            },
+                            {
+                                "classification-code": "701.1",
+                                "classification-description": "Electricity, Basic Concepts and Phenomena"
+                            },
+                            {
+                                "classification-code": "408",
+                                "classification-description": "Structural Design"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {"classification-code": "Related Topics"}
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3104"},
+                            {"$": "1706"},
+                            {"$": "2604"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2013 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "12",
+                    "@year": "2013",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "369496662",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20133316601723",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84881186288",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84881186288",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.2015539"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "15",
+                "reference": [
+                    {
+                        "ref-fulltext": "Bar-Shalom Y, Li XR, and Kirubarajan T. [Estimation with Applications to Tracking and Navigation], John Wiley & Sons 2001.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003826365",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "John Wiley & Sons",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bar-Shalom",
+                                    "ce:indexed-name": "Bar-Shalom Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kirubarajan",
+                                    "ce:indexed-name": "Kirubarajan T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Estimation with Applications to Tracking and Navigation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Forsman E and Schug D. Improved Analysis Techniques for More Efficient Weapon Separation Testing. Proceedings of the Society of Flight Test Engineers European Chapter, 2008.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Improved analysis techniques for more efficient weapon separation testing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84881154434",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forsman",
+                                    "ce:indexed-name": "Forsman E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schug",
+                                    "ce:indexed-name": "Schug D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Society of Flight Test Engineers European Chapter"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Forsman, A., and Schug, D., \"Application of Bayesian Filtering to Store Separation Photogrammetry, \" Proceedings of the International Test and Evaluation Association ASCS (2010).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Application of Bayesian filtering to store separation photogrammetry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84881122095",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forsman",
+                                    "ce:indexed-name": "Forsman A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schug",
+                                    "ce:indexed-name": "Schug D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Test and Evaluation Association ASCS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gennery DB. Visual Tracking of Known Three-Dimensional Objects. International Journ. of Computer Vision 1992:7(3); 243-270.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Visual tracking of known three-dimensional objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026841840",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "243",
+                                    "@last": "270"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.B.",
+                                "@_fa": "true",
+                                "ce:surname": "Gennery",
+                                "ce:indexed-name": "Gennery D.B."
+                            }]},
+                            "ref-sourcetitle": "International Journ. of Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Haug A. [Methods of Bayesian Estimation and Tracking: A Practical Guide], John Wiley & Sons 2012.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84862761542",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "John Wiley & Sons",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Haug",
+                                "ce:indexed-name": "Haug A."
+                            }]},
+                            "ref-sourcetitle": "Methods of Bayesian Estimation and Tracking: A Practical Guide"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Huang TS and Netravali AN. Motion and Structure from Feature Correspondences: A Review. Proceedings of the IEEE 1994:82(2); 252-268.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Motion and structure from feature correspondences: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028377751",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "82",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "252",
+                                    "@last": "268"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang T.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Netravali",
+                                    "ce:indexed-name": "Netravali A.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Iu S. L. and Wohn K. Estimation of General Rigid Body motion from a Long Sequence of Images. Department of Computer & Information Science Technical Report, University of Pennsylvania, 1990.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "Estimation of general rigid body motion from a long sequence of images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84881151593",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iu",
+                                    "ce:indexed-name": "Iu S.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wohn",
+                                    "ce:indexed-name": "Wohn K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Department of Computer & Information Science Technical Report, University of Pennsylvania"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kupiers, J. [Quaternions and Rotation Sequences], Princeton University Press, Princeton N.J. (1999).",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004226254",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Princeton University Press, Princeton N.J.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Kupiers",
+                                "ce:indexed-name": "Kupiers J."
+                            }]},
+                            "ref-sourcetitle": "Quaternions and Rotation Sequences"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mehrotra K and Mahapatra P. R. A Jerk Model for Tracking Highly Maneuvering Targets. IEEE Trans. on Aero. and Electronic Systs. 1997:33(4); 1094-1105.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "A jerk model for tracking highly maneuvering targets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031258829",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1094",
+                                    "@last": "1105"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mehrotra",
+                                    "ce:indexed-name": "Mehrotra K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahapatra",
+                                    "ce:indexed-name": "Mahapatra P.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. on Aero. and Electronic Systs."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Meriam, J., Kraige, L., [Engineering Mechanics:Dynamics], Wiley, Hoboken, NJ, (2012).",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003558879",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Wiley, Hoboken, NJ",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meriam",
+                                    "ce:indexed-name": "Meriam J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kraige",
+                                    "ce:indexed-name": "Kraige L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Engineering Mechanics:Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ristic, B., Arulampalam, S. and Gordon, N., [Beyond the Kalman Filter: Particle Filters for Tracking Applications], Artech House, Boston (2004).",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3242789232",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Artech House, Boston",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ristic",
+                                    "ce:indexed-name": "Ristic B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arulampalam",
+                                    "ce:indexed-name": "Arulampalam S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gordon",
+                                    "ce:indexed-name": "Gordon N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Beyond the Kalman Filter: Particle Filters for Tracking Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Van Trees, H., [Detection, Estimation, and Modulation theory, Part I: Detection, Estimation, and Linear Modulation Theory], John Wiley & Sons (1968).",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1968"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003462953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "John Wiley & Sons",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "ce:surname": "Van Trees",
+                                "ce:indexed-name": "Van Trees H."
+                            }]},
+                            "ref-sourcetitle": "Detection, Estimation, and Modulation Theory, Part I: Detection, Estimation, and Linear Modulation Theory"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Van Trees, H. and Bell, K., [Bayesian Bounds for Parameter Estimation and Nonlinear Filtering/Tracking], Wiley Interscience (2007).",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85036511591",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Wiley Interscience",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Trees",
+                                    "ce:indexed-name": "Van Trees H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bell",
+                                    "ce:indexed-name": "Bell K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bayesian Bounds for Parameter Estimation and Nonlinear Filtering/Tracking"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Welch G. F. SCATT: Incremental Tracking with Incomplete Information. TR96-051 [dissertation], Dept. of Computer Science, UNC-Chapel Hill, 1996.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1642620538",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "TR96-051 [dissertation], Dept. of Computer Science, UNC-Chapel Hill",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.F.",
+                                "@_fa": "true",
+                                "ce:surname": "Welch",
+                                "ce:indexed-name": "Welch G.F."
+                            }]},
+                            "ref-sourcetitle": "SCATT: Incremental Tracking with Incomplete Information"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Welch G and Bishop G. SCATT: Incremental Tracking with Incomplete Information. Proc. ACM Siggraph 97, ACM Press, New York 1997; 333-344.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "SCATT: Incremental tracking with incomplete information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030705855",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "97"},
+                                "pagerange": {
+                                    "@first": "333",
+                                    "@last": "344"
+                                }
+                            },
+                            "ref-text": "ACM Press, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Welch",
+                                    "ce:indexed-name": "Welch G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bishop",
+                                    "ce:indexed-name": "Bishop G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. ACM Siggraph"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Laurel",
+            "@id": "60022054",
+            "affilname": "Johns Hopkins University Applied Physics Laboratory",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022054",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Patuxent River",
+            "@id": "60004306",
+            "affilname": "Naval Air Warfare Center Aircraft Division",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60004306",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84881186288",
+        "dc:description": "We describe a Bayesian filtering process that estimates the pose (3-D position and orientation) of a moving rigid body using multiple cameras. The estimator also produces an arbitrary number of pose derivatives. We first discuss various ways to represent 3-D orientation. Unfortunately all 3-parameter representations have areas of instability. Higher dimensional representations are stable but require unwieldy constraints. Our combination of an axis-angle vector with a unit quaternion represents orientation minimally while remaining stable under realistic circumstances. Our dynamic model of rigid body motion can include an arbitrary number of derivatives, and we explicitly develop it up to the third order. Our observation model takes a predicted pose and produces the 2-D locations in each camera's image plane of the visible features on the body's surface. We provide noise terms for both the dynamic and observation models. We describe how our models are used in extended and unscented Kalman filters, and also in a particle filter. As a baseline we also describe a non-linear least squares method that uses just our observation model. We construct a synthetic testing scenario, and use root-mean-square error analysis to grade the relative performance of each model/filter combination. We derive the Cramer-Rao lower bound that gives the best achievable performance for our particular scenario. Our results show that adding derivatives to the state vector significantly improves the accuracy of pose estimates, and we also show that an unscented Kalman filter with a second order dynamic model is best suited to the task. © 2013 SPIE.",
+        "prism:coverDate": "2013-08-12",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84881186288",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Alec E.",
+            "preferred-name": {
+                "ce:given-name": "Alec E.",
+                "ce:initials": "A.E.",
+                "ce:surname": "Forsman",
+                "ce:indexed-name": "Forsman A.E."
+            },
+            "@seq": "1",
+            "ce:initials": "A.E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60004306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60004306"
+            },
+            "ce:surname": "Forsman",
+            "@auid": "57225830108",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57225830108",
+            "ce:indexed-name": "Forsman A.E."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84881186288"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84881186288&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84881186288&origin=inward"
+            }
+        ],
+        "prism:isbn": "9780819495358",
+        "prism:publicationName": "Proceedings of SPIE - The International Society for Optical Engineering",
+        "source-id": "40067",
+        "citedby-count": "1",
+        "prism:volume": "8744",
+        "subtype": "cp",
+        "dc:title": "Multi-camera rigid body pose estimation using higher order dynamic models",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1117/12.2015539",
+        "prism:issn": "0277786X 1996756X",
+        "article-number": "874407",
+        "dc:identifier": "SCOPUS_ID:84881186288"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Achievable performance",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Bayesian estimations",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cramer Rao lower bound",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Non-linear least squares",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Position and orientations",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Root-mean square errors",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Second-order dynamic model",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unscented Kalman Filter",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Bayesian estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Tracking"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Alec E.",
+            "preferred-name": {
+                "ce:given-name": "Alec E.",
+                "ce:initials": "A.E.",
+                "ce:surname": "Forsman",
+                "ce:indexed-name": "Forsman A.E."
+            },
+            "@seq": "1",
+            "ce:initials": "A.E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60004306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60004306"
+            },
+            "ce:surname": "Forsman",
+            "@auid": "57225830108",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57225830108",
+            "ce:indexed-name": "Forsman A.E."
+        },
+        {
+            "ce:given-name": "David A.",
+            "preferred-name": {
+                "ce:given-name": "David A.",
+                "ce:initials": "D.A.",
+                "ce:surname": "Schug",
+                "ce:indexed-name": "Schug D.A."
+            },
+            "@seq": "2",
+            "ce:initials": "D.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60004306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60004306"
+            },
+            "ce:surname": "Schug",
+            "@auid": "56700123300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56700123300",
+            "ce:indexed-name": "Schug D.A."
+        },
+        {
+            "ce:given-name": "Anton J.",
+            "preferred-name": {
+                "ce:given-name": "Anton J.",
+                "ce:initials": "A.J.",
+                "ce:surname": "Haug",
+                "ce:indexed-name": "Haug A.J."
+            },
+            "@seq": "3",
+            "ce:initials": "A.J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60022054",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022054"
+            },
+            "ce:surname": "Haug",
+            "@auid": "7102013560",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7102013560",
+            "ce:indexed-name": "Haug A.J."
+        }
+    ]}
+}}

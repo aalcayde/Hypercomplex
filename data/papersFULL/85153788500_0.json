@@ -1,0 +1,1744 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@timestamp": "2023-05-02T15:22:44.000044-04:00",
+                "@year": "2023",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "France",
+                        "@afid": "60031810",
+                        "@country": "fra",
+                        "organization": [
+                            {"$": "IUT le Creusot Universite Bourgogne Franche-Comte"},
+                            {"$": "VIBOT/ImViA"}
+                        ],
+                        "affiliation-id": [
+                            {"@afid": "60031810"},
+                            {"@afid": "60107436"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-947752424-2336b4b8290967e8ae571885613710bd-1",
+                        "ce:source-text": "IUT Le Creusot Universite Bourgogne Franche-Comte, VIBOT/ImViA, France"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Yao",
+                            "preferred-name": {
+                                "ce:given-name": "Yao",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Du",
+                                "ce:indexed-name": "Du Y."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947752424-e02ad9dbf21a311f52bfd70d59d69d8d-1",
+                            "@seq": "1",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Du",
+                            "@auid": "57221764683",
+                            "ce:indexed-name": "Du Y."
+                        },
+                        {
+                            "ce:given-name": "Carlos M",
+                            "preferred-name": {
+                                "ce:given-name": "Carlos M.",
+                                "ce:initials": "C.M.",
+                                "ce:surname": "Mateo",
+                                "ce:indexed-name": "Mateo C.M."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947752424-0180b4816b90264a9e509c45a2fda5ec-1",
+                            "@seq": "2",
+                            "ce:initials": "C.M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Mateo",
+                            "@auid": "56096179300",
+                            "ce:indexed-name": "Mateo C.M."
+                        },
+                        {
+                            "ce:given-name": "Omar",
+                            "preferred-name": {
+                                "ce:given-name": "Omar",
+                                "ce:initials": "O.",
+                                "ce:surname": "Tahri",
+                                "ce:indexed-name": "Tahri O."
+                            },
+                            "@author-instance-id": "OB2BibRecID-947752424-91ff56ffca87f92d012ddd06ebeb2b22-1",
+                            "@seq": "3",
+                            "ce:initials": "O.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Tahri",
+                            "@auid": "24777252800",
+                            "ce:indexed-name": "Tahri O."
+                        }
+                    ]
+                },
+                "citation-title": "Robot Rotation Estimation Using Spherical Moments in Neural Networks",
+                "abstracts": "© 2022 IEEE.This work proposes a method to estimate mobile robot rotation using spherical moments and machine learning. A polynomial fisheye camera model has been used to generate each image considering flying camera along a pre-planned trajectory. A dataset with 2400 images is created and labeled using Blender. The images are processed before it is fed into the neural network using 20 masks to reduces errors caused by non-common parts of the edge in image. afterwards, the spherical moments are obtained, as well as the triplets and the basis. Finally the basis is converted into a quaternion as input of network. Because for a neural network, a smaller number of inputs means faster training and higher accuracy. For the training phase, a strategy of data augmentation is applied. The data set is divided into many fragments (folders) according to a folder size that can be adjusted. Among them, in each training set, a sliding window is used to expend combinations within a certain range to calculate the rotation between two images. In tne end, the model is tested with synthesized fisheye camera data from Blender. The used simulated environment contains different light and weather conditions like fog or bad lighting situation. The proposed method in this paper is compared with different feature-based methods like FAST, ORB, SURF etc., which cannot successfully extract the feature points, to prove the performance of this novel approach. The results show that the method proposed in this paper can still accurately estimate",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "France",
+                        "@country": "fra",
+                        "organization": [
+                            {"$": "IUT le Creusot Universite Bourgogne Franche-Comte"},
+                            {"$": "VIBOT/ImViA"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-947752424-2336b4b8290967e8ae571885613710bd-1",
+                        "ce:source-text": "IUT Le Creusot Universite Bourgogne Franche-Comte, VIBOT/ImViA, France"
+                    },
+                    "person": {
+                        "ce:given-name": "Yao",
+                        "@author-instance-id": "OB2BibRecID-947752424-57f91dc0d1e10c706132b0e23dbefaac-1",
+                        "ce:initials": "Y.",
+                        "ce:surname": "Du",
+                        "ce:indexed-name": "Du Y."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "Proceedings - Applied Imagery Pattern Recognition Workshop",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "2022-October"}},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781665477291",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "2022 IEEE Applied Imagery Pattern Recognition Workshop, AIPR 2022",
+                            "confcatnumber": "CFP22274-ART",
+                            "confseriestitle": "IEEE Applied Imagery Pattern Recognition Workshop",
+                            "conflocation": {
+                                "@country": "usa",
+                                "city": "Washington",
+                                "state": "DC"
+                            },
+                            "confcode": "187883",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "13",
+                                    "@year": "2022",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "11",
+                                    "@year": "2022",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings - Applied Imagery Pattern Recognition Workshop",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Proc. Appl. Imagery Pattern. Recogn. Workshop",
+                    "@country": "usa",
+                    "issuetitle": "2022 IEEE Applied Imagery Pattern Recognition Workshop, AIPR 2022",
+                    "issn": {
+                        "$": "21642516",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "@srcid": "21100479955"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "2200"
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "742.2",
+                            "classification-description": "Photographic and Video Equipment"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "01",
+                    "@timestamp": "BST 07:08:13",
+                    "@year": "2023",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "641121767",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "947752424",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231814031590",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231182676",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231578222",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85153788500",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85153788500",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/AIPR57179.2022.10092205"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "35",
+                "reference": [
+                    {
+                        "ref-fulltext": "Beasley, Ryan A. \"Medical robots: current systems and research directions.\" Journal of Robotics 2012 (2012)",
+                        "@reference-instance-id": "OB2BibRecID-947752424-82819549cdadadaa78b18f19394bc536-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Medical robots: Current systems and research directions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84888270506",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "2012"}},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Beasley",
+                                "ce:indexed-name": "Beasley R.A."
+                            }]},
+                            "ref-sourcetitle": "Journal of Robotics"
+                        },
+                        "ce:source-text": "Beasley, Ryan A. \"Medical robots: current systems and research directions.\" Journal of Robotics 2012 (2012)"
+                    },
+                    {
+                        "ref-fulltext": "Abdi, Jordan, et al. \"Scoping review on the use of socially assistive robot technology in elderly care.\" BMJ open 8.2 (2018): e018815",
+                        "@reference-instance-id": "OB2BibRecID-947752424-39b79e400e86561f3a70ff7fe53d9cee-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Scoping review on the use of socially assistive robot technology in elderly care"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048611864",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "e018815"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jordan",
+                                    "ce:indexed-name": "Jordan A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "BMJ Open"
+                        },
+                        "ce:source-text": "Abdi, Jordan, et al. \"Scoping review on the use of socially assistive robot technology in elderly care.\" BMJ open 8.2 (2018): e018815"
+                    },
+                    {
+                        "ref-fulltext": "Zhao, Yuanshen, et al. \"A review of key techniques of visionbased control for harvesting robot.\" Computers and Electronics in Agriculture 127 (2016): 311-323",
+                        "@reference-instance-id": "OB2BibRecID-947752424-e18dadda7e817a0c2983ad74f965cc57-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A review of key techniques of visionbased control for harvesting robot"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84976644142",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "127"},
+                                "pagerange": {
+                                    "@first": "311",
+                                    "@last": "323"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuanshen",
+                                    "ce:indexed-name": "Yuanshen Z."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Computers and Electronics in Agriculture"
+                        },
+                        "ce:source-text": "Zhao, Yuanshen, et al. \"A review of key techniques of visionbased control for harvesting robot.\" Computers and Electronics in Agriculture 127 (2016): 311-323"
+                    },
+                    {
+                        "ref-fulltext": "Poeting M, Schaudt S, Clausen U. Simulation of an optimized last-mile parcel delivery network involving delivery robots[C]//Interdisciplinary Conference on Production, Logistics and Traffic. Springer, Cham, 2019: 1-19",
+                        "@reference-instance-id": "OB2BibRecID-947752424-d4bf8160e465ac8b6fcf85829e7b09d8-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Simulation of an optimized last-mile parcel delivery network involving delivery robots"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100300855",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "19"
+                            }},
+                            "ref-text": "Springer, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poeting",
+                                    "ce:indexed-name": "Poeting M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaudt",
+                                    "ce:indexed-name": "Schaudt S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clausen",
+                                    "ce:indexed-name": "Clausen U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Interdisciplinary Conference on Production, Logistics and Traffic"
+                        },
+                        "ce:source-text": "Poeting M, Schaudt S, Clausen U. Simulation of an optimized last-mile parcel delivery network involving delivery robots[C]//Interdisciplinary Conference on Production, Logistics and Traffic. Springer, Cham, 2019: 1-19"
+                    },
+                    {
+                        "ref-fulltext": "Du, Yao and Tahri, Omar and Hadj-Abdelkader, Hicham. \"An improved method for Rotation Estimation Using Photometric Spherical Moments.\" 2020 16th International Conference on Control, Automation, Robotics and Vision (ICARCV)",
+                        "@reference-instance-id": "OB2BibRecID-947752424-e1fcac54ab58913fdc3c0fee496155e4-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "An improved method for Rotation Estimation Using Photometric Spherical Moments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100088490",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yao",
+                                    "ce:indexed-name": "Yao D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Omar",
+                                    "ce:indexed-name": "Omar T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hicham",
+                                    "ce:indexed-name": "Hicham H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "16th International Conference on Control, Automation, Robotics and Vision (ICARCV"
+                        },
+                        "ce:source-text": "Du, Yao and Tahri, Omar and Hadj-Abdelkader, Hicham. \"An improved method for Rotation Estimation Using Photometric Spherical Moments.\" 2020 16th International Conference on Control, Automation, Robotics and Vision (ICARCV)"
+                    },
+                    {
+                        "ref-fulltext": "Fernandez-Labrador, Clara and Facil, Jose M. and Perez-Yus, Alejandro and Demonceaux, Cedric and Civera, Javier and Guerrero, Jose J. \"Corners for Layout: End-To-End Layout Recovery From 360 Images.\" IEEE Robotics and Automation Letters (2020)",
+                        "@reference-instance-id": "OB2BibRecID-947752424-eaff71e23b7b6e5ec95e0ba17f6f7544-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Corners for Layout: End-To-End Layout Recovery from 360 Images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85079623837",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clara",
+                                    "ce:indexed-name": "Clara F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Facil Jose",
+                                    "ce:indexed-name": "Facil Jose M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alejandro",
+                                    "ce:indexed-name": "Alejandro P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cedric",
+                                    "ce:indexed-name": "Cedric D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Javier",
+                                    "ce:indexed-name": "Javier C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guerrero Jose",
+                                    "ce:indexed-name": "Guerrero Jose J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robotics and Automation Letters"
+                        },
+                        "ce:source-text": "Fernandez-Labrador, Clara and Facil, Jose M. and Perez-Yus, Alejandro and Demonceaux, Cedric and Civera, Javier and Guerrero, Jose J. \"Corners for Layout: End-To-End Layout Recovery From 360 Images.\" IEEE Robotics and Automation Letters (2020)"
+                    },
+                    {
+                        "ref-fulltext": "Wu, Zongwei and Allibert, Guillaume and Stolz, Christophe and Demonceaux, Cedric. \"Depth-Adapted CNN for RGB-D cameras.\" Proceedings of the Asian Conference on Computer Vision (ACCV)",
+                        "@reference-instance-id": "OB2BibRecID-947752424-60e9afe98cf3895921e9082f492e5632-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Depth-Adapted CNN for RGB-D cameras"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85153725492",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zongwei",
+                                    "ce:indexed-name": "Zongwei W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guillaume",
+                                    "ce:indexed-name": "Guillaume A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Christophe",
+                                    "ce:indexed-name": "Christophe S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cedric",
+                                    "ce:indexed-name": "Cedric D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Asian Conference on Computer Vision (ACCV"
+                        },
+                        "ce:source-text": "Wu, Zongwei and Allibert, Guillaume and Stolz, Christophe and Demonceaux, Cedric. \"Depth-Adapted CNN for RGB-D cameras.\" Proceedings of the Asian Conference on Computer Vision (ACCV)"
+                    },
+                    {
+                        "ref-fulltext": "Wu, Zongwei and Allibert, Guillaume and Stolz, Christophe and Ma, Chao and Demonceaux, Cedric. \"Depth-Adapted CNNs for RGB-D Semantic Segmentation.\" arXiv preprint arXiv:2206.03939",
+                        "@reference-instance-id": "OB2BibRecID-947752424-ad43f1421b2399f061742d4e09596733-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85153741693",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "arXiv preprint arXiv 2206.03939",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zongwei",
+                                    "ce:indexed-name": "Zongwei W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guillaume",
+                                    "ce:indexed-name": "Guillaume A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Christophe",
+                                    "ce:indexed-name": "Christophe S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chao",
+                                    "ce:indexed-name": "Chao M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cedric",
+                                    "ce:indexed-name": "Cedric D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Depth-Adapted CNNs for RGB-D Semantic Segmentation"
+                        },
+                        "ce:source-text": "Wu, Zongwei and Allibert, Guillaume and Stolz, Christophe and Ma, Chao and Demonceaux, Cedric. \"Depth-Adapted CNNs for RGB-D Semantic Segmentation.\" arXiv preprint arXiv:2206.03939"
+                    },
+                    {
+                        "ref-fulltext": "De Castro, E., and C. J. I. T. Morandi. \"Registration of translated and rotated images using finite Fourier transforms.\" IEEE Transactions on pattern analysis and machine intelligence 5 (1987): 700-703",
+                        "@reference-instance-id": "OB2BibRecID-947752424-821e179b2382bf0ded54157aec25bb88-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Registration of translated and rotated images using finite Fourier transforms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84925245477",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "700",
+                                    "@last": "703"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Castro",
+                                    "ce:indexed-name": "De Castro E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.J.I.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morandi",
+                                    "ce:indexed-name": "Morandi C.J.I.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        },
+                        "ce:source-text": "De Castro, E., and C. J. I. T. Morandi. \"Registration of translated and rotated images using finite Fourier transforms.\" IEEE Transactions on pattern analysis and machine intelligence 5 (1987): 700-703"
+                    },
+                    {
+                        "ref-fulltext": "Pillai S, Leonard J J. Towards visual ego-motion learning in robots[C]//2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017: 5533-5540",
+                        "@reference-instance-id": "OB2BibRecID-947752424-14994dcef5e5f105c9786fc43e8e1a43-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Towards visual ego-motion learning in robots"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041964690",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2017"},
+                                "pagerange": {
+                                    "@first": "5533",
+                                    "@last": "5540"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pillai",
+                                    "ce:indexed-name": "Pillai S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leonard",
+                                    "ce:indexed-name": "Leonard J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE"
+                        },
+                        "ce:source-text": "Pillai S, Leonard J J. Towards visual ego-motion learning in robots[C]//2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2017: 5533-5540"
+                    },
+                    {
+                        "ref-fulltext": "Milella A, Siegwart R. Stereo-based ego-motion estimation using pixel tracking and iterative closest point[C]//Fourth IEEE International Conference on Computer Vision Systems (ICVS?06). IEEE, 2006: 21-21",
+                        "@reference-instance-id": "OB2BibRecID-947752424-0dfe623923e6f279e35508b5ff825272-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Stereo-based ego-motion estimation using pixel tracking and iterative closest point[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33749422008",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "21",
+                                "@last": "21"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Milella",
+                                    "ce:indexed-name": "Milella A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siegwart",
+                                    "ce:indexed-name": "Siegwart R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Fourth IEEE International Conference on Computer Vision Systems (ICVS?06). IEEE"
+                        },
+                        "ce:source-text": "Milella A, Siegwart R. Stereo-based ego-motion estimation using pixel tracking and iterative closest point[C]//Fourth IEEE International Conference on Computer Vision Systems (ICVS?06). IEEE, 2006: 21-21"
+                    },
+                    {
+                        "ref-fulltext": "Armesto L, Tornero J, Vincze M. Fast ego-motion estimation with multi-rate fusion of inertial and vision[J]. The International Journal of Robotics Research, 2007, 26(6): 577-589",
+                        "@reference-instance-id": "OB2BibRecID-947752424-3c7ff6780ece45d306a346a3988e2832-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Fast ego-motion estimation with multi-rate fusion of inertial and vision[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34347342969",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "577",
+                                    "@last": "589"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Armesto",
+                                    "ce:indexed-name": "Armesto L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tornero",
+                                    "ce:indexed-name": "Tornero J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vincze",
+                                    "ce:indexed-name": "Vincze M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The International Journal of Robotics Research"
+                        },
+                        "ce:source-text": "Armesto L, Tornero J, Vincze M. Fast ego-motion estimation with multi-rate fusion of inertial and vision[J]. The International Journal of Robotics Research, 2007, 26(6): 577-589"
+                    },
+                    {
+                        "ref-fulltext": "Irani, Michal, Benny Rousso, and Shmuel Peleg. Recovery of egomotion using image stabilization. Leibniz Center for Research in Computer Science, Department of Computer Science, Hebrew University of Jerusalem, 1993",
+                        "@reference-instance-id": "OB2BibRecID-947752424-0db52c3c6081b38bfbaae8a00f7c844b-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Recovery of egomotion using image stabilization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85153726181",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Michal",
+                                    "ce:indexed-name": "Michal I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rousso",
+                                    "ce:indexed-name": "Rousso B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peleg",
+                                    "ce:indexed-name": "Peleg S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Leibniz Center for Research in Computer Science, Department of Computer Science, Hebrew University of Jerusalem"
+                        },
+                        "ce:source-text": "Irani, Michal, Benny Rousso, and Shmuel Peleg. Recovery of egomotion using image stabilization. Leibniz Center for Research in Computer Science, Department of Computer Science, Hebrew University of Jerusalem, 1993"
+                    },
+                    {
+                        "ref-fulltext": "Armesto, Leopoldo, Josep Tornero, and Markus Vincze. \"Fast egomotion estimation with multi-rate fusion of inertial and vision.\" The International Journal of Robotics Research 26.6 (2007): 577-589",
+                        "@reference-instance-id": "OB2BibRecID-947752424-17c2af40119f86573a12532eb8456d5e-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Fast egomotion estimation with multi-rate fusion of inertial and vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34347342969",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "26"
+                                },
+                                "pagerange": {
+                                    "@first": "577",
+                                    "@last": "589"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leopoldo",
+                                    "ce:indexed-name": "Leopoldo A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tornero",
+                                    "ce:indexed-name": "Tornero J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vincze",
+                                    "ce:indexed-name": "Vincze M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The International Journal of Robotics Research"
+                        },
+                        "ce:source-text": "Armesto, Leopoldo, Josep Tornero, and Markus Vincze. \"Fast egomotion estimation with multi-rate fusion of inertial and vision.\" The International Journal of Robotics Research 26.6 (2007): 577-589"
+                    },
+                    {
+                        "ref-fulltext": "Zhou, Tinghui, et al. \"Unsupervised learning of depth and ego-motion from video.\" Proceedings of the IEEE conference on computer vision and pattern recognition. 2017",
+                        "@reference-instance-id": "OB2BibRecID-947752424-969952b59f65af812b5251566084cbbc-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Unsupervised learning of depth and ego-motion from video"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85042592684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tinghui",
+                                    "ce:indexed-name": "Tinghui Z."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Zhou, Tinghui, et al. \"Unsupervised learning of depth and ego-motion from video.\" Proceedings of the IEEE conference on computer vision and pattern recognition. 2017"
+                    },
+                    {
+                        "ref-fulltext": "Pfeiffer, Mark, et al. \"Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models.\" 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016",
+                        "@reference-instance-id": "OB2BibRecID-947752424-f5b34614e7fc1af1b60c38868d70d078-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006369605",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mark",
+                                    "ce:indexed-name": "Mark P."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2016 IEEE/ RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE"
+                        },
+                        "ce:source-text": "Pfeiffer, Mark, et al. \"Predicting actions to act predictably: Cooperative partial motion planning with maximum entropy models.\" 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016"
+                    },
+                    {
+                        "ref-fulltext": "Saxena, Aseem, et al. \"Exploring convolutional networks for end-Toend visual servoing.\" 2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2017",
+                        "@reference-instance-id": "OB2BibRecID-947752424-bed32fb914373c613db26e2a5f837b8d-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Exploring convolutional networks for end-Toend visual servoing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85153723907",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aseem",
+                                    "ce:indexed-name": "Aseem S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE"
+                        },
+                        "ce:source-text": "Saxena, Aseem, et al. \"Exploring convolutional networks for end-Toend visual servoing.\" 2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2017"
+                    },
+                    {
+                        "ref-fulltext": "Torr P H S, Zisserman A. Feature based methods for structure and motion estimation[C]//International workshop on vision algorithms. Springer, Berlin, Heidelberg, 1999: 278-294",
+                        "@reference-instance-id": "OB2BibRecID-947752424-17772d182da45065b2a742c1a2730d4d-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Feature based methods for structure and motion estimation[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003086656",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "278",
+                                "@last": "294"
+                            }},
+                            "ref-text": "Springer, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.H.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Torr",
+                                    "ce:indexed-name": "Torr P.H.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop on Vision Algorithms"
+                        },
+                        "ce:source-text": "Torr P H S, Zisserman A. Feature based methods for structure and motion estimation[C]//International workshop on vision algorithms. Springer, Berlin, Heidelberg, 1999: 278-294"
+                    },
+                    {
+                        "ref-fulltext": "Funayama R, Jeong M H, Osugi M. Image processing apparatus for estimating motion of predetermined feature point of 3D object: U.S. Patent 7, 809, 166[P]. 2010-10-5",
+                        "@reference-instance-id": "OB2BibRecID-947752424-628a8e1ad998f37b4adbcbcb87e26f68-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100116850",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Patent 7 809 166[P] 2010-10-5",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Funayama",
+                                    "ce:indexed-name": "Funayama R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jeong",
+                                    "ce:indexed-name": "Jeong M.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Osugi",
+                                    "ce:indexed-name": "Osugi M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image Processing Apparatus for Estimating Motion of Predetermined Feature Point of 3D Object: U.S"
+                        },
+                        "ce:source-text": "Funayama R, Jeong M H, Osugi M. Image processing apparatus for estimating motion of predetermined feature point of 3D object: U.S. Patent 7, 809, 166[P]. 2010-10-5"
+                    },
+                    {
+                        "ref-fulltext": "Lee M S. Apparatus for estimating motion vectors for feature points of a video signal: U.S. Patent 5, 760, 846[P]. 1998-6-2",
+                        "@reference-instance-id": "OB2BibRecID-947752424-ffbdc3e4de8377ca53e249f9424a3b0a-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100088293",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Patent 5 760 846[P] 1998-6-2",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Lee",
+                                "ce:indexed-name": "Lee M.S."
+                            }]},
+                            "ref-sourcetitle": "Apparatus for Estimating Motion Vectors for Feature Points of A Video Signal: U.S"
+                        },
+                        "ce:source-text": "Lee M S. Apparatus for estimating motion vectors for feature points of a video signal: U.S. Patent 5, 760, 846[P]. 1998-6-2"
+                    },
+                    {
+                        "ref-fulltext": "Li, Peiliang, and Tong Qin. \"Stereo vision-based semantic 3d object and ego-motion tracking for autonomous driving.\" Proceedings of the European Conference on Computer Vision (ECCV). 2018",
+                        "@reference-instance-id": "OB2BibRecID-947752424-36b95a9cbb5521032b76d082869a907e-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Stereo vision-based semantic 3d object and ego-motion tracking for autonomous driving"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85153774335",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peiliang",
+                                    "ce:indexed-name": "Peiliang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the European Conference on Computer Vision (ECCV"
+                        },
+                        "ce:source-text": "Li, Peiliang, and Tong Qin. \"Stereo vision-based semantic 3d object and ego-motion tracking for autonomous driving.\" Proceedings of the European Conference on Computer Vision (ECCV). 2018"
+                    },
+                    {
+                        "ref-fulltext": "Brox T, Malik J. Large displacement optical flow: descriptor matching in variational motion estimation[J]. IEEE transactions on pattern analysis and machine intelligence, 2010, 33(3): 500-513",
+                        "@reference-instance-id": "OB2BibRecID-947752424-b5f4ee069a8a666b0019fec5e16e4faa-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Large displacement optical flow: Descriptor matching in variational motion estimation[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79551562584",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "500",
+                                    "@last": "513"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brox",
+                                    "ce:indexed-name": "Brox T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malik",
+                                    "ce:indexed-name": "Malik J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        },
+                        "ce:source-text": "Brox T, Malik J. Large displacement optical flow: descriptor matching in variational motion estimation[J]. IEEE transactions on pattern analysis and machine intelligence, 2010, 33(3): 500-513"
+                    },
+                    {
+                        "ref-fulltext": "Xu L, Jia J, Matsushita Y. Motion detail preserving optical flow estimation[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011, 34(9): 1744-1757",
+                        "@reference-instance-id": "OB2BibRecID-947752424-dd460be7b40406eeeeaa2187954c646e-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Motion detail preserving optical flow estimation[J]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84865609390",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1744",
+                                    "@last": "1757"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matsushita",
+                                    "ce:indexed-name": "Matsushita Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        },
+                        "ce:source-text": "Xu L, Jia J, Matsushita Y. Motion detail preserving optical flow estimation[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011, 34(9): 1744-1757"
+                    },
+                    {
+                        "ref-fulltext": "Sun D, Roth S, Black M J. Secrets of optical flow estimation and their principles[C]//2010 IEEE computer society conference on computer vision and pattern recognition",
+                        "@reference-instance-id": "OB2BibRecID-947752424-5e116b7d654ba7cf21a5671cbbf07a0a-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Secrets of optical flow estimation and their principles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955989832",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black M.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Sun D, Roth S, Black M J. Secrets of optical flow estimation and their principles[C]//2010 IEEE computer society conference on computer vision and pattern recognition"
+                    },
+                    {
+                        "ref-fulltext": "Zhang, Z., Rebecq, H., Forster, C., Scaramuzza, D. (2016, May). Benefit of large field-of-view cameras for visual odometry. In 2016 IEEE International Conference on Robotics and Automation (ICRA) (pp. 801-808). IEEE",
+                        "@reference-instance-id": "OB2BibRecID-947752424-6cd9ef2b115ce0168bb43728513e1974-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Benefit of large field-of-view cameras for visual odometry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84977515051",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "801",
+                                "@last": "808"
+                            }},
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rebecq",
+                                    "ce:indexed-name": "Rebecq H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forster",
+                                    "ce:indexed-name": "Forster C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scaramuzza",
+                                    "ce:indexed-name": "Scaramuzza D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2016 IEEE International Conference on Robotics and Automation (ICRA)"
+                        },
+                        "ce:source-text": "Zhang, Z., Rebecq, H., Forster, C., Scaramuzza, D. (2016, May). Benefit of large field-of-view cameras for visual odometry. In 2016 IEEE International Conference on Robotics and Automation (ICRA) (pp. 801-808). IEEE"
+                    },
+                    {
+                        "ref-fulltext": "Costante, Gabriele, and Thomas Alessandro Ciarfuglia. \"LS-VO: Learning dense optical subspace for robust visual odometry estimation.\" IEEE Robotics and Automation Letters 3.3 (2018): 1735-1742",
+                        "@reference-instance-id": "OB2BibRecID-947752424-3757444fc0abc834d52120a6c7e6e519-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "LS-VO: Learning dense optical subspace for robust visual odometry estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055089299",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1735",
+                                    "@last": "1742"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gabriele",
+                                    "ce:indexed-name": "Gabriele C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alessandro Ciarfuglia",
+                                    "ce:indexed-name": "Alessandro Ciarfuglia T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robotics and Automation Letters"
+                        },
+                        "ce:source-text": "Costante, Gabriele, and Thomas Alessandro Ciarfuglia. \"LS-VO: Learning dense optical subspace for robust visual odometry estimation.\" IEEE Robotics and Automation Letters 3.3 (2018): 1735-1742"
+                    },
+                    {
+                        "ref-fulltext": "Tahri, O. Application des Moments a L?asservissement Visuel et au Calcul de Pose. Ph.D. Thesis, Universite de Rennes, Rennes, France, 2004",
+                        "@reference-instance-id": "OB2BibRecID-947752424-0da769366f816247f9d2e8b40e317de4-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "29844452823",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D Thesis, Universite de Rennes, Rennes, France",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "O.",
+                                "@_fa": "true",
+                                "ce:surname": "Tahri",
+                                "ce:indexed-name": "Tahri O."
+                            }]},
+                            "ref-sourcetitle": "Application des Moments A L?asservissement Visuel et Au Calcul de Pose"
+                        },
+                        "ce:source-text": "Tahri, O. Application des Moments a L?asservissement Visuel et au Calcul de Pose. Ph.D. Thesis, Universite de Rennes, Rennes, France, 2004"
+                    },
+                    {
+                        "ref-fulltext": "Du Y, Tahri O, Hadj-Abdelkader H. An improved method for Rotation Estimation Using Photometric Spherical Moments[C]//2020 16th International Conference on Control, Automation, Robotics and Vision (ICARCV). IEEE, 2020: 880-885",
+                        "@reference-instance-id": "OB2BibRecID-947752424-7f188aa20416332d92e2361db0391c0d-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "An improved method for Rotation Estimation Using Photometric Spherical Moments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85100088490",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "880",
+                                "@last": "885"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tahri",
+                                    "ce:indexed-name": "Tahri O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hadj-Abdelkader",
+                                    "ce:indexed-name": "Hadj-Abdelkader H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2020 16th International Conference on Control, Automation, Robotics and Vision (ICARCV IEEE"
+                        },
+                        "ce:source-text": "Du Y, Tahri O, Hadj-Abdelkader H. An improved method for Rotation Estimation Using Photometric Spherical Moments[C]//2020 16th International Conference on Control, Automation, Robotics and Vision (ICARCV). IEEE, 2020: 880-885"
+                    },
+                    {
+                        "ref-fulltext": "Hadj-Abdelkader H, Tahri O, Benseddik H E. Closed form solution for Rotation Estimation using Photometric Spherical Moments[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018: 627-634",
+                        "@reference-instance-id": "OB2BibRecID-947752424-9efc1187148856fa495090b219602709-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Closed form solution for Rotation Estimation using Photometric Spherical Moments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062966067",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "627",
+                                "@last": "634"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hadj-Abdelkader",
+                                    "ce:indexed-name": "Hadj-Abdelkader H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tahri",
+                                    "ce:indexed-name": "Tahri O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benseddik",
+                                    "ce:indexed-name": "Benseddik H.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE"
+                        },
+                        "ce:source-text": "Hadj-Abdelkader H, Tahri O, Benseddik H E. Closed form solution for Rotation Estimation using Photometric Spherical Moments[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2018: 627-634"
+                    },
+                    {
+                        "ref-fulltext": "B. Micusik, Two View Geometry of Omnidirectional Cameras. PhD thesis, Center for Machine Perception, Czech Technical University in Prague, 2004",
+                        "@reference-instance-id": "OB2BibRecID-947752424-a57641553462a022b483ef71f6b12bd0-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33846170432",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "PhD thesis Center for Machine Perception, Czech Technical University Prague",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Micusik",
+                                "ce:indexed-name": "Micusik B."
+                            }]},
+                            "ref-sourcetitle": "Two View Geometry of Omnidirectional Cameras"
+                        },
+                        "ce:source-text": "B. Micusik, Two View Geometry of Omnidirectional Cameras. PhD thesis, Center for Machine Perception, Czech Technical University in Prague, 2004"
+                    },
+                    {
+                        "ref-fulltext": "B. Micusik and T. Pajdla, \"Estimation of omnidirectional camera model from epipolar geometry, \" in CVPR, jun 2003",
+                        "@reference-instance-id": "OB2BibRecID-947752424-a728c37c14abd5a6f13488f29f95ab43-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Estimation of omnidirectional camera model from epipolar geometry"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0041513418",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Micusik",
+                                    "ce:indexed-name": "Micusik B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pajdla",
+                                    "ce:indexed-name": "Pajdla T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CVPR"
+                        },
+                        "ce:source-text": "B. Micusik and T. Pajdla, \"Estimation of omnidirectional camera model from epipolar geometry, \" in CVPR, jun 2003"
+                    },
+                    {
+                        "ref-fulltext": "Scaramuzza D. Omnidirectional vision: from calibration to root motion estimation[D]. ETH Zurich, 2007",
+                        "@reference-instance-id": "OB2BibRecID-947752424-52fde4051e9a84b2d8fc08267c6653cb-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955792489",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "[D]. ETH Zurich",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Scaramuzza",
+                                "ce:indexed-name": "Scaramuzza D."
+                            }]},
+                            "ref-sourcetitle": "Omnidirectional Vision: From Calibration to Root Motion Estimation"
+                        },
+                        "ce:source-text": "Scaramuzza D. Omnidirectional vision: from calibration to root motion estimation[D]. ETH Zurich, 2007"
+                    },
+                    {
+                        "ref-fulltext": "Geyer C, Daniilidis K. A unifying theory for central panoramic systems and practical implications[C]//European conference on computer vision. Springer, Berlin, Heidelberg, 2000: 445-461",
+                        "@reference-instance-id": "OB2BibRecID-947752424-9f7dbd9e8bb72b75d73f0cac38296dd5-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "A unifying theory for central panoramic systems and practical implications[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84944075004",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "445",
+                                "@last": "461"
+                            }},
+                            "ref-text": "Springer, Berlin, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geyer",
+                                    "ce:indexed-name": "Geyer C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daniilidis",
+                                    "ce:indexed-name": "Daniilidis K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "European Conference on Computer Vision"
+                        },
+                        "ce:source-text": "Geyer C, Daniilidis K. A unifying theory for central panoramic systems and practical implications[C]//European conference on computer vision. Springer, Berlin, Heidelberg, 2000: 445-461"
+                    },
+                    {
+                        "ref-fulltext": "J. P. Barreto and H. Araujo, \"Issues on the geometry of central catadioptric image formation, \" Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001, 2001, pp. II-II, doi: 10.1109/CVPR.2001.990992",
+                        "@reference-instance-id": "OB2BibRecID-947752424-df8fc9b753dcde37af41942fb35dd496-34",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Issues on the geometry of central catadioptric image formation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/CVPR.2001.990992",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "0035696681",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "II",
+                                "@last": "II"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barreto",
+                                    "ce:indexed-name": "Barreto J.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Araujo",
+                                    "ce:indexed-name": "Araujo H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition CVPR 2001"
+                        },
+                        "ce:source-text": "J. P. Barreto and H. Araujo, \"Issues on the geometry of central catadioptric image formation, \" Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001, 2001, pp. II-II, doi: 10.1109/CVPR.2001.990992"
+                    },
+                    {
+                        "ref-fulltext": "Qi C R, Su H, Mo K, et al. Pointnet: Deep learning on point sets for 3d classification and segmentation[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 652-660",
+                        "@reference-instance-id": "OB2BibRecID-947752424-6ec9a27934260e0bfc00d3927bfe8833-35",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Pointnet: Deep learning on point sets for 3d classification and segmentation[C]"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043534104",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "652",
+                                "@last": "660"
+                            }},
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Qi",
+                                        "ce:indexed-name": "Qi C.R."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Su",
+                                        "ce:indexed-name": "Su H."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Mo",
+                                        "ce:indexed-name": "Mo K."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Qi C R, Su H, Mo K, et al. Pointnet: Deep learning on point sets for 3d classification and segmentation[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 652-660"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Dijon",
+        "@id": "60031810",
+        "affilname": "Université de Bourgogne",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031810",
+        "affiliation-country": "France"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85153788500",
+        "dc:description": "This work proposes a method to estimate mobile robot rotation using spherical moments and machine learning. A polynomial fisheye camera model has been used to generate each image considering flying camera along a pre-planned trajectory. A dataset with 2400 images is created and labeled using Blender. The images are processed before it is fed into the neural network using 20 masks to reduces errors caused by non-common parts of the edge in image. afterwards, the spherical moments are obtained, as well as the triplets and the basis. Finally the basis is converted into a quaternion as input of network. Because for a neural network, a smaller number of inputs means faster training and higher accuracy. For the training phase, a strategy of data augmentation is applied. The data set is divided into many fragments (folders) according to a folder size that can be adjusted. Among them, in each training set, a sliding window is used to expend combinations within a certain range to calculate the rotation between two images. In tne end, the model is tested with synthesized fisheye camera data from Blender. The used simulated environment contains different light and weather conditions like fog or bad lighting situation. The proposed method in this paper is compared with different feature-based methods like FAST, ORB, SURF etc., which cannot successfully extract the feature points, to prove the performance of this novel approach. The results show that the method proposed in this paper can still accurately estimate",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85153788500",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Yao",
+            "preferred-name": {
+                "ce:given-name": "Yao",
+                "ce:initials": "Y.",
+                "ce:surname": "Du",
+                "ce:indexed-name": "Du Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60031810",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031810"
+            },
+            "ce:surname": "Du",
+            "@auid": "57221764683",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57221764683",
+            "ce:indexed-name": "Du Y."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85153788500"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85153788500&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85153788500&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781665477291",
+        "prism:publicationName": "Proceedings - Applied Imagery Pattern Recognition Workshop",
+        "source-id": "21100479955",
+        "citedby-count": "0",
+        "prism:volume": "2022-October",
+        "subtype": "cp",
+        "dc:title": "Robot Rotation Estimation Using Spherical Moments in Neural Networks",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/AIPR57179.2022.10092205",
+        "prism:issn": "21642516",
+        "publishercopyright": "© 2022 IEEE.",
+        "dc:identifier": "SCOPUS_ID:85153788500",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Camera model",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Data augmentation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fish-eye cameras",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "High-accuracy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Machine-learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural-networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Phase A",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rotation estimations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Training accuracy",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Training phasis",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Engineering (all)",
+        "@code": "2200",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Yao",
+            "preferred-name": {
+                "ce:given-name": "Yao",
+                "ce:initials": "Y.",
+                "ce:surname": "Du",
+                "ce:indexed-name": "Du Y."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60031810",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031810"
+            },
+            "ce:surname": "Du",
+            "@auid": "57221764683",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57221764683",
+            "ce:indexed-name": "Du Y."
+        },
+        {
+            "ce:given-name": "Carlos M",
+            "preferred-name": {
+                "ce:given-name": "Carlos M.",
+                "ce:initials": "C.M.",
+                "ce:surname": "Mateo",
+                "ce:indexed-name": "Mateo C.M."
+            },
+            "@seq": "2",
+            "ce:initials": "C.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60031810",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031810"
+            },
+            "ce:surname": "Mateo",
+            "@auid": "56096179300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56096179300",
+            "ce:indexed-name": "Mateo C.M."
+        },
+        {
+            "ce:given-name": "Omar",
+            "preferred-name": {
+                "ce:given-name": "Omar",
+                "ce:initials": "O.",
+                "ce:surname": "Tahri",
+                "ce:indexed-name": "Tahri O."
+            },
+            "@seq": "3",
+            "ce:initials": "O.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60031810",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60031810"
+            },
+            "ce:surname": "Tahri",
+            "@auid": "24777252800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/24777252800",
+            "ce:indexed-name": "Tahri O."
+        }
+    ]}
+}}

@@ -1,0 +1,1206 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "05",
+                "@timestamp": "2021-05-05T19:49:15.000015-04:00",
+                "@year": "2021",
+                "@month": "05"
+            },
+            "ait:date-sort": {
+                "@day": "25",
+                "@year": "2005",
+                "@month": "08"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "91058 Erlangen",
+                            "country": "Germany",
+                            "address-part": "Martensstr. 3",
+                            "@afid": "60000765",
+                            "@country": "deu",
+                            "organization": [
+                                {"$": "Friedrich-Alexander University (FAU)"},
+                                {"$": "Pattern Recognition"}
+                            ],
+                            "affiliation-id": {"@afid": "60000765"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Dieter A.",
+                                "preferred-name": {
+                                    "ce:given-name": "Dieter A.",
+                                    "ce:initials": "D.A.",
+                                    "ce:surname": "Hahn",
+                                    "ce:indexed-name": "Hahn D.A."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "D.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Hahn",
+                                "@auid": "8670743500",
+                                "ce:indexed-name": "Hahn D.A."
+                            },
+                            {
+                                "ce:given-name": "Joachim",
+                                "preferred-name": {
+                                    "ce:given-name": "Joachim",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Hornegger",
+                                    "ce:indexed-name": "Hornegger J."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Hornegger",
+                                "@auid": "6603448080",
+                                "ce:indexed-name": "Hornegger J."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "91054 Erlangen",
+                            "country": "Germany",
+                            "address-part": "Maximiliansplatz 1",
+                            "@afid": "60000765",
+                            "@date-locked": "2021-05-04T10:00:11.420",
+                            "@country": "deu",
+                            "organization": [
+                                {"$": "FAU"},
+                                {"$": "Institute of Radiology"}
+                            ],
+                            "affiliation-id": [
+                                {
+                                    "@afid": "60000765",
+                                    "@dptid": "123162131"
+                                },
+                                {"@afid": "60029931"}
+                            ],
+                            "@dptid": "123162131"
+                        },
+                        "author": [{
+                            "preferred-name": {
+                                "ce:given-name": "W.",
+                                "ce:initials": "W.",
+                                "ce:surname": "Bautz",
+                                "ce:indexed-name": "Bautz W."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "W.",
+                            "@_fa": "true",
+                            "ce:surname": "Bautz",
+                            "@auid": "7006772252",
+                            "ce:indexed-name": "Bautz W."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "91054 Erlangen",
+                            "country": "Germany",
+                            "address-part": "Krankenhausstr. 12",
+                            "@afid": "60000765",
+                            "@date-locked": "2021-05-04T10:00:11.420",
+                            "@country": "deu",
+                            "organization": [
+                                {"$": "FAU"},
+                                {"$": "Clinic of Nuclear Medicine"}
+                            ],
+                            "affiliation-id": [
+                                {
+                                    "@afid": "60000765",
+                                    "@dptid": "123162131"
+                                },
+                                {"@afid": "60029931"}
+                            ],
+                            "@dptid": "123162131"
+                        },
+                        "author": [
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "T.",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Kuwert",
+                                    "ce:indexed-name": "Kuwert T."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "T.",
+                                "@date-locked": "2020-09-03T04:10:34.001",
+                                "@_fa": "true",
+                                "ce:surname": "Kuwert",
+                                "@auid": "7006265976",
+                                "ce:indexed-name": "Kuwert T."
+                            },
+                            {
+                                "preferred-name": {
+                                    "ce:given-name": "W.",
+                                    "ce:initials": "W.",
+                                    "ce:surname": "Römer",
+                                    "ce:indexed-name": "Römer W."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "ce:surname": "Römer",
+                                "@auid": "7005219854",
+                                "ce:indexed-name": "Romer W."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Unbiased rigid registration using transfer functions",
+                "abstracts": "The evaluation of tumor growth as regression under therapy is an important clinical issue. Rigid registration of sequentially acquired SD-images has proven its value for this purpose. Existing approaches to rigid image registration use the whole volume for the estimation of the rigid transform. Non-rigid soft tissue deformation, however, will imply a bias to the registration result, because local deformations cannot be modeled by rigid transforms. Anatomical substructures, like bones or teeth, are not affected by these deformations, but follow a rigid transform. This important observation is incorporated in the proposed registration algorithm. The selection of anatomical substructure is done by manual interaction of medical experts adjusting the transfer function of the volume rendering software. The parameters of the transfer function are used to identify the voxels that are considered for registration. A rigid transform is estimated by a quaternion gradient descent algorithm based on the intensity values of the specified tissue classes. Commonly used voxel intensity measures are adjusted to the modified registration algorithm. The contribution describes the mathematical framework of the proposed registration method and its implementation in a commercial software package. The experimental evaluation includes the discussion of different similarity measures, the comparison of the proposed method to established rigid registration techniques and the evaluation of the efficiency of the new method. We conclude with the discussion of potential medical applications of the proposed registration algorithm.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "91058 Erlangen",
+                        "country": "Germany",
+                        "address-part": "Martensstr. 3",
+                        "@country": "deu",
+                        "organization": [
+                            {"$": "Friedrich-Alexander University (FAU)"},
+                            {"$": "Pattern Recognition"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "J.",
+                        "ce:surname": "Hornegger",
+                        "ce:indexed-name": "Hornegger J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Gradient Descent",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Mono-modal Registration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Optimization",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Rigid Registration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Similarity Measure",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Transfer Function",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Unbiased Estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Voxel Intensity",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Progr. Biomed. Opt. Imaging Proc. SPIE",
+                    "@country": "usa",
+                    "issuetitle": "Medical Imaging 2005 - Image Processing",
+                    "issn": {
+                        "$": "16057422",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "5747",
+                            "@issue": "I"
+                        },
+                        "pagerange": {
+                            "@first": "151",
+                            "@last": "162"
+                        }
+                    },
+                    "@type": "p",
+                    "publicationyear": {"@first": "2005"},
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {
+                            "confeditors": {
+                                "editororganization": "Vanderbilt University",
+                                "editoraddress": "United States",
+                                "editors": {
+                                    "editor": [
+                                        {
+                                            "ce:initials": "J.M.",
+                                            "ce:surname": "Fitzpatrick",
+                                            "ce:indexed-name": "Fitzpatrick J.M."
+                                        },
+                                        {
+                                            "ce:initials": "J.M.",
+                                            "ce:surname": "Reinhardt",
+                                            "ce:indexed-name": "Reinhardt J.M."
+                                        }
+                                    ],
+                                    "@complete": "y"
+                                }
+                            },
+                            "procpagecount": "2200",
+                            "procpartno": "1 of 3"
+                        },
+                        "confevent": {
+                            "confname": "Medical Imaging 2005 - Image Processing",
+                            "confsponsors": {
+                                "confsponsor": "SPIE",
+                                "@complete": "y"
+                            },
+                            "conflocation": {
+                                "city-group": "San Diego, CA",
+                                "@country": "usa"
+                            },
+                            "confcode": "65433",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "17",
+                                    "@year": "2005",
+                                    "@month": "02"
+                                },
+                                "startdate": {
+                                    "@day": "13",
+                                    "@year": "2005",
+                                    "@month": "02"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Progress in Biomedical Optics and Imaging - Proceedings of SPIE",
+                    "article-number": "16",
+                    "@srcid": "130022",
+                    "publicationdate": {
+                        "year": "2005",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2005"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "461.2"},
+                            {"$": "723"},
+                            {"$": "741"},
+                            {"$": "921.3"},
+                            {"$": "921.5"}
+                        ]
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3107"},
+                            {"$": "2502"},
+                            {"$": "2741"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "MEDI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2008 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "25",
+                    "@year": "2005",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "41146656",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2005349316498",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "23844512814",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "23844512814",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.594577"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "14",
+                "reference": [
+                    {
+                        "ref-fulltext": "L. G. Brown, \"A survey of image registration techniques,\" ACM Comput. Surv. 24(4), pp. 325-376, 1992.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "A survey of image registration techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026967479",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "325",
+                                    "@last": "376"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Brown",
+                                "ce:indexed-name": "Brown L.G."
+                            }]},
+                            "ref-sourcetitle": "ACM Comput. Surv."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. V. D. Eisen, J. B. A. Maintz, E. Pol, and M. A. Viergever, \"Medical image matching - a review with classification,\" IEEE Engineering in Medicine and Biology 12(4), pp. 26-39, 1993.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Medical image matching - A review with classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027556622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "26",
+                                    "@last": "39"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.V.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eisen",
+                                    "ce:indexed-name": "Eisen P.V.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.B.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maintz",
+                                    "ce:indexed-name": "Maintz J.B.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pol",
+                                    "ce:indexed-name": "Pol E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Engineering in Medicine and Biology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. L. G. Hill and P. G. Batchelor and M. Holden and D. J. Hawkes, \"Medical image registration,\" Physics in Medicine and Biology 46(3), pp. R1-R45, 2001.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Medical image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035103741",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "pages": "R1-R45",
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "3"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.L.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hill",
+                                    "ce:indexed-name": "Hill D.L.G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Batchelor",
+                                    "ce:indexed-name": "Batchelor P.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holden",
+                                    "ce:indexed-name": "Holden M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hawkes",
+                                    "ce:indexed-name": "Hawkes D.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Physics in Medicine and Biology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Hajnal, D. Hill, and D. Hawkes, Medical Image Registration, CRC Press, 2001.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057403488",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "CRC Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hajnal",
+                                    "ce:indexed-name": "Hajnal J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hill",
+                                    "ce:indexed-name": "Hill D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hawkes",
+                                    "ce:indexed-name": "Hawkes D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Image Registration"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Maintz and M. Viergever, \"A survey of medical image registration,\" Medical Image Analysis 2(1), pp. 1-36, 1998.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "A survey of medical image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032008619",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "36"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maintz",
+                                    "ce:indexed-name": "Maintz J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Image Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. P. Woods, S. T. Grafton, C. J. Holmes, S. R. Cherry, and J. C. Mazziotta, \"Automated image registration: I. general methods and intrasubject, intramodality validation,\" J. Comput. Assist. Tomogr. 22(1), pp. 139-152, 1998.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Automated image registration: I. General methods and intrasubject, intramodality validation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031910991",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "139",
+                                    "@last": "152"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Woods",
+                                    "ce:indexed-name": "Woods R.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grafton",
+                                    "ce:indexed-name": "Grafton S.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holmes",
+                                    "ce:indexed-name": "Holmes C.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cherry",
+                                    "ce:indexed-name": "Cherry S.R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazziotta",
+                                    "ce:indexed-name": "Mazziotta J.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Comput. Assist. Tomogr."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. J. Althof and M. G. J. Wind and J. T. Dobbins, \"A rapid and automatic image registration algorithm with subpixel accuracy,\" IEEE Trans. Med. Imag. 16(3), pp. 308-316, 1997.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "A rapid and automatic image registration algorithm with subpixel accuracy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031150147",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "308",
+                                    "@last": "316"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Althof",
+                                    "ce:indexed-name": "Althof R.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.G.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wind",
+                                    "ce:indexed-name": "Wind M.G.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dobbins",
+                                    "ce:indexed-name": "Dobbins J.T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imag."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Venkataraman, Applied Optimization with Matlab Programming, ch. Numerical Techniques for Unconstrained Optimization. John Wiley and Sons Inc., 2002.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0344358219",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ch. Numerical Techniques for Unconstrained Optimization. John Wiley and Sons Inc.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Venkataraman",
+                                "ce:indexed-name": "Venkataraman P."
+                            }]},
+                            "ref-sourcetitle": "Applied Optimization with Matlab Programming"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Armijo, \"Minimization of functions having lipschitz continuous first-partial derivatives,\" Pacific Journal of Mathematics 16(1), pp. 1-3, 1966.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1966"},
+                            "ref-title": {"ref-titletext": "Minimization of functions having lipschitz continuous first-partial derivatives"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84966275544",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "3"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Armijo",
+                                "ce:indexed-name": "Armijo L."
+                            }]},
+                            "ref-sourcetitle": "Pacific Journal of Mathematics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Inside InSpace from Siemens Medical Solutions and HipGraphics, Inc., 2004. http://www.insideinspace.com.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.insideinspace.com",
+                                "@type": "url"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33645205135",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Inside InSpace from Siemens Medical Solutions and HipGraphics, Inc."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. H. W. Meijering, Image Enhancement in Digital X-Ray Angiography. PhD thesis, Utrecht University, 2000.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142174147",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "PhD thesis, Utrecht University",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.H.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Meijering",
+                                "ce:indexed-name": "Meijering E.H.W."
+                            }]},
+                            "ref-sourcetitle": "Image Enhancement in Digital X-ray Angiography"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. Wells, P. Viola, H. Atsumi, S. Nakajima, and R. Kikinis, \"Multi-modal volume registration by maximization of mutual information,\" Medical Image Analysis 1(1), pp. 35-51, 1996.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Multi-modal volume registration by maximization of mutual information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030088712",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "35",
+                                    "@last": "51"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wells",
+                                    "ce:indexed-name": "Wells W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viola",
+                                    "ce:indexed-name": "Viola P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Atsumi",
+                                    "ce:indexed-name": "Atsumi H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nakajima",
+                                    "ce:indexed-name": "Nakajima S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kikinis",
+                                    "ce:indexed-name": "Kikinis R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Image Analysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Collignon, F. Maes, D. Delaere, D. Vandermeulen, P. Suetens, and G. Marchal, Information Processing in Medical Imaging, ch. Automated Multi-modality Image Registration Based On Information Theory, pp. 263-274. Kluwer Academic, Dordrecht, 1995.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000190431",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "263",
+                                "@last": "274"
+                            }},
+                            "ref-text": "ch. Automated Multi-modality Image Registration Based On Information Theory, Kluwer Academic, Dordrecht",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collignon",
+                                    "ce:indexed-name": "Collignon A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maes",
+                                    "ce:indexed-name": "Maes F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delaere",
+                                    "ce:indexed-name": "Delaere D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vandermeulen",
+                                    "ce:indexed-name": "Vandermeulen D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suetens",
+                                    "ce:indexed-name": "Suetens P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marchal",
+                                    "ce:indexed-name": "Marchal G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Information Processing in Medical Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Studholme, D. L. G. Hill, and D. J. Hawkes, \"An overlap invariant entropy measure of 3D medical image alignment,\" Pattern Recognition 32(1), pp. 71-86, 1999.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "An overlap invariant entropy measure of 3D medical image alignment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032762144",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "71",
+                                    "@last": "86"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Studholme",
+                                    "ce:indexed-name": "Studholme C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.L.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hill",
+                                    "ce:indexed-name": "Hill D.L.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hawkes",
+                                    "ce:indexed-name": "Hawkes D.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recognition"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Erlangen",
+        "@id": "60000765",
+        "affilname": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765",
+        "affiliation-country": "Germany"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-23844512814",
+        "dc:description": "The evaluation of tumor growth as regression under therapy is an important clinical issue. Rigid registration of sequentially acquired SD-images has proven its value for this purpose. Existing approaches to rigid image registration use the whole volume for the estimation of the rigid transform. Non-rigid soft tissue deformation, however, will imply a bias to the registration result, because local deformations cannot be modeled by rigid transforms. Anatomical substructures, like bones or teeth, are not affected by these deformations, but follow a rigid transform. This important observation is incorporated in the proposed registration algorithm. The selection of anatomical substructure is done by manual interaction of medical experts adjusting the transfer function of the volume rendering software. The parameters of the transfer function are used to identify the voxels that are considered for registration. A rigid transform is estimated by a quaternion gradient descent algorithm based on the intensity values of the specified tissue classes. Commonly used voxel intensity measures are adjusted to the modified registration algorithm. The contribution describes the mathematical framework of the proposed registration method and its implementation in a commercial software package. The experimental evaluation includes the discussion of different similarity measures, the comparison of the proposed method to established rigid registration techniques and the evaluation of the efficiency of the new method. We conclude with the discussion of potential medical applications of the proposed registration algorithm.",
+        "prism:coverDate": "2005-08-25",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/23844512814",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Dieter A.",
+            "preferred-name": {
+                "ce:given-name": "Dieter A.",
+                "ce:initials": "D.A.",
+                "ce:surname": "Hahn",
+                "ce:indexed-name": "Hahn D.A."
+            },
+            "@seq": "1",
+            "ce:initials": "D.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000765",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765"
+            },
+            "ce:surname": "Hahn",
+            "@auid": "8670743500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8670743500",
+            "ce:indexed-name": "Hahn D.A."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/23844512814"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=23844512814&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=23844512814&origin=inward"
+            }
+        ],
+        "source-id": "130022",
+        "citedby-count": "7",
+        "prism:volume": "5747",
+        "subtype": "cp",
+        "dc:title": "Unbiased rigid registration using transfer functions",
+        "openaccess": "0",
+        "prism:issn": "16057422",
+        "article-number": "16",
+        "prism:issueIdentifier": "I",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Progress in Biomedical Optics and Imaging - Proceedings of SPIE",
+        "prism:pageRange": "151-162",
+        "prism:endingPage": "162",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1117/12.594577",
+        "prism:startingPage": "151",
+        "dc:identifier": "SCOPUS_ID:23844512814"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Gradient descent",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mono-modal registration",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rigid registration",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Similarity measure",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unbiased estimation",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Voxel intensity",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Gradient Descent"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mono-modal Registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Optimization"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rigid Registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Similarity Measure"
+        },
+        {
+            "@_fa": "true",
+            "$": "Transfer Function"
+        },
+        {
+            "@_fa": "true",
+            "$": "Unbiased Estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Voxel Intensity"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Atomic and Molecular Physics, and Optics",
+            "@code": "3107",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biomaterials",
+            "@code": "2502",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Radiology, Nuclear Medicine and Imaging",
+            "@code": "2741",
+            "@abbrev": "MEDI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Dieter A.",
+            "preferred-name": {
+                "ce:given-name": "Dieter A.",
+                "ce:initials": "D.A.",
+                "ce:surname": "Hahn",
+                "ce:indexed-name": "Hahn D.A."
+            },
+            "@seq": "1",
+            "ce:initials": "D.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000765",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765"
+            },
+            "ce:surname": "Hahn",
+            "@auid": "8670743500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8670743500",
+            "ce:indexed-name": "Hahn D.A."
+        },
+        {
+            "ce:given-name": "Joachim",
+            "preferred-name": {
+                "ce:given-name": "Joachim",
+                "ce:initials": "J.",
+                "ce:surname": "Hornegger",
+                "ce:indexed-name": "Hornegger J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000765",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765"
+            },
+            "ce:surname": "Hornegger",
+            "@auid": "6603448080",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603448080",
+            "ce:indexed-name": "Hornegger J."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "W.",
+                "ce:initials": "W.",
+                "ce:surname": "Bautz",
+                "ce:indexed-name": "Bautz W."
+            },
+            "@seq": "3",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000765",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765"
+            },
+            "ce:surname": "Bautz",
+            "@auid": "7006772252",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7006772252",
+            "ce:indexed-name": "Bautz W."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "T.",
+                "ce:initials": "T.",
+                "ce:surname": "Kuwert",
+                "ce:indexed-name": "Kuwert T."
+            },
+            "@seq": "4",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000765",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765"
+            },
+            "ce:surname": "Kuwert",
+            "@auid": "7006265976",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7006265976",
+            "ce:indexed-name": "Kuwert T."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "W.",
+                "ce:initials": "W.",
+                "ce:surname": "Römer",
+                "ce:indexed-name": "Römer W."
+            },
+            "@seq": "5",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60000765",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60000765"
+            },
+            "ce:surname": "Römer",
+            "@auid": "7005219854",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005219854",
+            "ce:indexed-name": "Romer W."
+        }
+    ]}
+}}

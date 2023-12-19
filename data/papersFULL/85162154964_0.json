@@ -1,0 +1,2333 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "10",
+                "@year": "2023",
+                "@timestamp": "2023-07-10T23:12:12.000012-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "03"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Aviation Fund",
+                    "xocs:funding-id": "20200007018001"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Nanjing University of Aeronautics and Astronautics",
+                    "xocs:funding-id": "MCMS-I-0121G03"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                    "xocs:funding-id": [
+                        {"$": "62020106003"},
+                        {"$": "62273177"},
+                        {"$": "U22B6001"}
+                    ]
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Natural Science Foundation of Jiangsu Province",
+                    "xocs:funding-id": [
+                        {"$": "BK20211566"},
+                        {"$": "BK20222012"}
+                    ]
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Pro-gramme of Introducing Talents of Discipline to Universities of China",
+                    "xocs:funding-id": "B20007"
+                },
+                {"xocs:funding-agency-matched-string": "State Key Laboratory of Mechanical Structural Mechanics and Control"}
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-06-21T23:26:30.616Z",
+            "xocs:funding-text": "Supported by National Natural Science Foundation of China (62020106003, 62273177, U22B6001), Natural Science Foundation of Jiangsu Province (BK20222012, BK20211566), Pro-gramme of Introducing Talents of Discipline to Universities of China (B20007), State Key Laboratory of Mechanical Structural Mechanics and Control (Nanjing University of Aeronautics and Astronautics) Independent Research Project (MCMS-I-0121G03), and Aviation Fund (20200007018001)",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "211106",
+                        "@afid": "60021666",
+                        "@country": "chn",
+                        "city": "Nanjing",
+                        "organization": [
+                            {"$": "College of Automation Engineering"},
+                            {"$": "Nanjing University of Aeronautics and Astronautics"}
+                        ],
+                        "affiliation-id": {"@afid": "60021666"},
+                        "@affiliation-instance-id": "OB2BibRecID-948886828-20cc9ced3a4d814e240cc69815c8cd19-1",
+                        "ce:source-text": "College of Automation Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 211106"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Ya-Jie",
+                            "preferred-name": {
+                                "ce:given-name": "Ya Jie",
+                                "ce:initials": "Y.J.",
+                                "ce:surname": "Ma",
+                                "ce:indexed-name": "Ma Y.J."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "OB2BibRecID-948886828-c4b966cdece2fe2399e0e85fe8985af8-1",
+                            "ce:initials": "Y.-J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "马亚杰",
+                            "ce:surname": "Ma",
+                            "@auid": "55604466900",
+                            "ce:indexed-name": "Ma Y.-J."
+                        },
+                        {
+                            "ce:given-name": "Bin",
+                            "preferred-name": {
+                                "ce:given-name": "Bin",
+                                "ce:initials": "B.",
+                                "ce:surname": "Jiang",
+                                "ce:indexed-name": "Jiang B."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "OB2BibRecID-948886828-faaf4aed894d5b9ac2ecb5456aebdd24-1",
+                            "ce:initials": "B.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "姜 斌",
+                            "ce:surname": "Jiang",
+                            "@auid": "57677608500",
+                            "ce:indexed-name": "Jiang B."
+                        },
+                        {
+                            "ce:given-name": "Hao",
+                            "preferred-name": {
+                                "ce:given-name": "Hao",
+                                "ce:initials": "H.",
+                                "ce:surname": "Ren",
+                                "ce:indexed-name": "Ren H."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "OB2BibRecID-948886828-a91507ff90a477c0112a9e2329328508-1",
+                            "ce:initials": "H.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:alt-name": "任 好",
+                            "ce:surname": "Ren",
+                            "@auid": "57220953993",
+                            "ce:indexed-name": "Ren H."
+                        }
+                    ]
+                },
+                "citation-title": "Adaptive Direct Fault-tolerant Control Design for Spacecraft Integrated Attitude and Orbit System航天器位姿运动一体化直接自适应容错控制研究",
+                "abstracts": "© 2023 Science Press. All rights reserved.This paper proposes an adaptive direct fault-tolerant control method for the tracking spacecraft with actuator faults during proximity operations, to ensure the stability and the asymptotic tracking performance of the target spacecraft. Based on dual quaternion theory constructing the integrated spacecraft attitude and orbit control system, a nominal control signal is designed assuming that the faults are known; adaptive update laws are designed to estimate the unknown parameters in the nominal control signal to form the adaptive control law; and multiple Lyapunov functions are used to analyse the performance of the system with multiple actuator faults. Simulation results demonstrate the effectiveness of the proposed method.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "211106",
+                        "@country": "chn",
+                        "city": "Nanjing",
+                        "organization": [
+                            {"$": "College of Automation Engineering"},
+                            {"$": "Nanjing University of Aeronautics and Astronautics"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-948886828-20cc9ced3a4d814e240cc69815c8cd19-1",
+                        "ce:source-text": "College of Automation Engineering, Nanjing University of Aeronautics and Astronautics, Nanjing 211106"
+                    },
+                    "person": {
+                        "ce:given-name": "Bin",
+                        "@author-instance-id": "OB2BibRecID-948886828-dcf2d8e015d8d63a81047009f16e5352-1",
+                        "ce:initials": "B.",
+                        "ce:alt-name": "姜 斌",
+                        "ce:surname": "Jiang",
+                        "ce:indexed-name": "Jiang B."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Actuator fault",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "adaptive direct control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "dual quaternion",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "multiple actuator faults",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "proximity operation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "Chinese",
+                        "@xml:lang": "chi"
+                    },
+                    "abstract-language": [
+                        {
+                            "@language": "English",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "@language": "Chinese",
+                            "@xml:lang": "chi"
+                        }
+                    ]
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c220501",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Zidonghua Xuebao/Acta Automatica Sinica",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "49",
+                            "@issue": "3"
+                        },
+                        "pagerange": {
+                            "@first": "678",
+                            "@last": "686"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Zidonghua Xuebao/Acta Automatica Sinica",
+                    "publicationdate": {
+                        "month": "03",
+                        "year": "2023",
+                        "date-text": "March 2023",
+                        "day": "01"
+                    },
+                    "codencode": "ZIXUD",
+                    "sourcetitle-abbrev": "Zidonghua Xuebao Acta Auto. Sin.",
+                    "@country": "chn",
+                    "issn": {
+                        "$": "02544156",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Science Press"},
+                    "@srcid": "25566"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "732.1",
+                                "classification-description": "Control Equipment"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2207"},
+                            {"$": "1712"},
+                            {"$": "1710"},
+                            {"$": "1704"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "Supported by National Natural Science Foundation of China (62020106003, 62273177, U22B6001), Natural Science Foundation of Jiangsu Province (BK20222012, BK20211566), Pro-gramme of Introducing Talents of Discipline to Universities of China (B20007), State Key Laboratory of Mechanical Structural Mechanics and Control (Nanjing University of Aeronautics and Astronautics) Independent Research Project (MCMS-I-0121G03), and Aviation Fund (20200007018001)",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-id": "20200007018001",
+                            "grant-acronym": "NUAA",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "Nanjing University of Aeronautics and Astronautics"
+                            },
+                            "grant-agency-id": "501100004193"
+                        },
+                        {
+                            "grant-id": "62020106003",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        },
+                        {
+                            "grant-id": "62273177",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        },
+                        {
+                            "grant-id": "B20007",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "Natural Science Foundation of Jiangsu Province"
+                            },
+                            "grant-agency-id": "501100004608"
+                        },
+                        {
+                            "grant-id": "BK20211566",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "Natural Science Foundation of Jiangsu Province"
+                            },
+                            "grant-agency-id": "501100004608"
+                        },
+                        {
+                            "grant-id": "BK20222012",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "Natural Science Foundation of Jiangsu Province"
+                            },
+                            "grant-agency-id": "501100004608"
+                        },
+                        {
+                            "grant-id": "MCMS-I-0121G03",
+                            "grant-acronym": "NUAA",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "Nanjing University of Aeronautics and Astronautics"
+                            },
+                            "grant-agency-id": "501100004193"
+                        },
+                        {
+                            "grant-id": "U22B6001",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "21",
+                    "@year": "2023",
+                    "@timestamp": "BST 17:01:12",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2025095687",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "948886828",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20232514269100",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231705078",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20232272004",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20239017655861",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85162154964",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85162154964",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.16383/j.aas.c220501"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "34",
+                "reference": [
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Zheng Zhong, Li Peng, Qian Mo-Shu. Spacecraft attitude coordination control with angular velocity and input constraints. Acta Automatica Sinca, 2021, 47(6): 1444−1452 (郑重, 李鹏, 钱默抒. 具有角速度和输入约束的航天器姿态协同控制. 自动化学报, 2021, 47(6): 1444−1452)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-3b2e7c58f19ab0109fc368f06fc3a9a4-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Spacecraft attitude coordination control with angular velocity and input constraints"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85110972921",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "47",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1444",
+                                    "@last": "1452"
+                                }
+                            },
+                            "ref-text": "(郑重, 李鹏, 钱默抒. 具有角速度和输入约束的航天器姿态协同控制. 自动化学报, 2021, 47(6): 1444−1452)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Zhong",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng Zhong"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Peng",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Peng"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Mo-Shu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian Mo-Shu"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Automatica Sinca"
+                        },
+                        "ce:source-text": "Zheng Zhong, Li Peng, Qian Mo-Shu. Spacecraft attitude coordination control with angular velocity and input constraints. Acta Automatica Sinca, 2021, 47(6): 1444−1452 (郑重, 李鹏, 钱默抒. 具有角速度和输入约束的航天器姿态协同控制. 自动化学报, 2021, 47(6): 1444−1452)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Geng Yun-Hai, Jin Rong-Yu, Chen Xue-Qin, Li Dong-Bai. Spacecraft attitude fault tolerant control with actuator fault. Journal of Astronautics, 2017, 38(11): 1186−1194 (耿云海, 金荣玉, 陈雪芹, 李冬柏. 执行机构故障的航天器姿态容错控制. 宇航学报, 2017, 38(11): 1186−1194)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-abc02881a92870bac3312a5d07262871-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Spacecraft attitude fault tolerant control with actuator fault"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85043387292",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1186",
+                                    "@last": "1194"
+                                }
+                            },
+                            "ref-text": "(耿云海, 金荣玉, 陈雪芹, 李冬柏. 执行机构故障的航天器姿态容错控制. 宇航学报, 2017, 38(11): 1186−1194)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yun-Hai",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geng",
+                                    "ce:indexed-name": "Geng Yun-Hai"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Rong-Yu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Rong-Yu"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Xue-Qin",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Xue-Qin"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Dong-Bai",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Dong-Bai"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Astronautics"
+                        },
+                        "ce:source-text": "Geng Yun-Hai, Jin Rong-Yu, Chen Xue-Qin, Li Dong-Bai. Spacecraft attitude fault tolerant control with actuator fault. Journal of Astronautics, 2017, 38(11): 1186−1194 (耿云海, 金荣玉, 陈雪芹, 李冬柏. 执行机构故障的航天器姿态容错控制. 宇航学报, 2017, 38(11): 1186−1194)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wang D Y, Fu F Z, Li W B, Tu Y Y, Liu C R, Liu W J. A review of the diagnosability of control systems with applications to spacecraft. Annual Reviews in Control, 2020, 49: 212−229",
+                        "@reference-instance-id": "OB2BibRecID-948886828-cd97327fc9a06f943e42bf4bf1a2ff21-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A review of the diagnosability of control systems with applications to spacecraft"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083224655",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "49"},
+                                "pagerange": {
+                                    "@first": "212",
+                                    "@last": "229"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang D Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F Z",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu F Z"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W B"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu Y Y"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C R"
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "W J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Annual Reviews in Control"
+                        },
+                        "ce:source-text": "Wang D Y, Fu F Z, Li W B, Tu Y Y, Liu C R, Liu W J. A review of the diagnosability of control systems with applications to spacecraft. Annual Reviews in Control, 2020, 49: 212−229"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Fu F Z, Xue T, Wu Z G, Wang D Y. A fault diagnosability evaluation method for dynamic systems without distribution knowledge. IEEE Transactions on Cybernetics, 2022, 52(6): 5113−5123",
+                        "@reference-instance-id": "OB2BibRecID-948886828-daa0ef440e3b2798809dcf8430d2a2eb-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "A fault diagnosability evaluation method for dynamic systems without distribution knowledge"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85132456089",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "5113",
+                                    "@last": "5123"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F Z",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu F Z"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue T"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu Z G"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang D Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Cybernetics"
+                        },
+                        "ce:source-text": "Fu F Z, Xue T, Wu Z G, Wang D Y. A fault diagnosability evaluation method for dynamic systems without distribution knowledge. IEEE Transactions on Cybernetics, 2022, 52(6): 5113−5123"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wang Da-Yi, Tu Yuan-Yuan, Liu Cheng-Rui, He Ying-Zi, Li Wen-Bo. Connotation and research of reconfigurability for spacecraft control systems: A review. Acta Automatica Sinca, 2017, 43(10): 1687−1702 (王大轶, 屠园园, 刘成瑞, 何英姿, 李文博. 航天器控制系统可重构性的内涵与研究综述. 自动化学报, 2017, 43(10): 1687−1702)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-986dadf3470d11bc937ddbc1ad731c48-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Connotation and research of reconfigurability for spacecraft control systems: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85035046810",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1687",
+                                    "@last": "1702"
+                                }
+                            },
+                            "ref-text": "(王大轶, 屠园园, 刘成瑞, 何英姿, 李文博. 航天器控制系统可重构性的内涵与研究综述. 自动化学报, 2017, 43(10): 1687−1702)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Da-Yi",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Da-Yi"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Yuan-Yuan",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu Yuan-Yuan"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Cheng-Rui",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Cheng-Rui"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Ying-Zi",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Ying-Zi"
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Wen-Bo",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Wen-Bo"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Automatica Sinca"
+                        },
+                        "ce:source-text": "Wang Da-Yi, Tu Yuan-Yuan, Liu Cheng-Rui, He Ying-Zi, Li Wen-Bo. Connotation and research of reconfigurability for spacecraft control systems: A review. Acta Automatica Sinca, 2017, 43(10): 1687−1702 (王大轶, 屠园园, 刘成瑞, 何英姿, 李文博. 航天器控制系统可重构性的内涵与研究综述. 自动化学报, 2017, 43(10): 1687−1702)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wen Li-Yan, Tao Gang, Jiang Bin, Yang Jie. A multiple-model based adaptive actuator failure compensation scheme for nonlinear systems with dynamic mutations. Acta Automatica Sinica, 2022, 48(1): 207−222 (文利燕, 陶钢, 姜斌, 杨杰. 非线性动态突变系统的多模型自适应执行器故障补偿设计. 自动化学报, 2022, 48(1): 207−222)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-c29855545fec047577039271b062c0e8-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "A multiple-model based adaptive actuator failure compensation scheme for nonlinear systems with dynamic mutations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85124119183",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "48",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "207",
+                                    "@last": "222"
+                                }
+                            },
+                            "ref-text": "(文利燕, 陶钢, 姜斌, 杨杰. 非线性动态突变系统的多模型自适应执行器故障补偿设计. 自动化学报, 2022, 48(1): 207−222)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Li-Yan",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen Li-Yan"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Gang",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao Gang"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Bin",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang Bin"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Jie",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Jie"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Automatica Sinica"
+                        },
+                        "ce:source-text": "Wen Li-Yan, Tao Gang, Jiang Bin, Yang Jie. A multiple-model based adaptive actuator failure compensation scheme for nonlinear systems with dynamic mutations. Acta Automatica Sinica, 2022, 48(1): 207−222 (文利燕, 陶钢, 姜斌, 杨杰. 非线性动态突变系统的多模型自适应执行器故障补偿设计. 自动化学报, 2022, 48(1): 207−222)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Zhang Shao-Jie, Wu Xue, Liu Chun-Sheng. Optimal adaptive output tracking control for a class of uncertain nonlinear systems with actuator failures. Acta Automatica Sinica, 2018, 44(12): 2188−2197 (张绍杰, 吴雪, 刘春生. 执行器故障不确定非线性系统最优自适应输出跟踪控制. 自动化学报, 2018, 44(12): 2188−2197)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-2421c0e2b815c93fb80a74c98702bc64-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Optimal adaptive output tracking control for a class of uncertain nonlinear systems with actuator failures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062841988",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "44",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2188",
+                                    "@last": "2197"
+                                }
+                            },
+                            "ref-text": "(张绍杰, 吴雪, 刘春生. 执行器故障不确定非线性系统最优自适应输出跟踪控制. 自动化学报, 2018, 44(12): 2188−2197)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Shao-Jie",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Shao-Jie"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Xue",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu Xue"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Chun-Sheng",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Chun-Sheng"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Automatica Sinica"
+                        },
+                        "ce:source-text": "Zhang Shao-Jie, Wu Xue, Liu Chun-Sheng. Optimal adaptive output tracking control for a class of uncertain nonlinear systems with actuator failures. Acta Automatica Sinica, 2018, 44(12): 2188−2197 (张绍杰, 吴雪, 刘春生. 执行器故障不确定非线性系统最优自适应输出跟踪控制. 自动化学报, 2018, 44(12): 2188−2197)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Zhang Fu-Zhen, Jin Lei. Sliding-mode fault-tolerant attitude control for spacecraft using SGCMGs. Journal of Beijing University of Aeronautics and Astronsutics, 2017, 43(4): 806−813 (张福桢, 金磊. 使用 SGCMGs 航天器滑模姿态容错控制. 北京航空航天大学学报, 2017, 43(4): 806−813)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-1b138792d248fbce000297f1cf235640-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Sliding-mode fault-tolerant attitude control for spacecraft using SGCMGs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019999124",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "806",
+                                    "@last": "813"
+                                }
+                            },
+                            "ref-text": "(张福桢, 金磊. 使用 SGCMGs 航天器滑模姿态容错控制. 北京航空航天大学学报, 2017, 43(4): 806−813)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Fu-Zhen",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Fu-Zhen"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Lei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Lei"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Beijing University of Aeronautics and Astronsutics"
+                        },
+                        "ce:source-text": "Zhang Fu-Zhen, Jin Lei. Sliding-mode fault-tolerant attitude control for spacecraft using SGCMGs. Journal of Beijing University of Aeronautics and Astronsutics, 2017, 43(4): 806−813 (张福桢, 金磊. 使用 SGCMGs 航天器滑模姿态容错控制. 北京航空航天大学学报, 2017, 43(4): 806−813)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Zhu X Y, Zhu Z H, Chen J L. Dual quaternion-based adaptive iterative learning control for flexible spacecraft rendezvous. Acta Astronautica, 2021, 189: 99−118",
+                        "@reference-instance-id": "OB2BibRecID-948886828-7fb8bc38f0700b05367b91a59d6235b7-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Dual quaternion-based adaptive iterative learning control for flexible spacecraft rendezvous"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85113450219",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "189"},
+                                "pagerange": {
+                                    "@first": "99",
+                                    "@last": "118"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu X Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z H",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z H"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen J L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronautica"
+                        },
+                        "ce:source-text": "Zhu X Y, Zhu Z H, Chen J L. Dual quaternion-based adaptive iterative learning control for flexible spacecraft rendezvous. Acta Astronautica, 2021, 189: 99−118"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Mei Ya-Fei, Liao Ying, Gong Ke-Jie, Luo Da. Fixed-time fault-tolerant control for coupled spacecraft on SE(3). Acta Astronautica et Astronautica Sinca, 2021, 42(11): 525089-1−14 (梅亚飞, 廖瑛, 龚轲杰, 罗达. SE(3) 上航天器姿轨耦合固定时间容错控制. 航空学报, 2021, 42(11): 525089-1−14)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-a4aaba36077b857d9cbd1f7f05d6a215-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Fixed-time fault-tolerant control for coupled spacecraft on SE(3)"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85120316738",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {"@first": "525089"}
+                            },
+                            "ref-text": "1−14 (梅亚飞, 廖瑛, 龚轲杰, 罗达. SE(3) 上航天器姿轨耦合固定时间容错控制. 航空学报, 2021, 42(11): 525089-1−14)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Ya-Fei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mei",
+                                    "ce:indexed-name": "Mei Ya-Fei"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Ying",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liao",
+                                    "ce:indexed-name": "Liao Ying"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Ke-Jie",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong Ke-Jie"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Da",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo Da"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronautica et Astronautica Sinca"
+                        },
+                        "ce:source-text": "Mei Ya-Fei, Liao Ying, Gong Ke-Jie, Luo Da. Fixed-time fault-tolerant control for coupled spacecraft on SE(3). Acta Astronautica et Astronautica Sinca, 2021, 42(11): 525089-1−14 (梅亚飞, 廖瑛, 龚轲杰, 罗达. SE(3) 上航天器姿轨耦合固定时间容错控制. 航空学报, 2021, 42(11): 525089-1−14)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Shen Yi, Li Li-Liang, Wang Zhen-Hua. A review of fault diagnosis and fault-tolerant control techniques for spacecraft. Journal of Astronautics, 2020, 41(6): 647−656 (沈毅, 李利亮, 王振华. 航天器故障诊断与容错控制技术研究综述. 宇航学报, 2020, 41(6): 647−656)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-16ad5dc78d378c1ce2868132e51c7568-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A review of fault diagnosis and fault-tolerant control techniques for spacecraft"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089370191",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "41",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "647",
+                                    "@last": "656"
+                                }
+                            },
+                            "ref-text": "(沈毅, 李利亮, 王振华. 航天器故障诊断与容错控制技术研究综述. 宇航学报, 2020, 41(6): 647−656)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yi",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen Yi"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Li-Liang",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Li-Liang"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Zhen-Hua",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Zhen-Hua"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Astronautics"
+                        },
+                        "ce:source-text": "Shen Yi, Li Li-Liang, Wang Zhen-Hua. A review of fault diagnosis and fault-tolerant control techniques for spacecraft. Journal of Astronautics, 2020, 41(6): 647−656 (沈毅, 李利亮, 王振华. 航天器故障诊断与容错控制技术研究综述. 宇航学报, 2020, 41(6): 647−656)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Jin Xiao-Zheng, Yang Guang-Hong, Chang Xiao-Heng, Che Wei-Wei. Robust fault-tolerant H∞control with adaptive compensation. Acta Automatica Sinica, 2013, 39(1): 31−42 (金小峥, 杨光红, 常晓恒, 车伟伟. 容错控制系统鲁棒 H∞和自适应补偿设计. 自动化学报, 2013, 39(1): 31−42)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-eb84978de4d0ef2b03fe01955e46d888-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Robust fault-tolerant H∞control with adaptive compensation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84873978787",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "31",
+                                    "@last": "42"
+                                }
+                            },
+                            "ref-text": "(金小峥, 杨光红, 常晓恒, 车伟伟. 容错控制系统鲁棒 H∞和自适应补偿设计. 自动化学报, 2013, 39(1): 31−42)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Xiao-Zheng",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Xiao-Zheng"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Guang-Hong",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Guang-Hong"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Xiao-Heng",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang Xiao-Heng"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Wei-Wei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Che",
+                                    "ce:indexed-name": "Che Wei-Wei"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Automatica Sinica"
+                        },
+                        "ce:source-text": "Jin Xiao-Zheng, Yang Guang-Hong, Chang Xiao-Heng, Che Wei-Wei. Robust fault-tolerant H∞ control with adaptive compensation. Acta Automatica Sinica, 2013, 39(1): 31−42 (金小峥, 杨光红, 常晓恒, 车伟伟. 容错控制系统鲁棒 H∞ 和自适应补偿设计. 自动化学报, 2013, 39(1): 31−42)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Xiao B, Hu Q L, Singhose W, Huo X. Reaction wheel fault compensation and disturbance rejection for spacecraft attitude tracking. Journal of Guidance, Control, and Dynamics, 2013, 36(6): 1565−1575",
+                        "@reference-instance-id": "OB2BibRecID-948886828-0f42b089563432bbca3ef1a4017ba072-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Reaction wheel fault compensation and disturbance rejection for spacecraft attitude tracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893509905",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1565",
+                                    "@last": "1575"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao B"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Q L"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singhose",
+                                    "ce:indexed-name": "Singhose W"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huo",
+                                    "ce:indexed-name": "Huo X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        },
+                        "ce:source-text": "Xiao B, Hu Q L, Singhose W, Huo X. Reaction wheel fault compensation and disturbance rejection for spacecraft attitude tracking. Journal of Guidance, Control, and Dynamics, 2013, 36(6): 1565−1575"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Yao X L, Tao G, Ma Y J, Qi R Y. Adaptive actuator failure compensation design for spacecraft attitude control. IEEE Transactions on Aerospace and Electronic Systems, 2016, 52(3): 1021−1034",
+                        "@reference-instance-id": "OB2BibRecID-948886828-861a2c591d53349b48eaa98f8425ddc3-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Adaptive actuator failure compensation design for spacecraft attitude control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979911447",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1021",
+                                    "@last": "1034"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yao",
+                                    "ce:indexed-name": "Yao X L"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao G"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Y J"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qi",
+                                    "ce:indexed-name": "Qi R Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems"
+                        },
+                        "ce:source-text": "Yao X L, Tao G, Ma Y J, Qi R Y. Adaptive actuator failure compensation design for spacecraft attitude control. IEEE Transactions on Aerospace and Electronic Systems, 2016, 52(3): 1021−1034"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Gui H C, de Ruiter A H J. Adaptive fault-tolerant spacecraft pose tracking with control allocation. IEEE Transactions on Control Systems Technology, 2019, 27(2): 479−494",
+                        "@reference-instance-id": "OB2BibRecID-948886828-dccb44c22a844e957e80539e2d81a3b5-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Adaptive fault-tolerant spacecraft pose tracking with control allocation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85037570703",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "479494"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H C",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gui",
+                                    "ce:indexed-name": "Gui H C"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A H J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "de Ruiter",
+                                    "ce:indexed-name": "de Ruiter A H J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Control Systems Technology"
+                        },
+                        "ce:source-text": "Gui H C, de Ruiter A H J. Adaptive fault-tolerant spacecraft pose tracking with control allocation. IEEE Transactions on Control Systems Technology, 2019, 27(2): 479−494"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Xia K W, Zou Y. Adaptive saturated fault-tolerant control for spacecraft rendezvous with redundancy thrusters. IEEE Transactions on Control Systems Technology, 2021, 29(2): 502−513",
+                        "@reference-instance-id": "OB2BibRecID-948886828-eb77614fd529c0b094e9ebe1b4146cf6-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Adaptive saturated fault-tolerant control for spacecraft rendezvous with redundancy thrusters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85075645116",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {"@first": "502513"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K W",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia K W"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Control Systems Technology"
+                        },
+                        "ce:source-text": "Xia K W, Zou Y. Adaptive saturated fault-tolerant control for spacecraft rendezvous with redundancy thrusters. IEEE Transactions on Control Systems Technology, 2021, 29(2): 502−513"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Xia K W, Zou Y. Adaptive fixed-time fault-tolerant control for noncooperative spacecraft proximity using relative motion information. Nonlinear Dynamics, 2020, 100: 2521−2535",
+                        "@reference-instance-id": "OB2BibRecID-948886828-0776fe422b59d9de7a9924d155fbc554-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Adaptive fixed-time fault-tolerant control for noncooperative spacecraft proximity using relative motion information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85083962299",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "100"},
+                                "pagerange": {
+                                    "@first": "2521",
+                                    "@last": "2535"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K W",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia K W"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nonlinear Dynamics"
+                        },
+                        "ce:source-text": "Xia K W, Zou Y. Adaptive fixed-time fault-tolerant control for noncooperative spacecraft proximity using relative motion information. Nonlinear Dynamics, 2020, 100: 2521−2535"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Hu Qing-Lei, Jiang Bo-Yan, Shi Zhong. Novel terminal sliding mode based fault tolerant attitude control for spacecraft under actuator faults. Acta Astronautica et Astronautica Sinca, 2014, 35(1): 249−258 (胡庆雷, 姜博严, 石忠. 基于新型终端滑模的航天器执行器故障容错姿态控制. 航空学报, 2014, 35(1): 249−258)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-c1c897715b2d518b9dc66db3f7157757-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Novel terminal sliding mode based fault tolerant attitude control for spacecraft under actuator faults"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84894801428",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "249",
+                                    "@last": "258"
+                                }
+                            },
+                            "ref-text": "(胡庆雷, 姜博严, 石忠. 基于新型终端滑模的航天器执行器故障容错姿态控制. 航空学报, 2014, 35(1): 249−258)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Qing-Lei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Qing-Lei"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Bo-Yan",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang Bo-Yan"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Zhong",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi Zhong"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronautica et Astronautica Sinca"
+                        },
+                        "ce:source-text": "Hu Qing-Lei, Jiang Bo-Yan, Shi Zhong. Novel terminal sliding mode based fault tolerant attitude control for spacecraft under actuator faults. Acta Astronautica et Astronautica Sinca, 2014, 35(1): 249−258 (胡庆雷, 姜博严, 石忠. 基于新型终端滑模的航天器执行器故障容错姿态控制. 航空学报, 2014, 35(1): 249−258)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Yu Yan-Bo, Hu Qing-Lei, Dong Hong-Yang, Ma Guang-Fu. Sliding mode fault tolerant control for spacecraft under actuat- or fault and saturation. Journal of Harbin Institute of Technology, 2016, 48(4): 20−25 (于彦波, 胡庆雷, 董宏洋, 马广富. 执行器故障与饱和受限的航天器滑模容错控制. 航空学报, 2016, 48(4): 20−25)",
+                        "@reference-instance-id": "OB2BibRecID-948886828-dc56e14bfd25b92eb824248a4984b5ef-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Sliding mode fault tolerant control for spacecraft under actuat- or fault and saturation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84966605190",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "48",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "20",
+                                    "@last": "25"
+                                }
+                            },
+                            "ref-text": "(于彦波, 胡庆雷, 董宏洋, 马广富. 执行器故障与饱和受限的航天器滑模容错控制. 航空学报, 2016, 48(4): 20−25)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Yan-Bo",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Yan-Bo"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Qing-Lei",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Qing-Lei"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Hong-Yang",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong Hong-Yang"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Guang-Fu",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Guang-Fu"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Harbin Institute of Technology"
+                        },
+                        "ce:source-text": "Yu Yan-Bo, Hu Qing-Lei, Dong Hong-Yang, Ma Guang-Fu. Sliding mode fault tolerant control for spacecraft under actuat- or fault and saturation. Journal of Harbin Institute of Technology, 2016, 48(4): 20−25 (于彦波, 胡庆雷, 董宏洋, 马广富. 执行器故障与饱和受限的航天器滑模容错控制. 航空学报, 2016, 48(4): 20−25)"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Jiang B Y, Hu Q L, Friswell M I. Fixed-time rendezvous control of spacecraft with a tumbling target under loss of actuator effectiveness. IEEE Transactions on Aerospace and Electronic Systems, 2016, 52(4): 1576−1586",
+                        "@reference-instance-id": "OB2BibRecID-948886828-61c8166013bc82d138a6e8868a140a96-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Fixed-time rendezvous control of spacecraft with a tumbling target under loss of actuator effectiveness"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84997335616",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1576",
+                                    "@last": "1586"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang B Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Q L"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Friswell",
+                                    "ce:indexed-name": "Friswell M I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems"
+                        },
+                        "ce:source-text": "Jiang B Y, Hu Q L, Friswell M I. Fixed-time rendezvous control of spacecraft with a tumbling target under loss of actuator effectiveness. IEEE Transactions on Aerospace and Electronic Systems, 2016, 52(4): 1576−1586"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Li Q, Yuan J P, Sun C. Robust fault-tolerant saturated control for spacecraft proximity operations with actuator saturation and faults. Advances in Space Research, 2019, 63(5): 1541−1553",
+                        "@reference-instance-id": "OB2BibRecID-948886828-a9e68ae4d58470919d76dee68b14b43e-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Robust fault-tolerant saturated control for spacecraft proximity operations with actuator saturation and faults"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057371221",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "63",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1541",
+                                    "@last": "1553"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Q"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J P",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan J P"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Space Research"
+                        },
+                        "ce:source-text": "Li Q, Yuan J P, Sun C. Robust fault-tolerant saturated control for spacecraft proximity operations with actuator saturation and faults. Advances in Space Research, 2019, 63(5): 1541−1553"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Wang Y, Liu K, Ji H B. Adaptive robust fault-tolerant control scheme for spacecraft proximity operations under external disturbances and input saturation. Nonlinear Dynamics, 2022, 108(1): 207−222",
+                        "@reference-instance-id": "OB2BibRecID-948886828-dc809861a526a8cb753999ff519220d9-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "Adaptive robust fault-tolerant control scheme for spacecraft proximity operations under external disturbances and input saturation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85122666313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "108",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "207222"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu K"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ji",
+                                    "ce:indexed-name": "Ji H B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nonlinear Dynamics"
+                        },
+                        "ce:source-text": "Wang Y, Liu K, Ji H B. Adaptive robust fault-tolerant control scheme for spacecraft proximity operations under external disturbances and input saturation. Nonlinear Dynamics, 2022, 108(1): 207−222"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Philip N, Ananthasayanam M. Relative position and attitude estimation and control schemes for the final phase of an autonomous docking mission of spacecraft. Acta Astronautica, 2003, 52(7): 511−522",
+                        "@reference-instance-id": "OB2BibRecID-948886828-cc1594f1814c8678489bd6fb85c4b589-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Relative position and attitude estimation and control schemes for the final phase of an autonomous docking mission of spacecraft"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037395890",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {"@first": "511522"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N",
+                                    "@_fa": "true",
+                                    "ce:surname": "Philip",
+                                    "ce:indexed-name": "Philip N"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ananthasayanam",
+                                    "ce:indexed-name": "Ananthasayanam M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronautica"
+                        },
+                        "ce:source-text": "Philip N, Ananthasayanam M. Relative position and attitude estimation and control schemes for the final phase of an autonomous docking mission of spacecraft. Acta Astronautica, 2003, 52(7): 511−522"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Hu Q L, Shao X D, Chen W H. Robust fault-tolerant tracking control for spacecraft proximity operations using time-varying sliding mode. IEEE Transactions on Aerospace and Electronic Systems, 2018, 54(1): 2−17",
+                        "@reference-instance-id": "OB2BibRecID-948886828-7d77b3ff94a84b256128e00741c0a199-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Robust fault-tolerant tracking control for spacecraft proximity operations using time-varying sliding mode"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85028943577",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "2",
+                                    "@last": "17"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Q L"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shao",
+                                    "ce:indexed-name": "Shao X D"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen W H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems"
+                        },
+                        "ce:source-text": "Hu Q L, Shao X D, Chen W H. Robust fault-tolerant tracking control for spacecraft proximity operations using time-varying sliding mode. IEEE Transactions on Aerospace and Electronic Systems, 2018, 54(1): 2−17"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Sun L, Huo W, Jiao Z X. Adaptive backstepping control of spacecraft rendezvous and proximity operations with input saturation and full-state constraint. IEEE Transactions on Industrial Electronics, 2017, 64(1): 480−492",
+                        "@reference-instance-id": "OB2BibRecID-948886828-ad846fabeb04a1f6a8e874d09b4d6208-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Adaptive backstepping control of spacecraft rendezvous and proximity operations with input saturation and full-state constraint"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85006869004",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {"@first": "480492"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun L"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huo",
+                                    "ce:indexed-name": "Huo W"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiao",
+                                    "ce:indexed-name": "Jiao Z X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Industrial Electronics"
+                        },
+                        "ce:source-text": "Sun L, Huo W, Jiao Z X. Adaptive backstepping control of spacecraft rendezvous and proximity operations with input saturation and full-state constraint. IEEE Transactions on Industrial Electronics, 2017, 64(1): 480−492"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Sveier A, Myhre T, Egeland O. Pose estimation with dual quaternions and iterative closest point. Advances in Computing and Communications, 2018: 1913−1920",
+                        "@reference-instance-id": "OB2BibRecID-948886828-d1b280934c0283e47e39e527f1216189-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Pose estimation with dual quaternions and iterative closest point"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85052595482",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1913",
+                                "@last": "1920"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sveier",
+                                    "ce:indexed-name": "Sveier A"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T",
+                                    "@_fa": "true",
+                                    "ce:surname": "Myhre",
+                                    "ce:indexed-name": "Myhre T"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Egeland",
+                                    "ce:indexed-name": "Egeland O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Computing and Communications"
+                        },
+                        "ce:source-text": "Sveier A, Myhre T, Egeland O. Pose estimation with dual quaternions and iterative closest point. Advances in Computing and Communications, 2018: 1913−1920"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Dong H Y, Hu Q L, Friswell M I, Ma G F. Dual-quaternion-based fault-tolerant control for spacecraft tracking with finite-time convergence. IEEE Transactions on Control Systems Technology, 2016, 24(4): 1231−1242",
+                        "@reference-instance-id": "OB2BibRecID-948886828-63c82bd175ac5eccd27f6b5681eb3e4e-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Dual-quaternion-based fault-tolerant control for spacecraft tracking with finite-time convergence"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85027707435",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1231",
+                                    "@last": "1242"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong H Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Q L"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M I",
+                                    "@_fa": "true",
+                                    "ce:surname": "Friswell",
+                                    "ce:indexed-name": "Friswell M I"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma G F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Control Systems Technology"
+                        },
+                        "ce:source-text": "Dong H Y, Hu Q L, Friswell M I, Ma G F. Dual-quaternion-based fault-tolerant control for spacecraft tracking with finite-time convergence. IEEE Transactions on Control Systems Technology, 2016, 24(4): 1231−1242"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Yang J T, Stoll E. Adaptive sliding mode control for spacecraft proximity operations based on dual quaternions. Journal of Guidance, Control, and Dynamics, 2019, 42(11): 2356−2368",
+                        "@reference-instance-id": "OB2BibRecID-948886828-f66ab20541a47d073a7835be0293b325-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Adaptive sliding mode control for spacecraft proximity operations based on dual quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85096288457",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "42",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "2356",
+                                    "@last": "2368"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J T",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J T"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stoll",
+                                    "ce:indexed-name": "Stoll E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        },
+                        "ce:source-text": "Yang J T, Stoll E. Adaptive sliding mode control for spacecraft proximity operations based on dual quaternions. Journal of Guidance, Control, and Dynamics, 2019, 42(11): 2356−2368"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Geng Y Z, Biggs J D, Li C J. Pose regulation via the dual unitary group: An application to spacecraft rendezvous. IEEE Transactions on Aerospace and Electronic Systems, 2021, 57(6): 3734−3748",
+                        "@reference-instance-id": "OB2BibRecID-948886828-32aa4135533a54369d70b1eae2921018-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Pose regulation via the dual unitary group: An application to spacecraft rendezvous"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85111604517",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "3734",
+                                    "@last": "3748"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y Z",
+                                    "@_fa": "true",
+                                    "ce:surname": "Geng",
+                                    "ce:indexed-name": "Geng Y Z"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J D",
+                                    "@_fa": "true",
+                                    "ce:surname": "Biggs",
+                                    "ce:indexed-name": "Biggs J D"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems"
+                        },
+                        "ce:source-text": "Geng Y Z, Biggs J D, Li C J. Pose regulation via the dual unitary group: An application to spacecraft rendezvous. IEEE Transactions on Aerospace and Electronic Systems, 2021, 57(6): 3734−3748"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Dong H Y, Hu Q L, Akella M R, Mazenc F. Partial Lyapunov strictification: Dual-quaternion-based observer for 6-DOF tracking control. IEEE Transactions on Control Systems Technology, 2019, 27(6): 2453−2469",
+                        "@reference-instance-id": "OB2BibRecID-948886828-6f1962e20fe10bf12200a1234d8c3705-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Partial Lyapunov strictification: Dual-quaternion-based observer for 6-DOF tracking control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85052789546",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "2453",
+                                    "@last": "2469"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H Y",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong H Y"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q L",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Q L"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M R",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akella",
+                                    "ce:indexed-name": "Akella M R"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazenc",
+                                    "ce:indexed-name": "Mazenc F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Control Systems Technology"
+                        },
+                        "ce:source-text": "Dong H Y, Hu Q L, Akella M R, Mazenc F. Partial Lyapunov strictification: Dual-quaternion-based observer for 6-DOF tracking control. IEEE Transactions on Control Systems Technology, 2019, 27(6): 2453−2469"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Ma Y J, Jiang B, Tao G, Cheng Y H. A direct adaptive actuat- or failure compensation scheme for satellite attitude control systems. Journal of Aerospace Engineering, 2014, 228(4): 542−556",
+                        "@reference-instance-id": "OB2BibRecID-948886828-fe6d482c29cc88a31e9fc3b51d11e8a1-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A direct adaptive actuat- or failure compensation scheme for satellite attitude control systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84894637955",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "228",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "542556"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Y J"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang B"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao G"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Aerospace Engineering"
+                        },
+                        "ce:source-text": "Ma Y J, Jiang B, Tao G, Cheng Y H. A direct adaptive actuat- or failure compensation scheme for satellite attitude control systems. Journal of Aerospace Engineering, 2014, 228(4): 542−556"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Ma Y J, Jiang B, Tao G, Cheng Y H. Uncertainty decomposition-based fault-tolerant adaptive control of flexible spacecraft. IEEE Transactions on Aerospace and Electronic System, 2015, 51(2): 1053−1068",
+                        "@reference-instance-id": "OB2BibRecID-948886828-bfbc2a4bfbe2cb48410be336c2684866-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Uncertainty decomposition-based fault-tolerant adaptive control of flexible spacecraft"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84934273955",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "51",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1053",
+                                    "@last": "1068"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y J",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Y J"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang B"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao G"
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic System"
+                        },
+                        "ce:source-text": "Ma Y J, Jiang B, Tao G, Cheng Y H. Uncertainty decomposition-based fault-tolerant adaptive control of flexible spacecraft. IEEE Transactions on Aerospace and Electronic System, 2015, 51(2): 1053−1068"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Clifford W. A preliminary sketch of biquaternions. Proceedings of the London Mathematics Society, 1873, 1−4(1): 381−395",
+                        "@reference-instance-id": "OB2BibRecID-948886828-905ba167a5c831b1452bbd9e272b02b6-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1873"},
+                            "ref-title": {"ref-titletext": "A preliminary sketch of biquaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84960556043",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1−4",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "381",
+                                    "@last": "395"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "ce:surname": "Clifford",
+                                "ce:indexed-name": "Clifford W."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the London Mathematics Society"
+                        },
+                        "ce:source-text": "Clifford W. A preliminary sketch of biquaternions. Proceedings of the London Mathematics Society, 1873, 1−4(1): 381−395"
+                    },
+                    {
+                        "@aii:was-generated-by": "http://data.elsevier.com/art/structure-references art:version v2.0.229",
+                        "ref-fulltext": "Study E. From the movements and reversals. Mathematische Annalen, 1891: 441−565",
+                        "@reference-instance-id": "OB2BibRecID-948886828-38df2223d2e5e4ece417fe9108576639-34",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1891"},
+                            "ref-title": {"ref-titletext": "From the movements and reversals"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85162188295",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "441",
+                                "@last": "565"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Study",
+                                "ce:indexed-name": "Study E."
+                            }]},
+                            "ref-sourcetitle": "Mathematische Annalen"
+                        },
+                        "ce:source-text": "Study E. From the movements and reversals. Mathematische Annalen, 1891: 441−565"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Nanjing",
+        "@id": "60021666",
+        "affilname": "Nanjing University of Aeronautics and Astronautics",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021666",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85162154964",
+        "dc:description": "This paper proposes an adaptive direct fault-tolerant control method for the tracking spacecraft with actuator faults during proximity operations, to ensure the stability and the asymptotic tracking performance of the target spacecraft. Based on dual quaternion theory constructing the integrated spacecraft attitude and orbit control system, a nominal control signal is designed assuming that the faults are known; adaptive update laws are designed to estimate the unknown parameters in the nominal control signal to form the adaptive control law; and multiple Lyapunov functions are used to analyse the performance of the system with multiple actuator faults. Simulation results demonstrate the effectiveness of the proposed method.",
+        "prism:coverDate": "2023-03-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85162154964",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Ya-Jie",
+            "preferred-name": {
+                "ce:given-name": "Ya Jie",
+                "ce:initials": "Y.J.",
+                "ce:surname": "Ma",
+                "ce:indexed-name": "Ma Y.J."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.-J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021666",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021666"
+            },
+            "ce:alt-name": "马亚杰",
+            "ce:surname": "Ma",
+            "@auid": "55604466900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55604466900",
+            "ce:indexed-name": "Ma Y.-J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85162154964"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85162154964&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85162154964&origin=inward"
+            }
+        ],
+        "source-id": "25566",
+        "citedby-count": "1",
+        "prism:volume": "49",
+        "subtype": "ar",
+        "dc:title": "Adaptive Direct Fault-tolerant Control Design for Spacecraft Integrated Attitude and Orbit System 航天器位姿运动一体化直接自适应容错控制研究",
+        "openaccess": null,
+        "prism:issn": "02544156",
+        "publishercopyright": "© 2023 Science Press. All rights reserved.",
+        "prism:issueIdentifier": "3",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Zidonghua Xuebao/Acta Automatica Sinica",
+        "prism:pageRange": "678-686",
+        "prism:endingPage": "686",
+        "openaccessFlag": null,
+        "prism:doi": "10.16383/j.aas.c220501",
+        "prism:startingPage": "678",
+        "dc:identifier": "SCOPUS_ID:85162154964",
+        "dc:publisher": "Science Press"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Actuator fault",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Adaptive direct control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Control signal",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Direct control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Dual quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Fault tolerant control design",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Faults tolerant controls",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multiple actuator fault",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Proximity operations",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "chi"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Actuator fault"
+        },
+        {
+            "@_fa": "true",
+            "$": "adaptive direct control"
+        },
+        {
+            "@_fa": "true",
+            "$": "dual quaternion"
+        },
+        {
+            "@_fa": "true",
+            "$": "multiple actuator faults"
+        },
+        {
+            "@_fa": "true",
+            "$": "proximity operation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Control and Systems Engineering",
+            "@code": "2207",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Graphics and Computer-Aided Design",
+            "@code": "1704",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Ya-Jie",
+            "preferred-name": {
+                "ce:given-name": "Ya Jie",
+                "ce:initials": "Y.J.",
+                "ce:surname": "Ma",
+                "ce:indexed-name": "Ma Y.J."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.-J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021666",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021666"
+            },
+            "ce:alt-name": "马亚杰",
+            "ce:surname": "Ma",
+            "@auid": "55604466900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55604466900",
+            "ce:indexed-name": "Ma Y.-J."
+        },
+        {
+            "ce:given-name": "Bin",
+            "preferred-name": {
+                "ce:given-name": "Bin",
+                "ce:initials": "B.",
+                "ce:surname": "Jiang",
+                "ce:indexed-name": "Jiang B."
+            },
+            "@seq": "2",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021666",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021666"
+            },
+            "ce:alt-name": "姜 斌",
+            "ce:surname": "Jiang",
+            "@auid": "57677608500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57677608500",
+            "ce:indexed-name": "Jiang B."
+        },
+        {
+            "ce:given-name": "Hao",
+            "preferred-name": {
+                "ce:given-name": "Hao",
+                "ce:initials": "H.",
+                "ce:surname": "Ren",
+                "ce:indexed-name": "Ren H."
+            },
+            "@seq": "3",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021666",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021666"
+            },
+            "ce:alt-name": "任 好",
+            "ce:surname": "Ren",
+            "@auid": "57220953993",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57220953993",
+            "ce:indexed-name": "Ren H."
+        }
+    ]}
+}}

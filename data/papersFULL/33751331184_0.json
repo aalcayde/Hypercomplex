@@ -1,0 +1,2241 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@timestamp": "2021-09-20T13:24:39.000039-04:00",
+                "@year": "2021",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2006",
+                "@month": "12"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "American Heart Association",
+                    "xocs:funding-agency-acronym": "AHA",
+                    "xocs:funding-agency": "American Heart Association",
+                    "xocs:funding-id": "0415141B",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000968",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Whitaker Foundation",
+                    "xocs:funding-agency": "Whitaker Foundation",
+                    "xocs:funding-id": "RG-01-0071",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100012763",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-27T16:27:54.660Z",
+            "xocs:funding-text": "The current work was funded in part by the Whitaker Foundation research grant RG-01-0071 and the American Heart Association Predoctoral Fellowship grant 0415141B.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Columbus, OH 43210",
+                            "country": "United States",
+                            "address-part": "1080 Carmack Road",
+                            "@afid": "60003500",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Biomedical Engineering Department"},
+                                {"$": "The Ohio State University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60003500",
+                                "@dptid": "103226814"
+                            },
+                            "@dptid": "103226814"
+                        },
+                        "author": [{
+                            "ce:given-name": "Vivek",
+                            "preferred-name": {
+                                "ce:given-name": "Vivek",
+                                "ce:initials": "V.",
+                                "ce:surname": "Walimbe",
+                                "ce:indexed-name": "Walimbe V."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "V.",
+                            "@_fa": "true",
+                            "ce:surname": "Walimbe",
+                            "@auid": "6508151608",
+                            "ce:indexed-name": "Walimbe V."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Cleveland, OH 44195",
+                            "country": "United States",
+                            "address-part": "9500 Euclid Avenue",
+                            "@afid": "60021160",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Biomedical Engineering (ND 20)"},
+                                {"$": "Lerner Research Institute"},
+                                {"$": "The Cleveland Clinic"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60021160",
+                                "@dptid": "104070985"
+                            },
+                            "@dptid": "104070985"
+                        },
+                        "author": [{
+                            "ce:given-name": "Vivek",
+                            "preferred-name": {
+                                "ce:given-name": "Vivek",
+                                "ce:initials": "V.",
+                                "ce:surname": "Walimbe",
+                                "ce:indexed-name": "Walimbe V."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "V.",
+                            "@_fa": "true",
+                            "ce:surname": "Walimbe",
+                            "@auid": "6508151608",
+                            "ce:indexed-name": "Walimbe V."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Baltimore, MD 21201",
+                            "country": "United States",
+                            "address-part": "22 S. Greene Street",
+                            "@afid": "60014653",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Diagnostic Radiology"},
+                                {"$": "University of Maryland"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60014653",
+                                "@dptid": "108236992"
+                            },
+                            "@dptid": "108236992"
+                        },
+                        "author": [{
+                            "ce:given-name": "Raj",
+                            "preferred-name": {
+                                "ce:given-name": "Raj",
+                                "ce:initials": "R.",
+                                "ce:surname": "Shekhar",
+                                "ce:indexed-name": "Shekhar R."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "R.",
+                            "@_fa": "true",
+                            "ce:surname": "Shekhar",
+                            "@auid": "7004430328",
+                            "ce:indexed-name": "Shekhar R."
+                        }]
+                    }
+                ],
+                "citation-title": "Automatic elastic image registration by interpolation of 3D rotations and translations from discrete rigid-body transformations",
+                "abstracts": "We present an algorithm for automatic elastic registration of three-dimensional (3D) medical images. Our algorithm initially recovers the global spatial mismatch between the reference and floating images, followed by hierarchical octree-based subdivision of the reference image and independent registration of the floating image with the individual subvolumes of the reference image at each hierarchical level. Global as well as local registrations use the six-parameter full rigid-body transformation model and are based on maximization of normalized mutual information (NMI). To ensure robustness of the subvolume registration with low voxel counts, we calculate NMI using a combination of current and prior mutual histograms. To generate a smooth deformation field, we perform direct interpolation of six-parameter rigid-body subvolume transformations obtained at the last subdivision level. Our interpolation scheme involves scalar interpolation of the 3D translations and quaternion interpolation of the 3D rotational pose. We analyzed the performance of our algorithm through experiments involving registration of synthetically deformed computed tomography (CT) images. Our algorithm is general and can be applied to image pairs of any two modalities of most organs. We have demonstrated successful registration of clinical whole-body CT and positron emission tomography (PET) images using this algorithm. The registration accuracy for this application was evaluated, based on validation using expert-identified anatomical landmarks in 15 CT-PET image pairs. The algorithm's performance was comparable to the average accuracy observed for three expert-determined registrations in the same 15 image pairs. © 2006 Elsevier B.V. All rights reserved.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Baltimore, MD 21201",
+                        "country": "United States",
+                        "address-part": "22 S. Greene Street",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Department of Diagnostic Radiology"},
+                            {"$": "University of Maryland"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "R.",
+                        "ce:surname": "Shekhar",
+                        "ce:indexed-name": "Shekhar R."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Elastic image registration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Volume subdivision",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "MIAEC",
+                    "sourcetitle-abbrev": "Med. Image Anal.",
+                    "@country": "nld",
+                    "issn": {
+                        "$": "13618415",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "10",
+                            "@issue": "6"
+                        },
+                        "pagerange": {
+                            "@first": "899",
+                            "@last": "914"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2006"},
+                    "sourcetitle": "Medical Image Analysis",
+                    "@srcid": "17271",
+                    "publicationdate": {
+                        "month": "12",
+                        "year": "2006",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "December 2006"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "461.1"},
+                            {"$": "723.5"},
+                            {"$": "921.6"}
+                        ]
+                    },
+                    {
+                        "@type": "EMCLASS",
+                        "classification": [
+                            {"$": "14"},
+                            {"$": "27"}
+                        ]
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "3614"},
+                            {"$": "2741"},
+                            {"$": "1707"},
+                            {"$": "2718"},
+                            {"$": "1704"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "HEAL"},
+                            {"$": "MEDI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": [
+                    {
+                        "$": "Copyright 2008 Elsevier B.V., All rights reserved.",
+                        "@type": "Elsevier"
+                    },
+                    {
+                        "$": "MEDLINE® is the source for the MeSH terms of this document.",
+                        "@type": "Medline Descriptors"
+                    }
+                ],
+                "dbcollection": [
+                    {"$": "EMBASE"},
+                    {"$": "CPX"},
+                    {"$": "MEDL"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "29",
+                    "@year": "2006",
+                    "@month": "11"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "44804135",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2006577969",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "20064810272201",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "17079184",
+                            "@idtype": "MEDL"
+                        },
+                        {
+                            "$": "33751331184",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "33751331184",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S1361841506000740",
+                    "ce:doi": "10.1016/j.media.2006.09.002"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "43",
+                "reference": [
+                    {
+                        "ref-fulltext": "Besl P.J., and McKay N.D. A method for registration of 3-D shapes. IEEE Trans. Pattern Anal. Mach. Intell. 14 (1992) 239-256",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "A method for registration of 3-D shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026821209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "239",
+                                    "@last": "256"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Besl",
+                                    "ce:indexed-name": "Besl P.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKay",
+                                    "ce:indexed-name": "McKay N.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Castro-Pareja C.R., and Shekhar R. Hardware acceleration of mutual information-based 3D image registration. J. Imaging Sci. Technol. 49 (2005) 105-113",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Hardware acceleration of mutual information-based 3D image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18944374282",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "49"},
+                                "pagerange": {
+                                    "@first": "105",
+                                    "@last": "113"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castro-Pareja",
+                                    "ce:indexed-name": "Castro-Pareja C.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Imaging Sci. Technol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Castro-Pareja C.R., Jagadeesh J.M., and Shekhar R. FAIR: A hardware architecture for real-time 3-D image registration. IEEE Trans. Inf. Technol. Biomed. 7 (2003) 426-434",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "FAIR: A hardware architecture for real-time 3-D image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1442288616",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "426",
+                                    "@last": "434"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castro-Pareja",
+                                    "ce:indexed-name": "Castro-Pareja C.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jagadeesh",
+                                    "ce:indexed-name": "Jagadeesh J.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Inf. Technol. Biomed."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Collins D.L., Peters T.M., and Evans A.C. An automated 3D non-linear image deformation procedure for determination of gross morphometric variability in human brain. International Conference on Visualization in Biomedical Computing (1994), SPIE",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "An automated 3D non-linear image deformation procedure for determination of gross morphometric variability in human brain"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000154104",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "SPIE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins D.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peters",
+                                    "ce:indexed-name": "Peters T.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Evans",
+                                    "ce:indexed-name": "Evans A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Visualization in Biomedical Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Davatzikos C. Spatial normalization of 3D brain images using deformable models. J. Comput. Assist. Tomogr. 20 (1996) 656-665",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Spatial normalization of 3D brain images using deformable models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030054872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "656",
+                                    "@last": "665"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Davatzikos",
+                                "ce:indexed-name": "Davatzikos C."
+                            }]},
+                            "ref-sourcetitle": "J. Comput. Assist. Tomogr."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Davatzikos C. Spatial transformation and registration of brain images using elastically deformable models. Comput. Vis. Image Understanding 66 (1997) 207-222",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Spatial transformation and registration of brain images using elastically deformable models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031128523",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "66"},
+                                "pagerange": {
+                                    "@first": "207",
+                                    "@last": "222"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Davatzikos",
+                                "ce:indexed-name": "Davatzikos C."
+                            }]},
+                            "ref-sourcetitle": "Comput. Vis. Image Understanding"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dawant B.M., Hartmann S.L., Pan S., and Gadamsetty S. Brain atlas deformation in the presence of small and large space-occupying tumors. Comput. Aided. Surg. 7 (2002) 1-10",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Brain atlas deformation in the presence of small and large space-occupying tumors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036015568",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "10"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dawant",
+                                    "ce:indexed-name": "Dawant B.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hartmann",
+                                    "ce:indexed-name": "Hartmann S.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pan",
+                                    "ce:indexed-name": "Pan S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gadamsetty",
+                                    "ce:indexed-name": "Gadamsetty S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Aided. Surg."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Feldmar J., and Ayache N. Rigid, affine and locally affine registration of free-form surfaces. Int. J. Comp. Vis. 18 (1996) 99-119",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Rigid, affine and locally affine registration of free-form surfaces"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030148832",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "99",
+                                    "@last": "119"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feldmar",
+                                    "ce:indexed-name": "Feldmar J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ayache",
+                                    "ce:indexed-name": "Ayache N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comp. Vis."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Franklin W.R. Efficient rotation of an object. IEEE Trans. Comput. C 32 (1983) 64-67",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Efficient rotation of an object"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84919101287",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "32"},
+                                "pagerange": {
+                                    "@first": "64",
+                                    "@last": "67"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Franklin",
+                                "ce:indexed-name": "Franklin W.R."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Comput. C"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gaens, T., Maes, F., Vandermuelen, D., Seutens, P., 1998. Non-rigid multimodal image registration using mutual information. Medical Image Computing and Computer-Assisted Intervention - MICCAI'98, Cambridge, MA, USA.",
+                        "@id": "10",
+                        "ref-info": {"refd-itemidlist": {"itemid": {
+                            "$": "33751349139",
+                            "@idtype": "SGR"
+                        }}}
+                    },
+                    {
+                        "ref-fulltext": "Hamilton W.R. On quaternions. Proc. R. Irish Acad. 3 (1844) 1-16",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1844"},
+                            "ref-title": {"ref-titletext": "On quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2442511779",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Hamilton",
+                                "ce:indexed-name": "Hamilton W.R."
+                            }]},
+                            "ref-sourcetitle": "Proc. R. Irish Acad."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hellier P., Barillot C., Memin E., and Perez P. Hierarchical estimation of a dense deformation field for 3-D robust registration. IEEE Trans. Med. Imaging 20 (2001) 388-402",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Hierarchical estimation of a dense deformation field for 3-D robust registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035324509",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "388",
+                                    "@last": "402"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hellier",
+                                    "ce:indexed-name": "Hellier P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barillot",
+                                    "ce:indexed-name": "Barillot C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Memin",
+                                    "ce:indexed-name": "Memin E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perez",
+                                    "ce:indexed-name": "Perez P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hermosillo G., Chefd C., and Faugeras O. Variational methods for multimodal image matching. Int. J. Comput. Vis. 50 (2002) 329-343",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Variational methods for multimodal image matching"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036891787",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "50"},
+                                "pagerange": {
+                                    "@first": "329",
+                                    "@last": "343"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hermosillo",
+                                    "ce:indexed-name": "Hermosillo G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chefd",
+                                    "ce:indexed-name": "Chefd C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faugeras",
+                                    "ce:indexed-name": "Faugeras O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Vis."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kim T.S., Singh M., Sungkarat W., Zarow C., and Chui H. Automatic registration of postmortem brain slices to MRI reference volume. Nuclear Sci. Symp. (NSS) 47 4 II (2002) 1607-1613",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Automatic registration of postmortem brain slices to MRI reference volume"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034245360",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "47",
+                                    "@issue": "4 II"
+                                },
+                                "pagerange": {
+                                    "@first": "1607",
+                                    "@last": "1613"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Singh",
+                                    "ce:indexed-name": "Singh M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sungkarat",
+                                    "ce:indexed-name": "Sungkarat W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zarow",
+                                    "ce:indexed-name": "Zarow C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chui",
+                                    "ce:indexed-name": "Chui H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nuclear Sci. Symp. (NSS)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Krucker J.F., LeCarpentier G.L., LeCarpentier G.L., Fowlkes J.B., and Carson P.L. Rapid elastic image registration for 3-D ultrasound. IEEE Trans. Med. Imaging 21 (2002) 1384-1394",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Rapid elastic image registration for 3-D ultrasound"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036879752",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "1384",
+                                    "@last": "1394"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krucker",
+                                    "ce:indexed-name": "Krucker J.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCarpentier",
+                                    "ce:indexed-name": "LeCarpentier G.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCarpentier",
+                                    "ce:indexed-name": "LeCarpentier G.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fowlkes",
+                                    "ce:indexed-name": "Fowlkes J.B."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carson",
+                                    "ce:indexed-name": "Carson P.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lester, H., Arridge, S.R., Jansons, K.M., Lemieux, L., Hanjal, J.V., Oatridge, A., 1999. Non-linear registration with the variable viscosity fluid algorithm. In: Information processing in Medical Imaging: Proc. 16th Int. Conf. (IPIM'99), pp. 238-251.",
+                        "@id": "16",
+                        "ref-info": {"refd-itemidlist": {"itemid": {
+                            "$": "84942924717",
+                            "@idtype": "SGR"
+                        }}}
+                    },
+                    {
+                        "ref-fulltext": "Likar B., and Pernus F. Hierarchical approach to elastic registration based on mutual information. Image Vis. Comput. 19 (2001) 33-44",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Hierarchical approach to elastic registration based on mutual information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035155615",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "33",
+                                    "@last": "44"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Likar",
+                                    "ce:indexed-name": "Likar B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pernus",
+                                    "ce:indexed-name": "Pernus F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image Vis. Comput."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maes F., Collignon A., Vandermuelen D., Marchal G., and Seutens P. Multimodality image registration by maximization of mutual information. IEEE Trans. Med. Imaging 16 (1997) 187-198",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Multimodality image registration by maximization of mutual information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031106962",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "16"},
+                                "pagerange": {
+                                    "@first": "187",
+                                    "@last": "198"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maes",
+                                    "ce:indexed-name": "Maes F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collignon",
+                                    "ce:indexed-name": "Collignon A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vandermuelen",
+                                    "ce:indexed-name": "Vandermuelen D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marchal",
+                                    "ce:indexed-name": "Marchal G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seutens",
+                                    "ce:indexed-name": "Seutens P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maintz J.B.A., Meijering H.W.E., and Viergever M.A. General multimodal elastic registration based on mutual information. Proc. SPIE 3338 (1998) 144-154",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "General multimodal elastic registration based on mutual information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "48349116293",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3338"},
+                                "pagerange": {
+                                    "@first": "144",
+                                    "@last": "154"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.B.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maintz",
+                                    "ce:indexed-name": "Maintz J.B.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.W.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meijering",
+                                    "ce:indexed-name": "Meijering H.W.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mattes D., Haynor D.R., Vesselle H., Lewellen T.K., and Eubank W. PET-CT image registration in the chest using free-form deformations. IEEE Trans. Med. Imaging 22 (2003) 120-128",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "PET-CT image registration in the chest using free-form deformations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037255821",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "120",
+                                    "@last": "128"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mattes",
+                                    "ce:indexed-name": "Mattes D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haynor",
+                                    "ce:indexed-name": "Haynor D.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vesselle",
+                                    "ce:indexed-name": "Vesselle H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lewellen",
+                                    "ce:indexed-name": "Lewellen T.K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eubank",
+                                    "ce:indexed-name": "Eubank W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pitiot A., Bardinet E., Malandin G., and Thomson P.M. Piecewise affine registration of biomedical images. In: Gee J.C., and Maintz T. (Eds). Proceedings of the International Workshop on Biomedical Image Registration (2003), Univerity of Pennsylvania, Philadelphia, USA",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Piecewise affine registration of biomedical images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "17144397507",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Gee J.C., and Maintz T. (Eds), Univerity of Pennsylvania, Philadelphia, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pitiot",
+                                    "ce:indexed-name": "Pitiot A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bardinet",
+                                    "ce:indexed-name": "Bardinet E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Malandin",
+                                    "ce:indexed-name": "Malandin G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomson",
+                                    "ce:indexed-name": "Thomson P.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Workshop on Biomedical Image Registration"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pluim J.P., and Maintz J.B.A. Interpolation artefacts in mutual information based image registration. Comput. Vis. Image Understanding 77 (2000) 211-232",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Interpolation artefacts in mutual information based image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034140301",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "77"},
+                                "pagerange": {
+                                    "@first": "211",
+                                    "@last": "232"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pluim",
+                                    "ce:indexed-name": "Pluim J.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.B.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maintz",
+                                    "ce:indexed-name": "Maintz J.B.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Vis. Image Understanding"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rohde G.K., Aldroubi A., and Dawant B.M. The adaptive bases algorithm for intensity-based nonrigid image registration. IEEE Trans. Med. Imaging 22 (2003) 1470-1479",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "The adaptive bases algorithm for intensity-based nonrigid image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0344033872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "1470",
+                                    "@last": "1479"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohde",
+                                    "ce:indexed-name": "Rohde G.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aldroubi",
+                                    "ce:indexed-name": "Aldroubi A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dawant",
+                                    "ce:indexed-name": "Dawant B.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rohlfing, T., Maurer, C.R., 2001. Intensity-based non-rigid registration using adaptive multilevel free-form deformation with an incompressibility constraint. In: Nissen, W., Viergever, M.A., (Eds.), Proceedings of Fourth International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI 2001), Berlin 2001 2008 of Lecture Notes in Computer Science, 111-119.",
+                        "@id": "24",
+                        "ref-info": {"refd-itemidlist": {"itemid": {
+                            "$": "84958171130",
+                            "@idtype": "SGR"
+                        }}}
+                    },
+                    {
+                        "ref-fulltext": "Rohlfing T., and Maurer C.R. Nonrigid image registration in shared-memory multiprocessor environments with application to brains, breasts, and bees. IEEE Trans. Inf. Technol. Biomed. 7 (2003) 16-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Nonrigid image registration in shared-memory multiprocessor environments with application to brains, breasts, and bees"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037332503",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "16",
+                                    "@last": "25"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohlfing",
+                                    "ce:indexed-name": "Rohlfing T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maurer",
+                                    "ce:indexed-name": "Maurer C.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Inf. Technol. Biomed."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rohr K., Stiehl H.S., Sprengel R., Buzug T.M., Weese J., and Kuhn M.H. Landmark-based elastic registration using approximating thin-plate splines. IEEE Trans. Med. Imaging 20 (2001) 526-534",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Landmark-based elastic registration using approximating thin-plate splines"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035354208",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "20"},
+                                "pagerange": {
+                                    "@first": "526",
+                                    "@last": "534"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohr",
+                                    "ce:indexed-name": "Rohr K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stiehl",
+                                    "ce:indexed-name": "Stiehl H.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sprengel",
+                                    "ce:indexed-name": "Sprengel R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buzug",
+                                    "ce:indexed-name": "Buzug T.M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weese",
+                                    "ce:indexed-name": "Weese J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuhn",
+                                    "ce:indexed-name": "Kuhn M.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rueckert D. Non-rigid registration: Concepts, algorithms and applications. In: Hajnal J., Hill D., and Hawkes D. (Eds). Medical Image Registration. The Biomedical Engineering Series (2001), CRC Press, Boca Raton, FL 281-301",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Non-rigid registration: Concepts, algorithms and applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84925236268",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "281",
+                                "@last": "301"
+                            }},
+                            "ref-text": "Medical Image Registration. Hajnal J., Hill D., and Hawkes D. (Eds), CRC Press, Boca Raton, FL",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Rueckert",
+                                "ce:indexed-name": "Rueckert D."
+                            }]},
+                            "ref-sourcetitle": "The Biomedical Engineering Series"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rueckert D., Sonoda L.I., Hayes C., Hill D.L., Leach M.O., and Hawkes D.J. Nonrigid registration using free-form deformations: application to breast MR images. IEEE Trans. Med. Imaging 18 (1999) 712-721",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Nonrigid registration using free-form deformations: application to breast MR images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033169211",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "712",
+                                    "@last": "721"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rueckert",
+                                    "ce:indexed-name": "Rueckert D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sonoda",
+                                    "ce:indexed-name": "Sonoda L.I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hayes",
+                                    "ce:indexed-name": "Hayes C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hill",
+                                    "ce:indexed-name": "Hill D.L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leach",
+                                    "ce:indexed-name": "Leach M.O."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hawkes",
+                                    "ce:indexed-name": "Hawkes D.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shekhar R., and Zagrodsky V. Mutual information-based rigid and nonrigid registration of ultrasound volumes. IEEE Trans. Med. Imaging 21 (2002) 9-22",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Mutual information-based rigid and nonrigid registration of ultrasound volumes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036007860",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "9",
+                                    "@last": "22"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zagrodsky",
+                                    "ce:indexed-name": "Zagrodsky V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shekhar R., Zagrodsky V., Castro Pareja C.R., Walimbe V., and Jagadeesh J.M. High-speed registration of three- and four-dimensional medical images by using voxel similarity. Radiographics 23 (2003) 1673-1681",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "High-speed registration of three- and four-dimensional medical images by using voxel similarity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0345686784",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "23"},
+                                "pagerange": {
+                                    "@first": "1673",
+                                    "@last": "1681"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zagrodsky",
+                                    "ce:indexed-name": "Zagrodsky V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castro Pareja",
+                                    "ce:indexed-name": "Castro Pareja C.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walimbe",
+                                    "ce:indexed-name": "Walimbe V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jagadeesh",
+                                    "ce:indexed-name": "Jagadeesh J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Radiographics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shekhar R., Walimbe V., Raja S., Zagrodsky V., Kanvinde M., Wu G., and Bybel B. Automated three-dimensional elastic registration of whole-body PET and CT from separate or combined scanners. J. Nucl. Med. 46 (2005) 1488-1496",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Automated three-dimensional elastic registration of whole-body PET and CT from separate or combined scanners"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27744442364",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "46"},
+                                "pagerange": {
+                                    "@first": "1488",
+                                    "@last": "1496"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walimbe",
+                                    "ce:indexed-name": "Walimbe V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raja",
+                                    "ce:indexed-name": "Raja S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zagrodsky",
+                                    "ce:indexed-name": "Zagrodsky V."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanvinde",
+                                    "ce:indexed-name": "Kanvinde M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu G."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bybel",
+                                    "ce:indexed-name": "Bybel B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Nucl. Med."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shoemake K. Animating rotation with quaternion curves. Comput. Graphics (Proc. SIGGRAPH'85) 19 (1985) 245-254",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Animating rotation with quaternion curves"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022095776",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "245",
+                                    "@last": "254"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Shoemake",
+                                "ce:indexed-name": "Shoemake K."
+                            }]},
+                            "ref-sourcetitle": "Comput. Graphics (Proc. SIGGRAPH'85)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shoemake K. Quaternion calculus and fast animation. Course Notes on State of the Art Image Synthesis (Proc. SIGGRAPH'87) (1987), ACM, New York",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Quaternion calculus and fast animation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000617773",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ACM, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Shoemake",
+                                "ce:indexed-name": "Shoemake K."
+                            }]},
+                            "ref-sourcetitle": "Course Notes on State of the Art Image Synthesis (Proc. SIGGRAPH'87)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sun D.M., and Qiu Z.D. New non-rigid image matching algorithm using thin-plate spline. Tien Tzu Hsueh Pao/Acta Electronica Sinica 30 (2002) 1104-1107",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "New non-rigid image matching algorithm using thin-plate spline"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036700872",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "30"},
+                                "pagerange": {
+                                    "@first": "1104",
+                                    "@last": "1107"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun D.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiu",
+                                    "ce:indexed-name": "Qiu Z.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Tien Tzu Hsueh Pao/Acta Electronica Sinica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tai Y.C., Lin K.P., Hoh C.K., Huang S.C.H., and Hoffman E.J. Utilization of 3-D elastic transformation in the registration of chest X-ray CT and whole body PET. IEEE Trans. Nucl. Sci. 44 (1997) 1606-1612",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Utilization of 3-D elastic transformation in the registration of chest X-ray CT and whole body PET"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031211971",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "44"},
+                                "pagerange": {
+                                    "@first": "1606",
+                                    "@last": "1612"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tai",
+                                    "ce:indexed-name": "Tai Y.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin K.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoh",
+                                    "ce:indexed-name": "Hoh C.K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.C.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang S.C.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoffman",
+                                    "ce:indexed-name": "Hoffman E.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Nucl. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tsao J. Interpolation artifacts in multimodality image registration based on maximization of mutual information. IEEE Trans. Med. Imaging 22 (2003) 854-864",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Interpolation artifacts in multimodality image registration based on maximization of mutual information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0042527119",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "854",
+                                    "@last": "864"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Tsao",
+                                "ce:indexed-name": "Tsao J."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Med. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "van den Elsen P.A., Pol E.J.D., and Viergever M.A. Medical image matching - a review with classification. IEEE Eng. Med. Biol. 12 (1993) 26-39",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Medical image matching - a review with classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027556622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "26",
+                                    "@last": "39"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "van den Elsen",
+                                    "ce:indexed-name": "van den Elsen P.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pol",
+                                    "ce:indexed-name": "Pol E.J.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Eng. Med. Biol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Walimbe V., Zagrodsky V., Raja S., Jaber W.A., DiFilippo F.P., Garcia M.J., Brunken R.C., Thomas J.D., and Shekhar R. Mutual information-based multimodality registration of cardiac ultrasound and SPECT images: a preliminary investigation. Int. J. Cardiovasc. Imaging 19 (2003) 483-494",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Mutual information-based multimodality registration of cardiac ultrasound and SPECT images: a preliminary investigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0346329746",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "483",
+                                    "@last": "494"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walimbe",
+                                    "ce:indexed-name": "Walimbe V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zagrodsky",
+                                    "ce:indexed-name": "Zagrodsky V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raja",
+                                    "ce:indexed-name": "Raja S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jaber",
+                                    "ce:indexed-name": "Jaber W.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DiFilippo",
+                                    "ce:indexed-name": "DiFilippo F.P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Garcia",
+                                    "ce:indexed-name": "Garcia M.J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "R.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brunken",
+                                    "ce:indexed-name": "Brunken R.C."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomas",
+                                    "ce:indexed-name": "Thomas J.D."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Cardiovasc. Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang Y., and Staib L.H. Physical model-based non-rigid registration incorporating statistical shape information. Med. Image Anal. 4 (2000) 7-20",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Physical model-based non-rigid registration incorporating statistical shape information"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034151869",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "7",
+                                    "@last": "20"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Staib",
+                                    "ce:indexed-name": "Staib L.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Med. Image Anal."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Woods R.P. Characterizing volume and surface deformations in an atlas framework: theory, applications, and implementation. Neuroimage 18 (2003) 769-788",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Characterizing volume and surface deformations in an atlas framework: theory, applications, and implementation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037347112",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "18"},
+                                "pagerange": {
+                                    "@first": "769",
+                                    "@last": "788"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.P.",
+                                "@_fa": "true",
+                                "ce:surname": "Woods",
+                                "ce:indexed-name": "Woods R.P."
+                            }]},
+                            "ref-sourcetitle": "Neuroimage"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Woods R.P., Grafton S.T., Watson J.G.D., Sicotte N.L., and Mazziotta J.C. Automated image registration: II. Intersubject validation of linear and nonlinear models. J. Comput. Assist. Tomogr. 22 (1998) 153-165",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Automated image registration: II. Intersubject validation of linear and nonlinear models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031887084",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "153",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Woods",
+                                    "ce:indexed-name": "Woods R.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grafton",
+                                    "ce:indexed-name": "Grafton S.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.G.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Watson",
+                                    "ce:indexed-name": "Watson J.G.D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sicotte",
+                                    "ce:indexed-name": "Sicotte N.L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazziotta",
+                                    "ce:indexed-name": "Mazziotta J.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Comput. Assist. Tomogr."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zagrodsky V., Shekhar R., and Cornhill J.F. Multi-function extension of simplex optimization method for mutual information based registration of ultrasound volumes. Proc. SPIE 4322 (2001) 508-515",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Multi-function extension of simplex optimization method for mutual information based registration of ultrasound volumes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034849015",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4322"},
+                                "pagerange": {
+                                    "@first": "508",
+                                    "@last": "515"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zagrodsky",
+                                    "ce:indexed-name": "Zagrodsky V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shekhar",
+                                    "ce:indexed-name": "Shekhar R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cornhill",
+                                    "ce:indexed-name": "Cornhill J.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zefran, M., Kumar, V., 1996. Planning of smooth motions on SE(3). In: International Conference on Robotics and Automation, Minneapolis, MN.",
+                        "@id": "43",
+                        "ref-info": {"refd-itemidlist": {"itemid": {
+                            "$": "0029697901",
+                            "@idtype": "SGR"
+                        }}}
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Cleveland",
+            "@id": "60021160",
+            "affilname": "Cleveland Clinic Foundation",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021160",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Baltimore",
+            "@id": "60014653",
+            "affilname": "University of Maryland, Baltimore (UMB)",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014653",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Columbus",
+            "@id": "60003500",
+            "affilname": "The Ohio State University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003500",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-33751331184",
+        "dc:description": "We present an algorithm for automatic elastic registration of three-dimensional (3D) medical images. Our algorithm initially recovers the global spatial mismatch between the reference and floating images, followed by hierarchical octree-based subdivision of the reference image and independent registration of the floating image with the individual subvolumes of the reference image at each hierarchical level. Global as well as local registrations use the six-parameter full rigid-body transformation model and are based on maximization of normalized mutual information (NMI). To ensure robustness of the subvolume registration with low voxel counts, we calculate NMI using a combination of current and prior mutual histograms. To generate a smooth deformation field, we perform direct interpolation of six-parameter rigid-body subvolume transformations obtained at the last subdivision level. Our interpolation scheme involves scalar interpolation of the 3D translations and quaternion interpolation of the 3D rotational pose. We analyzed the performance of our algorithm through experiments involving registration of synthetically deformed computed tomography (CT) images. Our algorithm is general and can be applied to image pairs of any two modalities of most organs. We have demonstrated successful registration of clinical whole-body CT and positron emission tomography (PET) images using this algorithm. The registration accuracy for this application was evaluated, based on validation using expert-identified anatomical landmarks in 15 CT-PET image pairs. The algorithm's performance was comparable to the average accuracy observed for three expert-determined registrations in the same 15 image pairs. © 2006 Elsevier B.V. All rights reserved.",
+        "pubmed-id": "17079184",
+        "prism:coverDate": "2006-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/33751331184",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Vivek",
+            "preferred-name": {
+                "ce:given-name": "Vivek",
+                "ce:initials": "V.",
+                "ce:surname": "Walimbe",
+                "ce:indexed-name": "Walimbe V."
+            },
+            "@seq": "1",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60003500",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003500"
+                },
+                {
+                    "@id": "60021160",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021160"
+                }
+            ],
+            "ce:surname": "Walimbe",
+            "@auid": "6508151608",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6508151608",
+            "ce:indexed-name": "Walimbe V."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/33751331184"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33751331184&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=33751331184&origin=inward"
+            }
+        ],
+        "source-id": "17271",
+        "pii": "S1361841506000740",
+        "citedby-count": "45",
+        "prism:volume": "10",
+        "subtype": "ar",
+        "dc:title": "Automatic elastic image registration by interpolation of 3D rotations and translations from discrete rigid-body transformations",
+        "openaccess": "0",
+        "prism:issn": "13618415",
+        "prism:issueIdentifier": "6",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Medical Image Analysis",
+        "prism:pageRange": "899-914",
+        "prism:endingPage": "914",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.media.2006.09.002",
+        "prism:startingPage": "899",
+        "dc:identifier": "SCOPUS_ID:33751331184"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Automatic elastic registration",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Normalized mutual information",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion interpolation",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Elastic image registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Volume subdivision"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Radiological and Ultrasound Technology",
+            "@code": "3614",
+            "@abbrev": "HEAL"
+        },
+        {
+            "@_fa": "true",
+            "$": "Radiology, Nuclear Medicine and Imaging",
+            "@code": "2741",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Health Informatics",
+            "@code": "2718",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Graphics and Computer-Aided Design",
+            "@code": "1704",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Vivek",
+            "preferred-name": {
+                "ce:given-name": "Vivek",
+                "ce:initials": "V.",
+                "ce:surname": "Walimbe",
+                "ce:indexed-name": "Walimbe V."
+            },
+            "@seq": "1",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60003500",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003500"
+                },
+                {
+                    "@id": "60021160",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021160"
+                }
+            ],
+            "ce:surname": "Walimbe",
+            "@auid": "6508151608",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6508151608",
+            "ce:indexed-name": "Walimbe V."
+        },
+        {
+            "ce:given-name": "Raj",
+            "preferred-name": {
+                "ce:given-name": "Raj",
+                "ce:initials": "R.",
+                "ce:surname": "Shekhar",
+                "ce:indexed-name": "Shekhar R."
+            },
+            "@seq": "2",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60014653",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60014653"
+            },
+            "ce:surname": "Shekhar",
+            "@auid": "7004430328",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7004430328",
+            "ce:indexed-name": "Shekhar R."
+        }
+    ]}
+}}

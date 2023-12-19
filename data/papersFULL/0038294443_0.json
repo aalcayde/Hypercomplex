@@ -1,0 +1,646 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@year": "2019",
+                "@timestamp": "2019-10-02T23:10:30.000030-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2002",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Palo Alto, CA 94304-1191",
+                        "country": "United States",
+                        "address-part": "3251 Hanover Street",
+                        "@afid": "60002959",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Lockheed Martin Adv. Technol. Center"},
+                            {"$": "Bldg. 201"}
+                        ],
+                        "affiliation-id": {"@afid": "60002959"}
+                    },
+                    "author": [{
+                        "ce:given-name": "Roelof W.H.",
+                        "preferred-name": {
+                            "ce:given-name": "Roelof W.H.",
+                            "ce:initials": "R.W.H.",
+                            "ce:surname": "Van Bezooijen",
+                            "ce:indexed-name": "Van Bezooijen R."
+                        },
+                        "@seq": "1",
+                        "ce:initials": "R.W.H.",
+                        "@_fa": "true",
+                        "ce:surname": "Van Bezooijen",
+                        "@auid": "55968204000",
+                        "ce:indexed-name": "Van Bezooijen R.W.H."
+                    }]
+                },
+                "citation-title": "SIRTF autonomous star tracker",
+                "abstracts": "Two redundant AST-301 autonomous star trackers (AST) serve as the primary attitude sensors for JPL's space infrared telescope facility (SIRTF). These units, which employ a 1553B interface to output their attitude quaternions and uncertainty at a 2 Hz rate, provide a 1 σ accuracy of better than 0.18, 0.18, and 5.1 arcsec about their X, Y, and Z axes, respectively. This is a factor 5.5 better than the accuracy of the flight-proven AST-201 from which the trackers were derived. To obtain this improvement, the field of view (FOV) was reduced to 5 by 5 degrees, the accurate Tycho-1 and ACT catalogs were used for selecting the 71,830 guide stars, star image centroiding was improved to better than 1/50th of a pixel, and optimal attitude estimation was implemented. In addition, the apparent direction to each guide star in the FOV is compensated for proper motion, parallax, velocity aberration, and optical distortion. The AST-301 employs autonomous time-delayed integration (TDI) to achieve image motion compensation (IMC) about its X axis that prevents accuracy degradation, even at rates of 2.1 deg/s, making it actually suitable for use on spinning spacecraft. About the Y axis, a software function called \"image motion accommodation\" (IMA) processes smeared images to maximize the signal to noise ratio of the resulting synthetic images, which enables robust and accurate tracking at rates tested up to 0.42 deg/s. The AST-301 is capable of acquiring its attitude anywhere in the sky in less than 3 seconds with a 99.98% probability of success, without requiring any a priori attitude knowledge. Following a description of the 7.1 kg AST-301, its operation and IMA, the methodology for translating the night sky test data into performance numbers is presented, while, in addition, the results of tests used to measure alignment stability over temperature are included.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Palo Alto, CA 94304-1191",
+                        "country": "United States",
+                        "address-part": "3251 Hanover Street",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Lockheed Martin Adv. Technol. Center"},
+                            {"$": "Bldg. 201"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "R.W.H.",
+                        "ce:surname": "Van Bezooijen",
+                        "ce:indexed-name": "Van Bezooijen R.W.H."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Attitude determination",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Autonomy",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Image motion compensation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Smart sensor",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Spinning spacecraft",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Star identification",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Star tracker",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "PSISD",
+                    "sourcetitle-abbrev": "Proc SPIE Int Soc Opt Eng",
+                    "@country": "usa",
+                    "issn": "0277786X",
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "4850",
+                            "@issue": "1"
+                        },
+                        "pagerange": {
+                            "@first": "108",
+                            "@last": "121"
+                        }
+                    },
+                    "@type": "p",
+                    "publicationyear": {"@first": "2002"},
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {
+                            "confeditors": {"editors": {
+                                "editor": {
+                                    "ce:initials": "J.C.",
+                                    "ce:surname": "Mather",
+                                    "ce:indexed-name": "Mather J.C."
+                                },
+                                "@complete": "y"
+                            }},
+                            "procpagerange": "1/618",
+                            "procpartno": "1 of 2"
+                        },
+                        "confevent": {
+                            "confname": "IR Space Telescopes and Instruments",
+                            "confsponsors": {
+                                "confsponsor": "SPIE",
+                                "@complete": "y"
+                            },
+                            "conflocation": {
+                                "city-group": "Waikoloa, HI",
+                                "@country": "usa"
+                            },
+                            "confcode": "61033",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "28",
+                                    "@year": "2002",
+                                    "@month": "08"
+                                },
+                                "startdate": {
+                                    "@day": "24",
+                                    "@year": "2002",
+                                    "@month": "08"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of SPIE - The International Society for Optical Engineering",
+                    "@srcid": "40067",
+                    "publicationdate": {
+                        "year": "2002",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2002"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "654.1"},
+                            {"$": "655.1"},
+                            {"$": "656.1"},
+                            {"$": "657"},
+                            {"$": "741.3"},
+                            {"$": "944.7"}
+                        ]
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3104"},
+                            {"$": "1706"},
+                            {"$": "2604"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2008 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "26",
+                    "@year": "2003",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "36574523",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2003227482223",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "0038294443",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "0038294443",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.461606"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "9",
+                "reference": [
+                    {
+                        "ref-fulltext": "R.W.H. van Bezooijen, \"Performance of the AST-201 Star Tracker for the Microwave Anisotropy Probe,\" Paper AIAA-2002-4582, AIAA Guidance, Navigation, and Control Conference, Monterey, California, August 5, 2002.",
+                        "@id": "72181620",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Performance of the AST-201 star tracker for the microwave anisotropy probe"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "26944484580",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Paper AIAA-2002-4582, Monterey, California, August 5",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.W.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Van Bezooijen",
+                                "ce:indexed-name": "Van Bezooijen R.W.H."
+                            }]},
+                            "ref-sourcetitle": "AIAA Guidance, Navigation, and Control Conference"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "ESA SP-1200, \"The Hipparcos and Tycho Catalogues,\" European Space Agency, June, 1997.",
+                        "@id": "72181621",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003501462",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ESA SP-1200, European Space Agency, June",
+                            "ref-sourcetitle": "The Hipparcos and Tycho Catalogues"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S.E. Urban, T.E. Corbin, and G.L. Wycoff, \"The ACT Reference Catalog,\" The Astronomical Journal, 115:2161-2166, May 1998.",
+                        "@id": "72181622",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "The ACT reference catalog"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001248619",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "115"},
+                                "pagerange": {
+                                    "@first": "2161",
+                                    "@last": "2166"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Urban",
+                                    "ce:indexed-name": "Urban S.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Corbin",
+                                    "ce:indexed-name": "Corbin T.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wycoff",
+                                    "ce:indexed-name": "Wycoff G.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Astronomical Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B.M. Lasker et al., \"The Guide Star Catalog I. Astronomical Foundations and Image Processing,\" Astronomical Journal, 99, 2019; J.L Russell et al., \"The Guide Star Catalog II. Photometric and Astrometric Models and Solutions,\" Astronomical Journal, 99, 2059-2081; H. Jenker et al., \"The Guide Star Catalog III. Production, Database Organization, and Population Statistics,\" Astronomical Journal, 99, 2082",
+                        "@id": "72181623",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "The guide star catalog I. Astronomical foundations and image processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001555242",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "99"},
+                                "pagerange": {"@first": "2019"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "B.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lasker",
+                                    "ce:indexed-name": "Lasker B.M."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Astronomical Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B.M. Lasker et al., \"The Guide Star Catalog I. Astronomical Foundations and Image Processing,\" Astronomical Journal, 99, 2019; J.L Russell et al., \"The Guide Star Catalog II. Photometric and Astrometric Models and Solutions,\" Astronomical Journal, 99, 2059-2081; H. Jenker et al., \"The Guide Star Catalog III. Production, Database Organization, and Population Statistics,\" Astronomical Journal, 99, 2082",
+                        "@id": "72181624",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "The guide star catalog II. Photometric and astrometric models and solutions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0001555243",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "99"},
+                                "pagerange": {
+                                    "@first": "2059",
+                                    "@last": "2081"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Russell",
+                                    "ce:indexed-name": "Russell J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Astronomical Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B.M. Lasker et al., \"The Guide Star Catalog I. Astronomical Foundations and Image Processing,\" Astronomical Journal, 99, 2019; J.L Russell et al., \"The Guide Star Catalog II. Photometric and Astrometric Models and Solutions,\" Astronomical Journal, 99, 2059-2081; H. Jenker et al., \"The Guide Star Catalog III. Production, Database Organization, and Population Statistics,\" Astronomical Journal, 99, 2082",
+                        "@id": "72181625",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "The guide star catalog III. Production, database organization, and population statistics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000797989",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "99"},
+                                "pagerange": {"@first": "2082"}
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jenker",
+                                    "ce:indexed-name": "Jenker H."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Astronomical Journal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R.W.H. van Bezooijen, \"Automated Star Pattern Recognition,\" Ph. D. Dissertation, Stanford University, Stanford, California, June 1989.",
+                        "@id": "72181626",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037621995",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph. D. Dissertation, Stanford University, Stanford, California, June",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.W.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Van Bezooijen",
+                                "ce:indexed-name": "Van Bezooijen R.W.H."
+                            }]},
+                            "ref-sourcetitle": "Automated Star Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R.W.H. van Bezooijen, \"Autonomous Star Trackers for Geostationary Satellites,\" Proc. SPIE Vol. 2812, pp. 847-858, GOES-8 and Beyond, Edward R. Washwell; Ed., 10/1996, SPIE Optical Engineering Press, Bellingham, Washington.",
+                        "@id": "72181627",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Autonomous star trackers for geostationary satellites"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030370767",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2812"},
+                                "pagerange": {
+                                    "@first": "847",
+                                    "@last": "858"
+                                }
+                            },
+                            "ref-text": "GOES-8 and Beyond, Edward R. Washwell; Ed., 10/, SPIE Optical Engineering Press, Bellingham, Washington",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.W.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Van Bezooijen",
+                                "ce:indexed-name": "Van Bezooijen R.W.H."
+                            }]},
+                            "ref-sourcetitle": "Proc. SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R.W.H. van Bezooijen, \"Star Sensors for Autonomous Attitude Control and Navigation,\" Proc. SPIE Vol. CR47, pp. 153-180, Optical Technologies for Aerospace Sensing, J.E. Pearson; Ed., SPIE Optical Engineering Press, Bellingham, Washington, 1993.",
+                        "@id": "72181628",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "Star sensors for autonomous attitude control and navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84920878636",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "CR47"},
+                                "pagerange": {
+                                    "@first": "153",
+                                    "@last": "180"
+                                }
+                            },
+                            "ref-text": "Optical Technologies for Aerospace Sensing, J.E. Pearson; Ed., SPIE Optical Engineering Press, Bellingham, Washington",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.W.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Van Bezooijen",
+                                "ce:indexed-name": "Van Bezooijen R.W.H."
+                            }]},
+                            "ref-sourcetitle": "Proc. SPIE"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Bethesda",
+        "@id": "60002959",
+        "affilname": "Lockheed Martin Corporation",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002959",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "p",
+        "prism:issueIdentifier": "1",
+        "eid": "2-s2.0-0038294443",
+        "dc:description": "Two redundant AST-301 autonomous star trackers (AST) serve as the primary attitude sensors for JPL's space infrared telescope facility (SIRTF). These units, which employ a 1553B interface to output their attitude quaternions and uncertainty at a 2 Hz rate, provide a 1 σ accuracy of better than 0.18, 0.18, and 5.1 arcsec about their X, Y, and Z axes, respectively. This is a factor 5.5 better than the accuracy of the flight-proven AST-201 from which the trackers were derived. To obtain this improvement, the field of view (FOV) was reduced to 5 by 5 degrees, the accurate Tycho-1 and ACT catalogs were used for selecting the 71,830 guide stars, star image centroiding was improved to better than 1/50th of a pixel, and optimal attitude estimation was implemented. In addition, the apparent direction to each guide star in the FOV is compensated for proper motion, parallax, velocity aberration, and optical distortion. The AST-301 employs autonomous time-delayed integration (TDI) to achieve image motion compensation (IMC) about its X axis that prevents accuracy degradation, even at rates of 2.1 deg/s, making it actually suitable for use on spinning spacecraft. About the Y axis, a software function called \"image motion accommodation\" (IMA) processes smeared images to maximize the signal to noise ratio of the resulting synthetic images, which enables robust and accurate tracking at rates tested up to 0.42 deg/s. The AST-301 is capable of acquiring its attitude anywhere in the sky in less than 3 seconds with a 99.98% probability of success, without requiring any a priori attitude knowledge. Following a description of the 7.1 kg AST-301, its operation and IMA, the methodology for translating the night sky test data into performance numbers is presented, while, in addition, the results of tests used to measure alignment stability over temperature are included.",
+        "prism:coverDate": "2002-12-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/0038294443",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Roelof W.H.",
+            "preferred-name": {
+                "ce:given-name": "Roelof W.H.",
+                "ce:initials": "R.W.H.",
+                "ce:surname": "Van Bezooijen",
+                "ce:indexed-name": "Van Bezooijen R."
+            },
+            "@seq": "1",
+            "ce:initials": "R.W.H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002959",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002959"
+            },
+            "ce:surname": "Van Bezooijen",
+            "@auid": "55968204000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55968204000",
+            "ce:indexed-name": "Van Bezooijen R.W.H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/0038294443"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0038294443&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=0038294443&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Proceedings of SPIE - The International Society for Optical Engineering",
+        "source-id": "40067",
+        "citedby-count": "42",
+        "prism:volume": "4850",
+        "subtype": "cp",
+        "prism:pageRange": "108-121",
+        "dc:title": "SIRTF autonomous star tracker",
+        "prism:endingPage": "121",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1117/12.461606",
+        "prism:issn": "0277786X",
+        "prism:startingPage": "108",
+        "dc:identifier": "SCOPUS_ID:0038294443"
+    },
+    "idxterms": {"mainterm": {
+        "$": "Autonomous star tracker (AST)",
+        "@weight": "a",
+        "@candidate": "n"
+    }},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Attitude determination"
+        },
+        {
+            "@_fa": "true",
+            "$": "Autonomy"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image motion compensation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Smart sensor"
+        },
+        {
+            "@_fa": "true",
+            "$": "Spinning spacecraft"
+        },
+        {
+            "@_fa": "true",
+            "$": "Star identification"
+        },
+        {
+            "@_fa": "true",
+            "$": "Star tracker"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [{
+        "ce:given-name": "Roelof W.H.",
+        "preferred-name": {
+            "ce:given-name": "Roelof W.H.",
+            "ce:initials": "R.W.H.",
+            "ce:surname": "Van Bezooijen",
+            "ce:indexed-name": "Van Bezooijen R."
+        },
+        "@seq": "1",
+        "ce:initials": "R.W.H.",
+        "@_fa": "true",
+        "affiliation": {
+            "@id": "60002959",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002959"
+        },
+        "ce:surname": "Van Bezooijen",
+        "@auid": "55968204000",
+        "author-url": "https://api.elsevier.com/content/author/author_id/55968204000",
+        "ce:indexed-name": "Van Bezooijen R.W.H."
+    }]}
+}}

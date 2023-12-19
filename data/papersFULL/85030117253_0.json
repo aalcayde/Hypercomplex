@@ -1,0 +1,1729 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "08",
+                "@year": "2020",
+                "@timestamp": "2020-01-08T03:41:24.000024-05:00",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2017",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Natural Science Foundation of China",
+                    "xocs:funding-agency-acronym": "NSFC",
+                    "xocs:funding-agency": "National Natural Science Foundation of China",
+                    "xocs:funding-id": [
+                        {"$": "61472055"},
+                        {"$": "61572092"},
+                        {"$": "U1401252"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Program for New Century Excellent Talents in University of China",
+                    "xocs:funding-agency-acronym": "NCET",
+                    "xocs:funding-agency": "Program for New Century Excellent Talents in University",
+                    "xocs:funding-id": [
+                        {"$": "NCET-11-1085"},
+                        {"$": "cstc2014jcyjjq40001"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004602",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-02-01T18:45:49.999975Z",
+            "xocs:funding-text": "Acknowledgements. This work was partially supported by Natural Science Foundation of China (No. U1401252, 61472055, 61572092), Program for New Century Excellent Talents in University of China (NCET-11-1085) and Chongqing outstanding Youth Fund (cstc2014jcyjjq40001).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "@afid": "60020620",
+                        "@country": "chn",
+                        "city": "Chongqing",
+                        "organization": {"$": "Chongqing University of Posts and Telecommunications"},
+                        "affiliation-id": {"@afid": "60020620"}
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Qamar",
+                            "preferred-name": {
+                                "ce:given-name": "Qamar",
+                                "ce:initials": "Q.",
+                                "ce:surname": "Nawaz",
+                                "ce:indexed-name": "Nawaz Q."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "Q.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Nawaz",
+                            "@auid": "57194768812",
+                            "ce:indexed-name": "Nawaz Q."
+                        },
+                        {
+                            "ce:given-name": "Xiao",
+                            "preferred-name": {
+                                "ce:given-name": "Xiao",
+                                "ce:initials": "X.",
+                                "ce:surname": "Bin",
+                                "ce:indexed-name": "Bin X."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "X.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Bin",
+                            "@auid": "57195625516",
+                            "ce:indexed-name": "Bin X."
+                        },
+                        {
+                            "ce:given-name": "Li",
+                            "preferred-name": {
+                                "ce:given-name": "Li",
+                                "ce:initials": "L.",
+                                "ce:surname": "Weisheng",
+                                "ce:indexed-name": "Weisheng L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Weisheng",
+                            "@auid": "20236329700",
+                            "ce:indexed-name": "Weisheng L."
+                        },
+                        {
+                            "ce:given-name": "Isma",
+                            "preferred-name": {
+                                "ce:given-name": "Isma",
+                                "ce:initials": "I.",
+                                "ce:surname": "Hamid",
+                                "ce:indexed-name": "Hamid I."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "I.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Hamid",
+                            "@auid": "57188859988",
+                            "ce:indexed-name": "Hamid I."
+                        }
+                    ]
+                },
+                "citation-title": "Fusion of multimodal color medical images using quaternion principal component analysis",
+                "abstracts": "© 2017, Springer Nature Singapore Pte Ltd.Multimodal medical image fusion is used to merge functional and structural information of the same body organ. Most of the multimodal image fusion algorithms are designed to fuse grayscale images that are produced by different imaging modalities. It is likely that problems of colour distortion and information loss will occur in fused image when source images are fused by using algorithms that are not originally designed to fuse colour images. These problems can be avoided by representing and processing source images as quaternion numbers. Quaternion representation of a colour pixel encodes information of its colour channels on the imaginary parts of a quaternion number and provides the advantage to processing colour information holistically as a vector field. In this paper, we proposed an image fusion algorithm based on Quaternion Principal Component Analysis (QPCA), to fuse multimodal colour medical images. Quaternion principal components are calculated by decomposing quaternion covariance matrix using Quaternion Eigenvalue Decomposition (QEVD). Fusion rule is designed, based on the fusion weights that are extracted from the highly influential principal component. To test the performance of the proposed algorithm, experiments have been performed on six image-sets of multimodal colour images of the brain. Experimental results are compared objectively with existing image fusion algorithms. Comparison results show that the proposed algorithm performed better than existing algorithms in fusing colour medical images.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "@country": "chn",
+                        "city": "Chongqing",
+                        "organization": {"$": "Chongqing University of Posts and Telecommunications"}
+                    },
+                    "person": {
+                        "ce:given-name": "Qamar",
+                        "ce:initials": "Q.",
+                        "ce:surname": "Nawaz",
+                        "ce:indexed-name": "Nawaz Q."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Colour image fusion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Medical image fusion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Multimodal image fusion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "QCPA based image fusion",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.springer.com/series/7899",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Communications in Computer and Information Science",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "728"},
+                        "pagerange": {
+                            "@first": "401",
+                            "@last": "413"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9789811063879",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "2 of 2"},
+                        "confevent": {
+                            "confname": "3rd International Conference of Pioneer Computer Scientists, Engineers, and Educators, ICPCSEE 2017",
+                            "confsponsors": {
+                                "confsponsor": null,
+                                "@complete": "n"
+                            },
+                            "confnumber": "3rd",
+                            "confseriestitle": "International Conference of Pioneer Computer Scientists, Engineers, and Educators",
+                            "conflocation": {
+                                "@country": "chn",
+                                "city": "Changsha"
+                            },
+                            "confcode": "198799",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "24",
+                                    "@year": "2017",
+                                    "@month": "09"
+                                },
+                                "startdate": {
+                                    "@day": "22",
+                                    "@year": "2017",
+                                    "@month": "09"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Communications in Computer and Information Science",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Qilong",
+                            "@seq": "1",
+                            "ce:initials": "Q.",
+                            "ce:surname": "Han",
+                            "@role": "edit",
+                            "ce:indexed-name": "Han Q."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Beiji",
+                            "@seq": "1",
+                            "ce:initials": "B.",
+                            "ce:surname": "Zou",
+                            "@role": "edit",
+                            "ce:indexed-name": "Zou B."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Xiaoning",
+                            "@seq": "1",
+                            "ce:initials": "X.",
+                            "ce:surname": "Peng",
+                            "@role": "edit",
+                            "ce:indexed-name": "Peng X."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Zeguang",
+                            "@seq": "1",
+                            "ce:initials": "Z.",
+                            "ce:surname": "Lu",
+                            "@role": "edit",
+                            "ce:indexed-name": "Lu Z."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Guanglu",
+                            "@seq": "1",
+                            "ce:initials": "G.",
+                            "ce:surname": "Sun",
+                            "@role": "edit",
+                            "ce:indexed-name": "Sun G."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Weipeng",
+                            "@seq": "1",
+                            "ce:initials": "W.",
+                            "ce:surname": "Jing",
+                            "@role": "edit",
+                            "ce:indexed-name": "Jing W."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2017",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2017"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Commun. Comput. Info. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Data Science - 3rd International Conference of Pioneering Computer Scientists, Engineers and Educators, ICPCSEE 2017, Proceedings",
+                    "issn": {
+                        "$": "18650929",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2017"},
+                    "publisher": {
+                        "publishername": "Springer Verlag",
+                        "ce:e-address": {
+                            "$": "service@springer.de",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "17700155007"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "741.1",
+                                "classification-description": "Light and Optics"
+                            },
+                            {
+                                "classification-code": "746",
+                                "classification-description": "Imaging Techniques"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1700"},
+                            {"$": "2600"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was partially supported by Natural Science Foundation of China (No. U1401252, 61472055, 61572092), Program for New Century Excellent Talents in University of China (NCET-11-1085) and Chongqing outstanding Youth Fund (cstc2014jcyjjq40001).",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-id": "61472055",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        },
+                        {
+                            "grant-id": "61572092",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        },
+                        {
+                            "grant-id": "U1401252",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": {
+                                "@iso-code": "chn",
+                                "$": "National Natural Science Foundation of China"
+                            },
+                            "grant-agency-id": "501100001809"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "04",
+                    "@year": "2017",
+                    "@timestamp": "BST 17:08:14",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "618509244",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "719046599",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20174004226616",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20170570746",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85030117253",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85030117253",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-981-10-6388-6_33"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "27",
+                "reference": [
+                    {
+                        "ref-fulltext": "Pietrzyk, U., Herholz, K., Fink, G., Jacobs, A., Mielke, R.: Image registration: validation for PET, SPECT, MRI and CT brain studies. J. Nucl. Med. 35, 2011\u20132018 (1994)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Image registration: Validation for PET, SPECT, MRI and CT brain studies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028004662",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "35"},
+                                "pagerange": {
+                                    "@first": "2011",
+                                    "@last": "2018"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pietrzyk",
+                                    "ce:indexed-name": "Pietrzyk U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Herholz",
+                                    "ce:indexed-name": "Herholz K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fink",
+                                    "ce:indexed-name": "Fink G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jacobs",
+                                    "ce:indexed-name": "Jacobs A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mielke",
+                                    "ce:indexed-name": "Mielke R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Nucl. Med"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tu, T.-M., Su, S.-C., Shyu, H.-C., Huang, P.S.: A new look at IHS-like image fusion methods. Inf. Fusion 2, 177\u2013186 (2001)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "A new look at IHS-like image fusion methods"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035458185",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "177",
+                                    "@last": "186"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tu",
+                                    "ce:indexed-name": "Tu T.-M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su S.-C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shyu",
+                                    "ce:indexed-name": "Shyu H.-C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang P.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Fusion"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ardeshir Goshtasby, A., Nikolov, S.: Image fusion: advances in the state of the art. Inf. Fusion 8, 114\u2013118 (2007)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Image fusion: Advances in the state of the art"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33846594428",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "114",
+                                    "@last": "118"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ardeshir Goshtasby",
+                                    "ce:indexed-name": "Ardeshir Goshtasby A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nikolov",
+                                    "ce:indexed-name": "Nikolov S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Fusion"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Nikolov, S., Hill, P., Bull, D., Canagarajah, N.: Wavelets for image fusion. In: Petrosian, A. A., Meyer, F.G. (eds.) Wavelets in Signal and Image Analysis. Computational Imaging and Vision, vol. 19, pp. 213\u2013241. Springer, Dordrecht (2001)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Wavelets for image fusion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038112706",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "19"},
+                                "pagerange": {
+                                    "@first": "213",
+                                    "@last": "241"
+                                }
+                            },
+                            "ref-text": "Petrosian, A. A., Meyer, F.G. (eds.), Springer, Dordrecht",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nikolov",
+                                    "ce:indexed-name": "Nikolov S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hill",
+                                    "ce:indexed-name": "Hill P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bull",
+                                    "ce:indexed-name": "Bull D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Canagarajah",
+                                    "ce:indexed-name": "Canagarajah N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Wavelets in Signal and Image Analysis. Computational Imaging and Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rockinger, O., Fechner, T.: Pixel-level image fusion: the case of image sequences. In: Aerospace/Defense Sensing and Controls, pp. 378\u2013388. International Society for Optics and Photonics (1998)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Pixel-level image fusion: The case of image sequences"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032345681",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "378",
+                                "@last": "388"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rockinger",
+                                    "ce:indexed-name": "Rockinger O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fechner",
+                                    "ce:indexed-name": "Fechner T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aerospace/Defense Sensing and Controls"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kantor, I.L., Solodovnikov, A.S.: Hypercomplex Numbers: An Elementary Introduction to Algebras. Springer, New York (1989)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003704858",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kantor",
+                                    "ce:indexed-name": "Kantor I.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Solodovnikov",
+                                    "ce:indexed-name": "Solodovnikov A.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Hypercomplex Numbers: An Elementary Introduction to Algebras"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ell, T.A., Sangwine, S.J.: Hypercomplex fourier transforms of color images. IEEE Trans. Image Process. 16, 22\u201335 (2007)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Hypercomplex fourier transforms of color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33847695369",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "16"},
+                                "pagerange": {
+                                    "@first": "22",
+                                    "@last": "35"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chen, B.J., Shu, H.Z., Zhang, H., Chen, G., Toumoulin, C., Dillenseger, J.-L., Luo, L.M.: Quaternion Zernike moments and their invariants for color image analysis and object recognition. Signal Process. 92, 308\u2013318 (2012)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Quaternion Zernike moments and their invariants for color image analysis and object recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80054750388",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "92"},
+                                "pagerange": {
+                                    "@first": "308",
+                                    "@last": "318"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen B.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shu",
+                                    "ce:indexed-name": "Shu H.Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Toumoulin",
+                                    "ce:indexed-name": "Toumoulin C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dillenseger",
+                                    "ce:indexed-name": "Dillenseger J.-L."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "L.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo L.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chen, B., Shu, H., Coatrieux, G., Chen, G., Sun, X., Coatrieux, J.L.: Color image analysis by Quaternion-type moments. J. Math. Imaging Vis. 51, 124\u2013144 (2015)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Color image analysis by Quaternion-type moments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921701101",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "51"},
+                                "pagerange": {
+                                    "@first": "124",
+                                    "@last": "144"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shu",
+                                    "ce:indexed-name": "Shu H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coatrieux",
+                                    "ce:indexed-name": "Coatrieux G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Coatrieux",
+                                    "ce:indexed-name": "Coatrieux J.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Math. Imaging Vis."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Le Bihan, N., Sangwine, S.J.: Quaternion principal component analysis of color images. In: 2003 Proceedings of International Conference on Image Processing, ICIP 2003, vol. I, p. 809. IEEE (2003)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Quaternion principal component analysis of color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0344666580",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "809"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Bihan",
+                                    "ce:indexed-name": "Le Bihan N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2003 Proceedings of International Conference on Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang, X., Li, W., Yang, H., Wang, P., Li, Y.: Quaternion polar complex exponential transform for invariant color image description. Appl. Math. Comput. 256, 951\u2013967 (2015)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Quaternion polar complex exponential transform for invariant color image description"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923329719",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "256"},
+                                "pagerange": {
+                                    "@first": "951",
+                                    "@last": "967"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Math. Comput."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Guo, L., Dai, M., Zhu, M.: Quaternion moment and its invariants for color object classification. Inf. Sci. 273, 132\u2013143 (2014)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Quaternion moment and its invariants for color object classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899966204",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "273"},
+                                "pagerange": {
+                                    "@first": "132",
+                                    "@last": "143"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inf. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Khalil, M.I.: Applying quaternion Fourier transforms for enhancing color images. Int. J. Image Graph. Signal Process. IJIGSP 4, 9 (2012)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Applying quaternion Fourier transforms for enhancing color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84907583151",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "4",
+                                "@issue": "9"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.I.",
+                                "@_fa": "true",
+                                "ce:surname": "Khalil",
+                                "ce:indexed-name": "Khalil M.I."
+                            }]},
+                            "ref-sourcetitle": "Int. J. Image Graph. Signal Process. IJIGSP"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xu, Y., Yu, L., Xu, H., Zhang, H., Nguyen, T.: Vector sparse representation of color image using quaternion matrix analysis. IEEE Trans. Image Process. 24, 1315\u20131329 (2015)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Vector sparse representation of color image using quaternion matrix analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84923540397",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "24"},
+                                "pagerange": {
+                                    "@first": "1315",
+                                    "@last": "1329"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sangwine, S.J., Ell, T.A.: Hypercomplex auto- and cross-correlation of color images. In: 1999 Proceedings of International Conference on Image Processing, ICIP 1999, vol. 4, pp. 319\u2013322 (1999)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Hypercomplex auto- and cross-correlation of color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033345782",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "319",
+                                    "@last": "322"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ell",
+                                    "ce:indexed-name": "Ell T.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "1999 Proceedings of International Conference on Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dubey, V.R.: Quaternion fourier transform for colour images. Int. J. Comput. Sci. Inf. Technol. 5, 4411\u20134416 (2014)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Quaternion fourier transform for colour images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937408299",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "4411",
+                                    "@last": "4416"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "V.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Dubey",
+                                "ce:indexed-name": "Dubey V.R."
+                            }]},
+                            "ref-sourcetitle": "Int. J. Comput. Sci. Inf. Technol"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Smith, L.I.: A tutorial on principal components analysis. In: Elementary Linear Algebra. Wiley, New York (2002)",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "A tutorial on principal components analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038171506",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Wiley, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.I.",
+                                "@_fa": "true",
+                                "ce:surname": "Smith",
+                                "ce:indexed-name": "Smith L.I."
+                            }]},
+                            "ref-sourcetitle": "Elementary Linear Algebra"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhou, B.B., Brent, R.P.: Jacobi-like algorithms for eigenvalue decomposition of a real normal matrix using real arithmetic. In: IPPS, p. 593. IEEE (1996)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Jacobi-like algorithms for eigenvalue decomposition of a real normal matrix using real arithmetic"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029716638",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "593"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou B.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brent",
+                                    "ce:indexed-name": "Brent R.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IPPS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhang, F.: Quaternions and matrices of quaternions. Linear Algebra Appl. 251, 21\u201357 (1997)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Quaternions and matrices of quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031540156",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "251"},
+                                "pagerange": {
+                                    "@first": "21",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang F."
+                            }]},
+                            "ref-sourcetitle": "Linear Algebra Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sangwine, S., Le Bihan, N.: Quaternion and octonion toolbox for Matlab. http://qtfm.sourceforge.net/",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://qtfm.sourceforge.net/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84991045018",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Bihan",
+                                    "ce:indexed-name": "Le Bihan N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Quaternion and Octonion Toolbox for Matlab"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "The Whole Brain Atlas. http://www.med.harvard.edu/AANLIB/home.html",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.med.harvard.edu/AANLIB/home.html",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030091418",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "The Whole Brain Atlas",
+                                "ce:indexed-name": "The Whole Brain Atlas"
+                            }}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rockinger, O.: Image Fusion Toolbox. http://www.metapix.de/indexp.htm",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.metapix.de/indexp.htm",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "26444434182",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "O.",
+                                "@_fa": "true",
+                                "ce:surname": "Rockinger",
+                                "ce:indexed-name": "Rockinger O."
+                            }]},
+                            "ref-sourcetitle": "Image Fusion Toolbox"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Raut, G.N., Paikrao, P.L., Chaudhari, D.S.: A study of quality assessment techniques for fused images. Int. J. Innov. Technol. Explor. Eng. 2, 290\u2013294 (2013)",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "A study of quality assessment techniques for fused images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899843620",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "290",
+                                    "@last": "294"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raut",
+                                    "ce:indexed-name": "Raut G.N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paikrao",
+                                    "ce:indexed-name": "Paikrao P.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chaudhari",
+                                    "ce:indexed-name": "Chaudhari D.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Innov. Technol. Explor. Eng."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang, Z., Simoncelli, E.P., Bovik, A.C.: Multiscale structural similarity for image quality assessment. In: 2004 Conference Record of the Thirty-Seventh Asilomar Conference on Signals, Systems and Computers, pp. 1398\u20131402. IEEE (2003)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Multiscale structural similarity for image quality assessment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4143089652",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1398",
+                                "@last": "1402"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simoncelli",
+                                    "ce:indexed-name": "Simoncelli E.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2004 Conference Record of the Thirty-Seventh Asilomar Conference on Signals, Systems and Computers"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hore, A., Ziou, D.: Image quality metrics: PSNR vs. SSIM. In: 2010 Proceedings of the 20th International Conference on Pattern Recognition (ICPR), pp. 2366\u20132369. IEEE, Istanbul (2010)",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Image quality metrics: PSNR vs. SSIM"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78149476646",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2366",
+                                "@last": "2369"
+                            }},
+                            "ref-text": "IEEE, Istanbul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hore",
+                                    "ce:indexed-name": "Hore A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ziou",
+                                    "ce:indexed-name": "Ziou D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "2010 Proceedings of the 20Th International Conference on Pattern Recognition (ICPR)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Qu, G., Zhang, D., Yan, P.: Information measure for performance of image fusion. Electron. Lett. 38, 313\u2013315 (2002)",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Information measure for performance of image fusion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037187687",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "313",
+                                    "@last": "315"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electron. Lett."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang, Z., Bovik, A.C., Sheikh, H.R., Simoncelli, E.P.: Image quality assessment: from error visibility to structural similarity. IEEE Trans. Image Process. 13, 600\u2013612 (2004)",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Image quality assessment: From error visibility to structural similarity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1942436689",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {
+                                    "@first": "600",
+                                    "@last": "612"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sheikh",
+                                    "ce:indexed-name": "Sheikh H.R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simoncelli",
+                                    "ce:indexed-name": "Simoncelli E.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Chongqing",
+        "@id": "60020620",
+        "affilname": "Chongqing University of Posts and Telecommunications",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85030117253",
+        "dc:description": "Multimodal medical image fusion is used to merge functional and structural information of the same body organ. Most of the multimodal image fusion algorithms are designed to fuse grayscale images that are produced by different imaging modalities. It is likely that problems of colour distortion and information loss will occur in fused image when source images are fused by using algorithms that are not originally designed to fuse colour images. These problems can be avoided by representing and processing source images as quaternion numbers. Quaternion representation of a colour pixel encodes information of its colour channels on the imaginary parts of a quaternion number and provides the advantage to processing colour information holistically as a vector field. In this paper, we proposed an image fusion algorithm based on Quaternion Principal Component Analysis (QPCA), to fuse multimodal colour medical images. Quaternion principal components are calculated by decomposing quaternion covariance matrix using Quaternion Eigenvalue Decomposition (QEVD). Fusion rule is designed, based on the fusion weights that are extracted from the highly influential principal component. To test the performance of the proposed algorithm, experiments have been performed on six image-sets of multimodal colour images of the brain. Experimental results are compared objectively with existing image fusion algorithms. Comparison results show that the proposed algorithm performed better than existing algorithms in fusing colour medical images.",
+        "prism:coverDate": "2017-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85030117253",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Qamar",
+            "preferred-name": {
+                "ce:given-name": "Qamar",
+                "ce:initials": "Q.",
+                "ce:surname": "Nawaz",
+                "ce:indexed-name": "Nawaz Q."
+            },
+            "@seq": "1",
+            "ce:initials": "Q.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60020620",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620"
+            },
+            "ce:surname": "Nawaz",
+            "@auid": "57194768812",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194768812",
+            "ce:indexed-name": "Nawaz Q."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85030117253"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85030117253&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85030117253&origin=inward"
+            }
+        ],
+        "prism:isbn": "9789811063879",
+        "source-id": "17700155007",
+        "citedby-count": "1",
+        "prism:volume": "728",
+        "subtype": "cp",
+        "dc:title": "Fusion of multimodal color medical images using quaternion principal component analysis",
+        "openaccess": "0",
+        "prism:issn": "18650929",
+        "publishercopyright": "© 2017, Springer Nature Singapore Pte Ltd.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Communications in Computer and Information Science",
+        "prism:pageRange": "401-413",
+        "prism:endingPage": "413",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-981-10-6388-6_33",
+        "prism:startingPage": "401",
+        "dc:identifier": "SCOPUS_ID:85030117253",
+        "dc:publisher": "Springer Verlagservice@springer.de"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Colour image fusions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Eigenvalue decomposition",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Image fusion algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multimodal image fusions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Multimodal medical images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Principal Components",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion representation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Structural information",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Colour image fusion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Medical image fusion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Multimodal image fusion"
+        },
+        {
+            "@_fa": "true",
+            "$": "QCPA based image fusion"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Mathematics (all)",
+            "@code": "2600",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Qamar",
+            "preferred-name": {
+                "ce:given-name": "Qamar",
+                "ce:initials": "Q.",
+                "ce:surname": "Nawaz",
+                "ce:indexed-name": "Nawaz Q."
+            },
+            "@seq": "1",
+            "ce:initials": "Q.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60020620",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620"
+            },
+            "ce:surname": "Nawaz",
+            "@auid": "57194768812",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57194768812",
+            "ce:indexed-name": "Nawaz Q."
+        },
+        {
+            "ce:given-name": "Xiao",
+            "preferred-name": {
+                "ce:given-name": "Xiao",
+                "ce:initials": "X.",
+                "ce:surname": "Bin",
+                "ce:indexed-name": "Bin X."
+            },
+            "@seq": "2",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60020620",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620"
+            },
+            "ce:surname": "Bin",
+            "@auid": "57195625516",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195625516",
+            "ce:indexed-name": "Bin X."
+        },
+        {
+            "ce:given-name": "Li",
+            "preferred-name": {
+                "ce:given-name": "Li",
+                "ce:initials": "L.",
+                "ce:surname": "Weisheng",
+                "ce:indexed-name": "Weisheng L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60020620",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620"
+            },
+            "ce:surname": "Weisheng",
+            "@auid": "20236329700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/20236329700",
+            "ce:indexed-name": "Weisheng L."
+        },
+        {
+            "ce:given-name": "Isma",
+            "preferred-name": {
+                "ce:given-name": "Isma",
+                "ce:initials": "I.",
+                "ce:surname": "Hamid",
+                "ce:indexed-name": "Hamid I."
+            },
+            "@seq": "4",
+            "ce:initials": "I.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60020620",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60020620"
+            },
+            "ce:surname": "Hamid",
+            "@auid": "57188859988",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57188859988",
+            "ce:indexed-name": "Hamid I."
+        }
+    ]}
+}}

@@ -1,0 +1,765 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "13",
+                "@year": "2023",
+                "@timestamp": "2023-07-13T07:27:47.000047-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2011",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Beijing",
+                        "country": "China",
+                        "@afid": "112918932",
+                        "@country": "chn",
+                        "organization": [
+                            {"$": "School of Photoelectronic Information and Communication Engineering"},
+                            {"$": "Beijing Information Science Anf Technology University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "112918932",
+                            "@dptid": "112919793"
+                        },
+                        "@dptid": "112919793"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Meng",
+                            "preferred-name": {
+                                "ce:given-name": "Meng",
+                                "ce:initials": "M.",
+                                "ce:surname": "Chen",
+                                "ce:indexed-name": "Chen M."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chen",
+                            "@auid": "56134655500",
+                            "ce:indexed-name": "Chen M."
+                        },
+                        {
+                            "ce:given-name": "Bixi",
+                            "preferred-name": {
+                                "ce:given-name": "Bixi",
+                                "ce:initials": "B.",
+                                "ce:surname": "Yan",
+                                "ce:indexed-name": "Yan B."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "B.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Yan",
+                            "@auid": "58456213200",
+                            "ce:indexed-name": "Yan B."
+                        }
+                    ]
+                },
+                "citation-title": "Registration algorithm research for work-pieces based on affine invariant",
+                "abstracts": "Work-pieces registration is a crucial item in flexible manufacture assembly. In order to finish work-pieces registration, a method is proposed based on affine invariant. After the CAD model data and actual measurement data of a work-piece are acquired, the method consists of the following five steps: sampling point clouds data, extracting characteristic four-points set, searching characteristic congruent four-points set, computing transformation congruent matrix and the last, further precise point clouds data registration. Point clouds data of CAD and measuring model are sampled respectively through calculating the curvature of the two sets of data and selecting the obvious curvature points as their reduced characteristic points. Based on this, the characteristic four-points set from the reduced ones of CAD model and the corresponding matching congruent four-points set of the measuring model are extracted according to RANSAC algorithm. The rotation matrix R and translation vector T of any two matching four-points are then calculated through the algorithm of quaternion. After that, the measuring model is rotated and translated and then compared with the CAD model data, the most congruent transformation matrix is selected as the coarse registration result. Furthermore, Iterative Closest Point (ICP) algorithm is applied to the congruent transformation to improve registration precision. The experiment shows that the run time of the algorithm is 129.56s and mean-error of point-to-point distance is 0.062mm when accessing measuring model data more than 80000 points. Compared with the traditional curvature registration, the experiment also shows that the algorithm is more efficient and robust when the volume of point clouds data is larger. © 2011 SPIE.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Beijing",
+                        "country": "China",
+                        "@country": "chn",
+                        "organization": [
+                            {"$": "School of Photoelectronic Information and Communication Engineering"},
+                            {"$": "Beijing Information Science Anf Technology University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "M.",
+                        "ce:surname": "Chen",
+                        "ce:indexed-name": "Chen M."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "affine invariant",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "ICP algorithm",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "point cloud",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "RANSAC",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "registration",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://spie.org/x1848.xml",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Proceedings of SPIE - The International Society for Optical Engineering",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "8201"}},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9780819488428",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpagerange": "var.pagings"},
+                        "confevent": {
+                            "confname": "2011 International Conference on Optical Instruments and Technology: Optoelectronic Measurement Technology and Systems",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "China Instrument and Control Society (CIS)"},
+                                    {"$": "Chinese Optical Society (COS)"},
+                                    {"$": "The Society of Photo-Optical Instrumentation Engineers (SPIE)"}
+                                ],
+                                "@complete": "y"
+                            },
+                            "conflocation": {
+                                "city-group": "Beijing",
+                                "@country": "chn"
+                            },
+                            "confcode": "88094",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "09",
+                                    "@year": "2011",
+                                    "@month": "11"
+                                },
+                                "startdate": {
+                                    "@day": "06",
+                                    "@year": "2011",
+                                    "@month": "11"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of SPIE - The International Society for Optical Engineering",
+                    "publicationdate": {
+                        "year": "2011",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2011"
+                        }
+                    },
+                    "codencode": "PSISD",
+                    "sourcetitle-abbrev": "Proc SPIE Int Soc Opt Eng",
+                    "@country": "usa",
+                    "issuetitle": "2011 International Conference on Optical Instruments and Technology: Optoelectronic Measurement Technology and Systems",
+                    "issn": {
+                        "$": "0277786X",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2011"},
+                    "publisher": {"publishername": "SPIE"},
+                    "article-number": "82011Q",
+                    "@srcid": "40067"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Mathematics"
+                            },
+                            {
+                                "classification-code": "941.3",
+                                "classification-description": "Optical Instruments"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3104"},
+                            {"$": "1706"},
+                            {"$": "2604"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "07",
+                    "@year": "2021",
+                    "@timestamp": "BST 07:49:57",
+                    "@month": "07"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "364083692",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "295086617",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20120314693186",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20212649746",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20120218052",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "84862917843",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84862917843",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.905926"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "7",
+                "reference": [
+                    {
+                        "ref-fulltext": "Besl, P. J. , McKay, N. D. , \"A method for registration of 3-D shapes, \"IEEE Transactions on Pattern Analysis and Machine Intelligence14(2), 239-256(1992)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "A method for registration of 3-D shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026821209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "239",
+                                    "@last": "256"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Besl",
+                                    "ce:indexed-name": "Besl P.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKayc",
+                                    "ce:indexed-name": "McKayc N.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chen, Y. , Medion, i. G. , \"Object modeling by registration of multiple range images, \"Image and Vision Computing10(3), 145-155(1992)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Object modeling by registration of multiple range images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "44049122968",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "145",
+                                    "@last": "155"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Medion",
+                                    "ce:indexed-name": "Medion I.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image and Vision Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tomas, Hlavaty. , Vaclav, Skala. , \"A Survey of Methods for 3D Model Feature Extraction, \"Seminar Geometry and Graphics in Teaching Contemporary Engineer3, 5-8(2003)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "A Survey of Methods for 3D Model Feature Extraction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "29144433675",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5",
+                                "@last": "8"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomas",
+                                    "ce:indexed-name": "Tomas H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaclav",
+                                    "ce:indexed-name": "Vaclav S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Seminar Geometry and Graphics in Teaching Contemporary Engineer3"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li, Qing, de. , Griffiths, J, G. , \"Iterative closest geometric objects registration, \"Computers and Mathematics with Application s40, 1171-1188(2000)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Iterative closest geometric objects registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034324923",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1171",
+                                "@last": "1188"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Griffiths",
+                                    "ce:indexed-name": "De Griffiths J.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computers and Mathematics with Application s40"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Silva, J. , Matabosch, C. , Fofi, D. , \"A review of recent range image registration methods with accuracy evaluation, \"Image and Vision Computing25(5), 578-596(2007) (Pubitemid 46275171)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "A review of recent range image registration methods with accuracy evaluation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33847066338",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "578",
+                                    "@last": "596"
+                                }
+                            },
+                            "ref-text": "DOI 10.1016/j.imavis.2006.05.012, PII S0262885606001594",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salvi",
+                                    "ce:indexed-name": "Salvi J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matabosch",
+                                    "ce:indexed-name": "Matabosch C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fofi",
+                                    "ce:indexed-name": "Fofi D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Forest",
+                                    "ce:indexed-name": "Forest J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image and Vision Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Berthold, K, P. , Horn. , \"Closed-form solution of absolute orientation using unit quaternion, \"Journal of the Optical Society of America A4, 629(1987)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed-form solution of absolute orientation using unit quaternion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "629"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berthold",
+                                    "ce:indexed-name": "Berthold K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of the Optical Society of America A4"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chen, CS. , Hung, YP. , Cheng, JB, RANSAC-Based DARCES: A New Approach to Fast Automatic Registration of Partially Overlapping Range Images, \"IEEE Transactions on PAMI21. 11, 1229-1234 (1999)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "RANSAC-based DARCES: A new approach to fast automatic registration of partially overlapping range images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033220962",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "11"},
+                                "pagerange": {
+                                    "@first": "1229",
+                                    "@last": "1234"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hung",
+                                    "ce:indexed-name": "Hung Y.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng J.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on PAMI21"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Beijing",
+        "@id": "112918932",
+        "affilname": "Beijing Information Science Anf Technology University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/112918932",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-84862917843",
+        "dc:description": "Work-pieces registration is a crucial item in flexible manufacture assembly. In order to finish work-pieces registration, a method is proposed based on affine invariant. After the CAD model data and actual measurement data of a work-piece are acquired, the method consists of the following five steps: sampling point clouds data, extracting characteristic four-points set, searching characteristic congruent four-points set, computing transformation congruent matrix and the last, further precise point clouds data registration. Point clouds data of CAD and measuring model are sampled respectively through calculating the curvature of the two sets of data and selecting the obvious curvature points as their reduced characteristic points. Based on this, the characteristic four-points set from the reduced ones of CAD model and the corresponding matching congruent four-points set of the measuring model are extracted according to RANSAC algorithm. The rotation matrix R and translation vector T of any two matching four-points are then calculated through the algorithm of quaternion. After that, the measuring model is rotated and translated and then compared with the CAD model data, the most congruent transformation matrix is selected as the coarse registration result. Furthermore, Iterative Closest Point (ICP) algorithm is applied to the congruent transformation to improve registration precision. The experiment shows that the run time of the algorithm is 129.56s and mean-error of point-to-point distance is 0.062mm when accessing measuring model data more than 80000 points. Compared with the traditional curvature registration, the experiment also shows that the algorithm is more efficient and robust when the volume of point clouds data is larger. © 2011 SPIE.",
+        "prism:coverDate": "2011-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84862917843",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Meng",
+            "preferred-name": {
+                "ce:given-name": "Meng",
+                "ce:initials": "M.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "112918932",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/112918932"
+            },
+            "ce:surname": "Chen",
+            "@auid": "56134655500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56134655500",
+            "ce:indexed-name": "Chen M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84862917843"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84862917843&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84862917843&origin=inward"
+            }
+        ],
+        "prism:isbn": "9780819488428",
+        "prism:publicationName": "Proceedings of SPIE - The International Society for Optical Engineering",
+        "source-id": "40067",
+        "citedby-count": "0",
+        "prism:volume": "8201",
+        "subtype": "cp",
+        "dc:title": "Registration algorithm research for work-pieces based on affine invariant",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1117/12.905926",
+        "prism:issn": "0277786X",
+        "article-number": "82011Q",
+        "dc:identifier": "SCOPUS_ID:84862917843",
+        "dc:publisher": "SPIE"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Affine invariant",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "ICP algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Point cloud",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "RANSAC",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "registration",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "affine invariant"
+        },
+        {
+            "@_fa": "true",
+            "$": "ICP algorithm"
+        },
+        {
+            "@_fa": "true",
+            "$": "point cloud"
+        },
+        {
+            "@_fa": "true",
+            "$": "RANSAC"
+        },
+        {
+            "@_fa": "true",
+            "$": "registration"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Meng",
+            "preferred-name": {
+                "ce:given-name": "Meng",
+                "ce:initials": "M.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "112918932",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/112918932"
+            },
+            "ce:surname": "Chen",
+            "@auid": "56134655500",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56134655500",
+            "ce:indexed-name": "Chen M."
+        },
+        {
+            "ce:given-name": "Bixi",
+            "preferred-name": {
+                "ce:given-name": "Bixi",
+                "ce:initials": "B.",
+                "ce:surname": "Yan",
+                "ce:indexed-name": "Yan B."
+            },
+            "@seq": "2",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "112918932",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/112918932"
+            },
+            "ce:surname": "Yan",
+            "@auid": "58456213200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58456213200",
+            "ce:indexed-name": "Yan B."
+        }
+    ]}
+}}

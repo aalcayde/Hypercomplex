@@ -1,0 +1,2372 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "12",
+                "@timestamp": "2021-03-12T20:47:09.000009-05:00",
+                "@year": "2021",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-05-11T12:14:30.571721Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "France",
+                            "address-part": "2 Avenue Pierre Marzin",
+                            "postal-code": "22307",
+                            "@afid": "60104081",
+                            "@country": "fra",
+                            "city": "Lannion Cedex",
+                            "organization": {"$": "Orange Labs"},
+                            "affiliation-id": {"@afid": "60104081"},
+                            "ce:source-text": "Orange Labs, 2 Avenue Pierre Marzin, 22307, Lannion Cedex, France"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Vincent",
+                                "preferred-name": {
+                                    "ce:given-name": "Vincent",
+                                    "ce:initials": "V.",
+                                    "ce:surname": "Lemaire",
+                                    "ce:indexed-name": "Lemaire V."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "V.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lemaire",
+                                "@auid": "7103308068",
+                                "ce:indexed-name": "Lemaire V."
+                            },
+                            {
+                                "ce:given-name": "Alexis",
+                                "preferred-name": {
+                                    "ce:given-name": "Alexis",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Bondu",
+                                    "ce:indexed-name": "Bondu A."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Bondu",
+                                "@auid": "23090474600",
+                                "ce:indexed-name": "Bondu A."
+                            },
+                            {
+                                "ce:given-name": "Stéphane",
+                                "preferred-name": {
+                                    "ce:given-name": "Stéphane",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Ragot",
+                                    "ce:indexed-name": "Ragot S."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Ragot",
+                                "@auid": "18042416800",
+                                "ce:indexed-name": "Ragot S."
+                            },
+                            {
+                                "ce:given-name": "Fabrice",
+                                "preferred-name": {
+                                    "ce:given-name": "Fabrice",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Clérot",
+                                    "ce:indexed-name": "Clérot F."
+                                },
+                                "@seq": "6",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Clérot",
+                                "@auid": "55995258900",
+                                "ce:indexed-name": "Clerot F."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "France",
+                            "address-part": "Route de Villejust",
+                            "postal-code": "91620",
+                            "@afid": "60021378",
+                            "@country": "fra",
+                            "city": "Nozay",
+                            "organization": {"$": "Nokia Bell Labs"},
+                            "affiliation-id": {"@afid": "60021378"},
+                            "ce:source-text": "Nokia Bell Labs, Route de Villejust, 91620, Nozay, France"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Fabien",
+                                "preferred-name": {
+                                    "ce:given-name": "Fabien",
+                                    "ce:initials": "F.",
+                                    "ce:surname": "Boitier",
+                                    "ce:indexed-name": "Boitier F."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Boitier",
+                                "@auid": "26038887900",
+                                "ce:indexed-name": "Boitier F."
+                            },
+                            {
+                                "ce:given-name": "Jelena",
+                                "preferred-name": {
+                                    "ce:given-name": "Jelena",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Pesic",
+                                    "ce:indexed-name": "Pesic J."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Pesic",
+                                "@auid": "57188956207",
+                                "ce:indexed-name": "Pesic J."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Proactive Fiber Break Detection Based on Quaternion Time Series and Automatic Variable Selection from Relational Data",
+                "abstracts": "© Springer Nature Switzerland AG 2020.We address the problem of event classification for proactive fiber break detection in high-speed optical communication systems. The proposed approach is based on monitoring the State of Polarization (SOP) via digital signal processing in a coherent receiver. We describe in details the design of a classifier providing interpretable decision rules and enabling low-complexity real-time detection embedded in network elements. The proposed method operates on SOP time series, which define trajectories on the 3D sphere; SOP time series are low-pass filtered (to reduce measurement noise), pre-rotated (to provide invariance to the starting point of trajectories) and converted to quaternion domain. Then quaternion sequences are recoded to relational data for automatic variable construction and selection. We show that a naïve Bayes classifier using a limited subset of variables can achieve an event classification accuracy of more than 99% for the tested conditions.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "France",
+                        "address-part": "2 Avenue Pierre Marzin",
+                        "postal-code": "22307",
+                        "@country": "fra",
+                        "city": "Lannion Cedex",
+                        "organization": {"$": "Orange Labs"},
+                        "ce:source-text": "Orange Labs, 2 Avenue Pierre Marzin, 22307, Lannion Cedex, France"
+                    },
+                    "person": {
+                        "ce:given-name": "Vincent",
+                        "ce:initials": "V.",
+                        "ce:surname": "Lemaire",
+                        "ce:indexed-name": "Lemaire V."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "11986 LNAI"},
+                        "pagerange": {
+                            "@first": "26",
+                            "@last": "42"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783030390976",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "4th ECML PKDD Workshop on Advanced Analytics and Learning on Temporal Data, AALTD 2019",
+                            "confnumber": "4th",
+                            "confseriestitle": "Workshop on Advanced Analytics and Learning on Temporal Data",
+                            "conflocation": {
+                                "@country": "deu",
+                                "city": "Würzburg"
+                            },
+                            "confcode": "238049",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "20",
+                                    "@year": "2019",
+                                    "@month": "09"
+                                },
+                                "startdate": {
+                                    "@day": "16",
+                                    "@year": "2019",
+                                    "@month": "09"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Vincent",
+                            "@seq": "1",
+                            "ce:initials": "V.",
+                            "ce:surname": "Lemaire",
+                            "@role": "edit",
+                            "ce:indexed-name": "Lemaire V."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Simon",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:surname": "Malinowski",
+                            "@role": "edit",
+                            "ce:indexed-name": "Malinowski S."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Anthony",
+                            "@seq": "1",
+                            "ce:initials": "A.",
+                            "ce:surname": "Bagnall",
+                            "@role": "edit",
+                            "ce:indexed-name": "Bagnall A."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Alexis",
+                            "@seq": "1",
+                            "ce:initials": "A.",
+                            "ce:surname": "Bondu",
+                            "@role": "edit",
+                            "ce:indexed-name": "Bondu A."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Thomas",
+                            "@seq": "1",
+                            "ce:initials": "T.",
+                            "ce:surname": "Guyet",
+                            "@role": "edit",
+                            "ce:indexed-name": "Guyet T."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Romain",
+                            "@seq": "1",
+                            "ce:initials": "R.",
+                            "ce:surname": "Tavenard",
+                            "@role": "edit",
+                            "ce:indexed-name": "Tavenard R."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2020",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2020"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Advanced Analytics and Learning on Temporal Data - 4th ECML PKDD Workshop, AALTD 2019, Revised Selected Papers",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {"publishername": "Springer"},
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "703.2",
+                                "classification-description": "Electric Filters"
+                            },
+                            {
+                                "classification-code": "717.1",
+                                "classification-description": "Optical Communication Systems"
+                            },
+                            {
+                                "classification-code": "742.2",
+                                "classification-description": "Photographic Equipment"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "27",
+                    "@timestamp": "BST 09:02:40",
+                    "@year": "2020",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "631307241",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "924911321",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20201308346780",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20200959523",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85082111527",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85082111527",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-030-39098-3_3"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "46",
+                "reference": [
+                    {
+                        "ref-fulltext": "Adewuyi, A.P., Wu, Z., Serker, N.K.: Assessment of vibration-based damage identification methods using displacement and distributed strain measurements. Struct. Health Monit. 8(6), 443-461 (2009)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Assessment of vibration-based damage identification methods using displacement and distributed strain measurements"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70350536284",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "443",
+                                    "@last": "461"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adewuyi",
+                                    "ce:indexed-name": "Adewuyi A.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Serker",
+                                    "ce:indexed-name": "Serker N.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Struct. Health Monit."
+                        },
+                        "ce:source-text": "Adewuyi, A.P., Wu, Z., Serker, N.K.: Assessment of vibration-based damage identification methods using displacement and distributed strain measurements. Struct. Health Monit. 8(6), 443-461 (2009)"
+                    },
+                    {
+                        "ref-fulltext": "Bagnall, A., Lines, J., Hills, J., Bostrom, A.: Time-series classification with COTE: the collective of transformation-based ensembles. IEEE Trans. Knowl. Data Eng. 27(9), 2522-2535 (2015)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Time-series classification with COTE: The collective of transformation-based ensembles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84939221419",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "2522",
+                                    "@last": "2535"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagnall",
+                                    "ce:indexed-name": "Bagnall A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lines",
+                                    "ce:indexed-name": "Lines J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hills",
+                                    "ce:indexed-name": "Hills J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bostrom",
+                                    "ce:indexed-name": "Bostrom A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Knowl. Data Eng."
+                        },
+                        "ce:source-text": "Bagnall, A., Lines, J., Hills, J., Bostrom, A.: Time-series classification with COTE: the collective of transformation-based ensembles. IEEE Trans. Knowl. Data Eng. 27(9), 2522-2535 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Bagnall, A., Davis, L., Hills, J., Lines, J.: Transformation based ensembles for time series classification. In: Proceedings of the 12th SDM, April 2012",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Transformation based ensembles for time series classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84877246663",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "April",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagnall",
+                                    "ce:indexed-name": "Bagnall A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davis",
+                                    "ce:indexed-name": "Davis L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hills",
+                                    "ce:indexed-name": "Hills J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lines",
+                                    "ce:indexed-name": "Lines J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 12Th SDM"
+                        },
+                        "ce:source-text": "Bagnall, A., Davis, L., Hills, J., Lines, J.: Transformation based ensembles for time series classification. In: Proceedings of the 12th SDM, April 2012"
+                    },
+                    {
+                        "ref-fulltext": "Bagnall, A., Lines, J., Bostrom, A., Large, J., Keogh, E.: The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances. Data Min. Knowl. Disc. 31(3), 606-660 (2017)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "The great time series classification bake off: A review and experimental evaluation of recent algorithmic advances"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84996721530",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "606",
+                                    "@last": "660"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagnall",
+                                    "ce:indexed-name": "Bagnall A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lines",
+                                    "ce:indexed-name": "Lines J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bostrom",
+                                    "ce:indexed-name": "Bostrom A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Large",
+                                    "ce:indexed-name": "Large J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Keogh",
+                                    "ce:indexed-name": "Keogh E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Min. Knowl. Disc."
+                        },
+                        "ce:source-text": "Bagnall, A., Lines, J., Bostrom, A., Large, J., Keogh, E.: The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances. Data Min. Knowl. Disc. 31(3), 606-660 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Boitier, F., et al.: Proactive fiber damage detection in real-time coherent receiver. In: Proceedings of the ECOC (2017)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Proactive fiber damage detection in real-time coherent receiver"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85046966181",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boitier",
+                                    "ce:indexed-name": "Boitier F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the ECOC"
+                        },
+                        "ce:source-text": "Boitier, F., et al.: Proactive fiber damage detection in real-time coherent receiver. In: Proceedings of the ECOC (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Boitier, F., et al.: Seamless optical path restoration with just-in-time resource allocation leveraging machine learning. In: Proceeding of the ECOC, Demo Session (2018)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Seamless optical path restoration with just-in-time resource allocation leveraging machine learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063215310",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boitier",
+                                    "ce:indexed-name": "Boitier F."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceeding of the ECOC, Demo Session"
+                        },
+                        "ce:source-text": "Boitier, F., et al.: Seamless optical path restoration with just-in-time resource allocation leveraging machine learning. In: Proceeding of the ECOC, Demo Session (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M.: A grouping method for categorical attributes having very large number of values. In: Perner, P., Imiya, A. (eds.) MLDM 2005. LNCS (LNAI), vol. 3587, pp. 228-242. Springer, Heidelberg (2005). https://doi.org/10.1007/11510888_23",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/11510888_23",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A grouping method for categorical attributes having very large number of values"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "26944438285",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3587"},
+                                "pagerange": {
+                                    "@first": "228",
+                                    "@last": "242"
+                                }
+                            },
+                            "ref-text": "Perner, P., Imiya, A. (eds.), pp., Springer, Heidelberg",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Boullé",
+                                "ce:indexed-name": "Boulle M."
+                            }]},
+                            "ref-sourcetitle": "MLDM 2005. LNCS (LNAI)"
+                        },
+                        "ce:source-text": "Boullé, M.: A grouping method for categorical attributes having very large number of values. In: Perner, P., Imiya, A. (eds.) MLDM 2005. LNCS (LNAI), vol. 3587, pp. 228-242. Springer, Heidelberg (2005). https://doi.org/10.1007/11510888_23"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M.: MODL: a Bayes optimal discretization method for continuous attributes. Mach. Learn. 65(1), 131-165 (2006)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "MODL: A Bayes optimal discretization method for continuous attributes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33749007698",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "65",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "131",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Boullé",
+                                "ce:indexed-name": "Boulle M."
+                            }]},
+                            "ref-sourcetitle": "Mach. Learn."
+                        },
+                        "ce:source-text": "Boullé, M.: MODL: a Bayes optimal discretization method for continuous attributes. Mach. Learn. 65(1), 131-165 (2006)"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M.: Compression-based averaging of selective naive Bayes classifiers. J. Mach. Learn. Res. 8, 1659-1685 (2007)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Compression-based averaging of selective naive Bayes classifiers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34547688866",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "1659",
+                                    "@last": "1685"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Boullé",
+                                "ce:indexed-name": "Boulle M."
+                            }]},
+                            "ref-sourcetitle": "J. Mach. Learn. Res."
+                        },
+                        "ce:source-text": "Boullé, M.: Compression-based averaging of selective naive Bayes classifiers. J. Mach. Learn. Res. 8, 1659-1685 (2007)"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M.: Tagging fireworkers activities from body sensors under distribution drift. In: Proceedings of Federated Conference on Computer Science and Information System, pp. 389-396 (2015)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Tagging fireworkers activities from body sensors under distribution drift"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958078455",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "389",
+                                "@last": "396"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Boullé",
+                                "ce:indexed-name": "Boulle M."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of Federated Conference on Computer Science and Information System"
+                        },
+                        "ce:source-text": "Boullé, M.: Tagging fireworkers activities from body sensors under distribution drift. In: Proceedings of Federated Conference on Computer Science and Information System, pp. 389-396 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M.: Khiops: outil d\u2019apprentissage supervisé automatique pour la fouille de grandes bases de données multi-tables. In: Extraction et Gestion des Connaissances, pp. 505-510 (2016). http://www.khiops.com",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.khiops.com",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Khiops: Outil d\u2019apprentissage supervisé automatique pour la fouille de grandes bases de données multi-tables"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082131929",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "505",
+                                "@last": "510"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Boullé",
+                                "ce:indexed-name": "Boulle M."
+                            }]},
+                            "ref-sourcetitle": "Extraction Et Gestion Des Connaissances"
+                        },
+                        "ce:source-text": "Boullé, M.: Khiops: outil d\u2019apprentissage supervisé automatique pour la fouille de grandes bases de données multi-tables. In: Extraction et Gestion des Connaissances, pp. 505-510 (2016). http://www.khiops.com"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M.: Predicting dangerous seismic events in coal mines under distribution drift. In: Ganzha, M., Maciaszek, L., Paprzycki, M. (eds.) Proceedings of Federated Conference on Computer Science and Information System, pp. 221-224 (2016)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Predicting dangerous seismic events in coal mines under distribution drift"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85007247396",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "221",
+                                "@last": "224"
+                            }},
+                            "ref-text": "Ganzha, M., Maciaszek, L., Paprzycki, M. (eds.), pp",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Boullé",
+                                "ce:indexed-name": "Boulle M."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of Federated Conference on Computer Science and Information System"
+                        },
+                        "ce:source-text": "Boullé, M.: Predicting dangerous seismic events in coal mines under distribution drift. In: Ganzha, M., Maciaszek, L., Paprzycki, M. (eds.) Proceedings of Federated Conference on Computer Science and Information System, pp. 221-224 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Boullé, M., Charnay, C., Lachiche, N.: A scalable robust and automatic propositionalization approach for Bayesian classification of large mixed numerical and categorical data. Mach. Learn. 108, 229-266 (2018)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A scalable robust and automatic propositionalization approach for Bayesian classification of large mixed numerical and categorical data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85052617900",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "108"},
+                                "pagerange": {
+                                    "@first": "229",
+                                    "@last": "266"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boullé",
+                                    "ce:indexed-name": "Boulle M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Charnay",
+                                    "ce:indexed-name": "Charnay C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lachiche",
+                                    "ce:indexed-name": "Lachiche N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Mach. Learn."
+                        },
+                        "ce:source-text": "Boullé, M., Charnay, C., Lachiche, N.: A scalable robust and automatic propositionalization approach for Bayesian classification of large mixed numerical and categorical data. Mach. Learn. 108, 229-266 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Casteljau, P.D.: Les quaternions. Dunod, Paris (1987)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082123663",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Paris",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.D.",
+                                "@_fa": "true",
+                                "ce:surname": "Casteljau",
+                                "ce:indexed-name": "Casteljau P.D."
+                            }]},
+                            "ref-sourcetitle": "Les Quaternions. Dunod"
+                        },
+                        "ce:source-text": "Casteljau, P.D.: Les quaternions. Dunod, Paris (1987)"
+                    },
+                    {
+                        "ref-fulltext": "Chen, Y., et al.: The UCR time series classification archive, July 2015. www.cs. ucr.edu/∼eamonn/time series data/",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "www.cs.ucr.edu/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "38049149222",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "July",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "The UCR Time Series Classification Archive"
+                        },
+                        "ce:source-text": "Chen, Y., et al.: The UCR time series classification archive, July 2015. www.cs. ucr.edu/∼eamonn/time series data/"
+                    },
+                    {
+                        "ref-fulltext": "Dutisseuil, E., et al.: 34 Gb/s PDM-QPSK coherent receiver using SiGe ADCs and a single FPGA for digital signal processing. In: Proceedings of the OFC, p. OM3H.7 (2012)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "34 Gb/s PDM-QPSK coherent receiver using SiGe ADCs and a single FPGA for digital signal processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887519759",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "p. OM3H.7"}},
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dutisseuil",
+                                    "ce:indexed-name": "Dutisseuil E."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proceedings of the OFC"
+                        },
+                        "ce:source-text": "Dutisseuil, E., et al.: 34 Gb/s PDM-QPSK coherent receiver using SiGe ADCs and a single FPGA for digital signal processing. In: Proceedings of the OFC, p. OM3H.7 (2012)"
+                    },
+                    {
+                        "ref-fulltext": "Džeroski, S.: Relational data mining. In: Maimon, O., Rokach, L. (eds.) Data Mining and Knowledge Discovery Handbook, pp. 887-911. Springer, Boston (2009). https://doi.org/10.1007/978-0-387-09823-4_46",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-0-387-09823-4_46",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Relational data mining"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0011177327",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "887",
+                                "@last": "911"
+                            }},
+                            "ref-text": "Maimon, O., Rokach, L. (eds.), pp., Springer, Boston",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Džeroski",
+                                "ce:indexed-name": "Dzeroski S."
+                            }]},
+                            "ref-sourcetitle": "Data Mining and Knowledge Discovery Handbook"
+                        },
+                        "ce:source-text": "Džeroski, S.: Relational data mining. In: Maimon, O., Rokach, L. (eds.) Data Mining and Knowledge Discovery Handbook, pp. 887-911. Springer, Boston (2009). https://doi.org/10.1007/978-0-387-09823-4_46"
+                    },
+                    {
+                        "ref-fulltext": "Dzeroski, S., Lavrac, N.: Inductive Logic Programming: Techniques and Applications. Prentice Hall, New York (1994)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004080766",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Prentice Hall, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dzeroski",
+                                    "ce:indexed-name": "Dzeroski S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lavrac",
+                                    "ce:indexed-name": "Lavrac N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Inductive Logic Programming: Techniques and Applications"
+                        },
+                        "ce:source-text": "Dzeroski, S., Lavrac, N.: Inductive Logic Programming: Techniques and Applications. Prentice Hall, New York (1994)"
+                    },
+                    {
+                        "ref-fulltext": "Fawcett, T.: ROC graphs: notes and practical considerations for researchers. Technical Report HPL-2003-4, HP Laboratories (2004)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "ROC graphs: Notes and practical considerations for researchers. Technical Report HPL-2003-4"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0345438685",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Fawcett",
+                                "ce:indexed-name": "Fawcett T."
+                            }]},
+                            "ref-sourcetitle": "HP Laboratories"
+                        },
+                        "ce:source-text": "Fawcett, T.: ROC graphs: notes and practical considerations for researchers. Technical Report HPL-2003-4, HP Laboratories (2004)"
+                    },
+                    {
+                        "ref-fulltext": "Gay, D., Guigourés, R., Boullé, M., Clérot, F.: Feature extraction over multiple representations for time series classification. In: International Workshop NFMCP held at ECML/PKDD, pp. 18-34 (2013)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Feature extraction over multiple representations for time series classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082114371",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "18",
+                                "@last": "34"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gay",
+                                    "ce:indexed-name": "Gay D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guigourés",
+                                    "ce:indexed-name": "Guigoures R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boullé",
+                                    "ce:indexed-name": "Boulle M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clérot",
+                                    "ce:indexed-name": "Clerot F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop NFMCP Held at ECML/PKDD"
+                        },
+                        "ce:source-text": "Gay, D., Guigourés, R., Boullé, M., Clérot, F.: Feature extraction over multiple representations for time series classification. In: International Workshop NFMCP held at ECML/PKDD, pp. 18-34 (2013)"
+                    },
+                    {
+                        "ref-fulltext": "Hamilton, W.R.: On a new species of imaginary quantities connected with a theory of quaternions. Proc. R. Ir. Acad. 2, 424-434 (1843)",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1843"},
+                            "ref-title": {"ref-titletext": "On a new species of imaginary quantities connected with a theory of quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0008624048",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "424",
+                                    "@last": "434"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Hamilton",
+                                "ce:indexed-name": "Hamilton W.R."
+                            }]},
+                            "ref-sourcetitle": "Proc. R. Ir. Acad."
+                        },
+                        "ce:source-text": "Hamilton, W.R.: On a new species of imaginary quantities connected with a theory of quaternions. Proc. R. Ir. Acad. 2, 424-434 (1843)"
+                    },
+                    {
+                        "ref-fulltext": "Hanson, A.J.: Visualizing Quaternions. Morgan Kaufmann Publishers, Burlington (2006)",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747343027",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Morgan Kaufmann Publishers, Burlington",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Hanson",
+                                "ce:indexed-name": "Hanson A.J."
+                            }]},
+                            "ref-sourcetitle": "Visualizing Quaternions"
+                        },
+                        "ce:source-text": "Hanson, A.J.: Visualizing Quaternions. Morgan Kaufmann Publishers, Burlington (2006)"
+                    },
+                    {
+                        "ref-fulltext": "Hauske, F.N., Kuschnerov, M., Spinnler, B., Lankl, B.: Optical performance monitoring in digital coherent receivers. J. Lightwave Technol. 27(16), 3623-3631 (2009)",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Optical performance monitoring in digital coherent receivers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "68349154326",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "16"
+                                },
+                                "pagerange": {
+                                    "@first": "3623",
+                                    "@last": "3631"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hauske",
+                                    "ce:indexed-name": "Hauske F.N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuschnerov",
+                                    "ce:indexed-name": "Kuschnerov M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spinnler",
+                                    "ce:indexed-name": "Spinnler B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lankl",
+                                    "ce:indexed-name": "Lankl B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Lightwave Technol."
+                        },
+                        "ce:source-text": "Hauske, F.N., Kuschnerov, M., Spinnler, B., Lankl, B.: Optical performance monitoring in digital coherent receivers. J. Lightwave Technol. 27(16), 3623-3631 (2009)"
+                    },
+                    {
+                        "ref-fulltext": "Hayford-Acquah, T., Asante, B.: Causes of fiber cut and the recommendation to solve the problem. IOSR J. Electron. Commun. Eng. 12, 46-64 (2017)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Causes of fiber cut and the recommendation to solve the problem"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082137476",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "46",
+                                    "@last": "64"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hayford-Acquah",
+                                    "ce:indexed-name": "Hayford-Acquah T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asante",
+                                    "ce:indexed-name": "Asante B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IOSR J. Electron. Commun. Eng."
+                        },
+                        "ce:source-text": "Hayford-Acquah, T., Asante, B.: Causes of fiber cut and the recommendation to solve the problem. IOSR J. Electron. Commun. Eng. 12, 46-64 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Hills, J., Lines, J., Baranauskas, E., Mapp, J., Bagnall, A.: Classification of time series by shapelet transformation. Data Min. Knowl. Disc. 28(4), 851-881 (2014)",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Classification of time series by shapelet transformation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84896489839",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "851",
+                                    "@last": "881"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hills",
+                                    "ce:indexed-name": "Hills J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lines",
+                                    "ce:indexed-name": "Lines J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baranauskas",
+                                    "ce:indexed-name": "Baranauskas E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mapp",
+                                    "ce:indexed-name": "Mapp J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagnall",
+                                    "ce:indexed-name": "Bagnall A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Min. Knowl. Disc."
+                        },
+                        "ce:source-text": "Hills, J., Lines, J., Baranauskas, E., Mapp, J., Bagnall, A.: Classification of time series by shapelet transformation. Data Min. Knowl. Disc. 28(4), 851-881 (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Kikuchi, K.: Fundamentals of coherent optical fiber communications. J. Lightwave Technol. 34(1), 157-179 (2016)",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Fundamentals of coherent optical fiber communications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84962045534",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "157",
+                                    "@last": "179"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Kikuchi",
+                                "ce:indexed-name": "Kikuchi K."
+                            }]},
+                            "ref-sourcetitle": "J. Lightwave Technol."
+                        },
+                        "ce:source-text": "Kikuchi, K.: Fundamentals of coherent optical fiber communications. J. Lightwave Technol. 34(1), 157-179 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Krogel, M.-A., Rawles, S., Železný, F., Flach, P.A., Lavrač, N., Wrobel, S.: Comparative evaluation of approaches to propositionalization. In: Horváth, T., Yamamoto, A. (eds.) ILP 2003. LNCS (LNAI), vol. 2835, pp. 197-214. Springer, Heidelberg (2003). https://doi.org/10.1007/978-3-540-39917-9_14",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-3-540-39917-9_14",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Comparative evaluation of approaches to propositionalization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "9444220847",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2835"},
+                                "pagerange": {
+                                    "@first": "197",
+                                    "@last": "214"
+                                }
+                            },
+                            "ref-text": "Horváth, T., Yamamoto, A. (eds.), pp., Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.-A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krogel",
+                                    "ce:indexed-name": "Krogel M.-A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rawles",
+                                    "ce:indexed-name": "Rawles S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Železný",
+                                    "ce:indexed-name": "Zelezny F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flach",
+                                    "ce:indexed-name": "Flach P.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lavrač",
+                                    "ce:indexed-name": "Lavrac N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wrobel",
+                                    "ce:indexed-name": "Wrobel S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ILP 2003. LNCS (LNAI)"
+                        },
+                        "ce:source-text": "Krogel, M.-A., Rawles, S., Železný, F., Flach, P.A., Lavrač, N., Wrobel, S.: Comparative evaluation of approaches to propositionalization. In: Horváth, T., Yamamoto, A. (eds.) ILP 2003. LNCS (LNAI), vol. 2835, pp. 197-214. Springer, Heidelberg (2003). https://doi.org/10.1007/978-3-540-39917-9_14"
+                    },
+                    {
+                        "ref-fulltext": "Krogel, M.-A., Wrobel, S.: Transformation-based learning using multirelational aggregation. In: Rouveirol, C., Sebag, M. (eds.) ILP 2001. LNCS (LNAI), vol. 2157, pp. 142-155. Springer, Heidelberg (2001). https://doi.org/10.1007/3-540-44797-0_12",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/3-540-44797-0_12",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Transformation-based learning using multirelational aggregation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84937420049",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2157"},
+                                "pagerange": {
+                                    "@first": "142",
+                                    "@last": "155"
+                                }
+                            },
+                            "ref-text": "Rouveirol, C., Sebag, M. (eds.), pp., Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.-A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krogel",
+                                    "ce:indexed-name": "Krogel M.-A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wrobel",
+                                    "ce:indexed-name": "Wrobel S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ILP 2001. LNCS (LNAI)"
+                        },
+                        "ce:source-text": "Krogel, M.-A., Wrobel, S.: Transformation-based learning using multirelational aggregation. In: Rouveirol, C., Sebag, M. (eds.) ILP 2001. LNCS (LNAI), vol. 2157, pp. 142-155. Springer, Heidelberg (2001). https://doi.org/10.1007/3-540-44797-0_12"
+                    },
+                    {
+                        "ref-fulltext": "Lachiche, N.: Propositionalization, pp. 812-817. Springer, Boston (2010). https://doi.org/10.1007/978-0-387-30164-8",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-0-387-30164-8",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84886563124",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "812",
+                                "@last": "817"
+                            }},
+                            "ref-text": "Springer, Boston",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Lachiche",
+                                "ce:indexed-name": "Lachiche N."
+                            }]},
+                            "ref-sourcetitle": "Propositionalization"
+                        },
+                        "ce:source-text": "Lachiche, N.: Propositionalization, pp. 812-817. Springer, Boston (2010). https://doi.org/10.1007/978-0-387-30164-8"
+                    },
+                    {
+                        "ref-fulltext": "Langley, P., Iba, W., Thompson, K.: An analysis of Bayesian classifiers. In: Proceedings of the Tenth National Conference on Artificial Intelligence (AAAI 1992), pp. 223-228 (1992)",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "An analysis of Bayesian classifiers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026992322",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "223",
+                                "@last": "228"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Langley",
+                                    "ce:indexed-name": "Langley P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Iba",
+                                    "ce:indexed-name": "Iba W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thompson",
+                                    "ce:indexed-name": "Thompson K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Tenth National Conference on Artificial Intelligence (AAAI 1992)"
+                        },
+                        "ce:source-text": "Langley, P., Iba, W., Thompson, K.: An analysis of Bayesian classifiers. In: Proceedings of the Tenth National Conference on Artificial Intelligence (AAAI 1992), pp. 223-228 (1992)"
+                    },
+                    {
+                        "ref-fulltext": "Lavrač, N., Železný, F., Flach, P.A.: RSD: relational subgroup discovery through first-order feature construction. In: Matwin, S., Sammut, C. (eds.) ILP 2002. LNCS (LNAI), vol. 2583, pp. 149-165. Springer, Heidelberg (2003). https://doi.org/10. 1007/3-540-36468-4_10",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/3-540-36468-4_10",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "RSD: Relational subgroup discovery through first-order feature construction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "7044269070",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2583"},
+                                "pagerange": {
+                                    "@first": "149",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-text": "Matwin, S., Sammut, C. (eds.), Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lavrač",
+                                    "ce:indexed-name": "Lavrac N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Železný",
+                                    "ce:indexed-name": "Zelezny F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flach",
+                                    "ce:indexed-name": "Flach P.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ILP 2002. LNCS (LNAI)"
+                        },
+                        "ce:source-text": "Lavrač, N., Železný, F., Flach, P.A.: RSD: relational subgroup discovery through first-order feature construction. In: Matwin, S., Sammut, C. (eds.) ILP 2002. LNCS (LNAI), vol. 2583, pp. 149-165. Springer, Heidelberg (2003). https://doi.org/10. 1007/3-540-36468-4_10"
+                    },
+                    {
+                        "ref-fulltext": "Layec, P., Dupas, A., Verchère, D., Sparks, K., Bigo, S.: Will metro networks be the playground for (true) elastic optical networks? J. Lightwave Technol. 35(6), 1260-1266 (2017)",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Will metro networks be the playground for (True) elastic optical networks?"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85019005009",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1260",
+                                    "@last": "1266"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Layec",
+                                    "ce:indexed-name": "Layec P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dupas",
+                                    "ce:indexed-name": "Dupas A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Verchère",
+                                    "ce:indexed-name": "Verchere D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sparks",
+                                    "ce:indexed-name": "Sparks K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bigo",
+                                    "ce:indexed-name": "Bigo S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Lightwave Technol."
+                        },
+                        "ce:source-text": "Layec, P., Dupas, A., Verchère, D., Sparks, K., Bigo, S.: Will metro networks be the playground for (true) elastic optical networks? J. Lightwave Technol. 35(6), 1260-1266 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Lemaire, V., Salperwyck, C., Bondu, A.: A survey on supervised classification on data streams. In: Zimányi, E., Kutsche, R.-D. (eds.) eBISS 2014. LNBIP, vol. 205, pp. 88-125. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-17551-5_4",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-3-319-17551-5_4",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A survey on supervised classification on data streams"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84929621730",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "205"},
+                                "pagerange": {
+                                    "@first": "88",
+                                    "@last": "125"
+                                }
+                            },
+                            "ref-text": "Zimányi, E., Kutsche, R.-D. (eds.), pp., Springer, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lemaire",
+                                    "ce:indexed-name": "Lemaire V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salperwyck",
+                                    "ce:indexed-name": "Salperwyck C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bondu",
+                                    "ce:indexed-name": "Bondu A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ebiss 2014. LNBIP"
+                        },
+                        "ce:source-text": "Lemaire, V., Salperwyck, C., Bondu, A.: A survey on supervised classification on data streams. In: Zimányi, E., Kutsche, R.-D. (eds.) eBISS 2014. LNBIP, vol. 205, pp. 88-125. Springer, Cham (2015). https://doi.org/10.1007/978-3-319-17551-5_4"
+                    },
+                    {
+                        "ref-fulltext": "Lines, J., Bagnall, A.: Time series classification with ensembles of elastic distance measures. Data Min. Knowl. Disc. 29(3), 565-592 (2015)",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Time series classification with ensembles of elastic distance measures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84939218581",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "565",
+                                    "@last": "592"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lines",
+                                    "ce:indexed-name": "Lines J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bagnall",
+                                    "ce:indexed-name": "Bagnall A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Data Min. Knowl. Disc."
+                        },
+                        "ce:source-text": "Lines, J., Bagnall, A.: Time series classification with ensembles of elastic distance measures. Data Min. Knowl. Disc. 29(3), 565-592 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Liu, X., Jin, B., Bai, Q., Wang, D., Wang, Y.: Distributed fiber-optic sensors for vibration detection. Sensors 16, 1164 (2016)",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Distributed fiber-optic sensors for vibration detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84979581756",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "16"},
+                                "pagerange": {"@first": "1164"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bai",
+                                    "ce:indexed-name": "Bai Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "Liu, X., Jin, B., Bai, Q., Wang, D., Wang, Y.: Distributed fiber-optic sensors for vibration detection. Sensors 16, 1164 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Nokia white paper: Advances in optical layer restoration (2017). https://www. nokia.com/blog/optical-layer-restoration-improving-efficiency/",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.nokia.com/blog/optical-layer-restoration-improving-efficiency/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082128735",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"collaboration": {
+                                "@seq": "1",
+                                "ce:text": "Nokia white paper: Advances in optical layer restoration",
+                                "ce:indexed-name": "Nokia white paper: Advances in optical layer restoration"
+                            }}
+                        },
+                        "ce:source-text": "Nokia white paper: Advances in optical layer restoration (2017). https://www. nokia.com/blog/optical-layer-restoration-improving-efficiency/"
+                    },
+                    {
+                        "ref-fulltext": "Pesic, J., Le Rouzic, E., Brochier, N., Dupont, L.: Proactive restoration of optical links based on the classification of events. In: Proceedings of the ONDM, pp. 1-6 (2011)",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Proactive restoration of optical links based on the classification of events"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79956132714",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pesic",
+                                    "ce:indexed-name": "Pesic J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Rouzic",
+                                    "ce:indexed-name": "Le Rouzic E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brochier",
+                                    "ce:indexed-name": "Brochier N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dupont",
+                                    "ce:indexed-name": "Dupont L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ONDM"
+                        },
+                        "ce:source-text": "Pesic, J., Le Rouzic, E., Brochier, N., Dupont, L.: Proactive restoration of optical links based on the classification of events. In: Proceedings of the ONDM, pp. 1-6 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Pesic, J., Meuric, J., Le Rouzic, E., Dupont, L., Morvan, M.: Proactive failure detection for WDM carrying IP. In: Proceedings of IEEE INFOCOM, pp. 2971-2975 (2012)",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Proactive failure detection for WDM carrying IP"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84861624844",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2971",
+                                "@last": "2975"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pesic",
+                                    "ce:indexed-name": "Pesic J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meuric",
+                                    "ce:indexed-name": "Meuric J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Le Rouzic",
+                                    "ce:indexed-name": "Le Rouzic E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dupont",
+                                    "ce:indexed-name": "Dupont L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Morvan",
+                                    "ce:indexed-name": "Morvan M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of IEEE INFOCOM"
+                        },
+                        "ce:source-text": "Pesic, J., Meuric, J., Le Rouzic, E., Dupont, L., Morvan, M.: Proactive failure detection for WDM carrying IP. In: Proceedings of IEEE INFOCOM, pp. 2971-2975 (2012)"
+                    },
+                    {
+                        "ref-fulltext": "Pesic, J.: Study of the mechanisms associated with the preventive network restoration in fiber optic core networks. Ph.D. thesis, Université de Bretagne-Sud (2012)",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063187468",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph.D. thesis, Université de Bretagne-Sud",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Pesic",
+                                "ce:indexed-name": "Pesic J."
+                            }]},
+                            "ref-sourcetitle": "Study of the Mechanisms Associated with the Preventive Network Restoration in Fiber Optic Core Networks"
+                        },
+                        "ce:source-text": "Pesic, J.: Study of the mechanisms associated with the preventive network restoration in fiber optic core networks. Ph.D. thesis, Université de Bretagne-Sud (2012)"
+                    },
+                    {
+                        "ref-fulltext": "Project SENDATE-Tandem: Secure networking for a data center cloud in Europe-tailored network for data centers in the metro. https://www.celticnext.eu/project-sendate-tandem/",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.celticnext.eu/project-sendate-tandem/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082123273",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Project Sendate-Tandem: Secure Networking for a Data Center Cloud in Europe-Tailored Network for Data Centers in the Metro"
+                        },
+                        "ce:source-text": "Project SENDATE-Tandem: Secure networking for a data center cloud in Europe-tailored network for data centers in the metro. https://www.celticnext.eu/project-sendate-tandem/"
+                    },
+                    {
+                        "ref-fulltext": "Rodríguez, J.J., Alonso, C.J., Boström, H.: Learning first order logic time series classifiers: rules and boosting. In: Zighed, D.A., Komorowski, J., Żytkow, J. (eds.) PKDD 2000. LNCS (LNAI), vol. 1910, pp. 299-308. Springer, Heidelberg (2000). https://doi.org/10.1007/3-540-45372-5_29",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/3-540-45372-5_29",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Learning first order logic time series classifiers: Rules and boosting"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84974705046",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1910"},
+                                "pagerange": {
+                                    "@first": "299",
+                                    "@last": "308"
+                                }
+                            },
+                            "ref-text": "Zighed, D.A., Komorowski, J., Żytkow, J. (eds.), pp., Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodríguez",
+                                    "ce:indexed-name": "Rodriguez J.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alonso",
+                                    "ce:indexed-name": "Alonso C.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boström",
+                                    "ce:indexed-name": "Bostrom H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "PKDD 2000. LNCS (LNAI)"
+                        },
+                        "ce:source-text": "Rodríguez, J.J., Alonso, C.J., Boström, H.: Learning first order logic time series classifiers: rules and boosting. In: Zighed, D.A., Komorowski, J., Żytkow, J. (eds.) PKDD 2000. LNCS (LNAI), vol. 1910, pp. 299-308. Springer, Heidelberg (2000). https://doi.org/10.1007/3-540-45372-5_29"
+                    },
+                    {
+                        "ref-fulltext": "Schäfer, P., Leser, U.: Fast and accurate time series classification with WEASEL. In: Proceedings of the 2017 ACM on Conference on Information and Knowledge Management, pp. 637-646 (2017)",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Fast and accurate time series classification with WEASEL"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85037343089",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "637",
+                                "@last": "646"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schäfer",
+                                    "ce:indexed-name": "Schafer P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leser",
+                                    "ce:indexed-name": "Leser U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2017 ACM on Conference on Information and Knowledge Management"
+                        },
+                        "ce:source-text": "Schäfer, P., Leser, U.: Fast and accurate time series classification with WEASEL. In: Proceedings of the 2017 ACM on Conference on Information and Knowledge Management, pp. 637-646 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Shoemake, K.: Animating rotation with quaternion curves. ACM SIGGRAPH Comput. Graph. 19(3), 245-254 (1985)",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Animating rotation with quaternion curves"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022095776",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "245",
+                                    "@last": "254"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "ce:surname": "Shoemake",
+                                "ce:indexed-name": "Shoemake K."
+                            }]},
+                            "ref-sourcetitle": "ACM SIGGRAPH Comput. Graph."
+                        },
+                        "ce:source-text": "Shoemake, K.: Animating rotation with quaternion curves. ACM SIGGRAPH Comput. Graph. 19(3), 245-254 (1985)"
+                    },
+                    {
+                        "ref-fulltext": "Simsarian, J.E., Winzer, P.J.: Shake before break: per-span fiber sensing with in-line polarization monitoring. In: Proceedings of OFC, p. M2E.6 (2017)",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Shake before break: Per-span fiber sensing with in-line polarization monitoring"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85025840548",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "M2E.6"}},
+                            "ref-text": "p",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simsarian",
+                                    "ce:indexed-name": "Simsarian J.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Winzer",
+                                    "ce:indexed-name": "Winzer P.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of OFC"
+                        },
+                        "ce:source-text": "Simsarian, J.E., Winzer, P.J.: Shake before break: per-span fiber sensing with in-line polarization monitoring. In: Proceedings of OFC, p. M2E.6 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Time-series classification challenge: Workshop advanced analytics and learning on temporal data at ECML (2016). https://aaltd16.irisa.fr/challenge/",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://aaltd16.irisa.fr/challenge/",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Time-series classification challenge"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85082103807",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "Workshop Advanced Analytics and Learning on Temporal Data at ECML"
+                        },
+                        "ce:source-text": "Time-series classification challenge: Workshop advanced analytics and learning on temporal data at ECML (2016). https://aaltd16.irisa.fr/challenge/"
+                    },
+                    {
+                        "ref-fulltext": "Warren Liao, T.: Clustering of time series data-a survey. Pattern Recognit. 38(11), 1857-1874 (2005)",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Clustering of time series data-a survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "24044470614",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1857",
+                                    "@last": "1874"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Warren Liao",
+                                "ce:indexed-name": "Warren Liao T."
+                            }]},
+                            "ref-sourcetitle": "Pattern Recognit"
+                        },
+                        "ce:source-text": "Warren Liao, T.: Clustering of time series data-a survey. Pattern Recognit. 38(11), 1857-1874 (2005)"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Issy-les-Moulineaux",
+            "@id": "60104081",
+            "affilname": "Orange Labs",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104081",
+            "affiliation-country": "France"
+        },
+        {
+            "affiliation-city": "Murray",
+            "@id": "60021378",
+            "affilname": "Nokia Bell Labs",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021378",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85082111527",
+        "dc:description": "We address the problem of event classification for proactive fiber break detection in high-speed optical communication systems. The proposed approach is based on monitoring the State of Polarization (SOP) via digital signal processing in a coherent receiver. We describe in details the design of a classifier providing interpretable decision rules and enabling low-complexity real-time detection embedded in network elements. The proposed method operates on SOP time series, which define trajectories on the 3D sphere; SOP time series are low-pass filtered (to reduce measurement noise), pre-rotated (to provide invariance to the starting point of trajectories) and converted to quaternion domain. Then quaternion sequences are recoded to relational data for automatic variable construction and selection. We show that a naïve Bayes classifier using a limited subset of variables can achieve an event classification accuracy of more than 99% for the tested conditions.",
+        "prism:coverDate": "2020-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85082111527",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Vincent",
+            "preferred-name": {
+                "ce:given-name": "Vincent",
+                "ce:initials": "V.",
+                "ce:surname": "Lemaire",
+                "ce:indexed-name": "Lemaire V."
+            },
+            "@seq": "1",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104081",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104081"
+            },
+            "ce:surname": "Lemaire",
+            "@auid": "7103308068",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7103308068",
+            "ce:indexed-name": "Lemaire V."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85082111527"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85082111527&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85082111527&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783030390976",
+        "source-id": "25674",
+        "citedby-count": "1",
+        "prism:volume": "11986 LNAI",
+        "subtype": "cp",
+        "dc:title": "Proactive Fiber Break Detection Based on Quaternion Time Series and Automatic Variable Selection from Relational Data",
+        "openaccess": "0",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© Springer Nature Switzerland AG 2020.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "26-42",
+        "prism:endingPage": "42",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-030-39098-3_3",
+        "prism:startingPage": "26",
+        "dc:identifier": "SCOPUS_ID:85082111527",
+        "dc:publisher": "Springer"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Bayes Classifier",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Coherent receivers",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Event classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Measurement Noise",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Real-time detection",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "State of polarization",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Variable constructions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Variable selection",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Vincent",
+            "preferred-name": {
+                "ce:given-name": "Vincent",
+                "ce:initials": "V.",
+                "ce:surname": "Lemaire",
+                "ce:indexed-name": "Lemaire V."
+            },
+            "@seq": "1",
+            "ce:initials": "V.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104081",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104081"
+            },
+            "ce:surname": "Lemaire",
+            "@auid": "7103308068",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7103308068",
+            "ce:indexed-name": "Lemaire V."
+        },
+        {
+            "ce:given-name": "Fabien",
+            "preferred-name": {
+                "ce:given-name": "Fabien",
+                "ce:initials": "F.",
+                "ce:surname": "Boitier",
+                "ce:indexed-name": "Boitier F."
+            },
+            "@seq": "2",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021378",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021378"
+            },
+            "ce:surname": "Boitier",
+            "@auid": "26038887900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/26038887900",
+            "ce:indexed-name": "Boitier F."
+        },
+        {
+            "ce:given-name": "Jelena",
+            "preferred-name": {
+                "ce:given-name": "Jelena",
+                "ce:initials": "J.",
+                "ce:surname": "Pesic",
+                "ce:indexed-name": "Pesic J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60021378",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60021378"
+            },
+            "ce:surname": "Pesic",
+            "@auid": "57188956207",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57188956207",
+            "ce:indexed-name": "Pesic J."
+        },
+        {
+            "ce:given-name": "Alexis",
+            "preferred-name": {
+                "ce:given-name": "Alexis",
+                "ce:initials": "A.",
+                "ce:surname": "Bondu",
+                "ce:indexed-name": "Bondu A."
+            },
+            "@seq": "4",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104081",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104081"
+            },
+            "ce:surname": "Bondu",
+            "@auid": "23090474600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23090474600",
+            "ce:indexed-name": "Bondu A."
+        },
+        {
+            "ce:given-name": "Stéphane",
+            "preferred-name": {
+                "ce:given-name": "Stéphane",
+                "ce:initials": "S.",
+                "ce:surname": "Ragot",
+                "ce:indexed-name": "Ragot S."
+            },
+            "@seq": "5",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104081",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104081"
+            },
+            "ce:surname": "Ragot",
+            "@auid": "18042416800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/18042416800",
+            "ce:indexed-name": "Ragot S."
+        },
+        {
+            "ce:given-name": "Fabrice",
+            "preferred-name": {
+                "ce:given-name": "Fabrice",
+                "ce:initials": "F.",
+                "ce:surname": "Clérot",
+                "ce:indexed-name": "Clérot F."
+            },
+            "@seq": "6",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60104081",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60104081"
+            },
+            "ce:surname": "Clérot",
+            "@auid": "55995258900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55995258900",
+            "ce:indexed-name": "Clerot F."
+        }
+    ]}
+}}

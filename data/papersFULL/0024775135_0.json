@@ -1,0 +1,2513 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "29",
+                "@year": "2022",
+                "@timestamp": "2022-03-29T22:52:17.000017-04:00",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "1989",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "National Science Foundaton"},
+                {
+                    "xocs:funding-agency-matched-string": "NSF",
+                    "xocs:funding-agency-acronym": "NSF",
+                    "xocs:funding-agency": "National Science Foundation",
+                    "xocs:funding-id": "IRI-84-17756",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000001",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Air Force Office of SCientific Research",
+                    "xocs:funding-agency-acronym": "AFOSR",
+                    "xocs:funding-agency": "Air Force Office of Scientific Research",
+                    "xocs:funding-id": [
+                        {"$": "F49620-86-C-0037"},
+                        {"$": "F49620-87-C-0018"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000181",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Army Research Office",
+                    "xocs:funding-agency-acronym": "ARO",
+                    "xocs:funding-agency": "Army Research Office",
+                    "xocs:funding-id": [
+                        {"$": "85-0149"},
+                        {"$": "ARO DAAG-29-85-K-0095"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000183",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-25T05:13:12.787Z",
+            "xocs:funding-text": "tSupported in part by the Air Force Office of SCientific Research (AFOSR F49620-86-C-0037 and AFOSR F49620-87-C-0018) and the Army Research Office (ARO DAAG-29-85-K-0095). tSupported in part by the Air Force Office of SCientific Research (AFOSR 85-0149, AFOSR F49620-86-C-0037 and AFOSR F49620-87-C-0018), the Army Research Office (ARO DAAG-29-85-K-0095), and the National Science Foundaton (NSF IRI-84-17756). Acknowledgements: We wish to thank Cynthia Suchta and Carol Yanakakis for their valuable assistance in the preparation of the manuscript and illustrations. Requests for reprints should be sent to Stephen Grossberg, Center for Adaptive Systems, Boston University, 111 Cummington Street, Boston, MA 02215.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@afid": "60019674",
+                        "@country": "usa",
+                        "organization": {"$": "Center for Adaptive Systems, Boston University"},
+                        "affiliation-id": {
+                            "@afid": "60019674",
+                            "@dptid": "104002398"
+                        },
+                        "@dptid": "104002398"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Stephen",
+                            "preferred-name": {
+                                "ce:given-name": "Stephen",
+                                "ce:initials": "S.",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@date-locked": "2019-03-26T16:59:34.943",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Grossberg",
+                            "@auid": "7101773583",
+                            "ce:indexed-name": "Grossberg S."
+                        },
+                        {
+                            "ce:given-name": "Jonathan A.",
+                            "preferred-name": {
+                                "ce:given-name": "Jonathan A.",
+                                "ce:initials": "J.A.",
+                                "ce:surname": "Marshall",
+                                "ce:indexed-name": "Marshall J.A."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "J.A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Marshall",
+                            "@auid": "35502315700",
+                            "ce:indexed-name": "Marshall J.A."
+                        }
+                    ]
+                },
+                "citation-title": "Stereo boundary fusion by cortical complex cells: A system of maps, filters, and feedback networks for multiplexing distributed data",
+                "abstracts": "A neural network model of multiple-scale binocular fusion and rivalry in visual cortex is described and simulated on the computer. The model consists of three parts: a distributed spatial representation of binocular input patterns among simple cells that are organized into ocular dominance columns; an adaptive filter from simple cells to complex cells; and a nonlinear on-center off-surround shunting feedback network that joins together the complex cells. This data structure generates complex cell receptive fields which multiplex input position, orientation, spatial frequency, positional disparity, and orientational disparity, and which are insensitive to direction-of-contrast in the image. Multiple copies of this circuit are replicated in the model using receptive fields of different sizes. Within each such circuit, the simple cell and complex cell receptive field sizes covary. Together these circuits define a self-similar multiple-scale network. The self-similarity property across spatial scales enables the network to exhibit a size-disparity correlation, whereby simultaneous binocular fusion and rivalry can occur among the spatial scales corresponding to a given retinal region. It is shown that a laminar organization of the model interactions among the complex cells gives rise to conceptually simple growth rules for intercellular connections. The output patterns of the model complex cells are designed to feed into the model hypercomplex cells at the first competitive stage of a Boundary Contour System network, where they trigger a process of multiple-scale emergent binocular boundary segmentation. The modeling results are compared with psychophysical data about binocular fusion and rivalry, as well as with the cepstrum stereo model of Yeshurun and Schwartz. The results indicate that analogous self-similar multiple-scale neural networks may be used to carry out data fusion of many other types of spatially organized data structures. © 1989.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@country": "usa",
+                        "organization": {"$": "Center for Adaptive Systems, Boston University"}
+                    },
+                    "person": {
+                        "ce:initials": "S.",
+                        "ce:surname": "Grossberg",
+                        "ce:indexed-name": "Grossberg S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Binocular rivalry",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Binocular vision",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Complex cells",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Computational map",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Data fusion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Multiplexing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Neural network",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "nonlinear feedback network",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Ocular dominance columns",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Self-similarity",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Size-disparity correlation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Visual cortex",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "NNETE",
+                    "sourcetitle-abbrev": "Neural Netw.",
+                    "issn": {
+                        "$": "08936080",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "2",
+                            "@issue": "1"
+                        },
+                        "pagerange": {
+                            "@first": "29",
+                            "@last": "51"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "1989"},
+                    "sourcetitle": "Neural Networks",
+                    "@srcid": "24804",
+                    "publicationdate": {
+                        "year": "1989",
+                        "date-text": "1989"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "723"},
+                            {"$": "741"}
+                        ]
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2805"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "NEUR"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2014 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "ARCELS"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"},
+                    {"$": "CPX"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@year": "2014",
+                    "@month": "11"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "219239239",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "2007335866",
+                            "@idtype": "ARCELS"
+                        },
+                        {
+                            "$": "44248974",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "0024775135",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "0024775135",
+                            "@idtype": "SGR"
+                        },
+                        {
+                            "$": "22614046",
+                            "@idtype": "PUIsecondary"
+                        },
+                        {
+                            "$": "1992090283226",
+                            "@idtype": "CPX"
+                        }
+                    ],
+                    "ce:pii": "0893-6080(89)90013-0",
+                    "ce:doi": "10.1016/0893-6080(89)90013-0"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "66",
+                "reference": [
+                    {
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "ref-title": {"ref-titletext": "Mathematical theory on formation of category detecting nerve cells"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018140956",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "29"},
+                                "pagerange": {
+                                    "@first": "127",
+                                    "@last": "136"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amari",
+                                    "ce:indexed-name": "Amari"
+                                },
+                                {
+                                    "ce:given-name": "A.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Takeuchi",
+                                    "ce:indexed-name": "Takeuchi"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biological Cybernetics"
+                        }
+                    },
+                    {
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "ref-title": {"ref-titletext": "Theory for the development of neuron selectivity: Orientation specificity and binocular interaction in visual cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0020074887",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "32",
+                                    "@last": "48"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "E.L.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bienenstock",
+                                    "ce:indexed-name": "Bienenstock"
+                                },
+                                {
+                                    "ce:given-name": "L.N.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cooper",
+                                    "ce:indexed-name": "Cooper"
+                                },
+                                {
+                                    "ce:given-name": "P.W.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Munro",
+                                    "ce:indexed-name": "Munro"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Neuroscience"
+                        }
+                    },
+                    {
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1963"},
+                            "ref-title": {"ref-titletext": "The frequency analysis of time series for echoes: Cepstrum, pseudo-autocovariance, cross-cepstrum, and saphe cracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002161311",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "209",
+                                "@last": "243"
+                            }},
+                            "ref-text": "John Wiley and Sons, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "B.P.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bogert",
+                                    "ce:indexed-name": "Bogert"
+                                },
+                                {
+                                    "ce:given-name": "W.J.R.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Healy",
+                                    "ce:indexed-name": "Healy"
+                                },
+                                {
+                                    "ce:given-name": "J.W.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tukey",
+                                    "ce:indexed-name": "Tukey"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Symposium on Time Series Analysis"
+                        }
+                    },
+                    {
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "A massively parallel architecture for a self-organizing neural pattern recognition machine"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021776661",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "37"},
+                                "pagerange": {
+                                    "@first": "54",
+                                    "@last": "115"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision, Graphics, and Image Processing"
+                        }
+                    },
+                    {
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "ART 2 Self-organization of stable category recognition codes for analog input patterns"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973857317",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "26"},
+                                "pagerange": {
+                                    "@first": "4919",
+                                    "@last": "4930"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applied Optics"
+                        }
+                    },
+                    {
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "The ART of adaptive pattern recognition by a self-organizing neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023981451",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "88"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carpenter",
+                                    "ce:indexed-name": "Carpenter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer"
+                        }
+                    },
+                    {
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of brightness perception: Features, boundaries, diffusion, and resonance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021671648",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "36"},
+                                "pagerange": {
+                                    "@first": "428",
+                                    "@last": "456"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "M.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of speech and language coding: Developmental programs, perceptual grouping, and competition for short term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022613953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "22"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "M.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Human Neurobiology"
+                        }
+                    },
+                    {
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Masking fields A massively parallel neural architecture for learning recognizing and predicting multiple groupings of patterned data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000447832",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "26"},
+                                "pagerange": {
+                                    "@first": "1866",
+                                    "@last": "1891"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "M.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Applied Optics"
+                        }
+                    },
+                    {
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Recent developments in a neural model of real-time speech analysis and synthesis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18144453314",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "443",
+                                    "@last": "454"
+                                }
+                            },
+                            "ref-text": "M. Caudill, C. Butler, IEEE Press, Piscataway, NJ",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "M.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cohen",
+                                    "ce:indexed-name": "Cohen"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "D.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stork",
+                                    "ce:indexed-name": "Stork"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE First International Conference on Neural Networks"
+                        }
+                    },
+                    {
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Uncertainty relation for resolution in space, spatial frequency, and orientation optimized by two-dimensional visual cortical filters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022098435",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "1160",
+                                    "@last": "1169"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "J.G.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Daugman",
+                                "ce:indexed-name": "Daugman"
+                            }]},
+                            "ref-sourcetitle": "Journal of the Optical Society of America Part A"
+                        }
+                    },
+                    {
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "ref-title": {"ref-titletext": "Spatial frequency selectivity of cells in macaque visual cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0020045244",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "545",
+                                    "@last": "559"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "R.L.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeValois",
+                                    "ce:indexed-name": "DeValois"
+                                },
+                                {
+                                    "ce:given-name": "D.G.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Albrecht",
+                                    "ce:indexed-name": "Albrecht"
+                                },
+                                {
+                                    "ce:given-name": "L.G.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thorell",
+                                    "ce:indexed-name": "Thorell"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84910748286",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Unpublished manuscript",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "R.T.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Eskew",
+                                "ce:suffix": "Jr.",
+                                "ce:indexed-name": "Eskew"
+                            }]},
+                            "ref-sourcetitle": "The gap effect revisited: Slow changes in chromatic sensitivity as affected by luminance and chromatic borders"
+                        }
+                    },
+                    {
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "ref-title": {"ref-titletext": "The relationship between apparent depth and disparity in rivalrous-texture stereograms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018241596",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "7"},
+                                "pagerange": {
+                                    "@first": "661",
+                                    "@last": "678"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "J.P.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frisby",
+                                    "ce:indexed-name": "Frisby"
+                                },
+                                {
+                                    "ce:given-name": "J.E.W.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mayhew",
+                                    "ce:indexed-name": "Mayhew"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Perception"
+                        }
+                    },
+                    {
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84910731442",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Unpublished manuscript",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "N.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Graham",
+                                "ce:indexed-name": "Graham"
+                            }]},
+                            "ref-sourcetitle": "Low-level visual processes and texture segregation"
+                        }
+                    },
+                    {
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1969"},
+                            "ref-title": {"ref-titletext": "On the production and release of chemical transmitters and related topics in cellular control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0014472518",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "325",
+                                    "@last": "364"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Journal of Theoretical Biology"
+                        }
+                    },
+                    {
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1972"},
+                            "ref-title": {"ref-titletext": "Neural expectation: Cerebellar and retinal analogs of cells fired by learnable or unlearned pattern classes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0015254593",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {
+                                    "@first": "49",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Kybernetik"
+                        }
+                    },
+                    {
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "Adaptive pattern classification and universal recoding, I: Parallel development and coding of neural teature detectors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017120827",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "23"},
+                                "pagerange": {
+                                    "@first": "121",
+                                    "@last": "134"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Biological Cybernetics"
+                        }
+                    },
+                    {
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003630660",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Reidel Press, Boston",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Studies of mind and brain: Neural principles of learning, perception, development, cognition, and motor control"
+                        }
+                    },
+                    {
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Cortical dynamics of three-dimensional form, color, and brightness perception, I: Monocular theory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023137539",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "41"},
+                                "pagerange": {
+                                    "@first": "87",
+                                    "@last": "116"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Cortical dynamics of three-dimensional form, color, and brightness perception, II: Binocular theory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023153537",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "41"},
+                                "pagerange": {
+                                    "@first": "117",
+                                    "@last": "158"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Competitive learning: From interactive activation to adaptive resonance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "5244352553",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "11"},
+                                "pagerange": {
+                                    "@first": "23",
+                                    "@last": "63"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Cognitive Science"
+                        }
+                    },
+                    {
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003691704",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "MIT Press, Cambridge, MA",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Neural networks and natural intelligence"
+                        }
+                    },
+                    {
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "A model cortical architecture for the preattentive perception of 3-D form"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84910744579",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "E.J. Schwartz, MIT Press, Cambridge, MA",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Computational neuroscience"
+                        }
+                    },
+                    {
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Nonlinear neural networks: Principles, mechanisms, and architectures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "40649128119",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "17",
+                                    "@last": "61"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Neural Networks"
+                        }
+                    },
+                    {
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Neural networks for visual perception in variable illumination"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0011609648",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "5",
+                                    "@last": "10"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "S.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Grossberg",
+                                "ce:indexed-name": "Grossberg"
+                            }]},
+                            "ref-sourcetitle": "Optics News"
+                        }
+                    },
+                    {
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003399089",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "North-Holland, Amsterdam",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "M.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuperstein",
+                                    "ce:indexed-name": "Kuperstein"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural dynamics of adaptive sensory-motor control: Ballistic eye movements"
+                        }
+                    },
+                    {
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "A computational model of how cortical complex cells multiplex information about position, contrast, orientation, spatial frequency, and disparity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023540675",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "203",
+                                    "@last": "214"
+                                }
+                            },
+                            "ref-text": "M. Caudill, C. Butler, IEEE Press, Piscataway, NJ",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "J.A.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marshall",
+                                    "ce:indexed-name": "Marshall"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE First International Conference on Neural Networks"
+                        }
+                    },
+                    {
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of form perception: Boundary completion, illusory figures, and neon color spreading"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022051025",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "92"},
+                                "pagerange": {
+                                    "@first": "173",
+                                    "@last": "211"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "E.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mingolla",
+                                    "ce:indexed-name": "Mingolla"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Psychological Review"
+                        }
+                    },
+                    {
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of perceptual grouping: Textures, boundaries, and emergent segmentations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022385099",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "38"},
+                                "pagerange": {
+                                    "@first": "141",
+                                    "@last": "171"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "E.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mingolla",
+                                    "ce:indexed-name": "Mingolla"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "A neural network architecture for preattentive vision: Multiple scale segmentation and regularization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023563296",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "177",
+                                    "@last": "184"
+                                }
+                            },
+                            "ref-text": "M. Caudill, C. Butler, IEEE Press, Piscataway, NJ",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "E.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mingolla",
+                                    "ce:indexed-name": "Mingolla"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE First International Conference on Neural Networks"
+                        }
+                    },
+                    {
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of surface perception: Boundary webs, illuminants, and shape-from-shading"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023103880",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "37"},
+                                "pagerange": {
+                                    "@first": "116",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "E.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mingolla",
+                                    "ce:indexed-name": "Mingolla"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision, Graphics, and Image Processing"
+                        }
+                    },
+                    {
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Neural dynamics of 1-D and 2-D brightness perception: A unified model of classical and recent phenomena"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023971935",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "43"},
+                                "pagerange": {
+                                    "@first": "241",
+                                    "@last": "277"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grossberg",
+                                    "ce:indexed-name": "Grossberg"
+                                },
+                                {
+                                    "ce:given-name": "D.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Todorovié",
+                                    "ce:indexed-name": "Todorovie"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Perception and Psychophysics"
+                        }
+                    },
+                    {
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1965"},
+                            "ref-title": {"ref-titletext": "Receptive fields and functional architectures in two nonstriate visual areas (18 and 19) of the cat"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78651178699",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "229",
+                                    "@last": "289"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.H.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hubel",
+                                    "ce:indexed-name": "Hubel"
+                                },
+                                {
+                                    "ce:given-name": "T.N.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiesel",
+                                    "ce:indexed-name": "Wiesel"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Neurophysiology"
+                        }
+                    },
+                    {
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1977"},
+                            "ref-title": {"ref-titletext": "Functional architecture of macaque monkey visual cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017785109",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "198"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "59"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.H.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hubel",
+                                    "ce:indexed-name": "Hubel"
+                                },
+                                {
+                                    "ce:given-name": "T.N.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiesel",
+                                    "ce:indexed-name": "Wiesel"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Royal Society B: Biological Sciences"
+                        }
+                    },
+                    {
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1979"},
+                            "ref-title": {"ref-titletext": "Brain mechanisms of vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018522614",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "241"},
+                                "pagerange": {
+                                    "@first": "150",
+                                    "@last": "163"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.H.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hubel",
+                                    "ce:indexed-name": "Hubel"
+                                },
+                                {
+                                    "ce:given-name": "T.N.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wiesel",
+                                    "ce:indexed-name": "Wiesel"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Scientific American"
+                        }
+                    },
+                    {
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1971"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004224170",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "University of Chicago Press, Chicago",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "B.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Julesz",
+                                "ce:indexed-name": "Julesz"
+                            }]},
+                            "ref-sourcetitle": "Foundations of cyclopean perception"
+                        }
+                    },
+                    {
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1974"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003494930",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Oxford University Press, New York",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "L.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Kaufman",
+                                "ce:indexed-name": "Kaufman"
+                            }]},
+                            "ref-sourcetitle": "Sight and mind: An introduction to visual perception"
+                        }
+                    },
+                    {
+                        "@id": "39",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84910708842",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Kennedy, J. M. (in press). Line endings and subjective contours. Spatial Vision."
+                        }
+                    },
+                    {
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "ref-title": {"ref-titletext": "A simple paradigm for the self-organized formation of structured feature maps"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003203705",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "S. Amari, M.A. Arbib, Springer-Verlag, New York",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "T.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Kohonen",
+                                "ce:indexed-name": "Kohonen"
+                            }]},
+                            "ref-sourcetitle": "Competition and cooperation in neural networks"
+                        }
+                    },
+                    {
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003527079",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Springer-Verlag, New York",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "T.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Kohonen",
+                                "ce:indexed-name": "Kohonen"
+                            }]},
+                            "ref-sourcetitle": "Self-organization and associative memory"
+                        }
+                    },
+                    {
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "ref-title": {"ref-titletext": "Limit of single vision in stereopsis depends on contour sharpness"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018247159",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "275"},
+                                "pagerange": {
+                                    "@first": "126",
+                                    "@last": "127"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "J.J.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Kulikowski",
+                                "ce:indexed-name": "Kulikowski"
+                            }]},
+                            "ref-sourcetitle": "Nature"
+                        }
+                    },
+                    {
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "From basic network principles to neural architecture: Emergence of spatial-opponent cells"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003346575",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "83"},
+                                "pagerange": {
+                                    "@first": "7508",
+                                    "@last": "7512"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "R.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Linsker",
+                                "ce:indexed-name": "Linsker"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the National Academy of Sciences"
+                        }
+                    },
+                    {
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "From basis network principles to neural architecture: Emergence of orientation-selective cells"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0009381628",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "83"},
+                                "pagerange": {
+                                    "@first": "8390",
+                                    "@last": "8394"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "R.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Linsker",
+                                "ce:indexed-name": "Linsker"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the National Academy of Sciences"
+                        }
+                    },
+                    {
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "From basic network principles to neural architecture: Emergence of orientation columns"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0005050740",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "83"},
+                                "pagerange": {
+                                    "@first": "8779",
+                                    "@last": "8783"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "R.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Linsker",
+                                "ce:indexed-name": "Linsker"
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the National Academy of Sciences"
+                        }
+                    },
+                    {
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "Rivalrous texture stereograms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017298374",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "264"},
+                                "pagerange": {
+                                    "@first": "53",
+                                    "@last": "56"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "J.E.W.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mayhew",
+                                    "ce:indexed-name": "Mayhew"
+                                },
+                                {
+                                    "ce:given-name": "J.P.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frisby",
+                                    "ce:indexed-name": "Frisby"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        }
+                    },
+                    {
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Effects of flicker-induced depth on chromatic subjective contours"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023392570",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {
+                                    "@first": "353",
+                                    "@last": "360"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.E.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meyer",
+                                    "ce:indexed-name": "Meyer"
+                                },
+                                {
+                                    "ce:given-name": "T.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dougherty",
+                                    "ce:indexed-name": "Dougherty"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Experimental Psychology: Human Perception and Performance"
+                        }
+                    },
+                    {
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1979"},
+                            "ref-title": {"ref-titletext": "Dimensions and properties of end-zone inhibitory areas in receptive fields of hypercomplex cells in cat striate cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018746238",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "42"},
+                                "pagerange": {
+                                    "@first": "833",
+                                    "@last": "849"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.A.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orban",
+                                    "ce:indexed-name": "Orban"
+                                },
+                                {
+                                    "ce:given-name": "H.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kato",
+                                    "ce:indexed-name": "Kato"
+                                },
+                                {
+                                    "ce:given-name": "P.O.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bishop",
+                                    "ce:indexed-name": "Bishop"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Neurophysiology"
+                        }
+                    },
+                    {
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Responses of neurons in visual cortex (V1 and V2) of the alert macaque to dynamic random-dot stereograms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021959358",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "25"},
+                                "pagerange": {
+                                    "@first": "397",
+                                    "@last": "406"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "G.F.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poggio",
+                                    "ce:indexed-name": "Poggio"
+                                },
+                                {
+                                    "ce:given-name": "B.C.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Motter",
+                                    "ce:indexed-name": "Motter"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Squatrito",
+                                    "ce:indexed-name": "Squatrito"
+                                },
+                                {
+                                    "ce:given-name": "Y.",
+                                    "@seq": "4",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trotter",
+                                    "ce:indexed-name": "Trotter"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Specification of cerebral cortical areas"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023785808",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "241"},
+                                "pagerange": {
+                                    "@first": "170",
+                                    "@last": "176"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "P.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Rakic",
+                                "ce:indexed-name": "Rakic"
+                            }]},
+                            "ref-sourcetitle": "Science"
+                        }
+                    },
+                    {
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1974"},
+                            "ref-title": {"ref-titletext": "Local versus global stereopsis: Two mechanisms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0016268698",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "1345",
+                                    "@last": "1347"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "W.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Richards",
+                                    "ce:indexed-name": "Richards"
+                                },
+                                {
+                                    "ce:given-name": "M.G.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaye",
+                                    "ce:indexed-name": "Kaye"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "52",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "Feature discovery by competitive learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002656190",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "9"},
+                                "pagerange": {
+                                    "@first": "75",
+                                    "@last": "112"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.E.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rumelhart",
+                                    "ce:indexed-name": "Rumelhart"
+                                },
+                                {
+                                    "ce:given-name": "D.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zipser",
+                                    "ce:indexed-name": "Zipser"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Cognitive Science"
+                        }
+                    },
+                    {
+                        "@id": "53",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Disparity range for local stereopsis as a function of luminance spatial frequency"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021030493",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "23"},
+                                "pagerange": {
+                                    "@first": "1649",
+                                    "@last": "1654"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "C.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schor",
+                                    "ce:indexed-name": "Schor"
+                                },
+                                {
+                                    "ce:given-name": "I.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wood",
+                                    "ce:indexed-name": "Wood"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "54",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Binocular sensory fusion is limited by spatial resolution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021245069",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "24"},
+                                "pagerange": {
+                                    "@first": "661",
+                                    "@last": "665"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "C.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schor",
+                                    "ce:indexed-name": "Schor"
+                                },
+                                {
+                                    "ce:given-name": "I.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wood",
+                                    "ce:indexed-name": "Wood"
+                                },
+                                {
+                                    "ce:given-name": "J.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ogawa",
+                                    "ce:indexed-name": "Ogawa"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "55",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1977"},
+                            "ref-title": {"ref-titletext": "Binocular differences in cortical receptive fields of kittens after rotational disparate binocular experience"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017380726",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "197"},
+                                "pagerange": {
+                                    "@first": "285",
+                                    "@last": "287"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "P.G.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shinkman",
+                                    "ce:indexed-name": "Shinkman"
+                                },
+                                {
+                                    "ce:given-name": "C.J.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruce",
+                                    "ce:indexed-name": "Bruce"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Science"
+                        }
+                    },
+                    {
+                        "@id": "56",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Neuronal activity as a shaping factor in the self-organization of neuron assemblies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038955622",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "E. Basar, H. Flohr, H. Haken, A.J. Mandell, Springer-Verlag, New York",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "W.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Singer",
+                                "ce:indexed-name": "Singer"
+                            }]},
+                            "ref-sourcetitle": "Synergetics of the brain"
+                        }
+                    },
+                    {
+                        "@id": "57",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1985"},
+                            "ref-title": {"ref-titletext": "A complex-cell receptive field model"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021838063",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "53"},
+                                "pagerange": {
+                                    "@first": "1266",
+                                    "@last": "1286"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "H.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spitzer",
+                                    "ce:indexed-name": "Spitzer"
+                                },
+                                {
+                                    "ce:given-name": "S.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochstein",
+                                    "ce:indexed-name": "Hochstein"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Neurophysiology"
+                        }
+                    },
+                    {
+                        "@id": "58",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Spatial mapping of monkey V1 cells with pure color and luminance stimuli"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021262902",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "24"},
+                                "pagerange": {
+                                    "@first": "751",
+                                    "@last": "769"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "L.G.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thorell",
+                                    "ce:indexed-name": "Thorell"
+                                },
+                                {
+                                    "ce:given-name": "R.L.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeValois",
+                                    "ce:indexed-name": "DeValois"
+                                },
+                                {
+                                    "ce:given-name": "D.G.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Albrecht",
+                                    "ce:indexed-name": "Albrecht"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Vision Research"
+                        }
+                    },
+                    {
+                        "@id": "59",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Perception of three-dimensional form from patterns of optical texture"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0023333485",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "13"},
+                                "pagerange": {
+                                    "@first": "242",
+                                    "@last": "255"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "J.T.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Todd",
+                                    "ce:indexed-name": "Todd"
+                                },
+                                {
+                                    "ce:given-name": "R.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Akerstrom",
+                                    "ce:indexed-name": "Akerstrom"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Experimental Psychology: Human Perception and Performance"
+                        }
+                    },
+                    {
+                        "@id": "60",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "The role of orientation disparity in stereoscopic perception and the development of binocular correspondence"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003850475",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "E. Grastyán, P. Molnár, Pergamon Press, Elmsford, NY",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "R.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "von der Heydt",
+                                    "ce:indexed-name": "von der Heydt"
+                                },
+                                {
+                                    "ce:given-name": "P.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hänny",
+                                    "ce:indexed-name": "Hanny"
+                                },
+                                {
+                                    "ce:given-name": "M.R.",
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dürsteler",
+                                    "ce:indexed-name": "Dursteler"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in physiological science, Vol. 16: Sensory functions"
+                        }
+                    },
+                    {
+                        "@id": "61",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1973"},
+                            "ref-title": {"ref-titletext": "Self-organization of orientation sensitive cells in the striate cortex"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0015749493",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "14"},
+                                "pagerange": {
+                                    "@first": "85",
+                                    "@last": "100"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "C.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "von der Malsburg",
+                                "ce:indexed-name": "von der Malsburg"
+                            }]},
+                            "ref-sourcetitle": "Kybernetik"
+                        }
+                    },
+                    {
+                        "@id": "62",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1952"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0009459224",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "C. C. Thomas, Springfield, IL, P. Boeder (Trans.)",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "A.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "von Tschermak-Seysenegg",
+                                "ce:indexed-name": "von Tschermak-Seysenegg"
+                            }]},
+                            "ref-sourcetitle": "Introduction to physiological optics"
+                        }
+                    },
+                    {
+                        "@id": "63",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "An orthogonal oriented quadrature hexagonal image pyramid"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84941867726",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "December 1987",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "A.B.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Watson",
+                                    "ce:indexed-name": "Watson"
+                                },
+                                {
+                                    "ce:given-name": "A.J.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahumada",
+                                    "ce:indexed-name": "Ahumada"
+                                }
+                            ]},
+                            "ref-sourcetitle": "NASA Memo #100054"
+                        }
+                    },
+                    {
+                        "@id": "64",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1937"},
+                            "ref-title": {"ref-titletext": "Dynamics in binocular depth perception"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002299933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@issue": "218 Whole"}},
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "H.",
+                                "@seq": "1",
+                                "@_fa": "true",
+                                "ce:surname": "Werner",
+                                "ce:indexed-name": "Werner"
+                            }]},
+                            "ref-sourcetitle": "Psychological Monograph"
+                        }
+                    },
+                    {
+                        "@id": "65",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "ref-title": {"ref-titletext": "How patterned neural connections can be set up by self-organization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0017166860",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "194"},
+                                "pagerange": {
+                                    "@first": "431",
+                                    "@last": "445"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "D.J.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Willshaw",
+                                    "ce:indexed-name": "Willshaw"
+                                },
+                                {
+                                    "ce:given-name": "C.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "von der Malsburg",
+                                    "ce:indexed-name": "von der Malsburg"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of The Royal Society of London (B)"
+                        }
+                    },
+                    {
+                        "@id": "66",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "An ocular dominance column map as a data structure for stereo segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "18144432929",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "371",
+                                    "@last": "377"
+                                }
+                            },
+                            "ref-text": "M. Caudill, C. Butler, IEEE Press, Piscataway, NJ",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Y.",
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yeshurun",
+                                    "ce:indexed-name": "Yeshurun"
+                                },
+                                {
+                                    "ce:given-name": "E.L.",
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwartz",
+                                    "ce:indexed-name": "Schwartz"
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE First International Conference on Neural Networks"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Boston",
+        "@id": "60019674",
+        "affilname": "Boston University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-0024775135",
+        "dc:description": "A neural network model of multiple-scale binocular fusion and rivalry in visual cortex is described and simulated on the computer. The model consists of three parts: a distributed spatial representation of binocular input patterns among simple cells that are organized into ocular dominance columns; an adaptive filter from simple cells to complex cells; and a nonlinear on-center off-surround shunting feedback network that joins together the complex cells. This data structure generates complex cell receptive fields which multiplex input position, orientation, spatial frequency, positional disparity, and orientational disparity, and which are insensitive to direction-of-contrast in the image. Multiple copies of this circuit are replicated in the model using receptive fields of different sizes. Within each such circuit, the simple cell and complex cell receptive field sizes covary. Together these circuits define a self-similar multiple-scale network. The self-similarity property across spatial scales enables the network to exhibit a size-disparity correlation, whereby simultaneous binocular fusion and rivalry can occur among the spatial scales corresponding to a given retinal region. It is shown that a laminar organization of the model interactions among the complex cells gives rise to conceptually simple growth rules for intercellular connections. The output patterns of the model complex cells are designed to feed into the model hypercomplex cells at the first competitive stage of a Boundary Contour System network, where they trigger a process of multiple-scale emergent binocular boundary segmentation. The modeling results are compared with psychophysical data about binocular fusion and rivalry, as well as with the cepstrum stereo model of Yeshurun and Schwartz. The results indicate that analogous self-similar multiple-scale neural networks may be used to carry out data fusion of many other types of spatially organized data structures. © 1989.",
+        "prism:coverDate": "1989-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/0024775135",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Stephen",
+            "preferred-name": {
+                "ce:given-name": "Stephen",
+                "ce:initials": "S.",
+                "ce:surname": "Grossberg",
+                "ce:indexed-name": "Grossberg S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Grossberg",
+            "@auid": "7101773583",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7101773583",
+            "ce:indexed-name": "Grossberg S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/0024775135"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0024775135&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=0024775135&origin=inward"
+            }
+        ],
+        "source-id": "24804",
+        "pii": "0893-6080(89)90013-0",
+        "citedby-count": "37",
+        "prism:volume": "2",
+        "subtype": "ar",
+        "dc:title": "Stereo boundary fusion by cortical complex cells: A system of maps, filters, and feedback networks for multiplexing distributed data",
+        "openaccess": "0",
+        "prism:issn": "08936080",
+        "prism:issueIdentifier": "1",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Neural Networks",
+        "prism:pageRange": "29-51",
+        "prism:endingPage": "51",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/0893-6080(89)90013-0",
+        "prism:startingPage": "29",
+        "dc:identifier": "SCOPUS_ID:0024775135"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Binocular Fusion",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cortical Complex Cells",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stereo Boundary Fusion",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stereo Image Multiplexing",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Visual Cortex",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Binocular rivalry"
+        },
+        {
+            "@_fa": "true",
+            "$": "Binocular vision"
+        },
+        {
+            "@_fa": "true",
+            "$": "Complex cells"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computational map"
+        },
+        {
+            "@_fa": "true",
+            "$": "Data fusion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Multiplexing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Neural network"
+        },
+        {
+            "@_fa": "true",
+            "$": "nonlinear feedback network"
+        },
+        {
+            "@_fa": "true",
+            "$": "Ocular dominance columns"
+        },
+        {
+            "@_fa": "true",
+            "$": "Self-similarity"
+        },
+        {
+            "@_fa": "true",
+            "$": "Size-disparity correlation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Visual cortex"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Cognitive Neuroscience",
+            "@code": "2805",
+            "@abbrev": "NEUR"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Stephen",
+            "preferred-name": {
+                "ce:given-name": "Stephen",
+                "ce:initials": "S.",
+                "ce:surname": "Grossberg",
+                "ce:indexed-name": "Grossberg S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Grossberg",
+            "@auid": "7101773583",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7101773583",
+            "ce:indexed-name": "Grossberg S."
+        },
+        {
+            "ce:given-name": "Jonathan A.",
+            "preferred-name": {
+                "ce:given-name": "Jonathan A.",
+                "ce:initials": "J.A.",
+                "ce:surname": "Marshall",
+                "ce:indexed-name": "Marshall J.A."
+            },
+            "@seq": "2",
+            "ce:initials": "J.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019674",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019674"
+            },
+            "ce:surname": "Marshall",
+            "@auid": "35502315700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35502315700",
+            "ce:indexed-name": "Marshall J.A."
+        }
+    ]}
+}}

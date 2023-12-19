@@ -1,0 +1,1311 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "23",
+                "@timestamp": "2022-03-23T00:51:26.000026-04:00",
+                "@year": "2022",
+                "@month": "03"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2017",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "National Science Centre",
+                "xocs:funding-agency-acronym": "NCN",
+                "xocs:funding-agency": "Narodowe Centrum Nauki",
+                "xocs:funding-id": "2015/17/D/ST6/04051",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004281",
+                "xocs:funding-agency-country": "http://sws.geonames.org/798544/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-06-30T21:03:23.309Z",
+            "xocs:funding-text": "This work has been supported by the National Science Centre, Poland, under project number 2015/17/D/ST6/04051.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Poland",
+                            "address-part": "2 Podchorazych Ave",
+                            "postal-code": "30-084",
+                            "@afid": "60015509",
+                            "@country": "pol",
+                            "city": "Krakow",
+                            "organization": [
+                                {"$": "Institute of Computer Science"},
+                                {"$": "Pedagogical University of Krakow"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60015509",
+                                "@dptid": "109632885"
+                            },
+                            "@dptid": "109632885"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Tomasz",
+                                "preferred-name": {
+                                    "ce:given-name": "Tomasz",
+                                    "ce:initials": "T.",
+                                    "ce:surname": "Hachaj",
+                                    "ce:indexed-name": "Hachaj T."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Hachaj",
+                                "@auid": "35344955300",
+                                "ce:indexed-name": "Hachaj T."
+                            },
+                            {
+                                "ce:given-name": "Marcin",
+                                "preferred-name": {
+                                    "ce:given-name": "Marcin",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Piekarczyk",
+                                    "ce:indexed-name": "Piekarczyk M."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Piekarczyk",
+                                "@auid": "36081129300",
+                                "ce:indexed-name": "Piekarczyk M."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Poland",
+                            "address-part": "30 Mickiewicza Ave",
+                            "postal-code": "30-059",
+                            "@afid": "60017351",
+                            "@country": "pol",
+                            "city": "Krakow",
+                            "organization": [
+                                {"$": "Cryptography and Cognitive Informatics Research Group"},
+                                {"$": "AGH University of Science and Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60017351",
+                                "@dptid": "114403187"
+                            },
+                            "@dptid": "114403187"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Marek R.",
+                                "preferred-name": {
+                                    "ce:given-name": "Marek R.",
+                                    "ce:initials": "M.R.",
+                                    "ce:surname": "Ogiela",
+                                    "ce:indexed-name": "Ogiela M.R."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "M.R.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Ogiela",
+                                "@auid": "6701358294",
+                                "ce:indexed-name": "Ogiela M.R."
+                            },
+                            {
+                                "ce:given-name": "Katarzyna",
+                                "preferred-name": {
+                                    "ce:given-name": "Katarzyna",
+                                    "ce:initials": "K.",
+                                    "ce:surname": "Koptyra",
+                                    "ce:indexed-name": "Koptyra K."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "K.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Koptyra",
+                                "@auid": "56681094600",
+                                "ce:indexed-name": "Koptyra K."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Averaging three-dimensional time-varying sequences of rotations: Application to preprocessing of motion capture data",
+                "abstracts": "© Springer International Publishing AG 2017.The aim of this paper is to propose and initially evaluate our novel algorithm which enables averaging of time-varying sequences of rotations with three degrees of freedom described by quaternions. The methodology is based on Dynamic Time Warping barycenter averaging (DBA) with one minus dot product distance function, Markley\u2019s quaternions averaging method and Gaussian quaternion signal smoothing. The proposed algorithm was successfully applied to generate single, averaged motion capture recording (MoCap) from ten MoCap of mawashi-geri karate kick of black belt Shorin-Ryu karate master. We have used inverse kinematic model. In our experiment mean DTW normalized distance between averaged signal and original signals varied from 0.713 · 10−3 for Hips sensor to 6.153 · 10−3 for LeftForearm sensor, which were very good results. Also the visualization of the averaged MoCap data showed that the proposed method did not introduce unwanted disturbances and may be usable for that task. That type of averaging has many important applications. For example it can be used to calculate and visualize an average performance of an athlete who performs some activity that he wants to optimize during training. The numerical and visual data may be a very important feedback for coach that supervises the training. Also our method is not limited to MoCap data averaging; it can be applied to average any type of quaternion-based time-varying sequences.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Poland",
+                        "address-part": "2 Podchorazych Ave",
+                        "postal-code": "30-084",
+                        "@country": "pol",
+                        "city": "Krakow",
+                        "organization": [
+                            {"$": "Institute of Computer Science"},
+                            {"$": "Pedagogical University of Krakow"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Tomasz",
+                        "ce:initials": "T.",
+                        "ce:surname": "Hachaj",
+                        "ce:indexed-name": "Hachaj T."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Dynamic time warping barycenter averaging",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Karate",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Motion capture",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Preprocessing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternions",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Signal averaging",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "10269 LNCS"},
+                        "pagerange": {
+                            "@first": "17",
+                            "@last": "28"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783319591254",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 2"},
+                        "confevent": {
+                            "confname": "20th Scandinavian Conference on Image Analysis, SCIA 2017",
+                            "confnumber": "20th",
+                            "confseriestitle": "Scandinavian Conference on Image Analysis",
+                            "conflocation": {
+                                "@country": "nor",
+                                "city": "Tromso"
+                            },
+                            "confcode": "192299",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "14",
+                                    "@year": "2017",
+                                    "@month": "06"
+                                },
+                                "startdate": {
+                                    "@day": "12",
+                                    "@year": "2017",
+                                    "@month": "06"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": {"contributor": [
+                        {
+                            "ce:given-name": "Puneet",
+                            "@seq": "1",
+                            "ce:initials": "P.",
+                            "ce:surname": "Sharma",
+                            "@role": "edit",
+                            "ce:indexed-name": "Sharma P."
+                        },
+                        {
+                            "ce:given-name": "Filippo Maria",
+                            "@seq": "2",
+                            "ce:initials": "F.M.",
+                            "ce:surname": "Bianchi",
+                            "@role": "edit",
+                            "ce:indexed-name": "Bianchi F.M."
+                        }
+                    ]},
+                    "publicationdate": {
+                        "year": "2017",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2017"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Image Analysis - 20th Scandinavian Conference, SCIA 2017, Proceedings",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2017"},
+                    "publisher": {"publishername": "Springer Verlag"},
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work has been supported by the National Science Centre, Poland, under project number 2015/17/D/ST6/04051.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "2015/17/D/ST6/04051",
+                        "grant-acronym": "NCN",
+                        "grant-agency": {
+                            "@iso-code": "pol",
+                            "$": "Narodowym Centrum Nauki"
+                        }
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "22",
+                    "@timestamp": "BST 09:42:39",
+                    "@year": "2022",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "616745121",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "665685115",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20172403765972",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20173478018",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85020411759",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85020411759",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-319-59126-1_2"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "13",
+                "reference": [
+                    {
+                        "ref-fulltext": "Glowacz, A.: Recognition of acoustic signals of synchronous motors with the use of MoFS and selected classifiers. Meas. Sci. Rev. 15(4), 167\u2013175 (2015). ISSN: 1335\u20138871. https://doi.org/10.1515/msr-2015-0024",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1515/msr-2015-0024",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Recognition of acoustic signals of synchronous motors with the use of MoFS and selected classifiers"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84940670843",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "167",
+                                    "@last": "175"
+                                }
+                            },
+                            "ref-text": "ISSN: 1335\u20138871",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Glowacz",
+                                "ce:indexed-name": "Glowacz A."
+                            }]},
+                            "ref-sourcetitle": "Meas. Sci. Rev."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Glowacz, A., Glowacz, W., Glowacz, Z.: Recognition of armature current of DC generator depending on rotor speed using FFT, MSAF-1 and LDA. Eksploatacja i Niezawodnosc - Maintenance and Reliability 17(1), 64\u201369 (2015). doi:10.17531/ein.2015.1.9",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Recognition of armature current of DC generator depending on rotor speed using FFT, MSAF-1 and LDA"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.17531/ein.2015.1.9",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84923197138",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "64",
+                                    "@last": "69"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glowacz",
+                                    "ce:indexed-name": "Glowacz A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glowacz",
+                                    "ce:indexed-name": "Glowacz W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Glowacz",
+                                    "ce:indexed-name": "Glowacz Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eksploatacja I Niezawodnosc - Maintenance and Reliability"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pieta, A., Lupa, M., Chuchro, M., Piórkowski, A., Leśniak, A.: A model of a system for stream data storage and analysis dedicated to sensor networks of embankment monitoring. In: Saeed, K., Snášel, V. (eds.) CISIM 2014. LNCS, vol. 8838, pp. 514\u2013525. Springer, Heidelberg (2014). doi:10.1007/978-3-662-45237-0 47",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A model of a system for stream data storage and analysis dedicated to sensor networks of embankment monitoring"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/978-3-662-45237-0_47",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84910665649",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8838"},
+                                "pagerange": {
+                                    "@first": "514",
+                                    "@last": "525"
+                                }
+                            },
+                            "ref-text": "Saeed, K., Snášel, V. (eds.) CISIM 2014, Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pieta",
+                                    "ce:indexed-name": "Pieta"
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lupa",
+                                    "ce:indexed-name": "Lupa A.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chuchro",
+                                    "ce:indexed-name": "Chuchro M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Piórkowski",
+                                    "ce:indexed-name": "Piorkowski A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leśniak",
+                                    "ce:indexed-name": "Lesniak A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "LNCS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fabijańska, A., Smurzyński, J., Hatzopoulos, S., Kochanek, K., Bartnik, G., Raj-Koziak, D., Mazzoli, M., Skarżynski, P.H., Jȩdrzejczak, W.W., Szkie̷lkowska, A., Skarżyński, H.: The relationship between distortion product otoacoustic emissions and extended high-frequency audiometry in tinnitus patients. Part 1: normally hearing patients with unilateral tinnitus. Med. Sci. Monit. 18(12), CR765\u2013 CRC770 (2012). doi:10.12659/MSM.883606",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "The relationship between distortion product otoacoustic emissions and extended high-frequency audiometry in tinnitus patients"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.12659/MSM.883606",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84874787898",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "18",
+                                "@issue": "12"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fabijańska",
+                                    "ce:indexed-name": "Fabijanska A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Smurzyński",
+                                    "ce:indexed-name": "Smurzynski J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hatzopoulos",
+                                    "ce:indexed-name": "Hatzopoulos S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kochanek",
+                                    "ce:indexed-name": "Kochanek K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bartnik",
+                                    "ce:indexed-name": "Bartnik G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raj-Koziak",
+                                    "ce:indexed-name": "Raj-Koziak D."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mazzoli",
+                                    "ce:indexed-name": "Mazzoli M."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "P.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Skarżynski",
+                                    "ce:indexed-name": "Skarzynski P.H."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "W.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jȩdrzejczak",
+                                    "ce:indexed-name": "Jedrzejczak W.W."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szkie̷lkowska",
+                                    "ce:indexed-name": "Szkielkowska A."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Karżyński",
+                                    "ce:indexed-name": "Karzynski H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Part 1: Normally Hearing Patients with Unilateral Tinnitus. Med. Sci. Monit"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kalman, R.E.: A new approach to linear filtering and prediction problems. Trans. ASME J. Basic Eng. 82, 35\u201345 (1960)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1960"},
+                            "ref-title": {"ref-titletext": "A new approach to linear filtering and prediction problems. Trans. ASME"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85024429815",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "82"},
+                                "pagerange": {
+                                    "@first": "35",
+                                    "@last": "45"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.E.",
+                                "@_fa": "true",
+                                "ce:surname": "Kalman",
+                                "ce:indexed-name": "Kalman R.E."
+                            }]},
+                            "ref-sourcetitle": "J. Basic Eng"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sul, C.W., Jung, S.K., Wohn, K.: Synthesis of human motion using Kalman filter. In: Magnenat-Thalmann, N., Thalmann, D. (eds.) CAPTECH 1998. LNCS (LNAI), vol. 1537, pp. 100\u2013112. Springer, Heidelberg (1998). doi:10.1007/3-540-49384-0_8",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Synthesis of human motion using Kalman filter"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1007/3-540-49384-0_8",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "22444453906",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1537"},
+                                "pagerange": {
+                                    "@first": "100",
+                                    "@last": "112"
+                                }
+                            },
+                            "ref-text": "Magnenat-Thalmann, N., Thalmann, D. (eds.) CAPTECH 1998, Springer, Heidelberg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sul",
+                                    "ce:indexed-name": "Sul C.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jung",
+                                    "ce:indexed-name": "Jung S.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wohn",
+                                    "ce:indexed-name": "Wohn K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "LNCS (LNAI)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Burke, M., Lasenby, J.: Estimating missing marker positions using low dimensional Kalman smoothing. J. Biomech. 49, 1854\u20131858 (2016)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Estimating missing marker positions using low dimensional Kalman smoothing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84992307759",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "49"},
+                                "pagerange": {
+                                    "@first": "1854",
+                                    "@last": "1858"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Burke",
+                                    "ce:indexed-name": "Burke M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lasenby",
+                                    "ce:indexed-name": "Lasenby J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Biomech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jin, M., Zhao, J., Yu, J.J.G., Li, W.: The adaptive Kalman filter based on fuzzy logic for inertial motion capture system. Measurement 49, 196\u2013204 (2014)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "The adaptive Kalman filter based on fuzzy logic for inertial motion capture system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84891434134",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "49"},
+                                "pagerange": {
+                                    "@first": "196",
+                                    "@last": "204"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu J.J.G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Measurement"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Petitjean, F., Ketterlin, A., Gançarski, P.: A global averaging method for dynamic time warping, with applications to clustering. Pattern Recognit. 44(3), 678\u2013693 (2011). http://dx.doi.org/10.1016/j.patcog.2010.09.013",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://dx.doi.org/10.1016/j.patcog.2010.09.013",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "A global averaging method for dynamic time warping, with applications to clustering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78649324794",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "44",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "678",
+                                    "@last": "693"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petitjean",
+                                    "ce:indexed-name": "Petitjean F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ketterlin",
+                                    "ce:indexed-name": "Ketterlin A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gançarski",
+                                    "ce:indexed-name": "Gancarski P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recognit"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Laurent, E., Thomas, D., Maike, B., Gavin, M.: Trajectory box plot: a new pattern to summarize movements. Int. J. Geogr. Inf. Sci. 30(5), 835\u2013853 (2016). doi:10. 1080/13658816.2015.1081205",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Trajectory box plot: A new pattern to summarize movements."},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10._1080/13658816.2015.1081205",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84961202138",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "835",
+                                    "@last": "853"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laurent",
+                                    "ce:indexed-name": "Laurent E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomas",
+                                    "ce:indexed-name": "Thomas D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maike",
+                                    "ce:indexed-name": "Maike B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gavin",
+                                    "ce:indexed-name": "Gavin M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Geogr. Inf. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Seto, S., Zhang, W., Zhou, Y.: Multivariate time series classification using dynamic time warping template selection for human activity recognition. In: IEEE symposium series on computational intelligence, SSCI 2015, Cape Town, 7\u201310 December 2015, pp. 1399\u20131406 (2015). doi:10.1109/SSCI.2015.199",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Multivariate time series classification using dynamic time warping template selection for human activity recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.1109/SSCI.2015.199",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84964963459",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1399",
+                                "@last": "1406"
+                            }},
+                            "ref-text": "SSCI 2015, Cape Town, 7\u201310 December 2015",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seto",
+                                    "ce:indexed-name": "Seto S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE symposium series on computational intelligence, SSCI"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Markley, F.L., Cheng, Y., Crassidis, J.L., Oshman, Y.: Averaging quaternions. J. Guid. Control. Dyn. 30(4), 1193\u20131197 (2007). doi:10.2514/1.28949",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Averaging quaternions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.2514/1.28949",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "34547562363",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1193",
+                                    "@last": "1197"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Markley",
+                                    "ce:indexed-name": "Markley F.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Crassidis",
+                                    "ce:indexed-name": "Crassidis J.L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oshman",
+                                    "ce:indexed-name": "Oshman Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Guid. Control. Dyn"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hachaj, T., Ogiela, M.R., Koptyra, K.: Application of assistive computer vision methods to oyama karate techniques recognition. Symmetry 7(4), 1670\u20131698 (2015). doi:10.3390/sym7041670",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Application of assistive computer vision methods to oyama karate techniques recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.3390/sym7041670",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "84952762589",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1670",
+                                    "@last": "1698"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hachaj",
+                                    "ce:indexed-name": "Hachaj T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ogiela",
+                                    "ce:indexed-name": "Ogiela M.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koptyra",
+                                    "ce:indexed-name": "Koptyra K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Symmetry"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Krakow",
+            "@id": "60017351",
+            "affilname": "AGH University of Krakow",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017351",
+            "affiliation-country": "Poland"
+        },
+        {
+            "affiliation-city": "Krakow",
+            "@id": "60015509",
+            "affilname": "Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015509",
+            "affiliation-country": "Poland"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85020411759",
+        "dc:description": "The aim of this paper is to propose and initially evaluate our novel algorithm which enables averaging of time-varying sequences of rotations with three degrees of freedom described by quaternions. The methodology is based on Dynamic Time Warping barycenter averaging (DBA) with one minus dot product distance function, Markley\u2019s quaternions averaging method and Gaussian quaternion signal smoothing. The proposed algorithm was successfully applied to generate single, averaged motion capture recording (MoCap) from ten MoCap of mawashi-geri karate kick of black belt Shorin-Ryu karate master. We have used inverse kinematic model. In our experiment mean DTW normalized distance between averaged signal and original signals varied from 0.713 · 10−3 for Hips sensor to 6.153 · 10−3 for LeftForearm sensor, which were very good results. Also the visualization of the averaged MoCap data showed that the proposed method did not introduce unwanted disturbances and may be usable for that task. That type of averaging has many important applications. For example it can be used to calculate and visualize an average performance of an athlete who performs some activity that he wants to optimize during training. The numerical and visual data may be a very important feedback for coach that supervises the training. Also our method is not limited to MoCap data averaging; it can be applied to average any type of quaternion-based time-varying sequences.",
+        "prism:coverDate": "2017-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85020411759",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Tomasz",
+            "preferred-name": {
+                "ce:given-name": "Tomasz",
+                "ce:initials": "T.",
+                "ce:surname": "Hachaj",
+                "ce:indexed-name": "Hachaj T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015509"
+            },
+            "ce:surname": "Hachaj",
+            "@auid": "35344955300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35344955300",
+            "ce:indexed-name": "Hachaj T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85020411759"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85020411759&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85020411759&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783319591254",
+        "source-id": "25674",
+        "citedby-count": "5",
+        "prism:volume": "10269 LNCS",
+        "subtype": "cp",
+        "dc:title": "Averaging three-dimensional time-varying sequences of rotations: Application to preprocessing of motion capture data",
+        "openaccess": "0",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© Springer International Publishing AG 2017.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "17-28",
+        "prism:endingPage": "28",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-319-59126-1_2",
+        "prism:startingPage": "17",
+        "dc:identifier": "SCOPUS_ID:85020411759",
+        "dc:publisher": "Springer Verlag"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Barycenters",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Karate",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Preprocessing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Signal averaging",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Dynamic time warping barycenter averaging"
+        },
+        {
+            "@_fa": "true",
+            "$": "Karate"
+        },
+        {
+            "@_fa": "true",
+            "$": "Motion capture"
+        },
+        {
+            "@_fa": "true",
+            "$": "Preprocessing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternions"
+        },
+        {
+            "@_fa": "true",
+            "$": "Signal averaging"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Tomasz",
+            "preferred-name": {
+                "ce:given-name": "Tomasz",
+                "ce:initials": "T.",
+                "ce:surname": "Hachaj",
+                "ce:indexed-name": "Hachaj T."
+            },
+            "@seq": "1",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015509"
+            },
+            "ce:surname": "Hachaj",
+            "@auid": "35344955300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35344955300",
+            "ce:indexed-name": "Hachaj T."
+        },
+        {
+            "ce:given-name": "Marek R.",
+            "preferred-name": {
+                "ce:given-name": "Marek R.",
+                "ce:initials": "M.R.",
+                "ce:surname": "Ogiela",
+                "ce:indexed-name": "Ogiela M.R."
+            },
+            "@seq": "2",
+            "ce:initials": "M.R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60017351",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017351"
+            },
+            "ce:surname": "Ogiela",
+            "@auid": "6701358294",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6701358294",
+            "ce:indexed-name": "Ogiela M.R."
+        },
+        {
+            "ce:given-name": "Marcin",
+            "preferred-name": {
+                "ce:given-name": "Marcin",
+                "ce:initials": "M.",
+                "ce:surname": "Piekarczyk",
+                "ce:indexed-name": "Piekarczyk M."
+            },
+            "@seq": "3",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60015509",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60015509"
+            },
+            "ce:surname": "Piekarczyk",
+            "@auid": "36081129300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/36081129300",
+            "ce:indexed-name": "Piekarczyk M."
+        },
+        {
+            "ce:given-name": "Katarzyna",
+            "preferred-name": {
+                "ce:given-name": "Katarzyna",
+                "ce:initials": "K.",
+                "ce:surname": "Koptyra",
+                "ce:indexed-name": "Koptyra K."
+            },
+            "@seq": "4",
+            "ce:initials": "K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60017351",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017351"
+            },
+            "ce:surname": "Koptyra",
+            "@auid": "56681094600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56681094600",
+            "ce:indexed-name": "Koptyra K."
+        }
+    ]}
+}}

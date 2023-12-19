@@ -1,0 +1,1113 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "21",
+                "@year": "2021",
+                "@timestamp": "2021-07-21T04:35:10.000010-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2018",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Foundation of Science and Technology on Aerospace Flight Dynamics Laboratory",
+                    "xocs:funding-id": "614221003121703"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Chinese National Science Foundation",
+                    "xocs:funding-agency-acronym": "NSFC",
+                    "xocs:funding-agency": "National Natural Science Foundation of China",
+                    "xocs:funding-id": [
+                        {"$": "11472213"},
+                        {"$": "61690210"},
+                        {"$": "61690211"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-21T02:45:28.377Z",
+            "xocs:funding-text": "The valuable comments from the anonymous reviewer are highly appreciated. This study is financially supported by the Chinese National Science Foundation (Grant No. 11472213, Grant No. 61690210, and Grant No. 61690211) and Foundation of Science and Technology on Aerospace Flight Dynamics Laboratory (Grant No. 614221003121703).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "address-part": "No.127 West Youyi Road",
+                        "postal-code": "710072",
+                        "@afid": "60003977",
+                        "@country": "chn",
+                        "city": "Xi'an",
+                        "organization": [
+                            {"$": "National Key Laboratory of Aerospace Flight Dynamics"},
+                            {"$": "Northwestern Polytechnical University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60003977",
+                            "@dptid": "113701512"
+                        },
+                        "@dptid": "113701512"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Xianghao",
+                            "preferred-name": {
+                                "ce:given-name": "Xianghao",
+                                "ce:initials": "X.",
+                                "ce:surname": "Hou",
+                                "ce:indexed-name": "Hou X."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "X.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Hou",
+                            "@auid": "57196097017",
+                            "ce:indexed-name": "Hou X."
+                        },
+                        {
+                            "ce:given-name": "Jianping",
+                            "preferred-name": {
+                                "ce:given-name": "Jianping",
+                                "ce:initials": "J.",
+                                "ce:surname": "Yuan",
+                                "ce:indexed-name": "Yuan J."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Yuan",
+                            "@auid": "57224779766",
+                            "ce:indexed-name": "Yuan J."
+                        }
+                    ]
+                },
+                "citation-title": "Ai-aided parameters estimations for uncooperative space target with measurements failures",
+                "abstracts": "© 2018 KASHYAP.Parameters estimations for uncooperative space targets are vital important for the On orbit servicing operations. With limited prior information of the uncooperative space targets, good parameters estimations will not only provide rich knowledge of the target but also figure out whether the uncooperative space target can be captured and controlled. Since the uncooperative targets are tumbling in space, only remote sensors (i.e. stereo camera and LIDAR) can be utilized to measure some useful information about them. However, under the uncertain space environment, the remote sensors sometimes cannot output reliable measurements and will lead to failures of the parameters estimations. This paper focuses on parameters estimations of an uncooperative space target with measurements failures. In this paper, a LIDAR device is used to obtain the relative pose between the target and the servicing satellite, and long-term measurements failures of the LIDAR is considered. To enhance the estimating accuracies and efficiencies, the dual vector quaternions (DVQ) are utilized to model the system kinematics and dynamics. By the novel DVQ modeling technique, both the translational and rotational parameters can be estimated in the same time. Also, by utilizing the dynamic models, the inertial parameters (ratios of the moments of inertia of the target, and the location of the center of mass) can also be estimated. In the beginning, a DVQ based extended Kalman filter is designed to estimate the parameters of the uncooperative space target when the measurements of the LIDAR are available. Then, to overcome the estimating failures caused by the faults of the LIDAR measurements, a neural network aided extended Kalman filter (NNEKF) is designed. In the designed NNEKF, a BP neural network is designed in the measurement update procedure when the measurements from the LIDAR are failed. By using the historical time propagations of the states and the Kalman gain as inputs together with the relative correct estimations of the states as outputs, the designed BP neural network is trained off-line firstly. Then, when the measurements of the LIDAR is available, the trained BP neural network is retrained by the results from the DVQ-EKF in each estimating step to enhance its online estimating accuracy. As soon as the measurements failures happen, the designed BP neural network will output the estimations of the parameters instead of the ones made by DVQ-EKF. When the measurements of the LIDAR are available again, the estimations of the designed BP neural network will be used to reset the DVQ-EKF, which will be used under available LIDAR measurements situations. By the proposed DVQ-NNEKF, the measurements update procedure can switch between the designed BP neural network and the EKF to enhance its accuracy due to the availabilities of the LIDAR measurements and mitigate the computational burden. Finally, the proposed DVQ-NNEKF is validated by mathematical simulations to show its robust performances.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "address-part": "No.127 West Youyi Road",
+                        "postal-code": "710072",
+                        "@country": "chn",
+                        "city": "Xi'an",
+                        "organization": [
+                            {"$": "National Key Laboratory of Aerospace Flight Dynamics"},
+                            {"$": "Northwestern Polytechnical University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Xianghao",
+                        "ce:initials": "X.",
+                        "ce:surname": "Hou",
+                        "ce:indexed-name": "Hou X."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.univelt.com/advances.html",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Advances in the Astronautical Sciences",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "165"},
+                        "pagerange": {
+                            "@first": "707",
+                            "@last": "718"
+                        }
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9780877036531",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "4th IAA Conference on Dynamics and Control of Space Systems, DYCOSS 2018",
+                            "confnumber": "4th",
+                            "confseriestitle": "IAA Conference on Dynamics and Control of Space Systems",
+                            "conflocation": {
+                                "@country": "chn",
+                                "city": "Changsha"
+                            },
+                            "confcode": "222099",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "23",
+                                    "@year": "2018",
+                                    "@month": "05"
+                                },
+                                "startdate": {
+                                    "@day": "21",
+                                    "@year": "2018",
+                                    "@month": "05"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Advances in the Astronautical Sciences",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Jeng-Shing",
+                            "@seq": "1",
+                            "ce:initials": "J.-S.",
+                            "ce:surname": "Chern",
+                            "@role": "edit",
+                            "ce:indexed-name": "Chern J.-S."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Ya-Zhong",
+                            "@seq": "1",
+                            "ce:initials": "Y.-Z.",
+                            "ce:surname": "Luo",
+                            "@role": "edit",
+                            "ce:indexed-name": "Luo Y.-Z."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Xiao-Qian",
+                            "@seq": "1",
+                            "ce:initials": "X.-Q.",
+                            "ce:surname": "Chen",
+                            "@role": "edit",
+                            "ce:indexed-name": "Chen X.-Q."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Lei",
+                            "@seq": "2",
+                            "ce:initials": "L.",
+                            "ce:surname": "Chen",
+                            "@role": "edit",
+                            "ce:indexed-name": "Chen L."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2018"
+                        }
+                    },
+                    "codencode": "ADASA",
+                    "sourcetitle-abbrev": "Adv Astronaut Sci",
+                    "@country": "usa",
+                    "issuetitle": "Dynamics and Control of Space Systems",
+                    "issn": {
+                        "$": "00653438",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "Univelt Inc."},
+                    "@srcid": "12376"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.2",
+                                "classification-description": "Radar Systems and Equipment"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing"
+                            },
+                            {
+                                "classification-code": "922.1",
+                                "classification-description": "Probability Theory"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2202"},
+                            {"$": "1912"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "27",
+                    "@year": "2018",
+                    "@timestamp": "BST 05:07:42",
+                    "@month": "12"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "625635674",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "914768033",
+                        "@idtype": "CAR-ID"
+                    },
+                    {
+                        "$": "20185206294446",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "20182322689",
+                        "@idtype": "REAXYSCAR"
+                    },
+                    {
+                        "$": "20183941952",
+                        "@idtype": "SCOPUS"
+                    },
+                    {
+                        "$": "85058928699",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "85058928699",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "15",
+                "reference": [
+                    {
+                        "ref-fulltext": "A. Flores-Abad, O. Ma, K. Pham, and S. Ulrich, \"A review of space robotics technologies for on-orbit servicing,\" Progress in Aerospace Sciences, Vol. 68, No. 8, 2014, pp. 1-26.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "A review of space robotics technologies for on-orbit servicing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84899458942",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "68",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "26"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flores-Abad",
+                                    "ce:indexed-name": "Flores-Abad A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ulrich",
+                                    "ce:indexed-name": "Ulrich S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Progress in Aerospace Sciences"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. J. Lefferts, F. L. Markley, and M. Shuster, \"Kalman Filtering for Spacecraft Attitude Estimation,\" Journal of Guidance Control & Dynamics, Vol. 5, No. 4, 1982, pp. 536-542.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "ref-title": {"ref-titletext": "Kalman filtering for spacecraft attitude estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0020179752",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "536",
+                                    "@last": "542"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lefferts",
+                                    "ce:indexed-name": "Lefferts E.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Markley",
+                                    "ce:indexed-name": "Markley F.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shuster",
+                                    "ce:indexed-name": "Shuster M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance Control & Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Xing, X. Cao, S. Zhang, H. Guo, and F. Wang, \"Relative position and attitude estimation for satellite formation with coupled translational and rotational dynamics,\" Acta Astronautica, Vol. 67, No. 3, 2010, pp. 455-467.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Relative position and attitude estimation for satellite formation with coupled translational and rotational dynamics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955273495",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "67",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "455",
+                                    "@last": "467"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xing",
+                                    "ce:indexed-name": "Xing Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cao",
+                                    "ce:indexed-name": "Cao X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronautica"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Segal and P. Gurfil, \"Effect of Kinematic Rotation-Translation Coupling on Relative Spacecraft Translational Dynamics,\" Journal of Guidance Control & Dynamics, Vol. 32, No. 3, 2012, pp. 1045-1050.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Effect of kinematic rotation-translation coupling on relative spacecraft translational dynamics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "67149130094",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1045",
+                                    "@last": "1050"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Segal",
+                                    "ce:indexed-name": "Segal S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gurfil",
+                                    "ce:indexed-name": "Gurfil P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance Control & Dynamics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "F. Aghili, \"A Prediction and Motion-Planning Scheme for Visually Guided Robotic Capturing of Free-Floating Tumbling Objects With Uncertain Dynamics,\" IEEE Transactions on Robotics, Vol. 28, No. 3, 2012, pp. 634-649.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "A prediction and motion-planning scheme for visually guided robotic capturing of free-floating tumbling objects with uncertain dynamics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84862018716",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "634",
+                                    "@last": "649"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Aghili",
+                                "ce:indexed-name": "Aghili F."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Robotics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "N. Filipe, M. Kontitsis, and P. Tsiotras, \"Extended Kalman Filter for spacecraft pose estimation using dual quaternions,\" American Control Conference, 2015, pp. 3187-3192.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Extended kalman filter for spacecraft pose estimation using dual quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84940932518",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3187",
+                                "@last": "3192"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Filipe",
+                                    "ce:indexed-name": "Filipe N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kontitsis",
+                                    "ce:indexed-name": "Kontitsis M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsiotras",
+                                    "ce:indexed-name": "Tsiotras P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "American Control Conference"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Razgus, E. Mooij, and D. Choukroun, \"Relative Navigation in Asteroid Missions Using Dual Quaternion Filtering,\" AIAA Guidance, Navigation, and Control Conference, 2017, pp. 1-16.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Relative navigation in asteroid missions using dual quaternion filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017476253",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "16"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Razgus",
+                                    "ce:indexed-name": "Razgus B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mooij",
+                                    "ce:indexed-name": "Mooij E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choukroun",
+                                    "ce:indexed-name": "Choukroun D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AIAA Guidance, Navigation, and Control Conference"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "X. Hou, C. Ma, Z.Wang, and J. Yuan, \"Adaptive pose and inertial parameters estimation of free-floating tumbling space objects using dual vector quaternions,\" Advances in Mechanical Engineering, Vol. 9, No. 10, 2017, pp. 1-17.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Adaptive pose and inertial parameters estimation of free-floating tumbling space objects using dual vector quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85031789768",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "17"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hou",
+                                    "ce:indexed-name": "Hou X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Mechanical Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. J. Julier, J. K. Uhlmann, and H. F. Durrant-Whyte, \"A new approach for filtering nonlinear systems,\" American Control Conference, Proceedings of the, 2002, pp. 1628-1632 vol.3.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "A new approach for filtering nonlinear systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029199714",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "1628",
+                                    "@last": "1632"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Julier",
+                                    "ce:indexed-name": "Julier S.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Uhlmann",
+                                    "ce:indexed-name": "Uhlmann J.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Durrant-Whyte",
+                                    "ce:indexed-name": "Durrant-Whyte H.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "American Control Conference, Proceedings of the"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "AIAA, \"Particle filtering for sequential spacecraft attitude estimation,\" 2004, pp. 04-5337.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33846855388",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "04",
+                                "@last": "5337"
+                            }},
+                            "ref-text": "AIAA",
+                            "ref-sourcetitle": "Particle Filtering for Sequential Spacecraft Attitude Estimation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. J. Hopfield, \"Neurons with graded response have collective computational properties like those of two-state neurons,\" Proc Natl Acad Sci U S A, Vol. 81, No. 10, 1984, pp. 3088-3092.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Neurons with graded response have collective computational properties like those of two-state neurons"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004469897",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "81",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "3088",
+                                    "@last": "3092"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Hopfield",
+                                "ce:indexed-name": "Hopfield J.J."
+                            }]},
+                            "ref-sourcetitle": "Proc Natl Acad Sci U S A"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. E. Rumelhart, G. E. Hinton, and R. J. Williams, \"Learning representations by back-propagating errors.,\" Readings in Cognitive Science, Vol. 323, No. 6088, 1988, pp. 399-421.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Learning representations by back-propagating errors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0141578397",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "323",
+                                    "@issue": "6088"
+                                },
+                                "pagerange": {
+                                    "@first": "399",
+                                    "@last": "421"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rumelhart",
+                                    "ce:indexed-name": "Rumelhart D.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams R.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Readings in Cognitive Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Ergezinger and E. Thomsen, An accelerated learning algorithm for multilayer perceptrons: Optimization layer by layer. IEEE Press, 1995.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058962927",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "IEEE Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ergezinger",
+                                    "ce:indexed-name": "Ergezinger S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thomsen",
+                                    "ce:indexed-name": "Thomsen E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "An Accelerated Learning Algorithm for Multilayer Perceptrons: Optimization Layer by Layer"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Q. Song, \"Research on arithmetic for dynamic GPS Kalman filtering modified by neural network,\" Computer Engineering & Applications, Vol. 47, No. 15, 2011, pp. 152-155.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Research on arithmetic for dynamic GPS kalman filtering modified by neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058946644",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "47",
+                                    "@issue": "15"
+                                },
+                                "pagerange": {
+                                    "@first": "152",
+                                    "@last": "155"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Q.",
+                                "@_fa": "true",
+                                "ce:surname": "Song",
+                                "ce:indexed-name": "Song Q."
+                            }]},
+                            "ref-sourcetitle": "Computer Engineering & Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Zhongliang, C. Weibing, Z. Haojie, L. Tianzi, Z. Hongbo, and Z. Guanghua, \"Innovation-Based Neural Network Adaptive Kalman Filter Algorithm,\" Journal of Hunan University of Technology, 2011.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Innovation-based neural network adaptive kalman filter algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058929645",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhongliang",
+                                    "ce:indexed-name": "Zhongliang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weibing",
+                                    "ce:indexed-name": "Weibing C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haojie",
+                                    "ce:indexed-name": "Haojie Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tianzi",
+                                    "ce:indexed-name": "Tianzi L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hongbo",
+                                    "ce:indexed-name": "Hongbo Z."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guanghua",
+                                    "ce:indexed-name": "Guanghua Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Hunan University of Technology"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Xi'an",
+        "@id": "60003977",
+        "affilname": "Northwestern Polytechnical University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85058928699",
+        "dc:description": "Parameters estimations for uncooperative space targets are vital important for the On orbit servicing operations. With limited prior information of the uncooperative space targets, good parameters estimations will not only provide rich knowledge of the target but also figure out whether the uncooperative space target can be captured and controlled. Since the uncooperative targets are tumbling in space, only remote sensors (i.e. stereo camera and LIDAR) can be utilized to measure some useful information about them. However, under the uncertain space environment, the remote sensors sometimes cannot output reliable measurements and will lead to failures of the parameters estimations. This paper focuses on parameters estimations of an uncooperative space target with measurements failures. In this paper, a LIDAR device is used to obtain the relative pose between the target and the servicing satellite, and long-term measurements failures of the LIDAR is considered. To enhance the estimating accuracies and efficiencies, the dual vector quaternions (DVQ) are utilized to model the system kinematics and dynamics. By the novel DVQ modeling technique, both the translational and rotational parameters can be estimated in the same time. Also, by utilizing the dynamic models, the inertial parameters (ratios of the moments of inertia of the target, and the location of the center of mass) can also be estimated. In the beginning, a DVQ based extended Kalman filter is designed to estimate the parameters of the uncooperative space target when the measurements of the LIDAR are available. Then, to overcome the estimating failures caused by the faults of the LIDAR measurements, a neural network aided extended Kalman filter (NNEKF) is designed. In the designed NNEKF, a BP neural network is designed in the measurement update procedure when the measurements from the LIDAR are failed. By using the historical time propagations of the states and the Kalman gain as inputs together with the relative correct estimations of the states as outputs, the designed BP neural network is trained off-line firstly. Then, when the measurements of the LIDAR is available, the trained BP neural network is retrained by the results from the DVQ-EKF in each estimating step to enhance its online estimating accuracy. As soon as the measurements failures happen, the designed BP neural network will output the estimations of the parameters instead of the ones made by DVQ-EKF. When the measurements of the LIDAR are available again, the estimations of the designed BP neural network will be used to reset the DVQ-EKF, which will be used under available LIDAR measurements situations. By the proposed DVQ-NNEKF, the measurements update procedure can switch between the designed BP neural network and the EKF to enhance its accuracy due to the availabilities of the LIDAR measurements and mitigate the computational burden. Finally, the proposed DVQ-NNEKF is validated by mathematical simulations to show its robust performances.",
+        "prism:coverDate": "2018-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85058928699",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Xianghao",
+            "preferred-name": {
+                "ce:given-name": "Xianghao",
+                "ce:initials": "X.",
+                "ce:surname": "Hou",
+                "ce:indexed-name": "Hou X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Hou",
+            "@auid": "57196097017",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57196097017",
+            "ce:indexed-name": "Hou X."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85058928699"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85058928699&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85058928699&origin=inward"
+            }
+        ],
+        "prism:isbn": "9780877036531",
+        "source-id": "12376",
+        "citedby-count": "0",
+        "prism:volume": "165",
+        "subtype": "cp",
+        "dc:title": "Ai-aided parameters estimations for uncooperative space target with measurements failures",
+        "openaccess": null,
+        "prism:issn": "00653438",
+        "publishercopyright": "© 2018 KASHYAP.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Advances in the Astronautical Sciences",
+        "prism:pageRange": "707-718",
+        "prism:endingPage": "718",
+        "openaccessFlag": null,
+        "prism:startingPage": "707",
+        "dc:identifier": "SCOPUS_ID:85058928699",
+        "dc:publisher": "Univelt Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Computational burden",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial parameters",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Long-term measurements",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mathematical simulations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Measurement updates",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Parameters estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Reliable measurement",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rotational parameters",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Aerospace Engineering",
+            "@code": "2202",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Space and Planetary Science",
+            "@code": "1912",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Xianghao",
+            "preferred-name": {
+                "ce:given-name": "Xianghao",
+                "ce:initials": "X.",
+                "ce:surname": "Hou",
+                "ce:indexed-name": "Hou X."
+            },
+            "@seq": "1",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Hou",
+            "@auid": "57196097017",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57196097017",
+            "ce:indexed-name": "Hou X."
+        },
+        {
+            "ce:given-name": "Jianping",
+            "preferred-name": {
+                "ce:given-name": "Jianping",
+                "ce:initials": "J.",
+                "ce:surname": "Yuan",
+                "ce:indexed-name": "Yuan J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Yuan",
+            "@auid": "57224779766",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57224779766",
+            "ce:indexed-name": "Yuan J."
+        }
+    ]}
+}}

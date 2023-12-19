@@ -1,0 +1,3222 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "09",
+                "@year": "2023",
+                "@timestamp": "2023-07-09T18:44:42.000042-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "150001",
+                        "@afid": "60019616",
+                        "@country": "chn",
+                        "city": "Harbin",
+                        "organization": [
+                            {"$": "Harbin Institute of Technology"},
+                            {"$": "Control and Simulation Center"},
+                            {"$": "School of Astronautics"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60019616",
+                            "@dptid": "103998209"
+                        },
+                        "@affiliation-instance-id": "OB2BibRecID-947676951-706a7fba17603ab50e10b5a3e6049e44-1",
+                        "ce:source-text": "Harbin Institute of Technology, Control and Simulation Center, School of Astronautics, Harbin, China, 150001",
+                        "@dptid": "103998209"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Junxi",
+                            "preferred-name": {
+                                "ce:given-name": "Junxi",
+                                "ce:initials": "J.",
+                                "ce:surname": "Tian",
+                                "ce:indexed-name": "Tian J."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "OB2BibRecID-947676951-cb9723ba7f8d66b3e76b956f123b1759-1",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Tian",
+                            "@auid": "57202036338",
+                            "@orcid": "0000-0002-1270-2283",
+                            "ce:indexed-name": "Tian J."
+                        },
+                        {
+                            "ce:given-name": "Ming",
+                            "preferred-name": {
+                                "ce:given-name": "Ming",
+                                "ce:initials": "M.",
+                                "ce:surname": "Yang",
+                                "ce:indexed-name": "Yang M."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "OB2BibRecID-947676951-fe88a23095443476780469a8f8d865c9-1",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Yang",
+                            "@auid": "56303970200",
+                            "@orcid": "0000-0002-5231-5093",
+                            "ce:indexed-name": "Yang M."
+                        },
+                        {
+                            "ce:given-name": "Xiaonan",
+                            "preferred-name": {
+                                "ce:given-name": "Xiaonan",
+                                "ce:initials": "X.",
+                                "ce:surname": "Li",
+                                "ce:indexed-name": "Li X."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "OB2BibRecID-947676951-ff187cbb2d5c17badc9d4d66273f77f5-1",
+                            "ce:initials": "X.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Li",
+                            "@auid": "58075268100",
+                            "@orcid": "0000-0003-0323-6775",
+                            "ce:indexed-name": "Li X."
+                        },
+                        {
+                            "ce:given-name": "Shiming",
+                            "preferred-name": {
+                                "ce:given-name": "Shiming",
+                                "ce:initials": "S.",
+                                "ce:surname": "Zou",
+                                "ce:indexed-name": "Zou S."
+                            },
+                            "@seq": "4",
+                            "@author-instance-id": "OB2BibRecID-947676951-69ab81e927100e776f49fcd39cb65102-1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zou",
+                            "@auid": "57573936200",
+                            "@orcid": "0000-0003-2241-6325",
+                            "ce:indexed-name": "Zou S."
+                        },
+                        {
+                            "ce:given-name": "Tao",
+                            "preferred-name": {
+                                "ce:given-name": "Tao",
+                                "ce:initials": "T.",
+                                "ce:surname": "Chao",
+                                "ce:indexed-name": "Chao T."
+                            },
+                            "@seq": "5",
+                            "@author-instance-id": "OB2BibRecID-947676951-152d8cdee58859ad80cae1dbc8ea91f7-1",
+                            "ce:initials": "T.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chao",
+                            "@auid": "37002444800",
+                            "@orcid": "0000-0003-0182-0345",
+                            "ce:indexed-name": "Chao T."
+                        }
+                    ]
+                },
+                "citation-title": "Improvement of RSS-Based Measurement Based on Adaptive Kalman Filter Considering the Anisotropy on Antenna in Dynamic Environment",
+                "abstracts": "© 1963-2012 IEEE.The classic propagation model of received signal strength (RSS) measurement is significantly affected by the environment. This article divides the error sources of RSS ranging into three parts and deals with them in different methods. First, considering the influence of unmanned aerial vehicle (UAV) pose on RSS, the compensation model is established through Gaussian process regression (GPR) for the first time by mapping the quaternion of the UAV and the attenuation caused by the influence of anisotropy on the antenna in the corresponding special orthogonal group SO(3). On this basis, the distribution of random compensation variables is derived by unscented transformation (UT) and covariance propagation. Besides, a polynomial function is employed for fitting the distance-dependent environment noise. Then, to deal with the RSS measurement instability caused by the environment noise and the uncertainty of compensation, the adaptive Kalman filter (AKF) is introduced. Finally, an UWB-based environmental adaptive algorithm (UEAA) is proposed to improve ranging precision by using the UWB device in a dynamic environment. By setting the threshold parameter, the UEAA enables the classic RSS ranging model to have a certain adaptive ability for the dynamic environment of UAV, which significantly reduces the error caused by model parameter mismatch. Several experiments are carried out on the UAV platform, and the results show that the improvement of the RSS propagation model is adequate.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "150001",
+                        "@country": "chn",
+                        "city": "Harbin",
+                        "organization": [
+                            {"$": "Harbin Institute of Technology"},
+                            {"$": "Control and Simulation Center"},
+                            {"$": "School of Astronautics"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-947676951-706a7fba17603ab50e10b5a3e6049e44-1",
+                        "ce:source-text": "Harbin Institute of Technology, Control and Simulation Center, School of Astronautics, Harbin, China, 150001"
+                    },
+                    "person": {
+                        "ce:given-name": "Tao",
+                        "@author-instance-id": "OB2BibRecID-947676951-769d3a8c54dab0aacc0a0e33a4e13626-1",
+                        "ce:initials": "T.",
+                        "ce:surname": "Chao",
+                        "ce:indexed-name": "Chao T."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Environment-adaptive",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Gaussian process regression (GPR)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "received signal strength (RSS)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "time of arrival (TOA)",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "unmanned aerial vehicle (UAV) swarms",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=19",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "IEEE Transactions on Instrumentation and Measurement",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "72"}},
+                    "@type": "j",
+                    "sourcetitle": "IEEE Transactions on Instrumentation and Measurement",
+                    "publicationdate": {
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2023"
+                        }
+                    },
+                    "codencode": "IEIMA",
+                    "sourcetitle-abbrev": "IEEE Trans. Instrum. Meas.",
+                    "@country": "usa",
+                    "issn": [
+                        {
+                            "$": "15579662",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "00189456",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9506113",
+                    "@srcid": "15361"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "431.5",
+                                "classification-description": "Air Navigation and Traffic Control"
+                            },
+                            {
+                                "classification-code": "652.1",
+                                "classification-description": "Aircraft, General"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "723.1",
+                                "classification-description": "Computer Programming"
+                            },
+                            {
+                                "classification-code": "922.1",
+                                "classification-description": "Probability Theory"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            },
+                            {
+                                "classification-code": "931.2",
+                                "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "3105"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "PHYS"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "11",
+                    "@year": "2023",
+                    "@timestamp": "BST 07:13:31",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2024062365",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "947676951",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231714017268",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20231148766",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231524394",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2021001787085X",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85153498116",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85153498116",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TIM.2023.3265631"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "52",
+                "reference": [
+                    {
+                        "ref-fulltext": "S. Zhang, H. Zhang, B. Di, and L. Song, \"Cellular UAV-to-X communications: Design and optimization for multi-UAV networks, \" IEEE Trans. Wireless Commun., vol. 18, no. 2, pp. 1346-1359, Feb. 2019.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-57ede1ad4f21c7e1e87f6c11b7958934-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Cellular UAV-to-X communications: Design and optimization for multi-UAV networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061720594",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1346",
+                                    "@last": "1359"
+                                }
+                            },
+                            "ref-text": "Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Di",
+                                    "ce:indexed-name": "Di B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Wireless Commun."
+                        },
+                        "ce:source-text": "S. Zhang, H. Zhang, B. Di, and L. Song, \"Cellular UAV-to-X communications: Design and optimization for multi-UAV networks, \" IEEE Trans. Wireless Commun., vol. 18, no. 2, pp. 1346-1359, Feb. 2019."
+                    },
+                    {
+                        "ref-fulltext": "M. Mozaffari, W. Saad, M. Bennis, and M. Debbah, \"Unmanned aerial vehicle with underlaid device-to-device communications: Performance and tradeoffs, \" IEEE Trans. Wireless Commun., vol. 15, no. 6, pp. 3949-3963, Jun. 2016.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-1bb1fb4ea2d2dce2d8d79fa51451fb97-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Unmanned aerial vehicle with underlaid device-to-device communications: Performance and tradeoffs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84976263049",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "3949",
+                                    "@last": "3963"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mozaffari",
+                                    "ce:indexed-name": "Mozaffari M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saad",
+                                    "ce:indexed-name": "Saad W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bennis",
+                                    "ce:indexed-name": "Bennis M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Debbah",
+                                    "ce:indexed-name": "Debbah M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Wireless Commun."
+                        },
+                        "ce:source-text": "M. Mozaffari, W. Saad, M. Bennis, and M. Debbah, \"Unmanned aerial vehicle with underlaid device-to-device communications: Performance and tradeoffs, \" IEEE Trans. Wireless Commun., vol. 15, no. 6, pp. 3949-3963, Jun. 2016."
+                    },
+                    {
+                        "ref-fulltext": "M. Narasimhappa, A. D. Mahindrakar, V. C. Guizilini, M. H. Terra, and S. L. Sabat, \"MEMS-based IMU drift minimization: Sage Husa Adaptive Robust Kalman Filtering, \" IEEE Sensors J., vol. 20, no. 1, pp. 250-260, Jan. 2020.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-91e9cddab517eecefc5f796cdfe1dd2b-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "MEMS-based IMU drift minimization: Sage Husa Adaptive Robust Kalman Filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85077811100",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "250",
+                                    "@last": "260"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Narasimhappa",
+                                    "ce:indexed-name": "Narasimhappa M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahindrakar",
+                                    "ce:indexed-name": "Mahindrakar A.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guizilini",
+                                    "ce:indexed-name": "Guizilini V.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Terra",
+                                    "ce:indexed-name": "Terra M.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabat",
+                                    "ce:indexed-name": "Sabat S.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sensors J."
+                        },
+                        "ce:source-text": "M. Narasimhappa, A. D. Mahindrakar, V. C. Guizilini, M. H. Terra, and S. L. Sabat, \"MEMS-based IMU drift minimization: Sage Husa Adaptive Robust Kalman Filtering, \" IEEE Sensors J., vol. 20, no. 1, pp. 250-260, Jan. 2020."
+                    },
+                    {
+                        "ref-fulltext": "G. He, X. Yuan, Y. Zhuang, and H. Hu, \"An integrated GNSS/LiDARSLAM pose estimation framework for large-scale map building in partially GNSS-denied environments, \" IEEE Trans. Instrum. Meas., vol. 70, pp. 1-9, 2021.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-41e8f019c0fb86e24a62e29f59c18f19-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "An integrated GNSS/LiDARSLAM pose estimation framework for large-scale map building in partially GNSS-denied environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85097789061",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "70"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "9"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhuang",
+                                    "ce:indexed-name": "Zhuang Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "G. He, X. Yuan, Y. Zhuang, and H. Hu, \"An integrated GNSS/LiDARSLAM pose estimation framework for large-scale map building in partially GNSS-denied environments, \" IEEE Trans. Instrum. Meas., vol. 70, pp. 1-9, 2021."
+                    },
+                    {
+                        "ref-fulltext": "Q. Fu et al., \"A robust RGB-D SLAM system with points and lines for low texture indoor environments, \" IEEE Sensors J., vol. 19, no. 21, pp. 9908-9920, Nov. 2019.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-fdedfa0d6397d0011c62be6d7356683f-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A robust RGB-D SLAM system with points and lines for low texture indoor environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85073594966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "21"
+                                },
+                                "pagerange": {
+                                    "@first": "9908",
+                                    "@last": "9920"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu Q."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Sensors J."
+                        },
+                        "ce:source-text": "Q. Fu et al., \"A robust RGB-D SLAM system with points and lines for low texture indoor environments, \" IEEE Sensors J., vol. 19, no. 21, pp. 9908-9920, Nov. 2019."
+                    },
+                    {
+                        "ref-fulltext": "R. Mur-Artal, J. M. M. Montiel, and J. D. Tardos, \"ORB-SLAM: A versatile and accurate monocular SLAM system, \" IEEE Trans. Robot., vol. 31, no. 5, pp. 1147-1163, Oct. 2015.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-2777325a0cce57e59be51e71a7504e35-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "ORB-SLAM: A versatile and accurate monocular SLAM system"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84988339174",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1147",
+                                    "@last": "1163"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mur-Artal",
+                                    "ce:indexed-name": "Mur-Artal R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.M.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Montiel",
+                                    "ce:indexed-name": "Montiel J.M.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tardos",
+                                    "ce:indexed-name": "Tardos J.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        },
+                        "ce:source-text": "R. Mur-Artal, J. M. M. Montiel, and J. D. Tardos, \"ORB-SLAM: A versatile and accurate monocular SLAM system, \" IEEE Trans. Robot., vol. 31, no. 5, pp. 1147-1163, Oct. 2015."
+                    },
+                    {
+                        "ref-fulltext": "R. Mur-Artal and J. D. Tardos, \"ORB-SLAM2: An open-source slam system for monocular, stereo, and RGB-D cameras, \" IEEE Trans. Robot., vol. 33, no. 5, pp. 1255-1262, Oct. 2017.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-04b9f8880fbaa2a373932cad51a93512-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "ORB-SLAM2: An open-source slam system for monocular, stereo, and RGB-D cameras"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020739341",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1255",
+                                    "@last": "1262"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mur-Artal",
+                                    "ce:indexed-name": "Mur-Artal R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tardos",
+                                    "ce:indexed-name": "Tardos J.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot."
+                        },
+                        "ce:source-text": "R. Mur-Artal and J. D. Tardos, \"ORB-SLAM2: An open-source slam system for monocular, stereo, and RGB-D cameras, \" IEEE Trans. Robot., vol. 33, no. 5, pp. 1255-1262, Oct. 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. Xie, D. Yang, K. Jiang, and Y. Zhong, \"Pixels and 3-D points alignment method for the fusion of camera and LiDAR data, \" IEEE Trans. Instrum. Meas., vol. 68, no. 10, pp. 3661-3676, Dec. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-913220d529ceffba0f3901500be5ab0f-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Pixels and 3-D points alignment method for the fusion of camera and LiDAR data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85058081813",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "68",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "3661",
+                                    "@last": "3676"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "S. Xie, D. Yang, K. Jiang, and Y. Zhong, \"Pixels and 3-D points alignment method for the fusion of camera and LiDAR data, \" IEEE Trans. Instrum. Meas., vol. 68, no. 10, pp. 3661-3676, Dec. 2018."
+                    },
+                    {
+                        "ref-fulltext": "L. Zhang et al., \"WiFi-based indoor robot positioning using deep fuzzy forests, \" IEEE Internet Things J., vol. 7, no. 11, pp. 10773-10781, Nov. 2020.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-028e3cfe9bddf2a44352ec31a3296222-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "WiFi-based indoor robot positioning using deep fuzzy forests"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85089239005",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "10773",
+                                    "@last": "10781"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Internet Things J."
+                        },
+                        "ce:source-text": "L. Zhang et al., \"WiFi-based indoor robot positioning using deep fuzzy forests, \" IEEE Internet Things J., vol. 7, no. 11, pp. 10773-10781, Nov. 2020."
+                    },
+                    {
+                        "ref-fulltext": "A. Achroufene, Y. Amirat, and A. Chibani, \"RSS-based indoor localization using belief function theory, \" IEEE Trans. Autom. Sci. Eng., vol. 16, no. 3, pp. 1163-1180, Jul. 2019.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-80ead16442c9c4befb976ef8f491d963-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "RSS-based indoor localization using belief function theory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85056169136",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1163",
+                                    "@last": "1180"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Achroufene",
+                                    "ce:indexed-name": "Achroufene A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amirat",
+                                    "ce:indexed-name": "Amirat Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chibani",
+                                    "ce:indexed-name": "Chibani A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Autom. Sci. Eng."
+                        },
+                        "ce:source-text": "A. Achroufene, Y. Amirat, and A. Chibani, \"RSS-based indoor localization using belief function theory, \" IEEE Trans. Autom. Sci. Eng., vol. 16, no. 3, pp. 1163-1180, Jul. 2019."
+                    },
+                    {
+                        "ref-fulltext": "A. A. Khuwaja, Y. Chen, N. Zhao, M.-S. Alouini, and P. Dobbins, \"A survey of channel modeling for UAV communications, \" IEEE Commun. Surveys Tuts., vol. 20, no. 4, pp. 2804-2821, 4th Quart., 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-92f3d3910af6ad6c1d19df237ed6c970-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A survey of channel modeling for UAV communications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048230076",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "2804",
+                                    "@last": "2821"
+                                }
+                            },
+                            "ref-text": "4th Quart.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khuwaja",
+                                    "ce:indexed-name": "Khuwaja A.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alouini",
+                                    "ce:indexed-name": "Alouini M.-S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dobbins",
+                                    "ce:indexed-name": "Dobbins P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Surveys Tuts."
+                        },
+                        "ce:source-text": "A. A. Khuwaja, Y. Chen, N. Zhao, M.-S. Alouini, and P. Dobbins, \"A survey of channel modeling for UAV communications, \" IEEE Commun. Surveys Tuts., vol. 20, no. 4, pp. 2804-2821, 4th Quart., 2018."
+                    },
+                    {
+                        "ref-fulltext": "A. Gabbrielli et al., \"An echo suppression delay estimator for angleof-arrival ultrasonic indoor localization, \" IEEE Trans. Instrum. Meas., vol. 70, pp. 1-12, 2021.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-e5ba2847756b7ab5619c84e8d20766d2-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "An echo suppression delay estimator for angleof-arrival ultrasonic indoor localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85107222232",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "70"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "12"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gabbrielli",
+                                    "ce:indexed-name": "Gabbrielli A."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "A. Gabbrielli et al., \"An echo suppression delay estimator for angleof-arrival ultrasonic indoor localization, \" IEEE Trans. Instrum. Meas., vol. 70, pp. 1-12, 2021."
+                    },
+                    {
+                        "ref-fulltext": "S. Gezici et al., \"Localization via ultra-wideband radios: A look at positioning aspects for future sensor networks, \" IEEE Signal Process. Mag., vol. 22, no. 4, pp. 70-84, Jul. 2005.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-147ee3d4f00b4485ca3362c7beab3b84-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Localization via ultra-wideband radios: A look at positioning aspects for future sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85032751286",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "70",
+                                    "@last": "84"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gezici",
+                                    "ce:indexed-name": "Gezici S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Signal Process. Mag."
+                        },
+                        "ce:source-text": "S. Gezici et al., \"Localization via ultra-wideband radios: A look at positioning aspects for future sensor networks, \" IEEE Signal Process. Mag., vol. 22, no. 4, pp. 70-84, Jul. 2005."
+                    },
+                    {
+                        "ref-fulltext": "A. R. J. Ruiz and F. S. Granja, \"Comparing ubisense, bespoon, and decawave UWB location systems: Indoor performance analysis, \" IEEE Trans. Instrum. Meas., vol. 66, no. 8, pp. 2106-2117, Aug. 2017.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-7ed2c741233232fadef0f736da8a8f79-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Comparing ubisense, bespoon, and decawave UWB location systems: Indoor performance analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85017109220",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "66",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2106",
+                                    "@last": "2117"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruiz",
+                                    "ce:indexed-name": "Ruiz A.R.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Granja",
+                                    "ce:indexed-name": "Granja F.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "A. R. J. Ruiz and F. S. Granja, \"Comparing ubisense, bespoon, and decawave UWB location systems: Indoor performance analysis, \" IEEE Trans. Instrum. Meas., vol. 66, no. 8, pp. 2106-2117, Aug. 2017."
+                    },
+                    {
+                        "ref-fulltext": "C. Gentile and A. Kik, \"A comprehensive evaluation of indoor ranging using ultra-wideband technology, \" EURASIP J. Wireless Commun. Netw., vol. 2007, no. 1, pp. 1-10, Dec. 2007.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-a1a14f2cc617e6a7e9aca71857100903-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "A comprehensive evaluation of indoor ranging using ultra-wideband technology"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34247239846",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2007",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "10"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gentile",
+                                    "ce:indexed-name": "Gentile C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kik",
+                                    "ce:indexed-name": "Kik A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "EURASIP J. Wireless Commun. Netw."
+                        },
+                        "ce:source-text": "C. Gentile and A. Kik, \"A comprehensive evaluation of indoor ranging using ultra-wideband technology, \" EURASIP J. Wireless Commun. Netw., vol. 2007, no. 1, pp. 1-10, Dec. 2007."
+                    },
+                    {
+                        "ref-fulltext": "E. Yanmaz, R. Kuschnig, and C. Bettstetter, \"Channel measurements over 802.11 a-based UAV-to-ground links, \" in Proc. IEEE GLOBECOM Workshops, Dec. 2011, pp. 1280-1284.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-f6cf27a512440c43f6030bcbc817fd2b-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Channel measurements over 802.11 a-based UAV-to-ground links"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84858405487",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1280",
+                                "@last": "1284"
+                            }},
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yanmaz",
+                                    "ce:indexed-name": "Yanmaz E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuschnig",
+                                    "ce:indexed-name": "Kuschnig R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bettstetter",
+                                    "ce:indexed-name": "Bettstetter C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE GLOBECOM Workshops"
+                        },
+                        "ce:source-text": "E. Yanmaz, R. Kuschnig, and C. Bettstetter, \"Channel measurements over 802.11 a-based UAV-to-ground links, \" in Proc. IEEE GLOBECOM Workshops, Dec. 2011, pp. 1280-1284."
+                    },
+                    {
+                        "ref-fulltext": "D. W. Matolak and R. Sun, \"Unmanned aircraft systems: Air-ground channel characterization for future applications, \" IEEE Veh. Technol. Mag., vol. 10, no. 2, pp. 79-85, Jun. 2015.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-8f1d3bac8ab808d1105cee4055f8995c-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Unmanned aircraft systems: Air-ground channel characterization for future applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84930685262",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "79",
+                                    "@last": "85"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matolak",
+                                    "ce:indexed-name": "Matolak D.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Veh. Technol. Mag."
+                        },
+                        "ce:source-text": "D. W. Matolak and R. Sun, \"Unmanned aircraft systems: Air-ground channel characterization for future applications, \" IEEE Veh. Technol. Mag., vol. 10, no. 2, pp. 79-85, Jun. 2015."
+                    },
+                    {
+                        "ref-fulltext": "N. Ahmed, S. S. Kanhere, and S. Jha, \"Utilizing link characterization for improving the performance of aerial wireless sensor networks, \" IEEE J. Sel. Areas Commun., vol. 31, no. 8, pp. 1639-1649, Aug. 2013.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-ef4d90b2743158b51104e95253975804-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Utilizing link characterization for improving the performance of aerial wireless sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880944545",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1639",
+                                    "@last": "1649"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmed",
+                                    "ce:indexed-name": "Ahmed N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanhere",
+                                    "ce:indexed-name": "Kanhere S.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jha",
+                                    "ce:indexed-name": "Jha S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE J. Sel. Areas Commun."
+                        },
+                        "ce:source-text": "N. Ahmed, S. S. Kanhere, and S. Jha, \"Utilizing link characterization for improving the performance of aerial wireless sensor networks, \" IEEE J. Sel. Areas Commun., vol. 31, no. 8, pp. 1639-1649, Aug. 2013."
+                    },
+                    {
+                        "ref-fulltext": "M. Veletic and M. Šunjevaric, \"On the Cramer-Rao lower bound for RSS-based positioning in wireless cellular networks, \" AEU, Int. J. Electron. Commun., vol. 68, no. 8, pp. 730-736, Aug. 2014.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-16ed61cc1f8c254efda0494438f4469a-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "On the Cramer-Rao lower bound for RSS-based positioning in wireless cellular networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84901856804",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "68",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "730",
+                                    "@last": "736"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Veletic",
+                                    "ce:indexed-name": "Veletic M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Šunjevaric",
+                                    "ce:indexed-name": "Sunjevaric M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AEU, Int. J. Electron. Commun."
+                        },
+                        "ce:source-text": "M. Veletic and M. Šunjevaric, \"On the Cramer-Rao lower bound for RSS-based positioning in wireless cellular networks, \" AEU, Int. J. Electron. Commun., vol. 68, no. 8, pp. 730-736, Aug. 2014."
+                    },
+                    {
+                        "ref-fulltext": "F. Zafari, A. Gkelias, and K. K. Leung, \"A survey of indoor localization systems and technologies, \" IEEE Commun. Surveys Tuts., vol. 21, no. 3, pp. 2568-2599, 3rd Quart., 2017.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-be81d7749f1023b6879d245021d46894-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A survey of indoor localization systems and technologies"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071669914",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "2568",
+                                    "@last": "2599"
+                                }
+                            },
+                            "ref-text": "3rd Quart.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zafari",
+                                    "ce:indexed-name": "Zafari F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gkelias",
+                                    "ce:indexed-name": "Gkelias A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Leung",
+                                    "ce:indexed-name": "Leung K.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Surveys Tuts."
+                        },
+                        "ce:source-text": "F. Zafari, A. Gkelias, and K. K. Leung, \"A survey of indoor localization systems and technologies, \" IEEE Commun. Surveys Tuts., vol. 21, no. 3, pp. 2568-2599, 3rd Quart., 2017."
+                    },
+                    {
+                        "ref-fulltext": "T. Santos, F. Tufvesson, and A. Molisch, \"Modeling the ultra-wideband outdoor channel: Model specification and validation, \" IEEE Trans. Wireless Commun., vol. 9, no. 6, pp. 1987-1997, Jun. 2010.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-17af2d3e2138d5d15d06aff419fac594-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Modeling the ultra-wideband outdoor channel: Model specification and validation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953280152",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1987",
+                                    "@last": "1997"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Santos",
+                                    "ce:indexed-name": "Santos T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tufvesson",
+                                    "ce:indexed-name": "Tufvesson F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Molisch",
+                                    "ce:indexed-name": "Molisch A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Wireless Commun."
+                        },
+                        "ce:source-text": "T. Santos, F. Tufvesson, and A. Molisch, \"Modeling the ultra-wideband outdoor channel: Model specification and validation, \" IEEE Trans. Wireless Commun., vol. 9, no. 6, pp. 1987-1997, Jun. 2010."
+                    },
+                    {
+                        "ref-fulltext": "R. M. Vaghefi and R. M. Buehrer, \"Cooperative localization in NLOS environments using semidefinite programming, \" IEEE Commun. Lett., vol. 19, no. 8, pp. 1382-1385, Aug. 2015.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-8e7767c43f787b94da03c1f82ce47aa2-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Cooperative localization in NLOS environments using semidefinite programming"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84939456368",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1382",
+                                    "@last": "1385"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaghefi",
+                                    "ce:indexed-name": "Vaghefi R.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buehrer",
+                                    "ce:indexed-name": "Buehrer R.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Lett."
+                        },
+                        "ce:source-text": "R. M. Vaghefi and R. M. Buehrer, \"Cooperative localization in NLOS environments using semidefinite programming, \" IEEE Commun. Lett., vol. 19, no. 8, pp. 1382-1385, Aug. 2015."
+                    },
+                    {
+                        "ref-fulltext": "S. Haigh, J. Kulon, A. Partlow, P. Rogers, and C. Gibson, \"A robust algorithm for classification and rejection of NLOS signals in narrowband ultrasonic localization systems, \" IEEE Trans. Instrum. Meas., vol. 68, no. 3, pp. 646-655, Aug. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-2a6719a2e2cda6d7bca8bc22d5b43b1a-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A robust algorithm for classification and rejection of NLOS signals in narrowband ultrasonic localization systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85051406118",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "68",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "646",
+                                    "@last": "655"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haigh",
+                                    "ce:indexed-name": "Haigh S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kulon",
+                                    "ce:indexed-name": "Kulon J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Partlow",
+                                    "ce:indexed-name": "Partlow A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rogers",
+                                    "ce:indexed-name": "Rogers P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gibson",
+                                    "ce:indexed-name": "Gibson C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "S. Haigh, J. Kulon, A. Partlow, P. Rogers, and C. Gibson, \"A robust algorithm for classification and rejection of NLOS signals in narrowband ultrasonic localization systems, \" IEEE Trans. Instrum. Meas., vol. 68, no. 3, pp. 646-655, Aug. 2018."
+                    },
+                    {
+                        "ref-fulltext": "H.-S. Ahn and W. Yu, \"Environmental-adaptive RSSI-based indoor localization, \" IEEE Trans. Autom. Sci. Eng., vol. 6, no. 4, pp. 626-633, Oct. 2009.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-855c43afefbe8c0c2b18e4dfc6207ab8-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Environmental-adaptive RSSI-based indoor localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70350029363",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "6",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "626",
+                                    "@last": "633"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahn",
+                                    "ce:indexed-name": "Ahn H.-S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Autom. Sci. Eng."
+                        },
+                        "ce:source-text": "H.-S. Ahn and W. Yu, \"Environmental-adaptive RSSI-based indoor localization, \" IEEE Trans. Autom. Sci. Eng., vol. 6, no. 4, pp. 626-633, Oct. 2009."
+                    },
+                    {
+                        "ref-fulltext": "R.-B. Zhang, J.-G. Guo, F.-H. Chu, and Y.-C. Zhang, \"Environmentaladaptive indoor radio path loss model for wireless sensor networks localization, \" Int. J. Electron. Commun., vol. 65, no. 12, pp. 1023-1031, 2011.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-fa5909b531cf1fd6037e1bc6b0707a04-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Environmentaladaptive indoor radio path loss model for wireless sensor networks localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80053910290",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "65",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "1023",
+                                    "@last": "1031"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.-B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang R.-B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo J.-G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chu",
+                                    "ce:indexed-name": "Chu F.-H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Electron. Commun."
+                        },
+                        "ce:source-text": "R.-B. Zhang, J.-G. Guo, F.-H. Chu, and Y.-C. Zhang, \"Environmentaladaptive indoor radio path loss model for wireless sensor networks localization, \" Int. J. Electron. Commun., vol. 65, no. 12, pp. 1023-1031, 2011."
+                    },
+                    {
+                        "ref-fulltext": "S. Lee, B. Cho, B. Koo, S. Ryu, J. Choi, and S. Kim, \"Kalman filterbased indoor position tracking with self-calibration for RSS variation mitigation, \" Int. J. Distrib. Sensor Netw., vol. 11, no. 8, pp. 635-674, 2015.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-db36386e15cc83813da462f96bcbea25-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Kalman filterbased indoor position tracking with self-calibration for RSS variation mitigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84940398429",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "635",
+                                    "@last": "674"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koo",
+                                    "ce:indexed-name": "Koo B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ryu",
+                                    "ce:indexed-name": "Ryu S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Distrib. Sensor Netw."
+                        },
+                        "ce:source-text": "S. Lee, B. Cho, B. Koo, S. Ryu, J. Choi, and S. Kim, \"Kalman filterbased indoor position tracking with self-calibration for RSS variation mitigation, \" Int. J. Distrib. Sensor Netw., vol. 11, no. 8, pp. 635-674, 2015."
+                    },
+                    {
+                        "ref-fulltext": "L.-F. Shi, Y. Wang, G.-X. Liu, S. Chen, Y.-L. Zhao, and Y.-F. Shi, \"A fusion algorithm of indoor positioning based on PDR and RSS fingerprint, \" IEEE Sensors J., vol. 18, no. 23, pp. 9691-9698, Dec. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-b8ad9d50dc7945ecff3c65958c097417-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A fusion algorithm of indoor positioning based on PDR and RSS fingerprint"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85054374013",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "23"
+                                },
+                                "pagerange": {
+                                    "@first": "9691",
+                                    "@last": "9698"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.-F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi L.-F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.-X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu G.-X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao Y.-L."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "Y.-F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi Y.-F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sensors J."
+                        },
+                        "ce:source-text": "L.-F. Shi, Y. Wang, G.-X. Liu, S. Chen, Y.-L. Zhao, and Y.-F. Shi, \"A fusion algorithm of indoor positioning based on PDR and RSS fingerprint, \" IEEE Sensors J., vol. 18, no. 23, pp. 9691-9698, Dec. 2018."
+                    },
+                    {
+                        "ref-fulltext": "I. H. Alshami, N. A. Ahmad, S. Sahibuddin, and F. Firdaus, \"Adaptive indoor positioning model based on WLAN-fingerprinting for dynamic and multi-floor environments, \" Sensors, vol. 17, no. 8, pp. 1789-1796, 2017.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-3cc2267c7efffcdf50d39c0f852d026a-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Adaptive indoor positioning model based on WLAN-fingerprinting for dynamic and multi-floor environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85026902726",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1789",
+                                    "@last": "1796"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alshami",
+                                    "ce:indexed-name": "Alshami I.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmad",
+                                    "ce:indexed-name": "Ahmad N.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sahibuddin",
+                                    "ce:indexed-name": "Sahibuddin S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Firdaus",
+                                    "ce:indexed-name": "Firdaus F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "I. H. Alshami, N. A. Ahmad, S. Sahibuddin, and F. Firdaus, \"Adaptive indoor positioning model based on WLAN-fingerprinting for dynamic and multi-floor environments, \" Sensors, vol. 17, no. 8, pp. 1789-1796, 2017."
+                    },
+                    {
+                        "ref-fulltext": "H. Li, Z. Huang, H. Sun, X. Wang, and J. Qi, \"A dynamic adaptive indoor ranging model based on RSSI, \" in Proc. 39th Chin. Control Conf. (CCC), Jul. 2020, pp. 2850-2855.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-1580e73649a2d8e51692e2768e09b64c-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A dynamic adaptive indoor ranging model based on RSSI"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85091398657",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2850",
+                                "@last": "2855"
+                            }},
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qi",
+                                    "ce:indexed-name": "Qi J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 39th Chin. Control Conf. (CCC)"
+                        },
+                        "ce:source-text": "H. Li, Z. Huang, H. Sun, X. Wang, and J. Qi, \"A dynamic adaptive indoor ranging model based on RSSI, \" in Proc. 39th Chin. Control Conf. (CCC), Jul. 2020, pp. 2850-2855."
+                    },
+                    {
+                        "ref-fulltext": "C.-L. Wang, Y.-S. Chiou, and Y.-S. Dai, \"An adaptive location estimator based on Kalman filtering for wireless sensor networks, \" in Proc. IEEE 65th Veh. Technol. Conf., Apr. 2007, pp. 864-868.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-bd4fdc2ceea9f7d44c146295e38aee40-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "An adaptive location estimator based on Kalman filtering for wireless sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34547325204",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "864",
+                                "@last": "868"
+                            }},
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C.-L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiou",
+                                    "ce:indexed-name": "Chiou Y.-S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dai",
+                                    "ce:indexed-name": "Dai Y.-S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE 65th Veh. Technol. Conf."
+                        },
+                        "ce:source-text": "C.-L. Wang, Y.-S. Chiou, and Y.-S. Dai, \"An adaptive location estimator based on Kalman filtering for wireless sensor networks, \" in Proc. IEEE 65th Veh. Technol. Conf., Apr. 2007, pp. 864-868."
+                    },
+                    {
+                        "ref-fulltext": "C. Luo, P. Casaseca-de-la-Higuera, S. McClean, G. Parr, and P. Ren, \"Characterization of received signal strength perturbations using Allan variance, \" IEEE Trans. Aerosp. Electron. Syst., vol. 54, no. 2, pp. 873-889, Apr. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-4364e73cb64d3fdefbb15532e476236a-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Characterization of received signal strength perturbations using Allan variance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85033676136",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "873",
+                                    "@last": "889"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Casaseca-De-La-Higuera",
+                                    "ce:indexed-name": "Casaseca-De-La-Higuera P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McClean",
+                                    "ce:indexed-name": "McClean S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parr",
+                                    "ce:indexed-name": "Parr G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Aerosp. Electron. Syst."
+                        },
+                        "ce:source-text": "C. Luo, P. Casaseca-de-la-Higuera, S. McClean, G. Parr, and P. Ren, \"Characterization of received signal strength perturbations using Allan variance, \" IEEE Trans. Aerosp. Electron. Syst., vol. 54, no. 2, pp. 873-889, Apr. 2018."
+                    },
+                    {
+                        "ref-fulltext": "S. S. Dias and M. G. S. Bruno, \"Cooperative target tracking using decentralized particle filtering and RSS sensors, \" IEEE Trans. Signal Process., vol. 61, no. 14, pp. 3632-3646, Jul. 2013.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-b09d8bdfa3fc83ec003f5fcdbd7f9b43-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Cooperative target tracking using decentralized particle filtering and RSS sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880071772",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "14"
+                                },
+                                "pagerange": {
+                                    "@first": "3632",
+                                    "@last": "3646"
+                                }
+                            },
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dias",
+                                    "ce:indexed-name": "Dias S.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bruno",
+                                    "ce:indexed-name": "Bruno M.G.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process."
+                        },
+                        "ce:source-text": "S. S. Dias and M. G. S. Bruno, \"Cooperative target tracking using decentralized particle filtering and RSS sensors, \" IEEE Trans. Signal Process., vol. 61, no. 14, pp. 3632-3646, Jul. 2013."
+                    },
+                    {
+                        "ref-fulltext": "Z. Ge, G. Jia, Y. Zhi, X. Zhang, and J. Zhang, \"Strong tracking extended particle filter for manoeuvring target tracking, \" IET Radar, Sonar Navigat., vol. 14, no. 11, pp. 1708-1716, Nov. 2020.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-696bf05b41901b1355287b9ef4d14f78-33",
+                        "@id": "33",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Strong tracking extended particle filter for manoeuvring target tracking"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85095787967",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "1708",
+                                    "@last": "1716"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ge",
+                                    "ce:indexed-name": "Ge Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jia",
+                                    "ce:indexed-name": "Jia G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhi",
+                                    "ce:indexed-name": "Zhi Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IET Radar, Sonar Navigat."
+                        },
+                        "ce:source-text": "Z. Ge, G. Jia, Y. Zhi, X. Zhang, and J. Zhang, \"Strong tracking extended particle filter for manoeuvring target tracking, \" IET Radar, Sonar Navigat., vol. 14, no. 11, pp. 1708-1716, Nov. 2020."
+                    },
+                    {
+                        "ref-fulltext": "S. Kram, I. Lukcin, C. Nickel, and J. Seitz, \"Universal Kriging of RSS databases in a Bayesian filter, \" in Proc. 21st Int. Conf. Inf. Fusion (FUSION), Jul. 2018, pp. 1720-1725.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-83a981a8ffaed217e21bd4c04645eac8-34",
+                        "@id": "34",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Universal Kriging of RSS databases in a Bayesian filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85054091132",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1720",
+                                "@last": "1725"
+                            }},
+                            "ref-text": "Jul.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kram",
+                                    "ce:indexed-name": "Kram S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lukcin",
+                                    "ce:indexed-name": "Lukcin I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nickel",
+                                    "ce:indexed-name": "Nickel C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seitz",
+                                    "ce:indexed-name": "Seitz J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 21st Int. Conf. Inf. Fusion (FUSION)"
+                        },
+                        "ce:source-text": "S. Kram, I. Lukcin, C. Nickel, and J. Seitz, \"Universal Kriging of RSS databases in a Bayesian filter, \" in Proc. 21st Int. Conf. Inf. Fusion (FUSION), Jul. 2018, pp. 1720-1725."
+                    },
+                    {
+                        "ref-fulltext": "L. Cheng, C.-D. Wu, and Y.-Z. Zhang, \"Indoor robot localization based on wireless sensor networks, \" IEEE Trans. Consum. Electron., vol. 57, no. 3, pp. 1099-1104, Aug. 2011.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-fd81f3d787fd45a66f16097fcf6e1ebf-35",
+                        "@id": "35",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Indoor robot localization based on wireless sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052943558",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1099",
+                                    "@last": "1104"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.-D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wu",
+                                    "ce:indexed-name": "Wu C.-D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.-Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y.-Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Consum. Electron."
+                        },
+                        "ce:source-text": "L. Cheng, C.-D. Wu, and Y.-Z. Zhang, \"Indoor robot localization based on wireless sensor networks, \" IEEE Trans. Consum. Electron., vol. 57, no. 3, pp. 1099-1104, Aug. 2011."
+                    },
+                    {
+                        "ref-fulltext": "J. Allred et al., \"SensorFlock: An airborne wireless sensor network of micro-air vehicles, \" in Proc. 5th Int. Conf. Embedded Networked Sensor Syst., Nov. 2007, pp. 117-129.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-b5a9160d094557c6071bd5f1e5032b0d-36",
+                        "@id": "36",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "SensorFlock: An airborne wireless sensor network of micro-air vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79959894825",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "117",
+                                "@last": "129"
+                            }},
+                            "ref-text": "Nov.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Allred",
+                                    "ce:indexed-name": "Allred J."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. 5th Int. Conf. Embedded Networked Sensor Syst."
+                        },
+                        "ce:source-text": "J. Allred et al., \"SensorFlock: An airborne wireless sensor network of micro-air vehicles, \" in Proc. 5th Int. Conf. Embedded Networked Sensor Syst., Nov. 2007, pp. 117-129."
+                    },
+                    {
+                        "ref-fulltext": "N. Ahmed, S. S. Kanhere, and S. Jha, \"On the importance of link characterization for aerial wireless sensor networks, \" IEEE Commun. Mag., vol. 54, no. 5, pp. 52-57, May 2016.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-a4cc0ab18661ed33da120fc53c4f47c2-37",
+                        "@id": "37",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "On the importance of link characterization for aerial wireless sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975463491",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "54",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "52",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmed",
+                                    "ce:indexed-name": "Ahmed N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanhere",
+                                    "ce:indexed-name": "Kanhere S.S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jha",
+                                    "ce:indexed-name": "Jha S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Mag."
+                        },
+                        "ce:source-text": "N. Ahmed, S. S. Kanhere, and S. Jha, \"On the importance of link characterization for aerial wireless sensor networks, \" IEEE Commun. Mag., vol. 54, no. 5, pp. 52-57, May 2016."
+                    },
+                    {
+                        "ref-fulltext": "S. Xu, M. Rice, and F. Rice, \"Optimal TOA-sensor placement for two target localization simultaneously using shared sensors, \" IEEE Commun. Lett., vol. 25, no. 8, pp. 2584-2588, Aug. 2021.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-4ff123c1436726a54b8c3e050582683a-38",
+                        "@id": "38",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Optimal TOA-sensor placement for two target localization simultaneously using shared sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85107177052",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "2584",
+                                    "@last": "2588"
+                                }
+                            },
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rice",
+                                    "ce:indexed-name": "Rice M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rice",
+                                    "ce:indexed-name": "Rice F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Commun. Lett."
+                        },
+                        "ce:source-text": "S. Xu, M. Rice, and F. Rice, \"Optimal TOA-sensor placement for two target localization simultaneously using shared sensors, \" IEEE Commun. Lett., vol. 25, no. 8, pp. 2584-2588, Aug. 2021."
+                    },
+                    {
+                        "ref-fulltext": "M. Katwe, P. Ghare, and P. K. Sharma, \"Robust NLOS bias mitigation for hybrid RSS-TOA based source localization under unknown transmission parameters, \" IEEE Wireless Commun. Lett., vol. 10, no. 3, pp. 542-546, Mar. 2021.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-3b39fbf2d576a6798d53e8ab136d3ea7-39",
+                        "@id": "39",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Robust NLOS bias mitigation for hybrid RSS-TOA based source localization under unknown transmission parameters"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85098801860",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "542",
+                                    "@last": "546"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Katwe",
+                                    "ce:indexed-name": "Katwe M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ghare",
+                                    "ce:indexed-name": "Ghare P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma P.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Wireless Commun. Lett."
+                        },
+                        "ce:source-text": "M. Katwe, P. Ghare, and P. K. Sharma, \"Robust NLOS bias mitigation for hybrid RSS-TOA based source localization under unknown transmission parameters, \" IEEE Wireless Commun. Lett., vol. 10, no. 3, pp. 542-546, Mar. 2021."
+                    },
+                    {
+                        "ref-fulltext": "S. Tomic, M. Beko, M. Tuba, and V. M. F. Correia, \"Target localization in NLOS environments using RSS and TOA measurements, \" IEEE Wireless Commun. Lett., vol. 7, no. 6, pp. 1062-1065, Dec. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-61a721938b447dd7a1d327ad03880f1d-40",
+                        "@id": "40",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Target localization in NLOS environments using RSS and TOA measurements"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85050405565",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1062",
+                                    "@last": "1065"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomic",
+                                    "ce:indexed-name": "Tomic S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beko",
+                                    "ce:indexed-name": "Beko M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tuba",
+                                    "ce:indexed-name": "Tuba M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.M.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Correia",
+                                    "ce:indexed-name": "Correia V.M.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Wireless Commun. Lett."
+                        },
+                        "ce:source-text": "S. Tomic, M. Beko, M. Tuba, and V. M. F. Correia, \"Target localization in NLOS environments using RSS and TOA measurements, \" IEEE Wireless Commun. Lett., vol. 7, no. 6, pp. 1062-1065, Dec. 2018."
+                    },
+                    {
+                        "ref-fulltext": "H. Xiong, M. Peng, S. Gong, and Z. Du, \"A novel hybrid RSS and TOA positioning algorithm for multi-objective cooperative wireless sensor networks, \" IEEE Sensors J., vol. 18, no. 22, pp. 9343-9351, Nov. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-a502eeb42ffdd8c7622bdb98e32cb6b6-41",
+                        "@id": "41",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A novel hybrid RSS and TOA positioning algorithm for multi-objective cooperative wireless sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85053309378",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "22"
+                                },
+                                "pagerange": {
+                                    "@first": "9343",
+                                    "@last": "9351"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Du",
+                                    "ce:indexed-name": "Du Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sensors J."
+                        },
+                        "ce:source-text": "H. Xiong, M. Peng, S. Gong, and Z. Du, \"A novel hybrid RSS and TOA positioning algorithm for multi-objective cooperative wireless sensor networks, \" IEEE Sensors J., vol. 18, no. 22, pp. 9343-9351, Nov. 2018."
+                    },
+                    {
+                        "ref-fulltext": "W. Khawaja, I. Guvenc, and D. Matolak, \"UWB channel sounding and modeling for UAV air-to-ground propagation channels, \" in Proc. IEEE Global Commun. Conf. (GLOBECOM), Dec. 2016, pp. 1-7.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-1bb118a5d85d353b7a01342ce3c3f296-42",
+                        "@id": "42",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "UWB channel sounding and modeling for UAV air-to-ground propagation channels"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85014058979",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khawaja",
+                                    "ce:indexed-name": "Khawaja W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guvenc",
+                                    "ce:indexed-name": "Guvenc I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Matolak",
+                                    "ce:indexed-name": "Matolak D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Global Commun. Conf. (GLOBECOM)"
+                        },
+                        "ce:source-text": "W. Khawaja, I. Guvenc, and D. Matolak, \"UWB channel sounding and modeling for UAV air-to-ground propagation channels, \" in Proc. IEEE Global Commun. Conf. (GLOBECOM), Dec. 2016, pp. 1-7."
+                    },
+                    {
+                        "ref-fulltext": "H. Ren and M. Q.-H. Meng, \"Power adaptive localization algorithm for wireless sensor networks using particle filter, \" IEEE Trans. Veh. Technol., vol. 58, no. 5, pp. 2498-2508, May 2008.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-4702ea35710a5e465bee5907d4fb5264-43",
+                        "@id": "43",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Power adaptive localization algorithm for wireless sensor networks using particle filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "66449085295",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "58",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "2498",
+                                    "@last": "2508"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.Q.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng M.Q.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Veh. Technol."
+                        },
+                        "ce:source-text": "H. Ren and M. Q.-H. Meng, \"Power adaptive localization algorithm for wireless sensor networks using particle filter, \" IEEE Trans. Veh. Technol., vol. 58, no. 5, pp. 2498-2508, May 2008."
+                    },
+                    {
+                        "ref-fulltext": "G. Panahandeh, M. Jansson, and P. Handel, \"Calibration of an IMUcamera cluster using planar mirror reflection and its observability analysis, \" IEEE Trans. Instrum. Meas., vol. 64, no. 1, pp. 75-88, Jan. 2015.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-606e011cda516b8ed7f5090c6ccddfbb-44",
+                        "@id": "44",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Calibration of an IMUcamera cluster using planar mirror reflection and its observability analysis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84918569343",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "64",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "75",
+                                    "@last": "88"
+                                }
+                            },
+                            "ref-text": "Jan.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Panahandeh",
+                                    "ce:indexed-name": "Panahandeh G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jansson",
+                                    "ce:indexed-name": "Jansson M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Handel",
+                                    "ce:indexed-name": "Handel P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Instrum. Meas."
+                        },
+                        "ce:source-text": "G. Panahandeh, M. Jansson, and P. Handel, \"Calibration of an IMUcamera cluster using planar mirror reflection and its observability analysis, \" IEEE Trans. Instrum. Meas., vol. 64, no. 1, pp. 75-88, Jan. 2015."
+                    },
+                    {
+                        "ref-fulltext": "J. Tian, J. Shan, M. Yang, S. Zou, and T. Chao, \"Analysis and modeling of peer-to-peer RSS/TOA measurements for UAVs, \" in Proc. China Autom. Congr. (CAC), 2021, pp. 554-559.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-467ed360b9c564d03b342c354b0871c6-45",
+                        "@id": "45",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Analysis and modeling of peer-to-peer RSS/TOA measurements for UAVs"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85128013787",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "554",
+                                "@last": "559"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shan",
+                                    "ce:indexed-name": "Shan J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chao",
+                                    "ce:indexed-name": "Chao T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. China Autom. Congr. (CAC)"
+                        },
+                        "ce:source-text": "J. Tian, J. Shan, M. Yang, S. Zou, and T. Chao, \"Analysis and modeling of peer-to-peer RSS/TOA measurements for UAVs, \" in Proc. China Autom. Congr. (CAC), 2021, pp. 554-559."
+                    },
+                    {
+                        "ref-fulltext": "Y. Li, Z. He, Y. Li, Z. Gao, R. Chen, and N. El-Sheimy, \"Enhanced wireless localization based on orientation-compensation model and differential received signal strength, \" IEEE Sensors J., vol. 19, no. 11, pp. 4201-4210, Jun. 2019.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-b74953db4327913b9c2aa55e1b1ffd61-46",
+                        "@id": "46",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Enhanced wireless localization based on orientation-compensation model and differential received signal strength IEEE"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85065434170",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "4201",
+                                    "@last": "4210"
+                                }
+                            },
+                            "ref-text": "Jun.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen R."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "El-Sheimy",
+                                    "ce:indexed-name": "El-Sheimy N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors J."
+                        },
+                        "ce:source-text": "Y. Li, Z. He, Y. Li, Z. Gao, R. Chen, and N. El-Sheimy, \"Enhanced wireless localization based on orientation-compensation model and differential received signal strength, \" IEEE Sensors J., vol. 19, no. 11, pp. 4201-4210, Jun. 2019."
+                    },
+                    {
+                        "ref-fulltext": "Z. Deng, Z. Qu, M. Yang, C. Hou, and W. Si, \"WiFi positioning based on user orientation estimation and smartphone carrying position recognition, \" Wireless Commun. Mobile Comput., vol. 29, no. 8, pp. 709-720, 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-9dcb4261fcd24b112a64023e04bfcefb-47",
+                        "@id": "47",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "WiFi positioning based on user orientation estimation and smartphone carrying position recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85157009045",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "29",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "709",
+                                    "@last": "720"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deng",
+                                    "ce:indexed-name": "Deng Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qu",
+                                    "ce:indexed-name": "Qu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hou",
+                                    "ce:indexed-name": "Hou C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Si",
+                                    "ce:indexed-name": "Si W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Wireless Commun. Mobile Comput."
+                        },
+                        "ce:source-text": "Z. Deng, Z. Qu, M. Yang, C. Hou, and W. Si, \"WiFi positioning based on user orientation estimation and smartphone carrying position recognition, \" Wireless Commun. Mobile Comput., vol. 29, no. 8, pp. 709-720, 2018."
+                    },
+                    {
+                        "ref-fulltext": "W. Sun, M. Xue, H. Yu, H. Tang, and A. Lin, \"Augmentation of fingerprints for indoor WiFi localization based on Gaussian process regression, \" IEEE Trans. Veh. Technol., vol. 67, no. 11, pp. 10896-10905, Nov. 2018.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-246f12259443a4ef9fd0c8aaf23744c3-48",
+                        "@id": "48",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Augmentation of fingerprints for indoor WiFi localization based on Gaussian process regression"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85053296192",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "67",
+                                    "@issue": "11"
+                                },
+                                "pagerange": {
+                                    "@first": "10896",
+                                    "@last": "10905"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tang",
+                                    "ce:indexed-name": "Tang H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Veh. Technol."
+                        },
+                        "ce:source-text": "W. Sun, M. Xue, H. Yu, H. Tang, and A. Lin, \"Augmentation of fingerprints for indoor WiFi localization based on Gaussian process regression, \" IEEE Trans. Veh. Technol., vol. 67, no. 11, pp. 10896-10905, Nov. 2018."
+                    },
+                    {
+                        "ref-fulltext": "B. Yuan et al., \"A UAV-assisted search and localization strategy in non-line-of-sight scenarios, \" IEEE Internet Things J., vol. 9, no. 23, pp. 23841-23851, Dec. 2022.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-4fad8dd16db72fbb664747836ad47bf9-49",
+                        "@id": "49",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "A UAV-assisted search and localization strategy in non-line-of-sight scenarios"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85134237220",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "23"
+                                },
+                                "pagerange": {
+                                    "@first": "23841",
+                                    "@last": "23851"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan B."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Internet Things J."
+                        },
+                        "ce:source-text": "B. Yuan et al., \"A UAV-assisted search and localization strategy in non-line-of-sight scenarios, \" IEEE Internet Things J., vol. 9, no. 23, pp. 23841-23851, Dec. 2022."
+                    },
+                    {
+                        "ref-fulltext": "Y. Yang and W. Gao, \"An optimal adaptive Kalman filter, \" J. Geodesy, vol. 80, no. 4, pp. 177-183, 2006.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-1e84899b3e66b97ae5458f333c2ecb31-50",
+                        "@id": "50",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "An optimal adaptive Kalman filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33746238739",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "80",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "177",
+                                    "@last": "183"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Geodesy"
+                        },
+                        "ce:source-text": "Y. Yang and W. Gao, \"An optimal adaptive Kalman filter, \" J. Geodesy, vol. 80, no. 4, pp. 177-183, 2006."
+                    },
+                    {
+                        "ref-fulltext": "J. Tian, J. Hu, S. Zou, and T. Chao, \"A hybrid RSS/TOA algorithm based on adaptive EKF for low-cost UAV localization, \" in Proc. Int. Conf. Auto. Unmanned Syst. (ICAUS), 2022, vol. 86, no. 1, pp. 609-618.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-ade095deea3900e7634e3f498efed0d5-51",
+                        "@id": "51",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2022"},
+                            "ref-title": {"ref-titletext": "A hybrid RSS/TOA algorithm based on adaptive EKF for low-cost UAV localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85130915022",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "86",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "609",
+                                    "@last": "618"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chao",
+                                    "ce:indexed-name": "Chao T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Conf. Auto. Unmanned Syst. (ICAUS)"
+                        },
+                        "ce:source-text": "J. Tian, J. Hu, S. Zou, and T. Chao, \"A hybrid RSS/TOA algorithm based on adaptive EKF for low-cost UAV localization, \" in Proc. Int. Conf. Auto. Unmanned Syst. (ICAUS), 2022, vol. 86, no. 1, pp. 609-618."
+                    },
+                    {
+                        "ref-fulltext": "Z. Wang and S. A. Zekavat, \"Omnidirectional mobile NLOS identification and localization via multiple cooperative nodes, \" IEEE Trans. Mobile Comput., vol. 11, no. 12, pp. 2047-2059, Dec. 2012.",
+                        "@reference-instance-id": "OB2BibRecID-947676951-5aa8875a054f1dc7dcb9e7492f0ab823-52",
+                        "@id": "52",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Omnidirectional mobile NLOS identification and localization via multiple cooperative nodes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867892008",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "12"
+                                },
+                                "pagerange": {
+                                    "@first": "2047",
+                                    "@last": "2059"
+                                }
+                            },
+                            "ref-text": "Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zekavat",
+                                    "ce:indexed-name": "Zekavat S.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Mobile Comput."
+                        },
+                        "ce:source-text": "Z. Wang and S. A. Zekavat, \"Omnidirectional mobile NLOS identification and localization via multiple cooperative nodes, \" IEEE Trans. Mobile Comput., vol. 11, no. 12, pp. 2047-2059, Dec. 2012."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Harbin",
+        "@id": "60019616",
+        "affilname": "Harbin Institute of Technology",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85153498116",
+        "dc:description": "The classic propagation model of received signal strength (RSS) measurement is significantly affected by the environment. This article divides the error sources of RSS ranging into three parts and deals with them in different methods. First, considering the influence of unmanned aerial vehicle (UAV) pose on RSS, the compensation model is established through Gaussian process regression (GPR) for the first time by mapping the quaternion of the UAV and the attenuation caused by the influence of anisotropy on the antenna in the corresponding special orthogonal group SO(3). On this basis, the distribution of random compensation variables is derived by unscented transformation (UT) and covariance propagation. Besides, a polynomial function is employed for fitting the distance-dependent environment noise. Then, to deal with the RSS measurement instability caused by the environment noise and the uncertainty of compensation, the adaptive Kalman filter (AKF) is introduced. Finally, an UWB-based environmental adaptive algorithm (UEAA) is proposed to improve ranging precision by using the UWB device in a dynamic environment. By setting the threshold parameter, the UEAA enables the classic RSS ranging model to have a certain adaptive ability for the dynamic environment of UAV, which significantly reduces the error caused by model parameter mismatch. Several experiments are carried out on the UAV platform, and the results show that the improvement of the RSS propagation model is adequate.",
+        "prism:coverDate": "2023-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85153498116",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Junxi",
+            "preferred-name": {
+                "ce:given-name": "Junxi",
+                "ce:initials": "J.",
+                "ce:surname": "Tian",
+                "ce:indexed-name": "Tian J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019616",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616"
+            },
+            "ce:surname": "Tian",
+            "@auid": "57202036338",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57202036338",
+            "ce:indexed-name": "Tian J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85153498116"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85153498116&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85153498116&origin=inward"
+            }
+        ],
+        "prism:publicationName": "IEEE Transactions on Instrumentation and Measurement",
+        "source-id": "15361",
+        "citedby-count": "0",
+        "prism:volume": "72",
+        "subtype": "ar",
+        "dc:title": "Improvement of RSS-Based Measurement Based on Adaptive Kalman Filter Considering the Anisotropy on Antenna in Dynamic Environment",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/TIM.2023.3265631",
+        "prism:issn": "15579662 00189456",
+        "publishercopyright": "© 1963-2012 IEEE.",
+        "article-number": "9506113",
+        "dc:identifier": "SCOPUS_ID:85153498116",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Adaptation models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Aerial vehicle",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Antennas measurement",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Enviroment-adaptive",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Gaussian process regression",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Heuristics algorithm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Measurement uncertainty",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Noise measurements",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Received signal strength",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time of arrival",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Time-of- arrivals",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Times of arrivals",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unmanned aerial vehicle swarm",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Environment-adaptive"
+        },
+        {
+            "@_fa": "true",
+            "$": "Gaussian process regression (GPR)"
+        },
+        {
+            "@_fa": "true",
+            "$": "received signal strength (RSS)"
+        },
+        {
+            "@_fa": "true",
+            "$": "time of arrival (TOA)"
+        },
+        {
+            "@_fa": "true",
+            "$": "unmanned aerial vehicle (UAV) swarms"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Junxi",
+            "preferred-name": {
+                "ce:given-name": "Junxi",
+                "ce:initials": "J.",
+                "ce:surname": "Tian",
+                "ce:indexed-name": "Tian J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019616",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616"
+            },
+            "ce:surname": "Tian",
+            "@auid": "57202036338",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57202036338",
+            "ce:indexed-name": "Tian J."
+        },
+        {
+            "ce:given-name": "Ming",
+            "preferred-name": {
+                "ce:given-name": "Ming",
+                "ce:initials": "M.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019616",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616"
+            },
+            "ce:surname": "Yang",
+            "@auid": "56303970200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56303970200",
+            "ce:indexed-name": "Yang M."
+        },
+        {
+            "ce:given-name": "Xiaonan",
+            "preferred-name": {
+                "ce:given-name": "Xiaonan",
+                "ce:initials": "X.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li X."
+            },
+            "@seq": "3",
+            "ce:initials": "X.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019616",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616"
+            },
+            "ce:surname": "Li",
+            "@auid": "58075268100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/58075268100",
+            "ce:indexed-name": "Li X."
+        },
+        {
+            "ce:given-name": "Shiming",
+            "preferred-name": {
+                "ce:given-name": "Shiming",
+                "ce:initials": "S.",
+                "ce:surname": "Zou",
+                "ce:indexed-name": "Zou S."
+            },
+            "@seq": "4",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019616",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616"
+            },
+            "ce:surname": "Zou",
+            "@auid": "57573936200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57573936200",
+            "ce:indexed-name": "Zou S."
+        },
+        {
+            "ce:given-name": "Tao",
+            "preferred-name": {
+                "ce:given-name": "Tao",
+                "ce:initials": "T.",
+                "ce:surname": "Chao",
+                "ce:indexed-name": "Chao T."
+            },
+            "@seq": "5",
+            "ce:initials": "T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019616",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019616"
+            },
+            "ce:surname": "Chao",
+            "@auid": "37002444800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/37002444800",
+            "ce:indexed-name": "Chao T."
+        }
+    ]}
+}}

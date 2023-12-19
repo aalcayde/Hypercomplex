@@ -1,0 +1,1465 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "16",
+                "@year": "2019",
+                "@timestamp": "2019-10-16T22:42:53.000053-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2015",
+                "@month": "09"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-05-10T01:31:38.567838Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Canada",
+                            "@afid": "60030835",
+                            "@country": "can",
+                            "organization": {"$": "University of Alberta, Civil and Environmental Engineering, Centre for Computational Geostatistics (CCG)"},
+                            "affiliation-id": {
+                                "@afid": "60030835",
+                                "@dptid": "108041431"
+                            },
+                            "@dptid": "108041431"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Maksuda",
+                                "preferred-name": {
+                                    "ce:given-name": "Maksuda",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Lillah",
+                                    "ce:indexed-name": "Lillah M."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lillah",
+                                "@auid": "55391702800",
+                                "ce:indexed-name": "Lillah M."
+                            },
+                            {
+                                "ce:given-name": "Jeff B.",
+                                "preferred-name": {
+                                    "ce:given-name": "Jeff B.",
+                                    "ce:initials": "J.B.",
+                                    "ce:surname": "Boisvert",
+                                    "ce:indexed-name": "Boisvert J."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "J.B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Boisvert",
+                                "@auid": "23097007300",
+                                "ce:indexed-name": "Boisvert J.B."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Canada",
+                            "postal-code": "T6G 2G7",
+                            "@afid": "60030835",
+                            "@country": "can",
+                            "city": "Edmonton",
+                            "organization": {"$": "3-133 Markin/CNRL Natural Resources Engineering Facility (NREF), University of Alberta"},
+                            "affiliation-id": {
+                                "@afid": "60030835",
+                                "@dptid": "104563836"
+                            },
+                            "state": "AB",
+                            "@dptid": "104563836"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Maksuda",
+                                "preferred-name": {
+                                    "ce:given-name": "Maksuda",
+                                    "ce:initials": "M.",
+                                    "ce:surname": "Lillah",
+                                    "ce:indexed-name": "Lillah M."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lillah",
+                                "@auid": "55391702800",
+                                "ce:indexed-name": "Lillah M."
+                            },
+                            {
+                                "ce:given-name": "Jeff B.",
+                                "preferred-name": {
+                                    "ce:given-name": "Jeff B.",
+                                    "ce:initials": "J.B.",
+                                    "ce:surname": "Boisvert",
+                                    "ce:indexed-name": "Boisvert J."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "J.B.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Boisvert",
+                                "@auid": "23097007300",
+                                "ce:indexed-name": "Boisvert J.B."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Inference of locally varying anisotropy fields from diverse data sources",
+                "abstracts": "© 2015 Elsevier Ltd.A locally varying anisotropy (LVA) field characterizes the magnitude and direction of anisotropy in a modelling domain and can provide valuable information to geostatistical modeling methodologies that account for non-linear spatial features, in particular, second order non-stationarities that are observed in complex geological formations. In this framework, the primary variable to model (i.e. grade, porosity, concentration, etc) is measured at discrete spatial locations and there may or may not be exhaustively sampled gridded secondary information. Existing geostatistical techniques require knowledge of the magnitude of anisotropy (correlation lengths) and local orientations (strike, dip, and plunge) exhaustively in the domain. Inference of these parameters from samples of the primary variable is difficult when anisotropy varies locally; the correlation lengths and orientations of the discrete primary variable must be estimated at all locations in a domain and are not globally constant. Estimation of the required LVA field parameters depends on the available data and is unique to the type of information available. This work proposes three different methodologies for LVA field inference, including (1) use of a correlated exhaustively sampled secondary variable (2) use of direct point measurements of the orientation of the primary variable, and (3) use of a geological model that displays the desired LVA characteristics. Often a gridded exhaustively sampled secondary variable is available from geophysical surveys and displays similar spatial features as the primary variable. An adaptive moving window technique is proposed to infer the required LVA field from correlated exhaustive secondary information. The local anisotropy orientation is obtained from the gradient of the secondary information and the appropriate window size is calculated automatically, which is important when the scale of features vary in the domain. Secondly, direct angle measurements of orientation may be available from dip meter or borehole images, however, these data are axial in nature (when plunge is assumed to be 0°) or they represent a 3D coordinate system (when considering strike, dip and plunge); preprocessing is required before the LVA field can be estimated from point measurements of orientation because of the wrapping effect at 0°. The proposed technique treats point measurements of orientation as quaternions and assigns weights to nearby samples to estimate the exhaustive LVA field. In addition to the proposed methodologies for exhaustive and point data, a skeletonization technique is implemented to determine orientations from geological interpretations. The geological object is reduced to a spline curve and the direction of the curve is used as the local LVA field orientation. The suite of proposed LVA inference techniques are implemented in both 2D and 3D and illustrated on several data sets.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Canada",
+                        "@country": "can",
+                        "organization": {"$": "University of Alberta, Civil and Environmental Engineering, Centre for Computational Geostatistics (CCG)"}
+                    },
+                    "person": {
+                        "ce:given-name": "Jeff B.",
+                        "ce:initials": "J.B.",
+                        "ce:surname": "Boisvert",
+                        "ce:indexed-name": "Boisvert J.B."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Geostatistics",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Locally varying anisotropy",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Modeling",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Orientation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Resource estimation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Stationarity",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "www.elsevier.com/inca/publications/store/3/9/8/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Computers and Geosciences",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "82"},
+                        "pagerange": {
+                            "@first": "170",
+                            "@last": "182"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Computers and Geosciences",
+                    "publicationdate": {
+                        "month": "09",
+                        "year": "2015",
+                        "date-text": "September 01, 2015",
+                        "day": "01"
+                    },
+                    "codencode": "CGEOD",
+                    "sourcetitle-abbrev": "Comput. Geosci.",
+                    "@country": "gbr",
+                    "issn": {
+                        "$": "00983004",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2015"},
+                    "publisher": {"publishername": "Elsevier Ltd"},
+                    "@srcid": "110327"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "481.1",
+                                "classification-description": "Geology"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "902.1",
+                                "classification-description": "Engineering Graphics"
+                            },
+                            {
+                                "classification-code": "931.2",
+                                "classification-description": "Physical Properties of Gases, Liquids and Solids"
+                            },
+                            {
+                                "classification-code": "933.1.1",
+                                "classification-description": "Crystal Lattice"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "GEOCLASS",
+                        "classification": {
+                            "classification-code": "72.11.7",
+                            "classification-description": "Mathematical and computing methods"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1710"},
+                            {"$": "1903"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2015 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "FLX"},
+                    {"$": "GEO"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "29",
+                    "@year": "2015",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "604982981",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "637340062",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20152600979726",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "1139497",
+                            "@idtype": "FLX"
+                        },
+                        {
+                            "$": "4684337",
+                            "@idtype": "GEO"
+                        },
+                        {
+                            "$": "84934887356",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84934887356",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S0098300415001272",
+                    "ce:doi": "10.1016/j.cageo.2015.05.015"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "26",
+                "reference": [
+                    {
+                        "ref-fulltext": "Boisvert J. Geostatistics with Locally Varying Anisotropy 2010, 175. University of Alberta, Edmonton, (Ph.D. Dissertation).",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "81555227772",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "175"}},
+                            "ref-text": "University of Alberta, Edmonton, (Ph.D. Dissertation)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Boisvert",
+                                "ce:indexed-name": "Boisvert J."
+                            }]},
+                            "ref-sourcetitle": "Geostatistics with Locally Varying Anisotropy"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Boisvert J., Deutsch C. Programs for kriging and sequential Gaussian simulation with locally varying anisotropy using non-Euclidean distances. Comput. Geosci. 2011, 37(4):495-510.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Programs for kriging and sequential Gaussian simulation with locally varying anisotropy using non-Euclidean distances"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952631603",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "495",
+                                    "@last": "510"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boisvert",
+                                    "ce:indexed-name": "Boisvert J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deutsch",
+                                    "ce:indexed-name": "Deutsch C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Geosci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cammoun, L., Castaño-Moraga,C.A., Muñoz-Moreno,E., Sosa-Cabrera, D., Acar, B., Rodriguez-Florido, M.A., Brun, A., Knutsson, H., Thiran, J.P., 2009. A review of tensors and tensor signal processing. Tensors in Image Processing and Computer Vision Editors: Assoc.Prof. Santiago Aja-Fernández, Assoc.Prof. Rodrigo de Luis García, Dr. Dacheng Tao, Dr. Xuelong Li ISBN: 978-1-84882-298-6 (Print) 978-1-84882-299-3 (Online).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "A review of tensors and tensor signal processing. Tensors in Image Processing and Computer Vision Editors: Assoc.Prof. Santiago Aja-Fernández"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84934999353",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Assoc.Prof. Rodrigo de Luis García, Dr. Dacheng Tao, Dr. Xuelong Li, (Print) 978-1-84882-299-3 (Online)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cammoun",
+                                    "ce:indexed-name": "Cammoun L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Castaño-Moraga",
+                                    "ce:indexed-name": "Castano-Moraga C.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Muñoz-Moreno",
+                                    "ce:indexed-name": "Munoz-Moreno E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sosa-Cabrera",
+                                    "ce:indexed-name": "Sosa-Cabrera D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Acar",
+                                    "ce:indexed-name": "Acar B."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rodriguez-Florido",
+                                    "ce:indexed-name": "Rodriguez-Florido M.A."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brun",
+                                    "ce:indexed-name": "Brun A."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Knutsson",
+                                    "ce:indexed-name": "Knutsson H."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thiran",
+                                    "ce:indexed-name": "Thiran J.P."
+                                }
+                            ]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Cyganek B., Siebert J.P. An Introduction to 3D Computer Vision Technique and Algorithms 2009, 504. John Wiley & Sons Ltd., West Sussex, UK.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "68749114492",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "504"}},
+                            "ref-text": "John Wiley & Sons Ltd., West Sussex, UK",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cyganek",
+                                    "ce:indexed-name": "Cyganek B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siebert",
+                                    "ce:indexed-name": "Siebert J.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "An Introduction to 3D Computer Vision Technique and Algorithms"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Deutsch C. Cleaning categorical variable (lithofacies) realizations with maximum a-posteriori selection. Comput. Geosci. 1998, 24(6):551-562.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Cleaning categorical variable (lithofacies) realizations with maximum a-posteriori selection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032124703",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "551",
+                                    "@last": "562"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Deutsch",
+                                "ce:indexed-name": "Deutsch C."
+                            }]},
+                            "ref-sourcetitle": "Comput. Geosci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Deutsch C., Journel A. Gslib: Geostatistical Software Library and User's Guide 1998, 384. Oxford University Press, New York.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031916947",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "384"}},
+                            "ref-text": "Oxford University Press, New York",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deutsch",
+                                    "ce:indexed-name": "Deutsch C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Journel",
+                                    "ce:indexed-name": "Journel A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Gslib: Geostatistical Software Library and User's Guide"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Deutsch, C., Lewis, R., 1992. Advances in the practical implementation of indicator geostatistics. In: Proceedings of the 23rd International APCOM Symposium. AZ. Publisher, Society of Mining Engineers, Tucson, pp. 169-179.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Advances in the practical implementation of indicator geostatistics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0344638024",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "169",
+                                "@last": "179"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Deutsch",
+                                    "ce:indexed-name": "Deutsch C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lewis",
+                                    "ce:indexed-name": "Lewis R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 23rd International APCOM Symposium. AZ. Publisher, Society of Mining Engineers, Tucson."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Feng, X., Milanfar, P., 2002. Multiscale principal components analysis for image local orientation estimation. In: Proceedings of the 36th Asilomar Conference on Signals, Systems and Computers. Pacific Grove, CA, vol. 1, pp. 478-482.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Multiscale principal components analysis for image local orientation estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0038304693",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "478",
+                                    "@last": "482"
+                                }
+                            },
+                            "ref-text": "In:, Pacific Grove, CA.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Milanfar",
+                                    "ce:indexed-name": "Milanfar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 36th Asilomar Conference on Signals, Systems and Computers."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Grobekatthofer K., Yoon Z. Introduction into Quaternions for Spacecraft Attitude Representation 2012, Technical University of Berlin, Berlin, Germany. http://www.tu-berlin.de/fileadmin/fg169/miscellaneous/Quaternions.pdf.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.tu-berlin.de/fileadmin/fg169/miscellaneous/Quaternions.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84887523830",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Technical University of Berlin, Berlin, Germany",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grobekatthofer",
+                                    "ce:indexed-name": "Grobekatthofer K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yoon",
+                                    "ce:indexed-name": "Yoon Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Introduction into Quaternions for Spacecraft Attitude Representation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hassanpour M. Tools for Multivariate Modeling of Permeability Tensors and Geometric Parameters for Unstructured Grids (M.Sc. thesis) 2007, 61. University of Alberta, Edmonton.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "81555206127",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "61"}},
+                            "ref-text": "University of Alberta, Edmonton",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Hassanpour",
+                                "ce:indexed-name": "Hassanpour M."
+                            }]},
+                            "ref-sourcetitle": "Tools for Multivariate Modeling of Permeability Tensors and Geometric Parameters for Unstructured Grids (M.Sc. thesis)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "HauBecker, H., Jahne, B., 1996. A tensor approach for local structure analysis in multi-dimensional images. In: Proceedings of 3D Image Analysis and Synthesis '96 (Proceedings in Artificial Intelligence 3), pp. 171-178.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "A tensor approach for local structure analysis in multi-dimensional images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4244007384",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "171",
+                                "@last": "178"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "HauBecker",
+                                    "ce:indexed-name": "HauBecker H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jahne",
+                                    "ce:indexed-name": "Jahne B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of 3D Image Analysis and Synthesis '96 (Proceedings in Artificial Intelligence 3)."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hristopulos D.T. New anisotropic covariance models and estimation of anisotropic parameters based on the covariance tensor identity. Stoch. Environ. Res. Risk Assess. 2002, 16(1):43-62.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "New anisotropic covariance models and estimation of anisotropic parameters based on the covariance tensor identity"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "23044529084",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "43",
+                                    "@last": "62"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.T.",
+                                "@_fa": "true",
+                                "ce:surname": "Hristopulos",
+                                "ce:indexed-name": "Hristopulos D.T."
+                            }]},
+                            "ref-sourcetitle": "Stoch. Environ. Res. Risk Assess."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Katkovnik V., Egiazarian K., Astola J. Adaptive window size image de-noising based on Intersection of Confidence Intervals (ICI) rule. J. Math. Imaging Vis. 2002, 16:223-235.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Adaptive window size image de-noising based on Intersection of Confidence Intervals (ICI) rule"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036588857",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "16"},
+                                "pagerange": {
+                                    "@first": "223",
+                                    "@last": "235"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Katkovnik",
+                                    "ce:indexed-name": "Katkovnik V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Egiazarian",
+                                    "ce:indexed-name": "Egiazarian K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Astola",
+                                    "ce:indexed-name": "Astola J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Math. Imaging Vis."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mardia K., Jupp P. Directional Statistics 2000, 456. John Wiley and Sons, West Sussex, England.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84981731401",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "456"}},
+                            "ref-text": "John Wiley and Sons, West Sussex, England",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mardia",
+                                    "ce:indexed-name": "Mardia K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jupp",
+                                    "ce:indexed-name": "Jupp P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Directional Statistics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Markley L.F., Cheng Y., Crassidis J., Oshman Y. Quaternion veraging. J. Guid. Control Dyn. 2007, 30(4):1193-1196.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Quaternion veraging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34547562363",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1193",
+                                    "@last": "1196"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Markley",
+                                    "ce:indexed-name": "Markley L.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Crassidis",
+                                    "ce:indexed-name": "Crassidis J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oshman",
+                                    "ce:indexed-name": "Oshman Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Guid. Control Dyn."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "McLennan J.A. The Decision of Stationarity (Ph.D. thesis) 2007, 191. University of Alberta, Edmonton.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "71749088836",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "191"}},
+                            "ref-text": "University of Alberta, Edmonton",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.A.",
+                                "@_fa": "true",
+                                "ce:surname": "McLennan",
+                                "ce:indexed-name": "McLennan J.A."
+                            }]},
+                            "ref-sourcetitle": "The Decision of Stationarity (Ph.D. thesis)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Min, P., 2011. Thinvox version 0.35. URL: . http://www.cs.princeton.edu/~min/thinvox/.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.cs.princeton.edu/~min/thinvox/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84935013528",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Thinvox version 0.35.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Min",
+                                "ce:indexed-name": "Min P."
+                            }]}
+                        }
+                    },
+                    {
+                        "ref-fulltext": "O'Rour J. Computational Geometry in C 1998, 392. Cambridge University Press, Cambridge, New York. 2nd ed.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003845382",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "392"}},
+                            "ref-text": "Cambridge University Press, Cambridge, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "O'Rour",
+                                "ce:indexed-name": "O'Rour J."
+                            }]},
+                            "ref-sourcetitle": "Computational Geometry in C"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Palagyi K., Kuba A. Directional 3D Thinning Using 8 Subiterations. Discret. Geom. Comput. Imag. LNCS 1999, 1568:325-336.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Directional 3D Thinning Using 8 Subiterations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958756337",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1568"},
+                                "pagerange": {
+                                    "@first": "325",
+                                    "@last": "336"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palagyi",
+                                    "ce:indexed-name": "Palagyi K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuba",
+                                    "ce:indexed-name": "Kuba A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Discret. Geom. Comput. Imag. LNCS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pardo-Igzquiza E., Chica-Olmo M. KRIGRADI: a cokriging program for estimating the gradient of spatial variables from sparse data. Comput. Geosci. 2007, 33(4):497-512. 493.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "KRIGRADI: a cokriging program for estimating the gradient of spatial variables from sparse data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33947179386",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "33",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "497",
+                                    "@last": "512"
+                                }
+                            },
+                            "ref-text": "493.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pardo-Igzquiza",
+                                    "ce:indexed-name": "Pardo-Igzquiza E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chica-Olmo",
+                                    "ce:indexed-name": "Chica-Olmo M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Geosci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Saeed K., Marek T., Rybnik M., Adamski M. K3M: a Universal algorithm for image skeletonization and a review of thinning techniques. Int. J. Appl. Math. Comput. Sci. 2010, 20(3):317-335.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "K3M: a Universal algorithm for image skeletonization and a review of thinning techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77954391877",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "317",
+                                    "@last": "335"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saeed",
+                                    "ce:indexed-name": "Saeed K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marek",
+                                    "ce:indexed-name": "Marek T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rybnik",
+                                    "ce:indexed-name": "Rybnik M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Adamski",
+                                    "ce:indexed-name": "Adamski M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Appl. Math. Comput. Sci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Stroet C., Snepvangers J. Mapping curvilinear structures with local anisotropy kriging. Math. Geol. 2005, 37(6):635-649.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Mapping curvilinear structures with local anisotropy kriging"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27744605176",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "635",
+                                    "@last": "649"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stroet",
+                                    "ce:indexed-name": "Stroet C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Snepvangers",
+                                    "ce:indexed-name": "Snepvangers J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Math. Geol."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Spiliopoulos I., Hristopulos D.T., Petrakis M.P., Chorti A. A multigrid method for the estimation of geometric anisotropy in environmental data from sensor networks. Comput. Geosci. 2011, 37(3):320-330.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "A multigrid method for the estimation of geometric anisotropy in environmental data from sensor networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952187888",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "320",
+                                    "@last": "330"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spiliopoulos",
+                                    "ce:indexed-name": "Spiliopoulos I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hristopulos",
+                                    "ce:indexed-name": "Hristopulos D.T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petrakis",
+                                    "ce:indexed-name": "Petrakis M.P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chorti",
+                                    "ce:indexed-name": "Chorti A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Geosci."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang T., Basu A. An Improved Fully Parallel 3D Thinning Algorithm 2005, Department of Computing Science, University of Alberta, Canada.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84893782650",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Department of Computing Science, University of Alberta, Canada",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Basu",
+                                    "ce:indexed-name": "Basu A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "An Improved Fully Parallel 3D Thinning Algorithm"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang T., Basu A. A note on 'A fully parallel 3D thinning algorithm and its applications'. Pattern Recognit. Lett. 2007, 28:501-506.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "A note on 'A fully parallel 3D thinning algorithm and its applications'"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33845491709",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "28"},
+                                "pagerange": {
+                                    "@first": "501",
+                                    "@last": "506"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Basu",
+                                    "ce:indexed-name": "Basu A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recognit. Lett."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Xu W. Conditional curvilinear stochastic simulation using pixel-based algorithms. Math. Geol. 1996, 28(7):937-949.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Conditional curvilinear stochastic simulation using pixel-based algorithms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030440008",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "28",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "937",
+                                    "@last": "949"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.",
+                                "@_fa": "true",
+                                "ce:surname": "Xu",
+                                "ce:indexed-name": "Xu W."
+                            }]},
+                            "ref-sourcetitle": "Math. Geol."
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Edmonton",
+        "@id": "60030835",
+        "affilname": "University of Alberta",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835",
+        "affiliation-country": "Canada"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-84934887356",
+        "dc:description": "A locally varying anisotropy (LVA) field characterizes the magnitude and direction of anisotropy in a modelling domain and can provide valuable information to geostatistical modeling methodologies that account for non-linear spatial features, in particular, second order non-stationarities that are observed in complex geological formations. In this framework, the primary variable to model (i.e. grade, porosity, concentration, etc) is measured at discrete spatial locations and there may or may not be exhaustively sampled gridded secondary information. Existing geostatistical techniques require knowledge of the magnitude of anisotropy (correlation lengths) and local orientations (strike, dip, and plunge) exhaustively in the domain. Inference of these parameters from samples of the primary variable is difficult when anisotropy varies locally; the correlation lengths and orientations of the discrete primary variable must be estimated at all locations in a domain and are not globally constant. Estimation of the required LVA field parameters depends on the available data and is unique to the type of information available. This work proposes three different methodologies for LVA field inference, including (1) use of a correlated exhaustively sampled secondary variable (2) use of direct point measurements of the orientation of the primary variable, and (3) use of a geological model that displays the desired LVA characteristics. Often a gridded exhaustively sampled secondary variable is available from geophysical surveys and displays similar spatial features as the primary variable. An adaptive moving window technique is proposed to infer the required LVA field from correlated exhaustive secondary information. The local anisotropy orientation is obtained from the gradient of the secondary information and the appropriate window size is calculated automatically, which is important when the scale of features vary in the domain. Secondly, direct angle measurements of orientation may be available from dip meter or borehole images, however, these data are axial in nature (when plunge is assumed to be 0°) or they represent a 3D coordinate system (when considering strike, dip and plunge); preprocessing is required before the LVA field can be estimated from point measurements of orientation because of the wrapping effect at 0°. The proposed technique treats point measurements of orientation as quaternions and assigns weights to nearby samples to estimate the exhaustive LVA field. In addition to the proposed methodologies for exhaustive and point data, a skeletonization technique is implemented to determine orientations from geological interpretations. The geological object is reduced to a spline curve and the direction of the curve is used as the local LVA field orientation. The suite of proposed LVA inference techniques are implemented in both 2D and 3D and illustrated on several data sets.",
+        "prism:coverDate": "2015-09-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84934887356",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Maksuda",
+            "preferred-name": {
+                "ce:given-name": "Maksuda",
+                "ce:initials": "M.",
+                "ce:surname": "Lillah",
+                "ce:indexed-name": "Lillah M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60030835",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835"
+                },
+                {
+                    "@id": "60030835",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835"
+                }
+            ],
+            "ce:surname": "Lillah",
+            "@auid": "55391702800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55391702800",
+            "ce:indexed-name": "Lillah M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84934887356"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84934887356&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84934887356&origin=inward"
+            }
+        ],
+        "source-id": "110327",
+        "pii": "S0098300415001272",
+        "citedby-count": "10",
+        "prism:volume": "82",
+        "subtype": "ar",
+        "dc:title": "Inference of locally varying anisotropy fields from diverse data sources",
+        "openaccess": "0",
+        "prism:issn": "00983004",
+        "publishercopyright": "© 2015 Elsevier Ltd.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Computers and Geosciences",
+        "prism:pageRange": "170-182",
+        "prism:endingPage": "182",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.cageo.2015.05.015",
+        "prism:startingPage": "170",
+        "dc:identifier": "SCOPUS_ID:84934887356",
+        "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "3D coordinate systems",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Anisotropy orientation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geo-statistics",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geological interpretation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geostatistical modeling",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geostatistical techniques",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Resource estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stationarity",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Geostatistics"
+        },
+        {
+            "@_fa": "true",
+            "$": "Locally varying anisotropy"
+        },
+        {
+            "@_fa": "true",
+            "$": "Modeling"
+        },
+        {
+            "@_fa": "true",
+            "$": "Orientation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Resource estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Stationarity"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Information Systems",
+            "@code": "1710",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computers in Earth Sciences",
+            "@code": "1903",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Maksuda",
+            "preferred-name": {
+                "ce:given-name": "Maksuda",
+                "ce:initials": "M.",
+                "ce:surname": "Lillah",
+                "ce:indexed-name": "Lillah M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60030835",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835"
+                },
+                {
+                    "@id": "60030835",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835"
+                }
+            ],
+            "ce:surname": "Lillah",
+            "@auid": "55391702800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55391702800",
+            "ce:indexed-name": "Lillah M."
+        },
+        {
+            "ce:given-name": "Jeff B.",
+            "preferred-name": {
+                "ce:given-name": "Jeff B.",
+                "ce:initials": "J.B.",
+                "ce:surname": "Boisvert",
+                "ce:indexed-name": "Boisvert J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.B.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60030835",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835"
+                },
+                {
+                    "@id": "60030835",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030835"
+                }
+            ],
+            "ce:surname": "Boisvert",
+            "@auid": "23097007300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23097007300",
+            "ce:indexed-name": "Boisvert J.B."
+        }
+    ]}
+}}

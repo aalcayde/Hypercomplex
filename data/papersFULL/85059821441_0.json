@@ -1,0 +1,1332 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "27",
+                "@timestamp": "2022-08-27T09:29:31.000031-04:00",
+                "@year": "2022",
+                "@month": "08"
+            },
+            "ait:date-sort": {
+                "@day": "29",
+                "@year": "2018",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Chinese Scholarship Council"},
+                {
+                    "xocs:funding-agency-matched-string": "China Scholarship Council",
+                    "xocs:funding-agency-acronym": "CSC",
+                    "xocs:funding-agency": "China Scholarship Council",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004543",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-05-27T08:35:54.837Z",
+            "xocs:funding-text": [
+                {"$": "ACKNOWLEDGEMENT We would like to thank the Chinese Scholarship Council (CSC) which partially supports this research."},
+                {"$": "We would like to thank the Chinese Scholarship Council (CSC) which partially supports this research."}
+            ],
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "France",
+                            "@afid": "60030981",
+                            "@date-locked": "2021-05-14T06:35:52.858",
+                            "@country": "fra",
+                            "organization": [
+                                {"$": "École Centrale de Lyon"},
+                                {"$": "Univ. Lyon LIRIS"},
+                                {"$": "CNRS UMR 5205"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60030981"},
+                                {"@afid": "60108341"},
+                                {"@afid": "60102126"}
+                            ]
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Haoyu",
+                                "preferred-name": {
+                                    "ce:given-name": "Haoyu",
+                                    "ce:initials": "H.",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Li",
+                                "@auid": "56374821400",
+                                "ce:indexed-name": "Li H."
+                            },
+                            {
+                                "ce:given-name": "Stéphane",
+                                "preferred-name": {
+                                    "ce:given-name": "Stéphane",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Derrode",
+                                    "ce:indexed-name": "Derrode S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Derrode",
+                                "@auid": "56058137700",
+                                "ce:indexed-name": "Derrode S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "France",
+                            "@afid": "60187109",
+                            "@country": "fra",
+                            "organization": {"$": "EPITA Lyon"},
+                            "affiliation-id": {"@afid": "60187109"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Lamia",
+                            "preferred-name": {
+                                "ce:given-name": "Lamia",
+                                "ce:initials": "L.",
+                                "ce:surname": "Benyoussef",
+                                "ce:indexed-name": "Benyoussef L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Benyoussef",
+                            "@auid": "23096962100",
+                            "ce:indexed-name": "Benyoussef L."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "France",
+                            "postal-code": "5157",
+                            "@afid": "60106017",
+                            "@country": "fra",
+                            "organization": [
+                                {"$": "Telecom SudParis"},
+                                {"$": "Univ. Paris-Saclay"},
+                                {"$": "SAMOVAR"},
+                                {"$": "CNRS UMR"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60106017"},
+                                {"@afid": "60115803"}
+                            ]
+                        },
+                        "author": [{
+                            "ce:given-name": "Wojciech",
+                            "preferred-name": {
+                                "ce:given-name": "Wojciech",
+                                "ce:initials": "W.",
+                                "ce:surname": "Pieczynski",
+                                "ce:indexed-name": "Pieczynski W."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "W.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Pieczynski",
+                            "@auid": "7003996049",
+                            "ce:indexed-name": "Pieczynski W."
+                        }]
+                    }
+                ],
+                "citation-title": "Free-walking 3D pedestrian large trajectory reconstruction from IMU sensors",
+                "abstracts": "© EURASIP 2018.This paper presents a pedestrian navigation algorithm based on a foot-mounted 9 Degree of Freedom (DOF) Inertial Measurement Unit (IMU), which provides tri-axial accelerations, angular rates and magnetics. Most algorithms used worldwide employ Zero Velocity Update (ZUPT) to reduce the tremendous error of integration from acceleration to displacement. The crucial part in ZUPT is to detect stance phase precisely. A cyclic left-to-right style Hidden Markov Model is introduced in this work which is able to appropriately model the periodic nature of signals. Stance detection is then made unsupervised by using a suited learning algorithm. Then orientation estimation is performed independently by a quaternion-based method, a simplified error-state Extended Kalman Filter (EKF) assists trajectory reconstruction in 3D space, neither extra method nor prior knowledge is needed to estimate the height. Experimental results on large free-walking trajectories show that the proposed algorithm can provide more accurate locations, especially in z-axis compared to competitive algorithms, w.r.t. to a ground-truth obtained using OpenStreetMap.",
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Hidden Markov model",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Inertial sensor",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Kalman filter",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pedestrian navigation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Stance detection",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "translated-sourcetitle": {
+                        "$": "European Signal Processing Conference",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "2018-September"},
+                        "pagerange": {
+                            "@first": "657",
+                            "@last": "661"
+                        }
+                    },
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9789082797015",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "26th European Signal Processing Conference, EUSIPCO 2018",
+                            "confnumber": "26",
+                            "confcatnumber": "CFP1840S-ART",
+                            "confseriestitle": "European Signal Processing Conference",
+                            "conflocation": {
+                                "@country": "ita",
+                                "city": "Rome"
+                            },
+                            "confcode": "143333",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "07",
+                                    "@year": "2018",
+                                    "@month": "09"
+                                },
+                                "startdate": {
+                                    "@day": "03",
+                                    "@year": "2018",
+                                    "@month": "09"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "European Signal Processing Conference",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2018",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "29 November 2018"
+                        },
+                        "day": "29"
+                    },
+                    "sourcetitle-abbrev": "European Signal Proces. Conf.",
+                    "@country": "pol",
+                    "issuetitle": "2018 26th European Signal Processing Conference, EUSIPCO 2018",
+                    "issn": {
+                        "$": "22195491",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2018"},
+                    "publisher": {"publishername": "European Signal Processing Conference, EUSIPCO"},
+                    "article-number": "8553462",
+                    "@srcid": "21100204301"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1711"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "922",
+                                "classification-description": "Statistical Methods"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "We would like to thank the Chinese Scholarship Council (CSC) which partially supports this research.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-acronym": "CSC",
+                        "grant-agency": {
+                            "@iso-code": "chn",
+                            "$": "China Scholarship Council"
+                        },
+                        "grant-agency-id": "501100004543"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@timestamp": "BST 17:07:12",
+                    "@year": "2019",
+                    "@month": "01"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "625886717",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "915086325",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20190306372917",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20190077912",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20190125741",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85059821441",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85059821441",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.23919/EUSIPCO.2018.8553462"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "16",
+                "reference": [
+                    {
+                        "ref-fulltext": "E. Foxlin, \u201cPedestrian tracking with shoe-mounted inertial sensors,\u201d IEEE Comput. graph. and app., vol. 25, no. 6, pp. 38-46, 2005.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Pedestrian tracking with shoe-mounted inertial sensors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "28244441640",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "38",
+                                    "@last": "46"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Foxlin",
+                                "ce:indexed-name": "Foxlin E."
+                            }]},
+                            "ref-sourcetitle": "IEEE Comput. Graph. and App."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Rajagopal, \u201cPersonal dead reckoning system with shoe mounted inertial sensors,\u201d Master's thesis, KTH, Sweeden, 2008.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78651442245",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Master's thesis, KTH, Sweeden",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Rajagopal",
+                                "ce:indexed-name": "Rajagopal S."
+                            }]},
+                            "ref-sourcetitle": "Personal Dead Reckoning System with Shoe Mounted Inertial Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Norrdine, Z. Kasmi, and J. Blankenbach, \u201cStep detection for ZUPT-aided inertial pedestrian navigation system using foot-mounted permanent magnet,\u201d IEEE Sensors J., vol. 16, no. 17, pp. 6766-6773, 2016.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Step detection for ZUPT-aided inertial pedestrian navigation system using foot-mounted permanent magnet"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84982171414",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "17"
+                                },
+                                "pagerange": {
+                                    "@first": "6766",
+                                    "@last": "6773"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Norrdine",
+                                    "ce:indexed-name": "Norrdine A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kasmi",
+                                    "ce:indexed-name": "Kasmi Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blankenbach",
+                                    "ce:indexed-name": "Blankenbach J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sensors J"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y.-L. Hsu, J.-S. Wang, and C.-W. Chang, \u201cA wearable inertial pedestrian navigation system with quaternion-based ekf for pedestrian localization,\u201d IEEE Sensors J., vol. 17, no. 10, pp. 3193-3206, 2017.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "A wearable inertial pedestrian navigation system with quaternion-based ekf for pedestrian localization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018342357",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "3193",
+                                    "@last": "3206"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.-L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hsu",
+                                    "ce:indexed-name": "Hsu Y.-L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J.-S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.-W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang C.-W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sensors J"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Liu, M. Ren, P. Wang, and H. Guo, \u201cHeight error correction based on shoe-mounted pedestrian navigation systems,\u201d in 35th Chinese Control Conf. (CCC), July 2016, pp. 5683-5686.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Height error correction based on shoe-mounted pedestrian navigation systems"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84987923542",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5683",
+                                "@last": "5686"
+                            }},
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guo",
+                                    "ce:indexed-name": "Guo H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "35th Chinese Control Conf. (CCC)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. K. Park and Y. S. Suh, \u201cHeight compensation using ground inclination estimation in inertial sensor-based pedestrian navigation,\u201d Sensors, vol. 11, no. 8, pp. 8045-8059, 2011.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Height compensation using ground inclination estimation in inertial sensor-based pedestrian navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052155951",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "8045",
+                                    "@last": "8059"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park S.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Suh",
+                                    "ce:indexed-name": "Suh Y.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Shin, C. Kim, J. Kim, S. Lee, C. Kee, H. S. Kim, and T. Lee, \u201cMotion recognition-based 3D pedestrian navigation system using smartphone,\u201d IEEE Sensors J., vol. 16, no. 18, pp. 6977-6989, Sept 2016.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Motion recognition-based 3D pedestrian navigation system using smartphone"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84984870584",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "18"
+                                },
+                                "pagerange": {
+                                    "@first": "6977",
+                                    "@last": "6989"
+                                }
+                            },
+                            "ref-text": "Sept",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shin",
+                                    "ce:indexed-name": "Shin B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kee",
+                                    "ce:indexed-name": "Kee C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim H.S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Sensors J"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. K. Kim, S. H. Choi, H. W. Kim, and J. M. Lee, \u201cPerformance improvement and height estimation of pedestrian dead-reckoning system using a low-cost MEMS sensor,\u201d in 12th Int. Conf. on Control, Automation and Systems, Oct 2012, pp. 1655-1660.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Performance improvement and height estimation of pedestrian dead-reckoning system using a low-cost MEMS sensor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84872508077",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1655",
+                                "@last": "1660"
+                            }},
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim Y.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi S.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim H.W."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lee",
+                                    "ce:indexed-name": "Lee J.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "12th Int. Conf. on Control, Automation and Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. Chai, C. Chen, E. Edwan, J. Zhang, and O. Loffeld, \u201c2D/3D indoor navigation based on multi-sensor assisted pedestrian navigation in Wi-Fi environments,\u201d in Ubiquitous Positioning, Indoor Navigation, and Location Based Service, Oct 2012, pp. 1-7.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "2D/3D indoor navigation based on multi-sensor assisted pedestrian navigation in Wi-Fi environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84873957587",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chai",
+                                    "ce:indexed-name": "Chai W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Edwan",
+                                    "ce:indexed-name": "Edwan E."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loffeld",
+                                    "ce:indexed-name": "Loffeld O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Ubiquitous Positioning, Indoor Navigation, and Location Based Service"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. R. Jiménez, F. Seco, J. C. Prieto, and J. Guevara, \u201cIndoor pedestrian navigation using an INS/EKF framework for yaw drift reduction and a foot-mounted IMU,\u201d in Workshop on Positioning Navigation and Communication (WPNC), 2010, pp. 135-143.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Indoor pedestrian navigation using an INS/EKF framework for yaw drift reduction and a foot-mounted IMU"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78651417108",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "135",
+                                "@last": "143"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiménez",
+                                    "ce:indexed-name": "Jimenez A.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seco",
+                                    "ce:indexed-name": "Seco F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Prieto",
+                                    "ce:indexed-name": "Prieto J.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guevara",
+                                    "ce:indexed-name": "Guevara J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Workshop on Positioning Navigation and Communication (WPNC)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Wang, Z. Zhang, and P. Sun, \u201cQuaternion-based Kalman filter for AHRS using an adaptive-step gradient descent algorithm,\u201d Int. J. of Advanced Robotic Systems, vol. 12, no. 9, p. 131, 2015.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Quaternion-based Kalman filter for AHRS using an adaptive-step gradient descent algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84991497541",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {"@first": "131"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. of Advanced Robotic Systems"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. O. Madgwick, A. J. Harrison, and R. Vaidyanathan, \u201cEstimation of IMU and MARG orientation using a gradient descent algorithm,\u201d in IEEE Int. Conf. on Rehabilitation Robotics (ICORR), 2011, pp. 1-7.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Estimation of IMU and MARG orientation using a gradient descent algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80055059186",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "7"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Madgwick",
+                                    "ce:indexed-name": "Madgwick S.O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Harrison",
+                                    "ce:indexed-name": "Harrison A.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaidyanathan",
+                                    "ce:indexed-name": "Vaidyanathan R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Int. Conf. on Rehabilitation Robotics (ICORR)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Mannini and A. M. Sabatini, \u201cA hidden Markov model-based technique for gait segmentation using a foot-mounted gyroscope,\u201d in Int. Conf. of the IEEE Engineering in Medicine and Biology Society, Boston, MA, USA, Aug 2011, pp. 4369-4373.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "A hidden Markov model-based technique for gait segmentation using a foot-mounted gyroscope"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84055191124",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "4369",
+                                "@last": "4373"
+                            }},
+                            "ref-text": "Boston, MA, USA, Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mannini",
+                                    "ce:indexed-name": "Mannini A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sabatini",
+                                    "ce:indexed-name": "Sabatini A.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. Conf. of the IEEE Engineering in Medicine and Biology Society"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. E. Baum, T. Petrie, G. Soules, and N. Weiss, \u201cA maximization technique occurring in the statistical analysis of probabilistic functions of Markov chains,\u201d The Annals of Mathematical Statistics, vol. 41, no. 1, pp. 164-171, 1970.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1970"},
+                            "ref-title": {"ref-titletext": "A maximization technique occurring in the statistical analysis of probabilistic functions of Markov chains"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000353178",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "41",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "164",
+                                    "@last": "171"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baum",
+                                    "ce:indexed-name": "Baum L.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Petrie",
+                                    "ce:indexed-name": "Petrie T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soules",
+                                    "ce:indexed-name": "Soules G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weiss",
+                                    "ce:indexed-name": "Weiss N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Annals of Mathematical Statistics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. Simon, Optimal state estimation: Kalman, H infinity, and nonlinear approaches. John Wiley & Sons, 2006, ch. 2, pp. 123-138.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84919638197",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "123",
+                                "@last": "138"
+                            }},
+                            "ref-text": "John Wiley & Sons, ch. 2",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Simon",
+                                "ce:indexed-name": "Simon D."
+                            }]},
+                            "ref-sourcetitle": "Optimal State Estimation: Kalman, h Infinity, and Nonlinear Approaches"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Qiu, Z. Wang, H. Zhao, K. Qin, Z. Li, and H. Hu, \u201cInertial/magnetic sensors based pedestrian dead reckoning by means of multi-sensor fusion,\u201d Information Fusion, vol. 39, pp. 108-119, 2018.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Inertial/magnetic sensors based pedestrian dead reckoning by means of multi-sensor fusion"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85018906357",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "39"},
+                                "pagerange": {
+                                    "@first": "108",
+                                    "@last": "119"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiu",
+                                    "ce:indexed-name": "Qiu S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qin",
+                                    "ce:indexed-name": "Qin K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Information Fusion"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Le Kremlin-Bicetre",
+            "@id": "60187109",
+            "affilname": "EPITA",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60187109",
+            "affiliation-country": "France"
+        },
+        {
+            "affiliation-city": "Gif-sur-Yvette",
+            "@id": "60106017",
+            "affilname": "Université Paris-Saclay",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60106017",
+            "affiliation-country": "France"
+        },
+        {
+            "affiliation-city": "Ecully",
+            "@id": "60030981",
+            "affilname": "École Centrale de Lyon",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030981",
+            "affiliation-country": "France"
+        }
+    ],
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85059821441",
+        "dc:description": "This paper presents a pedestrian navigation algorithm based on a foot-mounted 9 Degree of Freedom (DOF) Inertial Measurement Unit (IMU), which provides tri-axial accelerations, angular rates and magnetics. Most algorithms used worldwide employ Zero Velocity Update (ZUPT) to reduce the tremendous error of integration from acceleration to displacement. The crucial part in ZUPT is to detect stance phase precisely. A cyclic left-to-right style Hidden Markov Model is introduced in this work which is able to appropriately model the periodic nature of signals. Stance detection is then made unsupervised by using a suited learning algorithm. Then orientation estimation is performed independently by a quaternion-based method, a simplified error-state Extended Kalman Filter (EKF) assists trajectory reconstruction in 3D space, neither extra method nor prior knowledge is needed to estimate the height. Experimental results on large free-walking trajectories show that the proposed algorithm can provide more accurate locations, especially in z-axis compared to competitive algorithms, w.r.t. to a ground-truth obtained using OpenStreetMap.",
+        "prism:coverDate": "2018-11-29",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85059821441",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Haoyu",
+            "preferred-name": {
+                "ce:given-name": "Haoyu",
+                "ce:initials": "H.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60030981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030981"
+            },
+            "ce:surname": "Li",
+            "@auid": "56374821400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56374821400",
+            "ce:indexed-name": "Li H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85059821441"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85059821441&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85059821441&origin=inward"
+            }
+        ],
+        "prism:isbn": "9789082797015",
+        "source-id": "21100204301",
+        "citedby-count": "5",
+        "prism:volume": "2018-September",
+        "subtype": "cp",
+        "dc:title": "Free-walking 3D pedestrian large trajectory reconstruction from IMU sensors",
+        "openaccess": "2",
+        "prism:issn": "22195491",
+        "publishercopyright": "© EURASIP 2018.",
+        "article-number": "8553462",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "European Signal Processing Conference",
+        "prism:pageRange": "657-661",
+        "prism:endingPage": "661",
+        "openaccessFlag": null,
+        "prism:doi": "10.23919/EUSIPCO.2018.8553462",
+        "prism:startingPage": "657",
+        "dc:identifier": "SCOPUS_ID:85059821441",
+        "dc:publisher": "European Signal Processing Conference, EUSIPCO"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Competitive algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Degree of freedom (dof)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial Measurement Unit (IMU)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial sensor",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Orientation estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pedestrian navigation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Trajectory reconstruction",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Zero velocity update (ZUPT)",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Hidden Markov model"
+        },
+        {
+            "@_fa": "true",
+            "$": "Inertial sensor"
+        },
+        {
+            "@_fa": "true",
+            "$": "Kalman filter"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pedestrian navigation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Stance detection"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Haoyu",
+            "preferred-name": {
+                "ce:given-name": "Haoyu",
+                "ce:initials": "H.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60030981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030981"
+            },
+            "ce:surname": "Li",
+            "@auid": "56374821400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56374821400",
+            "ce:indexed-name": "Li H."
+        },
+        {
+            "ce:given-name": "Stéphane",
+            "preferred-name": {
+                "ce:given-name": "Stéphane",
+                "ce:initials": "S.",
+                "ce:surname": "Derrode",
+                "ce:indexed-name": "Derrode S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60030981",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60030981"
+            },
+            "ce:surname": "Derrode",
+            "@auid": "56058137700",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56058137700",
+            "ce:indexed-name": "Derrode S."
+        },
+        {
+            "ce:given-name": "Lamia",
+            "preferred-name": {
+                "ce:given-name": "Lamia",
+                "ce:initials": "L.",
+                "ce:surname": "Benyoussef",
+                "ce:indexed-name": "Benyoussef L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60187109",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60187109"
+            },
+            "ce:surname": "Benyoussef",
+            "@auid": "23096962100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/23096962100",
+            "ce:indexed-name": "Benyoussef L."
+        },
+        {
+            "ce:given-name": "Wojciech",
+            "preferred-name": {
+                "ce:given-name": "Wojciech",
+                "ce:initials": "W.",
+                "ce:surname": "Pieczynski",
+                "ce:indexed-name": "Pieczynski W."
+            },
+            "@seq": "4",
+            "ce:initials": "W.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60106017",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60106017"
+            },
+            "ce:surname": "Pieczynski",
+            "@auid": "7003996049",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7003996049",
+            "ce:indexed-name": "Pieczynski W."
+        }
+    ]}
+}}

@@ -1,0 +1,2329 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "30",
+                "@year": "2023",
+                "@timestamp": "2023-06-30T02:12:58.000058-04:00",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2021",
+                "@month": "11"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Science and Technology Development Fund",
+                    "xocs:funding-agency-acronym": "STDF",
+                    "xocs:funding-agency": "Science and Technology Development Fund",
+                    "xocs:funding-id": "FDCT/085/2018/A2",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100003009",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/357994/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "University of Macau",
+                    "xocs:funding-agency-acronym": "UM",
+                    "xocs:funding-agency": "Universidade de Macau",
+                    "xocs:funding-id": "MYRG2019-00039-FST",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004733",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1821275/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-10-19T22:39:27.178Z",
+            "xocs:funding-text": "This work was supported by the Science and Technology Development Fund , Macau SAR (File no. FDCT/085/2018/A2 ) and University of Macau (File no. MYRG2019-00039-FST ).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "999078",
+                        "@afid": "60022317",
+                        "@country": "chn",
+                        "city": "Macau",
+                        "organization": [
+                            {"$": "Department of Mathematics"},
+                            {"$": "Faculty of Science and Technology"},
+                            {"$": "University of Macau"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60022317",
+                            "@dptid": "105445160"
+                        },
+                        "@affiliation-instance-id": "S1047320321002200-21b887c8df04ca2af440f1b6c4be486b",
+                        "ce:source-text": "Department of Mathematics, Faculty of Science and Technology, University of Macau, Macau, 999078, China",
+                        "@dptid": "105445160"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Liqiao",
+                            "preferred-name": {
+                                "ce:given-name": "Liqiao",
+                                "ce:initials": "L.",
+                                "ce:surname": "Yang",
+                                "ce:indexed-name": "Yang L."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "S1047320321002200-a946c5d82367f2575641dcb97bb0e46d",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Yang",
+                            "@auid": "57222070456",
+                            "ce:indexed-name": "Yang L."
+                        },
+                        {
+                            "ce:given-name": "Kit Ian",
+                            "preferred-name": {
+                                "ce:given-name": "Kit Ian",
+                                "ce:initials": "K.I.",
+                                "ce:surname": "Kou",
+                                "ce:indexed-name": "Kou K.I."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "S1047320321002200-aaafb95f6ce33bf95fc500277acf5462",
+                            "ce:initials": "K.I.",
+                            "@date-locked": "2022-08-27T14:07:51.296",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kou",
+                            "@auid": "7003837546",
+                            "@orcid": "0000-0003-1924-9087",
+                            "ce:indexed-name": "Kou K.I."
+                        },
+                        {
+                            "ce:given-name": "Jifei",
+                            "preferred-name": {
+                                "ce:given-name": "Jifei",
+                                "ce:initials": "J.",
+                                "ce:surname": "Miao",
+                                "ce:indexed-name": "Miao J."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "S1047320321002200-534ec5d4af2dac7f22089b4f9f45b4fa",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Miao",
+                            "@auid": "57201452670",
+                            "ce:indexed-name": "Miao J."
+                        }
+                    ]
+                },
+                "citation-title": "Weighted truncated nuclear norm regularization for low-rank quaternion matrix completion",
+                "abstracts": "© 2021In recent years, quaternion matrix completion (QMC) based on low-rank regularization has been gradually used in image processing. Unlike low-rank matrix completion (LRMC) which handles RGB images by recovering each color channel separately, QMC models retain the connection of three channels and process them as a whole. Most of the existing quaternion-based methods formulate low-rank QMC (LRQMC) as a quaternion nuclear norm (a convex relaxation of the rank) minimization problem. The main limitation of these approaches is that they minimize the singular values simultaneously such that cannot approximate low-rank attributes efficiently. To achieve a more accurate low-rank approximation, we introduce a quaternion truncated nuclear norm (QTNN) for LRQMC and utilize the alternating direction method of multipliers (ADMM) to get the optimization in this paper. Further, we propose weights to the residual error quaternion matrix during the update process for accelerating the convergence of the QTNN method with admissible performance. The weighted method utilizes a concise gradient descent strategy which has a theoretical guarantee in optimization. The effectiveness of our method is illustrated by experiments on real visual data sets.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "999078",
+                        "@country": "chn",
+                        "city": "Macau",
+                        "organization": [
+                            {"$": "Department of Mathematics"},
+                            {"$": "Faculty of Science and Technology"},
+                            {"$": "University of Macau"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Kit Ian",
+                        "ce:initials": "K.I.",
+                        "ce:surname": "Kou",
+                        "ce:indexed-name": "Kou K.I."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Low-rank",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Quaternion matrix completion",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Quaternion truncated nuclear norm",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Weights",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.elsevier.com/inca/publications/store/6/2/2/9/0/6/index.htt",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Journal of Visual Communication and Image Representation",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"voliss": {"@volume": "81"}},
+                    "@type": "j",
+                    "sourcetitle": "Journal of Visual Communication and Image Representation",
+                    "publicationdate": {
+                        "month": "11",
+                        "year": "2021",
+                        "date-text": "November 2021",
+                        "day": "01"
+                    },
+                    "codencode": "JVCRE",
+                    "sourcetitle-abbrev": "J Visual Commun Image Represent",
+                    "@country": "usa",
+                    "issn": [
+                        {
+                            "$": "10959076",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "10473203",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2021"},
+                    "publisher": {"publishername": "Academic Press Inc."},
+                    "article-number": "103335",
+                    "@srcid": "25592"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "921.5",
+                                "classification-description": "Optimization Techniques"
+                            },
+                            {
+                                "classification-code": "921.6",
+                                "classification-description": "Numerical Methods"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1711"},
+                            {"$": "2214"},
+                            {"$": "1707"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported by the Science and Technology Development Fund, Macau SAR (File no. FDCT/085/2018/A2) and University of Macau (File no. MYRG2019-00039-FST).",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": [
+                        {
+                            "grant-id": "FDCT/085/2018/A2",
+                            "grant-acronym": "FDCT",
+                            "grant-agency": {
+                                "@iso-code": "mac",
+                                "$": "Fundo para o Desenvolvimento das Ciências e da Tecnologia"
+                            },
+                            "grant-agency-id": "501100006469"
+                        },
+                        {
+                            "grant-id": "MYRG2019-00039-FST",
+                            "grant-acronym": "UM",
+                            "grant-agency": {
+                                "@iso-code": "mac",
+                                "$": "Universidade de Macau"
+                            },
+                            "grant-agency-id": "501100004733"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2021 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "19",
+                    "@year": "2021",
+                    "@timestamp": "BST 10:02:47",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2015098493",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "936184507",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20214211033243",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20214327065",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20213483569",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85117100551",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85117100551",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S1047320321002200",
+                    "ce:ern": "pii:S1047320321002200",
+                    "ce:doi": "10.1016/j.jvcir.2021.103335"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "Candès, Emmanuel J., Plan, Yaniv, Matrix completion with noise. Proc. IEEE 98:6 (2010), 925\u2013936.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Matrix completion with noise"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b1",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77952741387",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "98",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "925",
+                                    "@last": "936"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Emmanuel J.",
+                                    "@seq": "1",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Candès",
+                                    "ce:indexed-name": "Candes E.J."
+                                },
+                                {
+                                    "ce:given-name": "Yaniv",
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plan",
+                                    "ce:indexed-name": "Plan Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE"
+                        },
+                        "ce:source-text": "Emmanuel J. Candès and Yaniv Plan. Matrix completion with noise. Proc. IEEE, 98 (6) (2010) 925\u2013936."
+                    },
+                    {
+                        "ref-fulltext": "Hu, Yao, Zhang, Debing, Ye, Jieping, Li, Xuelong, He, Xiaofei, Fast and accurate matrix completion via truncated nuclear norm regularization. IEEE Trans. Pattern Anal. Mach. Intell. 35:9 (2013), 2117\u20132130.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Fast and accurate matrix completion via truncated nuclear norm regularization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b2",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84880896128",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "2117",
+                                    "@last": "2130"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Yao",
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hu",
+                                    "ce:indexed-name": "Hu Y."
+                                },
+                                {
+                                    "ce:given-name": "Debing",
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang D."
+                                },
+                                {
+                                    "ce:given-name": "Jieping",
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ye",
+                                    "ce:indexed-name": "Ye J."
+                                },
+                                {
+                                    "ce:given-name": "Xuelong",
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X."
+                                },
+                                {
+                                    "ce:given-name": "Xiaofei",
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell."
+                        },
+                        "ce:source-text": "Yao Hu, Debing Zhang, Jieping Ye, Xuelong Li, and Xiaofei He. Fast and accurate matrix completion via truncated nuclear norm regularization. IEEE Trans. Pattern Anal. Mach. Intell., 35 (9) (2013) 2117\u20132130."
+                    },
+                    {
+                        "ref-fulltext": "Jain, Prateek, Netrapalli, Praneeth, Sanghavi, Sujay, Low-rank matrix completion using alternating minimization. Symposium on Theory of Computing Conference, STOC\u201913, Palo Alto, CA, USA, June 1-4, 2013, 2013, ACM, 665\u2013674.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Low-rank matrix completion using alternating minimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b3",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84879826396",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "665",
+                                "@last": "674"
+                            }},
+                            "ref-text": "ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Prateek",
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain P."
+                                },
+                                {
+                                    "ce:given-name": "Praneeth",
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Netrapalli",
+                                    "ce:indexed-name": "Netrapalli P."
+                                },
+                                {
+                                    "ce:given-name": "Sujay",
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanghavi",
+                                    "ce:indexed-name": "Sanghavi S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Symposium on Theory of Computing Conference, STOC\u201913, Palo Alto, CA, USA, June 1-4, 2013"
+                        },
+                        "ce:source-text": "Prateek Jain, Praneeth Netrapalli, and Sujay Sanghavi. Low-rank matrix completion using alternating minimization. In Symposium on Theory of Computing Conference, STOC\u201913, Palo Alto, CA, USA, (2013) 1-4, pages 665\u2013674. ACM, 2013."
+                    },
+                    {
+                        "ref-fulltext": "Liu, Meng, Luo, Yong, Tao, Dacheng, Xu, Chao, Wen, Yonggang, Low-rank multi-view learning in matrix completion for multi-label image classification. Twenty-Ninth AAAI Conference on Artificial Intelligence, 2015, AAAI Press, 2778\u20132784.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Low-rank multi-view learning in matrix completion for multi-label image classification"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b4",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84960095407",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "2778",
+                                "@last": "2784"
+                            }},
+                            "ref-text": "AAAI Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Meng",
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu M."
+                                },
+                                {
+                                    "ce:given-name": "Yong",
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo Y."
+                                },
+                                {
+                                    "ce:given-name": "Dacheng",
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tao",
+                                    "ce:indexed-name": "Tao D."
+                                },
+                                {
+                                    "ce:given-name": "Chao",
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu C."
+                                },
+                                {
+                                    "ce:given-name": "Yonggang",
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Twenty-Ninth AAAI Conference on Artificial Intelligence"
+                        },
+                        "ce:source-text": "Meng Liu, Yong Luo, Dacheng Tao, Chao Xu, and Yonggang Wen. Low-rank multi-view learning in matrix completion for multi-label image classification. In Twenty-Ninth AAAI Conference on Artificial Intelligence, pages 2778\u20132784. AAAI Press, 2015."
+                    },
+                    {
+                        "ref-fulltext": "Cabral, Ricardo Silveira, la Torre, Fernando De, Costeira, João Paulo, Bernardino, Alexandre, Matrix completion for multi-label image classification. Advances in Neural Information Processing Systems, 2011, 190\u2013198.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Matrix completion for multi-label image classification"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b5",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85162451485",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "190",
+                                "@last": "198"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Ricardo Silveira",
+                                    "@seq": "1",
+                                    "ce:initials": "R.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cabral",
+                                    "ce:indexed-name": "Cabral R.S."
+                                },
+                                {
+                                    "ce:given-name": "Fernando De",
+                                    "@seq": "2",
+                                    "ce:initials": "F.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "la Torre",
+                                    "ce:indexed-name": "la Torre F.D."
+                                },
+                                {
+                                    "ce:given-name": "João Paulo",
+                                    "@seq": "3",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Costeira",
+                                    "ce:indexed-name": "Costeira J.P."
+                                },
+                                {
+                                    "ce:given-name": "Alexandre",
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bernardino",
+                                    "ce:indexed-name": "Bernardino A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Advances in Neural Information Processing Systems"
+                        },
+                        "ce:source-text": "Ricardo Silveira Cabral, Fernando De la Torre, João Paulo Costeira, and Alexandre Bernardino. Matrix completion for multi-label image classification. In Advances in neural information processing systems, pages (2011) 190\u2013198."
+                    },
+                    {
+                        "ref-fulltext": "Liu, Ji, Musialski, Przemyslaw, Wonka, Peter, Ye, Jieping, Tensor completion for estimating missing values in visual data. IEEE Trans. Pattern Anal. Mach. Intell. 35:1 (2013), 208\u2013220.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Tensor completion for estimating missing values in visual data"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b6",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84870175618",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "208",
+                                    "@last": "220"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Ji",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "ce:given-name": "Przemyslaw",
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Musialski",
+                                    "ce:indexed-name": "Musialski P."
+                                },
+                                {
+                                    "ce:given-name": "Peter",
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wonka",
+                                    "ce:indexed-name": "Wonka P."
+                                },
+                                {
+                                    "ce:given-name": "Jieping",
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ye",
+                                    "ce:indexed-name": "Ye J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell."
+                        },
+                        "ce:source-text": "Ji Liu, Przemyslaw Musialski, Peter Wonka, and Jieping Ye. Tensor completion for estimating missing values in visual data. IEEE Trans. Pattern Anal. Mach. Intell., 35 (1) (2013) 208\u2013220."
+                    },
+                    {
+                        "ref-fulltext": "Zhou, Pan, Lu, Canyi, Lin, Zhouchen, Zhang, Chao, Tensor factorization for low-rank tensor completion. IEEE Trans. Image Process. 27:3 (2018), 1152\u20131163.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Tensor factorization for low-rank tensor completion"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b7",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85044256372",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "27",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1152",
+                                    "@last": "1163"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Pan",
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou P."
+                                },
+                                {
+                                    "ce:given-name": "Canyi",
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu C."
+                                },
+                                {
+                                    "ce:given-name": "Zhouchen",
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin Z."
+                                },
+                                {
+                                    "ce:given-name": "Chao",
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Pan Zhou, Canyi Lu, Zhouchen Lin, and Chao Zhang. Tensor factorization for low-rank tensor completion. IEEE Trans. Image Process., 27 (3) (2018) 1152\u20131163."
+                    },
+                    {
+                        "ref-fulltext": "Fazel, Maryam, Hindi, Haitham, Boyd, Stephen, Rank minimization and applications in system theory. Proceedings of the 2004 American Control Conference, Vol. 4, 2004, IEEE, 3273\u20133278.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Rank minimization and applications in system theory"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b8",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "8744303675",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3273",
+                                "@last": "3278"
+                            }},
+                            "ref-text": "IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Maryam",
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fazel",
+                                    "ce:indexed-name": "Fazel M."
+                                },
+                                {
+                                    "ce:given-name": "Haitham",
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hindi",
+                                    "ce:indexed-name": "Hindi H."
+                                },
+                                {
+                                    "ce:given-name": "Stephen",
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boyd",
+                                    "ce:indexed-name": "Boyd S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2004 American Control Conference, Vol. 4"
+                        },
+                        "ce:source-text": "Maryam Fazel, Haitham Hindi, and Stephen Boyd. Rank minimization and applications in system theory. In Proceedings of the 2004 American control conference, volume 4, pages 3273\u20133278. IEEE, 2004."
+                    },
+                    {
+                        "ref-fulltext": "Recht, Benjamin, Fazel, Maryam, Parrilo, Pablo A., Guaranteed minimum-rank solutions of linear matrix equations via nuclear norm minimization. SIAM Rev. 52:3 (2010), 471\u2013501.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Guaranteed minimum-rank solutions of linear matrix equations via nuclear norm minimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b9",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78549288866",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "471",
+                                    "@last": "501"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Benjamin",
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Recht",
+                                    "ce:indexed-name": "Recht B."
+                                },
+                                {
+                                    "ce:given-name": "Maryam",
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fazel",
+                                    "ce:indexed-name": "Fazel M."
+                                },
+                                {
+                                    "ce:given-name": "Pablo A.",
+                                    "@seq": "3",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parrilo",
+                                    "ce:indexed-name": "Parrilo P.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIAM Rev."
+                        },
+                        "ce:source-text": "Benjamin Recht, Maryam Fazel, and Pablo A. Parrilo. Guaranteed minimum-rank solutions of linear matrix equations via nuclear norm minimization. SIAM Rev., 52 (3) (2010) 471\u2013501."
+                    },
+                    {
+                        "ref-fulltext": "Koltchinskii, Vladimir, Lounici, Karim, Tsybakov, Alexandre B., et al. Nuclear-norm penalization and optimal rates for noisy low-rank matrix completion. Ann. Statist. 39:5 (2011), 2302\u20132329.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Nuclear-norm penalization and optimal rates for noisy low-rank matrix completion"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b10",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "82655171609",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "39",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "2302",
+                                    "@last": "2329"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "ce:given-name": "Vladimir",
+                                        "@seq": "1",
+                                        "ce:initials": "V.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Koltchinskii",
+                                        "ce:indexed-name": "Koltchinskii V."
+                                    },
+                                    {
+                                        "ce:given-name": "Karim",
+                                        "@seq": "2",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Lounici",
+                                        "ce:indexed-name": "Lounici K."
+                                    },
+                                    {
+                                        "ce:given-name": "Alexandre B.",
+                                        "@seq": "3",
+                                        "ce:initials": "A.B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Tsybakov",
+                                        "ce:indexed-name": "Tsybakov A.B."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Ann. Statist."
+                        },
+                        "ce:source-text": "Vladimir Koltchinskii, Karim Lounici, Alexandre B Tsybakov, others,Nuclear-norm penalization and optimal rates for noisy low-rank matrix completion. The Annals of Statistics, 39 (5) (2011) 2302\u20132329."
+                    },
+                    {
+                        "ref-fulltext": "Candès, Emmanuel J., Recht, Benjamin, Exact matrix completion via convex optimization. Commun. ACM 55:6 (2012), 111\u2013119.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Exact matrix completion via convex optimization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b11",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84863765049",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "111",
+                                    "@last": "119"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Emmanuel J.",
+                                    "@seq": "1",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Candès",
+                                    "ce:indexed-name": "Candes E.J."
+                                },
+                                {
+                                    "ce:given-name": "Benjamin",
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Recht",
+                                    "ce:indexed-name": "Recht B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Commun. ACM"
+                        },
+                        "ce:source-text": "Emmanuel J. Candès and Benjamin Recht. Exact matrix completion via convex optimization. Commun. ACM, 55 (6) (2012) 111\u2013119."
+                    },
+                    {
+                        "ref-fulltext": "Zhang, Fuzhen, Quaternions and matrices of quaternions. Linear Algebra Appl. 251 (1997), 21\u201357.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Quaternions and matrices of quaternions"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b12",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0031540156",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "251"},
+                                "pagerange": {
+                                    "@first": "21",
+                                    "@last": "57"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Fuzhen",
+                                "@seq": "1",
+                                "ce:initials": "F.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang F."
+                            }]},
+                            "ref-sourcetitle": "Linear Algebra Appl."
+                        },
+                        "ce:source-text": "Fuzhen Zhang. Quaternions and matrices of quaternions. Linear algebra and its applications, 251 (1997) 21\u201357."
+                    },
+                    {
+                        "ref-fulltext": "Wang, Xiangyang, Wang, Chunpeng, Yang, Hong-Ying, Niu, Panpan, A robust blind color image watermarking in quaternion Fourier transform domain. J. Syst. Softw. 86:2 (2013), 255\u2013277.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "A robust blind color image watermarking in quaternion Fourier transform domain"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b13",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84871921984",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "86",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "255",
+                                    "@last": "277"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Xiangyang",
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang X."
+                                },
+                                {
+                                    "ce:given-name": "Chunpeng",
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                },
+                                {
+                                    "ce:given-name": "Hong-Ying",
+                                    "@seq": "3",
+                                    "ce:initials": "H.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang H.-Y."
+                                },
+                                {
+                                    "ce:given-name": "Panpan",
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Niu",
+                                    "ce:indexed-name": "Niu P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Syst. Softw."
+                        },
+                        "ce:source-text": "Xiangyang Wang, Chunpeng Wang, Hong-Ying Yang, and Panpan Niu. A robust blind color image watermarking in quaternion fourier transform domain. J. Syst. Softw., 86 (2) (2013) 255\u2013277."
+                    },
+                    {
+                        "ref-fulltext": "Xu, Yi, Yu, Licheng, Xu, Hongteng, Zhang, Hao, Nguyen, Truong, Vector sparse representation of color image using quaternion matrix analysis. IEEE Trans. Image Process. 24:4 (2015), 1315\u20131329.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Vector sparse representation of color image using quaternion matrix analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b14",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84923540397",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1315",
+                                    "@last": "1329"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Yi",
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "ce:given-name": "Licheng",
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu L."
+                                },
+                                {
+                                    "ce:given-name": "Hongteng",
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu H."
+                                },
+                                {
+                                    "ce:given-name": "Hao",
+                                    "@seq": "4",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "ce:given-name": "Truong",
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nguyen",
+                                    "ce:indexed-name": "Nguyen T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Yi Xu, Licheng Yu, Hongteng Xu, Hao Zhang, and Truong Nguyen. Vector sparse representation of color image using quaternion matrix analysis. IEEE Trans. Image Process., 24 (4) (2015) 1315\u20131329."
+                    },
+                    {
+                        "ref-fulltext": "Wright, John, Yang, Allen Y., Ganesh, Arvind, Sastry, Shankar S., Ma, Yi, Robust face recognition via sparse representation. IEEE Trans. Pattern Anal. Mach. Intell. 31:2 (2009), 210\u2013227.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Robust face recognition via sparse representation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b15",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "61549128441",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "210",
+                                    "@last": "227"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "John",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wright",
+                                    "ce:indexed-name": "Wright J."
+                                },
+                                {
+                                    "ce:given-name": "Allen Y.",
+                                    "@seq": "2",
+                                    "ce:initials": "A.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang A.Y."
+                                },
+                                {
+                                    "ce:given-name": "Arvind",
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ganesh",
+                                    "ce:indexed-name": "Ganesh A."
+                                },
+                                {
+                                    "ce:given-name": "Shankar S.",
+                                    "@seq": "4",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sastry",
+                                    "ce:indexed-name": "Sastry S.S."
+                                },
+                                {
+                                    "ce:given-name": "Yi",
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell."
+                        },
+                        "ce:source-text": "John Wright, Allen Y. Yang, Arvind Ganesh, Shankar S. Sastry, and Yi Ma. Robust face recognition via sparse representation. IEEE Trans. Pattern Anal. Mach. Intell., 31 (2) (2009) 210\u2013227."
+                    },
+                    {
+                        "ref-fulltext": "Zou, Cuiming, Kou, Kit Ian, Wang, Yulong, Quaternion collaborative and sparse representation with application to color face recognition. IEEE Trans. Image Process. 25:7 (2016), 3287\u20133302.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Quaternion collaborative and sparse representation with application to color face recognition"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b16",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84974621991",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "3287",
+                                    "@last": "3302"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Cuiming",
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zou",
+                                    "ce:indexed-name": "Zou C."
+                                },
+                                {
+                                    "ce:given-name": "Kit Ian",
+                                    "@seq": "2",
+                                    "ce:initials": "K.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kou",
+                                    "ce:indexed-name": "Kou K.I."
+                                },
+                                {
+                                    "ce:given-name": "Yulong",
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Cuiming Zou, Kit Ian Kou, and Yulong Wang. Quaternion collaborative and sparse representation with application to color face recognition. IEEE Trans. Image Process., 25 (7) (2016) 3287\u20133302."
+                    },
+                    {
+                        "ref-fulltext": "Chen, Yongyong, Xiao, Xiaolin, Zhou, Yicong, Low-rank quaternion approximation for color image processing. IEEE Trans. Image Process. 29 (2020), 1426\u20131439.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Low-rank quaternion approximation for color image processing"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b17",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85075026932",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "29"},
+                                "pagerange": {
+                                    "@first": "1426",
+                                    "@last": "1439"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Yongyong",
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen Y."
+                                },
+                                {
+                                    "ce:given-name": "Xiaolin",
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiao",
+                                    "ce:indexed-name": "Xiao X."
+                                },
+                                {
+                                    "ce:given-name": "Yicong",
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Yongyong Chen, Xiaolin Xiao, and Yicong Zhou. Low-rank quaternion approximation for color image processing. IEEE Trans. Image Process., 29 (2020) 1426\u20131439."
+                    },
+                    {
+                        "ref-fulltext": "Yu, Yibin, Zhang, Yulan, Yuan, Shifang, Quaternion-based weighted nuclear norm minimization for color image denoising. Neurocomputing 332 (2019), 283\u2013297.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Quaternion-based weighted nuclear norm minimization for color image denoising"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b18",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85059522317",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "332"},
+                                "pagerange": {
+                                    "@first": "283",
+                                    "@last": "297"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Yibin",
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y."
+                                },
+                                {
+                                    "ce:given-name": "Yulan",
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Y."
+                                },
+                                {
+                                    "ce:given-name": "Shifang",
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yuan",
+                                    "ce:indexed-name": "Yuan S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        },
+                        "ce:source-text": "Yibin Yu, Yulan Zhang, and Shifang Yuan. Quaternion-based weighted nuclear norm minimization for color image denoising. Neurocomputing, 332 (2019) 283\u2013297."
+                    },
+                    {
+                        "ref-fulltext": "Miao, Jifei, Kou, Kit Ian, Quaternion-based bilinear factor matrix norm minimization for color image inpainting. IEEE Trans. Signal Process. 68 (2020), 5617\u20135631.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Quaternion-based bilinear factor matrix norm minimization for color image inpainting"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b19",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85092718645",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "68"},
+                                "pagerange": {
+                                    "@first": "5617",
+                                    "@last": "5631"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jifei",
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miao",
+                                    "ce:indexed-name": "Miao J."
+                                },
+                                {
+                                    "ce:given-name": "Kit Ian",
+                                    "@seq": "2",
+                                    "ce:initials": "K.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kou",
+                                    "ce:indexed-name": "Kou K.I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Signal Process."
+                        },
+                        "ce:source-text": "Jifei Miao and Kit Ian Kou. Quaternion-based bilinear factor matrix norm minimization for color image inpainting. IEEE Trans. Signal Process., 68 (2020) 5617\u20135631."
+                    },
+                    {
+                        "ref-fulltext": "Girard, Patrick R., Quaternions, Clifford Algebras and Relativistic Physics. 2007, Springer Science & Business Media.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Quaternions, Clifford Algebras and Relativistic Physics"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b20",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84892316897",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Springer Science & Business Media",
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Patrick R.",
+                                "@seq": "1",
+                                "ce:initials": "P.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Girard",
+                                "ce:indexed-name": "Girard P.R."
+                            }]}
+                        },
+                        "ce:source-text": "Patrick R Girard. Quaternions, Clifford algebras and relativistic physics. Springer Science & Business Media, 2007."
+                    },
+                    {
+                        "ref-fulltext": "Strašek, Rok, Uniform primeness of the Jordan algebra of hermitian quaternion matrices. Linear Algebra Appl. 367 (2003), 235\u2013242.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Uniform primeness of the Jordan algebra of hermitian quaternion matrices"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b21",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0038734180",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "367"},
+                                "pagerange": {
+                                    "@first": "235",
+                                    "@last": "242"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Rok",
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Strašek",
+                                "ce:indexed-name": "Strasek R."
+                            }]},
+                            "ref-sourcetitle": "Linear Algebra Appl."
+                        },
+                        "ce:source-text": "Rok Strašek. Uniform primeness of the jordan algebra of hermitian quaternion matrices. Linear algebra and its applications, 367 (2003) 235\u2013242."
+                    },
+                    {
+                        "ref-fulltext": "Cai, Jian-Feng, Candès, Emmanuel J., Shen, Zuowei, A singular value thresholding algorithm for matrix completion. SIAM J. Optim. 20:4 (2010), 1956\u20131982.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "A singular value thresholding algorithm for matrix completion"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b22",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77951291046",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1956",
+                                    "@last": "1982"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Jian-Feng",
+                                    "@seq": "1",
+                                    "ce:initials": "J.-F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai J.-F."
+                                },
+                                {
+                                    "ce:given-name": "Emmanuel J.",
+                                    "@seq": "2",
+                                    "ce:initials": "E.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Candès",
+                                    "ce:indexed-name": "Candes E.J."
+                                },
+                                {
+                                    "ce:given-name": "Zuowei",
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shen",
+                                    "ce:indexed-name": "Shen Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "SIAM J. Optim."
+                        },
+                        "ce:source-text": "Jian-Feng Cai, Emmanuel J. Candès, and Zuowei Shen. A singular value thresholding algorithm for matrix completion. SIAM J. Optim., 20 (4) (2010) 1956\u20131982."
+                    },
+                    {
+                        "ref-fulltext": "Mirsky, Leon, A trace inequality of John von Neumann. Monatsh. Math. 79:4 (1975), 303\u2013306.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1975"},
+                            "ref-title": {"ref-titletext": "A trace inequality of John von Neumann"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b23",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "34250407557",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "79",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "303",
+                                    "@last": "306"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "ce:given-name": "Leon",
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Mirsky",
+                                "ce:indexed-name": "Mirsky L."
+                            }]},
+                            "ref-sourcetitle": "Monatsh. Math."
+                        },
+                        "ce:source-text": "Leon Mirsky. A trace inequality of john von neumann. Monatshefte für mathematik, 79 (4) (1975) 303\u2013306."
+                    },
+                    {
+                        "ref-fulltext": "Boyd, Stephen P., Parikh, Neal, Chu, Eric, Peleato, Borja, Eckstein, Jonathan, Distributed optimization and statistical learning via the alternating direction method of multipliers. Found. Trends Mach. Learn. 3:1 (2011), 1\u2013122.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Distributed optimization and statistical learning via the alternating direction method of multipliers"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b24",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "80051762104",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "122"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Stephen P.",
+                                    "@seq": "1",
+                                    "ce:initials": "S.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boyd",
+                                    "ce:indexed-name": "Boyd S.P."
+                                },
+                                {
+                                    "ce:given-name": "Neal",
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parikh",
+                                    "ce:indexed-name": "Parikh N."
+                                },
+                                {
+                                    "ce:given-name": "Eric",
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chu",
+                                    "ce:indexed-name": "Chu E."
+                                },
+                                {
+                                    "ce:given-name": "Borja",
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peleato",
+                                    "ce:indexed-name": "Peleato B."
+                                },
+                                {
+                                    "ce:given-name": "Jonathan",
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eckstein",
+                                    "ce:indexed-name": "Eckstein J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Found. Trends Mach. Learn."
+                        },
+                        "ce:source-text": "Stephen P. Boyd, Neal Parikh, Eric Chu, Borja Peleato, and Jonathan Eckstein. Distributed optimization and statistical learning via the alternating direction method of multipliers. Found. Trends Mach. Learn., 3 (1) (2011) 1\u2013122."
+                    },
+                    {
+                        "ref-fulltext": "Liu, Qing, Lai, Zhihui, Zhou, Zongwei, Kuang, Fangjun, Jin, Zhong, A truncated nuclear norm regularization method based on weighted residual error for matrix completion. IEEE Trans. Image Process. 25:1 (2016), 316\u2013330.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "A truncated nuclear norm regularization method based on weighted residual error for matrix completion"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b25",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85009423215",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "25",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "316",
+                                    "@last": "330"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Qing",
+                                    "@seq": "1",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Q."
+                                },
+                                {
+                                    "ce:given-name": "Zhihui",
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Z."
+                                },
+                                {
+                                    "ce:given-name": "Zongwei",
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Z."
+                                },
+                                {
+                                    "ce:given-name": "Fangjun",
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuang",
+                                    "ce:indexed-name": "Kuang F."
+                                },
+                                {
+                                    "ce:given-name": "Zhong",
+                                    "@seq": "5",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Z."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Qing Liu, Zhihui Lai, Zongwei Zhou, Fangjun Kuang, and Zhong Jin. A truncated nuclear norm regularization method based on weighted residual error for matrix completion. IEEE Trans. Image Process., 25 (1) (2016) 316\u2013330."
+                    },
+                    {
+                        "ref-fulltext": "Gu, Shuhang, Xie, Qi, Meng, Deyu, Zuo, Wangmeng, Feng, Xiangchu, Zhang, Lei, Weighted nuclear norm minimization and its applications to low level vision. Int. J. Comput. Vis. 121:2 (2017), 183\u2013208.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Weighted nuclear norm minimization and its applications to low level vision"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b26",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84978759640",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "121",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "183",
+                                    "@last": "208"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Shuhang",
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu S."
+                                },
+                                {
+                                    "ce:given-name": "Qi",
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xie",
+                                    "ce:indexed-name": "Xie Q."
+                                },
+                                {
+                                    "ce:given-name": "Deyu",
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meng",
+                                    "ce:indexed-name": "Meng D."
+                                },
+                                {
+                                    "ce:given-name": "Wangmeng",
+                                    "@seq": "4",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zuo",
+                                    "ce:indexed-name": "Zuo W."
+                                },
+                                {
+                                    "ce:given-name": "Xiangchu",
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng X."
+                                },
+                                {
+                                    "ce:given-name": "Lei",
+                                    "@seq": "6",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Comput. Vis."
+                        },
+                        "ce:source-text": "Shuhang Gu, Qi Xie, Deyu Meng, Wangmeng Zuo, Xiangchu Feng, and Lei Zhang. Weighted nuclear norm minimization and its applications to low level vision. Int. J. Comput. Vis., 121 (2) (2017) 183\u2013208."
+                    },
+                    {
+                        "ref-fulltext": "Xue, Shengke, Qiu, Wenyuan, Liu, Fan, Jin, Xinyu, Double weighted truncated nuclear norm regularization for low-rank matrix completion. 2019 CoRR, abs/1901.01711.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Double weighted truncated nuclear norm regularization for low-rank matrix completion"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b27",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1901.01711",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85101290025",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "CoRR",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Shengke",
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue S."
+                                },
+                                {
+                                    "ce:given-name": "Wenyuan",
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qiu",
+                                    "ce:indexed-name": "Qiu W."
+                                },
+                                {
+                                    "ce:given-name": "Fan",
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu F."
+                                },
+                                {
+                                    "ce:given-name": "Xinyu",
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin X."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Shengke Xue, Wenyuan Qiu, Fan Liu, and Xinyu Jin. Double weighted truncated nuclear norm regularization for low-rank matrix completion. CoRR, abs/1901.01711, 2019."
+                    },
+                    {
+                        "ref-fulltext": "Wang, Zhou, Bovik, Alan C., Sheikh, Hamid R., Simoncelli, Eero P., Image quality assessment: from error visibility to structural similarity. IEEE Trans. Image Process. 13:4 (2004), 600\u2013612.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Image quality assessment: from error visibility to structural similarity"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b28",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "1942436689",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "600",
+                                    "@last": "612"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Zhou",
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Z."
+                                },
+                                {
+                                    "ce:given-name": "Alan C.",
+                                    "@seq": "2",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bovik",
+                                    "ce:indexed-name": "Bovik A.C."
+                                },
+                                {
+                                    "ce:given-name": "Hamid R.",
+                                    "@seq": "3",
+                                    "ce:initials": "H.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sheikh",
+                                    "ce:indexed-name": "Sheikh H.R."
+                                },
+                                {
+                                    "ce:given-name": "Eero P.",
+                                    "@seq": "4",
+                                    "ce:initials": "E.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simoncelli",
+                                    "ce:indexed-name": "Simoncelli E.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Image Process."
+                        },
+                        "ce:source-text": "Zhou Wang, Alan C. Bovik, Hamid R. Sheikh, and Eero P. Simoncelli. Image quality assessment: from error visibility to structural similarity. IEEE Trans. Image Process., 13 (4) (2004) 600\u2013612."
+                    },
+                    {
+                        "ref-fulltext": "Kyrchei, I.I., Determinantal representations of the quaternion weighted moore-penrose inverse and its applications. Advances in Mathematics Research, 2017, 35\u201396.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Determinantal representations of the quaternion weighted moore-penrose inverse and its applications"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b29",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85044594865",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "35",
+                                "@last": "96"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "I.I.",
+                                "@_fa": "true",
+                                "ce:surname": "Kyrchei",
+                                "ce:indexed-name": "Kyrchei I.I."
+                            }]},
+                            "ref-sourcetitle": "Advances in Mathematics Research"
+                        },
+                        "ce:source-text": "II Kyrchei. Determinantal representations of the quaternion weighted moore-penrose inverse and its applications. In Advances in mathematics research, pages 35\u201396. 2017."
+                    },
+                    {
+                        "ref-fulltext": "Marshall, Albert W., Olkin, Ingram, Arnold, Barry C., Inequalities: Theory of Majorization and its Applications, Vol. 143. 1979, Springer.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1979"},
+                            "ref-title": {"ref-titletext": "Inequalities: Theory of Majorization and its Applications, Vol. 143"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b30",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003428399",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Albert W.",
+                                    "@seq": "1",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marshall",
+                                    "ce:indexed-name": "Marshall A.W."
+                                },
+                                {
+                                    "ce:given-name": "Ingram",
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olkin",
+                                    "ce:indexed-name": "Olkin I."
+                                },
+                                {
+                                    "ce:given-name": "Barry C.",
+                                    "@seq": "3",
+                                    "ce:initials": "B.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Arnold",
+                                    "ce:indexed-name": "Arnold B.C."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Albert W Marshall, Ingram Olkin, and Barry C Arnold. Inequalities: theory of majorization and its applications, volume 143. Springer, 1979."
+                    },
+                    {
+                        "ref-fulltext": "Horn, Roger A., Johnson, Charles R., Matrix Analysis. second ed., 2012, Cambridge University Press.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Matrix Analysis"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b31",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0004151494",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "second ed. Cambridge University Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Roger A.",
+                                    "@seq": "1",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Horn",
+                                    "ce:indexed-name": "Horn R.A."
+                                },
+                                {
+                                    "ce:given-name": "Charles R.",
+                                    "@seq": "2",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johnson",
+                                    "ce:indexed-name": "Johnson C.R."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Roger A. Horn and Charles R. Johnson. Matrix Analysis, 2nd Ed. Cambridge University Press, 2012."
+                    },
+                    {
+                        "ref-fulltext": "Jiang, Tongsong, Wei, Musheng, Equality constrained least squares problem over quaternion field. Appl. Math. Lett. 16:6 (2003), 883\u2013888.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Equality constrained least squares problem over quaternion field"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b32",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0141796638",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "883",
+                                    "@last": "888"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "ce:given-name": "Tongsong",
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang T."
+                                },
+                                {
+                                    "ce:given-name": "Musheng",
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wei",
+                                    "ce:indexed-name": "Wei M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl. Math. Lett."
+                        },
+                        "ce:source-text": "Tongsong Jiang and Musheng Wei. Equality constrained least squares problem over quaternion field. Appl. Math. Lett., 16 (6) (2003) 883\u2013888."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Taipa",
+        "@id": "60022317",
+        "affilname": "University of Macau",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317",
+        "affiliation-country": "Macao"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85117100551",
+        "dc:description": "In recent years, quaternion matrix completion (QMC) based on low-rank regularization has been gradually used in image processing. Unlike low-rank matrix completion (LRMC) which handles RGB images by recovering each color channel separately, QMC models retain the connection of three channels and process them as a whole. Most of the existing quaternion-based methods formulate low-rank QMC (LRQMC) as a quaternion nuclear norm (a convex relaxation of the rank) minimization problem. The main limitation of these approaches is that they minimize the singular values simultaneously such that cannot approximate low-rank attributes efficiently. To achieve a more accurate low-rank approximation, we introduce a quaternion truncated nuclear norm (QTNN) for LRQMC and utilize the alternating direction method of multipliers (ADMM) to get the optimization in this paper. Further, we propose weights to the residual error quaternion matrix during the update process for accelerating the convergence of the QTNN method with admissible performance. The weighted method utilizes a concise gradient descent strategy which has a theoretical guarantee in optimization. The effectiveness of our method is illustrated by experiments on real visual data sets.",
+        "prism:coverDate": "2021-11-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85117100551",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Liqiao",
+            "preferred-name": {
+                "ce:given-name": "Liqiao",
+                "ce:initials": "L.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60022317",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317"
+            },
+            "ce:surname": "Yang",
+            "@auid": "57222070456",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57222070456",
+            "ce:indexed-name": "Yang L."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85117100551"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85117100551&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85117100551&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Journal of Visual Communication and Image Representation",
+        "source-id": "25592",
+        "pii": "S1047320321002200",
+        "citedby-count": "5",
+        "prism:volume": "81",
+        "subtype": "ar",
+        "dc:title": "Weighted truncated nuclear norm regularization for low-rank quaternion matrix completion",
+        "openaccess": "2",
+        "openaccessFlag": null,
+        "prism:doi": "10.1016/j.jvcir.2021.103335",
+        "prism:issn": "10959076 10473203",
+        "publishercopyright": "© 2021",
+        "article-number": "103335",
+        "dc:identifier": "SCOPUS_ID:85117100551",
+        "dc:publisher": "Academic Press Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Images processing",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Low-rank",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Matrix completion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Nuclear norm regularizations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Optimisations",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion matrix",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion matrix completion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion truncated nuclear norm",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Regularisation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Weight",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Low-rank"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion matrix completion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternion truncated nuclear norm"
+        },
+        {
+            "@_fa": "true",
+            "$": "Weights"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Signal Processing",
+            "@code": "1711",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Media Technology",
+            "@code": "2214",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Liqiao",
+            "preferred-name": {
+                "ce:given-name": "Liqiao",
+                "ce:initials": "L.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang L."
+            },
+            "@seq": "1",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60022317",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317"
+            },
+            "ce:surname": "Yang",
+            "@auid": "57222070456",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57222070456",
+            "ce:indexed-name": "Yang L."
+        },
+        {
+            "ce:given-name": "Kit Ian",
+            "preferred-name": {
+                "ce:given-name": "Kit Ian",
+                "ce:initials": "K.I.",
+                "ce:surname": "Kou",
+                "ce:indexed-name": "Kou K.I."
+            },
+            "@seq": "2",
+            "ce:initials": "K.I.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60022317",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317"
+            },
+            "ce:surname": "Kou",
+            "@auid": "7003837546",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7003837546",
+            "ce:indexed-name": "Kou K.I."
+        },
+        {
+            "ce:given-name": "Jifei",
+            "preferred-name": {
+                "ce:given-name": "Jifei",
+                "ce:initials": "J.",
+                "ce:surname": "Miao",
+                "ce:indexed-name": "Miao J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60022317",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60022317"
+            },
+            "ce:surname": "Miao",
+            "@auid": "57201452670",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201452670",
+            "ce:indexed-name": "Miao J."
+        }
+    ]}
+}}

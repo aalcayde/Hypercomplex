@@ -1,0 +1,855 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "15",
+                "@year": "2019",
+                "@timestamp": "2019-11-15T11:46:58.000058-05:00",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2013",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "35-959 Rzeszow",
+                        "country": "Poland",
+                        "address-part": "PowstancowWarszawy St. 8",
+                        "@afid": "60032402",
+                        "@country": "pol",
+                        "organization": {"$": "Rzeszów University of Technology, Department of Avionics and Control Systems"},
+                        "affiliation-id": {
+                            "@afid": "60032402",
+                            "@dptid": "104651243"
+                        },
+                        "@dptid": "104651243"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Grzegorz",
+                            "preferred-name": {
+                                "ce:given-name": "Grzegorz",
+                                "ce:initials": "G.",
+                                "ce:surname": "Kopecki",
+                                "ce:indexed-name": "Kopecki G."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "G.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kopecki",
+                            "@auid": "55923088100",
+                            "ce:indexed-name": "Kopecki G."
+                        },
+                        {
+                            "ce:given-name": "Andrzej",
+                            "preferred-name": {
+                                "ce:given-name": "Andrzej",
+                                "ce:initials": "A.",
+                                "ce:surname": "Tomczyk",
+                                "ce:indexed-name": "Tomczyk A."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "A.",
+                            "@date-locked": "2018-11-21T17:30:56.048",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Tomczyk",
+                            "@auid": "56045961900",
+                            "ce:indexed-name": "Tomczyk A."
+                        },
+                        {
+                            "ce:given-name": "Paweł",
+                            "preferred-name": {
+                                "ce:given-name": "Paweł",
+                                "ce:initials": "P.",
+                                "ce:surname": "Rzucidlo",
+                                "ce:indexed-name": "Rzucidlo P."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Rzucidlo",
+                            "@auid": "56112333800",
+                            "ce:indexed-name": "Rzucidlo P."
+                        }
+                    ]
+                },
+                "citation-title": "Algorithms of measurement system for a micro uav",
+                "abstracts": "The article presents a measurement system for a micro UAV designed at the Departmentof Avionics and Control Systems of Rzeszów University of Technology. Since the project is basedon earlier projects, e.g.[5][7][9][12][3][2][10], the introduction begins with their short presentation [they are mentioned in the introduction first]. Then, the current project is discussed. The majorobjective of the project is to create a miniature autopilot cooperating with navigation units, datatransmission units and measurement units. The system is based on Polish technological solutions.The autopilot is designed as a single unit, however the system is open and it allows you to usedifferent elements. The system development is also possible. In-flight testing will be realized withthe use of two unmanned flying platforms equipped with an electrical engine and a piston engine.The total mass of the platforms is 5 kg and 25 kg respectively. The article presents the structure ofthe control and navigation system and then, the structure of the measurement system. Themeasurement units consist of a GPS receiver, an attitude and heading reference system (AHRS) andan air data computer (ADC). Similar configuration is used in other micro UAV solutions, such asMicropilot or Kestrel. Then, algorithms of the measurement system are described. Navigation isbased on GPS data with a DGPS (Differential GPS) advanced module. If the measurementinformation is complete, GPS data are used to correct measurements from other units. The systemestimates wind disturbances and calculates accelerometers errors. In the case of missing GPSsignals implementation of low-cost sensors may lead to significant measurement errors, and hencenavigation only by means of the INS is impossible. In such a case, navigation is realized with theuse of an inertial navigation system (INS), the magnetic heading measurement and ADC. AHRSunit algorithms use quaternion algebra for attitude calculation. For correction, complementaryfiltering is implemented[1],[4]. The correction signal for the attitude (pitch and roll angles) iscalculated with the use of acceleration measurements. Measurements of accelerations and yaw ratesare used for the correction switching mechanism, since in dynamic states signals calculated fromaccelerations cannot be used for correction. Heading is corrected by means of magnetic headingmeasurement. ADC algorithms are based on typical aerodynamic dependences. © (2013) Trans Tech Publications, Switzerland.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "35-959 Rzeszow",
+                        "country": "Poland",
+                        "address-part": "PowstancowWarszawy St. 8",
+                        "@country": "pol",
+                        "organization": {"$": "Rzeszów University of Technology, Department of Avionics and Control Systems"}
+                    },
+                    "person": {
+                        "ce:initials": "G.",
+                        "ce:surname": "Kopecki",
+                        "ce:indexed-name": "Kopecki G."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "MAV",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Measurement system",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Navigation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "UAV",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.ttp.net",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Diffusion and Defect Data Pt.B: Solid State Phenomena",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "198"},
+                        "pagerange": {
+                            "@first": "165",
+                            "@last": "170"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783037856376",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "sourcetitle": "Solid State Phenomena",
+                    "publicationdate": {
+                        "year": "2013",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2013"
+                        }
+                    },
+                    "codencode": "DDBPE",
+                    "sourcetitle-abbrev": "Diffus Def Data Pt B",
+                    "@country": "che",
+                    "issuetitle": "Mechatronic Systems and Materials IV",
+                    "issn": {
+                        "$": "10120394",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2013"},
+                    "publisher": {
+                        "publishername": "Trans Tech Publications Ltd",
+                        "ce:e-address": {
+                            "$": "ttp@transtec.ch",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "21100305259"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "431.5",
+                                "classification-description": "Air Navigation and Traffic Control"
+                            },
+                            {
+                                "classification-code": "652.1",
+                                "classification-description": "Aircraft, General"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "902.2",
+                                "classification-description": "Codes and Standards"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            },
+                            {
+                                "classification-code": "941",
+                                "classification-description": "Acoustical and Optical Measuring Instruments"
+                            },
+                            {
+                                "classification-code": "942",
+                                "classification-description": "Electric and Electronic Measuring Instruments"
+                            },
+                            {
+                                "classification-code": "943",
+                                "classification-description": "Mechanical and Miscellaneous Measuring Instruments"
+                            },
+                            {
+                                "classification-code": "944",
+                                "classification-description": "Moisture, Pressure and Temperature; Radiation Measuring Instruments"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "3107"},
+                            {"$": "2500"},
+                            {"$": "3104"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "PHYS"},
+                            {"$": "MATE"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2015 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "11",
+                    "@year": "2013",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "368676767",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "329123188",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20131516200240",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84875892523",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84875892523",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.4028/www.scientific.net/SSP.198.165"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "12",
+                "reference": [
+                    {
+                        "ref-fulltext": "R.P.G. Collinson, Introduction to Avionics, Chapman & Hall, London 1996",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003710155",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Chapman & Hall, London",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.P.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Collinson",
+                                "ce:indexed-name": "Collinson R.P.G."
+                            }]},
+                            "ref-sourcetitle": "Introduction to Avionics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Dołega, J. Gruszecki, T. Rogalski, P. Rzucidło, A. Tomczyk, The Possibilities of ChosenApplications of Control and Navigation Systems in General Aviation Aircraft and UnmannedAir Vehicles, Aviation, vol. 11, nr 2, Vilnius Technika, pp. 23-30, Wilno 2007",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "The Possibilities of ChosenApplications of Control and Navigation Systems In General Aviation Aircraft and UnmannedAir Vehicles"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "58649112818",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "23",
+                                    "@last": "30"
+                                }
+                            },
+                            "ref-text": "Vilnius Technika, Wilno 2007",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dołega",
+                                    "ce:indexed-name": "Dolega B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gruszecki",
+                                    "ce:indexed-name": "Gruszecki J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rogalski",
+                                    "ce:indexed-name": "Rogalski T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rzucidło",
+                                    "ce:indexed-name": "Rzucidlo P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomczyk",
+                                    "ce:indexed-name": "Tomczyk A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aviation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Dolega, G. Kopecki, Fault Detection and Isolation in Attitude and Heading ReferenceSystems for Fly-By-Wire Control System For General Aviation Aircraft, General AviationTechnology Conference and Exhibit, Wichita, Kansas 2006",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Fault Detection and Isolation in Attitude and Heading ReferenceSystems for Fly-By-Wire Control System For General Aviation Aircraft"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875903860",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Wichita, Kansas",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dolega",
+                                    "ce:indexed-name": "Dolega B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kopecki",
+                                    "ce:indexed-name": "Kopecki G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "General AviationTechnology Conference and Exhibit"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Z. Gosiewski, A. Ortyl, Algorytmy inercjalnego bezkardanowego system orientacji ipołożenia obiektu o ruchu przestrzennym, Biblioteka Naukowa Instytutu Lotnictwa,Warszawa 1999 (In Polish)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Algorytmy inercjalnego bezkardanowego system orientacji ipołożenia obiektu o ruchu przestrzennym"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0009489882",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Warszawa, In Polish",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gosiewski",
+                                    "ce:indexed-name": "Gosiewski Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ortyl",
+                                    "ce:indexed-name": "Ortyl A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Biblioteka Naukowa Instytutu Lotnictwa"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Gruszecki (red.), Bezpilotowe aparaty lataja{ogonek}ce. Oficyna Wydawnicza PolitechnikiRzeszowskiej, Rzeszów, 2002. (In Polish)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Bezpilotowe aparaty lataja{ogonek}ce. Oficyna Wydawnicza PolitechnikiRzeszowskiej"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875880760",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "In Polish",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Gruszecki",
+                                "ce:indexed-name": "Gruszecki J."
+                            }]},
+                            "ref-sourcetitle": "Rzeszów"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Kopecki, Low Cost INS-GPS Integrated Navigation System with Estimators ofAccelerometers Bias, Mechatronic Systems and Materials, Bialystok 2012 (in print)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875879432",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Mechatronic Systems and Materials, Bialystok, (in print)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "G.",
+                                "@_fa": "true",
+                                "ce:surname": "Kopecki",
+                                "ce:indexed-name": "Kopecki G."
+                            }]},
+                            "ref-sourcetitle": "Low Cost INS-GPS Integrated Navigation System With Estimators OfAccelerometers Bias"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "G. Kopecki J. Pieniazek, T. Rogalski, P. Rzucidlo, A. Tomczyk, A Proposal of Navigationand Control System for Small UAV, UAV World Conference, Frankfurt 2008.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "A Proposal of Navigationand Control System for Small UAV"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84902948003",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kopecki",
+                                    "ce:indexed-name": "Kopecki G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pieniazek",
+                                    "ce:indexed-name": "Pieniazek J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rogalski",
+                                    "ce:indexed-name": "Rogalski T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rzucidlo",
+                                    "ce:indexed-name": "Rzucidlo P."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomczyk",
+                                    "ce:indexed-name": "Tomczyk A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "UAV World Conference, Frankfurt"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "E. H. J. Pallett, Aircraft Instruments, Pitman Publishing, 197.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-title": {"ref-titletext": "Aircraft Instruments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84902898783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "197"}},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.H.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Pallett",
+                                "ce:indexed-name": "Pallett E.H.J."
+                            }]},
+                            "ref-sourcetitle": "Pitman Publishing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. Pieniazek, Software Compensation for Air Data Computer Sensors, ConferenceOptoelectronics and Electronics Sensors V, Rzeszow 2002.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875885222",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "ConferenceOptoelectronics and Electronics Sensors V, Rzeszow",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Pieniazek",
+                                "ce:indexed-name": "Pieniazek J."
+                            }]},
+                            "ref-sourcetitle": "Software Compensation For Air Data Computer Sensors"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. Rogalski, A. Tomczyk, Low-Cost Attitude Reference System for Unmanned Air Vehicle,AIAA paper No. AIAA-2005-6965, conference Infotech@Aerospace, Arlington, VA, USA 2005",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Low-Cost Attitude Reference System for Unmanned Air Vehicle"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875890572",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "paper No. AIAA-2005-6965, conference Infotech@Aerospace, Arlington, VA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rogalski",
+                                    "ce:indexed-name": "Rogalski T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomczyk",
+                                    "ce:indexed-name": "Tomczyk A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "AIAA"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Stefanowicz, Pokładowe układy Pomiarowe, Wydawnictwa Politechniki Warszawskiej,Warszawa 1984 (in Polish)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Pokładowe układy Pomiarowe"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84875877863",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Warszawa, (in Polish)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Stefanowicz",
+                                "ce:indexed-name": "Stefanowicz A."
+                            }]},
+                            "ref-sourcetitle": "Wydawnictwa Politechniki Warszawskiej"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Tomczyk, Testing the Attitude and Heading Reference System, Aircraft Engineering andAerospace Technology: an International Journal, vol. 74, no 2, 2002.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Testing the Attitude and Heading Reference System"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036286080",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "74",
+                                "@issue": "2"
+                            }},
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Tomczyk",
+                                "ce:indexed-name": "Tomczyk A."
+                            }]},
+                            "ref-sourcetitle": "Aircraft Engineering AndAerospace Technology: An International Journal"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Rzeszow",
+        "@id": "60032402",
+        "affilname": "Politechnika Rzeszowska im. Ignacego Łukasiewicza",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032402",
+        "affiliation-country": "Poland"
+    },
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-84875892523",
+        "dc:description": "The article presents a measurement system for a micro UAV designed at the Departmentof Avionics and Control Systems of Rzeszów University of Technology. Since the project is basedon earlier projects, e.g.[5][7][9][12][3][2][10], the introduction begins with their short presentation [they are mentioned in the introduction first]. Then, the current project is discussed. The majorobjective of the project is to create a miniature autopilot cooperating with navigation units, datatransmission units and measurement units. The system is based on Polish technological solutions.The autopilot is designed as a single unit, however the system is open and it allows you to usedifferent elements. The system development is also possible. In-flight testing will be realized withthe use of two unmanned flying platforms equipped with an electrical engine and a piston engine.The total mass of the platforms is 5 kg and 25 kg respectively. The article presents the structure ofthe control and navigation system and then, the structure of the measurement system. Themeasurement units consist of a GPS receiver, an attitude and heading reference system (AHRS) andan air data computer (ADC). Similar configuration is used in other micro UAV solutions, such asMicropilot or Kestrel. Then, algorithms of the measurement system are described. Navigation isbased on GPS data with a DGPS (Differential GPS) advanced module. If the measurementinformation is complete, GPS data are used to correct measurements from other units. The systemestimates wind disturbances and calculates accelerometers errors. In the case of missing GPSsignals implementation of low-cost sensors may lead to significant measurement errors, and hencenavigation only by means of the INS is impossible. In such a case, navigation is realized with theuse of an inertial navigation system (INS), the magnetic heading measurement and ADC. AHRSunit algorithms use quaternion algebra for attitude calculation. For correction, complementaryfiltering is implemented[1],[4]. The correction signal for the attitude (pitch and roll angles) iscalculated with the use of acceleration measurements. Measurements of accelerations and yaw ratesare used for the correction switching mechanism, since in dynamic states signals calculated fromaccelerations cannot be used for correction. Heading is corrected by means of magnetic headingmeasurement. ADC algorithms are based on typical aerodynamic dependences. © (2013) Trans Tech Publications, Switzerland.",
+        "prism:coverDate": "2013-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84875892523",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Grzegorz",
+            "preferred-name": {
+                "ce:given-name": "Grzegorz",
+                "ce:initials": "G.",
+                "ce:surname": "Kopecki",
+                "ce:indexed-name": "Kopecki G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032402",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032402"
+            },
+            "ce:surname": "Kopecki",
+            "@auid": "55923088100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55923088100",
+            "ce:indexed-name": "Kopecki G."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84875892523"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84875892523&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84875892523&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783037856376",
+        "source-id": "21100305259",
+        "citedby-count": "17",
+        "prism:volume": "198",
+        "subtype": "cp",
+        "dc:title": "Algorithms of measurement system for a micro uav",
+        "openaccess": "0",
+        "prism:issn": "10120394",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Solid State Phenomena",
+        "prism:pageRange": "165-170",
+        "prism:endingPage": "170",
+        "openaccessFlag": "false",
+        "prism:doi": "10.4028/www.scientific.net/SSP.198.165",
+        "prism:startingPage": "165",
+        "dc:identifier": "SCOPUS_ID:84875892523",
+        "dc:publisher": "Trans Tech Publications Ltdttp@transtec.ch"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attitude and heading reference systems (AHRS)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electrical engines",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial navigation systems (INS)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "MAV",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Measurement system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pitch and roll angles",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion algebra",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Switching mechanism",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "MAV"
+        },
+        {
+            "@_fa": "true",
+            "$": "Measurement system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Navigation"
+        },
+        {
+            "@_fa": "true",
+            "$": "UAV"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Atomic and Molecular Physics, and Optics",
+            "@code": "3107",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Materials Science (all)",
+            "@code": "2500",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Grzegorz",
+            "preferred-name": {
+                "ce:given-name": "Grzegorz",
+                "ce:initials": "G.",
+                "ce:surname": "Kopecki",
+                "ce:indexed-name": "Kopecki G."
+            },
+            "@seq": "1",
+            "ce:initials": "G.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032402",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032402"
+            },
+            "ce:surname": "Kopecki",
+            "@auid": "55923088100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55923088100",
+            "ce:indexed-name": "Kopecki G."
+        },
+        {
+            "ce:given-name": "Andrzej",
+            "preferred-name": {
+                "ce:given-name": "Andrzej",
+                "ce:initials": "A.",
+                "ce:surname": "Tomczyk",
+                "ce:indexed-name": "Tomczyk A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032402",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032402"
+            },
+            "ce:surname": "Tomczyk",
+            "@auid": "56045961900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56045961900",
+            "ce:indexed-name": "Tomczyk A."
+        },
+        {
+            "ce:given-name": "Paweł",
+            "preferred-name": {
+                "ce:given-name": "Paweł",
+                "ce:initials": "P.",
+                "ce:surname": "Rzucidlo",
+                "ce:indexed-name": "Rzucidlo P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60032402",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60032402"
+            },
+            "ce:surname": "Rzucidlo",
+            "@auid": "56112333800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56112333800",
+            "ce:indexed-name": "Rzucidlo P."
+        }
+    ]}
+}}

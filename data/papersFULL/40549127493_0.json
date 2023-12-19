@@ -1,0 +1,1612 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "13",
+                "@timestamp": "2021-11-13T18:41:26.000026-05:00",
+                "@year": "2021",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2008",
+                "@month": "03"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Research Grant Council of Hong Kong Special Administrative Region",
+                    "xocs:funding-id": [
+                        {"$": "2050350"},
+                        {"$": "2050410"}
+                    ]
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Chinese University of Hong Kong",
+                    "xocs:funding-agency-acronym": "CUHK",
+                    "xocs:funding-agency": "Chinese University of Hong Kong",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004853",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1819730/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-06-04T01:56:38.244Z",
+            "xocs:funding-text": "Manuscript received January 19, 2007; revised September 10, 2007. This work was supported in part by a Grant under Project 4204/04E from the Research Grant Council of Hong Kong Special Administrative Region and in part by direct Grants under Project Codes 2050350 and 2050410 from the Faculty of Engineering, The Chinese University of Hong Kong, Shatin, Hong Kong.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Shatin",
+                            "country": "Hong Kong",
+                            "@afid": "60002798",
+                            "@country": "hkg",
+                            "organization": [
+                                {"$": "Department of Computer Science and Engineering"},
+                                {"$": "The Chinese University of Hong Kong"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60002798",
+                                "@dptid": "105453073"
+                            },
+                            "@dptid": "105453073"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Ying Kin",
+                                "preferred-name": {
+                                    "ce:given-name": "Ying Kin",
+                                    "ce:initials": "Y.K.",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y.K."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "Y.K.",
+                                "@_fa": "true",
+                                "ce:surname": "Yu",
+                                "@auid": "25928883300",
+                                "ce:indexed-name": "Yu Y.K."
+                            },
+                            {
+                                "ce:given-name": "Kin Hong",
+                                "preferred-name": {
+                                    "ce:given-name": "Kin Hong",
+                                    "ce:initials": "K.H.",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong K.H."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "K.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Wong",
+                                "@auid": "7404758551",
+                                "ce:indexed-name": "Wong K.H."
+                            },
+                            {
+                                "ce:given-name": "Siu Hang",
+                                "preferred-name": {
+                                    "ce:given-name": "Siu Hang",
+                                    "ce:initials": "S.H.",
+                                    "ce:surname": "Or",
+                                    "ce:indexed-name": "Or S.H."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "S.H.",
+                                "@_fa": "true",
+                                "ce:surname": "Or",
+                                "@auid": "7006594248",
+                                "ce:indexed-name": "Or S.H."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Shatin",
+                            "country": "Hong Kong",
+                            "@afid": "60002798",
+                            "@country": "hkg",
+                            "organization": [
+                                {"$": "Department of Information Engineering"},
+                                {"$": "The Chinese University of Hong Kong"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60002798",
+                                "@dptid": "103192690"
+                            },
+                            "@dptid": "103192690"
+                        },
+                        "author": [{
+                            "ce:given-name": "Michael Ming Yuen",
+                            "preferred-name": {
+                                "ce:given-name": "Michael Ming Yuen",
+                                "ce:initials": "M.M.Y.",
+                                "ce:surname": "Chang",
+                                "ce:indexed-name": "Chang M.M.Y."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "M.M.Y.",
+                            "@_fa": "true",
+                            "ce:surname": "Chang",
+                            "@auid": "7404503948",
+                            "ce:indexed-name": "Chang M.M.Y."
+                        }]
+                    }
+                ],
+                "citation-title": "Robust 3-D motion tracking from stereo images: A model-less method",
+                "abstracts": "Traditional vision-based 3-D motion-estimation algorithms require given or calculated 3-D models while the motion is being tracked. We propose a high-speed extended-Kalman-filter-based approach that recovers camera position and orientation from stereo image sequences without prior knowledge, as well as the procedure for the reconstruction of 3-D structures. Empowered by the use of a trifocal tensor, the computation step of 3-D models can be eliminated. The algorithm is thus flexible and can be applied to a wide range of domains. The twist motion model is also adopted to parameterize the 3-D motion. It is minimal since it only has six parameters as opposed to seven parameters in quaternion and 12 parameters in matrix representation. The motion representation is robust because it does not suffer from singularities as Euler angles. Due to the fact that the number of parameters to be estimated is reduced, our algorithm is more efficient, stable, and accurate than traditional approaches. The proposed method has been applied to recover the motion from stereo image sequences taken by a robot and a handheld stereo rig. The results are accurate compared to the ground truths. It is shown in the experiment that our algorithm is not susceptible to outlying point features with the application of a validation gate. © 2008 IEEE.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Shatin",
+                        "country": "Hong Kong",
+                        "@country": "hkg",
+                        "organization": [
+                            {"$": "Department of Computer Science and Engineering"},
+                            {"$": "The Chinese University of Hong Kong"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "Y.K.",
+                        "ce:surname": "Yu",
+                        "ce:indexed-name": "Yu Y.K."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Kalman filtering",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pose tracking",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Robot vision",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Stereo vision",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Structure and motion",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Trifocal tensor",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Twist",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Visual servoing",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "IEIMA",
+                    "sourcetitle-abbrev": "IEEE Trans. Instrum. Meas.",
+                    "@country": "usa",
+                    "issn": {
+                        "$": "00189456",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "57",
+                            "@issue": "3"
+                        },
+                        "pagerange": {
+                            "@first": "622",
+                            "@last": "630"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2008"},
+                    "sourcetitle": "IEEE Transactions on Instrumentation and Measurement",
+                    "@srcid": "15361",
+                    "publicationdate": {
+                        "month": "03",
+                        "year": "2008",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "March 2008"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "716.1"},
+                            {"$": "716.2"},
+                            {"$": "723.5"},
+                            {"$": "741.1"}
+                        ]
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "3105"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "PHYS"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2008 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "17",
+                    "@year": "2008",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "351359257",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20081211150825",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "40549127493",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "40549127493",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/TIM.2007.911641"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "28",
+                "reference": [
+                    {
+                        "ref-fulltext": "W. J. Wilson, C. C. Williams Hulls, and G. S. Bell, \"Relative end-effector control using Cartesian position based visual servoing,\" IEEE Trans. Robot. Autom., vol. 12, no. 5, pp. 684-696, Oct. 1996.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Relative end-effector control using Cartesian position based visual servoing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030259109",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "684",
+                                    "@last": "696"
+                                }
+                            },
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson W.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams Hulls",
+                                    "ce:indexed-name": "Williams Hulls C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bell",
+                                    "ce:indexed-name": "Bell G.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Robot. Autom"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "V. Lippiello, B. Siciliano, and L. Villani, \"Position and orientation estimation based on Kalman filtering of stereo images,\" in Proc. IEEE Int. Conf. Control Appl., Mexico, Mexico, Sep. 2001, pp. 702-707.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Position and orientation estimation based on Kalman filtering of stereo images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035695144",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "702",
+                                "@last": "707"
+                            }},
+                            "ref-text": "Mexico, Mexico, Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lippiello",
+                                    "ce:indexed-name": "Lippiello V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Siciliano",
+                                    "ce:indexed-name": "Siciliano B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Villani",
+                                    "ce:indexed-name": "Villani L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Control Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "T. J. Broida, S. Chandrashekhar, and R. Chellappa, \"Recursive 3-D motion estimation from a monocular image sequence,\" IEEE Trans. Aerosp. Electron. Syst., vol. 26, no. 4, pp. 639-656, Jul. 1990.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "Recursive 3-D motion estimation from a monocular image sequence"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025457309",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "26",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "639",
+                                    "@last": "656"
+                                }
+                            },
+                            "ref-text": "Jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Broida",
+                                    "ce:indexed-name": "Broida T.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chandrashekhar",
+                                    "ce:indexed-name": "Chandrashekhar S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chellappa",
+                                    "ce:indexed-name": "Chellappa R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Aerosp. Electron. Syst"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Lee and Y. Kay, \"An accurate estimation of 3-D position and orientation of a moving object for robot stereo vision: Kalman filter approach,\" in Proc. IEEE Int. Conf. Robot. Autom., Cincinnati, OIL May 1990, pp. 414-419.",
+                        "@id": "4",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025660827",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "S. Lee and Y. Kay, An accurate estimation of 3-D position and orientation of a moving object for robot stereo vision: Kalman filter approach, in Proc. IEEE Int. Conf. Robot. Autom., Cincinnati, OIL May 1990, pp. 414-419."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. J. Davison and D. W. Murray, \"Simultaneous localization and map-building using active vision,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 24, no. 7, pp. 865-880, Jul. 2002.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Simultaneous localization and map-building using active vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036647318",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "865",
+                                    "@last": "880"
+                                }
+                            },
+                            "ref-text": "Jul",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davison",
+                                    "ce:indexed-name": "Davison A.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murray",
+                                    "ce:indexed-name": "Murray D.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. J. Davison and N. Kita, \"3D simultaneous localisation and map-building using active vision for a robot moving on undulating terrain,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recog., Kauai, HI, Dec. 2001, vol. 1, pp. 384-391.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "3D simultaneous localisation and map-building using active vision for a robot moving on undulating terrain"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035686648",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "384",
+                                    "@last": "391"
+                                }
+                            },
+                            "ref-text": "Kauai, HI, Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davison",
+                                    "ce:indexed-name": "Davison A.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kita",
+                                    "ce:indexed-name": "Kita N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Conf. Comput. Vis. Pattern Recog"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. G. Lowe, \"Fitting parameterized three-dimensional models to images,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 13, no. 5, pp. 441-450, May 1991.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "ref-title": {"ref-titletext": "Fitting parameterized three-dimensional models to images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026154082",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "441",
+                                    "@last": "450"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.G.",
+                                "@_fa": "true",
+                                "ce:surname": "Lowe",
+                                "ce:indexed-name": "Lowe D.G."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Hati and S. Sengupta, \"Robust camera parameter estimation using genetic algorithm,\" Pattern Recognit. Lett., vol. 22, no. 3/4, pp. 289-298, Mar. 2001.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Robust camera parameter estimation using genetic algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035271786",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "3-4"
+                                },
+                                "pagerange": {
+                                    "@first": "289",
+                                    "@last": "298"
+                                }
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hati",
+                                    "ce:indexed-name": "Hati S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sengupta",
+                                    "ce:indexed-name": "Sengupta S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recognit. Lett"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. K. Yu, K. H. Wong, and M. M. Y. Chang, \"Pose estimation for augmented reality applications using genetic algorithm,\" IEEE Trans. Syst., Man, Cybern. B, Cybern., vol. 35, no. 6, pp. 1295-1301, Dec. 2005.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Pose estimation for augmented reality applications using genetic algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "29144512283",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "1295",
+                                    "@last": "1301"
+                                }
+                            },
+                            "ref-text": "Dec",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong K.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M.M.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Syst., Man, Cybern. B, Cybern"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. S. Grewal and A. P. Andrews, Kalman Filtering Theory and Practice Englewood Cliffs, NJ: Prentice-Hall, 1993.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003742537",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Englewood Cliffs, NJ: Prentice-Hall",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grewal",
+                                    "ce:indexed-name": "Grewal M.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrews",
+                                    "ce:indexed-name": "Andrews A.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Kalman Filtering Theory and Practice"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. Hartley and A. Zisserman, Multiple View Geometry in Computer Vision. Cambridge, U.K.: Cambridge Univ. Press, 2000.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003440081",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Cambridge, U.K, Cambridge Univ. Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hartley",
+                                    "ce:indexed-name": "Hartley R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Multiple View Geometry in Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Avidan and A. Shashua, \"Threading fundamental matrices,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 23, no. 1, pp. 73-77, Jan. 2001.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Threading fundamental matrices"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0035111040",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "23",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "73",
+                                    "@last": "77"
+                                }
+                            },
+                            "ref-text": "Jan",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Avidan",
+                                    "ce:indexed-name": "Avidan S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shashua",
+                                    "ce:indexed-name": "Shashua A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. J. Poelman and T. Kanade, \"A paraperspective factorization method for shape and motion recovery,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 19, no. 3, pp. 206-218, Mar. 1997.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "A paraperspective factorization method for shape and motion recovery"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031095356",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "206",
+                                    "@last": "218"
+                                }
+                            },
+                            "ref-text": "Mar",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poelman",
+                                    "ce:indexed-name": "Poelman C.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanade",
+                                    "ce:indexed-name": "Kanade T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Triggs, P. McLauchlan, R. Hartley, and A. Fitzgibbon, \"Bundle adjustment - A modern synthesis,\" in Proc. Int. Workshop Vis. Algorithms: Theory Practice, Corfu, Greece, Sep. 1999, pp. 298-372.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Bundle adjustment - A modern synthesis"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84918550322",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "298",
+                                "@last": "372"
+                            }},
+                            "ref-text": "Corfu, Greece, Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Triggs",
+                                    "ce:indexed-name": "Triggs B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McLauchlan",
+                                    "ce:indexed-name": "McLauchlan P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hartley",
+                                    "ce:indexed-name": "Hartley R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fitzgibbon",
+                                    "ce:indexed-name": "Fitzgibbon A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Int. Workshop Vis. Algorithms: Theory Practice"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Z. Zhang and Y. Shan, \"Incremental motion estimation through modified bundle adjustment,\" in Proc. IEEE Int. Conf. Image Process., Barcelona, Spain, Sep. 2003, vol. 2, pp. 343-346.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Incremental motion estimation through modified bundle adjustment"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0344272201",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "343",
+                                    "@last": "346"
+                                }
+                            },
+                            "ref-text": "Barcelona, Spain, Sep",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shan",
+                                    "ce:indexed-name": "Shan Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Int. Conf. Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Chiuso, P. Favaro, H. Jin, and S. Soatto, \"Structure from motion causally integrated over time,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 24, no. 4, pp. 523-535, Apr. 2002.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Structure from motion causally integrated over time"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036537604",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "523",
+                                    "@last": "535"
+                                }
+                            },
+                            "ref-text": "Apr",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chiuso",
+                                    "ce:indexed-name": "Chiuso A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Favaro",
+                                    "ce:indexed-name": "Favaro P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soatto",
+                                    "ce:indexed-name": "Soatto S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Azarbayejani and A. P. Pentland, \"Recursive estimation of motion, structure, and focal length,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 17, no. 6, pp. 562-575, Jun. 1995.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Recursive estimation of motion, structure, and focal length"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029328016",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "562",
+                                    "@last": "575"
+                                }
+                            },
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Azarbayejani",
+                                    "ce:indexed-name": "Azarbayejani A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pentland",
+                                    "ce:indexed-name": "Pentland A.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. Soatto, R. Frezza, and P. Perona, \"Motion estimation on the essential manifold,\" in Proc. Eur. Conf. Comput. Vis., Stockholm, Sweden, May 1994, pp. 61-72.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Motion estimation on the essential manifold"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85010118883",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "61",
+                                "@last": "72"
+                            }},
+                            "ref-text": "Stockholm, Sweden, May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soatto",
+                                    "ce:indexed-name": "Soatto S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Frezza",
+                                    "ce:indexed-name": "Frezza R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perona",
+                                    "ce:indexed-name": "Perona P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Eur. Conf. Comput. Vis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. K. Yu, K. H. Wong, and M. Y. Y. Chang, \"Merging artificial objects with marker-less video sequences based on the interacting multiple model method,\" IEEE Trans. Multimedia, vol. 8, no. 3, pp. 521-528, Jun. 2006.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Merging artificial objects with marker-less video sequences based on the interacting multiple model method"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33646744443",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "8",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "521",
+                                    "@last": "528"
+                                }
+                            },
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong K.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M.Y.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Multimedia"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. K. Yu, K. H. Wong, M. M. Y. Chang, and S. H. Or, \"Recursive camera-motion estimation with the trifocal tensor,\" IEEE Trans. Syst., Man, Cybern. B, vol. 36, no. 5, pp. 1081-1090, Oct. 2006.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Recursive camera-motion estimation with the trifocal tensor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33749371956",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "36",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1081",
+                                    "@last": "1090"
+                                }
+                            },
+                            "ref-text": "Oct",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong K.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M.M.Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Or",
+                                    "ce:indexed-name": "Or S.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Syst., Man, Cybern. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "R. M. Murray, Z. Li, and S. S. Sastry, A Mathematical Introduction to Robotic Manipulation. Boca Raton, FL: CRC, 1994.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003654667",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Boca Raton, FL: CRC",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Murray",
+                                    "ce:indexed-name": "Murray R.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sastry",
+                                    "ce:indexed-name": "Sastry S.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Mathematical Introduction to Robotic Manipulation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. K. Yu, K. H. Wong, S. H. Or, and M. M. Y. Chang, \"Recursive recovery of position and orientation from stereo image sequences without three-dimensional Structures,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recog., New York, Jun. 2006, vol. 1, pp. 1274-1279.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Recursive recovery of position and orientation from stereo image sequences without three-dimensional Structures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33845577450",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {
+                                    "@first": "1274",
+                                    "@last": "1279"
+                                }
+                            },
+                            "ref-text": "New York, Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong K.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Or",
+                                    "ce:indexed-name": "Or S.H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M.M.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Conf. Comput. Vis. Pattern Recog"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. K. Yu, K. H. Wong, and M. M. Y. Chang, \"Recursive three-dimensional model reconstruction based on Kalman filtering,\" IEEE Trans. Syst., Man, Cybern. B, vol. 35, no. 3, pp. 587-592, Jun. 2005.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Recursive three-dimensional model reconstruction based on Kalman filtering"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "20444412258",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "587",
+                                    "@last": "592"
+                                }
+                            },
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu Y.K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wong",
+                                    "ce:indexed-name": "Wong K.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.M.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang M.M.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Syst., Man, Cybern. B"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J.-Y. Bouguet, Camera Calibration Toolbox for Matlab, Pasadena, CA: Dept. Elect. Eng., California Inst. Technol. Open-source software. [Online]. Available: http://www.vision.caltech.edu/bouguetj/calib_doc/",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.vision.caltech.edu/bouguetj/calib_doc",
+                                "@type": "url"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003957745",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Pasadena, CA: Dept. Elect. Eng, California Inst. Technol. Open-source software, Online, Available",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.-Y.",
+                                "@_fa": "true",
+                                "ce:surname": "Bouguet",
+                                "ce:indexed-name": "Bouguet J.-Y."
+                            }]},
+                            "ref-sourcetitle": "Camera Calibration Toolbox for Matlab"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. Tomasi and T. Kanade, \"Detection and tracking of point features,\" Carnegie Mellon Univ., Pittsburgh, PA, Tech. Rep. CMU-CS-91-132, Apr. 1991.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1991"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003743633",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Carnegie Mellon Univ, Pittsburgh, PA, Tech. Rep. CMU-CS-91-132, Apr",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tomasi",
+                                    "ce:indexed-name": "Tomasi C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanade",
+                                    "ce:indexed-name": "Kanade T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Detection and tracking of point features"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. A. Fischler and R. C. Bolles, \"Random sample concensus: A paradigm for model fitting with applications to image analysis and automated cartography,\" Commun. ACM, vol. 24, no. 6, pp. 381-395, Jun. 1981.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1981"},
+                            "ref-title": {"ref-titletext": "Random sample concensus: A paradigm for model fitting with applications to image analysis and automated cartography"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0019574599",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "381",
+                                    "@last": "395"
+                                }
+                            },
+                            "ref-text": "Jun",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischler",
+                                    "ce:indexed-name": "Fischler M.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bolles",
+                                    "ce:indexed-name": "Bolles R.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Commun. ACM"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "B. Lloyd, Computation of the Fundamental Matrix, Chapel Hill, NC: Dept. Comput. Sci., Univ. North Carolina. Open-source software. [Online]. Available: http://www.cs.unc.edu/~blloyd/comp290-089/fmatrix/",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.cs.unc.edu/~blloyd/comp290-089/fmatrix",
+                                "@type": "url"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33749391068",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Chapel Hill, NC: Dept. Comput. Sci, Univ. North Carolina. Open-source software, Online, Available",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Lloyd",
+                                "ce:indexed-name": "Lloyd B."
+                            }]},
+                            "ref-sourcetitle": "Computation of the Fundamental Matrix"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Y. Bar-Shalom and T. E. Fortmann, Tracking and Data Association. Boston, MA: Academic, 1988.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004235293",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Boston, MA: Academic",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bar-Shalom",
+                                    "ce:indexed-name": "Bar-Shalom Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fortmann",
+                                    "ce:indexed-name": "Fortmann T.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Tracking and Data Association"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Hong Kong",
+        "@id": "60002798",
+        "affilname": "Chinese University of Hong Kong",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798",
+        "affiliation-country": "Hong Kong"
+    },
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "3",
+        "eid": "2-s2.0-40549127493",
+        "dc:description": "Traditional vision-based 3-D motion-estimation algorithms require given or calculated 3-D models while the motion is being tracked. We propose a high-speed extended-Kalman-filter-based approach that recovers camera position and orientation from stereo image sequences without prior knowledge, as well as the procedure for the reconstruction of 3-D structures. Empowered by the use of a trifocal tensor, the computation step of 3-D models can be eliminated. The algorithm is thus flexible and can be applied to a wide range of domains. The twist motion model is also adopted to parameterize the 3-D motion. It is minimal since it only has six parameters as opposed to seven parameters in quaternion and 12 parameters in matrix representation. The motion representation is robust because it does not suffer from singularities as Euler angles. Due to the fact that the number of parameters to be estimated is reduced, our algorithm is more efficient, stable, and accurate than traditional approaches. The proposed method has been applied to recover the motion from stereo image sequences taken by a robot and a handheld stereo rig. The results are accurate compared to the ground truths. It is shown in the experiment that our algorithm is not susceptible to outlying point features with the application of a validation gate. © 2008 IEEE.",
+        "prism:coverDate": "2008-03-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/40549127493",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Ying Kin",
+            "preferred-name": {
+                "ce:given-name": "Ying Kin",
+                "ce:initials": "Y.K.",
+                "ce:surname": "Yu",
+                "ce:indexed-name": "Yu Y.K."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Yu",
+            "@auid": "25928883300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25928883300",
+            "ce:indexed-name": "Yu Y.K."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/40549127493"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=40549127493&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=40549127493&origin=inward"
+            }
+        ],
+        "prism:publicationName": "IEEE Transactions on Instrumentation and Measurement",
+        "source-id": "15361",
+        "citedby-count": "37",
+        "prism:volume": "57",
+        "subtype": "ar",
+        "prism:pageRange": "622-630",
+        "dc:title": "Robust 3-D motion tracking from stereo images: A model-less method",
+        "prism:endingPage": "630",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/TIM.2007.911641",
+        "prism:issn": "00189456",
+        "prism:startingPage": "622",
+        "dc:identifier": "SCOPUS_ID:40549127493"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Euler angle",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Motion tracking",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Stereo image sequence",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Trifocal tensor",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Twist motion",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Kalman filtering"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pose tracking"
+        },
+        {
+            "@_fa": "true",
+            "$": "Robot vision"
+        },
+        {
+            "@_fa": "true",
+            "$": "Stereo vision"
+        },
+        {
+            "@_fa": "true",
+            "$": "Structure and motion"
+        },
+        {
+            "@_fa": "true",
+            "$": "Trifocal tensor"
+        },
+        {
+            "@_fa": "true",
+            "$": "Twist"
+        },
+        {
+            "@_fa": "true",
+            "$": "Visual servoing"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Ying Kin",
+            "preferred-name": {
+                "ce:given-name": "Ying Kin",
+                "ce:initials": "Y.K.",
+                "ce:surname": "Yu",
+                "ce:indexed-name": "Yu Y.K."
+            },
+            "@seq": "1",
+            "ce:initials": "Y.K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Yu",
+            "@auid": "25928883300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25928883300",
+            "ce:indexed-name": "Yu Y.K."
+        },
+        {
+            "ce:given-name": "Kin Hong",
+            "preferred-name": {
+                "ce:given-name": "Kin Hong",
+                "ce:initials": "K.H.",
+                "ce:surname": "Wong",
+                "ce:indexed-name": "Wong K.H."
+            },
+            "@seq": "2",
+            "ce:initials": "K.H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Wong",
+            "@auid": "7404758551",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7404758551",
+            "ce:indexed-name": "Wong K.H."
+        },
+        {
+            "ce:given-name": "Siu Hang",
+            "preferred-name": {
+                "ce:given-name": "Siu Hang",
+                "ce:initials": "S.H.",
+                "ce:surname": "Or",
+                "ce:indexed-name": "Or S.H."
+            },
+            "@seq": "3",
+            "ce:initials": "S.H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Or",
+            "@auid": "7006594248",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7006594248",
+            "ce:indexed-name": "Or S.H."
+        },
+        {
+            "ce:given-name": "Michael Ming Yuen",
+            "preferred-name": {
+                "ce:given-name": "Michael Ming Yuen",
+                "ce:initials": "M.M.Y.",
+                "ce:surname": "Chang",
+                "ce:indexed-name": "Chang M.M.Y."
+            },
+            "@seq": "4",
+            "ce:initials": "M.M.Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60002798",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60002798"
+            },
+            "ce:surname": "Chang",
+            "@auid": "7404503948",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7404503948",
+            "ce:indexed-name": "Chang M.M.Y."
+        }
+    ]}
+}}

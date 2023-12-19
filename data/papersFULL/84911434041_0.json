@@ -1,0 +1,1318 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "27",
+                "@timestamp": "2020-07-27T15:28:11.000011-04:00",
+                "@year": "2020",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2014",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60114004",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Kitware"},
+                                {"$": "Inc"}
+                            ],
+                            "affiliation-id": {"@afid": "60114004"}
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Julien",
+                                "preferred-name": {
+                                    "ce:given-name": "Julien",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Finet",
+                                    "ce:indexed-name": "Finet J."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Finet",
+                                "@auid": "38561197900",
+                                "ce:indexed-name": "Finet J."
+                            },
+                            {
+                                "ce:given-name": "Ricardo",
+                                "preferred-name": {
+                                    "ce:given-name": "Ricardo",
+                                    "ce:initials": "R.",
+                                    "ce:surname": "Ortiz",
+                                    "ce:indexed-name": "Ortiz R."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Ortiz",
+                                "@auid": "56421498000",
+                                "ce:indexed-name": "Ortiz R."
+                            },
+                            {
+                                "ce:given-name": "Johan",
+                                "preferred-name": {
+                                    "ce:given-name": "Johan",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Andruejol",
+                                    "ce:indexed-name": "Andruejol J."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Andruejol",
+                                "@auid": "55823575600",
+                                "ce:indexed-name": "Andruejol J."
+                            },
+                            {
+                                "ce:given-name": "Andinet",
+                                "preferred-name": {
+                                    "ce:given-name": "Andinet",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Enquobahrie",
+                                    "ce:indexed-name": "Enquobahrie A."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Enquobahrie",
+                                "@auid": "7801316765",
+                                "ce:indexed-name": "Enquobahrie A."
+                            },
+                            {
+                                "ce:given-name": "Julien",
+                                "preferred-name": {
+                                    "ce:given-name": "Julien",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Jomier",
+                                    "ce:indexed-name": "Jomier J."
+                                },
+                                "@seq": "5",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Jomier",
+                                "@auid": "6507216580",
+                                "ce:indexed-name": "Jomier J."
+                            },
+                            {
+                                "ce:given-name": "Stephen",
+                                "preferred-name": {
+                                    "ce:given-name": "Stephen",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Aylward",
+                                    "ce:indexed-name": "Aylward S."
+                                },
+                                "@seq": "7",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Aylward",
+                                "@auid": "7004344836",
+                                "ce:indexed-name": "Aylward S."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "United States",
+                            "@afid": "60019228",
+                            "@country": "usa",
+                            "organization": {"$": "Air Force Research Laboratory"},
+                            "affiliation-id": {"@afid": "60019228"}
+                        },
+                        "author": [{
+                            "ce:given-name": "Jason",
+                            "preferred-name": {
+                                "ce:given-name": "Jason",
+                                "ce:initials": "J.",
+                                "ce:surname": "Payne",
+                                "ce:indexed-name": "Payne J."
+                            },
+                            "@seq": "6",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Payne",
+                            "@auid": "57196532742",
+                            "ce:indexed-name": "Payne J."
+                        }]
+                    }
+                ],
+                "citation-title": "Bender: An open source software for efficient model posing and morphing",
+                "abstracts": "© Springer International Publishing Switzerland 2014.In this paper, we present Bender, an interactive and freely available software application for changing the pose of anatomical models that are represented as labeled, voxel-based volumes.Voxelized anatomical models are used in numerous applications including the computation of specific absorption rates associated with cell phone transmission energies, radiation therapy, and electromagnetic dosimetry simulation. Other applications range from the study of ergonomics to the design of clothing. Typically, the anatomical pose of a voxelized model is limited by the imaging device used to acquire the source anatomical data; however, absorption of emitted energies and the fit of clothes will change based on anatomic pose.Bender provides an intuitive, workflow-based user-interface to an extensible framework for changing the pose of anatomic models. Bender is implemented as a customized version of 3D Slicer, an image analysis and visualization framework that is widely used in the medical computing research community. The currently available repositioning methods in Bender are based on computer-graphics techniques for rigging, skinning, and resampling voxelized anatomical models. In this paper we present the software and compare two resampling methods: a novel extension to dual quaternions and finite element modeling (FEM) techniques. We show that FEM can be used to quickly and effectively resample repositioned anatomic models.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United States",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Kitware"},
+                            {"$": "Inc"}
+                        ]
+                    },
+                    "person": {
+                        "ce:given-name": "Julien",
+                        "ce:initials": "J.",
+                        "ce:surname": "Finet",
+                        "ce:indexed-name": "Finet J."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "volumetitle": "Biomedical Simulation - 6th International Symposium, ISBMS 2014, Proceedings",
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "8789"},
+                        "pagerange": {
+                            "@first": "203",
+                            "@last": "210"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783319120560",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1of1"},
+                        "confevent": {
+                            "confname": "6th International Symposium on Biomedical Simulation, ISBMS 2014",
+                            "confnumber": "6",
+                            "confseriestitle": "International Symposium on Biomedical Simulation",
+                            "conflocation": {
+                                "@country": "fra",
+                                "city": "Strasbourg"
+                            },
+                            "confcode": "109579",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "17",
+                                    "@year": "2014",
+                                    "@month": "10"
+                                },
+                                "startdate": {
+                                    "@day": "16",
+                                    "@year": "2014",
+                                    "@month": "10"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": [
+                        {"contributor": {
+                            "ce:given-name": "Fernando",
+                            "@seq": "1",
+                            "ce:initials": "F.",
+                            "ce:e-address": {
+                                "$": "f.bello@imperial.ac.uk",
+                                "@type": "email"
+                            },
+                            "ce:surname": "Bello",
+                            "@role": "edit",
+                            "ce:indexed-name": "Bello F."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Stéphane",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:e-address": {
+                                "$": "stephane.cotin@inria.fr",
+                                "@type": "email"
+                            },
+                            "ce:surname": "Cotin",
+                            "@role": "edit",
+                            "ce:indexed-name": "Cotin S."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Stéphane",
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "ce:e-address": {
+                                "$": "stephane.cotin@inria.fr",
+                                "@type": "email"
+                            },
+                            "ce:surname": "Cotin",
+                            "@role": "edit",
+                            "ce:indexed-name": "Cotin S."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2014",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2014"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2014"},
+                    "publisher": {"publishername": "Springer Verlag"},
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.1",
+                                "classification-description": "Biomedical Engineering"
+                            },
+                            {
+                                "classification-code": "461.8.2",
+                                "classification-description": "Bioinformatics"
+                            },
+                            {
+                                "classification-code": "722.2",
+                                "classification-description": "Computer Peripheral Equipment"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "746",
+                                "classification-description": "Imaging Techniques"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "19",
+                    "@timestamp": "BST 14:02:11",
+                    "@year": "2020",
+                    "@month": "05"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "600517831",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "630080355",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20144800238342",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20140955311",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "84911434041",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84911434041",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-319-12057-7_23"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "16",
+                "reference": [
+                    {
+                        "ref-fulltext": "Aubel, A., Thalmann, D.: MuscleBuilder: A modeling tool for human anatomy. Journal of Computation Science and Technology 19(5), 585\u2013595 (2004)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "MuscleBuilder: A modeling tool for human anatomy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "4744337630",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "585",
+                                    "@last": "595"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aubel",
+                                    "ce:indexed-name": "Aubel A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thalmann",
+                                    "ce:indexed-name": "Thalmann D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Computation Science and Technology"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wilhelms, J., Van Gelder, A.: Anatomically Based Modeling. In: Proc. of the 24th Annual Conf. on Comp. Graph. and Interactive Tech., pp. 173\u2013180 (August 1997)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Anatomically Based Modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030650243",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "173",
+                                "@last": "180"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilhelms",
+                                    "ce:indexed-name": "Wilhelms J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Gelder",
+                                    "ce:indexed-name": "Van Gelder A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Of the 24<Sup>Th<\/Sup> Annual Conf. On Comp. Graph. And Interactive Tech"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Remcom: VariPose (2012), http://www.remcom.com/varipose",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.remcom.com/varipose",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911373602",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Remcom: VariPose"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "SEMCAD-X: Poser, http://www.speag.com/products/semcad",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.speag.com/products/semcad",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911365739",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "SEMCAD-X: Poser"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bhutani, R., Sharma, S.: Thesis: Repositioning of Human Body Models. Department of Mechanical Engineering, IIT Delhi, India (2010)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911444499",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "IIT Delhi, India",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bhutani",
+                                    "ce:indexed-name": "Bhutani R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sharma",
+                                    "ce:indexed-name": "Sharma S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Thesis: Repositioning of Human Body Models. Department of Mechanical Engineering"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rohmer, D., Hahmann, S., Cani, M.-P.: Exact volume preserving skinningwith shape control. In: Eurographics/ACM SIGGRAPH Symp. on Comp. Animation (2009)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Exact volume preserving skinningwith shape control"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70450273459",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohmer",
+                                    "ce:indexed-name": "Rohmer D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hahmann",
+                                    "ce:indexed-name": "Hahmann S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cani",
+                                    "ce:indexed-name": "Cani M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Eurographics/Acm SIGGRAPH Symp. On Comp. Animation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Segars, W.P., Sturgeon, G.: 4D XCAT phantom for multimodality imaging research. Medical Physics 37(9), 4902\u20134915 (2010)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "4D XCAT phantom for multimodality imaging research"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77956299682",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "4902",
+                                    "@last": "4915"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Segars",
+                                    "ce:indexed-name": "Segars W.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sturgeon",
+                                    "ce:indexed-name": "Sturgeon G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Physics"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fedorov, A., Beichel, R., Kalpathy-Cramer, J., Finet, J., Fillion-Robin, J.-C., Pujol, S., Bauer, C., Jennings, D., Fennessy, F., Sonka, M., Buatti, J., Aylward, S.R., Miller, J.V., Pieper, S., Kikinis, R.: 3D Slicer as an Image Computing Platform for the Quantitative Imaging Network. Magn Reson Imaging 30(9), 1323\u20131341 (2012) , PMID: 22770690",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "3D Slicer as an Image Computing Platform for the Quantitative Imaging Network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867140087",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "30",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {
+                                    "@first": "1323",
+                                    "@last": "1341"
+                                }
+                            },
+                            "ref-text": "PMID: 22770690",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fedorov",
+                                    "ce:indexed-name": "Fedorov A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beichel",
+                                    "ce:indexed-name": "Beichel R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kalpathy-Cramer",
+                                    "ce:indexed-name": "Kalpathy-Cramer J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Finet",
+                                    "ce:indexed-name": "Finet J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fillion-Robin",
+                                    "ce:indexed-name": "Fillion-Robin J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pujol",
+                                    "ce:indexed-name": "Pujol S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bauer",
+                                    "ce:indexed-name": "Bauer C."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jennings",
+                                    "ce:indexed-name": "Jennings D."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fennessy",
+                                    "ce:indexed-name": "Fennessy F."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sonka",
+                                    "ce:indexed-name": "Sonka M."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Buatti",
+                                    "ce:indexed-name": "Buatti J."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aylward",
+                                    "ce:indexed-name": "Aylward S.R."
+                                },
+                                {
+                                    "@seq": "13",
+                                    "ce:initials": "J.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller J.V."
+                                },
+                                {
+                                    "@seq": "14",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pieper",
+                                    "ce:indexed-name": "Pieper S."
+                                },
+                                {
+                                    "@seq": "15",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kikinis",
+                                    "ce:indexed-name": "Kikinis R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Magn Reson Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bender, http://public.kitware.com/Wiki/Bender",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://public.kitware.com/Wiki/Bender",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911431000",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Bender"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "SOFA: Simulation Open Framework Architecture, http://www.sofa-framework.org",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://www.sofa-framework.org",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84911387120",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "SOFA: Simulation Open Framework Architecture"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Magnenat, N., Laperrière, R., Thalmann, D.: Joint-dependent Local Deformations for HandAnimation andObjectGrasping. In: Proc. on Graph. Intf., pp. 26\u201333 (1988)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1988"},
+                            "ref-title": {"ref-titletext": "Joint-dependent Local Deformations for HandAnimation andObjectGrasping"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002093562",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "26",
+                                "@last": "33"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Magnenat",
+                                    "ce:indexed-name": "Magnenat N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laperrière",
+                                    "ce:indexed-name": "Laperriere R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thalmann",
+                                    "ce:indexed-name": "Thalmann D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. On Graph. Intf"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Meredith, M., Maddock, S.: Motion Capture File Formats Explained. Department of Computer Science, University of Sheffield (2001)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "23944507966",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "University of Sheffield",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meredith",
+                                    "ce:indexed-name": "Meredith M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maddock",
+                                    "ce:indexed-name": "Maddock S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Motion Capture File Formats Explained. Department of Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kavan, L., Collins, S., Žára, J., O\u2019Sullivan, C.: Skinning with Dual Quaternions. In: Proc. Symp. on Interactive 3D Graphics and Games, pp. 39\u201346 (2007)",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Skinning with Dual Quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "63049087999",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "39",
+                                "@last": "46"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavan",
+                                    "ce:indexed-name": "Kavan L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Žára",
+                                    "ce:indexed-name": "Zara J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "O\u2019Sullivan",
+                                    "ce:indexed-name": "O'Sullivan C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Symp. On Interactive 3D Graphics and Games"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Vaillant, R., Barthe, L., Guennebaud, G., Cani, M.-P., Rohmer, D., Wyvill, B., Gourmel, O., Paulin, M.: Implicit skinning: real-time skin deformation with contact modeling. ACM Trans. Graph. 32(4), 125 (2013)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Implicit skinning: Real-time skin deformation with contact modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84880793314",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "125"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vaillant",
+                                    "ce:indexed-name": "Vaillant R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barthe",
+                                    "ce:indexed-name": "Barthe L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guennebaud",
+                                    "ce:indexed-name": "Guennebaud G."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cani",
+                                    "ce:indexed-name": "Cani M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohmer",
+                                    "ce:indexed-name": "Rohmer D."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wyvill",
+                                    "ce:indexed-name": "Wyvill B."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gourmel",
+                                    "ce:indexed-name": "Gourmel O."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Paulin",
+                                    "ce:indexed-name": "Paulin M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Kavan, L., Sorkine, O.: Elasticity-inspired deformers for character articulation. ACM Trans. Graph. 31(6), 196 (2012)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Elasticity-inspired deformers for character articulation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84870156766",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {"@first": "196"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kavan",
+                                    "ce:indexed-name": "Kavan L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sorkine",
+                                    "ce:indexed-name": "Sorkine O."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Mohr, A., Gleicher, M.: Building efficient, accurate character skins from examples. ACM Trans. Graph. 22(3), 562\u2013568 (2003)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Building efficient, accurate character skins from examples"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77954004081",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "562",
+                                    "@last": "568"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mohr",
+                                    "ce:indexed-name": "Mohr A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gleicher",
+                                    "ce:indexed-name": "Gleicher M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Clifton Park",
+            "@id": "60114004",
+            "affilname": "Kitware, Inc.",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Dayton",
+            "@id": "60019228",
+            "affilname": "Air Force Research Laboratory",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019228",
+            "affiliation-country": "United States"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-84911434041",
+        "dc:description": "In this paper, we present Bender, an interactive and freely available software application for changing the pose of anatomical models that are represented as labeled, voxel-based volumes. Voxelized anatomical models are used in numerous applications including the computation of specific absorption rates associated with cell phone transmission energies, radiation therapy, and electromagnetic dosimetry simulation. Other applications range from the study of ergonomics to the design of clothing. Typically, the anatomical pose of a voxelized model is limited by the imaging device used to acquire the source anatomical data; however, absorption of emitted energies and the fit of clothes will change based on anatomic pose. Bender provides an intuitive, workflow-based user-interface to an extensible framework for changing the pose of anatomic models. Bender is implemented as a customized version of 3D Slicer, an image analysis and visualization framework that is widely used in the medical computing research community. The currently available repositioning methods in Bender are based on computer-graphics techniques for rigging, skinning, and resampling voxelized anatomical models. In this paper we present the software and compare two resampling methods: a novel extension to dual quaternions and finite element modeling (FEM) techniques. We show that FEM can be used to quickly and effectively resample repositioned anatomic models.",
+        "prism:coverDate": "2014-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84911434041",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Julien",
+            "preferred-name": {
+                "ce:given-name": "Julien",
+                "ce:initials": "J.",
+                "ce:surname": "Finet",
+                "ce:indexed-name": "Finet J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Finet",
+            "@auid": "38561197900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/38561197900",
+            "ce:indexed-name": "Finet J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84911434041"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84911434041&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84911434041&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783319120560",
+        "source-id": "25674",
+        "citedby-count": "2",
+        "prism:volume": "8789",
+        "subtype": "cp",
+        "dc:title": "Bender: An open source software for efficient model posing and morphing",
+        "openaccess": "0",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© Springer International Publishing Switzerland 2014.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "203-210",
+        "prism:endingPage": "210",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-319-12057-7_23",
+        "prism:startingPage": "203",
+        "dc:identifier": "SCOPUS_ID:84911434041",
+        "dc:publisher": "Springer Verlag"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Anatomical models",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Cell phone transmission",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Computing research",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Electromagnetic dosimetry",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Extensible framework",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Freely available software",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Specific absorption rate",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Visualization framework",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Julien",
+            "preferred-name": {
+                "ce:given-name": "Julien",
+                "ce:initials": "J.",
+                "ce:surname": "Finet",
+                "ce:indexed-name": "Finet J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Finet",
+            "@auid": "38561197900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/38561197900",
+            "ce:indexed-name": "Finet J."
+        },
+        {
+            "ce:given-name": "Ricardo",
+            "preferred-name": {
+                "ce:given-name": "Ricardo",
+                "ce:initials": "R.",
+                "ce:surname": "Ortiz",
+                "ce:indexed-name": "Ortiz R."
+            },
+            "@seq": "2",
+            "ce:initials": "R.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Ortiz",
+            "@auid": "56421498000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56421498000",
+            "ce:indexed-name": "Ortiz R."
+        },
+        {
+            "ce:given-name": "Johan",
+            "preferred-name": {
+                "ce:given-name": "Johan",
+                "ce:initials": "J.",
+                "ce:surname": "Andruejol",
+                "ce:indexed-name": "Andruejol J."
+            },
+            "@seq": "3",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Andruejol",
+            "@auid": "55823575600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55823575600",
+            "ce:indexed-name": "Andruejol J."
+        },
+        {
+            "ce:given-name": "Andinet",
+            "preferred-name": {
+                "ce:given-name": "Andinet",
+                "ce:initials": "A.",
+                "ce:surname": "Enquobahrie",
+                "ce:indexed-name": "Enquobahrie A."
+            },
+            "@seq": "4",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Enquobahrie",
+            "@auid": "7801316765",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7801316765",
+            "ce:indexed-name": "Enquobahrie A."
+        },
+        {
+            "ce:given-name": "Julien",
+            "preferred-name": {
+                "ce:given-name": "Julien",
+                "ce:initials": "J.",
+                "ce:surname": "Jomier",
+                "ce:indexed-name": "Jomier J."
+            },
+            "@seq": "5",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Jomier",
+            "@auid": "6507216580",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6507216580",
+            "ce:indexed-name": "Jomier J."
+        },
+        {
+            "ce:given-name": "Jason",
+            "preferred-name": {
+                "ce:given-name": "Jason",
+                "ce:initials": "J.",
+                "ce:surname": "Payne",
+                "ce:indexed-name": "Payne J."
+            },
+            "@seq": "6",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60019228",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60019228"
+            },
+            "ce:surname": "Payne",
+            "@auid": "57196532742",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57196532742",
+            "ce:indexed-name": "Payne J."
+        },
+        {
+            "ce:given-name": "Stephen",
+            "preferred-name": {
+                "ce:given-name": "Stephen",
+                "ce:initials": "S.",
+                "ce:surname": "Aylward",
+                "ce:indexed-name": "Aylward S."
+            },
+            "@seq": "7",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60114004",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60114004"
+            },
+            "ce:surname": "Aylward",
+            "@auid": "7004344836",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7004344836",
+            "ce:indexed-name": "Aylward S."
+        }
+    ]}
+}}

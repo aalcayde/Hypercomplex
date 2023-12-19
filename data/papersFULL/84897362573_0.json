@@ -1,0 +1,1822 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "14",
+                "@year": "2020",
+                "@timestamp": "2020-01-14T07:02:23.000023-05:00",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2014",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "Department of Education of Jiangxi",
+                    "xocs:funding-id": "GJJ13481"
+                },
+                {"xocs:funding-agency-matched-string": "National Natural Science Foundation of China"},
+                {
+                    "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                    "xocs:funding-agency-acronym": "NSFC",
+                    "xocs:funding-agency": "National Natural Science Foundation of China",
+                    "xocs:funding-id": [
+                        {"$": "61162002"},
+                        {"$": "61202319"},
+                        {"$": "61203243"},
+                        {"$": "61272077"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "China Postdoctoral Science Foundation",
+                    "xocs:funding-agency": "China Postdoctoral Science Foundation",
+                    "xocs:funding-id": [
+                        {"$": "2013M530223"},
+                        {"$": "2013M530224"},
+                        {"$": "TX201304001"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100002858",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-06-30T07:45:18.065259Z",
+            "xocs:funding-text": "This work is partially supported by National Natural Science Foundation of China (61202319, 61272077, 61203243, 61162002); Department of Education of Jiangxi (GJJ13481); China Postdoctoral Science Foundation under Grant No. 2013M530224, 2013M530223. Open fund of Image Processing and Pattern Recognition under Grant No. TX201304001.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Nanchang, 330063 Jiangxi",
+                        "country": "China",
+                        "@afid": "60083519",
+                        "@country": "chn",
+                        "organization": [
+                            {"$": "Key Laboratory of Image Processing and Pattern Recognition"},
+                            {"$": "Nanchang Hangkong University"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60083519",
+                            "@dptid": "113443919"
+                        },
+                        "@dptid": "113443919"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Shan",
+                            "preferred-name": {
+                                "ce:given-name": "Shan",
+                                "ce:initials": "S.",
+                                "ce:surname": "Gai",
+                                "ce:indexed-name": "Gai S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Gai",
+                            "@auid": "35748407200",
+                            "ce:indexed-name": "Gai S."
+                        },
+                        {
+                            "ce:given-name": "Minghua",
+                            "preferred-name": {
+                                "ce:given-name": "Minghua",
+                                "ce:initials": "M.",
+                                "ce:surname": "Wan",
+                                "ce:indexed-name": "Wan M."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "M.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wan",
+                            "@auid": "25928059600",
+                            "ce:indexed-name": "Wan M."
+                        },
+                        {
+                            "ce:given-name": "Lei",
+                            "preferred-name": {
+                                "ce:given-name": "Lei",
+                                "ce:initials": "L.",
+                                "ce:surname": "Wang",
+                                "ce:indexed-name": "Wang L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wang",
+                            "@auid": "57070576900",
+                            "ce:indexed-name": "Wang L."
+                        },
+                        {
+                            "ce:given-name": "Cihui",
+                            "preferred-name": {
+                                "ce:given-name": "Cihui",
+                                "ce:initials": "C.",
+                                "ce:surname": "Yang",
+                                "ce:indexed-name": "Yang C."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Yang",
+                            "@auid": "55865083400",
+                            "ce:indexed-name": "Yang C."
+                        }
+                    ]
+                },
+                "citation-title": "Reduced quaternion matrix for color texture classification",
+                "abstracts": "As a newly developed singular value decomposition of the reduced quaternion matrix (SVDRQ), the two reduced quaternion unitary matrices can effectively capture the intrinsic geometric structures and smooth contours of color texture image. The projection vector by the two unitary matrices is used as dominant features for color texture classification. In this paper, we proposed new algorithm to implement the computation of the SVDRQ, and then proposed new color texture classification scheme based on SVDRQ, the Euclidean distance is applied as classifier in the proposed scheme. It is demonstrated by the experiments that our proposed scheme significantly improves the color texture classification accuracy in comparison with several conventional texture classification approaches. © 2014 Springer-Verlag London.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Nanchang, 330063 Jiangxi",
+                        "country": "China",
+                        "@country": "chn",
+                        "organization": [
+                            {"$": "Key Laboratory of Image Processing and Pattern Recognition"},
+                            {"$": "Nanchang Hangkong University"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "S.",
+                        "ce:surname": "Gai",
+                        "ce:indexed-name": "Gai S."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Feature extraction",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Reduced quaternion matrix",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Singular value decomposition",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Texture classification",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Neural Comput. Appl.",
+                    "website": {"ce:e-address": {
+                        "$": "http://link.springer.com/journal/521",
+                        "@type": "email"
+                    }},
+                    "@country": "gbr",
+                    "translated-sourcetitle": {
+                        "$": "Neural Computing and Applications",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "09410643",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "25",
+                            "@issue": "3-4"
+                        },
+                        "pagerange": {
+                            "@first": "945",
+                            "@last": "954"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2014"},
+                    "publisher": {"publishername": "Springer London"},
+                    "sourcetitle": "Neural Computing and Applications",
+                    "@srcid": "24800",
+                    "publicationdate": {
+                        "year": "2014",
+                        "date-text": "September 2014"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "741.1",
+                                "classification-description": "Light and Optics"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Applied Mathematics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1712"},
+                            {"$": "1702"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "COMP"
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "n",
+                    "grant": [
+                        {
+                            "grant-id": "61162002",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": "National Natural Science Foundation of China"
+                        },
+                        {
+                            "grant-id": "61202319",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": "National Natural Science Foundation of China"
+                        },
+                        {
+                            "grant-id": "61203243",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": "National Natural Science Foundation of China"
+                        },
+                        {
+                            "grant-id": "61272077",
+                            "grant-acronym": "NSFC",
+                            "grant-agency": "National Natural Science Foundation of China"
+                        }
+                    ]
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "25",
+                    "@year": "2014",
+                    "@timestamp": "BST 23:59:59",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "53094177",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "625018913",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20143518102730",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "84897362573",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "84897362573",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/s00521-014-1578-0"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "30",
+                "reference": [
+                    {
+                        "ref-fulltext": "Sertel O, Kong J, Catalyurek UV, Lozanski G (2009) Histopathological image analysis using model-based intermediate representations and color texture: follicular lymphoma grading. Signal Process 55(1-3): 169-183.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Histopathological image analysis using model-based intermediate representations and color texture: follicular lymphoma grading"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "62349141165",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "1-3"
+                                },
+                                "pagerange": {
+                                    "@first": "169",
+                                    "@last": "183"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sertel",
+                                    "ce:indexed-name": "Sertel O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kong",
+                                    "ce:indexed-name": "Kong J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "U.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Catalyurek",
+                                    "ce:indexed-name": "Catalyurek U.V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lozanski",
+                                    "ce:indexed-name": "Lozanski G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maia E, Hammouch H, Aboutajdine A (August 2009) Color-texture analysis by mutual information for multispectral image classification. In: International conference on communications, computers and signal processing, Canada, pp 359-364.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Color-texture analysis by mutual information for multispectral image classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "74049114117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "359",
+                                "@last": "364"
+                            }},
+                            "ref-text": "Canada",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maia",
+                                    "ce:indexed-name": "Maia E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hammouch",
+                                    "ce:indexed-name": "Hammouch H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aboutajdine",
+                                    "ce:indexed-name": "Aboutajdine A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International conference on communications, computers and signal processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Martinez A, Delgado JL, Balibrea JD (2005) Automatic system for quality-based classification of marble textures. IEEE Trans Syst Man Cybern 35(4): 488-497.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Automatic system for quality-based classification of marble textures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27844497587",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "488",
+                                    "@last": "497"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Martinez",
+                                    "ce:indexed-name": "Martinez A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Delgado",
+                                    "ce:indexed-name": "Delgado J.L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balibrea",
+                                    "ce:indexed-name": "Balibrea J.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Syst Man Cybern"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Li Z, Liu Y, Walker R (2010) Color and texture feature fusion using kernel PCA with application to object-based vegetation species classification. IEEE Conf Image Process 8: 2701-2704.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Color and texture feature fusion using kernel PCA with application to object-based vegetation species classification"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78651100910",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8"},
+                                "pagerange": {
+                                    "@first": "2701",
+                                    "@last": "2704"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Walker",
+                                    "ce:indexed-name": "Walker R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Conf Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "van de Wouwe G, Scheunders P, Livens S, van Dyck D (1999) Wavelet correlation signatures for color texture characterization. Pattern Recogn 32(3): 443-451.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Wavelet correlation signatures for color texture characterization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033103742",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "443",
+                                    "@last": "451"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "van de Wouwe",
+                                    "ce:indexed-name": "van de Wouwe G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Scheunders",
+                                    "ce:indexed-name": "Scheunders P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Livens",
+                                    "ce:indexed-name": "Livens S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "van Dyck",
+                                    "ce:indexed-name": "van Dyck D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recogn"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Selesnick IW, Baraniuk RG, Kingsbury RG (2005) The dual-tree complex wavelet transform. IEEE Trans Signal Process Mag 22(6): 123-151.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "The dual-tree complex wavelet transform"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85032751971",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "22",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "123",
+                                    "@last": "151"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Selesnick",
+                                    "ce:indexed-name": "Selesnick I.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baraniuk",
+                                    "ce:indexed-name": "Baraniuk R.G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kingsbury",
+                                    "ce:indexed-name": "Kingsbury R.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Signal Process Mag"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ojala T, Pietikainen M, Maenpaa T (2002) Multiresolution gray-scale and rotation invariant texture classification with local binary patterns. IEEE Trans Pattern Anal Mach Intell 24(7): 971-987.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Multiresolution gray-scale and rotation invariant texture classification with local binary patterns"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0036647193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "971",
+                                    "@last": "987"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ojala",
+                                    "ce:indexed-name": "Ojala T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pietikainen",
+                                    "ce:indexed-name": "Pietikainen M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maenpaa",
+                                    "ce:indexed-name": "Maenpaa T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Pattern Anal Mach Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Palm C (2004) Color texture classification by integrative co-occurrence matrices. Pattern Recogn 37(5): 965-976.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Color texture classification by integrative co-occurrence matrices"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1842813226",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "37",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "965",
+                                    "@last": "976"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.",
+                                "@_fa": "true",
+                                "ce:surname": "Palm",
+                                "ce:indexed-name": "Palm C."
+                            }]},
+                            "ref-sourcetitle": "Pattern Recogn"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhang C, Sun DW, Zheng L (2007) A new region-primitive method for classification of color meat image texture based size, orientation and contrast. Meat Sci 76(4): 620-627.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "A new region-primitive method for classification of color meat image texture based size, orientation and contrast"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34247390773",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "76",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "620",
+                                    "@last": "627"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun D.W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zheng",
+                                    "ce:indexed-name": "Zheng L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Meat Sci"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dong YS, Ma JW (2011) Wavelet-based image texture classification using local energy histograms. IEEE Trans Signal Process Lett 18(4): 247-250.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Wavelet-based image texture classification using local energy histograms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79951922227",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "247",
+                                    "@last": "250"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dong",
+                                    "ce:indexed-name": "Dong Y.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ma",
+                                    "ce:indexed-name": "Ma J.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Signal Process Lett"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Si ZZ, Zhu SC (2012) Learning hybrid image templates (HIT) by information projection. IEEE Trans Pattern Anal Mach Intell 34(7): 1354-1367.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Learning hybrid image templates (HIT) by information projection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84861324025",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "34",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1354",
+                                    "@last": "1367"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Si",
+                                    "ce:indexed-name": "Si Z.Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu S.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Pattern Anal Mach Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhao CR, Liu CC, Lai ZH (2011) Multi-scale gist feature manifold for building recognition. Neurocomputing 74(17): 2929-2940.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Multi-scale gist feature manifold for building recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "80052929779",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "74",
+                                    "@issue": "17"
+                                },
+                                "pagerange": {
+                                    "@first": "2929",
+                                    "@last": "2940"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao C.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C.C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Z.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhao CR, Lai ZH, Liu CC, Gu XJ, Qian JJ (2012) Fuzzy local maximal marginal embedding for feature extraction. Soft Comput 16(1): 77-87.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Fuzzy local maximal marginal embedding for feature extraction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84855491634",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "16",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "87"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao C.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Z.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C.C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gu",
+                                    "ce:indexed-name": "Gu X.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian J.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Soft Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhao CR, Miao DQ, Lai ZH, Gao C, Liu CC, Yang JY (2013) Two-dimensional color uncorrelated discriminant analysis for face recognition. Neurocomputing 113(3): 251-261.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Two-dimensional color uncorrelated discriminant analysis for face recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84877626910",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "113",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "251",
+                                    "@last": "261"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao C.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miao",
+                                    "ce:indexed-name": "Miao D.Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Z.H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gao",
+                                    "ce:indexed-name": "Gao C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu C.C."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lai ZH, Wan MH, Jin Z, Yang J (2011) Sparse two-dimensional local discriminant projections for feature extraction. Neurocomputing 74(4): 629-637.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Sparse two-dimensional local discriminant projections for feature extraction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78650245184",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "74",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "637"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Z.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan M.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neurocomputing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lai ZH, Zhao CR, Wan MH (2012) Fisher difference discriminant analysis: determining the effective discriminant subspace dimensions for face recognition. Neural Process Lett 35(3): 203-220.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Fisher difference discriminant analysis: determining the effective discriminant subspace dimensions for face recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84861953929",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "203",
+                                    "@last": "220"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lai",
+                                    "ce:indexed-name": "Lai Z.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhao",
+                                    "ce:indexed-name": "Zhao C.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan M.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Process Lett"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Choi JY, Ro YM, Plataniotis KN (2012) Color local texture features for color face recognition. IEEE Trans Image Process 21(3): 1366-1380.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Color local texture features for color face recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84863180521",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "1366",
+                                    "@last": "1380"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi J.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ro",
+                                    "ce:indexed-name": "Ro Y.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plataniotis",
+                                    "ce:indexed-name": "Plataniotis K.N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hamilton WR (1866) Elements of quaternions. Longmans, Green and London.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1866"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003998814",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Green and London: Longmans",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.R.",
+                                "@_fa": "true",
+                                "ce:surname": "Hamilton",
+                                "ce:indexed-name": "Hamilton W.R."
+                            }]},
+                            "ref-sourcetitle": "Elements of Quaternions"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Daniel C, Weiss H, Bar IY (2012) Quaternion estimation from vector observations using a matrix Kalman filter. IEEE Trans Aerosp Electron Syst 48(4): 3133-3158.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Quaternion estimation from vector observations using a matrix Kalman filter"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84867542775",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "48",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "3133",
+                                    "@last": "3158"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Daniel",
+                                    "ce:indexed-name": "Daniel C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weiss",
+                                    "ce:indexed-name": "Weiss H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bar",
+                                    "ce:indexed-name": "Bar I.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Aerosp Electron Syst"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Javier V, Palomar DP, Luis V, Ignacio S (2011) Quaternion ICA from second-order statistics. IEEE Trans Signal Process 59(4): 1586-1600.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Quaternion ICA from second-order statistics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952654668",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "59",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1586",
+                                    "@last": "1600"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Javier",
+                                    "ce:indexed-name": "Javier V."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Palomar",
+                                    "ce:indexed-name": "Palomar D.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luis",
+                                    "ce:indexed-name": "Luis V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ignacio",
+                                    "ce:indexed-name": "Ignacio S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Amir K, Pecht Y, Orly (2011) Quaternion structural similarity: a new quality index for color images. IEEE Trans Image Process 21(4): 1526-1536.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Quaternion structural similarity: a new quality index for color images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84859098339",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1526",
+                                    "@last": "1536"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Amir",
+                                    "ce:indexed-name": "Amir K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pecht",
+                                    "ce:indexed-name": "Pecht Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orly",
+                                    "ce:indexed-name": "Orly"
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Image Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bihan NL, Sangwine SJ (2007) Jacobi method for quaternion matrix singular value decomposition. Appl Math Comput 187(2): 1265-1271.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Jacobi method for quaternion matrix singular value decomposition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34247233073",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "187",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1265",
+                                    "@last": "1271"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bihan",
+                                    "ce:indexed-name": "Bihan N.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sangwine",
+                                    "ce:indexed-name": "Sangwine S.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl Math Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang QW, Li CK (2009) Ranks and the least-norm of the general solution to a system of quaternion matrix equations. Linear Algebra Appl 430(5-6): 1626-1640.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Ranks and the least-norm of the general solution to a system of quaternion matrix equations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "58349094506",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "430",
+                                    "@issue": "5-6"
+                                },
+                                "pagerange": {
+                                    "@first": "1626",
+                                    "@last": "1640"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li C.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Linear Algebra Appl"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sun YF, Chen SY, Yin B (2011) Color face recognition based on quaternion matrix representation. Pattern Recogn Lett 32(4): 597-606.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Color face recognition based on quaternion matrix representation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "78650412588",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "32",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "597",
+                                    "@last": "606"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun Y.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yin",
+                                    "ce:indexed-name": "Yin B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recogn Lett"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bihan NL, Mars J (2004) Singular value decomposition of quaternion matrices: a new tool for vector-sensor signal processing. Signal Process 84(7): 1177-1199.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Singular value decomposition of quaternion matrices: a new tool for vector-sensor signal processing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2642566022",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "84",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "1177",
+                                    "@last": "1199"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bihan",
+                                    "ce:indexed-name": "Bihan N.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mars",
+                                    "ce:indexed-name": "Mars J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Menanno GM, Bihan NL (2010) Quaternion polynomial matrix diagonalization for the separation of polarized convolutive mixture. Signal Process 90(7): 2219-2231.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Quaternion polynomial matrix diagonalization for the separation of polarized convolutive mixture"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77950188291",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "90",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "2219",
+                                    "@last": "2231"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Menanno",
+                                    "ce:indexed-name": "Menanno G.M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bihan",
+                                    "ce:indexed-name": "Bihan N.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Signal Process"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Wang QW, Yu SW, Lin CY (2008) Extreme ranks of a linear quaternion matrix expression subject to triple quaternion matrix equations with applications. Appl Math Comput 195(2): 733-744.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Extreme ranks of a linear quaternion matrix expression subject to triple quaternion matrix equations with applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "37349019676",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "195",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "733",
+                                    "@last": "744"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Q.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu S.W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin C.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Appl Math Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Database VisTex of color textures of MIT, USA. ftp://whitechape. media. mit. edu/pub/VisTex.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://whitechape.media.mit.edu/pub/VisTex",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85039705933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Database VisTex of color textures of MIT, USA"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Database of color textured barks of University of Koblenz Germany. ftp://ftphost. uni-koblenz. de/outgoing/vision/Lakmann/BarkTex.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://ftphost.uni-koblenz.de/outgoing/vision/Lakmann/BarkTex",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85039757952",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Database of color textured barks of University of Koblenz Germany"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lakmann R (1998) Statistische Modellierung von Farbtexturen, Ph. D. Thesis, University Koblenz-Landau, Folbach, Koblenz; in German.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "1842639098",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Ph. D. Thesis, University Koblenz-Landau, Folbach, Koblenz; in German",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Lakmann",
+                                "ce:indexed-name": "Lakmann R."
+                            }]},
+                            "ref-sourcetitle": "Statistische Modellierung von Farbtexturen"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Nanchang",
+        "@id": "60083519",
+        "affilname": "Nanchang Hangkong University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-84897362573",
+        "dc:description": "As a newly developed singular value decomposition of the reduced quaternion matrix (SVDRQ), the two reduced quaternion unitary matrices can effectively capture the intrinsic geometric structures and smooth contours of color texture image. The projection vector by the two unitary matrices is used as dominant features for color texture classification. In this paper, we proposed new algorithm to implement the computation of the SVDRQ, and then proposed new color texture classification scheme based on SVDRQ, the Euclidean distance is applied as classifier in the proposed scheme. It is demonstrated by the experiments that our proposed scheme significantly improves the color texture classification accuracy in comparison with several conventional texture classification approaches. © 2014 Springer-Verlag London.",
+        "prism:coverDate": "2014-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/84897362573",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Shan",
+            "preferred-name": {
+                "ce:given-name": "Shan",
+                "ce:initials": "S.",
+                "ce:surname": "Gai",
+                "ce:indexed-name": "Gai S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Gai",
+            "@auid": "35748407200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35748407200",
+            "ce:indexed-name": "Gai S."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/84897362573"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84897362573&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=84897362573&origin=inward"
+            }
+        ],
+        "source-id": "24800",
+        "citedby-count": "9",
+        "prism:volume": "25",
+        "subtype": "ar",
+        "dc:title": "Reduced quaternion matrix for color texture classification",
+        "openaccess": "0",
+        "prism:issn": "09410643",
+        "prism:issueIdentifier": "3-4",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Neural Computing and Applications",
+        "prism:pageRange": "945-954",
+        "prism:endingPage": "954",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/s00521-014-1578-0",
+        "prism:startingPage": "945",
+        "dc:identifier": "SCOPUS_ID:84897362573",
+        "dc:publisher": "Springer London"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Color texture classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Color texture images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Euclidean distance",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geometric structure",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Projection vectors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion matrix",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Texture classification",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unitary matrix",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Feature extraction"
+        },
+        {
+            "@_fa": "true",
+            "$": "Reduced quaternion matrix"
+        },
+        {
+            "@_fa": "true",
+            "$": "Singular value decomposition"
+        },
+        {
+            "@_fa": "true",
+            "$": "Texture classification"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Software",
+            "@code": "1712",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Artificial Intelligence",
+            "@code": "1702",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Shan",
+            "preferred-name": {
+                "ce:given-name": "Shan",
+                "ce:initials": "S.",
+                "ce:surname": "Gai",
+                "ce:indexed-name": "Gai S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Gai",
+            "@auid": "35748407200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35748407200",
+            "ce:indexed-name": "Gai S."
+        },
+        {
+            "ce:given-name": "Minghua",
+            "preferred-name": {
+                "ce:given-name": "Minghua",
+                "ce:initials": "M.",
+                "ce:surname": "Wan",
+                "ce:indexed-name": "Wan M."
+            },
+            "@seq": "2",
+            "ce:initials": "M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Wan",
+            "@auid": "25928059600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/25928059600",
+            "ce:indexed-name": "Wan M."
+        },
+        {
+            "ce:given-name": "Lei",
+            "preferred-name": {
+                "ce:given-name": "Lei",
+                "ce:initials": "L.",
+                "ce:surname": "Wang",
+                "ce:indexed-name": "Wang L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Wang",
+            "@auid": "57070576900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57070576900",
+            "ce:indexed-name": "Wang L."
+        },
+        {
+            "ce:given-name": "Cihui",
+            "preferred-name": {
+                "ce:given-name": "Cihui",
+                "ce:initials": "C.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang C."
+            },
+            "@seq": "4",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60083519",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60083519"
+            },
+            "ce:surname": "Yang",
+            "@auid": "55865083400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55865083400",
+            "ce:indexed-name": "Yang C."
+        }
+    ]}
+}}

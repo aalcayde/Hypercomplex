@@ -1,0 +1,1932 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "20",
+                "@year": "2020",
+                "@timestamp": "2020-01-20T03:40:21.000021-05:00",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2011",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-05-09T13:45:42.575258Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "Changchun, Jilin 130012",
+                            "country": "China",
+                            "@afid": "60007711",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "College of Computer Science"},
+                                {"$": "Jilin University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60007711",
+                                "@dptid": "112197771"
+                            },
+                            "@dptid": "112197771"
+                        },
+                        "author": [{
+                            "ce:given-name": "Jianqin",
+                            "preferred-name": {
+                                "ce:given-name": "Jianqin",
+                                "ce:initials": "J.",
+                                "ce:surname": "Qu",
+                                "ce:indexed-name": "Qu J."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Qu",
+                            "@auid": "7201534928",
+                            "ce:indexed-name": "Qu J."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Shantou, Guangdong 515063",
+                            "country": "China",
+                            "@afid": "60017179",
+                            "@country": "chn",
+                            "organization": [
+                                {"$": "College of Engineering"},
+                                {"$": "Shantou University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60017179",
+                                "@dptid": "103889085"
+                            },
+                            "@dptid": "103889085"
+                        },
+                        "author": [{
+                            "ce:given-name": "Jianqin",
+                            "preferred-name": {
+                                "ce:given-name": "Jianqin",
+                                "ce:initials": "J.",
+                                "ce:surname": "Qu",
+                                "ce:indexed-name": "Qu J."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Qu",
+                            "@auid": "7201534928",
+                            "ce:indexed-name": "Qu J."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Hawthorne, NY 10532",
+                            "country": "United States",
+                            "address-part": "19 Skyline Dr.",
+                            "@afid": "60017366",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Watson Research Center"},
+                                {"$": "IBM"}
+                            ],
+                            "affiliation-id": [
+                                {"@afid": "60017366"},
+                                {"@afid": "60021293"}
+                            ]
+                        },
+                        "author": [{
+                            "ce:given-name": "Leiguang",
+                            "preferred-name": {
+                                "ce:given-name": "Leiguang",
+                                "ce:initials": "L.",
+                                "ce:surname": "Gong",
+                                "ce:indexed-name": "Gong L."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Gong",
+                            "@auid": "7202769708",
+                            "ce:indexed-name": "Gong L."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "Piscataway, NJ 08854",
+                            "country": "United States",
+                            "@afid": "60028970",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Radiology"},
+                                {"$": "UMDNJ-Robert Wood Johnson Medical School"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60028970",
+                                "@dptid": "112190246"
+                            },
+                            "@dptid": "112190246"
+                        },
+                        "author": [{
+                            "ce:given-name": "Lin",
+                            "preferred-name": {
+                                "ce:given-name": "Lin",
+                                "ce:initials": "L.",
+                                "ce:surname": "Yang",
+                                "ce:indexed-name": "Yang L."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "L.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Yang",
+                            "@auid": "55771607100",
+                            "ce:indexed-name": "Yang L."
+                        }]
+                    }
+                ],
+                "citation-title": "A 3D point matching algorithm for affine registration",
+                "abstracts": "Purpose: Landmark point-based registration is an important tool in medical image analysis and applications. An efficient and robust new method is sought that does not require optimization and is less susceptible to noise. Methods: A new quaternion-based affine registration algorithm for matching 3D point sets, a generalization of a previously reported method for 2D point sets, was developed. The new algorithm computes the exact affine transformation and the unknown correspondence between two 3D point sets but does not require any optimization. The method performs robustly in the presence of noise for non-degenerate cases. The method performs a reduction of general affine case to an orthogonal case, and then computes the unknown rotation using the quaternion representation of the 3D points. The method assumes no prior knowledge of point-wise correspondence between the two point sets. The algebraic and geometric concepts underlying the method are shown to be both clear and intuitive. Results: Experimental evaluation of the method was performed using both randomly generated synthetic 3D point sets and Stanford Bunny dataset. The algorithm performed well even for noisy data. A feasibility test was performed with medical MR scans showing promising results. Conclusion: The algorithm for point-based correspondence registration demonstrated robust results, even in noisy cases, and was shown to be feasible for use with medical images. © CARS 2010.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Hawthorne, NY 10532",
+                        "country": "United States",
+                        "address-part": "19 Skyline Dr.",
+                        "@country": "usa",
+                        "organization": [
+                            {"$": "Watson Research Center"},
+                            {"$": "IBM"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "L.",
+                        "ce:surname": "Gong",
+                        "ce:indexed-name": "Gong L."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Affine transformation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Image registration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Point matching",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "Int. J. Comput. Assisted Radiol. Surg.",
+                    "website": {"ce:e-address": {
+                        "$": "http://www.springer.com/dal/home?SGWID=1-102-70-132298836-0&SHORTCUT=www.springer.com/11548",
+                        "@type": "email"
+                    }},
+                    "@country": "deu",
+                    "translated-sourcetitle": {
+                        "$": "International Journal of Computer Assisted Radiology and Surgery",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "18616429",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "18616410",
+                            "@type": "print"
+                        }
+                    ],
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "6",
+                            "@issue": "2"
+                        },
+                        "pagerange": {
+                            "@first": "229",
+                            "@last": "236"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2011"},
+                    "publisher": {
+                        "publishername": "Springer Verlag",
+                        "ce:e-address": {
+                            "$": "service@springer.de",
+                            "@type": "email"
+                        }
+                    },
+                    "sourcetitle": "International Journal of Computer Assisted Radiology and Surgery",
+                    "@srcid": "4700152490",
+                    "publicationdate": {
+                        "year": "2011",
+                        "date-text": "March 2011"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "EMCLASS",
+                        "classification": {
+                            "classification-code": "27",
+                            "classification-description": "Biophysics, Bioengineering and Medical Instrumentation"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2746"},
+                            {"$": "2204"},
+                            {"$": "2741"},
+                            {"$": "1707"},
+                            {"$": "2718"},
+                            {"$": "1706"},
+                            {"$": "1704"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MEDI"},
+                            {"$": "ENGI"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2018 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "EMBASE"},
+                    {"$": "NURSNG"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "14",
+                    "@year": "2018",
+                    "@timestamp": "BST 11:53:27",
+                    "@month": "03"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "50995643",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "274450486",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "2011264471",
+                            "@idtype": "EMBASE"
+                        },
+                        {
+                            "$": "2011111150",
+                            "@idtype": "NURSNG"
+                        },
+                        {
+                            "$": "20180762876",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "79955941438",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "79955941438",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/s11548-010-0503-y"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "Chrisochoides N, Fedorov A, Kot A, Archip N, Black P, Clatz O, Golby A, Kikinis R, Warfield SK (2006) Toward real-time, image guided neurosurgery using distributed and grid computing. In: Proceedings of the ACM/IEEE conference on supercomputing.Tampa, FL",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "Toward real-time, image guided neurosurgery using distributed and grid computing"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34548236467",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chrisochoides",
+                                    "ce:indexed-name": "Chrisochoides N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fedorov",
+                                    "ce:indexed-name": "Fedorov A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kot",
+                                    "ce:indexed-name": "Kot A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Archip",
+                                    "ce:indexed-name": "Archip N."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Black",
+                                    "ce:indexed-name": "Black P."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Clatz",
+                                    "ce:indexed-name": "Clatz O."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Golby",
+                                    "ce:indexed-name": "Golby A."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kikinis",
+                                    "ce:indexed-name": "Kikinis R."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Warfield",
+                                    "ce:indexed-name": "Warfield S.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the ACM/IEEE Conference on Supercomputing.Tampa, FL"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Lange T, Wenckebach T, Lamecker H, Martin Seeba MH, Eulenstein S, Schlag P-M (2005) Registration of portal and hepatic venous phase of mr/ct data for computer-assisted liver surgery planning. Comput Assist Radiol Surg 1281:768-772 (Pubitemid 43693765)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Registration of portal and hepatic venous phase of MR/CT data for computer-assisted liver surgery planning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33646456228",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1281"},
+                                "pagerange": {
+                                    "@first": "768",
+                                    "@last": "772"
+                                }
+                            },
+                            "ref-text": "DOI 10.1016/j.ics.2005.03.332, PII S0531513105005935, CARS 2005: Computer Assisted Radiology and Surgery",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lange",
+                                    "ce:indexed-name": "Lange T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wenckebach",
+                                    "ce:indexed-name": "Wenckebach T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lamecker",
+                                    "ce:indexed-name": "Lamecker H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Seebass",
+                                    "ce:indexed-name": "Seebass M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hunerbein",
+                                    "ce:indexed-name": "Hunerbein M."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eulenstein",
+                                    "ce:indexed-name": "Eulenstein S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "P.-M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schlag",
+                                    "ce:indexed-name": "Schlag P.-M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Congress Series"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shamir RR, Joskowicz L, Spektor S, Shoshan Y (2009) Localization and registration accuracy in image guided neurosurgery: a clinical study. Int J CARS 4:45-52",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Localization and registration accuracy in image guided neurosurgery: A clinical study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "63149109502",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "45",
+                                    "@last": "52"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shamir",
+                                    "ce:indexed-name": "Shamir R.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Joskowicz",
+                                    "ce:indexed-name": "Joskowicz L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Spektor",
+                                    "ce:indexed-name": "Spektor S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shoshan",
+                                    "ce:indexed-name": "Shoshan Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int J CARS"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Papademetris X, Jackowski AP, Schultz RT, Staib LH, Duncan JS (2004) Integrated intensity and point-feature nonrigid registration, Medical Image Computing and Computer-Assisted Intervention (MICCAI) 3216: 763-770 (Pubitemid 40787449)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Integrated intensity and point-feature nonrigid registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "20344363931",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3216",
+                                    "@issue": "PART 1"
+                                },
+                                "pagerange": {
+                                    "@first": "763",
+                                    "@last": "770"
+                                }
+                            },
+                            "ref-text": "Medical Image Computing and Computer-Assisted Intervention, MICCAI 2004 - 7th International Conference, Proceedings",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Papademetris",
+                                    "ce:indexed-name": "Papademetris X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jackowski",
+                                    "ce:indexed-name": "Jackowski A.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schultz",
+                                    "ce:indexed-name": "Schultz R.T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Staib",
+                                    "ce:indexed-name": "Staib L.H."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "J.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Duncan",
+                                    "ce:indexed-name": "Duncan J.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lecture Notes in Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Haker S, Warfield SK, Tempany CM (2004) Landmark-guided surface matching and volumetric warping for improved prostate biopsy targeting and guidance, Medical Image Computing and Computer-Assisted Intervention-MICCAI 3216:853-861 (Pubitemid 40787460)",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Landmark-guided surface matching and volumetric warping for improved prostate biopsy targeting and guidance"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "20344401583",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3216",
+                                    "@issue": "PART 1"
+                                },
+                                "pagerange": {
+                                    "@first": "853",
+                                    "@last": "861"
+                                }
+                            },
+                            "ref-text": "Medical Image Computing and Computer-Assisted Intervention, MICCAI 2004 - 7th International Conference, Proceedings",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haker",
+                                    "ce:indexed-name": "Haker S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Warfield",
+                                    "ce:indexed-name": "Warfield S.K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.M.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tempany",
+                                    "ce:indexed-name": "Tempany C.M.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lecture Notes in Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Beg MF, Miller MI, Alain Trouvé LY (2003) The euler-lagrange equation for interpolating sequence of landmark datasets, Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2879:918-925",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "The euler-lagrange equation for interpolating sequence of landmark datasets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "11244348936",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2879"},
+                                "pagerange": {
+                                    "@first": "918",
+                                    "@last": "925"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Beg",
+                                    "ce:indexed-name": "Beg M.F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller M.I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alain Trouvé",
+                                    "ce:indexed-name": "Alain Trouve L.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fischer B, Modersitzki J (2003) Combination of automatic and landmark based registration: The best of both worlds. In: Proceedings of SPIE, vol 5032. pp 1037-1048",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Combination of automatic and landmark based registration: The best of both worlds"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0042876797",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5032"},
+                                "pagerange": {
+                                    "@first": "1037",
+                                    "@last": "1048"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fischer",
+                                    "ce:indexed-name": "Fischer B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Modersitzki",
+                                    "ce:indexed-name": "Modersitzki J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Yang L, Gong L, Zhang H, Nosher JL, Foran DJ (2009) A method for parallel platform based acceleration of landmark based image registration. In: The European conference on parallel computing. Delft, Netherland, Aug",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "A method for parallel platform based acceleration of landmark based image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955933018",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Delft, Netherland, Aug",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong L."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nosher",
+                                    "ce:indexed-name": "Nosher J.L."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Foran",
+                                    "ce:indexed-name": "Foran D.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The European Conference on Parallel Computing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pluim JPW, Maintz JBA, Viergever MA (2003) Mutual information based registration of medical images: a survey. IEEE Trans Med Imaging 22:986-1004",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Mutual information based registration of medical images: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0043028206",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "22"},
+                                "pagerange": {
+                                    "@first": "986",
+                                    "@last": "1004"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pluim",
+                                    "ce:indexed-name": "Pluim J.P.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.B.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maintz",
+                                    "ce:indexed-name": "Maintz J.B.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Med Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Maintz JBA, Viergever MA (1998) A survey ofmedical image registration. Med Image Anal 2(1):1-36",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "A survey ofmedical image registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032008619",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "36"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.B.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maintz",
+                                    "ce:indexed-name": "Maintz J.B.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Viergever",
+                                    "ce:indexed-name": "Viergever M.A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Med Image Anal"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Augustine K, Holmes, Robb R (2004) Itk and analyze: a synergistic integration. In: Proceedings of SPIE - medical imaging 2004, visualization, image-guided procedures, and display, vol 5367. pp 6-15",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Itk and analyze: A synergistic integration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "5644244994",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5367"},
+                                "pagerange": {
+                                    "@first": "6",
+                                    "@last": "15"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Augustine",
+                                    "ce:indexed-name": "Augustine K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holmes",
+                                    "ce:indexed-name": "Holmes"
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Robb",
+                                    "ce:indexed-name": "Robb R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of SPIE - Medical Imaging 2004, Visualization, Image-guided Procedures, and Display"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Pieper S, Lorensen WE, Schroeder WJ, Kikinis R (2006) The na-mic kit: Itk, vtk, pipelines, grids and 3d slicer as an open platform for the medical image computing community. In: Proceedings of international symposium of biomedical imaging. pp 698-701",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "The na-mic kit: Itk, vtk, pipelines, grids and 3d slicer as an open platform for the medical image computing community"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33750933707",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "698",
+                                "@last": "701"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pieper",
+                                    "ce:indexed-name": "Pieper S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lorensen",
+                                    "ce:indexed-name": "Lorensen W.E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schroeder",
+                                    "ce:indexed-name": "Schroeder W.J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kikinis",
+                                    "ce:indexed-name": "Kikinis R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of International Symposium of Biomedical Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ibanez L, Schroeder W, Ng L, Cates J, Consortium T, Hamming R (2003) The itk software guide, vol 1. Kitware, Inc",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955935724",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "1"}},
+                            "ref-text": "Kitware, Inc",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ibanez",
+                                    "ce:indexed-name": "Ibanez L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schroeder",
+                                    "ce:indexed-name": "Schroeder W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng L."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cates",
+                                    "ce:indexed-name": "Cates J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Consortium",
+                                    "ce:indexed-name": "Consortium T."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hamming",
+                                    "ce:indexed-name": "Hamming R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The Itk Software Guide"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ng L, Ibanez L (2004) Medical image registration: concepts and implementation. In: Yoo TS (ed) Insight into images. AK Peters, Wellesley, Massachusetts, pp 239-306",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Medical image registration: Concepts and implementation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33750831243",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "239",
+                                "@last": "306"
+                            }},
+                            "ref-text": "Yoo TS (ed) AK Peters, Wellesley, Massachusetts",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ibanez",
+                                    "ce:indexed-name": "Ibanez L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Insight into Images"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rohrer J, Gong L (2009) Accelerating 3d nonrigid registration using the cell broadband engine processor. IBM J Res Dev 53(5):12:1-12:10",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "Accelerating 3d nonrigid registration using the cell broadband engine processor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77955060039",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "pages": "12:1-12:10",
+                                "voliss": {
+                                    "@volume": "53",
+                                    "@issue": "5"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rohrer",
+                                    "ce:indexed-name": "Rohrer J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gong",
+                                    "ce:indexed-name": "Gong L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IBM J Res Dev"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Meihe X, Srinivasan R, Nowinski WL (1999) A fast mutual information method for multi-modal registration. In: Proceedings of the 16th international conference on information processing, in medical imaging, Lecture notes in computer science, Vol 1613. pp 466-471",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "A fast mutual information method for multi-modal registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84947424307",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1613"},
+                                "pagerange": {
+                                    "@first": "466",
+                                    "@last": "471"
+                                }
+                            },
+                            "ref-text": "Proceedings of the 16th international conference on information processing, in medical imaging",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Meihe",
+                                    "ce:indexed-name": "Meihe X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Srinivasan",
+                                    "ce:indexed-name": "Srinivasan R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "W.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nowinski",
+                                    "ce:indexed-name": "Nowinski W.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Lecture Notes in Computer Science"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Besl P, McKay N (1992) A method for registration of 3d shapes. IEEE Trans Pattern Anal Mach Intell 14(2):239-266",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "A method for registration of 3d shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026821209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "239",
+                                    "@last": "266"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Besl",
+                                    "ce:indexed-name": "Besl P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKay",
+                                    "ce:indexed-name": "McKay N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Pattern Anal Mach Intell"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhang Z (1994) Iterative point matching for registration of free-form curves and surfaces. IJCV 13(2):119-152",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Iterative point matching for registration of free-form curves and surfaces"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028515989",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "119",
+                                    "@last": "152"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Z.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang Z."
+                            }]},
+                            "ref-sourcetitle": "IJCV"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fitzgibbon AW (2003) Robust registration of 2d and 3d point sets. Image Vis Comput 21:1145-1153",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Robust registration of 2d and 3d point sets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0345377801",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "21"},
+                                "pagerange": {
+                                    "@first": "1145",
+                                    "@last": "1153"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Fitzgibbon",
+                                "ce:indexed-name": "Fitzgibbon A.W."
+                            }]},
+                            "ref-sourcetitle": "Image Vis Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Rusinkiewicz S, Levoy M (2001) Efficient variants of the icp algorithm. In: International conference on 3D digital imaging and modeling (3DIM). pp 145-152",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Efficient variants of the icp algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84949236475",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "145",
+                                "@last": "152"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rusinkiewicz",
+                                    "ce:indexed-name": "Rusinkiewicz S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levoy",
+                                    "ce:indexed-name": "Levoy M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on 3D Digital Imaging and Modeling (3DIM)"
+                        }
+                    },
+                    {
+                        "@date-locked": "2012-10-15T00:00:00.000",
+                        "ref-fulltext": "Jian B, Vemuri BC (2005) A robust algorithm for point set registration using mixture of gaussians. IEEE ICCV 2:1246-1251",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "A robust algorithm for point set registration using mixture of gaussians"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33745875649",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "1246",
+                                    "@last": "1251"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jian",
+                                    "ce:indexed-name": "Jian B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vemuri",
+                                    "ce:indexed-name": "Vemuri B.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE ICCV"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ho J, Yang M-H, Ranganrajan A, Vemuri B (2007) A new affine registration algorithm for 2d point sets. Workshop Appl Comput Vis (WACV) 12:234-778",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "A new affine registration algorithm for 2d point sets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34547140153",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "12"},
+                                "pagerange": {
+                                    "@first": "234",
+                                    "@last": "778"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ho",
+                                    "ce:indexed-name": "Ho J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.-H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ranganrajan",
+                                    "ce:indexed-name": "Ranganrajan A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vemuri",
+                                    "ce:indexed-name": "Vemuri B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Workshop Appl Comput Vis (WACV)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Tsin Y, Kanade T (2004) A correlation based approach to robust point set registration. ECCV 3:558-569",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "A correlation based approach to robust point set registration"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33646674988",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "558",
+                                    "@last": "569"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tsin",
+                                    "ce:indexed-name": "Tsin Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanade",
+                                    "ce:indexed-name": "Kanade T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ECCV"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Myronenko A, Song X (2009) Point-set registration: coherent point drift. Technical Report, arXiv:0905.2635v1 [cs.CV], May",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77951143365",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Technical Report, arXiv:0905.2635v1 [cs.CV], May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Myronenko",
+                                    "ce:indexed-name": "Myronenko A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Song",
+                                    "ce:indexed-name": "Song X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Point-set Registration: Coherent Point Drift"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ho J, Peter A, Rangarajan A, Yang M-H (2009) An algebraic approach to affine registration of point sets. In: IEEE international conference on computer vision (ICCV)",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "An algebraic approach to affine registration of point sets"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "77953193055",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ho",
+                                    "ce:indexed-name": "Ho J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peter",
+                                    "ce:indexed-name": "Peter A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rangarajan",
+                                    "ce:indexed-name": "Rangarajan A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE International Conference on Computer Vision (ICCV)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chi Y-T, Shahed SN, Ho J, Yang M-H (2008) Higher dimensional affine registration and vision applications. In: Proceedings of the 10th European conference on computer vision (ECCV), vol 5303. pp 256-269",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Higher dimensional affine registration and vision applications"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "56749091196",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5303"},
+                                "pagerange": {
+                                    "@first": "256",
+                                    "@last": "269"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.-T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chi",
+                                    "ce:indexed-name": "Chi Y.-T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shahed",
+                                    "ce:indexed-name": "Shahed S.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ho",
+                                    "ce:indexed-name": "Ho J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.-H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang M.-H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 10th European Conference on Computer Vision (ECCV)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Horn B (1987) Closed-form solution of absolute orientation using unit quaternions. J Opt Soc Am A Opt Image Sci Vis 4(4):629-642",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed-form solution of absolute orientation using unit quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Horn",
+                                "ce:indexed-name": "Horn B."
+                            }]},
+                            "ref-sourcetitle": "J Opt Soc Am A Opt Image Sci Vis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Shapiro L, Brady J (1992) Feature-based correspondence-an eigenvector approach. Image Vis Comput 10:283-288",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Feature-based correspondence-an eigenvector approach"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "34548752768",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "10"},
+                                "pagerange": {
+                                    "@first": "283",
+                                    "@last": "288"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shapiro",
+                                    "ce:indexed-name": "Shapiro L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brady",
+                                    "ce:indexed-name": "Brady J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image Vis Comput"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Carcassoni M, Hancock E (2003) Spectral correspondence for point pattern matching. Pattern Recognit 36:193-204",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Spectral correspondence for point pattern matching"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037209409",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "36"},
+                                "pagerange": {
+                                    "@first": "193",
+                                    "@last": "204"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Carcassoni",
+                                    "ce:indexed-name": "Carcassoni M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hancock",
+                                    "ce:indexed-name": "Hancock E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pattern Recognit"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Stanford Computer Graphics Laboratory, The stanford 3d scanning repository. http://graphics.stanford.edu/data/3Dscanrep/",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-website": {
+                                "websitename": "Stanford Computer Graphics Laboratory",
+                                "ce:e-address": {
+                                    "$": "http://graphics.stanford.edu/data/3Dscanrep/",
+                                    "@type": "email"
+                                }
+                            },
+                            "refd-itemidlist": {"itemid": {
+                                "$": "5444225341",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-sourcetitle": "The Stanford 3d Scanning Repository"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Collins DL, Zijdenbos AP, Kollokian V, Sled JG, Kabani NJ, Holmes CJ, Evans AC (1998) Design and construction of a realistic digital brain phantom. IEEE Trans Med Imag 17(3):463-468 (Pubitemid 128747700)",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Design and construction of a realistic digital brain phantom"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032081266",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "463",
+                                    "@last": "468"
+                                }
+                            },
+                            "ref-text": "PII S027800629806457X",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Collins",
+                                    "ce:indexed-name": "Collins D.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zijdenbos",
+                                    "ce:indexed-name": "Zijdenbos A.P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kollokian",
+                                    "ce:indexed-name": "Kollokian V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sied",
+                                    "ce:indexed-name": "Sied J.G."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kabani",
+                                    "ce:indexed-name": "Kabani N.J."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holmes",
+                                    "ce:indexed-name": "Holmes C.J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Evans",
+                                    "ce:indexed-name": "Evans A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Medical Imaging"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "http://mouldy.bic.mni.mcgill.ca/brainweb/",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://mouldy.bic.mni.mcgill.ca/brainweb/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79955935889",
+                                "@idtype": "SGR"
+                            }}
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Piscataway",
+            "@id": "60028970",
+            "affilname": "Rutgers Robert Wood Johnson Medical School",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028970",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Yorktown Heights",
+            "@id": "60017366",
+            "affilname": "IBM Thomas J. Watson Research Center",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017366",
+            "affiliation-country": "United States"
+        },
+        {
+            "affiliation-city": "Shantou",
+            "@id": "60017179",
+            "affilname": "Shantou University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017179",
+            "affiliation-country": "China"
+        },
+        {
+            "affiliation-city": "Changchun",
+            "@id": "60007711",
+            "affilname": "Jilin University",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007711",
+            "affiliation-country": "China"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-79955941438",
+        "dc:description": "Purpose: Landmark point-based registration is an important tool in medical image analysis and applications. An efficient and robust new method is sought that does not require optimization and is less susceptible to noise. Methods: A new quaternion-based affine registration algorithm for matching 3D point sets, a generalization of a previously reported method for 2D point sets, was developed. The new algorithm computes the exact affine transformation and the unknown correspondence between two 3D point sets but does not require any optimization. The method performs robustly in the presence of noise for non-degenerate cases. The method performs a reduction of general affine case to an orthogonal case, and then computes the unknown rotation using the quaternion representation of the 3D points. The method assumes no prior knowledge of point-wise correspondence between the two point sets. The algebraic and geometric concepts underlying the method are shown to be both clear and intuitive. Results: Experimental evaluation of the method was performed using both randomly generated synthetic 3D point sets and Stanford Bunny dataset. The algorithm performed well even for noisy data. A feasibility test was performed with medical MR scans showing promising results. Conclusion: The algorithm for point-based correspondence registration demonstrated robust results, even in noisy cases, and was shown to be feasible for use with medical images. © CARS 2010.",
+        "prism:coverDate": "2011-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/79955941438",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Jianqin",
+            "preferred-name": {
+                "ce:given-name": "Jianqin",
+                "ce:initials": "J.",
+                "ce:surname": "Qu",
+                "ce:indexed-name": "Qu J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60007711",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007711"
+                },
+                {
+                    "@id": "60017179",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017179"
+                }
+            ],
+            "ce:surname": "Qu",
+            "@auid": "7201534928",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7201534928",
+            "ce:indexed-name": "Qu J."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/79955941438"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=79955941438&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=79955941438&origin=inward"
+            }
+        ],
+        "source-id": "4700152490",
+        "citedby-count": "10",
+        "prism:volume": "6",
+        "subtype": "ar",
+        "dc:title": "A 3D point matching algorithm for affine registration",
+        "openaccess": "0",
+        "prism:issn": "18616429 18616410",
+        "prism:issueIdentifier": "2",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "International Journal of Computer Assisted Radiology and Surgery",
+        "prism:pageRange": "229-236",
+        "prism:endingPage": "236",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/s11548-010-0503-y",
+        "prism:startingPage": "229",
+        "dc:identifier": "SCOPUS_ID:79955941438",
+        "dc:publisher": "Springer Verlagservice@springer.de"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Affine transformation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Point matching"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Surgery",
+            "@code": "2746",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Biomedical Engineering",
+            "@code": "2204",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Radiology, Nuclear Medicine and Imaging",
+            "@code": "2741",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Vision and Pattern Recognition",
+            "@code": "1707",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Health Informatics",
+            "@code": "2718",
+            "@abbrev": "MEDI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Graphics and Computer-Aided Design",
+            "@code": "1704",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Jianqin",
+            "preferred-name": {
+                "ce:given-name": "Jianqin",
+                "ce:initials": "J.",
+                "ce:surname": "Qu",
+                "ce:indexed-name": "Qu J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60007711",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007711"
+                },
+                {
+                    "@id": "60017179",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017179"
+                }
+            ],
+            "ce:surname": "Qu",
+            "@auid": "7201534928",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7201534928",
+            "ce:indexed-name": "Qu J."
+        },
+        {
+            "ce:given-name": "Leiguang",
+            "preferred-name": {
+                "ce:given-name": "Leiguang",
+                "ce:initials": "L.",
+                "ce:surname": "Gong",
+                "ce:indexed-name": "Gong L."
+            },
+            "@seq": "2",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60017366",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017366"
+            },
+            "ce:surname": "Gong",
+            "@auid": "7202769708",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7202769708",
+            "ce:indexed-name": "Gong L."
+        },
+        {
+            "ce:given-name": "Lin",
+            "preferred-name": {
+                "ce:given-name": "Lin",
+                "ce:initials": "L.",
+                "ce:surname": "Yang",
+                "ce:indexed-name": "Yang L."
+            },
+            "@seq": "3",
+            "ce:initials": "L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60028970",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60028970"
+            },
+            "ce:surname": "Yang",
+            "@auid": "55771607100",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55771607100",
+            "ce:indexed-name": "Yang L."
+        }
+    ]}
+}}

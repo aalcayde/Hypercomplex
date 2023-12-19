@@ -1,0 +1,1675 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@year": "2019",
+                "@timestamp": "2019-11-02T09:13:11.000011-04:00",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2019",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "Polish National Science Center"},
+                {
+                    "xocs:funding-agency-matched-string": "JSPS",
+                    "xocs:funding-agency-acronym": "KAKEN",
+                    "xocs:funding-agency": "Japan Society for the Promotion of Science",
+                    "xocs:funding-id": "17H06114",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001691",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1861060"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "NCN",
+                    "xocs:funding-agency-acronym": "NCN",
+                    "xocs:funding-agency": "Narodowe Centrum Nauki",
+                    "xocs:funding-id": "2017/27/B/ST6/01743",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100004281",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/798544/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2021-06-16T15:36:02.900813Z",
+            "xocs:funding-text": "This work was supported by Polish National Science Center (NCN) under a research grant 2017/27/B/ST6/01743 and JSPS KAKENHI under a grant 17H06114.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "Poland",
+                            "address-part": "30 Mickiewicza Av.",
+                            "postal-code": "30-059",
+                            "@afid": "60017351",
+                            "@country": "pol",
+                            "city": "Krakow",
+                            "organization": {"$": "AGH University of Science and Technology"},
+                            "affiliation-id": {"@afid": "60017351"},
+                            "ce:source-text": "AGH University of Science and Technology, 30 Mickiewicza Av., 30-059, Krakow, Poland"
+                        },
+                        "author": [{
+                            "ce:given-name": "Bogdan",
+                            "preferred-name": {
+                                "ce:given-name": "Bogdan",
+                                "ce:initials": "B.",
+                                "ce:surname": "Kwolek",
+                                "ce:indexed-name": "Kwolek B."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "B.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Kwolek",
+                            "@auid": "55948049900",
+                            "ce:indexed-name": "Kwolek B."
+                        }]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Japan",
+                            "address-part": "Gokiso-cho, Showa-ku",
+                            "postal-code": "466-8555",
+                            "@afid": "60024751",
+                            "@country": "jpn",
+                            "city": "Nagoya",
+                            "organization": [
+                                {"$": "Frontier Research Institute for Information Science"},
+                                {"$": "Nagoya Institute of Technology"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60024751",
+                                "@dptid": "116088485"
+                            },
+                            "ce:source-text": "Frontier Research Institute for Information Science, Nagoya Institute of Technology, Gokiso-cho, Showa-ku, Nagoya, 466-8555, Japan",
+                            "@dptid": "116088485"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Nam Tu",
+                                "preferred-name": {
+                                    "ce:given-name": "Nam Tu",
+                                    "ce:initials": "N.T.",
+                                    "ce:surname": "Nguen",
+                                    "ce:indexed-name": "Nguen N."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "N.T.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Nguen",
+                                "@auid": "57211179057",
+                                "ce:indexed-name": "Nguen N.T."
+                            },
+                            {
+                                "ce:given-name": "Shinji",
+                                "preferred-name": {
+                                    "ce:given-name": "Shinji",
+                                    "ce:initials": "S.",
+                                    "ce:surname": "Sako",
+                                    "ce:indexed-name": "Sako S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Sako",
+                                "@auid": "8967665400",
+                                "ce:indexed-name": "Sako S."
+                            }
+                        ]
+                    }
+                ],
+                "citation-title": "Deep CNN-Based Recognition of JSL Finger Spelling",
+                "abstracts": "© 2019, Springer Nature Switzerland AG.In this paper, we present a framework for recognition of static finger spelling in Japanese Sign Language on RGB images. The finger spelled signs were recognized by an ensemble consisting of a ResNet-based convolutional neural network and two ResNet quaternion convolutional neural networks. A 3D articulated hand model has been used to generate synthetic finger spellings and to extend a dataset consisting of real hand gestures. Twelve different gesture realizations were prepared for each of 41 signs. Ten images have been rendered for each realization through interpolations between the starting and end poses. Experimental results demonstrate that owing to sufficient amount of training data a high recognition rate can be attained on images from a single RGB camera. Results achieved by the ResNet quaternion convolutional neural network are better than results obtained by the ResNet CNN. The best recognition results were achieved by the ensemble. The JSL-rend dataset is available for download.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "Poland",
+                        "address-part": "30 Mickiewicza Av.",
+                        "postal-code": "30-059",
+                        "@country": "pol",
+                        "city": "Krakow",
+                        "organization": {"$": "AGH University of Science and Technology"},
+                        "ce:source-text": "AGH University of Science and Technology, 30 Mickiewicza Av., 30-059, Krakow, Poland"
+                    },
+                    "person": {
+                        "ce:given-name": "Bogdan",
+                        "ce:initials": "B.",
+                        "ce:surname": "Kwolek",
+                        "ce:indexed-name": "Kwolek B."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "https://www.springer.com/series/558",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "11734 LNAI"},
+                        "pagerange": {
+                            "@first": "602",
+                            "@last": "613"
+                        }
+                    },
+                    "@type": "k",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9783030298586",
+                        "@type": "print",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "14th International Conference on Hybrid Artificial Intelligence Systems, HAIS 2019",
+                            "confnumber": "14th",
+                            "confseriestitle": "International Conference on Hybrid Artificial Intelligence Systems",
+                            "conflocation": {
+                                "@country": "esp",
+                                "city": "León"
+                            },
+                            "confcode": "231159",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "06",
+                                    "@year": "2019",
+                                    "@month": "09"
+                                },
+                                "startdate": {
+                                    "@day": "04",
+                                    "@year": "2019",
+                                    "@month": "09"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                    "contributor-group": [
+                        {"contributor": [
+                            {
+                                "ce:given-name": "Hilde",
+                                "@seq": "1",
+                                "ce:initials": "H.",
+                                "ce:surname": "Pérez García",
+                                "@role": "edit",
+                                "ce:indexed-name": "Perez Garcia H."
+                            },
+                            {
+                                "ce:given-name": "Lidia",
+                                "@seq": "2",
+                                "ce:initials": "L.",
+                                "ce:surname": "Sánchez González",
+                                "@role": "edit",
+                                "ce:indexed-name": "Sanchez Gonzalez L."
+                            },
+                            {
+                                "ce:given-name": "Manuel",
+                                "@seq": "3",
+                                "ce:initials": "M.",
+                                "ce:surname": "Castejón Limas",
+                                "@role": "edit",
+                                "ce:indexed-name": "Castejon Limas M."
+                            }
+                        ]},
+                        {"contributor": {
+                            "ce:given-name": "Héctor",
+                            "@seq": "1",
+                            "ce:initials": "H.",
+                            "ce:surname": "Quintián Pardo",
+                            "@role": "edit",
+                            "ce:indexed-name": "Quintian Pardo H."
+                        }},
+                        {"contributor": {
+                            "ce:given-name": "Emilio",
+                            "@seq": "1",
+                            "ce:initials": "E.",
+                            "ce:surname": "Corchado Rodríguez",
+                            "@role": "edit",
+                            "ce:indexed-name": "Corchado Rodriguez E."
+                        }}
+                    ],
+                    "publicationdate": {
+                        "year": "2019",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2019"
+                        }
+                    },
+                    "sourcetitle-abbrev": "Lect. Notes Comput. Sci.",
+                    "@country": "deu",
+                    "issuetitle": "Hybrid Artificial Intelligent Systems - 14th International Conference, HAIS 2019, Proceedings",
+                    "issn": [
+                        {
+                            "$": "16113349",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "03029743",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2019"},
+                    "publisher": {
+                        "publishername": "Springer Verlag",
+                        "ce:e-address": {
+                            "$": "service@springer.de",
+                            "@type": "email"
+                        }
+                    },
+                    "@srcid": "25674"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information and Communication Theory"
+                            },
+                            {
+                                "classification-code": "723.4",
+                                "classification-description": "Artificial Intelligence"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2614"},
+                            {"$": "1700"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "COMP"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported by Polish National Science Center (NCN) under a research grant 2017/27/B/ST6/01743 and JSPS KAKENHI under a grant 17H06114.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-id": "2017/27/B/ST6/01743",
+                        "grant-acronym": "NCN",
+                        "grant-agency": {
+                            "@iso-code": "pol",
+                            "$": "Narodowym Centrum Nauki"
+                        },
+                        "grant-agency-id": "501100004442"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2019 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "09",
+                    "@year": "2019",
+                    "@timestamp": "BST 06:32:21",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "629507691",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "920685029",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20194107505481",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20192881335",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85072896630",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85072896630",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1007/978-3-030-29859-3_51"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "26",
+                "reference": [
+                    {
+                        "ref-fulltext": "Sagayam, M., Hemanth, J.: Hand posture and gesture recognition techniques for virtual reality applications: a survey. Virtual Reality 21(2), 91\u2013107 (2017)",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Hand posture and gesture recognition techniques for virtual reality applications: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020618081",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "91",
+                                    "@last": "107"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sagayam",
+                                    "ce:indexed-name": "Sagayam M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hemanth",
+                                    "ce:indexed-name": "Hemanth J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Virtual Reality"
+                        },
+                        "ce:source-text": "Sagayam, M., Hemanth, J.: Hand posture and gesture recognition techniques for virtual reality applications: a survey. Virtual Reality 21(2), 91\u2013107 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Chen, F., Zhong, Q., Cannella, F., Sekiyama, K., Fukuda, T.: Hand gesture modeling and recognition for human and robot interactive assembly using Hidden Markov Models. Int. J. Adv. Rob. Syst. 12(4), 48 (2015)",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Hand gesture modeling and recognition for human and robot interactive assembly using Hidden Markov Models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84932637009",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "12",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {"@first": "48"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong Q."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cannella",
+                                    "ce:indexed-name": "Cannella F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sekiyama",
+                                    "ce:indexed-name": "Sekiyama K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fukuda",
+                                    "ce:indexed-name": "Fukuda T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Adv. Rob. Syst."
+                        },
+                        "ce:source-text": "Chen, F., Zhong, Q., Cannella, F., Sekiyama, K., Fukuda, T.: Hand gesture modeling and recognition for human and robot interactive assembly using Hidden Markov Models. Int. J. Adv. Rob. Syst. 12(4), 48 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Raj, M.D., Gogul, I., Thangaraja, M., Kumar, V.: Static gesture recognition based precise positioning of 5-DOF robotic arm using FPGA. In: Trends in Industrial Measurement and Automation (TIMA), pp. 1\u20136 (2017)",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Static gesture recognition based precise positioning of 5-DOF robotic arm using FPGA"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85034841422",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Raj",
+                                    "ce:indexed-name": "Raj M.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gogul",
+                                    "ce:indexed-name": "Gogul I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Thangaraja",
+                                    "ce:indexed-name": "Thangaraja M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumar",
+                                    "ce:indexed-name": "Kumar V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Trends in Industrial Measurement and Automation (TIMA)"
+                        },
+                        "ce:source-text": "Raj, M.D., Gogul, I., Thangaraja, M., Kumar, V.: Static gesture recognition based precise positioning of 5-DOF robotic arm using FPGA. In: Trends in Industrial Measurement and Automation (TIMA), pp. 1\u20136 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Liu, H., Wang, L.: Gesture recognition for human-robot collaboration: a review. Int. J. Ind. Ergon. 68, 355\u2013367 (2018)",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Gesture recognition for human-robot collaboration: A review"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85014161933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "68"},
+                                "pagerange": {
+                                    "@first": "355",
+                                    "@last": "367"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Int. J. Ind. Ergon."
+                        },
+                        "ce:source-text": "Liu, H., Wang, L.: Gesture recognition for human-robot collaboration: a review. Int. J. Ind. Ergon. 68, 355\u2013367 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Patil, S., et al.: GesturePod: programmable gesture recognition for augmenting assistive devices, Technical report, Microsoft, May 2018",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063479933",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Technical report, Microsoft, May",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patil",
+                                    "ce:indexed-name": "Patil S."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Gesturepod: Programmable Gesture Recognition for Augmenting Assistive Devices"
+                        },
+                        "ce:source-text": "Patil, S., et al.: GesturePod: programmable gesture recognition for augmenting assistive devices, Technical report, Microsoft, May 2018"
+                    },
+                    {
+                        "ref-fulltext": "Rautaray, S., Agrawal, A.: Vision based hand gesture recognition for human computer interaction: a survey. Artif. Intell. Rev. 43(1), 1\u201354 (2015)",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Vision based hand gesture recognition for human computer interaction: A survey"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84921999882",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "54"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rautaray",
+                                    "ce:indexed-name": "Rautaray S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Agrawal",
+                                    "ce:indexed-name": "Agrawal A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Artif. Intell. Rev."
+                        },
+                        "ce:source-text": "Rautaray, S., Agrawal, A.: Vision based hand gesture recognition for human computer interaction: a survey. Artif. Intell. Rev. 43(1), 1\u201354 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Al-Shamayleh, A.S., Ahmad, R., Abushariah, M., Alam, K.A., Jomhari, N.: A systematic literature review on vision based gesture recognition techniques. Multimedia Tools Appl. 77(21), 28121\u201328184 (2018)",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "A systematic literature review on vision based gesture recognition techniques"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85045935859",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "77",
+                                    "@issue": "21"
+                                },
+                                "pagerange": {
+                                    "@first": "28121",
+                                    "@last": "28184"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Al-Shamayleh",
+                                    "ce:indexed-name": "Al-Shamayleh A.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ahmad",
+                                    "ce:indexed-name": "Ahmad R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abushariah",
+                                    "ce:indexed-name": "Abushariah M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Alam",
+                                    "ce:indexed-name": "Alam K.A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jomhari",
+                                    "ce:indexed-name": "Jomhari N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Multimedia Tools Appl"
+                        },
+                        "ce:source-text": "Al-Shamayleh, A.S., Ahmad, R., Abushariah, M., Alam, K.A., Jomhari, N.: A systematic literature review on vision based gesture recognition techniques. Multimedia Tools Appl. 77(21), 28121\u201328184 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Ohn-Bar, E., Trivedi, M.: Hand gesture recognition in real time for automotive interfaces: a multimodal vision-based approach and evaluations. IEEE Trans. Intell. Transp. Syst. 15(6), 2368\u20132377 (2014)",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Hand gesture recognition in real time for automotive interfaces: A multimodal vision-based approach and evaluations"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84908519903",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "15",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "2368",
+                                    "@last": "2377"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ohn-Bar",
+                                    "ce:indexed-name": "Ohn-Bar E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trivedi",
+                                    "ce:indexed-name": "Trivedi M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Intell. Transp. Syst."
+                        },
+                        "ce:source-text": "Ohn-Bar, E., Trivedi, M.: Hand gesture recognition in real time for automotive interfaces: a multimodal vision-based approach and evaluations. IEEE Trans. Intell. Transp. Syst. 15(6), 2368\u20132377 (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Pisharady, P., Saerbeck, M.: Recent methods and databases in vision-based hand gesture recognition. Comput. Vis. Image Underst. 141, 152\u2013165 (2015)",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Recent methods and databases in vision-based hand gesture recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84948168846",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "141"},
+                                "pagerange": {
+                                    "@first": "152",
+                                    "@last": "165"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pisharady",
+                                    "ce:indexed-name": "Pisharady P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saerbeck",
+                                    "ce:indexed-name": "Saerbeck M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Vis. Image Underst."
+                        },
+                        "ce:source-text": "Pisharady, P., Saerbeck, M.: Recent methods and databases in vision-based hand gesture recognition. Comput. Vis. Image Underst. 141, 152\u2013165 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Oyedotun, O., Khashman, A.: Deep learning in vision-based static hand gesture recognition. Neural Comput. Appl., 1\u201311 (2016)",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep learning in vision-based static hand gesture recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85031393593",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "11"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Oyedotun",
+                                    "ce:indexed-name": "Oyedotun O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khashman",
+                                    "ce:indexed-name": "Khashman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Comput. Appl."
+                        },
+                        "ce:source-text": "Oyedotun, O., Khashman, A.: Deep learning in vision-based static hand gesture recognition. Neural Comput. Appl., 1\u201311 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Tompson, J., Stein, M., LeCun, Y., Perlin, K.: Real-time continuous pose recovery of human hands using convolutional networks. ACM Trans. Graph. 33(5) (2014)",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-title": {"ref-titletext": "Real-time continuous pose recovery of human hands using convolutional networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84907552337",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "33",
+                                "@issue": "5"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tompson",
+                                    "ce:indexed-name": "Tompson J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stein",
+                                    "ce:indexed-name": "Stein M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lecun",
+                                    "ce:indexed-name": "Lecun Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Perlin",
+                                    "ce:indexed-name": "Perlin K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ACM Trans. Graph."
+                        },
+                        "ce:source-text": "Tompson, J., Stein, M., LeCun, Y., Perlin, K.: Real-time continuous pose recovery of human hands using convolutional networks. ACM Trans. Graph. 33(5) (2014)"
+                    },
+                    {
+                        "ref-fulltext": "Nagi, J., Ducatelle, F., et al.: Max-pooling convolutional neural networks for vision-based hand gesture recognition. In: IEEE ICSIP, pp. 342\u2013347 (2011)",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2011"},
+                            "ref-title": {"ref-titletext": "Max-pooling convolutional neural networks for vision-based hand gesture recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84857496797",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "342",
+                                "@last": "347"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "J.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Nagi",
+                                        "ce:indexed-name": "Nagi J."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "F.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ducatelle",
+                                        "ce:indexed-name": "Ducatelle F."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE ICSIP"
+                        },
+                        "ce:source-text": "Nagi, J., Ducatelle, F., et al.: Max-pooling convolutional neural networks for vision-based hand gesture recognition. In: IEEE ICSIP, pp. 342\u2013347 (2011)"
+                    },
+                    {
+                        "ref-fulltext": "Barros, P., Magg, S., Weber, C., Wermter, S.: A multichannel convolutional neural network for hand posture recognition. In: Wermter, S., et al. (eds.) ICANN 2014. LNCS, vol. 8681, pp. 403\u2013410. Springer, Cham (2014). https://doi.org/10.1007/978-3-319-11179-7 51",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-3-319-11179-751",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84958545078",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "8681"},
+                                "pagerange": {
+                                    "@first": "403",
+                                    "@last": "410"
+                                }
+                            },
+                            "ref-text": "Wermter, S., et al. (eds.) ICANN, LNCS, Springer, Cham (2014)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barros",
+                                    "ce:indexed-name": "Barros P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Magg",
+                                    "ce:indexed-name": "Magg S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weber",
+                                    "ce:indexed-name": "Weber C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wermter",
+                                    "ce:indexed-name": "Wermter S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A Multichannel Convolutional Neural Network for Hand Posture Recognition"
+                        },
+                        "ce:source-text": "Barros, P., Magg, S., Weber, C., Wermter, S.: A multichannel convolutional neural network for hand posture recognition. In: Wermter, S., et al. (eds.) ICANN 2014. LNCS, vol. 8681, pp. 403\u2013410. Springer, Cham (2014). https://doi.org/10.1007/978-3-319-11179-7 51"
+                    },
+                    {
+                        "ref-fulltext": "Koller, O., Ney, H., Bowden, R.: Deep hand: how to train a CNN on 1 million hand images when your data is continuous and weakly labelled. In: IEEE Conference on Computer Vision and Pattern Recognition, pp. 3793\u20133802 (2016)",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep hand: How to train a CNN on 1 million hand images when your data is continuous and weakly labelled"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986300490",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3793",
+                                "@last": "3802"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koller",
+                                    "ce:indexed-name": "Koller O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ney",
+                                    "ce:indexed-name": "Ney H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bowden",
+                                    "ce:indexed-name": "Bowden R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Conference on Computer Vision and Pattern Recognition"
+                        },
+                        "ce:source-text": "Koller, O., Ney, H., Bowden, R.: Deep hand: how to train a CNN on 1 million hand images when your data is continuous and weakly labelled. In: IEEE Conference on Computer Vision and Pattern Recognition, pp. 3793\u20133802 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Tabata, Y., Kuroda, T.: Finger spelling recognition using distinctive features of hand shape. In: International Conference on Disability, Virtual Reality and Associated Technologies with Art Abilitation, pp. 287\u2013292 (2008)",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Finger spelling recognition using distinctive features of hand shape"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "79952968230",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "287",
+                                "@last": "292"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tabata",
+                                    "ce:indexed-name": "Tabata Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kuroda",
+                                    "ce:indexed-name": "Kuroda T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Disability, Virtual Reality and Associated Technologies with Art Abilitation"
+                        },
+                        "ce:source-text": "Tabata, Y., Kuroda, T.: Finger spelling recognition using distinctive features of hand shape. In: International Conference on Disability, Virtual Reality and Associated Technologies with Art Abilitation, pp. 287\u2013292 (2008)"
+                    },
+                    {
+                        "ref-fulltext": "Kane, L., Khanna, P.: A framework for live and cross platform fingerspelling recognition using modified shape matrix variants on depth silhouettes. Comput. Vis. Image Underst. 141, 138\u2013151 (2015)",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "A framework for live and cross platform fingerspelling recognition using modified shape matrix variants on depth silhouettes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84948155567",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "141"},
+                                "pagerange": {
+                                    "@first": "138",
+                                    "@last": "151"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kane",
+                                    "ce:indexed-name": "Kane L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khanna",
+                                    "ce:indexed-name": "Khanna P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Vis. Image Underst."
+                        },
+                        "ce:source-text": "Kane, L., Khanna, P.: A framework for live and cross platform fingerspelling recognition using modified shape matrix variants on depth silhouettes. Comput. Vis. Image Underst. 141, 138\u2013151 (2015)"
+                    },
+                    {
+                        "ref-fulltext": "Kwolek, B., Sako, S.: Learning siamese features for finger spelling recognition. In: Blanc-Talon, J., Penne, R., Philips, W., Popescu, D., Scheunders, P. (eds.) ACIVS 2017. LNCS, vol. 10617, pp. 225\u2013236. Springer, Cham (2017). https://doi.org/10. 1007/978-3-319-70353-4 20",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://doi.org/10.1007/978-3-319-70353-420",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85036663110",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "225",
+                                "@last": "236"
+                            }},
+                            "ref-text": "Blanc-Talon, J., Penne, R., Philips, W., Popescu, D., Scheunders, P. (eds.) ACIVS 2017. LNCS, vol. 10617, Springer, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kwolek",
+                                    "ce:indexed-name": "Kwolek B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sako",
+                                    "ce:indexed-name": "Sako S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning Siamese Features for Finger Spelling Recognition"
+                        },
+                        "ce:source-text": "Kwolek, B., Sako, S.: Learning siamese features for finger spelling recognition. In: Blanc-Talon, J., Penne, R., Philips, W., Popescu, D., Scheunders, P. (eds.) ACIVS 2017. LNCS, vol. 10617, pp. 225\u2013236. Springer, Cham (2017). https://doi.org/10. 1007/978-3-319-70353-4 20"
+                    },
+                    {
+                        "ref-fulltext": "Rosalina, L.Y., Hadisukmana, N., Wahyu, R.B., Roestam, R., Wahyu, Y.: Implementation of real-time static hand gesture recognition using artificial neural network. In: CAIPT, pp. 1\u20136 (2017)",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Implementation of real-time static hand gesture recognition using artificial neural network"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85048119716",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rosalina",
+                                    "ce:indexed-name": "Rosalina L.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hadisukmana",
+                                    "ce:indexed-name": "Hadisukmana N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wahyu",
+                                    "ce:indexed-name": "Wahyu R.B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roestam",
+                                    "ce:indexed-name": "Roestam R."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wahyu",
+                                    "ce:indexed-name": "Wahyu Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "CAIPT"
+                        },
+                        "ce:source-text": "Rosalina, L.Y., Hadisukmana, N., Wahyu, R.B., Roestam, R., Wahyu, Y.: Implementation of real-time static hand gesture recognition using artificial neural network. In: CAIPT, pp. 1\u20136 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Asad, M., Slabaugh, G.: SPORE: staged probabilistic regression for hand orientation inference. Comput. Vis. Image Underst. 161, 114\u2013129 (2017)",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "SPORE: Staged probabilistic regression for hand orientation inference"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020920287",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "161"},
+                                "pagerange": {
+                                    "@first": "114",
+                                    "@last": "129"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Asad",
+                                    "ce:indexed-name": "Asad M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Slabaugh",
+                                    "ce:indexed-name": "Slabaugh G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput. Vis. Image Underst."
+                        },
+                        "ce:source-text": "Asad, M., Slabaugh, G.: SPORE: staged probabilistic regression for hand orientation inference. Comput. Vis. Image Underst. 161, 114\u2013129 (2017)"
+                    },
+                    {
+                        "ref-fulltext": "Dawod, A.Y., Nordin, M.J., Abdullah, J.: Static fingerspelling recognition based on boundary tracing algorithm and chain code. In: International Conference on Intelligent Systems, Metaheuristics & Swarm Intelligence, pp. 104\u2013109. ACM (2018)",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Static fingerspelling recognition based on boundary tracing algorithm and chain code"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85057589652",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "104",
+                                "@last": "109"
+                            }},
+                            "ref-text": "pp., ACM",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dawod",
+                                    "ce:indexed-name": "Dawod A.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nordin",
+                                    "ce:indexed-name": "Nordin M.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Abdullah",
+                                    "ce:indexed-name": "Abdullah J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Conference on Intelligent Systems, Metaheuristics & Swarm Intelligence"
+                        },
+                        "ce:source-text": "Dawod, A.Y., Nordin, M.J., Abdullah, J.: Static fingerspelling recognition based on boundary tracing algorithm and chain code. In: International Conference on Intelligent Systems, Metaheuristics & Swarm Intelligence, pp. 104\u2013109. ACM (2018)"
+                    },
+                    {
+                        "ref-fulltext": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770\u2013778 (2016)",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Deep residual learning for image recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986274465",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "770",
+                                "@last": "778"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+                        },
+                        "ce:source-text": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 770\u2013778 (2016)"
+                    },
+                    {
+                        "ref-fulltext": "Parcollet, T., et al.: Quaternion convolutional neural networks for end-to-end automatic speech recognition. In: Interspeech, ISCA, pp. 22\u201326 (2018)",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Quaternion convolutional neural networks for end-to-end automatic speech recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85054958663",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "22",
+                                "@last": "26"
+                            }},
+                            "ref-text": "pp",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parcollet",
+                                    "ce:indexed-name": "Parcollet T."
+                                }],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Interspeech, ISCA"
+                        },
+                        "ce:source-text": "Parcollet, T., et al.: Quaternion convolutional neural networks for end-to-end automatic speech recognition. In: Interspeech, ISCA, pp. 22\u201326 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Popa, C.A.: Learning algorithms for quaternion-valued neural networks. Neural Process. Lett. 47(3), 949\u2013973 (2018)",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Learning algorithms for quaternion-valued neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029802516",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "47",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "949",
+                                    "@last": "973"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "C.A.",
+                                "@_fa": "true",
+                                "ce:surname": "Popa",
+                                "ce:indexed-name": "Popa C.A."
+                            }]},
+                            "ref-sourcetitle": "Neural Process. Lett."
+                        },
+                        "ce:source-text": "Popa, C.A.: Learning algorithms for quaternion-valued neural networks. Neural Process. Lett. 47(3), 949\u2013973 (2018)"
+                    },
+                    {
+                        "ref-fulltext": "Nitta, T.: A quaternary version of the back-propagation algorithm. In: Proceedings of International Conference on Neural Networks, vol. 5, pp. 2753\u20132756 (1995)",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "A quaternary version of the back-propagation algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029463664",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "5"},
+                                "pagerange": {
+                                    "@first": "2753",
+                                    "@last": "2756"
+                                }
+                            },
+                            "ref-text": "vol., pp",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "T.",
+                                "@_fa": "true",
+                                "ce:surname": "Nitta",
+                                "ce:indexed-name": "Nitta T."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of International Conference on Neural Networks"
+                        },
+                        "ce:source-text": "Nitta, T.: A quaternary version of the back-propagation algorithm. In: Proceedings of International Conference on Neural Networks, vol. 5, pp. 2753\u20132756 (1995)"
+                    },
+                    {
+                        "ref-fulltext": "Zhu, X., Xu, Y., Xu, H., Chen, C.: Quaternion convolutional neural networks. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11212, pp. 645\u2013661. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01237-3 39",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-website": {"ce:e-address": {
+                                "$": ").https://doi.org/10.1007/978-3-030-01237-339",
+                                "@type": "email"
+                            }},
+                            "ref-title": {"ref-titletext": "Quaternion convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85055416446",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "645",
+                                "@last": "661"
+                            }},
+                            "ref-text": "Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.), vol. 11212., Springer, Cham",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "ECCV 2018. LNCS"
+                        },
+                        "ce:source-text": "Zhu, X., Xu, Y., Xu, H., Chen, C.: Quaternion convolutional neural networks. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11212, pp. 645\u2013661. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01237-3 39"
+                    },
+                    {
+                        "ref-fulltext": "Opitz, D., Maclin, R.: Popular ensemble methods: an empirical study. J. Artif. Int. Res. 11(1), 169\u2013198 (1999)",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Popular ensemble methods: An empirical study"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0000551189",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "11",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "169",
+                                    "@last": "198"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Opitz",
+                                    "ce:indexed-name": "Opitz D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Maclin",
+                                    "ce:indexed-name": "Maclin R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Artif. Int. Res."
+                        },
+                        "ce:source-text": "Opitz, D., Maclin, R.: Popular ensemble methods: an empirical study. J. Artif. Int. Res. 11(1), 169\u2013198 (1999)"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Nagoya",
+            "@id": "60024751",
+            "affilname": "Nagoya Institute of Technology",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024751",
+            "affiliation-country": "Japan"
+        },
+        {
+            "affiliation-city": "Krakow",
+            "@id": "60017351",
+            "affilname": "AGH University of Krakow",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017351",
+            "affiliation-country": "Poland"
+        }
+    ],
+    "coredata": {
+        "srctype": "k",
+        "eid": "2-s2.0-85072896630",
+        "dc:description": "In this paper, we present a framework for recognition of static finger spelling in Japanese Sign Language on RGB images. The finger spelled signs were recognized by an ensemble consisting of a ResNet-based convolutional neural network and two ResNet quaternion convolutional neural networks. A 3D articulated hand model has been used to generate synthetic finger spellings and to extend a dataset consisting of real hand gestures. Twelve different gesture realizations were prepared for each of 41 signs. Ten images have been rendered for each realization through interpolations between the starting and end poses. Experimental results demonstrate that owing to sufficient amount of training data a high recognition rate can be attained on images from a single RGB camera. Results achieved by the ResNet quaternion convolutional neural network are better than results obtained by the ResNet CNN. The best recognition results were achieved by the ensemble. The JSL-rend dataset is available for download.",
+        "prism:coverDate": "2019-01-01",
+        "prism:aggregationType": "Book Series",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85072896630",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Nam Tu",
+            "preferred-name": {
+                "ce:given-name": "Nam Tu",
+                "ce:initials": "N.T.",
+                "ce:surname": "Nguen",
+                "ce:indexed-name": "Nguen N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60024751",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024751"
+            },
+            "ce:surname": "Nguen",
+            "@auid": "57211179057",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57211179057",
+            "ce:indexed-name": "Nguen N.T."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85072896630"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85072896630&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85072896630&origin=inward"
+            }
+        ],
+        "prism:isbn": "9783030298586",
+        "source-id": "25674",
+        "citedby-count": "6",
+        "prism:volume": "11734 LNAI",
+        "subtype": "cp",
+        "dc:title": "Deep CNN-Based Recognition of JSL Finger Spelling",
+        "openaccess": "0",
+        "prism:issn": "16113349 03029743",
+        "publishercopyright": "© 2019, Springer Nature Switzerland AG.",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+        "prism:pageRange": "602-613",
+        "prism:endingPage": "613",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1007/978-3-030-29859-3_51",
+        "prism:startingPage": "602",
+        "dc:identifier": "SCOPUS_ID:85072896630",
+        "dc:publisher": "Springer Verlagservice@springer.de"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Convolutional neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Finger spelling",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Hand gesture",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Hand model",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Japanese sign languages",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "RGB cameras",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "RGB images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Training data",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Theoretical Computer Science",
+            "@code": "2614",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Nam Tu",
+            "preferred-name": {
+                "ce:given-name": "Nam Tu",
+                "ce:initials": "N.T.",
+                "ce:surname": "Nguen",
+                "ce:indexed-name": "Nguen N."
+            },
+            "@seq": "1",
+            "ce:initials": "N.T.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60024751",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024751"
+            },
+            "ce:surname": "Nguen",
+            "@auid": "57211179057",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57211179057",
+            "ce:indexed-name": "Nguen N.T."
+        },
+        {
+            "ce:given-name": "Shinji",
+            "preferred-name": {
+                "ce:given-name": "Shinji",
+                "ce:initials": "S.",
+                "ce:surname": "Sako",
+                "ce:indexed-name": "Sako S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60024751",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60024751"
+            },
+            "ce:surname": "Sako",
+            "@auid": "8967665400",
+            "author-url": "https://api.elsevier.com/content/author/author_id/8967665400",
+            "ce:indexed-name": "Sako S."
+        },
+        {
+            "ce:given-name": "Bogdan",
+            "preferred-name": {
+                "ce:given-name": "Bogdan",
+                "ce:initials": "B.",
+                "ce:surname": "Kwolek",
+                "ce:indexed-name": "Kwolek B."
+            },
+            "@seq": "3",
+            "ce:initials": "B.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60017351",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60017351"
+            },
+            "ce:surname": "Kwolek",
+            "@auid": "55948049900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55948049900",
+            "ce:indexed-name": "Kwolek B."
+        }
+    ]}
+}}

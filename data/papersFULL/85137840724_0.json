@@ -1,0 +1,2036 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S200"
+            },
+            "ait:date-delivered": {
+                "@day": "26",
+                "@year": "2023",
+                "@timestamp": "2023-06-26T10:44:49.000049-04:00",
+                "@month": "06"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {"xocs:funding-agency-matched-string": "CUED"},
+                {"xocs:funding-agency-matched-string": "Signal Processing & Communications Group of Cambridge University Engineering Department"}
+            ],
+            "xocs:funding-addon-generated-timestamp": "2022-09-18T01:56:42.797Z",
+            "xocs:funding-text": "This work has been supported by the Signal Processing & Communications Group of Cambridge University Engineering Department (CUED).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "country": "United Kingdom",
+                            "@afid": "60120016",
+                            "@country": "gbr",
+                            "city": "Cambridge",
+                            "organization": [
+                                {"$": "Signal Processing & Communications Lab"},
+                                {"$": "Engineering Department"},
+                                {"$": "University of Cambridge"}
+                            ],
+                            "affiliation-id": [
+                                {
+                                    "@afid": "60120016",
+                                    "@dptid": "123216986"
+                                },
+                                {"@afid": "60031101"}
+                            ],
+                            "@affiliation-instance-id": "2019064540-85f83f21cac0d342316f9d8bf666bc71",
+                            "ce:source-text": "Signal Processing & Communications Lab, Engineering Department, University of Cambridge, Cambridge, UK",
+                            "@dptid": "123216986"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Alberto",
+                                "preferred-name": {
+                                    "ce:given-name": "Alberto",
+                                    "ce:initials": "A.",
+                                    "ce:surname": "Pepe",
+                                    "ce:indexed-name": "Pepe A."
+                                },
+                                "@seq": "1",
+                                "@author-instance-id": "2019064540-e2dacb7e82d6d6a7049e9660d90480f0",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Pepe",
+                                "@auid": "57887069000",
+                                "@orcid": "0000-0001-8775-4427",
+                                "ce:indexed-name": "Pepe A."
+                            },
+                            {
+                                "ce:given-name": "Joan",
+                                "preferred-name": {
+                                    "ce:given-name": "Joan",
+                                    "ce:initials": "J.",
+                                    "ce:surname": "Lasenby",
+                                    "ce:indexed-name": "Lasenby J."
+                                },
+                                "@seq": "2",
+                                "@author-instance-id": "2019064540-e32ccd8ffa250736bd0b69f3102aaa2d",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Lasenby",
+                                "@auid": "6701831900",
+                                "@orcid": "0000-0002-0571-0218",
+                                "ce:indexed-name": "Lasenby J."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "country": "Spain",
+                            "@afid": "60007643",
+                            "@country": "esp",
+                            "city": "Madrid",
+                            "organization": [
+                                {"$": "Chacon Lab"},
+                                {"$": "Rocasolano Physical Chemistry Institute"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60007643",
+                                "@dptid": "128567290"
+                            },
+                            "@affiliation-instance-id": "2019064540-6712a96732932740c10e205dbc4aab20",
+                            "ce:source-text": "Chacon Lab, Rocasolano Physical Chemistry Institute, Madrid, Spain",
+                            "@dptid": "128567290"
+                        },
+                        "author": [{
+                            "ce:given-name": "Pablo",
+                            "preferred-name": {
+                                "ce:given-name": "Pablo",
+                                "ce:initials": "P.",
+                                "ce:surname": "Chacón",
+                                "ce:indexed-name": "Chacón P."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "2019064540-da999a5522afa19bfa55d8f68756f3fe",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Chacón",
+                            "@auid": "7005148641",
+                            "ce:indexed-name": "Chacon P."
+                        }]
+                    }
+                ],
+                "citation-title": "Learning rotations",
+                "abstracts": "© 2022 The Authors. Mathematical Methods in the Applied Sciences published by John Wiley & Sons, Ltd.Many problems in computer vision today are solved via deep learning. Tasks like pose estimation from images, pose estimation from point clouds or structure from motion can all be formulated as a regression on rotations. However, there is no unique way of parametrizing rotations mathematically: matrices, quaternions, axis-angle representation or Euler angles are all commonly used in the field. Some of them, however, present intrinsic limitations, including discontinuities, gimbal lock or antipodal symmetry. These limitations may make the learning of rotations via neural networks a challenging problem, potentially introducing large errors. Following recent literature, we propose three case studies: a sanity check, a pose estimation from 3D point clouds and an inverse kinematic problem. We do so by employing a full geometric algebra (GA) description of rotations. We compare the GA formulation with a 6D continuous representation previously presented in the literature in terms of regression error and reconstruction accuracy. We empirically demonstrate that parametrizing rotations as bivectors outperforms the 6D representation. The GA approach overcomes the continuity issue of representations as the 6D representation does, but it also needs fewer parameters to be learned and offers an enhanced robustness to noise. GA hence provides a broader framework for describing rotations in a simple and compact way that is suitable for regression tasks via deep learning, showing high regression accuracy and good generalizability in realistic high-noise scenarios.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "United Kingdom",
+                        "@country": "gbr",
+                        "city": "Cambridge",
+                        "organization": [
+                            {"$": "Signal Processing & Communications Lab"},
+                            {"$": "Engineering Department"},
+                            {"$": "University of Cambridge"}
+                        ],
+                        "ce:source-text": "Signal Processing & Communications Lab, Engineering Department, University of Cambridge, Cambridge, UK"
+                    },
+                    "person": {
+                        "ce:given-name": "Alberto",
+                        "ce:initials": "A.",
+                        "ce:surname": "Pepe",
+                        "ce:indexed-name": "Pepe A."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "bivectors",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "computer vision",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "deep learning",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "geometric algebra",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "inverse kinematics",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "pose estimation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "rotation representation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "MMSCD",
+                    "sourcetitle-abbrev": "Math Methods Appl Sci",
+                    "website": {"ce:e-address": {
+                        "$": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-1476",
+                        "@type": "email"
+                    }},
+                    "@country": "gbr",
+                    "translated-sourcetitle": {
+                        "$": "Mathematical Methods in the Applied Sciences",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": [
+                        {
+                            "$": "10991476",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "01704214",
+                            "@type": "print"
+                        }
+                    ],
+                    "@type": "j",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "John Wiley and Sons Ltd"},
+                    "sourcetitle": "Mathematical Methods in the Applied Sciences",
+                    "@srcid": "24594",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.4",
+                                "classification-description": "Ergonomics and Human Factors Engineering"
+                            },
+                            {
+                                "classification-code": "716.1",
+                                "classification-description": "Information Theory and Signal Processing"
+                            },
+                            {
+                                "classification-code": "723.5",
+                                "classification-description": "Computer Applications"
+                            },
+                            {
+                                "classification-code": "741.2",
+                                "classification-description": "Vision"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Mathematics"
+                            },
+                            {
+                                "classification-code": "921.1",
+                                "classification-description": "Algebra"
+                            },
+                            {
+                                "classification-code": "922.2",
+                                "classification-description": "Mathematical Statistics"
+                            },
+                            {
+                                "classification-code": "931.1",
+                                "classification-description": "Mechanics"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2600"},
+                            {"$": "2200"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "17",
+                    "@year": "2022",
+                    "@timestamp": "BST 10:16:25",
+                    "@month": "09"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2019064540",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "942863362",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20223812748089",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20222732545",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20223206992",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "20229021246468",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85137840724",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85137840724",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1002/mma.8698"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "29",
+                "reference": [
+                    {
+                        "ref-fulltext": "Voulodimos A, Doulamis N, Doulamis A, Protopapadakis E. Deep learning for computer vision: A brief review. Comput Intell Neurosci. 2018;2018:7068349-7068349.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Deep learning for computer vision: A brief review"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0001",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85042148149",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2018"},
+                                "pagerange": {"@first": "7068349"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Voulodimos",
+                                    "ce:indexed-name": "Voulodimos A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doulamis",
+                                    "ce:indexed-name": "Doulamis N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doulamis",
+                                    "ce:indexed-name": "Doulamis A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Protopapadakis",
+                                    "ce:indexed-name": "Protopapadakis E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Comput Intell Neurosci"
+                        },
+                        "ce:source-text": "Voulodimos A, Doulamis N, Doulamis A, Protopapadakis E. Deep learning for computer vision: A brief review. Comput Intell Neurosci. 2018;2018:7068349-7068349."
+                    },
+                    {
+                        "ref-fulltext": "O'Mahony N, Campbell S, Carvalho A, et al. Deep learning vs. traditional computer vision. In: Science and Information Conference; 2019:128-144.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0002",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85081050373",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "128",
+                                "@last": "144"
+                            }},
+                            "ref-text": "In Science and Information Conference",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "N.",
+                                        "@_fa": "true",
+                                        "ce:surname": "O'Mahony",
+                                        "ce:indexed-name": "O'Mahony N."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Campbell",
+                                        "ce:indexed-name": "Campbell S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Carvalho",
+                                        "ce:indexed-name": "Carvalho A."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Deep learning vs. traditional computer vision"
+                        },
+                        "ce:source-text": "O'Mahony N, Campbell S, Carvalho A, et al. Deep learning vs. traditional computer vision. In: Science and Information Conference; 2019:128-144."
+                    },
+                    {
+                        "ref-fulltext": "Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. Adv Neural Inf Process Syst. 2012;25:1097-1105.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Imagenet classification with deep convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0003",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84876231242",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "25"},
+                                "pagerange": {
+                                    "@first": "1097",
+                                    "@last": "1105"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krizhevsky",
+                                    "ce:indexed-name": "Krizhevsky A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sutskever",
+                                    "ce:indexed-name": "Sutskever I."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G.E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adv Neural Inf Process Syst"
+                        },
+                        "ce:source-text": "Krizhevsky A, Sutskever I, Hinton GE. Imagenet classification with deep convolutional neural networks. Adv Neural Inf Process Syst. 2012;25:1097-1105."
+                    },
+                    {
+                        "ref-fulltext": "Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:14091556; 2014.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0004",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "14091556",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84925410541",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simonyan",
+                                    "ce:indexed-name": "Simonyan K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zisserman",
+                                    "ce:indexed-name": "Zisserman A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Very deep convolutional networks for large-scale image recognition"
+                        },
+                        "ce:source-text": "Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:14091556; 2014."
+                    },
+                    {
+                        "ref-fulltext": "Minaee S, Boykov YY, Porikli F, Plaza AJ, Kehtarnavaz N, Terzopoulos D. Image segmentation using deep learning: A survey. IEEE Trans Pattern Anal Mach Intell. 2021;1:1-1.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Image segmentation using deep learning: A survey"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85118757088",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "1"},
+                                "pagerange": {"@first": "1"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Minaee",
+                                    "ce:indexed-name": "Minaee S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boykov",
+                                    "ce:indexed-name": "Boykov Y.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Porikli",
+                                    "ce:indexed-name": "Porikli F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Plaza",
+                                    "ce:indexed-name": "Plaza A.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kehtarnavaz",
+                                    "ce:indexed-name": "Kehtarnavaz N."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Terzopoulos",
+                                    "ce:indexed-name": "Terzopoulos D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans Pattern Anal Mach Intell"
+                        },
+                        "ce:source-text": "Minaee S, Boykov YY, Porikli F, Plaza AJ, Kehtarnavaz N, Terzopoulos D. Image segmentation using deep learning: A survey. IEEE Trans Pattern Anal Mach Intell. 2021;1:1-1."
+                    },
+                    {
+                        "ref-fulltext": "Khan F, Salahuddin S, Javidnia H. Deep learning-based monocular depth estimation methods a state-of-the-art review. Sensors. 2020;20(8):2272.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Deep learning-based monocular depth estimation methods a state-of-the-art review"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0006",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85083817019",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "20",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {"@first": "2272"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khan",
+                                    "ce:indexed-name": "Khan F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salahuddin",
+                                    "ce:indexed-name": "Salahuddin S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Javidnia",
+                                    "ce:indexed-name": "Javidnia H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "Khan F, Salahuddin S, Javidnia H. Deep learning-based monocular depth estimation methods a state-of-the-art review. Sensors. 2020;20(8):2272."
+                    },
+                    {
+                        "ref-fulltext": "Phaniteja S, Dewangan P, Guhan P, Sarkar A, Krishna KM. A deep reinforcement learning approach for dynamically stable inverse kinematics of humanoid robots. In: 2017 IEEE International Conference on Robotics and Biomimetics (ROBIO); 2017:1818-1823.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0007",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85049940136",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1818",
+                                "@last": "1823"
+                            }},
+                            "ref-text": "In 2017 IEEE International Conference on Robotics and Biomimetics (ROBIO)",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Phaniteja",
+                                    "ce:indexed-name": "Phaniteja S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dewangan",
+                                    "ce:indexed-name": "Dewangan P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guhan",
+                                    "ce:indexed-name": "Guhan P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sarkar",
+                                    "ce:indexed-name": "Sarkar A."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishna",
+                                    "ce:indexed-name": "Krishna K.M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "A deep reinforcement learning approach for dynamically stable inverse kinematics of humanoid robots"
+                        },
+                        "ce:source-text": "Phaniteja S, Dewangan P, Guhan P, Sarkar A, Krishna KM. A deep reinforcement learning approach for dynamically stable inverse kinematics of humanoid robots. In: 2017 IEEE International Conference on Robotics and Biomimetics (ROBIO); 2017:1818-1823."
+                    },
+                    {
+                        "ref-fulltext": "Mathis A, Schneider S, Lauer J, Mathis MW. A primer on motion capture with deep learning: principles, pitfalls, and perspectives. Neuron. 2020;108(1):44-65.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "A primer on motion capture with deep learning: principles, pitfalls, and perspectives"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0008",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85092355015",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "108",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "44",
+                                    "@last": "65"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mathis",
+                                    "ce:indexed-name": "Mathis A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schneider",
+                                    "ce:indexed-name": "Schneider S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lauer",
+                                    "ce:indexed-name": "Lauer J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mathis",
+                                    "ce:indexed-name": "Mathis M.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neuron"
+                        },
+                        "ce:source-text": "Mathis A, Schneider S, Lauer J, Mathis MW. A primer on motion capture with deep learning: principles, pitfalls, and perspectives. Neuron. 2020;108(1):44-65."
+                    },
+                    {
+                        "ref-fulltext": "Huang Z, Wan C, Probst T, Van Gool L. Deep learning on lie groups for skeleton-based action recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017:6099-6108.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0009",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85019963288",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "6099",
+                                "@last": "6108"
+                            }},
+                            "ref-text": "In Proceedings of the IEEE conference on computer vision and pattern recognition",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Z."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wan",
+                                    "ce:indexed-name": "Wan C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Probst",
+                                    "ce:indexed-name": "Probst T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Gool",
+                                    "ce:indexed-name": "VanGool L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Deep learning on lie groups for skeleton-based action recognition"
+                        },
+                        "ce:source-text": "Huang Z, Wan C, Probst T, Van Gool L. Deep learning on lie groups for skeleton-based action recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017:6099-6108."
+                    },
+                    {
+                        "ref-fulltext": "Fang Q, Zhao K, Tang D, et al. Euler angles based loss function for camera localization with deep learning. In: 2018 IEEE 8th Annual International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER) IEEE; 2018:61-66.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85064964319",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "61",
+                                "@last": "66"
+                            }},
+                            "ref-text": "In 2018 IEEE 8th Annual International Conference on CYBER Technology in Automation, ControlIntelligent Systems (CYBER) IEEE",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Q.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Fang",
+                                        "ce:indexed-name": "Fang Q."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "K.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhao",
+                                        "ce:indexed-name": "Zhao K."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Tang",
+                                        "ce:indexed-name": "Tang D."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Euler angles based loss function for camera localization with deep learning"
+                        },
+                        "ce:source-text": "Fang Q, Zhao K, Tang D, et al. Euler angles based loss function for camera localization with deep learning. In: 2018 IEEE 8th Annual International Conference on CYBER Technology in Automation, Control, and Intelligent Systems (CYBER) IEEE; 2018:61-66."
+                    },
+                    {
+                        "ref-fulltext": "Pavllo D, Grangier D, Auli M. Quaternet: A quaternion-based recurrent model for human motion. arXiv preprint arXiv:180506485; 2018.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0011",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "180506485",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85071016173",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pavllo",
+                                    "ce:indexed-name": "Pavllo D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grangier",
+                                    "ce:indexed-name": "Grangier D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Auli",
+                                    "ce:indexed-name": "Auli M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Quaternet: A quaternion-based recurrent model for human motion"
+                        },
+                        "ce:source-text": "Pavllo D, Grangier D, Auli M. Quaternet: A quaternion-based recurrent model for human motion. arXiv preprint arXiv:180506485; 2018."
+                    },
+                    {
+                        "ref-fulltext": "Grassia FS. Practical parameterization of rotations using the exponential map. J Graph Tools. 1998;3(3):29-48.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Practical parameterization of rotations using the exponential map"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0012",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0002321764",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "3",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "29",
+                                    "@last": "48"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "F.S.",
+                                "@_fa": "true",
+                                "ce:surname": "Grassia",
+                                "ce:indexed-name": "Grassia F.S."
+                            }]},
+                            "ref-sourcetitle": "J Graph Tools"
+                        },
+                        "ce:source-text": "Grassia FS. Practical parameterization of rotations using the exponential map. J Graph Tools. 1998;3(3):29-48."
+                    },
+                    {
+                        "ref-fulltext": "Zhou Y, Barnes C, Lu J, Yang J, Li H. On the continuity of rotation representations in neural networks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition; 2019:5745-5753.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0013",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85116449594",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "5745",
+                                "@last": "5753"
+                            }},
+                            "ref-text": "In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Barnes",
+                                    "ce:indexed-name": "Barnes C."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "On the continuity of rotation representations in neural networks"
+                        },
+                        "ce:source-text": "Zhou Y, Barnes C, Lu J, Yang J, Li H. On the continuity of rotation representations in neural networks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition; 2019:5745-5753."
+                    },
+                    {
+                        "ref-fulltext": "Saxena A, Driemeyer J, Ng AY. Learning 3-d object orientation from images. In: 2009 ieee international conference on robotics and automation IEEE; 2009:794-800.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0014",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "70350383275",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "794",
+                                "@last": "800"
+                            }},
+                            "ref-text": "In 2009 ieee international conference on robotics and automation IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saxena",
+                                    "ce:indexed-name": "Saxena A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Driemeyer",
+                                    "ce:indexed-name": "Driemeyer J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng A.Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning 3-d object orientation from images"
+                        },
+                        "ce:source-text": "Saxena A, Driemeyer J, Ng AY. Learning 3-d object orientation from images. In: 2009 ieee international conference on robotics and automation IEEE; 2009:794-800."
+                    },
+                    {
+                        "ref-fulltext": "Hornik K, Stinchcombe M, White H. Multilayer feedforward networks are universal approximators. Neural Netw. 1989;2(5):359-366.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "ref-title": {"ref-titletext": "Multilayer feedforward networks are universal approximators"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0024880831",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "2",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "359",
+                                    "@last": "366"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hornik",
+                                    "ce:indexed-name": "Hornik K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stinchcombe",
+                                    "ce:indexed-name": "Stinchcombe M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "White",
+                                    "ce:indexed-name": "White H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Netw"
+                        },
+                        "ce:source-text": "Hornik K, Stinchcombe M, White H. Multilayer feedforward networks are universal approximators. Neural Netw. 1989;2(5):359-366."
+                    },
+                    {
+                        "ref-fulltext": "Nissler C, Marton Z-C. Robot-to-camera calibration: a generic approach using 6d detections. In: 2017 First IEEE International Conference on Robotic Computing (IRC) IEEE; 2017:299-302.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0016",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85020221199",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "299",
+                                "@last": "302"
+                            }},
+                            "ref-text": "In 2017 First IEEE International Conference on Robotic Computing (IRC) IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nissler",
+                                    "ce:indexed-name": "Nissler C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.-C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Marton",
+                                    "ce:indexed-name": "Marton Z.-C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robot-to-camera calibration: a generic approach using 6d detections"
+                        },
+                        "ce:source-text": "Nissler C, Marton Z-C. Robot-to-camera calibration: a generic approach using 6d detections. In: 2017 First IEEE International Conference on Robotic Computing (IRC) IEEE; 2017:299-302."
+                    },
+                    {
+                        "ref-fulltext": "Do T, Pham T, Cai M, Reid I. Real-time monocular object instance 6d pose estimation; 2019.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0017",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85084015255",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Do",
+                                    "ce:indexed-name": "Do T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reid",
+                                    "ce:indexed-name": "Reid I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Real-time monocular object instance 6d pose estimation"
+                        },
+                        "ce:source-text": "Do T, Pham T, Cai M, Reid I. Real-time monocular object instance 6d pose estimation; 2019."
+                    },
+                    {
+                        "ref-fulltext": "Wang C, Martín-Martín R, Xu D, et al. 6-pack: Category-level 6d pose tracker with anchor-based keypoints. In: 2020 IEEE International Conference on Robotics and Automation (ICRA) IEEE; 2020:10059-10066.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0018",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85092748655",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "10059",
+                                "@last": "10066"
+                            }},
+                            "ref-text": "In 2020 IEEE International Conference on Robotics and Automation (ICRA) IEEE",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wang",
+                                        "ce:indexed-name": "Wang C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Martín-Martín",
+                                        "ce:indexed-name": "Martin-Martin R."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "D.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Xu",
+                                        "ce:indexed-name": "Xu D."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "6-pack: Category-level 6d pose tracker with anchor-based keypoints"
+                        },
+                        "ce:source-text": "Wang C, Martín-Martín R, Xu D, et al. 6-pack: Category-level 6d pose tracker with anchor-based keypoints. In: 2020 IEEE International Conference on Robotics and Automation (ICRA) IEEE; 2020:10059-10066."
+                    },
+                    {
+                        "ref-fulltext": "Xiang Y, Schmidt T, Narayanan V, Fox D. Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes. arXiv preprint arXiv:171100199; 2017.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0019",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "171100199",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85054672787",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "arXiv preprint",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiang",
+                                    "ce:indexed-name": "Xiang Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidt",
+                                    "ce:indexed-name": "Schmidt T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Narayanan",
+                                    "ce:indexed-name": "Narayanan V."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fox",
+                                    "ce:indexed-name": "Fox D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes"
+                        },
+                        "ce:source-text": "Xiang Y, Schmidt T, Narayanan V, Fox D. Posecnn: A convolutional neural network for 6d object pose estimation in cluttered scenes. arXiv preprint arXiv:171100199; 2017."
+                    },
+                    {
+                        "ref-fulltext": "López-Blanco JR, Chacón P. Korp: knowledge-based 6d potential for fast protein and loop modeling. Bioinformatics. 2019;35(17):3013-3019.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Korp: knowledge-based 6d potential for fast protein and loop modeling"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85066018223",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "35",
+                                    "@issue": "17"
+                                },
+                                "pagerange": {
+                                    "@first": "3013",
+                                    "@last": "3019"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "López-Blanco",
+                                    "ce:indexed-name": "Lopez-Blanco J.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chacón",
+                                    "ce:indexed-name": "Chacon P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Bioinformatics"
+                        },
+                        "ce:source-text": "López-Blanco JR, Chacón P. Korp: knowledge-based 6d potential for fast protein and loop modeling. Bioinformatics. 2019;35(17):3013-3019."
+                    },
+                    {
+                        "ref-fulltext": "Clifford WK. Preliminary sketch of biquaternions (1873). Proc London Math Soc. 1871;1(1):381-395.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1871"},
+                            "ref-title": {"ref-titletext": "Preliminary sketch of biquaternions (1873)"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0021",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84960556043",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "1",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "381",
+                                    "@last": "395"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "W.K.",
+                                "@_fa": "true",
+                                "ce:surname": "Clifford",
+                                "ce:indexed-name": "Clifford W.K."
+                            }]},
+                            "ref-sourcetitle": "Proc London Math Soc"
+                        },
+                        "ce:source-text": "Clifford WK. Preliminary sketch of biquaternions (1873). Proc London Math Soc. 1871;1(1):381-395."
+                    },
+                    {
+                        "ref-fulltext": "Hestenes D. Space-time algebra, Vol. 67: Springer; 2015.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0022",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0003975977",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"voliss": {"@volume": "67"}},
+                            "ref-text": "Springer",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Hestenes",
+                                "ce:indexed-name": "Hestenes D."
+                            }]},
+                            "ref-sourcetitle": "Space-time algebra"
+                        },
+                        "ce:source-text": "Hestenes D. Space-time algebra, Vol. 67: Springer; 2015."
+                    },
+                    {
+                        "ref-fulltext": "Lasenby J, Lasenby AN, Doran CJL. A unified mathematical language for physics and engineering in the 21st century. Phil Trans R Soc London. Ser A: Math, Phys Eng Sci. 2000;358(1765):21-39.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "A unified mathematical language for physics and engineering in the 21st century"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0023",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0346111909",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "358",
+                                    "@issue": "1765"
+                                },
+                                "pagerange": {
+                                    "@first": "21",
+                                    "@last": "39"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lasenby",
+                                    "ce:indexed-name": "Lasenby J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lasenby",
+                                    "ce:indexed-name": "Lasenby A.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doran",
+                                    "ce:indexed-name": "Doran C.J.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Phil Trans R Soc London. Ser A: Math, Phys Eng Sci"
+                        },
+                        "ce:source-text": "Lasenby J, Lasenby AN, Doran CJL. A unified mathematical language for physics and engineering in the 21st century. Phil Trans R Soc London. Ser A: Math, Phys Eng Sci. 2000;358(1765):21-39."
+                    },
+                    {
+                        "ref-fulltext": "Doran C, Gullans SR, Lasenby A, Lasenby J, Fitzgerald W. Geometric algebra for physicists. Cambridge University Press; 2003.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0024",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0042700294",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Cambridge University Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doran",
+                                    "ce:indexed-name": "Doran C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gullans",
+                                    "ce:indexed-name": "Gullans S.R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lasenby",
+                                    "ce:indexed-name": "Lasenby A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lasenby",
+                                    "ce:indexed-name": "Lasenby J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fitzgerald",
+                                    "ce:indexed-name": "Fitzgerald W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Geometric algebra for physicists"
+                        },
+                        "ce:source-text": "Doran C, Gullans SR, Lasenby A, Lasenby J, Fitzgerald W. Geometric algebra for physicists. Cambridge University Press; 2003."
+                    },
+                    {
+                        "ref-fulltext": "Li K, Pfaff F, Hanebeck UD. Grid-based quaternion filter for so (3) estimation. In: 2020 European Control Conference (ECC) IEEE; 2020:1738-1744.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0025",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85089172636",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1738",
+                                "@last": "1744"
+                            }},
+                            "ref-text": "In 2020 European Control Conference (ECC) IEEE",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pfaff",
+                                    "ce:indexed-name": "Pfaff F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "U.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hanebeck",
+                                    "ce:indexed-name": "Hanebeck U.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Grid-based quaternion filter for so (3) estimation"
+                        },
+                        "ce:source-text": "Li K, Pfaff F, Hanebeck UD. Grid-based quaternion filter for so (3) estimation. In: 2020 European Control Conference (ECC) IEEE; 2020:1738-1744."
+                    },
+                    {
+                        "ref-fulltext": "Qi CR, Su H, Mo K, Guibas LJ. Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017:652-660.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0026",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85028013450",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "652",
+                                "@last": "660"
+                            }},
+                            "ref-text": "In Proceedings of the IEEE conference on computer vision and pattern recognition",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qi",
+                                    "ce:indexed-name": "Qi C.R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Su",
+                                    "ce:indexed-name": "Su H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mo",
+                                    "ce:indexed-name": "Mo K."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "L.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Guibas",
+                                    "ce:indexed-name": "Guibas L.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Pointnet: Deep learning on point sets for 3d classification and segmentation"
+                        },
+                        "ce:source-text": "Qi CR, Su H, Mo K, Guibas LJ. Pointnet: Deep learning on point sets for 3d classification and segmentation. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2017:652-660."
+                    },
+                    {
+                        "ref-fulltext": "Wu Z, Song S, Khosla A, et al. 3d shapenets: A deep representation for volumetric shapes. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2015:1912-1920.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0027",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84949636429",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1912",
+                                "@last": "1920"
+                            }},
+                            "ref-text": "In Proceedings of the IEEE conference on computer vision and pattern recognition",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Z.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wu",
+                                        "ce:indexed-name": "Wu Z."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Song",
+                                        "ce:indexed-name": "Song S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Khosla",
+                                        "ce:indexed-name": "Khosla A."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "3d shapenets: A deep representation for volumetric shapes"
+                        },
+                        "ce:source-text": "Wu Z, Song S, Khosla A, et al. 3d shapenets: A deep representation for volumetric shapes. In: Proceedings of the IEEE conference on computer vision and pattern recognition; 2015:1912-1920."
+                    },
+                    {
+                        "ref-fulltext": "Hodgins F, Macey J. Guide to the carnegie mellon university multimodal activity (cmu-mmac) database. CMU-RI-TR-08-22; 2009.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "mma8698-cit-0028",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "77953795462",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "CMU-RI-TR-08-22",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hodgins",
+                                    "ce:indexed-name": "Hodgins F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Macey",
+                                    "ce:indexed-name": "Macey J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Guide to the carnegie mellon university multimodal activity (cmu-mmac) database"
+                        },
+                        "ce:source-text": "Hodgins F, Macey J. Guide to the carnegie mellon university multimodal activity (cmu-mmac) database. CMU-RI-TR-08-22; 2009."
+                    },
+                    {
+                        "ref-fulltext": "Hadfield H, Wieser E, Arsenovic A, Kern R, The Pygae Team. Pygae/clifford. Zenodo, doi:10.5281/zenodo.1453978",
+                        "@id": "29",
+                        "ref-info": {
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "10.5281/zenodo.1453978",
+                                    "@idtype": "DOI"
+                                },
+                                {
+                                    "$": "mma8698-cit-0029",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85108333988",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Zenodo",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hadfield",
+                                        "ce:indexed-name": "Hadfield H."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Wieser",
+                                        "ce:indexed-name": "Wieser E."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Arsenovic",
+                                        "ce:indexed-name": "Arsenovic A."
+                                    },
+                                    {
+                                        "@seq": "4",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Kern",
+                                        "ce:indexed-name": "Kern R."
+                                    }
+                                ],
+                                "collaboration": {
+                                    "@seq": "1",
+                                    "ce:text": "The Pygae Team",
+                                    "ce:indexed-name": "The Pygae Team"
+                                }
+                            },
+                            "ref-sourcetitle": "Pygae/clifford"
+                        },
+                        "ce:source-text": "Hadfield H, Wieser E, Arsenovic A, Kern R, The Pygae Team. Pygae/clifford. Zenodo, doi:10.5281/zenodo.1453978"
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": [
+        {
+            "affiliation-city": "Cambridge",
+            "@id": "60120016",
+            "affilname": "Department of Engineering",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60120016",
+            "affiliation-country": "United Kingdom"
+        },
+        {
+            "affiliation-city": "Madrid",
+            "@id": "60007643",
+            "affilname": "CSIC - Instituto de Quimica Fisica Rocasolano (IQFR)",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007643",
+            "affiliation-country": "Spain"
+        }
+    ],
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85137840724",
+        "dc:description": "Many problems in computer vision today are solved via deep learning. Tasks like pose estimation from images, pose estimation from point clouds or structure from motion can all be formulated as a regression on rotations. However, there is no unique way of parametrizing rotations mathematically: matrices, quaternions, axis-angle representation or Euler angles are all commonly used in the field. Some of them, however, present intrinsic limitations, including discontinuities, gimbal lock or antipodal symmetry. These limitations may make the learning of rotations via neural networks a challenging problem, potentially introducing large errors. Following recent literature, we propose three case studies: a sanity check, a pose estimation from 3D point clouds and an inverse kinematic problem. We do so by employing a full geometric algebra (GA) description of rotations. We compare the GA formulation with a 6D continuous representation previously presented in the literature in terms of regression error and reconstruction accuracy. We empirically demonstrate that parametrizing rotations as bivectors outperforms the 6D representation. The GA approach overcomes the continuity issue of representations as the 6D representation does, but it also needs fewer parameters to be learned and offers an enhanced robustness to noise. GA hence provides a broader framework for describing rotations in a simple and compact way that is suitable for regression tasks via deep learning, showing high regression accuracy and good generalizability in realistic high-noise scenarios.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85137840724",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Alberto",
+            "preferred-name": {
+                "ce:given-name": "Alberto",
+                "ce:initials": "A.",
+                "ce:surname": "Pepe",
+                "ce:indexed-name": "Pepe A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60120016",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60120016"
+            },
+            "ce:surname": "Pepe",
+            "@auid": "57887069000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57887069000",
+            "ce:indexed-name": "Pepe A."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85137840724"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85137840724&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85137840724&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Mathematical Methods in the Applied Sciences",
+        "source-id": "24594",
+        "citedby-count": "1",
+        "subtype": "cp",
+        "dc:title": "Learning rotations",
+        "openaccess": "1",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1002/mma.8698",
+        "prism:issn": "10991476 01704214",
+        "publishercopyright": "© 2022 The Authors. Mathematical Methods in the Applied Sciences published by John Wiley & Sons, Ltd.",
+        "dc:identifier": "SCOPUS_ID:85137840724",
+        "dc:publisher": "John Wiley and Sons Ltd"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Applied science",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Bivectors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Deep learning",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Geometric Algebra",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Mathematical method",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Point structure",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Point-clouds",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose-estimation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rotation representation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Structure from motion",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "bivectors"
+        },
+        {
+            "@_fa": "true",
+            "$": "computer vision"
+        },
+        {
+            "@_fa": "true",
+            "$": "deep learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "geometric algebra"
+        },
+        {
+            "@_fa": "true",
+            "$": "inverse kinematics"
+        },
+        {
+            "@_fa": "true",
+            "$": "pose estimation"
+        },
+        {
+            "@_fa": "true",
+            "$": "rotation representation"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Mathematics (all)",
+            "@code": "2600",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Alberto",
+            "preferred-name": {
+                "ce:given-name": "Alberto",
+                "ce:initials": "A.",
+                "ce:surname": "Pepe",
+                "ce:indexed-name": "Pepe A."
+            },
+            "@seq": "1",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60120016",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60120016"
+            },
+            "ce:surname": "Pepe",
+            "@auid": "57887069000",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57887069000",
+            "ce:indexed-name": "Pepe A."
+        },
+        {
+            "ce:given-name": "Joan",
+            "preferred-name": {
+                "ce:given-name": "Joan",
+                "ce:initials": "J.",
+                "ce:surname": "Lasenby",
+                "ce:indexed-name": "Lasenby J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60120016",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60120016"
+            },
+            "ce:surname": "Lasenby",
+            "@auid": "6701831900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6701831900",
+            "ce:indexed-name": "Lasenby J."
+        },
+        {
+            "ce:given-name": "Pablo",
+            "preferred-name": {
+                "ce:given-name": "Pablo",
+                "ce:initials": "P.",
+                "ce:surname": "Chacón",
+                "ce:indexed-name": "Chacón P."
+            },
+            "@seq": "3",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60007643",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60007643"
+            },
+            "ce:surname": "Chacón",
+            "@auid": "7005148641",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7005148641",
+            "ce:indexed-name": "Chacon P."
+        }
+    ]}
+}}

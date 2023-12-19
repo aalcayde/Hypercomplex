@@ -1,0 +1,1945 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@timestamp": "2022-09-07T03:26:22.000022-04:00",
+                "@year": "2022",
+                "@month": "09"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2022",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "430079",
+                        "@afid": "60029306",
+                        "@country": "chn",
+                        "city": "Wuhan",
+                        "organization": [
+                            {"$": "Mapping And Remote Sensing"},
+                            {"$": "Wuhan University"},
+                            {"$": "State Key Laboratory Of Information Engineering In Surveying"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60029306",
+                            "@dptid": "104482204"
+                        },
+                        "@affiliation-instance-id": "2018727825-13493c1dfdd4f87f27b6b266fca1bf13",
+                        "ce:source-text": "Mapping and Remote Sensing, Wuhan University, State Key Laboratory of Information Engineering in Surveying, Wuhan, China, 430079",
+                        "@dptid": "104482204"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Hongyun",
+                            "preferred-name": {
+                                "ce:given-name": "Hongyun",
+                                "ce:initials": "H.",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang H."
+                            },
+                            "@author-instance-id": "2018727825-1e8e849c42e07a3ff5f068fbd3f07774",
+                            "@seq": "1",
+                            "ce:initials": "H.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Zhang",
+                            "@auid": "57701806900",
+                            "@orcid": "0000-0003-3736-5196",
+                            "ce:indexed-name": "Zhang H."
+                        },
+                        {
+                            "ce:given-name": "Jin",
+                            "preferred-name": {
+                                "ce:given-name": "Jin",
+                                "ce:initials": "J.",
+                                "ce:surname": "Liu",
+                                "ce:indexed-name": "Liu J."
+                            },
+                            "@author-instance-id": "2018727825-7f732e2e7fc084da1bdc95fab270386c",
+                            "@seq": "2",
+                            "ce:initials": "J.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Liu",
+                            "@auid": "57867798600",
+                            "@orcid": "0000-0001-9052-1114",
+                            "ce:indexed-name": "Liu J."
+                        },
+                        {
+                            "ce:given-name": "Yongjian",
+                            "preferred-name": {
+                                "ce:given-name": "Yongjian",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Gao",
+                                "ce:indexed-name": "Gao Y."
+                            },
+                            "@author-instance-id": "2018727825-7f522500e20bfb2b9be8a145f78b21c4",
+                            "@seq": "3",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Gao",
+                            "@auid": "57215089879",
+                            "ce:indexed-name": "Gao Y."
+                        }
+                    ]
+                },
+                "citation-title": "Pose Detection of Aerial Image Object Based on Constrained Neural Network",
+                "abstracts": "© 2013 IEEE.Constraints often exist in the high-dimensional data output in object detection, such as the inverse vector {cos θ , sin θ } of the two-dimensional object and the attitude quaternion of the three-dimensional object. The range of each component of the output value of the traditional neural network is unconstrained, which is difficult to meet the needs of practical problems. To solve this problem, this paper designed the transformation network layer according to the high dimensional space transformation theory and constructed a constrained neural network model to detect the pose of objects from a single aerial image. Firstly, in the yolov3 network structure, according to the size of the three field scales, three scale transformation network layers are added correspondingly to implement the constrained unit quaternion field. Secondly, according to the characteristics of quaternion, we proposed a special loss function. Then a new constrained neural network called the quaternion field pose network (qfiled PoseNet) model is constructed, which can predict the probability field of the object and the contained unit quaternion field respectively. Next, The object's probability field is generated to determine the 2D bounding box of the object, and the unit quaternion field is generated to determine the 3D rotation R. Finally, combining the rotation matrix R and the 2D bounding box of the object to calculate the 3D translation T. We used our method to experiment on DOTA1.5 data set and the HSRC2016 data set respectively. The experimental results show that our method can detect the pose of the object well.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "postal-code": "430079",
+                        "@country": "chn",
+                        "city": "Wuhan",
+                        "organization": [
+                            {"$": "Mapping And Remote Sensing"},
+                            {"$": "Wuhan University"},
+                            {"$": "State Key Laboratory Of Information Engineering In Surveying"}
+                        ],
+                        "ce:source-text": "Mapping and Remote Sensing, Wuhan University, State Key Laboratory of Information Engineering in Surveying, Wuhan, China, 430079"
+                    },
+                    "person": {
+                        "ce:given-name": "Jin",
+                        "ce:initials": "J.",
+                        "ce:surname": "Liu",
+                        "ce:indexed-name": "Liu J."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "3D rotation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "3D translation",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Constrained neural network",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Unit quaternion",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "IEEE Access",
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
+                        "@type": "email"
+                    }},
+                    "@country": "usa",
+                    "translated-sourcetitle": {
+                        "$": "IEEE Access",
+                        "@xml:lang": "eng"
+                    },
+                    "issn": {
+                        "$": "21693536",
+                        "@type": "electronic"
+                    },
+                    "volisspag": {
+                        "voliss": {"@volume": "10"},
+                        "pagerange": {
+                            "@first": "54235",
+                            "@last": "54244"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2022"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "sourcetitle": "IEEE Access",
+                    "@srcid": "21100374601",
+                    "publicationdate": {
+                        "year": "2022",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2022"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "461.8.2",
+                                "classification-description": "Bioinformatics"
+                            },
+                            {
+                                "classification-code": "722.2",
+                                "classification-description": "Computer Peripheral Equipment"
+                            },
+                            {
+                                "classification-code": "723",
+                                "classification-description": "Computer Software, Data Handling and Applications"
+                            },
+                            {
+                                "classification-code": "723.2",
+                                "classification-description": "Data Processing and Image Processing"
+                            },
+                            {
+                                "classification-code": "742.2",
+                                "classification-description": "Photographic and Video Equipment"
+                            },
+                            {
+                                "classification-code": "903.1",
+                                "classification-description": "Information Sources and Analysis"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1700"},
+                            {"$": "2500"},
+                            {"$": "2200"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATE"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2022 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "SNCPX"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "15",
+                    "@timestamp": "BST 02:51:19",
+                    "@year": "2022",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2018379716",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "940393549",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20222112149359",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20221590837",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20221777821",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "2022063185",
+                            "@idtype": "SNCPX"
+                        },
+                        {
+                            "$": "20210016986708",
+                            "@idtype": "TPA-ID"
+                        },
+                        {
+                            "$": "85130475087",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85130475087",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/ACCESS.2022.3175871"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "29",
+                "reference": [
+                    {
+                        "ref-fulltext": "S. Peng, Y. Liu, Q. Huang, X. Zhou, and H. Bao, \"PVNet: Pixel-wise voting network for 6Dof pose estimation, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Los Angeles, NV, USA, 2019.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "PVNet: Pixel-wise voting network for 6Dof pose estimation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85074981355",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Los Angeles, NV, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Peng",
+                                    "ce:indexed-name": "Peng S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhou",
+                                    "ce:indexed-name": "Zhou X."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bao",
+                                    "ce:indexed-name": "Bao H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "S. Peng, Y. Liu, Q. Huang, X. Zhou, and H. Bao, \"PVNet: Pixel-wise voting network for 6Dof pose estimation, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Los Angeles, NV, USA, 2019."
+                    },
+                    {
+                        "ref-fulltext": "I. Gordon and D. G. Low, \"What and where: 3D object recognition with accurate pose, \" in Toward Category-Level Object Recognition, vol. 4170. Berlin, Germany: Springer, 2006, pp. 67-82.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "ref-title": {"ref-titletext": "What and where: 3D object recognition with accurate pose"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "56449102905",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4170"},
+                                "pagerange": {
+                                    "@first": "67",
+                                    "@last": "82"
+                                }
+                            },
+                            "ref-text": "Berlin, Germany: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gordon",
+                                    "ce:indexed-name": "Gordon I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Low",
+                                    "ce:indexed-name": "Low D.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Toward Category-Level Object Recognition"
+                        },
+                        "ce:source-text": "I. Gordon and D. G. Low, \"What and where: 3D object recognition with accurate pose, \" in Toward Category-Level Object Recognition, vol. 4170. Berlin, Germany: Springer, 2006, pp. 67-82."
+                    },
+                    {
+                        "ref-fulltext": "T.-T. Do, M. Cai, T. Pham, and I. Reid, \"Deep-6DPose: Recovering 6D object pose from a single RGB image, \" 2018, arXiv:1802. 10367.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1802. 10367",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85050777057",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.-T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Do",
+                                    "ce:indexed-name": "Do T.-T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cai",
+                                    "ce:indexed-name": "Cai M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pham",
+                                    "ce:indexed-name": "Pham T."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reid",
+                                    "ce:indexed-name": "Reid I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Deep-6DPose: Recovering 6D object pose from a single RGB image"
+                        },
+                        "ce:source-text": "T.-T. Do, M. Cai, T. Pham, and I. Reid, \"Deep-6DPose: Recovering 6D object pose from a single RGB image, \" 2018, arXiv:1802. 10367."
+                    },
+                    {
+                        "ref-fulltext": "S. Hinterstoisser, V. Lepetit, S. Ilic, S. Holzer, G. Bradski, K. Konolige, and N. Navab, \"Model based training, detection and pose estimation of texture-less 3D objects in heavily cluttered scenes, \" presented at the Asian Conf. Comput. Vis., Singapore, 2012.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "ref-title": {"ref-titletext": "Model based training, detection and pose estimation of texture-less 3D objects in heavily cluttered scenes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84890382488",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Singapore",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinterstoisser",
+                                    "ce:indexed-name": "Hinterstoisser S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Holzer",
+                                    "ce:indexed-name": "Holzer S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bradski",
+                                    "ce:indexed-name": "Bradski G."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the Asian Conf. Comput. Vis."
+                        },
+                        "ce:source-text": "S. Hinterstoisser, V. Lepetit, S. Ilic, S. Holzer, G. Bradski, K. Konolige, and N. Navab, \"Model based training, detection and pose estimation of texture-less 3D objects in heavily cluttered scenes, \" presented at the Asian Conf. Comput. Vis., Singapore, 2012."
+                    },
+                    {
+                        "ref-fulltext": "S. Hinterstoisser, V. Lepetit, N. Rajkuma, and K. Konolige, \"Going further with point pair features, \" presented at the Eur. Conf. Comput. Vis., Amsterdam, The Netherlands, 2016.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "Going further with point pair features"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85020172296",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Amsterdam, The Netherlands",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinterstoisser",
+                                    "ce:indexed-name": "Hinterstoisser S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rajkuma",
+                                    "ce:indexed-name": "Rajkuma N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Konolige",
+                                    "ce:indexed-name": "Konolige K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the Eur. Conf. Comput. Vis."
+                        },
+                        "ce:source-text": "S. Hinterstoisser, V. Lepetit, N. Rajkuma, and K. Konolige, \"Going further with point pair features, \" presented at the Eur. Conf. Comput. Vis., Amsterdam, The Netherlands, 2016."
+                    },
+                    {
+                        "ref-fulltext": "A. Kendall, M. Grimes, and R. Cipolla, \"PoseNet: A convolutional network for real-time 6-DOF camera relocalization, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Santiago, Chile, 2015.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "PoseNet: A convolutional network for real-time 6-DOF camera relocalization"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84973912724",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Santiago, Chile",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kendall",
+                                    "ce:indexed-name": "Kendall A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grimes",
+                                    "ce:indexed-name": "Grimes M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cipolla",
+                                    "ce:indexed-name": "Cipolla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Int. Conf. Comput. Vis. (ICCV)"
+                        },
+                        "ce:source-text": "A. Kendall, M. Grimes, and R. Cipolla, \"PoseNet: A convolutional network for real-time 6-DOF camera relocalization, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Santiago, Chile, 2015."
+                    },
+                    {
+                        "ref-fulltext": "A. Kendall and R. Cipolla, \"Geometric loss functions for camera pose regression with deep learning, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Honolulu, HI, USA, 2017.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Geometric loss functions for camera pose regression with deep learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041946898",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Honolulu, HI, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kendall",
+                                    "ce:indexed-name": "Kendall A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cipolla",
+                                    "ce:indexed-name": "Cipolla R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "A. Kendall and R. Cipolla, \"Geometric loss functions for camera pose regression with deep learning, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Honolulu, HI, USA, 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. Mahendran, H. Ali, and R. Vidal, \"3D pose regression using convolutional neural networks, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), Honolulu, HI, USA, 2017.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "3D pose regression using convolutional neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85030227919",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Honolulu, HI, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mahendran",
+                                    "ce:indexed-name": "Mahendran S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ali",
+                                    "ce:indexed-name": "Ali H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Vidal",
+                                    "ce:indexed-name": "Vidal R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW)"
+                        },
+                        "ce:source-text": "S. Mahendran, H. Ali, and R. Vidal, \"3D pose regression using convolutional neural networks, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), Honolulu, HI, USA, 2017."
+                    },
+                    {
+                        "ref-fulltext": "A. Doumanoglou, V. Balntas, R. Kouskouridas, and T.-K. Kim, \"Siamese regression networks with efficient mid-level feature extraction for 3D object pose estimation, \" 2016, arXiv:1607. 02257.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1607. 02257",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85006463702",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doumanoglou",
+                                    "ce:indexed-name": "Doumanoglou A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balntas",
+                                    "ce:indexed-name": "Balntas V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kouskouridas",
+                                    "ce:indexed-name": "Kouskouridas R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T.-K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Siamese regression networks with efficient mid-level feature extraction for 3D object pose estimation"
+                        },
+                        "ce:source-text": "A. Doumanoglou, V. Balntas, R. Kouskouridas, and T.-K. Kim, \"Siamese regression networks with efficient mid-level feature extraction for 3D object pose estimation, \" 2016, arXiv:1607. 02257."
+                    },
+                    {
+                        "ref-fulltext": "W. Kehl, F. Manhardt, F. Tombari, S. Ilic, and N. Navab, \"SSD-6D: Making RGB-based 3D detection and 6D pose estimation great again, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "SSD-6D: Making RGB-based 3D detection and 6D pose estimation great again"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041907567",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Venice, Italy",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kehl",
+                                    "ce:indexed-name": "Kehl W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Manhardt",
+                                    "ce:indexed-name": "Manhardt F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tombari",
+                                    "ce:indexed-name": "Tombari F."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ilic",
+                                    "ce:indexed-name": "Ilic S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Navab",
+                                    "ce:indexed-name": "Navab N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Int. Conf. Comput. Vis. (ICCV)"
+                        },
+                        "ce:source-text": "W. Kehl, F. Manhardt, F. Tombari, S. Ilic, and N. Navab, \"SSD-6D: Making RGB-based 3D detection and 6D pose estimation great again, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017."
+                    },
+                    {
+                        "ref-fulltext": "W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. Reed, C.-Y. Fu, and A. C. Berg, \"SSD: Single shot multibox detector, \" presented at the Eur. Conf. Comput. Vis. Cham, Switzerland: Springer, 2016, pp. 21-37.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "SSD: Single shot multibox detector"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84990068627",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "21",
+                                "@last": "37"
+                            }},
+                            "ref-text": "Cham, Switzerland: Springer",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Anguelov",
+                                    "ce:indexed-name": "Anguelov D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Erhan",
+                                    "ce:indexed-name": "Erhan D."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Szegedy",
+                                    "ce:indexed-name": "Szegedy C."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reed",
+                                    "ce:indexed-name": "Reed S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "C.-Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu C.-Y."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berg",
+                                    "ce:indexed-name": "Berg A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the Eur. Conf. Comput. Vis."
+                        },
+                        "ce:source-text": "W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. Reed, C.-Y. Fu, and A. C. Berg, \"SSD: Single shot multibox detector, \" presented at the Eur. Conf. Comput. Vis. Cham, Switzerland: Springer, 2016, pp. 21-37."
+                    },
+                    {
+                        "ref-fulltext": "M. Rad and V. Lepetit, \"BB8: A scalable, accurate, robust to partial occlusion method for predicting the 3D poses of challenging objects without using depth, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "BB8: A scalable, accurate, robust to partial occlusion method for predicting the 3D poses of challenging objects without using depth"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041909033",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Venice, Italy",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rad",
+                                    "ce:indexed-name": "Rad M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lepetit",
+                                    "ce:indexed-name": "Lepetit V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Int. Conf. Comput. Vis. (ICCV)"
+                        },
+                        "ce:source-text": "M. Rad and V. Lepetit, \"BB8: A scalable, accurate, robust to partial occlusion method for predicting the 3D poses of challenging objects without using depth, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017."
+                    },
+                    {
+                        "ref-fulltext": "B. Tekin, S. N. Sinha, and P. Fua, \"Real-time seamless single shot 6D object pose prediction, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit., Lake City, UT, USA, 2018.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Real-time seamless single shot 6D object pose prediction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85061717668",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Lake City, UT, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tekin",
+                                    "ce:indexed-name": "Tekin B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sinha",
+                                    "ce:indexed-name": "Sinha S.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fua",
+                                    "ce:indexed-name": "Fua P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE/CVF Conf. Comput. Vis. Pattern Recognit."
+                        },
+                        "ce:source-text": "B. Tekin, S. N. Sinha, and P. Fua, \"Real-time seamless single shot 6D object pose prediction, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit., Lake City, UT, USA, 2018."
+                    },
+                    {
+                        "ref-fulltext": "J. Redmon, S. Divvala, and R. Girshick, \"You only look once: Uniffied, real-time object detection, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Vegas, NV, USA, 2016.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "ref-title": {"ref-titletext": "You only look once: Uniffied, real-time object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84986308404",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Vegas, NV, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Redmon",
+                                    "ce:indexed-name": "Redmon J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Divvala",
+                                    "ce:indexed-name": "Divvala S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "J. Redmon, S. Divvala, and R. Girshick, \"You only look once: Uniffied, real-time object detection, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Vegas, NV, USA, 2016."
+                    },
+                    {
+                        "ref-fulltext": "M. D. Gould, \"Introduction to Lie algebras and representation theory, \" in Graduate Texts in Mathematics. Berlin, Germany: Springer-Verlag, 1972.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1972"},
+                            "ref-title": {"ref-titletext": "Introduction to Lie algebras and representation theory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003198090",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Berlin, Germany: Springer-Verlag",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.D.",
+                                "@_fa": "true",
+                                "ce:surname": "Gould",
+                                "ce:indexed-name": "Gould M.D."
+                            }]},
+                            "ref-sourcetitle": "Graduate Texts in Mathematics"
+                        },
+                        "ce:source-text": "M. D. Gould, \"Introduction to Lie algebras and representation theory, \" in Graduate Texts in Mathematics. Berlin, Germany: Springer-Verlag, 1972."
+                    },
+                    {
+                        "ref-fulltext": "R. Goldman, \"Modeling perspective projections in 3-dimensions by rotations in 4-dimensions, \" Graph. Models, vol. 75, no. 2, pp. 41-55, Mar. 2013.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Modeling perspective projections in 3-dimensions by rotations in 4-dimensions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84873375096",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "75",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "41",
+                                    "@last": "55"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Goldman",
+                                "ce:indexed-name": "Goldman R."
+                            }]},
+                            "ref-sourcetitle": "Graph. Models"
+                        },
+                        "ce:source-text": "R. Goldman, \"Modeling perspective projections in 3-dimensions by rotations in 4-dimensions, \" Graph. Models, vol. 75, no. 2, pp. 41-55, Mar. 2013."
+                    },
+                    {
+                        "ref-fulltext": "R. W. Brockett, \"Robotic manipulators and the product of exponentials formula, \" in Mathematical Theory of Networks and Systems. Berlin, Germany: Springer-Verlag, 1984, pp. 120-127.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Robotic manipulators and the product of exponentials formula"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021587534",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "120",
+                                "@last": "127"
+                            }},
+                            "ref-text": "Berlin, Germany: Springer-Verlag",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.W.",
+                                "@_fa": "true",
+                                "ce:surname": "Brockett",
+                                "ce:indexed-name": "Brockett R.W."
+                            }]},
+                            "ref-sourcetitle": "Mathematical Theory of Networks and Systems"
+                        },
+                        "ce:source-text": "R. W. Brockett, \"Robotic manipulators and the product of exponentials formula, \" in Mathematical Theory of Networks and Systems. Berlin, Germany: Springer-Verlag, 1984, pp. 120-127."
+                    },
+                    {
+                        "ref-fulltext": "A. Doumanoglou, V. Balntas, R. Kouskouridas, and T.-K. Kim, \"Siamese regression networks with efficient mid-level feature extraction for 3D object pose estimation, \" 2016, arXiv:1607. 02257.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2016"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1607. 02257",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85006463702",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Doumanoglou",
+                                    "ce:indexed-name": "Doumanoglou A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Balntas",
+                                    "ce:indexed-name": "Balntas V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kouskouridas",
+                                    "ce:indexed-name": "Kouskouridas R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.-K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kim",
+                                    "ce:indexed-name": "Kim T.-K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Siamese regression networks with efficient mid-level feature extraction for 3D object pose estimation"
+                        },
+                        "ce:source-text": "A. Doumanoglou, V. Balntas, R. Kouskouridas, and T.-K. Kim, \"Siamese regression networks with efficient mid-level feature extraction for 3D object pose estimation, \" 2016, arXiv:1607. 02257."
+                    },
+                    {
+                        "ref-fulltext": "Y. Hong, J. Liu, Z. Jahangir, S. He, and Q. Zhang, \"Estimation of 6D object pose using a 2D bounding box, \" Sensors, vol. 21, no. 9, p. 2939, Mar. 2021.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Estimation of 6D object pose using a 2D bounding box"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85104546253",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {"@first": "2939"}
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jahangir",
+                                    "ce:indexed-name": "Jahangir Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Sensors"
+                        },
+                        "ce:source-text": "Y. Hong, J. Liu, Z. Jahangir, S. He, and Q. Zhang, \"Estimation of 6D object pose using a 2D bounding box, \" Sensors, vol. 21, no. 9, p. 2939, Mar. 2021."
+                    },
+                    {
+                        "ref-fulltext": "T. Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollár, \"Focal loss for dense object detection, \" presented at the Proc. IEEE Int. Conf. Comput. Vis., Venice, Italy, 2017.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Focal loss for dense object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041916350",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Venice, Italy",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "T.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin T.Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goyal",
+                                    "ce:indexed-name": "Goyal P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dollár",
+                                    "ce:indexed-name": "Dollar P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the Proc. IEEE Int. Conf. Comput. Vis."
+                        },
+                        "ce:source-text": "T. Y. Lin, P. Goyal, R. Girshick, K. He, and P. Dollár, \"Focal loss for dense object detection, \" presented at the Proc. IEEE Int. Conf. Comput. Vis., Venice, Italy, 2017."
+                    },
+                    {
+                        "ref-fulltext": "S. Q. Ren, K. He, R. Girshick, and J. Sun, \"Faster R-CNN: Towards realtime object detection with region proposal networks, \" in Proc. Adv. Neural Inf. Process. Syst., 2015, p. 28.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Faster R-CNN: Towards realtime object detection with region proposal networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84960980241",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "28"}},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ren",
+                                    "ce:indexed-name": "Ren S.Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. Adv. Neural Inf. Process. Syst."
+                        },
+                        "ce:source-text": "S. Q. Ren, K. He, R. Girshick, and J. Sun, \"Faster R-CNN: Towards realtime object detection with region proposal networks, \" in Proc. Adv. Neural Inf. Process. Syst., 2015, p. 28."
+                    },
+                    {
+                        "ref-fulltext": "K. He, G. Gkioxari, P. Dollár, and R. Girshick, \"Mask R-CNN, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Mask R-CNN"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85040313738",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Venice, Italy",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gkioxari",
+                                    "ce:indexed-name": "Gkioxari G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dollár",
+                                    "ce:indexed-name": "Dollar P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Girshick",
+                                    "ce:indexed-name": "Girshick R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Int. Conf. Comput. Vis. (ICCV)"
+                        },
+                        "ce:source-text": "K. He, G. Gkioxari, P. Dollár, and R. Girshick, \"Mask R-CNN, \" presented at the IEEE Int. Conf. Comput. Vis. (ICCV), Venice, Italy, 2017."
+                    },
+                    {
+                        "ref-fulltext": "K. Chen, J. Pang, J. Wang, Y. Xiong, X. Li, S. Sun, W. Feng, Z. Liu, J. Shi, W. Ouyang, C. C. Loy, and D. Lin, \"Hybrid task cascade for instance segmentation, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Los Angeles CA, USA, 2019.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Hybrid task cascade for instance segmentation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078767876",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Los Angeles CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pang",
+                                    "ce:indexed-name": "Pang J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xiong",
+                                    "ce:indexed-name": "Xiong Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li X."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sun",
+                                    "ce:indexed-name": "Sun S."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng W."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu Z."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi J."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ouyang",
+                                    "ce:indexed-name": "Ouyang W."
+                                },
+                                {
+                                    "@seq": "11",
+                                    "ce:initials": "C.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Loy",
+                                    "ce:indexed-name": "Loy C.C."
+                                },
+                                {
+                                    "@seq": "12",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lin",
+                                    "ce:indexed-name": "Lin D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "K. Chen, J. Pang, J. Wang, Y. Xiong, X. Li, S. Sun, W. Feng, Z. Liu, J. Shi, W. Ouyang, C. C. Loy, and D. Lin, \"Hybrid task cascade for instance segmentation, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Los Angeles CA, USA, 2019."
+                    },
+                    {
+                        "ref-fulltext": "J. Han, J. Ding, N. Xue, and G. S. Xia, \"ReDet: A rotation-equivariant detector for aerial object detection, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit., 2021.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "ReDet: A rotation-equivariant detector for aerial object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85117233236",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Han",
+                                    "ce:indexed-name": "Han J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue N."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia G.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE/CVF Conf. Comput. Vis. Pattern Recognit."
+                        },
+                        "ce:source-text": "J. Han, J. Ding, N. Xue, and G. S. Xia, \"ReDet: A rotation-equivariant detector for aerial object detection, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit., 2021."
+                    },
+                    {
+                        "ref-fulltext": "J. Ding, N. Xue, Y. Long, G.-S. Xia, and Q. Lu, \"Learning RoI transformer for oriented object detection in aerial images, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Long Beach, CA, USA, 2019.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Learning RoI transformer for oriented object detection in aerial images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85078761208",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Long Beach, CA, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xue",
+                                    "ce:indexed-name": "Xue N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Long",
+                                    "ce:indexed-name": "Long Y."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia G.-S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lu",
+                                    "ce:indexed-name": "Lu Q."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "J. Ding, N. Xue, Y. Long, G.-S. Xia, and Q. Lu, \"Learning RoI transformer for oriented object detection in aerial images, \" presented at the IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Long Beach, CA, USA, 2019."
+                    },
+                    {
+                        "ref-fulltext": "Y. Xu, M. Fu, Q. Wang, Y. Wang, and K. Chen, \"Gliding vertex on the horizontal bounding box for multi-oriented object detection, \" IEEE Trans. Pattern Anal. Mach. Intell., vol. 43, no. 4, pp. 1452-1459, Apr. 2021.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Gliding vertex on the horizontal bounding box for multi-oriented object detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85102296313",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1452",
+                                    "@last": "1459"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fu",
+                                    "ce:indexed-name": "Fu M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Q."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang Y."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Pattern Anal. Mach. Intell."
+                        },
+                        "ce:source-text": "Y. Xu, M. Fu, Q. Wang, Y. Wang, and K. Chen, \"Gliding vertex on the horizontal bounding box for multi-oriented object detection, \" IEEE Trans. Pattern Anal. Mach. Intell., vol. 43, no. 4, pp. 1452-1459, Apr. 2021."
+                    },
+                    {
+                        "ref-fulltext": "X. Yang, J. Yan, Z. Feng, and T. He, \"R3Det: refined single-stage detector with feature refinement for rotating object, \" 2019, arXiv:1908. 05612.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1908. 05612",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "85077972254",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yang",
+                                    "ce:indexed-name": "Yang X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yan",
+                                    "ce:indexed-name": "Yan J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Feng",
+                                    "ce:indexed-name": "Feng Z."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "He",
+                                    "ce:indexed-name": "He T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "R3Det: refined single-stage detector with feature refinement for rotating object"
+                        },
+                        "ce:source-text": "X. Yang, J. Yan, Z. Feng, and T. He, \"R3Det: refined single-stage detector with feature refinement for rotating object, \" 2019, arXiv:1908. 05612."
+                    },
+                    {
+                        "ref-fulltext": "M. Liao, Z. Zhu, B. Shi, G.-S. Xia, and X. Bai, \"Rotation-sensitive regression for oriented scene text detection, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Salt Lake City, UT, USA, 2018.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Rotation-sensitive regression for oriented scene text detection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85062833988",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Salt Lake City, UT, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liao",
+                                    "ce:indexed-name": "Liao M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi B."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "G.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia G.-S."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bai",
+                                    "ce:indexed-name": "Bai X."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "M. Liao, Z. Zhu, B. Shi, G.-S. Xia, and X. Bai, \"Rotation-sensitive regression for oriented scene text detection, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Salt Lake City, UT, USA, 2018."
+                    },
+                    {
+                        "ref-fulltext": "G. Xia, X. Bai, J. Ding, Z. Zhu, S. Belongie, J. Luo, M. Datcu, M. Pelillo, and L. Zhang, \"DOTA: A large-scale dataset for object detection in aerial images, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Salt Lake City, UT, USA, 2018.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "DOTA: A large-scale dataset for object detection in aerial images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85059781215",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Salt Lake City, UT, USA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xia",
+                                    "ce:indexed-name": "Xia G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bai",
+                                    "ce:indexed-name": "Bai X."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ding",
+                                    "ce:indexed-name": "Ding J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Belongie",
+                                    "ce:indexed-name": "Belongie S."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo J."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Datcu",
+                                    "ce:indexed-name": "Datcu M."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pelillo",
+                                    "ce:indexed-name": "Pelillo M."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)"
+                        },
+                        "ce:source-text": "G. Xia, X. Bai, J. Ding, Z. Zhu, S. Belongie, J. Luo, M. Datcu, M. Pelillo, and L. Zhang, \"DOTA: A large-scale dataset for object detection in aerial images, \" presented at the IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Salt Lake City, UT, USA, 2018."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Wuhan",
+        "@id": "60029306",
+        "affilname": "Wuhan University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029306",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85130475087",
+        "dc:description": "Constraints often exist in the high-dimensional data output in object detection, such as the inverse vector {cos θ , sin θ } of the two-dimensional object and the attitude quaternion of the three-dimensional object. The range of each component of the output value of the traditional neural network is unconstrained, which is difficult to meet the needs of practical problems. To solve this problem, this paper designed the transformation network layer according to the high dimensional space transformation theory and constructed a constrained neural network model to detect the pose of objects from a single aerial image. Firstly, in the yolov3 network structure, according to the size of the three field scales, three scale transformation network layers are added correspondingly to implement the constrained unit quaternion field. Secondly, according to the characteristics of quaternion, we proposed a special loss function. Then a new constrained neural network called the quaternion field pose network (qfiled PoseNet) model is constructed, which can predict the probability field of the object and the contained unit quaternion field respectively. Next, The object's probability field is generated to determine the 2D bounding box of the object, and the unit quaternion field is generated to determine the 3D rotation R. Finally, combining the rotation matrix R and the 2D bounding box of the object to calculate the 3D translation T. We used our method to experiment on DOTA1.5 data set and the HSRC2016 data set respectively. The experimental results show that our method can detect the pose of the object well.",
+        "prism:coverDate": "2022-01-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85130475087",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Hongyun",
+            "preferred-name": {
+                "ce:given-name": "Hongyun",
+                "ce:initials": "H.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60029306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029306"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "57701806900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57701806900",
+            "ce:indexed-name": "Zhang H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85130475087"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130475087&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85130475087&origin=inward"
+            }
+        ],
+        "source-id": "21100374601",
+        "citedby-count": "2",
+        "prism:volume": "10",
+        "subtype": "ar",
+        "dc:title": "Pose Detection of Aerial Image Object Based on Constrained Neural Network",
+        "openaccess": "1",
+        "prism:issn": "21693536",
+        "publishercopyright": "© 2013 IEEE.",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "IEEE Access",
+        "prism:pageRange": "54235-54244",
+        "prism:endingPage": "54244",
+        "openaccessFlag": "true",
+        "prism:doi": "10.1109/ACCESS.2022.3175871",
+        "prism:startingPage": "54235",
+        "dc:identifier": "SCOPUS_ID:85130475087",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "3D rotation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "3D translation",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Aerial images",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Biological neural networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Constrained neural network",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Neural-networks",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Prediction algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Three-dimensional display",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Unit quaternion",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "3D rotation"
+        },
+        {
+            "@_fa": "true",
+            "$": "3D translation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Constrained neural network"
+        },
+        {
+            "@_fa": "true",
+            "$": "Unit quaternion"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science (all)",
+            "@code": "1700",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Materials Science (all)",
+            "@code": "2500",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Engineering (all)",
+            "@code": "2200",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Hongyun",
+            "preferred-name": {
+                "ce:given-name": "Hongyun",
+                "ce:initials": "H.",
+                "ce:surname": "Zhang",
+                "ce:indexed-name": "Zhang H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60029306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029306"
+            },
+            "ce:surname": "Zhang",
+            "@auid": "57701806900",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57701806900",
+            "ce:indexed-name": "Zhang H."
+        },
+        {
+            "ce:given-name": "Jin",
+            "preferred-name": {
+                "ce:given-name": "Jin",
+                "ce:initials": "J.",
+                "ce:surname": "Liu",
+                "ce:indexed-name": "Liu J."
+            },
+            "@seq": "2",
+            "ce:initials": "J.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60029306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029306"
+            },
+            "ce:surname": "Liu",
+            "@auid": "57867798600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57867798600",
+            "ce:indexed-name": "Liu J."
+        },
+        {
+            "ce:given-name": "Yongjian",
+            "preferred-name": {
+                "ce:given-name": "Yongjian",
+                "ce:initials": "Y.",
+                "ce:surname": "Gao",
+                "ce:indexed-name": "Gao Y."
+            },
+            "@seq": "3",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60029306",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60029306"
+            },
+            "ce:surname": "Gao",
+            "@auid": "57215089879",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57215089879",
+            "ce:indexed-name": "Gao Y."
+        }
+    ]}
+}}

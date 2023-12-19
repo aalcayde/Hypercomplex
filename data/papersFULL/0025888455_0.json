@@ -1,0 +1,398 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "02",
+                "@year": "2019",
+                "@timestamp": "2019-10-02T23:44:06.000006-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "1991",
+                "@month": "01"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Ithaca",
+                        "country": "United States",
+                        "@afid": "100345804",
+                        "@country": "usa",
+                        "organization": {"$": "Ithaco Inc"},
+                        "affiliation-id": {"@afid": "100345804"}
+                    },
+                    "author": [
+                        {
+                            "preferred-name": {
+                                "ce:given-name": "S. M.",
+                                "ce:initials": "S.M.",
+                                "ce:surname": "Fox",
+                                "ce:indexed-name": "Fox S."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "S.M.",
+                            "@_fa": "true",
+                            "ce:surname": "Fox",
+                            "@auid": "7401924483",
+                            "ce:indexed-name": "Fox S.M."
+                        },
+                        {
+                            "preferred-name": {
+                                "ce:given-name": "P. K.",
+                                "ce:initials": "P.K.",
+                                "ce:surname": "Pal",
+                                "ce:indexed-name": "Pal P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.K.",
+                            "@_fa": "true",
+                            "ce:surname": "Pal",
+                            "@auid": "7102063103",
+                            "ce:indexed-name": "Pal P.K."
+                        },
+                        {
+                            "preferred-name": {
+                                "ce:given-name": "M. L.",
+                                "ce:initials": "M.L.",
+                                "ce:surname": "Psiak",
+                                "ce:indexed-name": "Psiak M."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "M.L.",
+                            "@date-locked": "2019-01-17T14:50:24.532",
+                            "@_fa": "true",
+                            "ce:surname": "Psiak",
+                            "@auid": "7004139057",
+                            "ce:indexed-name": "Psiak M.L."
+                        },
+                        {
+                            "preferred-name": {
+                                "ce:given-name": "M. E.",
+                                "ce:initials": "M.E.",
+                                "ce:surname": "Mook",
+                                "ce:indexed-name": "Mook M."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "M.E.",
+                            "@_fa": "true",
+                            "ce:surname": "Mook",
+                            "@auid": "6508309154",
+                            "ce:indexed-name": "Mook M.E."
+                        }
+                    ]
+                },
+                "citation-title": "Magnetic Attitude Determination Subsystem performance on the LACE spacecraft",
+                "abstracts": "The performance of the Magnetic Attitude Determination Subsystem (MADS) has been evaluated with respect to data obtained from the Low-power Atmospheric Compensation Experiment (LACE) spacecraft. MADS was previously developed, analyzed, and tested via computer simulations, with the intent of providing attitude knowledge for the LACE experiments. In the simplest implementation, MADS requires a magnetometer and an on-board computer, but all data processing can be done on the ground. Three-axis magnetometer measurements, in conjunction with the spacecraft ephemeris data and a geomagnetic field model, provide sufficient information to determine/estimate both the spacecraft three-axis attitude and the corresponding attitude rates. The MADS design incorporates an extended Kalman filter to combine the series of single-vector attitude measurements into a three-axis attitude estimate. The filter estimates an attitude quaternion, angular rates, and constant (slow random walk) disturbance torques. The filter explicitly models the spacecraft attitude dynamics by integrating Euler's equations and the quaternion kinematics. The covariance is propagated via a discrete-time equation, and the state transition matrix of the systm is derived via numerical differentiation with respect to the initial conditions of the system dynamics. The filter's attitude estimate has been compared with conical Earth scanner roll and pitch measurements, and the filter has been re-tuned to reduce its errors. With the data provided for this analysis, the LACE MADS is capable of 3σ accuracies of 1.8° in roll, 2.4° in pitch, and 2.8° in yaw. The limiting factors to accuracy with respect to the disturbances seem to be the ability to correctly model inertia parameters and the magnetically anchored damper. On the measurements side, the accuracy is limited by the ability to correctly model and/or measure the Earth's magnetic field. Filter convergence never seemed to be a problem. Good attitude tracking performance was achieved even for substantial librational motion. This indicates the suitability of such a system for generating feedback signals to an active libration damper or stiffener.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Ithaca",
+                        "country": "United States",
+                        "@country": "usa",
+                        "organization": {"$": "Ithaco Inc"}
+                    },
+                    "person": {
+                        "ce:initials": "S.M.",
+                        "ce:surname": "Fox",
+                        "ce:indexed-name": "Fox S.M."
+                    }
+                },
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "ADASA",
+                    "sourcetitle-abbrev": "Adv Astronaut Sci",
+                    "issn": "00653438",
+                    "volisspag": {
+                        "voliss": {"@volume": "74"},
+                        "pagerange": {
+                            "@first": "553",
+                            "@last": "574"
+                        }
+                    },
+                    "@type": "p",
+                    "publicationyear": {"@first": "1991"},
+                    "isbn": "087703334X",
+                    "additional-srcinfo": {"conferenceinfo": {"confevent": {
+                        "confname": "Proceedings of the 14th Annual Rocky Mountain Guidance and Control Conference",
+                        "confsponsors": {
+                            "confsponsor": "American Astronautical Soc",
+                            "@complete": "y"
+                        },
+                        "conflocation": {"city-group": "Keystone, CO, USA"},
+                        "confcode": "15325",
+                        "confdate": {
+                            "enddate": {
+                                "@day": "06",
+                                "@year": "1991",
+                                "@month": "02"
+                            },
+                            "startdate": {
+                                "@day": "02",
+                                "@year": "1991",
+                                "@month": "02"
+                            }
+                        }
+                    }}},
+                    "sourcetitle": "Advances in the Astronautical Sciences",
+                    "@srcid": "12376",
+                    "publicationdate": {
+                        "year": "1991",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1991"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "655"},
+                            {"$": "701"},
+                            {"$": "723"},
+                            {"$": "942"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJECT",
+                        "classification": "Engineering and Technology"
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2202"},
+                            {"$": "1912"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2004 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "01",
+                    "@year": "1991",
+                    "@month": "01"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "21693594",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "1991120325832",
+                        "@idtype": "CPX"
+                    },
+                    {
+                        "$": "0025888455",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "0025888455",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {"@refcount": "6"}}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Ithaki",
+        "@id": "100345804",
+        "affilname": "ITHACO Inc",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100345804",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-0025888455",
+        "dc:description": "The performance of the Magnetic Attitude Determination Subsystem (MADS) has been evaluated with respect to data obtained from the Low-power Atmospheric Compensation Experiment (LACE) spacecraft. MADS was previously developed, analyzed, and tested via computer simulations, with the intent of providing attitude knowledge for the LACE experiments. In the simplest implementation, MADS requires a magnetometer and an on-board computer, but all data processing can be done on the ground. Three-axis magnetometer measurements, in conjunction with the spacecraft ephemeris data and a geomagnetic field model, provide sufficient information to determine/estimate both the spacecraft three-axis attitude and the corresponding attitude rates. The MADS design incorporates an extended Kalman filter to combine the series of single-vector attitude measurements into a three-axis attitude estimate. The filter estimates an attitude quaternion, angular rates, and constant (slow random walk) disturbance torques. The filter explicitly models the spacecraft attitude dynamics by integrating Euler's equations and the quaternion kinematics. The covariance is propagated via a discrete-time equation, and the state transition matrix of the systm is derived via numerical differentiation with respect to the initial conditions of the system dynamics. The filter's attitude estimate has been compared with conical Earth scanner roll and pitch measurements, and the filter has been re-tuned to reduce its errors. With the data provided for this analysis, the LACE MADS is capable of 3σ accuracies of 1.8° in roll, 2.4° in pitch, and 2.8° in yaw. The limiting factors to accuracy with respect to the disturbances seem to be the ability to correctly model inertia parameters and the magnetically anchored damper. On the measurements side, the accuracy is limited by the ability to correctly model and/or measure the Earth's magnetic field. Filter convergence never seemed to be a problem. Good attitude tracking performance was achieved even for substantial librational motion. This indicates the suitability of such a system for generating feedback signals to an active libration damper or stiffener.",
+        "prism:coverDate": "1991-01-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/0025888455",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "preferred-name": {
+                "ce:given-name": "S. M.",
+                "ce:initials": "S.M.",
+                "ce:surname": "Fox",
+                "ce:indexed-name": "Fox S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100345804",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100345804"
+            },
+            "ce:surname": "Fox",
+            "@auid": "7401924483",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7401924483",
+            "ce:indexed-name": "Fox S.M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/0025888455"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=0025888455&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=0025888455&origin=inward"
+            }
+        ],
+        "prism:isbn": "087703334X",
+        "prism:publicationName": "Advances in the Astronautical Sciences",
+        "source-id": "12376",
+        "citedby-count": "3",
+        "prism:volume": "74",
+        "subtype": "ar",
+        "prism:pageRange": "553-574",
+        "dc:title": "Magnetic Attitude Determination Subsystem performance on the LACE spacecraft",
+        "prism:endingPage": "574",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:issn": "00653438",
+        "prism:startingPage": "553",
+        "dc:identifier": "SCOPUS_ID:0025888455"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Low-Power Atmospheric Compensation Experiment (LACE)",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Magnetic Attitude Determination Subsystem (MADS)",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Aerospace Engineering",
+            "@code": "2202",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Space and Planetary Science",
+            "@code": "1912",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "preferred-name": {
+                "ce:given-name": "S. M.",
+                "ce:initials": "S.M.",
+                "ce:surname": "Fox",
+                "ce:indexed-name": "Fox S."
+            },
+            "@seq": "1",
+            "ce:initials": "S.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100345804",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100345804"
+            },
+            "ce:surname": "Fox",
+            "@auid": "7401924483",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7401924483",
+            "ce:indexed-name": "Fox S.M."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "P. K.",
+                "ce:initials": "P.K.",
+                "ce:surname": "Pal",
+                "ce:indexed-name": "Pal P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.K.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100345804",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100345804"
+            },
+            "ce:surname": "Pal",
+            "@auid": "7102063103",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7102063103",
+            "ce:indexed-name": "Pal P.K."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "M. L.",
+                "ce:initials": "M.L.",
+                "ce:surname": "Psiak",
+                "ce:indexed-name": "Psiak M."
+            },
+            "@seq": "3",
+            "ce:initials": "M.L.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100345804",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100345804"
+            },
+            "ce:surname": "Psiak",
+            "@auid": "7004139057",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7004139057",
+            "ce:indexed-name": "Psiak M.L."
+        },
+        {
+            "preferred-name": {
+                "ce:given-name": "M. E.",
+                "ce:initials": "M.E.",
+                "ce:surname": "Mook",
+                "ce:indexed-name": "Mook M."
+            },
+            "@seq": "4",
+            "ce:initials": "M.E.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100345804",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100345804"
+            },
+            "ce:surname": "Mook",
+            "@auid": "6508309154",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6508309154",
+            "ce:indexed-name": "Mook M.E."
+        }
+    ]}
+}}

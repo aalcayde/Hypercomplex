@@ -1,0 +1,1120 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "19",
+                "@year": "2019",
+                "@timestamp": "2019-10-19T10:16:43.000043-04:00",
+                "@month": "10"
+            },
+            "ait:date-sort": {
+                "@day": "23",
+                "@year": "2006",
+                "@month": "08"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "Ann Arbor, MI 48108-2285",
+                        "country": "United States",
+                        "address-part": "1777 Highland Drive",
+                        "@afid": "100328762",
+                        "@country": "usa",
+                        "organization": {"$": "Michigan Aerospace Corporation"},
+                        "affiliation-id": {"@afid": "100328762"}
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "John M.",
+                            "preferred-name": {
+                                "ce:given-name": "John M.",
+                                "ce:initials": "J.M.",
+                                "ce:surname": "Trenkle",
+                                "ce:indexed-name": "Trenkle J."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "J.M.",
+                            "@_fa": "true",
+                            "ce:surname": "Trenkle",
+                            "@auid": "6601945853",
+                            "ce:indexed-name": "Trenkle J.M."
+                        },
+                        {
+                            "ce:given-name": "Peter",
+                            "preferred-name": {
+                                "ce:given-name": "Peter",
+                                "ce:initials": "P.",
+                                "ce:surname": "Tchoryk",
+                                "ce:indexed-name": "Tchoryk P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "ce:surname": "Tchoryk Jr.",
+                            "@auid": "6602941336",
+                            "ce:indexed-name": "Tchoryk Jr. P."
+                        },
+                        {
+                            "ce:given-name": "Greg A.",
+                            "preferred-name": {
+                                "ce:given-name": "Greg A.",
+                                "ce:initials": "G.A.",
+                                "ce:surname": "Ritter",
+                                "ce:indexed-name": "Ritter G."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "G.A.",
+                            "@_fa": "true",
+                            "ce:surname": "Ritter",
+                            "@auid": "57197920894",
+                            "ce:indexed-name": "Ritter G.A."
+                        },
+                        {
+                            "ce:given-name": "Jane C.",
+                            "preferred-name": {
+                                "ce:given-name": "Jane C.",
+                                "ce:initials": "J.C.",
+                                "ce:surname": "Pavlich",
+                                "ce:indexed-name": "Pavlich J."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "J.C.",
+                            "@_fa": "true",
+                            "ce:surname": "Pavlich",
+                            "@auid": "6602812580",
+                            "ce:indexed-name": "Pavlich J.C."
+                        },
+                        {
+                            "ce:given-name": "Aaron S.",
+                            "preferred-name": {
+                                "ce:given-name": "Aaron S.",
+                                "ce:initials": "A.S.",
+                                "ce:surname": "Hickerson",
+                                "ce:indexed-name": "Hickerson A."
+                            },
+                            "@seq": "5",
+                            "ce:initials": "A.S.",
+                            "@_fa": "true",
+                            "ce:surname": "Hickerson",
+                            "@auid": "14068866300",
+                            "ce:indexed-name": "Hickerson A.S."
+                        }
+                    ]
+                },
+                "citation-title": "3-D sensor algorithms for spacecraft pose determination",
+                "abstracts": "Researchers at the Michigan Aerospace Corporation have developed accurate and robust 3-D algorithms for pose determination (position and orientation) of satellites as part of an on-going effort supporting autonomous rendezvous, docking and space situational awareness activities. 3-D range data from a LAser Detection And Ranging (LADAR) sensor is the expected input; however, the approach is unique in that the algorithms are designed to be sensor independent. Parameterized inputs allow the algorithms to be readily adapted to any sensor of opportunity. The cornerstone of our approach is the ability to simulate realistic range data that may be tailored to the specifications of any sensor. We were able to modify an open-source raytracing package to produce point cloud information from which high-fidelity simulated range images are generated. The assumptions made in our experimentation are as follows: 1) we have access to a CAD model of the target including information about the surface scattering and reflection characteristics of the components; 2) the satellite of interest may appear at any 3-D attitude; 3) the target is not necessarily rigid, but does have a limited number of configurations; and, 4) the target is not obscured in any way and is the only object in the field of view of the sensor. Our pose estimation approach then involves rendering a large number of exemplars (100k to 5M), extracting 2-D (silhouette- and projection-based) and 3-D (surface-based) features, and then training ensembles of decision trees to predict: a) the 4-D regions on a unit hypersphere into which the unit quaternion that represents the vehicle [QX, QY, Q Z, QW] is pointing, and, b) the components of that unit quaternion. Results have been quite promising and the tools and simulation environment developed for this application may also be applied to non-cooperative spacecraft operations, Autonomous Hazard Detection and Avoidance (AHDA) for landing craft, terrain mapping, vehicle guidance, path planning and obstacle avoidance.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "Ann Arbor, MI 48108-2285",
+                        "country": "United States",
+                        "address-part": "1777 Highland Drive",
+                        "@country": "usa",
+                        "organization": {"$": "Michigan Aerospace Corporation"}
+                    },
+                    "person": {
+                        "ce:initials": "J.M.",
+                        "ce:surname": "Trenkle",
+                        "ce:indexed-name": "Trenkle J.M."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "3-D",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Autonomous",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Bidirectional reflectance distribution function (BRDF)",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Ensembles of decision trees",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Image processing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Machine learning",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Pose determination",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quaternions",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Range data",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Rendezvous and docking",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "volisspag": {"voliss": {"@volume": "6220"}},
+                    "@type": "p",
+                    "isbn": [
+                        {
+                            "@level": "volume",
+                            "$": "0819462764",
+                            "@length": "10"
+                        },
+                        {
+                            "@level": "volume",
+                            "$": "9780819462763",
+                            "@length": "13"
+                        }
+                    ],
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpagerange": "var pagings"},
+                        "confevent": {
+                            "confname": "Spaceborne Sensors III",
+                            "confsponsors": {
+                                "confsponsor": "SPIE",
+                                "@complete": "y"
+                            },
+                            "conflocation": {
+                                "city-group": "Kissimmee, FL",
+                                "@country": "usa"
+                            },
+                            "confcode": "68021",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "18",
+                                    "@year": "2006",
+                                    "@month": "04"
+                                },
+                                "startdate": {
+                                    "@day": "18",
+                                    "@year": "2006",
+                                    "@month": "04"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "Proceedings of SPIE - The International Society for Optical Engineering",
+                    "publicationdate": {
+                        "year": "2006",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2006"
+                        }
+                    },
+                    "codencode": "PSISD",
+                    "sourcetitle-abbrev": "Proc SPIE Int Soc Opt Eng",
+                    "@country": "usa",
+                    "issuetitle": "Spaceborne Sensors III",
+                    "issn": {
+                        "$": "0277786X",
+                        "@type": "print"
+                    },
+                    "publicationyear": {"@first": "2006"},
+                    "article-number": "62200D",
+                    "@srcid": "40067"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {"$": "723.5"},
+                            {"$": "723.2"},
+                            {"$": "723"},
+                            {"$": "732.2"},
+                            {"$": "716.2"},
+                            {"$": "652.1"},
+                            {"$": "431.5"},
+                            {"$": "655.2"}
+                        ]
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2504"},
+                            {"$": "3104"},
+                            {"$": "1706"},
+                            {"$": "2604"},
+                            {"$": "2208"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "MATE"},
+                            {"$": "PHYS"},
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "ENGI"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2008 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "23",
+                    "@year": "2006",
+                    "@month": "08"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "44243364",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20063410078526",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "33747367397",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "33747367397",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1117/12.669260"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "15",
+                "reference": [
+                    {
+                        "ref-fulltext": "L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone, 1984, Classification and Regression Trees, Wadsworth & Brooks/Cole Advanced Books & Software, Pacific Grove, CA.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003802343",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Wadsworth & Brooks/Cole Advanced Books & Software, Pacific Grove, CA",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Breiman",
+                                    "ce:indexed-name": "Breiman L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Friedman",
+                                    "ce:indexed-name": "Friedman J.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Olshen",
+                                    "ce:indexed-name": "Olshen R.A."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Stone",
+                                    "ce:indexed-name": "Stone C.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Classification and Regression Trees"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L Breiman. Bagging predictors. Machine Learning, 24:123, 1996.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Bagging predictors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030211964",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "24"},
+                                "pagerange": {"@first": "123"}
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Breiman",
+                                "ce:indexed-name": "Breiman L."
+                            }]},
+                            "ref-sourcetitle": "Machine Learning"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J.H. Friedman, T. Hastie, and R. Tibshirani, \"Additive Logistic Regression: a Statistical View of Boosting.\", Aug. 1998.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003660631",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Aug.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Friedman",
+                                    "ce:indexed-name": "Friedman J.H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hastie",
+                                    "ce:indexed-name": "Hastie T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tibshirani",
+                                    "ce:indexed-name": "Tibshirani R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Additive Logistic Regression: A Statistical View of Boosting"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Breiman, Random Forests - Random Features, Sept, 1999.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0006001358",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Sept",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Breiman",
+                                "ce:indexed-name": "Breiman L."
+                            }]},
+                            "ref-sourcetitle": "Random Forests - Random Features"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. J. Hanson, Visualizing Quaternions, 2006, Elsevier, San Francisco, CA.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747343027",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Elsevier, San Francisco, CA",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Hanson",
+                                "ce:indexed-name": "Hanson A.J."
+                            }]},
+                            "ref-sourcetitle": "Visualizing Quaternions"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. B. Kuipers, Quaternions and Rotation Sequences, 1999, Princeton University Press, Princeton, NJ",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004226254",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Princeton University Press, Princeton, NJ",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.B.",
+                                "@_fa": "true",
+                                "ce:surname": "Kuipers",
+                                "ce:indexed-name": "Kuipers J.B."
+                            }]},
+                            "ref-sourcetitle": "Quaternions and Rotation Sequences"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. English, S. Ruel, L. Melo, et al, \"Development of a Practical 3-D Automatic Target Recognition and Pose Estimation Algorithm \", Automatic Target Recognition XIV, edited by F. Sadjadi, Proc. of SPIE Vol. 5426., 2004.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Development of a practical 3-D automatic target recognition and pose estimation algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "10444285091",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "5426"}},
+                            "ref-text": "Automatic Target Recognition XIV, edited by F. Sadjadi",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "English",
+                                        "ce:indexed-name": "English C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ruel",
+                                        "ce:indexed-name": "Ruel S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Melo",
+                                        "ce:indexed-name": "Melo L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. of SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "C. English, S. Ruel, L. Melo, et al, \"Field Testing of a 3-D Automatic Target Recognition and Pose Estimation Algorithm\", Automatic Target Recognition XIV, edited by F. Sadjadi, Proc. of SPIE Vol. 5426., 2004.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Field testing of a 3-D automatic target recognition and pose estimation algorithm"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "10444275659",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "5426"}},
+                            "ref-text": "Automatic Target Recognition XIV, edited by F. Sadjadi",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "C.",
+                                        "@_fa": "true",
+                                        "ce:surname": "English",
+                                        "ce:indexed-name": "English C."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ruel",
+                                        "ce:indexed-name": "Ruel S."
+                                    },
+                                    {
+                                        "@seq": "3",
+                                        "ce:initials": "L.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Melo",
+                                        "ce:indexed-name": "Melo L."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Proc. of SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Jasiobedzki, S. Se, M. Umasuthan, M. Greenspan, \"Autonomous Satellite Rendezvous and Docking Using LIDAR and Model-Based Vision\", Spaceborne Sensors II, edited by Peter Tchoryk and Brian Holz, Proc. Of SPIE, Vol. 5798, 2005.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2005"},
+                            "ref-title": {"ref-titletext": "Autonomous satellite rendezvous and docking using LIDAR and model-based vision"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27544476835",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "5798"}},
+                            "ref-text": "Spaceborne Sensors II, edited by Peter Tchoryk and Brian Holz",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jasiobedzki",
+                                    "ce:indexed-name": "Jasiobedzki P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Se",
+                                    "ce:indexed-name": "Se S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Umasuthan",
+                                    "ce:indexed-name": "Umasuthan M."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Greenspan",
+                                    "ce:indexed-name": "Greenspan M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of SPIE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Jasiobedski, M. Greenspan, G. Roth, \"Pose Determination and Tracking for Autonomous Satellite Capture\", 6thInternational Symposium on Artifical Intelligence: Robotics and Automation in Space, Montreal, Quebec, Canada, 2001.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Pose determination and tracking for autonomous satellite capture"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33749466841",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Montreal, Quebec, Canada",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jasiobedski",
+                                    "ce:indexed-name": "Jasiobedski P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Greenspan",
+                                    "ce:indexed-name": "Greenspan M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roth",
+                                    "ce:indexed-name": "Roth G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "6thInternational Symposium on Artifical Intelligence: Robotics and Automation in Space"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "L. Simard, Hierarchical Pose Estimation From Range Data For Space Applications, Thesis work, MacGill University, Montreal, 2002.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747356093",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Thesis work, MacGill University, Montreal",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "L.",
+                                "@_fa": "true",
+                                "ce:surname": "Simard",
+                                "ce:indexed-name": "Simard L."
+                            }]},
+                            "ref-sourcetitle": "Hierarchical Pose Estimation from Range Data for Space Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "J. P. Tarel, H. Civi, D. B. Cooper, \"Pose Estimation of Free-Form 3-D Objects Without Point Matching Using Algebraic Surface Models\", Proc. Of IEEE Workshop on Model-Based 3-D Image Anaysis, Mumbai, India, 1998.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Pose estimation of free-form 3-D objects without point matching using algebraic surface models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0242635216",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Mumbai, India",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tarel",
+                                    "ce:indexed-name": "Tarel J.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Civi",
+                                    "ce:indexed-name": "Civi H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cooper",
+                                    "ce:indexed-name": "Cooper D.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of IEEE Workshop on Model-based 3-D Image Anaysis"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "P. Mittrapiyanuruk, G. N. DeSOuza, A.C. Kak, \"Calculating the 3-D Pose of Rigid-Objects Using Active Appearance Models\", Proc. of the 2004 Int. Conference on Robotics and Automation, 2004.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "ref-title": {"ref-titletext": "Calculating the 3-D pose of rigid-objects using active appearance models"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3042685546",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mittrapiyanuruk",
+                                    "ce:indexed-name": "Mittrapiyanuruk P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "DeSouza",
+                                    "ce:indexed-name": "DeSouza G.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kak",
+                                    "ce:indexed-name": "Kak A.C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. of the 2004 Int. Conference on Robotics and Automation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. Berger, T. Auer, A. Pinz, \"3-D Model Based Pose Determination in Real Time: Strategies, Convergence, Accuracy\", Proc. International Conference on Pattern Recognition (ICPR), volume 4, pages 567-570, 2000. http://rvl.www.ecn.purdue.edu/RVL/Proiects/LineTracking/icra2004.pdf",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "http://rvl.www.ecn.purdue.edu/RVL/Proiects/LineTracking/icra2004.pdf",
+                                "@type": "url"
+                            }},
+                            "ref-title": {"ref-titletext": "3-D model based pose determination in real time: Strategies, convergence, accuracy"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747366770",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4"},
+                                "pagerange": {
+                                    "@first": "567",
+                                    "@last": "570"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Berger",
+                                    "ce:indexed-name": "Berger M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Auer",
+                                    "ce:indexed-name": "Auer T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pinz",
+                                    "ce:indexed-name": "Pinz A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. International Conference on Pattern Recognition (ICPR)"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Cropp, P. Pamer, P. McLauchlan, C. Underwood, \"Estimating Pose of Known Target Satellite\" Electronics Letters, Vol. 36, No. 15, July, 2000.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Estimating pose of known target satellite"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0034227710",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {
+                                "@volume": "36",
+                                "@issue": "15"
+                            }},
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cropp",
+                                    "ce:indexed-name": "Cropp A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pamer",
+                                    "ce:indexed-name": "Pamer P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McLauchlan",
+                                    "ce:indexed-name": "McLauchlan P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Underwood",
+                                    "ce:indexed-name": "Underwood C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Electronics Letters"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Ann Arbor",
+        "@id": "100328762",
+        "affilname": "Michigan Aerospace Corporation",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-33747367397",
+        "dc:description": "Researchers at the Michigan Aerospace Corporation have developed accurate and robust 3-D algorithms for pose determination (position and orientation) of satellites as part of an on-going effort supporting autonomous rendezvous, docking and space situational awareness activities. 3-D range data from a LAser Detection And Ranging (LADAR) sensor is the expected input; however, the approach is unique in that the algorithms are designed to be sensor independent. Parameterized inputs allow the algorithms to be readily adapted to any sensor of opportunity. The cornerstone of our approach is the ability to simulate realistic range data that may be tailored to the specifications of any sensor. We were able to modify an open-source raytracing package to produce point cloud information from which high-fidelity simulated range images are generated. The assumptions made in our experimentation are as follows: 1) we have access to a CAD model of the target including information about the surface scattering and reflection characteristics of the components; 2) the satellite of interest may appear at any 3-D attitude; 3) the target is not necessarily rigid, but does have a limited number of configurations; and, 4) the target is not obscured in any way and is the only object in the field of view of the sensor. Our pose estimation approach then involves rendering a large number of exemplars (100k to 5M), extracting 2-D (silhouette- and projection-based) and 3-D (surface-based) features, and then training ensembles of decision trees to predict: a) the 4-D regions on a unit hypersphere into which the unit quaternion that represents the vehicle [QX, QY, Q Z, QW] is pointing, and, b) the components of that unit quaternion. Results have been quite promising and the tools and simulation environment developed for this application may also be applied to non-cooperative spacecraft operations, Autonomous Hazard Detection and Avoidance (AHDA) for landing craft, terrain mapping, vehicle guidance, path planning and obstacle avoidance.",
+        "prism:coverDate": "2006-08-23",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/33747367397",
+        "subtypeDescription": "Conference Paper",
+        "dc:creator": {"author": [{
+            "ce:given-name": "John M.",
+            "preferred-name": {
+                "ce:given-name": "John M.",
+                "ce:initials": "J.M.",
+                "ce:surname": "Trenkle",
+                "ce:indexed-name": "Trenkle J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100328762",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762"
+            },
+            "ce:surname": "Trenkle",
+            "@auid": "6601945853",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6601945853",
+            "ce:indexed-name": "Trenkle J.M."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/33747367397"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=33747367397&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=33747367397&origin=inward"
+            }
+        ],
+        "prism:isbn": [
+            {"$": "0819462764"},
+            {"$": "9780819462763"}
+        ],
+        "prism:publicationName": "Proceedings of SPIE - The International Society for Optical Engineering",
+        "source-id": "40067",
+        "citedby-count": "0",
+        "prism:volume": "6220",
+        "subtype": "cp",
+        "dc:title": "3-D sensor algorithms for spacecraft pose determination",
+        "openaccess": "0",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1117/12.669260",
+        "prism:issn": "0277786X",
+        "article-number": "62200D",
+        "dc:identifier": "SCOPUS_ID:33747367397"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Autonomous",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Bidirectional reflectance distribution function (BRDF)",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Ensembles of decision trees",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Pose determination",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Quaternions",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Range data",
+            "@weight": "a",
+            "@candidate": "n"
+        },
+        {
+            "$": "Rendezvous and docking",
+            "@weight": "a",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "3-D"
+        },
+        {
+            "@_fa": "true",
+            "$": "Autonomous"
+        },
+        {
+            "@_fa": "true",
+            "$": "Bidirectional reflectance distribution function (BRDF)"
+        },
+        {
+            "@_fa": "true",
+            "$": "Ensembles of decision trees"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image processing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Machine learning"
+        },
+        {
+            "@_fa": "true",
+            "$": "Pose determination"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quaternions"
+        },
+        {
+            "@_fa": "true",
+            "$": "Range data"
+        },
+        {
+            "@_fa": "true",
+            "$": "Rendezvous and docking"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Electronic, Optical and Magnetic Materials",
+            "@code": "2504",
+            "@abbrev": "MATE"
+        },
+        {
+            "@_fa": "true",
+            "$": "Condensed Matter Physics",
+            "@code": "3104",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Electrical and Electronic Engineering",
+            "@code": "2208",
+            "@abbrev": "ENGI"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "John M.",
+            "preferred-name": {
+                "ce:given-name": "John M.",
+                "ce:initials": "J.M.",
+                "ce:surname": "Trenkle",
+                "ce:indexed-name": "Trenkle J."
+            },
+            "@seq": "1",
+            "ce:initials": "J.M.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100328762",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762"
+            },
+            "ce:surname": "Trenkle",
+            "@auid": "6601945853",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6601945853",
+            "ce:indexed-name": "Trenkle J.M."
+        },
+        {
+            "ce:given-name": "Peter",
+            "preferred-name": {
+                "ce:given-name": "Peter",
+                "ce:initials": "P.",
+                "ce:surname": "Tchoryk",
+                "ce:indexed-name": "Tchoryk P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100328762",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762"
+            },
+            "ce:surname": "Tchoryk Jr.",
+            "@auid": "6602941336",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6602941336",
+            "ce:indexed-name": "Tchoryk Jr. P."
+        },
+        {
+            "ce:given-name": "Greg A.",
+            "preferred-name": {
+                "ce:given-name": "Greg A.",
+                "ce:initials": "G.A.",
+                "ce:surname": "Ritter",
+                "ce:indexed-name": "Ritter G."
+            },
+            "@seq": "3",
+            "ce:initials": "G.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100328762",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762"
+            },
+            "ce:surname": "Ritter",
+            "@auid": "57197920894",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57197920894",
+            "ce:indexed-name": "Ritter G.A."
+        },
+        {
+            "ce:given-name": "Jane C.",
+            "preferred-name": {
+                "ce:given-name": "Jane C.",
+                "ce:initials": "J.C.",
+                "ce:surname": "Pavlich",
+                "ce:indexed-name": "Pavlich J."
+            },
+            "@seq": "4",
+            "ce:initials": "J.C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100328762",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762"
+            },
+            "ce:surname": "Pavlich",
+            "@auid": "6602812580",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6602812580",
+            "ce:indexed-name": "Pavlich J.C."
+        },
+        {
+            "ce:given-name": "Aaron S.",
+            "preferred-name": {
+                "ce:given-name": "Aaron S.",
+                "ce:initials": "A.S.",
+                "ce:surname": "Hickerson",
+                "ce:indexed-name": "Hickerson A."
+            },
+            "@seq": "5",
+            "ce:initials": "A.S.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "100328762",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/100328762"
+            },
+            "ce:surname": "Hickerson",
+            "@auid": "14068866300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/14068866300",
+            "ce:indexed-name": "Hickerson A.S."
+        }
+    ]}
+}}

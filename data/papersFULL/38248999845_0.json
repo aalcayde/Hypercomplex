@@ -1,0 +1,743 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@year": "2020",
+                "@timestamp": "2020-01-07T05:43:30.000030-05:00",
+                "@month": "01"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "1993",
+                "@month": "10"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding-addon-generated-timestamp": "2021-05-09T10:35:15.990641Z",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": [
+                    {
+                        "affiliation": {
+                            "city-group": "St Louis, MO 63130",
+                            "country": "United States",
+                            "@afid": "60010261",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Department of Electrical Engineering"},
+                                {"$": "Electronic Systems and Signals Research Laboratory"},
+                                {"$": "Washington University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60010261",
+                                "@dptid": "105193918"
+                            },
+                            "@dptid": "105193918"
+                        },
+                        "author": [
+                            {
+                                "ce:given-name": "Michael I.",
+                                "preferred-name": {
+                                    "ce:given-name": "Michael I.",
+                                    "ce:initials": "M.I.",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller M."
+                                },
+                                "@seq": "1",
+                                "ce:initials": "M.I.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Miller",
+                                "@auid": "35425199300",
+                                "ce:indexed-name": "Miller M.I."
+                            },
+                            {
+                                "ce:given-name": "Shou C.",
+                                "preferred-name": {
+                                    "ce:given-name": "Shou C.",
+                                    "ce:initials": "S.C.",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S."
+                                },
+                                "@seq": "2",
+                                "ce:initials": "S.C.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Chen",
+                                "@auid": "57195388404",
+                                "ce:indexed-name": "Chen S.C."
+                            },
+                            {
+                                "ce:given-name": "David A.",
+                                "preferred-name": {
+                                    "ce:given-name": "David A.",
+                                    "ce:initials": "D.A.",
+                                    "ce:surname": "Kuefler",
+                                    "ce:indexed-name": "Kuefler D."
+                                },
+                                "@seq": "3",
+                                "ce:initials": "D.A.",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "Kuefler",
+                                "@auid": "57195388177",
+                                "ce:indexed-name": "Kuefler D.A."
+                            },
+                            {
+                                "ce:given-name": "D. André",
+                                "preferred-name": {
+                                    "ce:given-name": "D. André",
+                                    "ce:initials": "D.A.",
+                                    "ce:surname": "D\u2019avignon",
+                                    "ce:indexed-name": "D\u2019avignon D."
+                                },
+                                "@seq": "4",
+                                "ce:initials": "D.A.",
+                                "@date-locked": "2019-01-05T12:14:30.309",
+                                "@_fa": "true",
+                                "@type": "auth",
+                                "ce:surname": "D\u2019avignon",
+                                "@auid": "6603578902",
+                                "ce:indexed-name": "D'avignon D.A."
+                            }
+                        ]
+                    },
+                    {
+                        "affiliation": {
+                            "city-group": "St Louis, MO 63130",
+                            "country": "United States",
+                            "@afid": "60010261",
+                            "@country": "usa",
+                            "organization": [
+                                {"$": "Deparlment of Chemistry"},
+                                {"$": "Washington University"}
+                            ],
+                            "affiliation-id": {
+                                "@afid": "60010261",
+                                "@dptid": "119098100"
+                            },
+                            "@dptid": "119098100"
+                        },
+                        "author": [{
+                            "ce:given-name": "D. André",
+                            "preferred-name": {
+                                "ce:given-name": "D. André",
+                                "ce:initials": "D.A.",
+                                "ce:surname": "D\u2019avignon",
+                                "ce:indexed-name": "D\u2019avignon D."
+                            },
+                            "@seq": "4",
+                            "ce:initials": "D.A.",
+                            "@date-locked": "2019-01-05T12:14:30.309",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "D\u2019avignon",
+                            "@auid": "6603578902",
+                            "ce:indexed-name": "D'avignon D.A."
+                        }]
+                    }
+                ],
+                "citation-title": "Maximum likelihood and the EM algorithm for 2D NMR spectroscopy",
+                "abstracts": "By extending the maximum-likelihood method of Miller and Greene for one-dimensional nuclear magnetic resonance spectroscopy, maximum-likelihood (ML) methods for two-dimensional spectroscopy are developed. The time-domain free-induction decay is modeled as a 2D signal f(t1, t2), the superposition of exponentially decaying complex exponentials in both dimensions of unknown amplitudes, frequencies, and decays. The measurement is modeled as a 2D Gaussian process with mean f(t1, t2) and fixed variance. The ML estimation problem is to choose the set of amplitudes, frequencies, and decays which minimizes the squared error between the measured FID and the parameterized signal model. An iterative expectation-maximization algorithm is proposed for solving the nonlinear least-squares problem, providing a method for estimating the signal parameters directly from the 2D FID. The ML method and implementation algorithm are tested by analyzing both simulated and experimental N-butanol data collected via the hypercomplex data-collection protocol. © 1993 by Academic Press, Inc.",
+                "citation-info": {
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "sourcetitle-abbrev": "J. Magn. Reson. Ser. A",
+                    "issn": {
+                        "$": "10641858",
+                        "@type": "print"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "104",
+                            "@issue": "3"
+                        },
+                        "pagerange": {
+                            "@first": "247",
+                            "@last": "257"
+                        }
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "1993"},
+                    "sourcetitle": "Journal of Magnetic Resonance - Series A",
+                    "@srcid": "4500151506",
+                    "publicationdate": {
+                        "month": "10",
+                        "year": "1993",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 October 1993"
+                        },
+                        "day": "01"
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": "2200"
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": "ENGI"
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2017 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "ARCACA"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "08",
+                    "@year": "2017",
+                    "@timestamp": "BST 18:12:00",
+                    "@month": "06"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "294137900",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "20150294137900",
+                            "@idtype": "ARCACA"
+                        },
+                        {
+                            "$": "46209051",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "38248999845",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "38248999845",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S1064185883712210",
+                    "ce:doi": "10.1006/jmra.1993.1221"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "10",
+                "reference": [
+                    {
+                        "ref-fulltext": "E. Becker, \"High Resolution NMR: Theory and Chemical Applications, \" Academic Press, New York, 1980.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1980"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003550815",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Academic Press, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "E.",
+                                "@_fa": "true",
+                                "ce:surname": "Becker",
+                                "ce:indexed-name": "Becker E."
+                            }]},
+                            "ref-sourcetitle": "High Resolution NMR: Theory and Chemical Applications"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. I. Miller and A. S. Greene, J. Magn. Resort. 83, 525 (1989).",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1989"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "33747564689",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "83"},
+                                "pagerange": {"@first": "525"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller M.I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Greene",
+                                    "ce:indexed-name": "Greene A.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Magn. Resort."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "W. P. Aue, E. Bartholdi, and R. R. Ernst, J. Chem. Phys. 64, 2229 (1976).",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1976"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0006393051",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "64"},
+                                "pagerange": {"@first": "2229"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aue",
+                                    "ce:indexed-name": "Aue W.P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bartholdi",
+                                    "ce:indexed-name": "Bartholdi E."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ernst",
+                                    "ce:indexed-name": "Ernst R.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Chem. Phys."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. Bax, \"Two-Dimensional Nuclear Magnetic Resonance in Liquids, \" Delft Univ. Press, Delft, The Netherlands, 1984.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003677210",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Delft Univ. Press, Delft, The Netherlands",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "A.",
+                                "@_fa": "true",
+                                "ce:surname": "Bax",
+                                "ce:indexed-name": "Bax A."
+                            }]},
+                            "ref-sourcetitle": "Two-Dimensional Nuclear Magnetic Resonance in Liquids"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. W. Tufts and R. Kumaresan, Proc. IEEE 70, 975 (1982).",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0020189061",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "70"},
+                                "pagerange": {"@first": "975"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tufts",
+                                    "ce:indexed-name": "Tufts D.W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kumaresan",
+                                    "ce:indexed-name": "Kumaresan R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "M. I. Miller and D. R. Fuhrmann, IEEE Trans. Acoust. Speech Signal Process. 38(9), 560 (1990).",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025488579",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "38",
+                                    "@issue": "9"
+                                },
+                                "pagerange": {"@first": "560"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller M.I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fuhrmann",
+                                    "ce:indexed-name": "Fuhrmann D.R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Acoust. Speech Signal Process."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "A. D. Dempster, N. M. Laird, and D. B. Rubin, JRRSB 39, 1 (1977).",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1977"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84964520891",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "39"},
+                                "pagerange": {"@first": "1"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dempster",
+                                    "ce:indexed-name": "Dempster A.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laird",
+                                    "ce:indexed-name": "Laird N.M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rubin",
+                                    "ce:indexed-name": "Rubin D.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "JRRSB"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "H. L. Van Trees, \"Detection, Estimation, and Modulation Theory, \u201d Vol. 1, Wiley, New York, 1971.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1971"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003462953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "1"}},
+                            "ref-text": "Wiley, New York",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "H.L.",
+                                "@_fa": "true",
+                                "ce:surname": "Van Trees",
+                                "ce:indexed-name": "Van Trees H.L."
+                            }]},
+                            "ref-sourcetitle": "Detection, Estimation, and Modulation Theory"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "D. J. States, R. A. Haberkorn, and D. J. Ruben, J. Magn. Reson. 48, 286(1982).",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1982"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "2642628181",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "48"},
+                                "pagerange": {"@first": "286"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "States",
+                                    "ce:indexed-name": "States D.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haberkorn",
+                                    "ce:indexed-name": "Haberkorn R.A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ruben",
+                                    "ce:indexed-name": "Ruben D.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Magn. Reson."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "S. C. Chen, T. J. Schaewe, R. S. Teichman, and M. I. Miller, J. Magn. Reson. A 102, 16(1993).",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004724337",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "102"},
+                                "pagerange": {"@first": "16"}
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen S.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schaewe",
+                                    "ce:indexed-name": "Schaewe T.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Teichman",
+                                    "ce:indexed-name": "Teichman R.S."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller M.I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Magn. Reson. A"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "St. Louis",
+        "@id": "60010261",
+        "affilname": "Washington University in St. Louis",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-38248999845",
+        "dc:description": "By extending the maximum-likelihood method of Miller and Greene for one-dimensional nuclear magnetic resonance spectroscopy, maximum-likelihood (ML) methods for two-dimensional spectroscopy are developed. The time-domain free-induction decay is modeled as a 2D signal f(t1, t2), the superposition of exponentially decaying complex exponentials in both dimensions of unknown amplitudes, frequencies, and decays. The measurement is modeled as a 2D Gaussian process with mean f(t1, t2) and fixed variance. The ML estimation problem is to choose the set of amplitudes, frequencies, and decays which minimizes the squared error between the measured FID and the parameterized signal model. An iterative expectation-maximization algorithm is proposed for solving the nonlinear least-squares problem, providing a method for estimating the signal parameters directly from the 2D FID. The ML method and implementation algorithm are tested by analyzing both simulated and experimental N-butanol data collected via the hypercomplex data-collection protocol. © 1993 by Academic Press, Inc.",
+        "prism:coverDate": "1993-10-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/38248999845",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Michael I.",
+            "preferred-name": {
+                "ce:given-name": "Michael I.",
+                "ce:initials": "M.I.",
+                "ce:surname": "Miller",
+                "ce:indexed-name": "Miller M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.I.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010261",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261"
+            },
+            "ce:surname": "Miller",
+            "@auid": "35425199300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35425199300",
+            "ce:indexed-name": "Miller M.I."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/38248999845"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=38248999845&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=38248999845&origin=inward"
+            }
+        ],
+        "source-id": "4500151506",
+        "pii": "S1064185883712210",
+        "citedby-count": "8",
+        "prism:volume": "104",
+        "subtype": "ar",
+        "dc:title": "Maximum likelihood and the EM algorithm for 2D NMR spectroscopy",
+        "openaccess": "0",
+        "prism:issn": "10641858",
+        "prism:issueIdentifier": "3",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Journal of Magnetic Resonance - Series A",
+        "prism:pageRange": "247-257",
+        "prism:endingPage": "257",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1006/jmra.1993.1221",
+        "prism:startingPage": "247",
+        "dc:identifier": "SCOPUS_ID:38248999845"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [{
+        "@_fa": "true",
+        "$": "Engineering (all)",
+        "@code": "2200",
+        "@abbrev": "ENGI"
+    }]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Michael I.",
+            "preferred-name": {
+                "ce:given-name": "Michael I.",
+                "ce:initials": "M.I.",
+                "ce:surname": "Miller",
+                "ce:indexed-name": "Miller M."
+            },
+            "@seq": "1",
+            "ce:initials": "M.I.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010261",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261"
+            },
+            "ce:surname": "Miller",
+            "@auid": "35425199300",
+            "author-url": "https://api.elsevier.com/content/author/author_id/35425199300",
+            "ce:indexed-name": "Miller M.I."
+        },
+        {
+            "ce:given-name": "Shou C.",
+            "preferred-name": {
+                "ce:given-name": "Shou C.",
+                "ce:initials": "S.C.",
+                "ce:surname": "Chen",
+                "ce:indexed-name": "Chen S."
+            },
+            "@seq": "2",
+            "ce:initials": "S.C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010261",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261"
+            },
+            "ce:surname": "Chen",
+            "@auid": "57195388404",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195388404",
+            "ce:indexed-name": "Chen S.C."
+        },
+        {
+            "ce:given-name": "David A.",
+            "preferred-name": {
+                "ce:given-name": "David A.",
+                "ce:initials": "D.A.",
+                "ce:surname": "Kuefler",
+                "ce:indexed-name": "Kuefler D."
+            },
+            "@seq": "3",
+            "ce:initials": "D.A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60010261",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261"
+            },
+            "ce:surname": "Kuefler",
+            "@auid": "57195388177",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57195388177",
+            "ce:indexed-name": "Kuefler D.A."
+        },
+        {
+            "ce:given-name": "D. André",
+            "preferred-name": {
+                "ce:given-name": "D. André",
+                "ce:initials": "D.A.",
+                "ce:surname": "D\u2019avignon",
+                "ce:indexed-name": "D\u2019avignon D."
+            },
+            "@seq": "4",
+            "ce:initials": "D.A.",
+            "@_fa": "true",
+            "affiliation": [
+                {
+                    "@id": "60010261",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261"
+                },
+                {
+                    "@id": "60010261",
+                    "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60010261"
+                }
+            ],
+            "ce:surname": "D\u2019avignon",
+            "@auid": "6603578902",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603578902",
+            "ce:indexed-name": "D'avignon D.A."
+        }
+    ]}
+}}

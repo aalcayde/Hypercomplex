@@ -1,0 +1,2137 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "07",
+                "@year": "2023",
+                "@timestamp": "2023-07-07T08:51:32.000032-04:00",
+                "@month": "07"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2023",
+                "@month": "06"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": [
+                {
+                    "xocs:funding-agency-matched-string": "National Natural Science Foundation of China",
+                    "xocs:funding-agency-acronym": "NSFC",
+                    "xocs:funding-agency": "National Natural Science Foundation of China",
+                    "xocs:funding-id": [
+                        {"$": "61803307"},
+                        {"$": "62111530051"}
+                    ],
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100001809",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                },
+                {
+                    "xocs:funding-agency-matched-string": "Fundamental Research Funds for the Central Universities of China",
+                    "xocs:funding-agency": "Fundamental Research Funds for the Central Universities",
+                    "xocs:funding-id": "D5000220031",
+                    "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/501100012226",
+                    "xocs:funding-agency-country": "http://sws.geonames.org/1814991/"
+                }
+            ],
+            "xocs:funding-addon-generated-timestamp": "2023-04-30T05:53:53.837Z",
+            "xocs:funding-text": "This work was supported by the National Natural Science Foundation of China (Grant No. 61803307, 62111530051) and the Fundamental Research Funds for the Central Universities of China (Grant No. D5000220031).",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "China",
+                        "@afid": "60003977",
+                        "@country": "chn",
+                        "city": "Xi'an",
+                        "organization": [
+                            {"$": "School of Automation"},
+                            {"$": "Northwestern Polytechnical University"}
+                        ],
+                        "affiliation-id": {"@afid": "60003977"},
+                        "@affiliation-instance-id": "OB2BibRecID-946843078-dd93b0d484d5cb3e66baf152358a0ab2-1",
+                        "ce:source-text": "School of Automation, Northwestern Polytechnical University, Xi'an, China"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Haochang",
+                            "preferred-name": {
+                                "ce:given-name": "Haochang",
+                                "ce:initials": "H.",
+                                "ce:surname": "Tian",
+                                "ce:indexed-name": "Tian H."
+                            },
+                            "@seq": "1",
+                            "@author-instance-id": "OB2BibRecID-946843078-ae9ff303fa5185be032c7fd8d3ddb4c9-1",
+                            "ce:initials": "H.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Tian",
+                            "@auid": "57201469385",
+                            "@orcid": "0000-0002-6732-7732",
+                            "ce:indexed-name": "Tian H."
+                        },
+                        {
+                            "ce:given-name": "Aijun",
+                            "preferred-name": {
+                                "ce:given-name": "Aijun",
+                                "ce:initials": "A.",
+                                "ce:surname": "Li",
+                                "ce:indexed-name": "Li A."
+                            },
+                            "@seq": "2",
+                            "@author-instance-id": "OB2BibRecID-946843078-b736d5df7ccfa172accd7d3f499c347a-1",
+                            "ce:initials": "A.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Li",
+                            "@auid": "55751458600",
+                            "ce:indexed-name": "Li A."
+                        },
+                        {
+                            "ce:given-name": "Yu",
+                            "preferred-name": {
+                                "ce:given-name": "Yu",
+                                "ce:initials": "Y.",
+                                "ce:surname": "Wang",
+                                "ce:indexed-name": "Wang Y."
+                            },
+                            "@seq": "3",
+                            "@author-instance-id": "OB2BibRecID-946843078-1c237d277ba0b78c02a8f37bfe269a65-1",
+                            "ce:initials": "Y.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wang",
+                            "@auid": "56362845800",
+                            "ce:indexed-name": "Wang Y."
+                        },
+                        {
+                            "ce:given-name": "Changqing",
+                            "preferred-name": {
+                                "ce:given-name": "Changqing",
+                                "ce:initials": "C.",
+                                "ce:surname": "Wang",
+                                "ce:indexed-name": "Wang C."
+                            },
+                            "@seq": "4",
+                            "@author-instance-id": "OB2BibRecID-946843078-4feb5f01a5437aa9397d9f6a3ecd75c5-1",
+                            "ce:initials": "C.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Wang",
+                            "@auid": "55684012600",
+                            "ce:indexed-name": "Wang C."
+                        }
+                    ]
+                },
+                "citation-title": "Underactuated attitude tracking control of tethered spacecraft for deployment and spin-up",
+                "abstracts": "© 2023 COSPARThis paper investigates the underactuated attitude tracking control problem of tethered spacecraft during tether deploying and spinning. The attitudes are controlled by the torque inputs along two body axes and perturbed by the tether tension torque. The coupling effect between spacecraft attitudes and flexible tethers can be alleviated by simplifying control inputs. The main contribution is the development of an underactuated tracking controller with an adaptive barrier function that inhibits unknown disturbance. To avoid singularity problems with tether and spacecraft during simulation, the dynamic model of a tethered system is derived using quaternion transformations. The underactuated attitude control strategy is designed by kinematic state coupling relations and dynamic backstepping technique, which is given extensive stability demonstration using Lyapunov's theory. An adaptive controller gain with barrier function is employed to inhibit the bounded unknown disturbance with no need for the online estimation signal. Finally, numerical simulations demonstrate the effectiveness and robustness of the proposed underactuated strategy in the case of tether deployment and spin-up, respectively.",
+                "correspondence": {
+                    "affiliation": {
+                        "country": "China",
+                        "@country": "chn",
+                        "city": "Xi'an",
+                        "organization": [
+                            {"$": "School of Automation"},
+                            {"$": "Northwestern Polytechnical University"}
+                        ],
+                        "@affiliation-instance-id": "OB2BibRecID-946843078-81602e7f829b3e9b6bfbcc9e51c907e1-1"
+                    },
+                    "person": {
+                        "ce:given-name": "Haochang",
+                        "@author-instance-id": "OB2BibRecID-946843078-15182d2b77082f8ad52a3341898625e2-1",
+                        "ce:initials": "H.",
+                        "ce:surname": "Tian",
+                        "ce:indexed-name": "Tian H."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "Backstepping control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Barrier function",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Tether deployment and spin-up",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Tethered spacecraft system",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        },
+                        {
+                            "$": "Underactuated attitude control",
+                            "@xml:lang": "eng",
+                            "@original": "y"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://www.journals.elsevier.com/advances-in-space-research/",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "Advances in Space Research",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {
+                        "voliss": {
+                            "@volume": "71",
+                            "@issue": "11"
+                        },
+                        "pagerange": {
+                            "@first": "4829",
+                            "@last": "4842"
+                        }
+                    },
+                    "@type": "j",
+                    "sourcetitle": "Advances in Space Research",
+                    "publicationdate": {
+                        "month": "06",
+                        "year": "2023",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "1 June 2023"
+                        },
+                        "day": "01"
+                    },
+                    "codencode": "ASRSD",
+                    "sourcetitle-abbrev": "Adv. Space Res.",
+                    "@country": "gbr",
+                    "issn": [
+                        {
+                            "$": "18791948",
+                            "@type": "electronic"
+                        },
+                        {
+                            "$": "02731177",
+                            "@type": "print"
+                        }
+                    ],
+                    "publicationyear": {"@first": "2023"},
+                    "publisher": {"publishername": "Elsevier Ltd"},
+                    "@srcid": "12375"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": [
+                            {
+                                "classification-code": "655.1",
+                                "classification-description": "Spacecraft, General"
+                            },
+                            {
+                                "classification-code": "731.1",
+                                "classification-description": "Control Systems"
+                            },
+                            {
+                                "classification-code": "731.3",
+                                "classification-description": "Specific Variables Control"
+                            },
+                            {
+                                "classification-code": "732.1",
+                                "classification-description": "Control Equipment"
+                            },
+                            {
+                                "classification-code": "921",
+                                "classification-description": "Mathematics"
+                            },
+                            {
+                                "classification-code": "961",
+                                "classification-description": "Systems Science"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "2202"},
+                            {"$": "3103"},
+                            {"$": "1908"},
+                            {"$": "1902"},
+                            {"$": "1912"},
+                            {"$": "1900"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "ENGI"},
+                            {"$": "PHYS"},
+                            {"$": "EART"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported by the National Natural Science Foundation of China (Grant No. 61803307, 62111530051) and the Fundamental Research Funds for the Central Universities of China (Grant No. D5000220031).",
+                        "@xml:lang": "eng"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2023 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "REAXYSCAR"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "29",
+                    "@year": "2023",
+                    "@timestamp": "BST 12:02:39",
+                    "@month": "04"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "2022826499",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "946843078",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20231213777203",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20230756755",
+                            "@idtype": "REAXYSCAR"
+                        },
+                        {
+                            "$": "20231037211",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85150388552",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85150388552",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:pii": "S0273117723000923",
+                    "ce:ern": "pii:S0273117723000923",
+                    "ce:doi": "10.1016/j.asr.2023.01.052"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "Aslanov, V.S., Ledkov, A.S., Swing principle in tether-assisted return mission from an elliptical orbit. Aerosp. Sci. Technol. 71 (2017), 156\u2013162.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-875a7d9cbfc614dd30c9d649977843ec-1",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Swing principle in tether-assisted return mission from an elliptical orbit"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0005",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85030310725",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "71"},
+                                "pagerange": {
+                                    "@first": "156",
+                                    "@last": "162"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Aslanov",
+                                    "ce:indexed-name": "Aslanov V.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ledkov",
+                                    "ce:indexed-name": "Ledkov A.S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aerosp. Sci. Technol."
+                        },
+                        "ce:source-text": "Aslanov, V. S., and Ledkov, A. S., 2017. Swing principle in tether-assisted return mission from an elliptical orbit. Aerosp. Sci. Technol. 71, 156-162."
+                    },
+                    {
+                        "ref-fulltext": "Chang, I., Park, S.Y., Choi, K.H., Nonlinear attitude control of a tether-connected multi-satellite in three-dimensional space. IEEE Trans. Aerosp. Electron. Syst. 46:4 (2010), 1950\u20131968.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-c9382ab9a39deefda645c036bfb33808-2",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Nonlinear attitude control of a tether-connected multi-satellite in three-dimensional space"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0010",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "78651089426",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "46",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "1950",
+                                    "@last": "1968"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chang",
+                                    "ce:indexed-name": "Chang I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Park",
+                                    "ce:indexed-name": "Park S.Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "K.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choi",
+                                    "ce:indexed-name": "Choi K.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Aerosp. Electron. Syst."
+                        },
+                        "ce:source-text": "Chang, I., Park S. Y., and Choi, K. H., 2010. Nonlinear attitude control of a tether-connected multi-satellite in three-dimensional space. IEEE Trans. Aerosp. Electron. Syst. 46(4), 1950-1968."
+                    },
+                    {
+                        "ref-fulltext": "Choukchou-Braham, A., Cherki, B., et al. Analysis and control of underactuated mechanical systems. 2013, Springer Science & Business Media.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-e6ed12204e8f3ed320f132bba926c330-3",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Analysis and control of underactuated mechanical systems"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0015",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84930391115",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Springer Science & Business Media",
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Choukchou-Braham",
+                                        "ce:indexed-name": "Choukchou-Braham A."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Cherki",
+                                        "ce:indexed-name": "Cherki B."
+                                    }
+                                ],
+                                "et-al": null
+                            }
+                        },
+                        "ce:source-text": "Choukchou-Braham, A., Cherki, B., et al., 2013. Analysis and control of underactuated mechanical systems. Springer Science & Business Media."
+                    },
+                    {
+                        "ref-fulltext": "Chung, S.J., Slotine, J.J., Miller, D.W., Propellant-free control of tethered formation flight, part 2: Nonlinear underactuated control. J. Guid. Control Dyn. 31:5 (2008), 1437\u20131446.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-f880a9f9a1bea3ed48e58f8a67e19a7f-4",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Propellant-free control of tethered formation flight, part 2: Nonlinear underactuated control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0020",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "53349098771",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "31",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "1437",
+                                    "@last": "1446"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chung",
+                                    "ce:indexed-name": "Chung S.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Slotine",
+                                    "ce:indexed-name": "Slotine J.J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Miller",
+                                    "ce:indexed-name": "Miller D.W."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Guid. Control Dyn."
+                        },
+                        "ce:source-text": "Chung, S. J., Slotine, J. J., and Miller, D. W., 2008. Propellant-free control of tethered formation flight, part 2: Nonlinear underactuated control. J. Guid. Control Dyn. 31(5), 1437-1446."
+                    },
+                    {
+                        "ref-fulltext": "Dixon, W.E., Dawson, D.M., et al. Robust tracking and regulation control for mobile robots. Int. J. Robust. Nonlin. 10:4 (2000), 199\u2013216.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-705b0e14856727bd332605bc06b86b44-5",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2000"},
+                            "ref-title": {"ref-titletext": "Robust tracking and regulation control for mobile robots"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0025",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0034166005",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "10",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "199",
+                                    "@last": "216"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "W.E.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Dixon",
+                                        "ce:indexed-name": "Dixon W.E."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "D.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Dawson",
+                                        "ce:indexed-name": "Dawson D.M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Int. J. Robust. Nonlin."
+                        },
+                        "ce:source-text": "Dixon, W. E., Dawson, D. M., et al., 2000. Robust tracking and regulation control for mobile robots. Int. J. Robust. Nonlin. 10(4), 199-216."
+                    },
+                    {
+                        "ref-fulltext": "Gou, X., Li, A., et al. Overload control of artificial gravity facility using spinning tether system for high eccentricity transfer orbits. Acta Astronaut. 147 (2018), 383\u2013392.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-0fda7194759ebb33f41dc7e9e5735862-6",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Overload control of artificial gravity facility using spinning tether system for high eccentricity transfer orbits"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0030",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85045012512",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "147"},
+                                "pagerange": {
+                                    "@first": "383",
+                                    "@last": "392"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "X.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Gou",
+                                        "ce:indexed-name": "Gou X."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "A.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Li",
+                                        "ce:indexed-name": "Li A."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Acta Astronaut."
+                        },
+                        "ce:source-text": "Gou, X., Li, A., et al., 2018. Overload control of artificial gravity facility using spinning tether system for high eccentricity transfer orbits. Acta Astronaut. 147, 383-392."
+                    },
+                    {
+                        "ref-fulltext": "Hong, A.T., Varatharajoo, R., Dynamics of a flexible tethered satellite system utilising various materials for coplanar and non-coplanar models. Adv. Space Res. 56:4 (2015), 648\u2013663.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-e665512c704ce1e60bc677af39c80192-7",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Dynamics of a flexible tethered satellite system utilising various materials for coplanar and non-coplanar models"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0035",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84946486758",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "648",
+                                    "@last": "663"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hong",
+                                    "ce:indexed-name": "Hong A.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Varatharajoo",
+                                    "ce:indexed-name": "Varatharajoo R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Adv. Space Res."
+                        },
+                        "ce:source-text": "Hong, A. T., Varatharajoo, R., 2015. Dynamics of a flexible tethered satellite system utilising various materials for coplanar and non-coplanar models. Adv. Space Res. 56(4), 648-663."
+                    },
+                    {
+                        "ref-fulltext": "Hong, A.T., Varatharajoo, R., et al. Analytic solutions for Tethered Satellite System (TSS) subject to internal and external torques undergoing a spin-up and spin-down maneuvers. Aircr. Eng. Aerosp. Tec. 87:6 (2015), 514\u2013520.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-52bbc8ba74a77883a7be295ba2546f2d-8",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Analytic solutions for Tethered Satellite System (TSS) subject to internal and external torques undergoing a spin-up and spin-down maneuvers"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0040",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "84941276484",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "87",
+                                    "@issue": "6"
+                                },
+                                "pagerange": {
+                                    "@first": "514",
+                                    "@last": "520"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "A.T.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Hong",
+                                        "ce:indexed-name": "Hong A.T."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "R.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Varatharajoo",
+                                        "ce:indexed-name": "Varatharajoo R."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Aircr. Eng. Aerosp. Tec."
+                        },
+                        "ce:source-text": "Hong, A. T., Varatharajoo, R., et al., 2015. Analytic solutions for Tethered Satellite System (TSS) subject to internal and external torques undergoing a spin-up and spin-down maneuvers. Aircr. Eng. Aerosp. Tec. 87(6), 514-520."
+                    },
+                    {
+                        "ref-fulltext": "Huang, B., Zhou, B., et al. Adaptive prescribed performance tracking control for underactuated autonomous underwater vehicles with input quantization. Ocean Eng. 221 (2021), 1\u201314.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-9e0c5d0e343ee34bd445b7fbb87db09a-9",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Adaptive prescribed performance tracking control for underactuated autonomous underwater vehicles with input quantization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0045",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85099851915",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "221"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "14"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Huang",
+                                        "ce:indexed-name": "Huang B."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "B.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Zhou",
+                                        "ce:indexed-name": "Zhou B."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Ocean Eng."
+                        },
+                        "ce:source-text": "Huang, B., Zhou, B., et al., 2021. Adaptive prescribed performance tracking control for underactuated autonomous underwater vehicles with input quantization. Ocean Eng. 221, 1-14."
+                    },
+                    {
+                        "ref-fulltext": "Kang, J., Zhu, Z.H., A unified energy-based control framework for tethered spacecraft deployment. Nonlinear dyn. 95:2 (2019), 1117\u20131131.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-a1a9efa505590e23c3656f5a3d30ccc6-10",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A unified energy-based control framework for tethered spacecraft deployment"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0050",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85055979458",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "95",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1117",
+                                    "@last": "1131"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nonlinear dyn."
+                        },
+                        "ce:source-text": "Kang, J., and Zhu, Z. H., 2019. A unified energy-based control framework for tethered spacecraft deployment. Nonlinear dyn. 95(2), 1117-1131."
+                    },
+                    {
+                        "ref-fulltext": "Kang, J., Zhu, Z.H., Santaguida, L.F., Analytical and Experimental Investigation of Stabilizing Rotating Uncooperative Target by Tethered Space Tug. IEEE Trans. Aerosp. Electron. Syst. 57:4 (2021), 2426\u20132437.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-75d517df944b8359775b907113d5fada-11",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "ref-title": {"ref-titletext": "Analytical and Experimental Investigation of Stabilizing Rotating Uncooperative Target by Tethered Space Tug"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0055",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85101847704",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "57",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "2426",
+                                    "@last": "2437"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kang",
+                                    "ce:indexed-name": "Kang J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z.H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "L.F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Santaguida",
+                                    "ce:indexed-name": "Santaguida L.F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Trans. Aerosp. Electron. Syst."
+                        },
+                        "ce:source-text": "Kang, J., Zhu, Z. H., and Santaguida, L. F., 2021. Analytical and Experimental Investigation of Stabilizing Rotating Uncooperative Target by Tethered Space Tug. IEEE Trans. Aerosp. Electron. Syst. 57(4), 2426-2437."
+                    },
+                    {
+                        "ref-fulltext": "Li, A., Tian, H., Wang, C., Fixed-time terminal sliding mode control of spinning tether system for artificial gravity environment in high eccentricity orbit. Acta Astronaut. 177 (2020), 834\u2013841.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-5f63f905627ee114e3116a4a302fd2ec-12",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Fixed-time terminal sliding mode control of spinning tether system for artificial gravity environment in high eccentricity orbit"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0060",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85082185092",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "177"},
+                                "pagerange": {
+                                    "@first": "834",
+                                    "@last": "841"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tian",
+                                    "ce:indexed-name": "Tian H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronaut."
+                        },
+                        "ce:source-text": "Li, A., Tian, H., and Wang, C., 2020. Fixed-time terminal sliding mode control of spinning tether system for artificial gravity environment in high eccentricity orbit. Acta Astronaut. 177, 834-841."
+                    },
+                    {
+                        "ref-fulltext": "Liu, P., Yu, H., Cang, S., Adaptive neural network tracking control for underactuated systems with matched and mismatched disturbances. Nonlinear dyn. 98:2 (2019), 1447\u20131464.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-900c24241559e72a60a9fbe132eef5a1-13",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Adaptive neural network tracking control for underactuated systems with matched and mismatched disturbances"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0065",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85073686857",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "98",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "1447",
+                                    "@last": "1464"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Liu",
+                                    "ce:indexed-name": "Liu P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yu",
+                                    "ce:indexed-name": "Yu H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cang",
+                                    "ce:indexed-name": "Cang S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nonlinear dyn."
+                        },
+                        "ce:source-text": "Liu, P., Yu, H., and Cang, S., 2019. Adaptive neural network tracking control for underactuated systems with matched and mismatched disturbances. Nonlinear dyn. 98(2), 1447-1464."
+                    },
+                    {
+                        "ref-fulltext": "Luo, C., Wen, H., Jin, D., Deployment of flexible space tether system with satellite attitude stabilization. Acta Astronaut. 160 (2019), 240\u2013250.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-48281755bee222b68d534069fb00c90b-14",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Deployment of flexible space tether system with satellite attitude stabilization"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0070",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85064930564",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "160"},
+                                "pagerange": {
+                                    "@first": "240",
+                                    "@last": "250"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Luo",
+                                    "ce:indexed-name": "Luo C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wen",
+                                    "ce:indexed-name": "Wen H."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jin",
+                                    "ce:indexed-name": "Jin D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronaut."
+                        },
+                        "ce:source-text": "Luo, C., Wen, H., and Jin, D., 2019. Deployment of flexible space tether system with satellite attitude stabilization. Acta Astronaut. 160, 240-250."
+                    },
+                    {
+                        "ref-fulltext": "Ma, Z., Sun, G., et al. Pure-tension non-linear sliding mode control for deployment of tethered satellite system. P. I. Mech. Eng. G-J. Aer. 232:13 (2018), 2541\u20132551.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-af6e74945b1debd36852e508dcdc011f-15",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Pure-tension non-linear sliding mode control for deployment of tethered satellite system"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0075",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85054147554",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "232",
+                                    "@issue": "13"
+                                },
+                                "pagerange": {
+                                    "@first": "2541",
+                                    "@last": "2551"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "Z.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Ma",
+                                        "ce:indexed-name": "Ma Z."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sun",
+                                        "ce:indexed-name": "Sun G."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "P. I. Mech. Eng. G-J. Aer."
+                        },
+                        "ce:source-text": "Ma, Z., Sun, G., et al., 2018. Pure-tension non-linear sliding mode control for deployment of tethered satellite system. P. I. Mech. Eng. G-J. Aer. 232(13), 2541-2551."
+                    },
+                    {
+                        "ref-fulltext": "Mohsenipour, R., Robust Performance Control of Space Tether Deployment Using Fractional Order Tension Law. J. Guid. Control Dyn. 43:2 (2020), 347\u2013353.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-1aa5bc02782123fde75c428b00507864-16",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Robust Performance Control of Space Tether Deployment Using Fractional Order Tension Law"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0080",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85078166578",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "347",
+                                    "@last": "353"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Mohsenipour",
+                                "ce:indexed-name": "Mohsenipour R."
+                            }]},
+                            "ref-sourcetitle": "J. Guid. Control Dyn."
+                        },
+                        "ce:source-text": "Mohsenipour, R., 2020. Robust Performance Control of Space Tether Deployment Using Fractional Order Tension Law. J. Guid. Control Dyn. 43(2), 347-353."
+                    },
+                    {
+                        "ref-fulltext": "Obeid, H., Fridman, L.M., et al. Barrier function-based adaptive sliding mode control. Automatica. 93 (2018), 540\u2013544.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-edbb59aa1f91dd705cddaa2ba3d8b5b2-17",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Barrier function-based adaptive sliding mode control"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0085",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85044569391",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "93"},
+                                "pagerange": {
+                                    "@first": "540",
+                                    "@last": "544"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "H.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Obeid",
+                                        "ce:indexed-name": "Obeid H."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "L.M.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Fridman",
+                                        "ce:indexed-name": "Fridman L.M."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "Automatica."
+                        },
+                        "ce:source-text": "Obeid, H., Fridman, L. M., et al., 2018. Barrier function-based adaptive sliding mode control. Automatica. 93, 540-544."
+                    },
+                    {
+                        "ref-fulltext": "Olfati-Saber, R., Normal forms for underactuated mechanical systems with symmetry. IEEE Trans. Automat. Contr. 47:2 (2002), 305\u2013308.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-2e4db63bcaeabd925ad29fff4ccfade9-18",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Normal forms for underactuated mechanical systems with symmetry"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0090",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "0036475087",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "47",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "305",
+                                    "@last": "308"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "R.",
+                                "@_fa": "true",
+                                "ce:surname": "Olfati-Saber",
+                                "ce:indexed-name": "Olfati-Saber R."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Automat. Contr."
+                        },
+                        "ce:source-text": "Olfati-Saber, R., 2002. Normal forms for underactuated mechanical systems with symmetry. IEEE Trans. Automat. Contr. 47(2), 305-308."
+                    },
+                    {
+                        "ref-fulltext": "Pastor-Rodríguez, A., Sanchez-Arriaga, G., Sanjurjo-Rivo, M., Modeling and stability analysis of tethered kites at high altitudes. J. Guid. Control Dyn. 40:8 (2017), 1892\u20131901.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-376aad81eeaf24fd7566934b889b5a5b-19",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Modeling and stability analysis of tethered kites at high altitudes"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0095",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85024504900",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "40",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1892",
+                                    "@last": "1901"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pastor-Rodríguez",
+                                    "ce:indexed-name": "Pastor-Rodriguez A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanchez-Arriaga",
+                                    "ce:indexed-name": "Sanchez-Arriaga G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sanjurjo-Rivo",
+                                    "ce:indexed-name": "Sanjurjo-Rivo M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Guid. Control Dyn."
+                        },
+                        "ce:source-text": "Pastor-Rodríguez, A., Sanchez-Arriaga G., and Sanjurjo-Rivo, M., 2017. Modeling and stability analysis of tethered kites at high altitudes. J. Guid. Control Dyn. 40(8), 1892-1901."
+                    },
+                    {
+                        "ref-fulltext": "Qian, C., Fang, Y., Li, Y., Quaternion-Based Hybrid Attitude Control for an Under-Actuated Flapping Wing Aerial Vehicle. IEEE/ASME Trans. Mech. 24:5 (2019), 2341\u20132352.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-23797f7db511e6098548a6f18543c874-20",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Quaternion-Based Hybrid Attitude Control for an Under-Actuated Flapping Wing Aerial Vehicle"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0100",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85074274573",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "2341",
+                                    "@last": "2352"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Qian",
+                                    "ce:indexed-name": "Qian C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fang",
+                                    "ce:indexed-name": "Fang Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/ASME Trans. Mech."
+                        },
+                        "ce:source-text": "Qian, C., Fang Y., and Li, Y., 2019. Quaternion-Based Hybrid Attitude Control for an Under-Actuated Flapping Wing Aerial Vehicle. IEEE/ASME Trans. Mech. 24(5), 2341-2352."
+                    },
+                    {
+                        "ref-fulltext": "Reyhanoglu, M., vander Schaft, A., et al., 1999. Dynamics and control of a class of underactuated mechanical systems. IEEE Trans. Automat. Contr. 44(9), 1663-1671.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-028cca1c656dee9e4827644d01ab16a9-21",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0105",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85153690244",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1663",
+                                "@last": "1671"
+                            }},
+                            "ref-text": "vander Schaft, A., Dynamics and control of a class of underactuated mechanical systems. IEEE Trans. Automat. Contr. 44(9)",
+                            "ref-authors": {
+                                "author": [{
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Reyhanoglu",
+                                    "ce:indexed-name": "Reyhanoglu M."
+                                }],
+                                "et-al": null
+                            }
+                        },
+                        "ce:source-text": "Reyhanoglu, M., vander Schaft, A., et al., 1999. Dynamics and control of a class of underactuated mechanical systems. IEEE Trans. Automat. Contr. 44(9), 1663-1671."
+                    },
+                    {
+                        "ref-fulltext": "Roy, S., Baldi S., and Ioannou, P. A., 2021. An Adaptive Control Framework for Underactuated Switched Euler-Lagrange Systems. IEEE Trans. Automat. Contr.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-c08af77d41b800b8d017b94a2ea99d47-22",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2021"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0110",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85153694247",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "An Adaptive Control Framework for Underactuated Switched Euler-Lagrange Systems. IEEE Trans. Automat. Contr.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Roy",
+                                    "ce:indexed-name": "Roy S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Baldi",
+                                    "ce:indexed-name": "Baldi S."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ioannou",
+                                    "ce:indexed-name": "Ioannou P.A."
+                                }
+                            ]}
+                        },
+                        "ce:source-text": "Roy, S., Baldi S., and Ioannou, P. A., 2021. An Adaptive Control Framework for Underactuated Switched Euler-Lagrange Systems. IEEE Trans. Automat. Contr."
+                    },
+                    {
+                        "ref-fulltext": "Shi, G., Zhu, Z., Zhu, Z.H., Parallel optimization of trajectory planning and tracking for three-body tethered space system. IEEE/ASME Trans. Mech. 24:1 (2019), 240\u2013247.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-649618c5a79d94123fe4e0cb2db0aa07-23",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Parallel optimization of trajectory planning and tracking for three-body tethered space system"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0115",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85061635391",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "240",
+                                    "@last": "247"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Shi",
+                                    "ce:indexed-name": "Shi G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/ASME Trans. Mech."
+                        },
+                        "ce:source-text": "Shi, G., Zhu, Z., and Zhu, Z. H., 2019. Parallel optimization of trajectory planning and tracking for three-body tethered space system. IEEE/ASME Trans. Mech. 24(1), 240-247."
+                    },
+                    {
+                        "ref-fulltext": "Trushlyakov, V.I., Yudintsev, V.V., Rotary space tether system for active debris removal. J. Guid. Control Dyn. 43:2 (2020), 354\u2013364.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-fb7ea356f83610e5df90075809264ee2-24",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Rotary space tether system for active debris removal"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0120",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85078106488",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "43",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "354",
+                                    "@last": "364"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "V.I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Trushlyakov",
+                                    "ce:indexed-name": "Trushlyakov V.I."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yudintsev",
+                                    "ce:indexed-name": "Yudintsev V.V."
+                                }
+                            ]},
+                            "ref-sourcetitle": "J. Guid. Control Dyn."
+                        },
+                        "ce:source-text": "Trushlyakov, V. I., and Yudintsev, V. V., 2020. Rotary space tether system for active debris removal. J. Guid. Control Dyn. 43(2), 354-364"
+                    },
+                    {
+                        "ref-fulltext": "Vafamand, N., Adaptive robust Neural-Network-Based backstepping control of tethered satellites with additive stochastic noise. IEEE Trans. Aerosp. Electron. Syst. 56:5 (2020), 3922\u20133930.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-7f995cc969512b8fc5e3df46af862d6f-25",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2020"},
+                            "ref-title": {"ref-titletext": "Adaptive robust Neural-Network-Based backstepping control of tethered satellites with additive stochastic noise"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0125",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85086988009",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "56",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "3922",
+                                    "@last": "3930"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "N.",
+                                "@_fa": "true",
+                                "ce:surname": "Vafamand",
+                                "ce:indexed-name": "Vafamand N."
+                            }]},
+                            "ref-sourcetitle": "IEEE Trans. Aerosp. Electron. Syst."
+                        },
+                        "ce:source-text": "Vafamand, N., 2020. Adaptive robust Neural-Network-Based backstepping control of tethered satellites with additive stochastic noise. IEEE Trans. Aerosp. Electron. Syst. 56(5), 3922-3930"
+                    },
+                    {
+                        "ref-fulltext": "Wang, C., Zhang, F., Finite-time stability of an underactuated tethered satellite system. Acta Astronaut. 159 (2019), 199\u2013212.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-a9dd4c6ed255096c92efcd8ca999b5ff-26",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Finite-time stability of an underactuated tethered satellite system"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0130",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85063509033",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "159"},
+                                "pagerange": {
+                                    "@first": "199",
+                                    "@last": "212"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wang",
+                                    "ce:indexed-name": "Wang C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Acta Astronaut."
+                        },
+                        "ce:source-text": "Wang, C., and Zhang, F., 2019. Finite-time stability of an underactuated tethered satellite system. Acta Astronaut. 159, 199-212."
+                    },
+                    {
+                        "ref-fulltext": "Williams, P., Deployment/retrieval optimization for flexible tethered satellite systems. Nonlinear dyn. 52:1 (2008), 159\u2013179.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-aeafa8b6c67a5af484f44db314f96e41-27",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Deployment/retrieval optimization for flexible tethered satellite systems"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0135",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "39749165614",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "52",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "159",
+                                    "@last": "179"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "P.",
+                                "@_fa": "true",
+                                "ce:surname": "Williams",
+                                "ce:indexed-name": "Williams P."
+                            }]},
+                            "ref-sourcetitle": "Nonlinear dyn."
+                        },
+                        "ce:source-text": "Williams, P., 2008. Deployment/retrieval optimization for flexible tethered satellite systems. Nonlinear dyn. 52(1), 159-179."
+                    },
+                    {
+                        "ref-fulltext": "Xu, R., Özgüner, Ü., Sliding mode control of a class of underactuated systems. Automatica. 44:1 (2008), 233\u2013241.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-336725035018d657f07fe4d1891b8eef-28",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "ref-title": {"ref-titletext": "Sliding mode control of a class of underactuated systems"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0140",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "37549051702",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "44",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "233",
+                                    "@last": "241"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Xu",
+                                    "ce:indexed-name": "Xu R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Ü.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Özgüner",
+                                    "ce:indexed-name": "Ozguner U."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Automatica."
+                        },
+                        "ce:source-text": "Xu, R.,and Özgüner, Ü., 2008. Sliding mode control of a class of underactuated systems. Automatica. 44(1), 233-241."
+                    },
+                    {
+                        "ref-fulltext": "Xu, S., Sun, G., et al. Fractional-order fuzzy sliding mode control for the deployment of tethered satellite system under input saturation. IEEE Trans. Aerosp. Electron. Syst. 55:2 (2018), 747\u2013756.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-f5ad1d99910ad71bf087d11d4d74245a-29",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2018"},
+                            "ref-title": {"ref-titletext": "Fractional-order fuzzy sliding mode control for the deployment of tethered satellite system under input saturation"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0145",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85052557096",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "55",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "747",
+                                    "@last": "756"
+                                }
+                            },
+                            "ref-authors": {
+                                "author": [
+                                    {
+                                        "@seq": "1",
+                                        "ce:initials": "S.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Xu",
+                                        "ce:indexed-name": "Xu S."
+                                    },
+                                    {
+                                        "@seq": "2",
+                                        "ce:initials": "G.",
+                                        "@_fa": "true",
+                                        "ce:surname": "Sun",
+                                        "ce:indexed-name": "Sun G."
+                                    }
+                                ],
+                                "et-al": null
+                            },
+                            "ref-sourcetitle": "IEEE Trans. Aerosp. Electron. Syst."
+                        },
+                        "ce:source-text": "Xu, S., Sun, G., et al., 2018. Fractional-order fuzzy sliding mode control for the deployment of tethered satellite system under input saturation. IEEE Trans. Aerosp. Electron. Syst. 55(2), 747-756."
+                    },
+                    {
+                        "ref-fulltext": "Yousefian, P., Salarieh, H., Nonlinear control of sway in a tethered satellite system via attitude control of the main satellite. Aerosp. Sci. Technol. 63 (2017), 317\u2013327.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-f3f117d1dec359a7555ca6ab47647dd5-30",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Nonlinear control of sway in a tethered satellite system via attitude control of the main satellite"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0150",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85010053576",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "63"},
+                                "pagerange": {
+                                    "@first": "317",
+                                    "@last": "327"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Yousefian",
+                                    "ce:indexed-name": "Yousefian P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Salarieh",
+                                    "ce:indexed-name": "Salarieh H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aerosp. Sci. Technol."
+                        },
+                        "ce:source-text": "Yousefian, P., Salarieh, H., 2017. Nonlinear control of sway in a tethered satellite system via attitude control of the main satellite. Aerosp. Sci. Technol. 63, 317-327."
+                    },
+                    {
+                        "ref-fulltext": "Zhang, F., Huang, P., A novel underactuated control scheme for deployment/retrieval of space tethered system. Nonlinear dyn. 95:4 (2019), 3465\u20133476.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-0ffa12e5db6a8ffa5da99b3fc5036086-31",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A novel underactuated control scheme for deployment/retrieval of space tethered system"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0155",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85061064807",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "95",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "3465",
+                                    "@last": "3476"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhang",
+                                    "ce:indexed-name": "Zhang F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nonlinear dyn."
+                        },
+                        "ce:source-text": "Zhang, F., and Huang, P., 2019. A novel underactuated control scheme for deployment/retrieval of space tethered system. Nonlinear dyn. 95(4), 3465-3476."
+                    },
+                    {
+                        "ref-fulltext": "Zhong, R., Zhu, Z.H., Attitude stabilization of tug\u2013towed space target by thrust regulation in orbital transfer. IEEE/ASME Trans. Mech. 24:1 (2019), 373\u2013383.",
+                        "@reference-instance-id": "OB2BibRecID-946843078-faed5c28534002db4e7e05d3f5a5d4c4-32",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Attitude stabilization of tug\u2013towed space target by thrust regulation in orbital transfer"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "b0160",
+                                    "@idtype": "FRAGMENTID"
+                                },
+                                {
+                                    "$": "85061669450",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "373",
+                                    "@last": "383"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhong",
+                                    "ce:indexed-name": "Zhong R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Z.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Zhu",
+                                    "ce:indexed-name": "Zhu Z.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE/ASME Trans. Mech."
+                        },
+                        "ce:source-text": "Zhong, R., and Zhu, Z. H., 2019. Attitude stabilization of tug\u2013towed space target by thrust regulation in orbital transfer. IEEE/ASME Trans. Mech. 24(1), 373-383."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Xi'an",
+        "@id": "60003977",
+        "affilname": "Northwestern Polytechnical University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977",
+        "affiliation-country": "China"
+    },
+    "coredata": {
+        "srctype": "j",
+        "eid": "2-s2.0-85150388552",
+        "dc:description": "This paper investigates the underactuated attitude tracking control problem of tethered spacecraft during tether deploying and spinning. The attitudes are controlled by the torque inputs along two body axes and perturbed by the tether tension torque. The coupling effect between spacecraft attitudes and flexible tethers can be alleviated by simplifying control inputs. The main contribution is the development of an underactuated tracking controller with an adaptive barrier function that inhibits unknown disturbance. To avoid singularity problems with tether and spacecraft during simulation, the dynamic model of a tethered system is derived using quaternion transformations. The underactuated attitude control strategy is designed by kinematic state coupling relations and dynamic backstepping technique, which is given extensive stability demonstration using Lyapunov's theory. An adaptive controller gain with barrier function is employed to inhibit the bounded unknown disturbance with no need for the online estimation signal. Finally, numerical simulations demonstrate the effectiveness and robustness of the proposed underactuated strategy in the case of tether deployment and spin-up, respectively.",
+        "prism:coverDate": "2023-06-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85150388552",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Haochang",
+            "preferred-name": {
+                "ce:given-name": "Haochang",
+                "ce:initials": "H.",
+                "ce:surname": "Tian",
+                "ce:indexed-name": "Tian H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Tian",
+            "@auid": "57201469385",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201469385",
+            "ce:indexed-name": "Tian H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85150388552"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85150388552&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85150388552&origin=inward"
+            }
+        ],
+        "source-id": "12375",
+        "pii": "S0273117723000923",
+        "citedby-count": "0",
+        "prism:volume": "71",
+        "subtype": "ar",
+        "dc:title": "Underactuated attitude tracking control of tethered spacecraft for deployment and spin-up",
+        "openaccess": "0",
+        "prism:issn": "18791948 02731177",
+        "publishercopyright": "© 2023 COSPAR",
+        "prism:issueIdentifier": "11",
+        "subtypeDescription": "Article",
+        "prism:publicationName": "Advances in Space Research",
+        "prism:pageRange": "4829-4842",
+        "prism:endingPage": "4842",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1016/j.asr.2023.01.052",
+        "prism:startingPage": "4829",
+        "dc:identifier": "SCOPUS_ID:85150388552",
+        "dc:publisher": "Elsevier Ltd"
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attitude tracking control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Backstepping control",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Barriers functions",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spacecraft system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Spin-up",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tether deployment and spin-up",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tethered spacecraft system",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Tracking control problem",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Underactuated",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Underactuated attitude control",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "Backstepping control"
+        },
+        {
+            "@_fa": "true",
+            "$": "Barrier function"
+        },
+        {
+            "@_fa": "true",
+            "$": "Tether deployment and spin-up"
+        },
+        {
+            "@_fa": "true",
+            "$": "Tethered spacecraft system"
+        },
+        {
+            "@_fa": "true",
+            "$": "Underactuated attitude control"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Aerospace Engineering",
+            "@code": "2202",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Astronomy and Astrophysics",
+            "@code": "3103",
+            "@abbrev": "PHYS"
+        },
+        {
+            "@_fa": "true",
+            "$": "Geophysics",
+            "@code": "1908",
+            "@abbrev": "EART"
+        },
+        {
+            "@_fa": "true",
+            "$": "Atmospheric Science",
+            "@code": "1902",
+            "@abbrev": "EART"
+        },
+        {
+            "@_fa": "true",
+            "$": "Space and Planetary Science",
+            "@code": "1912",
+            "@abbrev": "EART"
+        },
+        {
+            "@_fa": "true",
+            "$": "Earth and Planetary Sciences (all)",
+            "@code": "1900",
+            "@abbrev": "EART"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Haochang",
+            "preferred-name": {
+                "ce:given-name": "Haochang",
+                "ce:initials": "H.",
+                "ce:surname": "Tian",
+                "ce:indexed-name": "Tian H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Tian",
+            "@auid": "57201469385",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57201469385",
+            "ce:indexed-name": "Tian H."
+        },
+        {
+            "ce:given-name": "Aijun",
+            "preferred-name": {
+                "ce:given-name": "Aijun",
+                "ce:initials": "A.",
+                "ce:surname": "Li",
+                "ce:indexed-name": "Li A."
+            },
+            "@seq": "2",
+            "ce:initials": "A.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Li",
+            "@auid": "55751458600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55751458600",
+            "ce:indexed-name": "Li A."
+        },
+        {
+            "ce:given-name": "Yu",
+            "preferred-name": {
+                "ce:given-name": "Yu",
+                "ce:initials": "Y.",
+                "ce:surname": "Wang",
+                "ce:indexed-name": "Wang Y."
+            },
+            "@seq": "3",
+            "ce:initials": "Y.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Wang",
+            "@auid": "56362845800",
+            "author-url": "https://api.elsevier.com/content/author/author_id/56362845800",
+            "ce:indexed-name": "Wang Y."
+        },
+        {
+            "ce:given-name": "Changqing",
+            "preferred-name": {
+                "ce:given-name": "Changqing",
+                "ce:initials": "C.",
+                "ce:surname": "Wang",
+                "ce:indexed-name": "Wang C."
+            },
+            "@seq": "4",
+            "ce:initials": "C.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60003977",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60003977"
+            },
+            "ce:surname": "Wang",
+            "@auid": "55684012600",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55684012600",
+            "ce:indexed-name": "Wang C."
+        }
+    ]}
+}}

@@ -1,0 +1,1690 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "28",
+                "@year": "2020",
+                "@timestamp": "2020-12-28T03:43:49.000049-05:00",
+                "@month": "12"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2020",
+                "@month": "08"
+            }
+        },
+        "xocs:meta": {"xocs:funding-list": {
+            "@pui-match": "primary",
+            "@has-funding-info": "1",
+            "xocs:funding": {
+                "xocs:funding-agency-matched-string": "Office of Naval Research",
+                "xocs:funding-agency-acronym": "ONR",
+                "xocs:funding-agency": "Office of Naval Research",
+                "xocs:funding-id": "N00014-18-1-2672",
+                "xocs:funding-agency-id": "http://data.elsevier.com/vocabulary/SciValFunders/100000006",
+                "xocs:funding-agency-country": "http://sws.geonames.org/6252001/"
+            },
+            "xocs:funding-addon-generated-timestamp": "2021-05-13T16:14:09.143645Z",
+            "xocs:funding-text": "The authors are with the Control/Robotics Research Laboratory (CRRL), Dept. of ECE, NYU Tandon School of Engg. (Polytechnic Institute), Brooklyn, NY 11201, USA. Emails: {hf881, pk929, khorrami}@nyu.edu. This work was supported in part by the Office of Naval Research under Grant N00014-18-1-2672.",
+            "xocs:funding-addon-type": "http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined"
+        }},
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "country": "United States",
+                        "postal-code": "11201",
+                        "@afid": "60108318",
+                        "@country": "usa",
+                        "city": "Brooklyn",
+                        "organization": [
+                            {"$": "Control/Robotics Research Laboratory (CRRL)"},
+                            {"$": "NYU Tandon School of Engg. (Polytechnic Institute)"},
+                            {"$": "Dept. of ECE"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60108318",
+                            "@dptid": "118233488"
+                        },
+                        "state": "NY",
+                        "ce:source-text": "Control/Robotics Research Laboratory (CRRL), NYU Tandon School of Engg. (Polytechnic Institute), Dept. of ECE, Brooklyn, NY, USA, 11201",
+                        "@dptid": "118233488"
+                    },
+                    "author": [
+                        {
+                            "ce:given-name": "Hao",
+                            "preferred-name": {
+                                "ce:given-name": "Hao",
+                                "ce:initials": "H.",
+                                "ce:surname": "Fu",
+                                "ce:indexed-name": "Fu H."
+                            },
+                            "@seq": "1",
+                            "ce:initials": "H.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Fu",
+                            "@auid": "57220990686",
+                            "ce:indexed-name": "Fu H."
+                        },
+                        {
+                            "ce:given-name": "Prashanth",
+                            "preferred-name": {
+                                "ce:given-name": "Prashanth",
+                                "ce:initials": "P.",
+                                "ce:surname": "Krishnamurthy",
+                                "ce:indexed-name": "Krishnamurthy P."
+                            },
+                            "@seq": "2",
+                            "ce:initials": "P.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Krishnamurthy",
+                            "@auid": "7006328196",
+                            "ce:indexed-name": "Krishnamurthy P."
+                        },
+                        {
+                            "ce:given-name": "Farshad",
+                            "preferred-name": {
+                                "ce:given-name": "Farshad",
+                                "ce:initials": "F.",
+                                "ce:surname": "Khorrami",
+                                "ce:indexed-name": "Khorrami F."
+                            },
+                            "@seq": "3",
+                            "ce:initials": "F.",
+                            "@_fa": "true",
+                            "@type": "auth",
+                            "ce:surname": "Khorrami",
+                            "@auid": "55663722200",
+                            "ce:indexed-name": "Khorrami F."
+                        }
+                    ]
+                },
+                "citation-title": "Functional replicas of proprietary three-axis attitude sensors via LSTM neural networks",
+                "abstracts": "© 2020 IEEE.In this paper, machine-learning-based tools are utilized to learn a model of the functionality of a commercial chip with built-in signal processing and sensor fusion algorithms. Specifically, a fully integrated 9-axis Inertial Measurement Unit (IMU) with embedded algorithms providing the three-axis attitude and corresponding quaternion by fusing all the sensors is considered. Traditionally, extended Kalman filters are used for fusing IMU sensors; however, subtle algorithmic fixes (e.g., magnetic and angular alignment calibration for all sensors, Kalman filter tuning, temperature drift compensation, dynamic magnetic effects) need to be deployed to attain precise attitude (especially heading). A recurrent neural network (RNN) was trained using the chip to substitute for the built-in algorithms of the IMU Chip to output the approximate attitude given the 9-axis sensor data. We show the efficacy of our approach by mounting two IMUs on a board and utilize one IMU, which has its own internal algorithms, to train a machine learning system to fuse the raw data from the sensors on the second IMU to generate comparable accuracy (and in some cases, even outperform the original IMU).",
+                "citation-info": {
+                    "citation-type": {"@code": "cp"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "website": {"ce:e-address": {
+                        "$": "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9200884",
+                        "@type": "email"
+                    }},
+                    "translated-sourcetitle": {
+                        "$": "CCTA 2020 - 4th IEEE Conference on Control Technology and Applications",
+                        "@xml:lang": "eng"
+                    },
+                    "volisspag": {"pagerange": {
+                        "@first": "70",
+                        "@last": "75"
+                    }},
+                    "@type": "p",
+                    "isbn": {
+                        "@level": "volume",
+                        "$": "9781728171401",
+                        "@type": "electronic",
+                        "@length": "13"
+                    },
+                    "additional-srcinfo": {"conferenceinfo": {
+                        "confpublication": {"procpartno": "1 of 1"},
+                        "confevent": {
+                            "confname": "4th IEEE Conference on Control Technology and Applications, CCTA 2020",
+                            "confsponsors": {
+                                "confsponsor": [
+                                    {"$": "IEEE Control Systems Society (CSS)"},
+                                    {"$": "Spiri Robotics, Inc."}
+                                ],
+                                "@complete": "n"
+                            },
+                            "confnumber": "4",
+                            "confcatnumber": "CFP20CCV-ART",
+                            "confseriestitle": "IEEE Conference on Control Technology and Applications",
+                            "conflocation": {
+                                "@country": "can",
+                                "city": "Virtual, Montreal",
+                                "state": "QC"
+                            },
+                            "confcode": "163560",
+                            "confdate": {
+                                "enddate": {
+                                    "@day": "26",
+                                    "@year": "2020",
+                                    "@month": "08"
+                                },
+                                "startdate": {
+                                    "@day": "24",
+                                    "@year": "2020",
+                                    "@month": "08"
+                                }
+                            }
+                        }
+                    }},
+                    "sourcetitle": "CCTA 2020 - 4th IEEE Conference on Control Technology and Applications",
+                    "publicationdate": {
+                        "month": "08",
+                        "year": "2020",
+                        "date-text": "August 2020",
+                        "day": "01"
+                    },
+                    "sourcetitle-abbrev": "CCTA - IEEE Conf. Control Technol. Appl.",
+                    "@country": "usa",
+                    "issuetitle": "CCTA 2020 - 4th IEEE Conference on Control Technology and Applications",
+                    "publicationyear": {"@first": "2020"},
+                    "publisher": {"publishername": "Institute of Electrical and Electronics Engineers Inc."},
+                    "article-number": "9206312",
+                    "@srcid": "21101023804"
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1706"},
+                            {"$": "2606"},
+                            {"$": "3105"}
+                        ]
+                    },
+                    {
+                        "@type": "CPXCLASS",
+                        "classification": {
+                            "classification-code": "721.1",
+                            "classification-description": "Computer Theory (Includes Formal Logic, Automata Theory, Switching Theory and Programming Theory)"
+                        }
+                    },
+                    {
+                        "@type": "FLXCLASS",
+                        "classification": {
+                            "classification-code": "902",
+                            "classification-description": "FLUIDEX; Related Topics"
+                        }
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "MATH"},
+                            {"$": "PHYS"}
+                        ]
+                    }
+                ]}},
+                "grantlist": {
+                    "@complete": "y",
+                    "grant-text": {
+                        "$": "This work was supported in part by the Office of Naval Research under Grant N00014-18-1-2672.",
+                        "@xml:lang": "eng"
+                    },
+                    "grant": {
+                        "grant-agency": {
+                            "@iso-code": "usa",
+                            "$": "Office of Naval Research"
+                        },
+                        "grant-agency-id": "100000006"
+                    }
+                }
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2020 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "CPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "30",
+                    "@year": "2020",
+                    "@timestamp": "BST 07:03:24",
+                    "@month": "10"
+                }},
+                "itemidlist": {
+                    "itemid": [
+                        {
+                            "$": "633233505",
+                            "@idtype": "PUI"
+                        },
+                        {
+                            "$": "929246304",
+                            "@idtype": "CAR-ID"
+                        },
+                        {
+                            "$": "20204409421758",
+                            "@idtype": "CPX"
+                        },
+                        {
+                            "$": "20203811448",
+                            "@idtype": "SCOPUS"
+                        },
+                        {
+                            "$": "85094134472",
+                            "@idtype": "SCP"
+                        },
+                        {
+                            "$": "85094134472",
+                            "@idtype": "SGR"
+                        }
+                    ],
+                    "ce:doi": "10.1109/CCTA41146.2020.9206312"
+                }
+            },
+            "tail": {"bibliography": {
+                "@refcount": "32",
+                "reference": [
+                    {
+                        "ref-fulltext": "W. Jiang, Y. Li, and C. Rizos, \"On-the-fly locata/inertial navigation system integration for precise maritime application, \" Measurement Science and Technology, vol. 24, no. 10, pp. 105 104: 1-12, Sep. 2013.",
+                        "@id": "1",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "On-the-fly locata/inertial navigation system integration for precise maritime application"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84884767958",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "24",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "104",
+                                    "@last": "105"
+                                }
+                            },
+                            "ref-text": "Sep.: 1-12",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang W."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Li",
+                                    "ce:indexed-name": "Li Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rizos",
+                                    "ce:indexed-name": "Rizos C."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Measurement Science and Technology"
+                        },
+                        "ce:source-text": "W. Jiang, Y. Li, and C. Rizos, \"On-the-fly locata/inertial navigation system integration for precise maritime application, \" Measurement Science and Technology, vol. 24, no. 10, pp. 105 104: 1-12, Sep. 2013."
+                    },
+                    {
+                        "ref-fulltext": "M. Koifman and I. Bar-Itzhack, \"Inertial navigation system aided by aircraft dynamics, \" IEEE Transactions on Control Systems Technology, vol. 7, no. 4, pp. 487-493, July 1999.",
+                        "@id": "2",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1999"},
+                            "ref-title": {"ref-titletext": "Inertial navigation system aided by aircraft dynamics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0033165136",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "487",
+                                    "@last": "493"
+                                }
+                            },
+                            "ref-text": "July",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Koifman",
+                                    "ce:indexed-name": "Koifman M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bar-Itzhack",
+                                    "ce:indexed-name": "Bar-Itzhack I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Control Systems Technology"
+                        },
+                        "ce:source-text": "M. Koifman and I. Bar-Itzhack, \"Inertial navigation system aided by aircraft dynamics, \" IEEE Transactions on Control Systems Technology, vol. 7, no. 4, pp. 487-493, July 1999."
+                    },
+                    {
+                        "ref-fulltext": "D.-R. Taur, \"Nonlinear guidance and navigation of a tactical missile with high heading error, \" in Proceedings of the AIAA Guidance, Navigation, and Control Conference and Exhibit, Monterey, CA, Aug. 2002, pp. 4773: 1-19.",
+                        "@id": "3",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2002"},
+                            "ref-title": {"ref-titletext": "Nonlinear guidance and navigation of a tactical missile with high heading error"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85088758774",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "4773"},
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "19"
+                                }
+                            },
+                            "ref-text": "Monterey, CA, Aug.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.-R.",
+                                "@_fa": "true",
+                                "ce:surname": "Taur",
+                                "ce:indexed-name": "Taur D.-R."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the AIAA Guidance, Navigation, and Control Conference and Exhibit"
+                        },
+                        "ce:source-text": "D.-R. Taur, \"Nonlinear guidance and navigation of a tactical missile with high heading error, \" in Proceedings of the AIAA Guidance, Navigation, and Control Conference and Exhibit, Monterey, CA, Aug. 2002, pp. 4773: 1-19."
+                    },
+                    {
+                        "ref-fulltext": "H. U. Unlu, N. Patel, P. Krishnamurthy, and F. Khorrami, \"Slidingwindow temporal attention based deep learning system for robust sensor modality fusion for UGV navigation, \" IEEE Robotics and Automation Letters, vol. 4, no. 4, pp. 4216-4223, Oct. 2019.",
+                        "@id": "4",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Slidingwindow temporal attention based deep learning system for robust sensor modality fusion for ugv navigation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85071443555",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "4216",
+                                    "@last": "4223"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.U.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Unlu",
+                                    "ce:indexed-name": "Unlu H.U."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patel",
+                                    "ce:indexed-name": "Patel N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Robotics and Automation Letters"
+                        },
+                        "ce:source-text": "H. U. Unlu, N. Patel, P. Krishnamurthy, and F. Khorrami, \"Slidingwindow temporal attention based deep learning system for robust sensor modality fusion for UGV navigation, \" IEEE Robotics and Automation Letters, vol. 4, no. 4, pp. 4216-4223, Oct. 2019."
+                    },
+                    {
+                        "ref-fulltext": "N. Patel, A. Choromanska, P. Krishnamurthy, and F. Khorrami, \"A deep learning gated architecture for UGV navigation robust to sensor failures, \" Robotics and Autonomous Systems, vol. 116, pp. 80-97, June 2019.",
+                        "@id": "5",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "A deep learning gated architecture for ugv navigation robust to sensor failures"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85063442642",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "116"},
+                                "pagerange": {
+                                    "@first": "80",
+                                    "@last": "97"
+                                }
+                            },
+                            "ref-text": "June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patel",
+                                    "ce:indexed-name": "Patel N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choromanska",
+                                    "ce:indexed-name": "Choromanska A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Robotics and Autonomous Systems"
+                        },
+                        "ce:source-text": "N. Patel, A. Choromanska, P. Krishnamurthy, and F. Khorrami, \"A deep learning gated architecture for UGV navigation robust to sensor failures, \" Robotics and Autonomous Systems, vol. 116, pp. 80-97, June 2019."
+                    },
+                    {
+                        "ref-fulltext": "N. Patel, F. Khorrami, P. Krishnamurthy, and A. Tzes, \"Tightly coupled semantic RGB-D inertial odometry for accurate long-term localization and mapping, \" in Proceedings of the 19th International Conference on Advanced Robotics (ICAR), Belo Horizonte, Brazil, Dec. 2019, pp. 523-528.",
+                        "@id": "6",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-title": {"ref-titletext": "Tightly coupled semantic rgb-d inertial odometry for accurate long-term localization and mapping"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85084281638",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "523",
+                                "@last": "528"
+                            }},
+                            "ref-text": "Belo Horizonte, Brazil, Dec.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patel",
+                                    "ce:indexed-name": "Patel N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Tzes",
+                                    "ce:indexed-name": "Tzes A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 19th International Conference on Advanced Robotics (ICAR)"
+                        },
+                        "ce:source-text": "N. Patel, F. Khorrami, P. Krishnamurthy, and A. Tzes, \"Tightly coupled semantic RGB-D inertial odometry for accurate long-term localization and mapping, \" in Proceedings of the 19th International Conference on Advanced Robotics (ICAR), Belo Horizonte, Brazil, Dec. 2019, pp. 523-528."
+                    },
+                    {
+                        "ref-fulltext": "N. Patel, A. Choromanska, P. Krishnamurthy, and F. Khorrami, \"Sensor modality fusion with cnns for UGV autonomous driving in indoor environments, \" in Proceedings of the 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, Canada, Sep. 2017, pp. 1531-1536.",
+                        "@id": "7",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2017"},
+                            "ref-title": {"ref-titletext": "Sensor modality fusion with cnns for ugv autonomous driving in indoor environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85041958768",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1531",
+                                "@last": "1536"
+                            }},
+                            "ref-text": "Vancouver, Canada, Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Patel",
+                                    "ce:indexed-name": "Patel N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Choromanska",
+                                    "ce:indexed-name": "Choromanska A."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+                        },
+                        "ce:source-text": "N. Patel, A. Choromanska, P. Krishnamurthy, and F. Khorrami, \"Sensor modality fusion with cnns for UGV autonomous driving in indoor environments, \" in Proceedings of the 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, Canada, Sep. 2017, pp. 1531-1536."
+                    },
+                    {
+                        "ref-fulltext": "P. Krishnamurthy, F. Khorrami, J. de Leeuw, M. E. Porter, K. Livingston, and J. H. Long, \"A multi-body approach for 6dof modeling of biomimetic autonomous underwater vehicles with simulation and experimental results, \" in Proceedings of the IEEE Control Applications & Intelligent Control, St. Petersburg, Russia, 2009, pp. 1282-1287.",
+                        "@id": "8",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "A multi-body approach for 6dof modeling of biomimetic autonomous underwater vehicles with simulation and experimental results"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "74049108596",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1282",
+                                "@last": "1287"
+                            }},
+                            "ref-text": "St. Petersburg, Russia",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "De Leeuw",
+                                    "ce:indexed-name": "De Leeuw J."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Porter",
+                                    "ce:indexed-name": "Porter M.E."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Livingston",
+                                    "ce:indexed-name": "Livingston K."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "J.H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Long",
+                                    "ce:indexed-name": "Long J.H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE Control Applications & Intelligent Control"
+                        },
+                        "ce:source-text": "P. Krishnamurthy, F. Khorrami, J. de Leeuw, M. E. Porter, K. Livingston, and J. H. Long, \"A multi-body approach for 6dof modeling of biomimetic autonomous underwater vehicles with simulation and experimental results, \" in Proceedings of the IEEE Control Applications & Intelligent Control, St. Petersburg, Russia, 2009, pp. 1282-1287."
+                    },
+                    {
+                        "ref-fulltext": "G. Brooks, P. Krishnamurthy, and F. Khorrami, \"Humanoid robot navigation and obstacle avoidance in unknown environments, \" in Proceedings of the Asian Control Conference, Istanbul, Turkey, June 2013, pp. 1-6.",
+                        "@id": "9",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "Humanoid robot navigation and obstacle avoidance in unknown environments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84886448953",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "Istanbul, Turkey, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Brooks",
+                                    "ce:indexed-name": "Brooks G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the Asian Control Conference"
+                        },
+                        "ce:source-text": "G. Brooks, P. Krishnamurthy, and F. Khorrami, \"Humanoid robot navigation and obstacle avoidance in unknown environments, \" in Proceedings of the Asian Control Conference, Istanbul, Turkey, June 2013, pp. 1-6."
+                    },
+                    {
+                        "ref-fulltext": "P. Krishnamurthy, F. Khorrami, and T. L. Ng, \"Control design for unmanned sea surface vehicles: hardware-in-the-loop simulator and experimental results, \" in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, San Diego, CA, Oct. 2007, pp. 3660-3665.",
+                        "@id": "10",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2007"},
+                            "ref-title": {"ref-titletext": "Control design for unmanned sea surface vehicles: Hardware-in-the-loop simulator and experimental results"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "51349160055",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3660",
+                                "@last": "3665"
+                            }},
+                            "ref-text": "San Diego, CA, Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ng",
+                                    "ce:indexed-name": "Ng T.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems"
+                        },
+                        "ce:source-text": "P. Krishnamurthy, F. Khorrami, and T. L. Ng, \"Control design for unmanned sea surface vehicles: hardware-in-the-loop simulator and experimental results, \" in Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, San Diego, CA, Oct. 2007, pp. 3660-3665."
+                    },
+                    {
+                        "ref-fulltext": "F. Khorrami and P. Krishnamurthy, \"A hierarchical path planning and obstacle avoidance system for an autonomous underwater vehicle, \" in Proceedings of the American Control Conference, St. Louis, MO, June 2009, pp. 3579-3584.",
+                        "@id": "11",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2009"},
+                            "ref-title": {"ref-titletext": "A hierarchical path planning and obstacle avoidance system for an autonomous underwater vehicle"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70449717803",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "3579",
+                                "@last": "3584"
+                            }},
+                            "ref-text": "St. Louis, MO, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the American Control Conference"
+                        },
+                        "ce:source-text": "F. Khorrami and P. Krishnamurthy, \"A hierarchical path planning and obstacle avoidance system for an autonomous underwater vehicle, \" in Proceedings of the American Control Conference, St. Louis, MO, June 2009, pp. 3579-3584."
+                    },
+                    {
+                        "ref-fulltext": "R. Gounley, R. White, and E. Gai, \"Autonomous satellite navigation by stellar refraction, \" Journal of Guidance, Control, and Dynamics, vol. 7, no. 2, pp. 129-134, Mar. 1984.",
+                        "@id": "12",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1984"},
+                            "ref-title": {"ref-titletext": "Autonomous satellite navigation by stellar refraction"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0021392588",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "7",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "129",
+                                    "@last": "134"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gounley",
+                                    "ce:indexed-name": "Gounley R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "White",
+                                    "ce:indexed-name": "White R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gai",
+                                    "ce:indexed-name": "Gai E."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Journal of Guidance, Control, and Dynamics"
+                        },
+                        "ce:source-text": "R. Gounley, R. White, and E. Gai, \"Autonomous satellite navigation by stellar refraction, \" Journal of Guidance, Control, and Dynamics, vol. 7, no. 2, pp. 129-134, Mar. 1984."
+                    },
+                    {
+                        "ref-fulltext": "InvenSense Inc., \"MPU-9150 Datasheet, \" https://www. invensense. com/wp-content/uploads/2015/02/MPU-9150-Datasheet. pdf, Sep. 2013, Online; Accessed: Aug. 2019.",
+                        "@id": "13",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.invensense.com/wp-content/uploads/2015/02/MPU-9150-Datasheet.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85009125923",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "InvenSense Inc., Sep.online; Accessed: Aug. 2019",
+                            "ref-sourcetitle": "MPU-9150 Datasheet"
+                        },
+                        "ce:source-text": "InvenSense Inc., \"MPU-9150 Datasheet, \" https://www. invensense. com/wp-content/uploads/2015/02/MPU-9150-Datasheet. pdf, Sep. 2013, Online; Accessed: Aug. 2019."
+                    },
+                    {
+                        "ref-fulltext": "P. Krishnamurthy and F. Khorrami, \"A self-aligning underwater navigation system based on fusion of multiple sensors including DVL and IMU, \" in Proceedings of the 9th Asian Control Conference (ASCC), Istanbul, Turkey, June 2013, pp. 1-6.",
+                        "@id": "14",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "A self-aligning underwater navigation system based on fusion of multiple sensors including dvl and imu"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84886567627",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1",
+                                "@last": "6"
+                            }},
+                            "ref-text": "Istanbul, Turkey, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Krishnamurthy",
+                                    "ce:indexed-name": "Krishnamurthy P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Khorrami",
+                                    "ce:indexed-name": "Khorrami F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the 9th Asian Control Conference (ASCC)"
+                        },
+                        "ce:source-text": "P. Krishnamurthy and F. Khorrami, \"A self-aligning underwater navigation system based on fusion of multiple sensors including DVL and IMU, \" in Proceedings of the 9th Asian Control Conference (ASCC), Istanbul, Turkey, June 2013, pp. 1-6."
+                    },
+                    {
+                        "ref-fulltext": "B. Friedland, Control system design: an introduction to state-space methods. Courier Corporation, 2012.",
+                        "@id": "15",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2012"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0004128181",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "Courier Corporation",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Friedland",
+                                "ce:indexed-name": "Friedland B."
+                            }]},
+                            "ref-sourcetitle": "Control System Design: An Introduction to State-space Methods"
+                        },
+                        "ce:source-text": "B. Friedland, Control system design: an introduction to state-space methods. Courier Corporation, 2012."
+                    },
+                    {
+                        "ref-fulltext": "M. S. Grewal and A. P. Andrews, Kalman filtering: Theory and Practice with MATLAB. John Wiley & Sons, 2014.",
+                        "@id": "16",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84927687781",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "John Wiley & Sons",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Grewal",
+                                    "ce:indexed-name": "Grewal M.S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Andrews",
+                                    "ce:indexed-name": "Andrews A.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Kalman Filtering: Theory and Practice with MATLAB"
+                        },
+                        "ce:source-text": "M. S. Grewal and A. P. Andrews, Kalman filtering: Theory and Practice with MATLAB. John Wiley & Sons, 2014."
+                    },
+                    {
+                        "ref-fulltext": "B. Friedland, \"Analysis strapdown navigation using quaternions, \" IEEE Transactions on Aerospace and Electronic Systems, no. 5, pp. 764-768, Sep. 1978.",
+                        "@id": "17",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1978"},
+                            "ref-title": {"ref-titletext": "Analysis strapdown navigation using quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0018011615",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "5"},
+                                "pagerange": {
+                                    "@first": "764",
+                                    "@last": "768"
+                                }
+                            },
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Friedland",
+                                "ce:indexed-name": "Friedland B."
+                            }]},
+                            "ref-sourcetitle": "IEEE Transactions on Aerospace and Electronic Systems"
+                        },
+                        "ce:source-text": "B. Friedland, \"Analysis strapdown navigation using quaternions, \" IEEE Transactions on Aerospace and Electronic Systems, no. 5, pp. 764-768, Sep. 1978."
+                    },
+                    {
+                        "ref-fulltext": "J. Farrell, Aided navigation: GPS with high rate sensors. McGraw-Hill, Inc., 2008.",
+                        "@id": "18",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2008"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "70349676363",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "McGraw-Hill, Inc.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "J.",
+                                "@_fa": "true",
+                                "ce:surname": "Farrell",
+                                "ce:indexed-name": "Farrell J."
+                            }]},
+                            "ref-sourcetitle": "Aided Navigation: GPS with High Rate Sensors"
+                        },
+                        "ce:source-text": "J. Farrell, Aided navigation: GPS with high rate sensors. McGraw-Hill, Inc., 2008."
+                    },
+                    {
+                        "ref-fulltext": "S. Haykin, Kalman filtering and neural networks. John Wiley & Sons, 2004, vol. 47.",
+                        "@id": "19",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2004"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0012347694",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"voliss": {"@volume": "47"}},
+                            "ref-text": "John Wiley & Sons",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.",
+                                "@_fa": "true",
+                                "ce:surname": "Haykin",
+                                "ce:indexed-name": "Haykin S."
+                            }]},
+                            "ref-sourcetitle": "Kalman Filtering and Neural Networks"
+                        },
+                        "ce:source-text": "S. Haykin, Kalman filtering and neural networks. John Wiley & Sons, 2004, vol. 47."
+                    },
+                    {
+                        "ref-fulltext": "S. J. Julier, \"The spherical simplex unscented transformation, \" in Proceedings of the 2003 American Control Conference, vol. 3, Denver, CO, June 2003, pp. 2430-2434.",
+                        "@id": "20",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "The spherical simplex unscented transformation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0142153092",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "2430",
+                                    "@last": "2434"
+                                }
+                            },
+                            "ref-text": "Denver, CO, June",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "S.J.",
+                                "@_fa": "true",
+                                "ce:surname": "Julier",
+                                "ce:indexed-name": "Julier S.J."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the 2003 American Control Conference"
+                        },
+                        "ce:source-text": "S. J. Julier, \"The spherical simplex unscented transformation, \" in Proceedings of the 2003 American Control Conference, vol. 3, Denver, CO, June 2003, pp. 2430-2434."
+                    },
+                    {
+                        "ref-fulltext": "D. Simon, Optimal state estimation: Kalman, H infinity, and nonlinear approaches. John Wiley & Sons, 2006.",
+                        "@id": "21",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2006"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84889830739",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "John Wiley & Sons",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Simon",
+                                "ce:indexed-name": "Simon D."
+                            }]},
+                            "ref-sourcetitle": "Optimal State Estimation: Kalman, H Infinity, and Nonlinear Approaches"
+                        },
+                        "ce:source-text": "D. Simon, Optimal state estimation: Kalman, H infinity, and nonlinear approaches. John Wiley & Sons, 2006."
+                    },
+                    {
+                        "ref-fulltext": "D. Michie, \"\"memo\" functions and machine learning, \" Nature, vol. 218, no. 5136, pp. 19-22, Apr. 1968.",
+                        "@id": "22",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1968"},
+                            "ref-title": {"ref-titletext": "\"memo\" functions and machine learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0002444193",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "218",
+                                    "@issue": "5136"
+                                },
+                                "pagerange": {
+                                    "@first": "19",
+                                    "@last": "22"
+                                }
+                            },
+                            "ref-text": "Apr.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Michie",
+                                "ce:indexed-name": "Michie D."
+                            }]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "D. Michie, \"\"memo\" functions and machine learning, \" Nature, vol. 218, no. 5136, pp. 19-22, Apr. 1968."
+                    },
+                    {
+                        "ref-fulltext": "Y. LeCun, Y. Bengio, and G. Hinton, \"Deep learning, \" Nature, vol. 521, no. 7553, pp. 436-444, May 2015.",
+                        "@id": "23",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2015"},
+                            "ref-title": {"ref-titletext": "Deep learning"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84930630277",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "521",
+                                    "@issue": "7553"
+                                },
+                                "pagerange": {
+                                    "@first": "436",
+                                    "@last": "444"
+                                }
+                            },
+                            "ref-text": "May",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "LeCun",
+                                    "ce:indexed-name": "LeCun Y."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "Y. LeCun, Y. Bengio, and G. Hinton, \"Deep learning, \" Nature, vol. 521, no. 7553, pp. 436-444, May 2015."
+                    },
+                    {
+                        "ref-fulltext": "D. Rumelhart, G. Hinton, and R. Williams, \"Learning representations by back-propagating errors, \" Nature, vol. 323, no. 6088, pp. 533-536, Oct. 1986.",
+                        "@id": "24",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "Learning representations by back-propagating errors"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022471098",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "323",
+                                    "@issue": "6088"
+                                },
+                                "pagerange": {
+                                    "@first": "533",
+                                    "@last": "536"
+                                }
+                            },
+                            "ref-text": "Oct.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Rumelhart",
+                                    "ce:indexed-name": "Rumelhart D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hinton",
+                                    "ce:indexed-name": "Hinton G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Williams",
+                                    "ce:indexed-name": "Williams R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Nature"
+                        },
+                        "ce:source-text": "D. Rumelhart, G. Hinton, and R. Williams, \"Learning representations by back-propagating errors, \" Nature, vol. 323, no. 6088, pp. 533-536, Oct. 1986."
+                    },
+                    {
+                        "ref-fulltext": "D. T. Mirikitani and N. Nikolaev, \"Recursive bayesian recurrent neural networks for time-series modeling, \" IEEE Transactions on Neural Networks, vol. 21, no. 2, pp. 262-274, Feb. 2010.",
+                        "@id": "25",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2010"},
+                            "ref-title": {"ref-titletext": "Recursive Bayesian recurrent neural networks for time-series modeling"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "76749091461",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "21",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "262",
+                                    "@last": "274"
+                                }
+                            },
+                            "ref-text": "Feb.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mirikitani",
+                                    "ce:indexed-name": "Mirikitani D.T."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Nikolaev",
+                                    "ce:indexed-name": "Nikolaev N."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks"
+                        },
+                        "ce:source-text": "D. T. Mirikitani and N. Nikolaev, \"Recursive bayesian recurrent neural networks for time-series modeling, \" IEEE Transactions on Neural Networks, vol. 21, no. 2, pp. 262-274, Feb. 2010."
+                    },
+                    {
+                        "ref-fulltext": "J.-Q. Huang and F. L. Lewis, \"Neural-network predictive control for nonlinear dynamic systems with time-delay, \" IEEE Transactions on Neural Networks, vol. 14, no. 2, pp. 377-389, Mar. 2003.",
+                        "@id": "26",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2003"},
+                            "ref-title": {"ref-titletext": "Neural-network predictive control for nonlinear dynamic systems with time-delay"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0037358783",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "377",
+                                    "@last": "389"
+                                }
+                            },
+                            "ref-text": "Mar.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "J.-Q.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Huang",
+                                    "ce:indexed-name": "Huang J.-Q."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Lewis",
+                                    "ce:indexed-name": "Lewis F.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Neural Networks"
+                        },
+                        "ce:source-text": "J.-Q. Huang and F. L. Lewis, \"Neural-network predictive control for nonlinear dynamic systems with time-delay, \" IEEE Transactions on Neural Networks, vol. 14, no. 2, pp. 377-389, Mar. 2003."
+                    },
+                    {
+                        "ref-fulltext": "B. Bakker, \"Reinforcement learning with long short-term memory, \" in Proceedings of the Neural Information Processing Systems, Vancouver, Canada, Dec. 2001, pp. 1475-1482.",
+                        "@id": "27",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2001"},
+                            "ref-title": {"ref-titletext": "Reinforcement learning with long short-term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84995343329",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1475",
+                                "@last": "1482"
+                            }},
+                            "ref-text": "Vancouver, Canada, Dec.",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.",
+                                "@_fa": "true",
+                                "ce:surname": "Bakker",
+                                "ce:indexed-name": "Bakker B."
+                            }]},
+                            "ref-sourcetitle": "Proceedings of the Neural Information Processing Systems"
+                        },
+                        "ce:source-text": "B. Bakker, \"Reinforcement learning with long short-term memory, \" in Proceedings of the Neural Information Processing Systems, Vancouver, Canada, Dec. 2001, pp. 1475-1482."
+                    },
+                    {
+                        "ref-fulltext": "S. Hochreiter and J. Schmidhuber, \"Long short-term memory, \" Neural Computation, vol. 9, no. 8, pp. 1735-1780, Nov. 1997.",
+                        "@id": "28",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Long short-term memory"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031573117",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "9",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "1735",
+                                    "@last": "1780"
+                                }
+                            },
+                            "ref-text": "Nov.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hochreiter",
+                                    "ce:indexed-name": "Hochreiter S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmidhuber",
+                                    "ce:indexed-name": "Schmidhuber J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Neural Computation"
+                        },
+                        "ce:source-text": "S. Hochreiter and J. Schmidhuber, \"Long short-term memory, \" Neural Computation, vol. 9, no. 8, pp. 1735-1780, Nov. 1997."
+                    },
+                    {
+                        "ref-fulltext": "K. Cho, B. Van Merriënboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, \"Learning phrase representations using rnn encoder-decoder for statistical machine translation, \" arXiv preprint arXiv: 1406. 1078, Sep. 2014.",
+                        "@id": "29",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2014"},
+                            "refd-itemidlist": {"itemid": [
+                                {
+                                    "$": "1406. 1078",
+                                    "@idtype": "ARXIV"
+                                },
+                                {
+                                    "$": "84919728106",
+                                    "@idtype": "SGR"
+                                }
+                            ]},
+                            "ref-text": "Sep.",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cho",
+                                    "ce:indexed-name": "Cho K."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Van Merriënboer",
+                                    "ce:indexed-name": "Van Merrienboer B."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gulcehre",
+                                    "ce:indexed-name": "Gulcehre C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bahdanau",
+                                    "ce:indexed-name": "Bahdanau D."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bougares",
+                                    "ce:indexed-name": "Bougares F."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schwenk",
+                                    "ce:indexed-name": "Schwenk H."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Learning Phrase Representations Using Rnn Encoder-decoder for Statistical Machine Translation"
+                        },
+                        "ce:source-text": "K. Cho, B. Van Merriënboer, C. Gulcehre, D. Bahdanau, F. Bougares, H. Schwenk, and Y. Bengio, \"Learning phrase representations using rnn encoder-decoder for statistical machine translation, \" arXiv preprint arXiv: 1406. 1078, Sep. 2014."
+                    },
+                    {
+                        "ref-fulltext": "STMicroelectronics Inc., \"LSM9DS1 Datasheet, \" https://www. st. com/resource/en/datasheet/DM00103319. pdf, Mar. 2015, Online; Accessed: Aug. 2019.",
+                        "@id": "30",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2019"},
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://www.st.com/resource/en/datasheet/DM00103319.pdf",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85094098323",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "STMicroelectronics Inc., Mar. 2015 Online; Accessed: Aug",
+                            "ref-sourcetitle": "LSM9DS1 Datasheet"
+                        },
+                        "ce:source-text": "STMicroelectronics Inc., \"LSM9DS1 Datasheet, \" https://www. st. com/resource/en/datasheet/DM00103319. pdf, Mar. 2015, Online; Accessed: Aug. 2019."
+                    },
+                    {
+                        "ref-fulltext": "R. Pascanu, T. Mikolov, and Y. Bengio, \"On the difficulty of training recurrent neural networks, \" in Proceedings of the International Conference on Machine Learning, Atlanta, GA, June 2013, pp. 1310-1318.",
+                        "@id": "31",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "2013"},
+                            "ref-title": {"ref-titletext": "On the difficulty of training recurrent neural networks"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84892982833",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1310",
+                                "@last": "1318"
+                            }},
+                            "ref-text": "Atlanta, GA, June",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pascanu",
+                                    "ce:indexed-name": "Pascanu R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mikolov",
+                                    "ce:indexed-name": "Mikolov T."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "Y.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bengio",
+                                    "ce:indexed-name": "Bengio Y."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings of the International Conference on Machine Learning"
+                        },
+                        "ce:source-text": "R. Pascanu, T. Mikolov, and Y. Bengio, \"On the difficulty of training recurrent neural networks, \" in Proceedings of the International Conference on Machine Learning, Atlanta, GA, June 2013, pp. 1310-1318."
+                    },
+                    {
+                        "ref-fulltext": "\"How to calibrate a magnetometer?\" https://appelsiini. net/2018/calibrate-magnetometer/, accessed: 2019-11-23.",
+                        "@id": "32",
+                        "ref-info": {
+                            "ref-website": {"ce:e-address": {
+                                "$": "https://appelsiini.net/2018/calibrate-magnetometer/",
+                                "@type": "email"
+                            }},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85094171741",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "accessed: 2019-11-23",
+                            "ref-sourcetitle": "How to Calibrate A Magnetometer?"
+                        },
+                        "ce:source-text": "\"How to calibrate a magnetometer?\" https://appelsiini. net/2018/calibrate-magnetometer/, accessed: 2019-11-23."
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "New York",
+        "@id": "60108318",
+        "affilname": "NYU Tandon School of Engineering",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60108318",
+        "affiliation-country": "United States"
+    },
+    "coredata": {
+        "srctype": "p",
+        "eid": "2-s2.0-85094134472",
+        "dc:description": "In this paper, machine-learning-based tools are utilized to learn a model of the functionality of a commercial chip with built-in signal processing and sensor fusion algorithms. Specifically, a fully integrated 9-axis Inertial Measurement Unit (IMU) with embedded algorithms providing the three-axis attitude and corresponding quaternion by fusing all the sensors is considered. Traditionally, extended Kalman filters are used for fusing IMU sensors; however, subtle algorithmic fixes (e.g., magnetic and angular alignment calibration for all sensors, Kalman filter tuning, temperature drift compensation, dynamic magnetic effects) need to be deployed to attain precise attitude (especially heading). A recurrent neural network (RNN) was trained using the chip to substitute for the built-in algorithms of the IMU Chip to output the approximate attitude given the 9-axis sensor data. We show the efficacy of our approach by mounting two IMUs on a board and utilize one IMU, which has its own internal algorithms, to train a machine learning system to fuse the raw data from the sensors on the second IMU to generate comparable accuracy (and in some cases, even outperform the original IMU).",
+        "prism:coverDate": "2020-08-01",
+        "prism:aggregationType": "Conference Proceeding",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/85094134472",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Hao",
+            "preferred-name": {
+                "ce:given-name": "Hao",
+                "ce:initials": "H.",
+                "ce:surname": "Fu",
+                "ce:indexed-name": "Fu H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60108318",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60108318"
+            },
+            "ce:surname": "Fu",
+            "@auid": "57220990686",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57220990686",
+            "ce:indexed-name": "Fu H."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/85094134472"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85094134472&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=85094134472&origin=inward"
+            }
+        ],
+        "prism:isbn": "9781728171401",
+        "source-id": "21101023804",
+        "citedby-count": "3",
+        "subtype": "cp",
+        "dc:title": "Functional replicas of proprietary three-axis attitude sensors via LSTM neural networks",
+        "openaccess": "0",
+        "publishercopyright": "© 2020 IEEE.",
+        "article-number": "9206312",
+        "subtypeDescription": "Conference Paper",
+        "prism:publicationName": "CCTA 2020 - 4th IEEE Conference on Control Technology and Applications",
+        "prism:pageRange": "70-75",
+        "prism:endingPage": "75",
+        "openaccessFlag": "false",
+        "prism:doi": "10.1109/CCTA41146.2020.9206312",
+        "prism:startingPage": "70",
+        "dc:identifier": "SCOPUS_ID:85094134472",
+        "dc:publisher": "Institute of Electrical and Electronics Engineers Inc."
+    },
+    "idxterms": {"mainterm": [
+        {
+            "$": "Attitude sensors",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Embedded algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Inertial measurement unit",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Internal algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Magnetic effects",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Recurrent neural network (RNN)",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Sensor fusion algorithms",
+            "@weight": "b",
+            "@candidate": "n"
+        },
+        {
+            "$": "Temperature drift compensation",
+            "@weight": "b",
+            "@candidate": "n"
+        }
+    ]},
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": null,
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Computer Science Applications",
+            "@code": "1706",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Control and Optimization",
+            "@code": "2606",
+            "@abbrev": "MATH"
+        },
+        {
+            "@_fa": "true",
+            "$": "Instrumentation",
+            "@code": "3105",
+            "@abbrev": "PHYS"
+        }
+    ]},
+    "authors": {"author": [
+        {
+            "ce:given-name": "Hao",
+            "preferred-name": {
+                "ce:given-name": "Hao",
+                "ce:initials": "H.",
+                "ce:surname": "Fu",
+                "ce:indexed-name": "Fu H."
+            },
+            "@seq": "1",
+            "ce:initials": "H.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60108318",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60108318"
+            },
+            "ce:surname": "Fu",
+            "@auid": "57220990686",
+            "author-url": "https://api.elsevier.com/content/author/author_id/57220990686",
+            "ce:indexed-name": "Fu H."
+        },
+        {
+            "ce:given-name": "Prashanth",
+            "preferred-name": {
+                "ce:given-name": "Prashanth",
+                "ce:initials": "P.",
+                "ce:surname": "Krishnamurthy",
+                "ce:indexed-name": "Krishnamurthy P."
+            },
+            "@seq": "2",
+            "ce:initials": "P.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60108318",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60108318"
+            },
+            "ce:surname": "Krishnamurthy",
+            "@auid": "7006328196",
+            "author-url": "https://api.elsevier.com/content/author/author_id/7006328196",
+            "ce:indexed-name": "Krishnamurthy P."
+        },
+        {
+            "ce:given-name": "Farshad",
+            "preferred-name": {
+                "ce:given-name": "Farshad",
+                "ce:initials": "F.",
+                "ce:surname": "Khorrami",
+                "ce:indexed-name": "Khorrami F."
+            },
+            "@seq": "3",
+            "ce:initials": "F.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60108318",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60108318"
+            },
+            "ce:surname": "Khorrami",
+            "@auid": "55663722200",
+            "author-url": "https://api.elsevier.com/content/author/author_id/55663722200",
+            "ce:indexed-name": "Khorrami F."
+        }
+    ]}
+}}

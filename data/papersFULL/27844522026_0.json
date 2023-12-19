@@ -1,0 +1,1695 @@
+{"abstracts-retrieval-response": {
+    "item": {
+        "ait:process-info": {
+            "ait:status": {
+                "@state": "update",
+                "@type": "core",
+                "@stage": "S300"
+            },
+            "ait:date-delivered": {
+                "@day": "19",
+                "@year": "2019",
+                "@timestamp": "2019-11-19T10:29:43.000043-05:00",
+                "@month": "11"
+            },
+            "ait:date-sort": {
+                "@day": "01",
+                "@year": "2000",
+                "@month": "12"
+            }
+        },
+        "bibrecord": {
+            "head": {
+                "author-group": {
+                    "affiliation": {
+                        "city-group": "FIN-02015 Hut",
+                        "country": "Finland",
+                        "address-part": "P.O. Box 1200",
+                        "@afid": "60103653",
+                        "@country": "fin",
+                        "organization": [
+                            {"$": "Institute of Photogrammetry and Remote Sensing"},
+                            {"$": "Helsinki University of Technology"}
+                        ],
+                        "affiliation-id": {
+                            "@afid": "60103653",
+                            "@dptid": "112555961"
+                        },
+                        "@dptid": "112555961"
+                    },
+                    "author": [{
+                        "ce:given-name": "Olli",
+                        "preferred-name": {
+                            "ce:given-name": "Olli",
+                            "ce:initials": "O.",
+                            "ce:surname": "Jokinen",
+                            "ce:indexed-name": "Jokinen O."
+                        },
+                        "@seq": "1",
+                        "ce:initials": "O.",
+                        "@_fa": "true",
+                        "ce:surname": "Jokinen",
+                        "@auid": "6603028652",
+                        "ce:indexed-name": "Jokinen O."
+                    }]
+                },
+                "citation-title": "Matching and modeling of multiple 3-D disparity and profile maps",
+                "abstracts": "The thesis presents new methods for the matching and modeling of multiple 3-D data sets obtained from stereo or acquired by light striping. The concept of a profile map is introduced for the data acquired by light striping so that disparity maps and laser scanned data can be processed consistently as real valued images on parametric domains. An iterative parametric point (IPP) algorithm is proposed for the simultaneous registration of multiple maps acquired from different viewpoints without known corresponding points when an initial registration is available. At each iteration, the corresponding points are determined directly on the parametric domains and the registration parameters are updated so that the mean of the squares of weighted distances between compatible corresponding points is minimized. Adaptive weighting is applied to the direction of the surface normal and to the distance between corresponding points, and the precision of the measuring is also incorporated into the weighting images. Edge areas are given less weight and the interpolation errors are leveled out in smooth areas for higher accuracy. The maps are registered hierarchically from low to high resolution for better convergence and shorter computing time. The IPP algorithm is developed further for refining the calibration of the light striping system. The calibration includes a projective transformation between the image plane of the camera and the plane of the laser sheet, and the direction of the scanning with respect to the plane of the laser sheet. The proposed method is based on matching multiple profile maps registered previously according to an approximate calibration. The registration and calibration parameters can be refined simultaneously, but this requires a close initial estimate and rather complex object geometry. It is also possible to adjust several calibrations at the same time if the registration is known exactly. The modeling of multiple registered maps includes techniques for merging compatible overlapping planar patches of different maps and tracing the borders of the merged patches on multiple domains. A technique is developed for the initial estimation of the parameters of a cylinder based on the cross product of non-parallel surface normals and on the intersection of a fan of planes. The propagation of measurement and calibration errors to the registration parameters and to the modeled maps is analyzed carefully for two combined registration and modeling strategies when the object consists of planar patches. In the first strategy, the maps are registered simultaneously and the model computed afterwards while in the second one, the maps are registered sequentially against the model reconstructed up till then. The analysis is performed for various distance images that can be used in the registration including the Levenberg-Marquardt method and the method of unit quaternions to update the registration parameters. The algorithms are formulated using image algebra and implemented efficiently using MATLAB software. Thorough testing with synthetic and real maps demonstrates the performance of the matching and modeling algorithms and illustrates the precision given by the two strategies. A comparison proves the superiority of the IPP algorithm to the iterative closest point algorithm as regards the accuracy, pull-in range, and computing time needed to update the corresponding points.",
+                "correspondence": {
+                    "affiliation": {
+                        "city-group": "FIN-02015 Hut",
+                        "country": "Finland",
+                        "address-part": "P.O. Box 1200",
+                        "@country": "fin",
+                        "organization": [
+                            {"$": "Institute of Photogrammetry and Remote Sensing"},
+                            {"$": "Helsinki University of Technology"}
+                        ]
+                    },
+                    "person": {
+                        "ce:initials": "O.",
+                        "ce:surname": "Jokinen",
+                        "ce:indexed-name": "Jokinen O."
+                    }
+                },
+                "citation-info": {
+                    "author-keywords": {"author-keyword": [
+                        {
+                            "$": "3-D maps",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Border tracing",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Error propagation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Image algebra",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Light striping",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Quadric fitting",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Registration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Segmentation",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Self-calibration",
+                            "@xml:lang": "eng"
+                        },
+                        {
+                            "$": "Stereo vision",
+                            "@xml:lang": "eng"
+                        }
+                    ]},
+                    "citation-type": {"@code": "ar"},
+                    "citation-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    },
+                    "abstract-language": {
+                        "@language": "English",
+                        "@xml:lang": "eng"
+                    }
+                },
+                "source": {
+                    "codencode": "APSMF",
+                    "sourcetitle-abbrev": "Acta Polytech. Scand. Math. Comput. Ser.",
+                    "@country": "fin",
+                    "issn": "14569418",
+                    "volisspag": {
+                        "pages": "X-25",
+                        "voliss": {"@issue": "104"}
+                    },
+                    "@type": "j",
+                    "publicationyear": {"@first": "2000"},
+                    "sourcetitle": "Acta Polytechnica Scandinavica Mathematics and Computing Series",
+                    "@srcid": "18085",
+                    "publicationdate": {
+                        "year": "2000",
+                        "date-text": {
+                            "@xfab-added": "true",
+                            "$": "2000"
+                        }
+                    }
+                },
+                "enhancement": {"classificationgroup": {"classifications": [
+                    {
+                        "@type": "SUBJECT",
+                        "classification": "Engineering and Technology"
+                    },
+                    {
+                        "@type": "ASJC",
+                        "classification": [
+                            {"$": "1708"},
+                            {"$": "2209"},
+                            {"$": "2604"}
+                        ]
+                    },
+                    {
+                        "@type": "SUBJABBR",
+                        "classification": [
+                            {"$": "COMP"},
+                            {"$": "ENGI"},
+                            {"$": "MATH"}
+                        ]
+                    }
+                ]}}
+            },
+            "item-info": {
+                "copyright": {
+                    "$": "Copyright 2005 Elsevier B.V., All rights reserved.",
+                    "@type": "Elsevier"
+                },
+                "dbcollection": [
+                    {"$": "SNCPX"},
+                    {"$": "SCOPUS"},
+                    {"$": "Scopusbase"}
+                ],
+                "history": {"date-created": {
+                    "@day": "24",
+                    "@year": "2005",
+                    "@month": "11"
+                }},
+                "itemidlist": {"itemid": [
+                    {
+                        "$": "31622709",
+                        "@idtype": "PUI"
+                    },
+                    {
+                        "$": "2002984041",
+                        "@idtype": "SNCPX"
+                    },
+                    {
+                        "$": "27844522026",
+                        "@idtype": "SCP"
+                    },
+                    {
+                        "$": "27844522026",
+                        "@idtype": "SGR"
+                    }
+                ]}
+            },
+            "tail": {"bibliography": {
+                "@refcount": "33",
+                "reference": [
+                    {
+                        "ref-fulltext": "Ailisto, H., Mitikka, R., Jokinen, H., Saaranen, M., Jokinen, O., Moring, I., and Kaisto, I., Automatic 3D measurement for shape inspection. International Workshop on Machine Vision for Advanced Production, Oulu, 1994, 7 p.",
+                        "@id": "24428264",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Automatic 3D measurement for shape inspection"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27844595390",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagecount": {
+                                "$": "7",
+                                "@type": "arabic"
+                            }},
+                            "ref-text": "Oulu",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ailisto",
+                                    "ce:indexed-name": "Ailisto H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mitikka",
+                                    "ce:indexed-name": "Mitikka R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jokinen",
+                                    "ce:indexed-name": "Jokinen H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Saaranen",
+                                    "ce:indexed-name": "Saaranen M."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jokinen",
+                                    "ce:indexed-name": "Jokinen O."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Moring",
+                                    "ce:indexed-name": "Moring I."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kaisto",
+                                    "ce:indexed-name": "Kaisto I."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Workshop on Machine Vision for Advanced Production"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Benjemaa, R. and Schmitt, F., Fast global registration of 3D sampled surfaces using a multi-z-buffer technique. Proceedings International Conference on Recent Advances in 3-D Digital Imaging and Modeling, Ottawa, 1997, IEEE Computer Society Press, pp. 113-120.",
+                        "@id": "24428265",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Fast global registration of 3D sampled surfaces using a multi-z-buffer technique"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030686683",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "113",
+                                "@last": "120"
+                            }},
+                            "ref-text": "Ottawa, IEEE Computer Society Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Benjemaa",
+                                    "ce:indexed-name": "Benjemaa R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schmitt",
+                                    "ce:indexed-name": "Schmitt F."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings International Conference on Recent Advances in 3-D Digital Imaging and Modeling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bergevin, R., Laurendeau, D., and Poussart, D., Registering range views of multipart objects. Computer Vision and Image Understanding, Vol. 61, No. 1, 1995, pp. 1-16.",
+                        "@id": "24428266",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Registering range views of multipart objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029184397",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "61",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "1",
+                                    "@last": "16"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergevin",
+                                    "ce:indexed-name": "Bergevin R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laurendeau",
+                                    "ce:indexed-name": "Laurendeau D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Poussart",
+                                    "ce:indexed-name": "Poussart D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision and Image Understanding"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Bergevin, R., Soucy, M., Gagnon, H., and Laurendeau, D., Towards a general multi-view registration technique. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 18, No. 5, 1996, pp. 540-547.",
+                        "@id": "24428267",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Towards a general multi-view registration technique"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030142441",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "5"
+                                },
+                                "pagerange": {
+                                    "@first": "540",
+                                    "@last": "547"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergevin",
+                                    "ce:indexed-name": "Bergevin R."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soucy",
+                                    "ce:indexed-name": "Soucy M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gagnon",
+                                    "ce:indexed-name": "Gagnon H."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laurendeau",
+                                    "ce:indexed-name": "Laurendeau D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Besl, P. J. and McKay, N. D., A method for registration of 3-D shapes. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 14, No. 2, 1992, pp. 239-256.",
+                        "@id": "24428268",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "A method for registration of 3-D shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0026821209",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "14",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "239",
+                                    "@last": "256"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Besl",
+                                    "ce:indexed-name": "Besl P.J."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "N.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "McKay",
+                                    "ce:indexed-name": "McKay N.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Blais, G. and Levine, M. D., Registering multiview range data to create 3D computer objects. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 17, No. 8, 1995, pp. 820-824.",
+                        "@id": "24428269",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "Registering multiview range data to create 3D computer objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029357448",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "8"
+                                },
+                                "pagerange": {
+                                    "@first": "820",
+                                    "@last": "824"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Blais",
+                                    "ce:indexed-name": "Blais G."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Levine",
+                                    "ce:indexed-name": "Levine M.D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Busboom, A. and Schalkoff, R. J., Active stereo vision and direct surface parameter estimation: curve-to-curve image plane mappings. IEE Proceedings: Vision, Image and Signal Processing, Vol. 143, No. 2, 1996, pp. 109-117.",
+                        "@id": "24428270",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "Active stereo vision and direct surface parameter estimation: Curve-to-curve image plane mappings"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030123260",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "143",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "109",
+                                    "@last": "117"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Busboom",
+                                    "ce:indexed-name": "Busboom A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Schalkoff",
+                                    "ce:indexed-name": "Schalkoff R.J."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEE Proceedings: Vision, Image and Signal Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chen, C.-S., Hung, Y.-P., and Cheng, J.-B., Fast automatic method for registration of partially-overlapping range images. Proc. 1998 IEEE 6th International Conference on Computer Vision, Bombay, 1998, pp. 242-248.",
+                        "@id": "24428271",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Fast automatic method for registration of partially-overlapping range images"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0032319997",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "242",
+                                "@last": "248"
+                            }},
+                            "ref-text": "Bombay",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.-S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chen",
+                                    "ce:indexed-name": "Chen C.-S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "Y.-P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hung",
+                                    "ce:indexed-name": "Hung Y.-P."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.-B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Cheng",
+                                    "ce:indexed-name": "Cheng J.-B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 1998 IEEE 6th International Conference on Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Chin, S. C. and Jarvis, R., 3-D free-form surface registration and object recognition. International Journal of Computer Vision, Vol. 17, No. 1, 1996, pp. 77-99.",
+                        "@id": "24428272",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "3-D free-form surface registration and object recognition"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0029755427",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "17",
+                                    "@issue": "1"
+                                },
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "99"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Chin",
+                                    "ce:indexed-name": "Chin S.C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jarvis",
+                                    "ce:indexed-name": "Jarvis R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "International Journal of Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Dorai, C., Weng, J., and Jain, A. K., Optimal registration of object views using range data. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 19, No. 10, 1997, pp. 1131-1138.",
+                        "@id": "24428273",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Optimal registration of object views using range data"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031246254",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "10"
+                                },
+                                "pagerange": {
+                                    "@first": "1131",
+                                    "@last": "1138"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Dorai",
+                                    "ce:indexed-name": "Dorai C."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Weng",
+                                    "ce:indexed-name": "Weng J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "A.K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jain",
+                                    "ce:indexed-name": "Jain A.K."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Faugeras, O. D. and Hebert, M., The representation, recognition, and locating of 3-D objects. The International Journal of Robotics Research, Vol. 5, No. 3, 1986, pp. 27-52.",
+                        "@id": "24428274",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1986"},
+                            "ref-title": {"ref-titletext": "The representation, recognition, and locating of 3-D objects"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0022777806",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "5",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "27",
+                                    "@last": "52"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Faugeras",
+                                    "ce:indexed-name": "Faugeras O.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hebert",
+                                    "ce:indexed-name": "Hebert M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "The International Journal of Robotics Research"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Fisher, R. B., Fitzgibbon, A. W., and Eggert, D., Extracting surface patches from complete range descriptions. Proceedings International Conference on Recent Advances in 3-D Digital Imaging and Modeling, Ottawa, 1997, IEEE Computer Society Press, pp. 148-154.",
+                        "@id": "24428275",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Extracting surface patches from complete range descriptions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030679124",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "148",
+                                "@last": "154"
+                            }},
+                            "ref-text": "Ottawa, IEEE Computer Society Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fisher",
+                                    "ce:indexed-name": "Fisher R.B."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "A.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fitzgibbon",
+                                    "ce:indexed-name": "Fitzgibbon A.W."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eggert",
+                                    "ce:indexed-name": "Eggert D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings International Conference on Recent Advances in 3-D Digital Imaging and Modeling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Gagnon, H., Soucy, M., Bergevin, R., and Laurendeau, D., Registration of multiple range views for automatic 3-D model building. Proc. IEEE Computer Society Conference on Computer Vision and Pattern Recognition, Seattle, 1994, pp. 581-586.",
+                        "@id": "24428276",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Registration of multiple range views for automatic 3-D model building"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027989033",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "581",
+                                "@last": "586"
+                            }},
+                            "ref-text": "Seattle",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Gagnon",
+                                    "ce:indexed-name": "Gagnon H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Soucy",
+                                    "ce:indexed-name": "Soucy M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bergevin",
+                                    "ce:indexed-name": "Bergevin R."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Laurendeau",
+                                    "ce:indexed-name": "Laurendeau D."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Haggrén, H., Jokinen, O., Niini, I., and Pöntinen, P., 3-D digitizing of objects using stereo videography. Optical 3-D Measurement Techniques II, Eds. Gruen/Kahmen, Herbert Wichmann Verlag, Karlsruhe, 1993, pp. 91-97.",
+                        "@id": "24428277",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "ref-title": {"ref-titletext": "3-D digitizing of objects using stereo videography"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "3643066739",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "91",
+                                "@last": "97"
+                            }},
+                            "ref-text": "Eds. Gruen/Kahmen, Herbert Wichmann Verlag, Karlsruhe",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haggrén",
+                                    "ce:indexed-name": "Haggren H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jokinen",
+                                    "ce:indexed-name": "Jokinen O."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "I.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Niini",
+                                    "ce:indexed-name": "Niini I."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Pöntinen",
+                                    "ce:indexed-name": "Pontinen P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Optical 3-D Measurement Techniques II"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Haggrén, H. and Mattila, S., 3-D indoor modeling from videography. Videometrics V (Sabry F. El-Hakim, Ed.), Proc. SPIE 3174, San Diego, 1997, pp. 14-20.",
+                        "@id": "24428278",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "3-D indoor modeling from videography"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0010360806",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "14",
+                                "@last": "20"
+                            }},
+                            "ref-text": "Videometrics V (Sabry F. El-Hakim, Ed.), San Diego",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haggrén",
+                                    "ce:indexed-name": "Haggren H."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Mattila",
+                                    "ce:indexed-name": "Mattila S."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. SPIE 3174"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Hoover, A., Jean-Baptiste, G., Jiang, X., Flynn, P. J., Bunke, H., Goldgof, D. B., Bowyer, K., Eggert, D. W., Fitzgibbon, A., and Fisher, R. B., An experimental comparison of range image segmentation algorithms. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 18, No. 7, 1996, pp. 673-689.",
+                        "@id": "24428279",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "ref-title": {"ref-titletext": "An experimental comparison of range image segmentation algorithms"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030193096",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "18",
+                                    "@issue": "7"
+                                },
+                                "pagerange": {
+                                    "@first": "673",
+                                    "@last": "689"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hoover",
+                                    "ce:indexed-name": "Hoover A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jean-Baptiste",
+                                    "ce:indexed-name": "Jean-Baptiste G."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jiang",
+                                    "ce:indexed-name": "Jiang X."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "P.J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Flynn",
+                                    "ce:indexed-name": "Flynn P.J."
+                                },
+                                {
+                                    "@seq": "5",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bunke",
+                                    "ce:indexed-name": "Bunke H."
+                                },
+                                {
+                                    "@seq": "6",
+                                    "ce:initials": "D.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Goldgof",
+                                    "ce:indexed-name": "Goldgof D.B."
+                                },
+                                {
+                                    "@seq": "7",
+                                    "ce:initials": "K.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Bowyer",
+                                    "ce:indexed-name": "Bowyer K."
+                                },
+                                {
+                                    "@seq": "8",
+                                    "ce:initials": "D.W.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Eggert",
+                                    "ce:indexed-name": "Eggert D.W."
+                                },
+                                {
+                                    "@seq": "9",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fitzgibbon",
+                                    "ce:indexed-name": "Fitzgibbon A."
+                                },
+                                {
+                                    "@seq": "10",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fisher",
+                                    "ce:indexed-name": "Fisher R.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Horn, B. K. P., Closed-form solution of absolute orientation using unit quaternions. Journal of the Optical Society of America A, Vol. 4, No. 4, 1987, pp. 629-642.",
+                        "@id": "24428280",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1987"},
+                            "ref-title": {"ref-titletext": "Closed-form solution of absolute orientation using unit quaternions"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84975553202",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "4",
+                                    "@issue": "4"
+                                },
+                                "pagerange": {
+                                    "@first": "629",
+                                    "@last": "642"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "B.K.P.",
+                                "@_fa": "true",
+                                "ce:surname": "Horn",
+                                "ce:indexed-name": "Horn B.K.P."
+                            }]},
+                            "ref-sourcetitle": "Journal of the Optical Society of America A"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Johnson, A. E. and Hebert, M., Surface registration by matching oriented points. Proceedings International Conference on Recent Advances in 3-D Digital Imaging and Modeling, Ottawa, 1997, IEEE Computer Society Press, pp. 121-128.",
+                        "@id": "24428281",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Surface registration by matching oriented points"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0030717795",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "121",
+                                "@last": "128"
+                            }},
+                            "ref-text": "Ottawa, IEEE Computer Society Press",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "A.E.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Johnson",
+                                    "ce:indexed-name": "Johnson A.E."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hebert",
+                                    "ce:indexed-name": "Hebert M."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proceedings International Conference on Recent Advances in 3-D Digital Imaging and Modeling"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jokinen, O., Kartion ja lieriön mallintaminen konenäköjärjestelmässä (Modeling of cones and cylinders in machine vision). VI Teollisuus- ja insinöörimatematiikan päivät, Tampere, 1994, 6 p. (in Finnish).",
+                        "@id": "24428282",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Modeling of cones and cylinders in machine visionKartion ja lieriön mallintaminen konenäköjärjestelmässä"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27844462538",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagecount": {
+                                "$": "6",
+                                "@type": "arabic"
+                            }},
+                            "ref-text": "Tampere, (in Finnish)",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "O.",
+                                "@_fa": "true",
+                                "ce:surname": "Jokinen",
+                                "ce:indexed-name": "Jokinen O."
+                            }]},
+                            "ref-sourcetitle": "VI Teollisuus- ja Insinöörimatematiikan Päivät"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Jokinen, O. and Haggrén, H., CAD modelling from stereo videography. Proc. International FIG Symposium on Deformation Analysis and Engineering Surveying, Cape Town, 1995, pp. 133-137.",
+                        "@id": "24428283",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1995"},
+                            "ref-title": {"ref-titletext": "CAD modelling from stereo videography"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "27844489613",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "133",
+                                "@last": "137"
+                            }},
+                            "ref-text": "Cape Town",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "O.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Jokinen",
+                                    "ce:indexed-name": "Jokinen O."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "H.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Haggrén",
+                                    "ce:indexed-name": "Haggren H."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. International FIG Symposium on Deformation Analysis and Engineering Surveying"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "MATLAB User's Guide. The MathWorks, Inc., 1992.",
+                        "@id": "24428284",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003554146",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-text": "The MathWorks, Inc.",
+                            "ref-sourcetitle": "MATLAB User's Guide"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Orr, M. J. L., Hallam, J., and Fisher, R. B., Fusion through interpretation. Computer Vision - ECCV'92 2nd European Conference on Computer Vision, Ed. G. Sandini, St. Margherita Ligure, Italy, 1992, pp. 801-805.",
+                        "@id": "24428285",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Fusion through interpretation"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "85029759302",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "801",
+                                "@last": "805"
+                            }},
+                            "ref-text": "Ed. G. Sandini, St. Margherita Ligure, Italy",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Orr",
+                                    "ce:indexed-name": "Orr M.J.L."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hallam",
+                                    "ce:indexed-name": "Hallam J."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.B.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fisher",
+                                    "ce:indexed-name": "Fisher R.B."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision - ECCV'92 2nd European Conference on Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Parbery, R. D. and Fryer, J. G., Some mathematics and methods of solution for the analysis of common shapes, Part I: The mathematics. Aust. J. Geod. Photogram. Surv., No. 56, 1992, pp. 63-75.",
+                        "@id": "24428286",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Some mathematics and methods of solution for the analysis of common shapes, Part I: The mathematics"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027066642",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "56"},
+                                "pagerange": {
+                                    "@first": "63",
+                                    "@last": "75"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parbery",
+                                    "ce:indexed-name": "Parbery R.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fryer",
+                                    "ce:indexed-name": "Fryer J.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aust. J. Geod. Photogram. Surv."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Parbery, R. D. and Fryer, J. G., Some mathematics and methods of solution for the analysis of common shapes, Part II: Methods of solution. Aust. J. Geod. Photogram. Surv., No. 56, 1992, pp. 77-89.",
+                        "@id": "24428287",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Some mathematics and methods of solution for the analysis of common shapes, Part II: Methods of solution"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027038684",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "56"},
+                                "pagerange": {
+                                    "@first": "77",
+                                    "@last": "89"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "R.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parbery",
+                                    "ce:indexed-name": "Parbery R.D."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fryer",
+                                    "ce:indexed-name": "Fryer J.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aust. J. Geod. Photogram. Surv."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Potmesil, M., Generating models of solid objects by matching 3D surface segments. Proc. 8th International Joint Conference on Artificial Intelligence, Karlsruhe, 1983, pp. 1089-1093.",
+                        "@id": "24428288",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1983"},
+                            "ref-title": {"ref-titletext": "Generating models of solid objects by matching 3D surface segments"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0020938490",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {
+                                "@first": "1089",
+                                "@last": "1093"
+                            }},
+                            "ref-text": "Karlsruhe",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "M.",
+                                "@_fa": "true",
+                                "ce:surname": "Potmesil",
+                                "ce:indexed-name": "Potmesil M."
+                            }]},
+                            "ref-sourcetitle": "Proc. 8th International Joint Conference on Artificial Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Ritter, G. X., Wilson, J. N., and Davidson, J. L., Image algebra: an overview. Computer Vision, Graphics, and Image Processing, Vol. 49, 1990, pp. 297-331.",
+                        "@id": "24428289",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1990"},
+                            "ref-title": {"ref-titletext": "Image algebra: An overview"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0025573445",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "49"},
+                                "pagerange": {
+                                    "@first": "297",
+                                    "@last": "331"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "G.X.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ritter",
+                                    "ce:indexed-name": "Ritter G.X."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "J.N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Wilson",
+                                    "ce:indexed-name": "Wilson J.N."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.L.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Davidson",
+                                    "ce:indexed-name": "Davidson J.L."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision, Graphics, and Image Processing"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Robson, S., Parbery, R. D., and Fryer, J. G., Analysis of as-built cylindrical shapes. Aust. J. Geod. Photogram. Surv., No. 56, 1992, pp. 91-109.",
+                        "@id": "24428290",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1992"},
+                            "ref-title": {"ref-titletext": "Analysis of as-built cylindrical shapes"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0027100960",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@issue": "56"},
+                                "pagerange": {
+                                    "@first": "91",
+                                    "@last": "109"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "S.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Robson",
+                                    "ce:indexed-name": "Robson S."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.D.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Parbery",
+                                    "ce:indexed-name": "Parbery R.D."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "J.G.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fryer",
+                                    "ce:indexed-name": "Fryer J.G."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Aust. J. Geod. Photogram. Surv."
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Simon, D., Fast and Accurate Shape-Based Registration. Doctoral dissertation, tech. report CMU-RI-TR-96-45, Robotics Institute, Carnegie Mellon University, 1996, 196 p.",
+                        "@id": "24428291",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1996"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003580767",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagecount": {
+                                "$": "196",
+                                "@type": "arabic"
+                            }},
+                            "ref-text": "Doctoral dissertation, tech. report CMU-RI-TR-96-45, Robotics Institute, Carnegie Mellon University",
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "D.",
+                                "@_fa": "true",
+                                "ce:surname": "Simon",
+                                "ce:indexed-name": "Simon D."
+                            }]},
+                            "ref-sourcetitle": "Fast and Accurate Shape-Based Registration"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Simon, D. A., Hebert, M., and Kanade, T., Real-time 3-D pose estimation using a high-speed range sensor. Proc. 1994 IEEE International Conference on Robotics and Automation, Vol. 3, San Diego, 1994, pp. 2235-2240.",
+                        "@id": "24428292",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Real-time 3-D pose estimation using a high-speed range sensor"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028604708",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "3"},
+                                "pagerange": {
+                                    "@first": "2235",
+                                    "@last": "2240"
+                                }
+                            },
+                            "ref-text": "San Diego",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "D.A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Simon",
+                                    "ce:indexed-name": "Simon D.A."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hebert",
+                                    "ce:indexed-name": "Hebert M."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "T.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Kanade",
+                                    "ce:indexed-name": "Kanade T."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Proc. 1994 IEEE International Conference on Robotics and Automation"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Sonka, M., Hlavac, V., and Boyle, R., Image Processing, Analysis and Machine Vision. Chapman & Hall Computing, London, 1993, p. 377.",
+                        "@id": "24428293",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1993"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0003557270",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {"pagerange": {"@first": "377"}},
+                            "ref-text": "Chapman & Hall Computing, London",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "M.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Sonka",
+                                    "ce:indexed-name": "Sonka M."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "V.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Hlavac",
+                                    "ce:indexed-name": "Hlavac V."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Boyle",
+                                    "ce:indexed-name": "Boyle R."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Image Processing, Analysis and Machine Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Werghi, N., Fisher, R., Robertson, C., and Ashbrook, A., Modelling objects having quadric surfaces incorporating geometric constraints. Computer Vision - ECCV'98 5th European Conference on Computer Vision, Vol. 2, Eds. H. Burkhardt and B. Neumann, Freiburg, 1998, pp. 185-201.",
+                        "@id": "24428294",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1998"},
+                            "ref-title": {"ref-titletext": "Modelling objects having quadric surfaces incorporating geometric constraints"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "84957804801",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {"@volume": "2"},
+                                "pagerange": {
+                                    "@first": "185",
+                                    "@last": "201"
+                                }
+                            },
+                            "ref-text": "Eds. H. Burkhardt and B. Neumann, Freiburg",
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "N.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Werghi",
+                                    "ce:indexed-name": "Werghi N."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "R.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Fisher",
+                                    "ce:indexed-name": "Fisher R."
+                                },
+                                {
+                                    "@seq": "3",
+                                    "ce:initials": "C.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Robertson",
+                                    "ce:indexed-name": "Robertson C."
+                                },
+                                {
+                                    "@seq": "4",
+                                    "ce:initials": "A.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ashbrook",
+                                    "ce:indexed-name": "Ashbrook A."
+                                }
+                            ]},
+                            "ref-sourcetitle": "Computer Vision - ECCV'98 5th European Conference on Computer Vision"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Whaite, P. and Ferrie, F. P., Autonomous exploration: driven by uncertainty. IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 19, No. 3, 1997, pp. 193-205.",
+                        "@id": "24428295",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1997"},
+                            "ref-title": {"ref-titletext": "Autonomous exploration: Driven by uncertainty"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0031095116",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "19",
+                                    "@issue": "3"
+                                },
+                                "pagerange": {
+                                    "@first": "193",
+                                    "@last": "205"
+                                }
+                            },
+                            "ref-authors": {"author": [
+                                {
+                                    "@seq": "1",
+                                    "ce:initials": "P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Whaite",
+                                    "ce:indexed-name": "Whaite P."
+                                },
+                                {
+                                    "@seq": "2",
+                                    "ce:initials": "F.P.",
+                                    "@_fa": "true",
+                                    "ce:surname": "Ferrie",
+                                    "ce:indexed-name": "Ferrie F.P."
+                                }
+                            ]},
+                            "ref-sourcetitle": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+                        }
+                    },
+                    {
+                        "ref-fulltext": "Zhang, Z., Iterative point matching for registration of free-form curves and surfaces. International Journal of Computer Vision, Vol. 13, No. 2, 1994, pp. 119-152.",
+                        "@id": "24428296",
+                        "ref-info": {
+                            "ref-publicationyear": {"@first": "1994"},
+                            "ref-title": {"ref-titletext": "Iterative point matching for registration of free-form curves and surfaces"},
+                            "refd-itemidlist": {"itemid": {
+                                "$": "0028515989",
+                                "@idtype": "SGR"
+                            }},
+                            "ref-volisspag": {
+                                "voliss": {
+                                    "@volume": "13",
+                                    "@issue": "2"
+                                },
+                                "pagerange": {
+                                    "@first": "119",
+                                    "@last": "152"
+                                }
+                            },
+                            "ref-authors": {"author": [{
+                                "@seq": "1",
+                                "ce:initials": "Z.",
+                                "@_fa": "true",
+                                "ce:surname": "Zhang",
+                                "ce:indexed-name": "Zhang Z."
+                            }]},
+                            "ref-sourcetitle": "International Journal of Computer Vision"
+                        }
+                    }
+                ]
+            }}
+        }
+    },
+    "affiliation": {
+        "affiliation-city": "Espoo",
+        "@id": "60103653",
+        "affilname": "Aalto University",
+        "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103653",
+        "affiliation-country": "Finland"
+    },
+    "coredata": {
+        "srctype": "j",
+        "prism:issueIdentifier": "104",
+        "eid": "2-s2.0-27844522026",
+        "dc:description": "The thesis presents new methods for the matching and modeling of multiple 3-D data sets obtained from stereo or acquired by light striping. The concept of a profile map is introduced for the data acquired by light striping so that disparity maps and laser scanned data can be processed consistently as real valued images on parametric domains. An iterative parametric point (IPP) algorithm is proposed for the simultaneous registration of multiple maps acquired from different viewpoints without known corresponding points when an initial registration is available. At each iteration, the corresponding points are determined directly on the parametric domains and the registration parameters are updated so that the mean of the squares of weighted distances between compatible corresponding points is minimized. Adaptive weighting is applied to the direction of the surface normal and to the distance between corresponding points, and the precision of the measuring is also incorporated into the weighting images. Edge areas are given less weight and the interpolation errors are leveled out in smooth areas for higher accuracy. The maps are registered hierarchically from low to high resolution for better convergence and shorter computing time. The IPP algorithm is developed further for refining the calibration of the light striping system. The calibration includes a projective transformation between the image plane of the camera and the plane of the laser sheet, and the direction of the scanning with respect to the plane of the laser sheet. The proposed method is based on matching multiple profile maps registered previously according to an approximate calibration. The registration and calibration parameters can be refined simultaneously, but this requires a close initial estimate and rather complex object geometry. It is also possible to adjust several calibrations at the same time if the registration is known exactly. The modeling of multiple registered maps includes techniques for merging compatible overlapping planar patches of different maps and tracing the borders of the merged patches on multiple domains. A technique is developed for the initial estimation of the parameters of a cylinder based on the cross product of non-parallel surface normals and on the intersection of a fan of planes. The propagation of measurement and calibration errors to the registration parameters and to the modeled maps is analyzed carefully for two combined registration and modeling strategies when the object consists of planar patches. In the first strategy, the maps are registered simultaneously and the model computed afterwards while in the second one, the maps are registered sequentially against the model reconstructed up till then. The analysis is performed for various distance images that can be used in the registration including the Levenberg-Marquardt method and the method of unit quaternions to update the registration parameters. The algorithms are formulated using image algebra and implemented efficiently using MATLAB software. Thorough testing with synthetic and real maps demonstrates the performance of the matching and modeling algorithms and illustrates the precision given by the two strategies. A comparison proves the superiority of the IPP algorithm to the iterative closest point algorithm as regards the accuracy, pull-in range, and computing time needed to update the corresponding points.",
+        "prism:coverDate": "2000-12-01",
+        "prism:aggregationType": "Journal",
+        "prism:url": "https://api.elsevier.com/content/abstract/scopus_id/27844522026",
+        "subtypeDescription": "Article",
+        "dc:creator": {"author": [{
+            "ce:given-name": "Olli",
+            "preferred-name": {
+                "ce:given-name": "Olli",
+                "ce:initials": "O.",
+                "ce:surname": "Jokinen",
+                "ce:indexed-name": "Jokinen O."
+            },
+            "@seq": "1",
+            "ce:initials": "O.",
+            "@_fa": "true",
+            "affiliation": {
+                "@id": "60103653",
+                "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103653"
+            },
+            "ce:surname": "Jokinen",
+            "@auid": "6603028652",
+            "author-url": "https://api.elsevier.com/content/author/author_id/6603028652",
+            "ce:indexed-name": "Jokinen O."
+        }]},
+        "link": [
+            {
+                "@_fa": "true",
+                "@rel": "self",
+                "@href": "https://api.elsevier.com/content/abstract/scopus_id/27844522026"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus",
+                "@href": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=27844522026&origin=inward"
+            },
+            {
+                "@_fa": "true",
+                "@rel": "scopus-citedby",
+                "@href": "https://www.scopus.com/inward/citedby.uri?partnerID=HzOxMe3b&scp=27844522026&origin=inward"
+            }
+        ],
+        "prism:publicationName": "Acta Polytechnica Scandinavica Mathematics and Computing Series",
+        "source-id": "18085",
+        "citedby-count": "1",
+        "subtype": "ar",
+        "dc:title": "Matching and modeling of multiple 3-D disparity and profile maps",
+        "openaccess": null,
+        "openaccessFlag": null,
+        "prism:issn": "14569418",
+        "dc:identifier": "SCOPUS_ID:27844522026"
+    },
+    "idxterms": null,
+    "language": {"@xml:lang": "eng"},
+    "authkeywords": {"author-keyword": [
+        {
+            "@_fa": "true",
+            "$": "3-D maps"
+        },
+        {
+            "@_fa": "true",
+            "$": "Border tracing"
+        },
+        {
+            "@_fa": "true",
+            "$": "Error propagation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Image algebra"
+        },
+        {
+            "@_fa": "true",
+            "$": "Light striping"
+        },
+        {
+            "@_fa": "true",
+            "$": "Quadric fitting"
+        },
+        {
+            "@_fa": "true",
+            "$": "Registration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Segmentation"
+        },
+        {
+            "@_fa": "true",
+            "$": "Self-calibration"
+        },
+        {
+            "@_fa": "true",
+            "$": "Stereo vision"
+        }
+    ]},
+    "subject-areas": {"subject-area": [
+        {
+            "@_fa": "true",
+            "$": "Hardware and Architecture",
+            "@code": "1708",
+            "@abbrev": "COMP"
+        },
+        {
+            "@_fa": "true",
+            "$": "Industrial and Manufacturing Engineering",
+            "@code": "2209",
+            "@abbrev": "ENGI"
+        },
+        {
+            "@_fa": "true",
+            "$": "Applied Mathematics",
+            "@code": "2604",
+            "@abbrev": "MATH"
+        }
+    ]},
+    "authors": {"author": [{
+        "ce:given-name": "Olli",
+        "preferred-name": {
+            "ce:given-name": "Olli",
+            "ce:initials": "O.",
+            "ce:surname": "Jokinen",
+            "ce:indexed-name": "Jokinen O."
+        },
+        "@seq": "1",
+        "ce:initials": "O.",
+        "@_fa": "true",
+        "affiliation": {
+            "@id": "60103653",
+            "@href": "https://api.elsevier.com/content/affiliation/affiliation_id/60103653"
+        },
+        "ce:surname": "Jokinen",
+        "@auid": "6603028652",
+        "author-url": "https://api.elsevier.com/content/author/author_id/6603028652",
+        "ce:indexed-name": "Jokinen O."
+    }]}
+}}
